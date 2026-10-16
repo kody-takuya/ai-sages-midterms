@@ -175,7 +175,7 @@
 
     const W = Math.max(280, el.clientWidth), narrow = W < 420;
     const H = narrow ? 240 : 280;
-    const M = { t: 14, r: narrow ? 52 : 64, b: 26, l: 36 };
+    const M = { t: 14, r: narrow ? 70 : 92, b: 26, l: 36 };
     const pw = W - M.l - M.r, ph = H - M.t - M.b;
     const maj = MAJORITY[ch];
     const vals = models.flatMap((m) => m.series.map((p) => p[ch].dem)).concat([maj]);
