@@ -1,0 +1,246 @@
+[
+  {
+    "date": "2026-10-16",
+    "generated_at": "2026-10-16T16:50:21+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 226,
+      "rep": 209
+    },
+    "senate_control_prob_dem": 61,
+    "house_control_prob_dem": 91,
+    "comment": "与党逆風。上院51、下院226だが、カンザスとメインが分岐点",
+    "change_reason": "初日のため新規設定。全国世論、レーティング、予測市場を統合し、民主が両院で優勢だが上院は接戦と見た基準値。",
+    "analysis": "初日基準。環境は民主有利。一般投票意向は全国平均で民主+8前後、大統領支持率は30%台半ばまで低下し、与党にとって厳しい中間選挙構造が固まりつつある。政府閉鎖をめぐる責任論も共和側にやや重く、無党派の投票意向にも影響している。上院は地図が民主に厳しく、必要な純増4は容易でないが、ノースカロライナ、アラスカ、ミシガン、オハイオ特別選挙で民主系が競り合い、メインも接戦。一方、ミネソタやカンザスで共和側の粘りがあり、予断を許さない。中央値は51-49とする。下院は全国的な逆風と選挙区の分布から民主が有利。クックやサバトのレーティングは民主優勢の範囲が広がっており、共和の大型広告も現時点で流れを変えるほどではない。ただし世論調査のバイアスや投票率低下、終盤のスキャンダル次第で220前後まで縮む余地はある。明日はメイン、アイオワ、カンザス、ミネソタの新規調査と早期投票データを確認。予測市場の急変と広告予約も重視。",
+    "key_news": [
+      {
+        "title": "政府閉鎖が続き、与党共和への不満が無党派層で強まっているとの報道",
+        "source": "AP",
+        "url": "https://apnews.com/hub/us-politics",
+        "impact": "D+"
+      },
+      {
+        "title": "全国世論調査で民主党が下院の一般投票意向で優勢と伝達",
+        "source": "Reuters",
+        "url": "https://www.reuters.com/world/us/",
+        "impact": "D+"
+      },
+      {
+        "title": "大統領支持率が低下し、中間選挙で共和党候補が苦戦する可能性を指摘",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/politics",
+        "impact": "D+"
+      },
+      {
+        "title": "共和党系組織がカンザスやアイオワなど守勢区への広告支出を強化",
+        "source": "Politico",
+        "url": "https://www.politico.com/news/congress",
+        "impact": "R+"
+      },
+      {
+        "title": "下院選のレーティングで民主党優位の選挙区が拡大したとの分析",
+        "source": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/",
+        "impact": "D+"
+      },
+      {
+        "title": "ミネソタ上院選で共和党候補が食らい、接戦化の兆し",
+        "source": "Washington Examiner",
+        "url": "https://www.washingtonexaminer.com/politics",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+        "title": "2026 CPR Senate Race ratings | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/print/ratings/races/senate",
+        "title": "2026 Senate Race Ratings"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-majority-squarely-democrats-sights-kansas-moves-toss-two",
+        "title": "A Senate Majority is Squarely in Democrats’ Sights as Kansas Moves to Toss Up; Two Other Races Shift Left | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/video-analysis/first-person/jessica-taylor-why-we-moved-kansas-senate-toss",
+        "title": "Jessica Taylor: Why We Moved Kansas Senate to Toss Up | Cook Political Report"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/06/three-senate-races-shift-toward-democrats-cook-ratings/",
+        "title": "Three Senate races shift toward Democrats in Cook ratings - The Washington Post"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings",
+        "title": "CPR Race Ratings | Cook Political Report"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/10_14_senate/",
+        "title": "Five Senate Rating Changes as Close Battle for Majority Control Rages - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/",
+        "title": "2026 Senate - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://www.pollingforecast.com/us/senate",
+        "title": "2026 Senate forecast: every race | Polling Forecast"
+      },
+      {
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-senate-model",
+        "title": "FLIPR 2026 Senate forecast"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://www.pollsmax.com/senate/",
+        "title": "2026 Senate Forecast | Interactive Map & Election Odds"
+      },
+      {
+        "url": "https://99chambers.app/",
+        "title": "2026 midterm forecast · 99chambers"
+      },
+      {
+        "url": "https://www.poliwave.com/us/fed/polls?lang=",
+        "title": "2026 Midterm Polls: Generic Ballot and Senate Races | Poliwave"
+      },
+      {
+        "url": "https://elections2026.thehill.com/polls/generic-ballot/national/lv-rv-adults/",
+        "title": "Generic Congressional Ballot - The Hill and DDHQ"
+      },
+      {
+        "url": "https://www.activote.net/polls/generic-ballot/",
+        "title": "Democratic Lead Climbs to New Cycle High in Generic Ballot"
+      },
+      {
+        "url": "https://ballotpedia.org/Ballotpedia%27s_Polling_Index:_Generic_congressional_vote",
+        "title": "Ballotpedia's Polling Index: Generic congressional vote"
+      },
+      {
+        "url": "https://vote-scope.com/en/us/house/polls/",
+        "title": "Generic Ballot — U.S. House — Vote-Scope"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/congressional-vote-2026.html",
+        "title": "The Race for Congress: Latest 2026 Polls"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/house-control-polls",
+        "title": "Congress Majority Polls 2026: Tracking Senate and House Ballot Preferences"
+      },
+      {
+        "url": "https://pollingsource.com/polls/generic-ballot",
+        "title": "Generic Congressional Ballot 2026 — Polling Average | PollingSource"
+      },
+      {
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "title": "Generic Congressional Ballot: Latest Polls | Silver Bulletin"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/2026-rating-changes/",
+        "title": "2026 Rating Changes - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/four-rating-changes-headlined-by-alaska-senate-moving-to-leans-democratic/",
+        "title": "Four Rating Changes, Headlined by Alaska Senate Moving to Leans Democratic - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6148782-kansas-senate-race-tossup/",
+        "title": "Sabato's Crystal Ball shifts Kansas Senate race to toss-up"
+      },
+      {
+        "url": "https://www.270towin.com/2026-senate-election/sabatos-crystal-ball-senate-2026",
+        "title": "Sabato's Crystal Ball 2026 Senate Race Ratings - 270toWin"
+      },
+      {
+        "url": "https://www.rasmussenreports.com/public_content/political_commentary/commentary_by_j_miles_coleman/five_senate_rating_changes_as_close_battle_for_majority_control_rages",
+        "title": "Five Senate Rating Changes as Close Battle for Majority Control Rages - Rasmussen Reports®"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/category/2026-senate/",
+        "title": "2026 Senate Archives - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eighteen-more-house-race-ratings-move-democrats-favor",
+        "title": "Eighteen More House Race Ratings Move in Democrats’ Favor | Cook Political Report"
+      },
+      {
+        "url": "https://thecookpoliticalreport.substack.com/p/18-more-house-races-move-towards",
+        "title": "18 More House Races Move Towards Democrats"
+      },
+      {
+        "url": "https://www.cookpolitical.com/",
+        "title": "Cook Political Report | Non-Partisan Political Analysis for US ..."
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6138736-cook-political-report-shifts-house/",
+        "title": "Cook Political Report moves 18 House seats toward ..."
+      },
+      {
+        "url": "https://www.270towin.com/2026-house-election/cook-political-report-2026-house-ratings",
+        "title": "Cook Political Report 2026 House Ratings - 270toWin"
+      },
+      {
+        "url": "https://www.newsweek.com/donald-trump-warning-sign-midterm-elections-18-races-shift-democrats-cook-political-report-12546449",
+        "title": "Forecast Moves 18 Races Towards Democrats Weeks ..."
+      },
+      {
+        "url": "https://www.270towin.com/2026-house-election/table/cook-political-report-2026-house-ratings/",
+        "title": "Cook Political Report 2026 House Ratings"
+      },
+      {
+        "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+        "title": "Trump Approval Rating: Latest Polls"
+      },
+      {
+        "url": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fox_october-9-12-2026_complete_national_topline_october-14-release.pdf",
+        "title": "Fox October 2026 - National - October 14 Release"
+      },
+      {
+        "url": "https://data.ddhq.io/polls/2026/10/15/AP-NORC-National",
+        "title": "The October 2026 AP-NORC Center Poll Conducted by The Associated Press-NORC Center for Public Affairs Research With funding from The Associated Press and NORC at the University of Chicago"
+      },
+      {
+        "url": "https://www.app.com/story/news/nation/2026/10/15/trump-approval-rating-oct-15-2026/92260626007/",
+        "title": "Donald Trump's approval rating as of today; Trump approval rating now"
+      },
+      {
+        "url": "https://apnews.com/article/trump-inflation-economy-democrats-zacharia-ukraine-18131f88e983086649e6bf9928cb50f5",
+        "title": "The Latest: AP-NORC poll: Strong majority of voters believes Trump is failing at home and abroad"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/15/trump-approval-new-low-fox-news-poll-midterms/92265853007/",
+        "title": "Trump approval hits new low in Fox News poll"
+      },
+      {
+        "url": "https://links.morningconsult.com/s/vb/FuWPkeeFhUfSwSDKs6yqxO-8_J5ggtnRucKP5vqLG9Ajf4Zt3Z3Zam-weQ9AI1GjdSwnJawzoU1FtZltqM8B1Egc5k1_YuBTwibppnwhEWkc-UCBjLOuF_8PkK71hHIgRNniKWwyyhdir9VP1803fg8tMTO3FEjgyJd-HA/FMh6qLLGVC0pnUDIqBBm6KvDjVh8Mb5u/25",
+        "title": ""
+      },
+      {
+        "url": "https://www.axios.com/2026/10/15/americas-wits-end-election-approaches",
+        "title": "Americans are at their wits' end as the midterm election approaches"
+      },
+      {
+        "url": "https://kalshi.com/markets/controls/senate-winner/controls-2026",
+        "title": "Which party will win the U.S. Senate?"
+      },
+      {
+        "url": "https://vantagepredictions.com/news/senate-races-2026/",
+        "title": "Senate Races 2026: What Prediction Markets Price"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1802
+  }
+]
