@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T16:55:57+09:00",
+  "updated_at": "2026-10-16T16:56:36+09:00",
   "election_day": "2026-11-03",
   "seats": {
     "senate": 100,
@@ -82,7 +82,32 @@
             "impact": "neutral"
           }
         ],
-        "citations": [],
+        "citations": [
+          {
+            "url": "https://apnorc.org/projects/ahead-of-the-midterms-most-voters-cite-the-economy-and-cost-of-living-as-top-issues-and-favor-political-change/",
+            "title": "15日公表のAP・NORC調査、下院の民主支配希望47％、共和38％。生活費への不満が共和党の逆風"
+          },
+          {
+            "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-october-2026/",
+            "title": "15日公表のアイオワ上院調査、投票見込み層で民主48％・共和45％。誤差は±6.6ポイント"
+          },
+          {
+            "url": "https://insideelections.com/",
+            "title": "15日、テキサス上院を接戦評価へ、PA07・PA08を民主わずかに優勢へ変更"
+          },
+          {
+            "url": "https://www.washingtonpost.com/politics/2026/10/15/midterms-map-is-shifting-republicans-triage-one-time-battlegrounds/",
+            "title": "共和系団体が一部接戦区の広告費を撤収し、別の防衛先へ再配分"
+          },
+          {
+            "url": "https://www.axios.com/local/austin/2026/10/15/talarico-fundraising-record-third-quarter-election",
+            "title": "テキサス上院のタラリコ陣営、第３四半期に6400万ドルを調達したと発表"
+          },
+          {
+            "url": "https://www.nationalreview.com/the-morning-jolt/have-republicans-earned-a-midterm-win/",
+            "title": "保守誌もテキサス・ネブラスカ上院で共和党の防衛費膨張を指摘。論評として補助材料に限定"
+          }
+        ],
         "searches": null
       }
     },
@@ -233,89 +258,89 @@
           {
             "title": "AP-NORC世論調査で有権者の8割が「大幅な変化」を要求、一般投票で民主党が9ポイント先行し投票意欲でも優位に",
             "source": "AP / PBS News",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqiCSvB8xVCc2pUEghWVZmm0ALL9EZnyHDjH4niTZG4yg26byUq6dLCNSs8l91QapTZccAVIhdbkEZL4KffAFEV1YKLtdFzOjb0W427L53z9y_K0ahZxSqajDkVvQz3WRtyp86AagY1XiD6l-ZDcV9Jz1pL_V2gx0f1Z45bfBawk7v3gO-y1TY5ioqzuk_AwgHeWcGjnTf5pk-rMhuqFU8aGKVonofB7G5H8w=",
+            "url": "https://www.pbs.org/newshour/politics/frustrated-with-trump-voters-overwhelmingly-want-change-ap-norc-poll-finds",
             "impact": "D+"
           },
           {
             "title": "アイオワ州上院選で民主党トゥレク氏が48%対45%でリード、テキサス州でもタラリコ氏が47%対45%と接戦を先行（Marist調査）",
             "source": "Forbes / Marist Poll",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES1wGtqnEAR4z2_9QeV15AqGW2nz7gnZ_HWmnwmIEk-HX7IqXVPKgJUe86-fQPNIx_TDZyyl7dwHbvUlxNxXlgTInkQzuA7Evv9yxOGvJ_CvP28-nOuSBjRiAvEan5q3FtWqY59s16PzjfDPO-3M5_iFVnWAQFfew826CMu8W8xCcs2FEfYO6GAcBOWbCHvjK8r8_YtWzQtYjXphn31_AimKIYJAlRd4vX5gmnkc8wdSXFqoJ9rtnQI6S2z9RZJuzWo4iH",
+            "url": "https://www.forbes.com/sites/saradorn/2026/10/15/hottest-2026-midterm-races-democrats-lead-in-iowa-minnesota-in-new-polls-updated-daily/",
             "impact": "D+"
           },
           {
             "title": "Inside Electionsが最新予測を更新、上院で民主党3〜5議席増・下院で10〜20議席増を見込む",
             "source": "Inside Elections",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpmT_VxVBKuoguoYvzkk9MPQax005iJCDoaeYGAcYZNOeSlvBfaabuX7sCSKGbJk8rk8PSaKOLicue3JStMn4MWmMnGHGewoVjZ9hJkmM5bUJJGgIXU_kssXxKx_lhSdz3ocS-TE4=",
+            "url": "https://insideelections.com/ratings/senate/",
             "impact": "D+"
           },
           {
             "title": "メイン州上院選の最終討論会で現職コリンズ議員と民主党ジャクソン氏が激突、抗議者の乱入で一時騒然に",
             "source": "Fox News",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3XDIcV2xkT97VYfnpJ58GYB_STvv_XLlXE5LgO0MkV2bhx6B76JItEd_s_N79HkYvrujhaPkxj1E2Flc_8ZTMMoNS8x1HCt_gAQbRePCPnRYiLgAkjHzsythpSWUKdvDeuMs8jDaBaYncCOUBirvZ-XCTUQ52g_RIMJOL7OVGS2K7NVtALNrJig6szOUQ",
+            "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-democrats-october-15",
             "impact": "neutral"
           },
           {
             "title": "選挙前最終のFEC資金報告期限を前に共和党系団体が資金力で優位維持、テキサス州パクストン陣営の防衛に1億ドル超を投入",
             "source": "Washington Examiner",
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_aTghu48cohu35ShAXmLPAHlbjFyjmIUDnUcWD28W6Tzxjqv4soS50QG9NCJfUHl0rAKKfTLNzqTT18I_1IlFwoL5w07BWJfDamqRmTglEMABmc3jECKGXUZxTf8eb3Mar3CHGDus6OQD7-GbAWYa6NpkLvCX3v510QS-nOSRDZfpjOw4923XMV-aQPiheLmjOOqOYmNV3Lvg4yO3Itap10RyA8ma",
+            "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4766870/final-fundraising-quarter-midterms/",
             "impact": "R+"
           }
         ],
         "citations": [
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKApaN3m4fnSjmz_geBZ5tacm7KRlIeyCzYbuOsIaBEXAGa2sY6u20XRZRYccPqgN5PPP1CrN1wFkJxEoN69UFlXOsNQ3yhFuOXKMC8S1zy179mBd2ADYqeY5X0Niq6HcTssRe6dZ_m_gEaT3f9cN2mtkiHetjIdng",
+            "url": "https://votes.decisiondeskhq.com/polls/generic-ballot/national",
             "title": "decisiondeskhq.com"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES1wGtqnEAR4z2_9QeV15AqGW2nz7gnZ_HWmnwmIEk-HX7IqXVPKgJUe86-fQPNIx_TDZyyl7dwHbvUlxNxXlgTInkQzuA7Evv9yxOGvJ_CvP28-nOuSBjRiAvEan5q3FtWqY59s16PzjfDPO-3M5_iFVnWAQFfew826CMu8W8xCcs2FEfYO6GAcBOWbCHvjK8r8_YtWzQtYjXphn31_AimKIYJAlRd4vX5gmnkc8wdSXFqoJ9rtnQI6S2z9RZJuzWo4iH",
+            "url": "https://www.forbes.com/sites/saradorn/2026/10/15/hottest-2026-midterm-races-democrats-lead-in-iowa-minnesota-in-new-polls-updated-daily/",
             "title": "forbes.com"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQy7dDlT9VXejU6ykOU5VacPOudJ6JBphctbXlm8PwD2mxA1A775AIylBpFeeKJZ6WCCJmQqDNf6W6ZgheoMAokAGB8i8aIMDCc-QyzZFkMBmZXV6pcKKl6alktzm79A==",
+            "url": "https://insideelections.com/ratings/",
             "title": "insideelections.com"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-qwBP2WxA0sEwhiw0diPmTh-tiW_wPYADDrBBzmGu5VSCYWSSSyZTsAAH-cn4GV80N017_F0wxtvvTTz-NYihfoVQOT-nfCRuA9Xl1BTeigCyg0bgsRseW4IE0vjfHnP9DfQt1nGDgABYTEJEEGzclCien9Y=",
+            "url": "https://www.britannica.com/event/2026-US-midterm-elections",
             "title": "britannica.com"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV4S1e7qWjgYcmGBkLK7hWCvjpci2V6OkPErRkC5nr8Jj7bmWsQd-4uM7mzY9ZJtvElor00FqYtiZh95Raoe_ZLiaDBKn6LH2kiEjTFhpqpDH2H0svjQdZxy7qzSu_a2bHBivSAkGme2oyY85JyeY1x_lns2RbFxzJmjxEE4zdnkHw9mA_0Fksw_PDXsyUSpRz8gPpruNld5QGwuzW6fcWdgKKuLxKPtWIlUU0OrEKQDvEPZL-GsHjvpZX3WX34S1cWy0d",
+            "url": "https://www.forbes.com/sites/saradorn/2026/10/15/hottest-2026-midterm-races-democrats-lead-in-iowa-minnesota-in-new-polls-updated-daily/",
             "title": "forbes.com"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFccmO4d7wbdwxTpgwqpTdW_pcF3EIBmmcUQ4QnqqT4VsUgJTUPvpxfPbfbwCMghrRhvjxHhft1g1s3lmk9k3KDr8gK532MBfeOz4wEQdzTnHN09OZfhQKOHfje19xC0SXFfWqmh0H5k8vsaTYffsIQSDJwGtBll7l7rdp7ZR98a8yZFgM0jwDrfZM2Yf2NeENATyZ2hFcYQME=",
+            "url": "https://gvwire.com/2026/10/15/higher-energy-prices-lift-us-inflation-before-midterm-elections/",
             "title": "gvwire.com"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaKHReWGfFRquVZS4JdlnxewVp-50QY7yQDnAmJCBEbRq7JkUD9BlpOjlyyfpJFk3O51Z1R6smf55X5zDuCTT-m01nQr5yGdadUIiRm1vZeAC-DrxG-oJeR3QfWH6yXuzWgA3t5N4ktBnU1nXTNJqqasYadR62MKy62o_Zf6KElGk06qc8ceYIbSW31iuZt1PteLGroYXbuDTNRBSnGgevdOiClbX1U1AU2oc=",
+            "url": "https://www.pbs.org/newshour/politics/frustrated-with-trump-voters-overwhelmingly-want-change-ap-norc-poll-finds",
             "title": "pbs.org"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDaf7IlGl2jImaHO9saIz8qvbHSn1pMvY083f8aAojVW0sV5byKIxQSEwHp-cT5YJ7Deqy-pQRAv-KPohfCLJvEDnKBmMqxZpLhKbJQlne2L8i6EDJSKfnDDpRg35pVqIY98T0cf2T-OstD9cJqxRPeGpmkr88kU8YRSaoAkX87Dzl3N3Xv3U8QJ4=",
+            "url": "https://www.270towin.com/2026-senate-election/cook-political-report-2026-senate",
             "title": "270towin.com"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpmT_VxVBKuoguoYvzkk9MPQax005iJCDoaeYGAcYZNOeSlvBfaabuX7sCSKGbJk8rk8PSaKOLicue3JStMn4MWmMnGHGewoVjZ9hJkmM5bUJJGgIXU_kssXxKx_lhSdz3ocS-TE4=",
+            "url": "https://insideelections.com/ratings/senate/",
             "title": "insideelections.com"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_aTghu48cohu35ShAXmLPAHlbjFyjmIUDnUcWD28W6Tzxjqv4soS50QG9NCJfUHl0rAKKfTLNzqTT18I_1IlFwoL5w07BWJfDamqRmTglEMABmc3jECKGXUZxTf8eb3Mar3CHGDus6OQD7-GbAWYa6NpkLvCX3v510QS-nOSRDZfpjOw4923XMV-aQPiheLmjOOqOYmNV3Lvg4yO3Itap10RyA8ma",
+            "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4766870/final-fundraising-quarter-midterms/",
             "title": "washingtonexaminer.com"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETn8SjMp1bhqSCgpRrad70NgLI_jKI2V6DWLsMMv9g-sUpAlKF3VSgudR2AUGOq23tQUXBphDGvLWTpQ4ecfWpxx6au4KVuGFspLpqcklz2fzgu6eK6kTkuY8q2PAflTCSDVWc45zck1KwoE1uEgsk3mvjndM4Gco32NwAWN0_wQ==",
+            "url": "https://www.nationalreview.com/2026/10/the-senate-is-breaking-closer/",
             "title": "nationalreview.com"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0sUasfYHGWI202hhTKk-6JnccC6D6iEw_48vmAemDMjxV0CTYf8A_yGI_KnIs52s8gOm8TLYHlO5bQ8npOGsgb-zfYBTeLQCsY4-GncEnBC01-S78GAAlijlfpXNmefPjUJN2LMZjw5XNaDLM9ucJVOw_kqKcb8WChIQTHmiGPaoRCnLDbv_AvrWMi_Oofdpua9hxHDt3F6lK0b7zDE0Juj3yv7oexP9UZQLQKfyzLXHCWHd-U-jr_r7chAToG3Z9Citi8as=",
+            "url": "https://www.wcnc.com/article/news/politics/elections/early-voting-in-north-carolina-midterms-2026/275-2aaa63e7-a405-481c-a1fa-cc207297baca",
             "title": "wcnc.com"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGJkClwAuHbV3L4HuHyV4b0TRo1I3PfVFIxDcaTXgYiJzHXhPUF7ZpObB3Dmxf6rw4sg-amrdPHHukdIrF6nwG-2L5MBNbdqFsbtwi_xAigqF3AZ0oxC10aXwJugudruzerqYdX_csnusX2PxYycQHvoGVkT4VETdGBf3vV-oYKgb-0mxRqLAVwr_GeH6ExL0UmFU-4Rc7TwSIqzKc6VrogpwO",
+            "url": "https://www.reddit.com/r/fivethirtyeight/comments/1x6ldwg/generic_ballot_oct_8_12_2026_democrat_d_47_90/",
             "title": "reddit.com"
           },
           {
-            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3XDIcV2xkT97VYfnpJ58GYB_STvv_XLlXE5LgO0MkV2bhx6B76JItEd_s_N79HkYvrujhaPkxj1E2Flc_8ZTMMoNS8x1HCt_gAQbRePCPnRYiLgAkjHzsythpSWUKdvDeuMs8jDaBaYncCOUBirvZ-XCTUQ52g_RIMJOL7OVGS2K7NVtALNrJig6szOUQ",
+            "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-democrats-october-15",
             "title": "foxnews.com"
           }
         ],

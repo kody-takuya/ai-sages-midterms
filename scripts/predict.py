@@ -194,6 +194,31 @@ def collect_citations(message: dict) -> list[dict]:
     return out
 
 
+def resolve_url(url: str) -> str:
+    """Gemini's grounding links are short-lived Google redirects; store the real article URL instead."""
+    if "vertexaisearch.cloud.google.com" not in (url or ""):
+        return url
+    try:
+        req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            return r.geturl()
+    except urllib.error.HTTPError as e:
+        return e.geturl() if e.geturl() and "vertexaisearch" not in e.geturl() else url
+    except Exception:
+        return url
+
+
+def tidy_sources(key_news: list, citations: list[dict]) -> tuple[list, list[dict]]:
+    key_news = [n for n in key_news if isinstance(n, dict)]
+    for n in key_news:
+        n["url"] = resolve_url(str(n.get("url", "")))
+    for c in citations:
+        c["url"] = resolve_url(c["url"])
+    if not citations:  # some native search backends return no annotations; fall back to the cited news
+        citations = [{"url": n["url"], "title": n.get("title", "")} for n in key_news if n.get("url")]
+    return key_news, citations
+
+
 def run_model(model: dict, key: str, today: str, now: dt.datetime, effort: str) -> dict:
     history = load_history(model["slug"])
     messages = build_messages(history, today, now)
@@ -232,6 +257,7 @@ def run_model(model: dict, key: str, today: str, now: dt.datetime, effort: str) 
     if err:
         raise RuntimeError(f"{model['name']}: invalid output after retries: {err}")
 
+    key_news, citations = tidy_sources(data.get("key_news") or [], citations)
     entry = {
         "date": today,
         "generated_at": now.astimezone(JST).isoformat(timespec="seconds"),
@@ -243,7 +269,7 @@ def run_model(model: dict, key: str, today: str, now: dt.datetime, effort: str) 
         "comment": str(data["comment"]).strip(),
         "change_reason": str(data.get("change_reason", "")).strip(),
         "analysis": str(data["analysis"]).strip(),
-        "key_news": data.get("key_news") or [],
+        "key_news": key_news,
         "citations": citations,
         "searches": searches,
         "cost_usd": round(cost, 4),

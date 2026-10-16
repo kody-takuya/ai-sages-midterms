@@ -54,7 +54,32 @@
         "impact": "neutral"
       }
     ],
-    "citations": [],
+    "citations": [
+      {
+        "url": "https://apnorc.org/projects/ahead-of-the-midterms-most-voters-cite-the-economy-and-cost-of-living-as-top-issues-and-favor-political-change/",
+        "title": "15日公表のAP・NORC調査、下院の民主支配希望47％、共和38％。生活費への不満が共和党の逆風"
+      },
+      {
+        "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-october-2026/",
+        "title": "15日公表のアイオワ上院調査、投票見込み層で民主48％・共和45％。誤差は±6.6ポイント"
+      },
+      {
+        "url": "https://insideelections.com/",
+        "title": "15日、テキサス上院を接戦評価へ、PA07・PA08を民主わずかに優勢へ変更"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/15/midterms-map-is-shifting-republicans-triage-one-time-battlegrounds/",
+        "title": "共和系団体が一部接戦区の広告費を撤収し、別の防衛先へ再配分"
+      },
+      {
+        "url": "https://www.axios.com/local/austin/2026/10/15/talarico-fundraising-record-third-quarter-election",
+        "title": "テキサス上院のタラリコ陣営、第３四半期に6400万ドルを調達したと発表"
+      },
+      {
+        "url": "https://www.nationalreview.com/the-morning-jolt/have-republicans-earned-a-midterm-win/",
+        "title": "保守誌もテキサス・ネブラスカ上院で共和党の防衛費膨張を指摘。論評として補助材料に限定"
+      }
+    ],
     "searches": null,
     "cost_usd": 0.4822
   }
