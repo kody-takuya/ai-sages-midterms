@@ -1,0 +1,61 @@
+[
+  {
+    "date": "2026-10-16",
+    "generated_at": "2026-10-16T16:47:30+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 85,
+    "comment": "下院は青信号、上院はまだ黄色信号。",
+    "change_reason": "初回の基準予測であり、前日比はない。直近の非党派調査、格付け変更、選挙区別の広告動向を重視し、民主党は下院で明確に優勢、上院では小幅優勢と判断した。",
+    "analysis": "米東部10月16日3時47分時点。AP・NORCの15日公表調査は下院支配希望が民主47％、共和38％、大統領支持36％。ただし登録有権者の回答であり、この９ポイント差を実際の投票率や議席へ直結させない。上院は民主会派の現有47議席維持とノースカロライナ奪取を軸に、メーン、オハイオ、テキサス、アラスカのうち３州を上積みする51議席を中心値とした。アイオワのマリスト調査はテュレク48対ヒンソン45だが、誤差±6.6ポイントで決着材料には弱い。カンザスも接戦で、ミシガン・ミネソタの防衛失敗は民主の上積みを相殺する。既存の民主会派無所属２人は含めるが、新たな無所属候補を自動加算しない。下院は格付け改善と共和系広告の撤退が追い風。IA01・03、PA07・10、NY17、NC01を重点監視する。民主は生活費への不満と資金調達、共和は保守州の地盤、現職力、治安・国境争点に強み。民主には共和票の過少捕捉、共和には郊外離反がリスク。全国共通の調査誤差と投票率差を織り込み、予測市場の楽観を丸のみしない。期日前投票総数は得票とみなさず、明日は新調査、FEC手元資金、広告再配分を確認する。確率は独自の総合判断で、精密なモデル計算値ではない。",
+    "key_news": [
+      {
+        "title": "15日公表のAP・NORC調査、下院の民主支配希望47％、共和38％。生活費への不満が共和党の逆風",
+        "source": "AP通信／NORC",
+        "url": "https://apnorc.org/projects/ahead-of-the-midterms-most-voters-cite-the-economy-and-cost-of-living-as-top-issues-and-favor-political-change/",
+        "impact": "D+"
+      },
+      {
+        "title": "15日公表のアイオワ上院調査、投票見込み層で民主48％・共和45％。誤差は±6.6ポイント",
+        "source": "マリスト大学世論調査",
+        "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-october-2026/",
+        "impact": "D+"
+      },
+      {
+        "title": "15日、テキサス上院を接戦評価へ、PA07・PA08を民主わずかに優勢へ変更",
+        "source": "インサイド・エレクションズ",
+        "url": "https://insideelections.com/",
+        "impact": "D+"
+      },
+      {
+        "title": "共和系団体が一部接戦区の広告費を撤収し、別の防衛先へ再配分",
+        "source": "ワシントン・ポスト",
+        "url": "https://www.washingtonpost.com/politics/2026/10/15/midterms-map-is-shifting-republicans-triage-one-time-battlegrounds/",
+        "impact": "D+"
+      },
+      {
+        "title": "テキサス上院のタラリコ陣営、第３四半期に6400万ドルを調達したと発表",
+        "source": "アクシオス",
+        "url": "https://www.axios.com/local/austin/2026/10/15/talarico-fundraising-record-third-quarter-election",
+        "impact": "D+"
+      },
+      {
+        "title": "保守誌もテキサス・ネブラスカ上院で共和党の防衛費膨張を指摘。論評として補助材料に限定",
+        "source": "ナショナル・レビュー",
+        "url": "https://www.nationalreview.com/the-morning-jolt/have-republicans-earned-a-midterm-win/",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [],
+    "searches": null,
+    "cost_usd": 0.4822
+  }
+]

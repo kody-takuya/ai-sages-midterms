@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI五賢者の中間選挙予測</title>
+<meta name="description" content="GPT・Claude・Gemini・DeepSeek・Qwenの五賢者が、毎朝最新ニュースを読んで米中間選挙の上院・下院議席数を予測します。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔮</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="sky" aria-hidden="true"></div>
+
+<header class="hero">
+  <p class="kicker">2026 U.S. MIDTERMS · DAILY ORACLE</p>
+  <h1>中間選挙の議席数を<br><span class="sanken">AI五賢者</span>が予測！</h1>
+  <p class="countdown" id="countdown">投票日 11月3日</p>
+  <p class="updated" id="updated"></p>
+</header>
+
+<main>
+  <section class="verdict" aria-label="五賢者の判定">
+    <div class="verdict-cell" id="verdict-senate"></div>
+    <div class="verdict-cell" id="verdict-house"></div>
+  </section>
+
+  <section class="sages" id="sages" aria-label="各モデルの最新予測"></section>
+
+  <section class="charts">
+    <div class="chart-card">
+      <div class="chart-head">
+        <h2>上院 <small>全100議席</small></h2>
+        <p class="chart-sub">民主党（無所属含む）の予測議席。点線（51）より上なら民主党が多数派</p>
+      </div>
+      <div class="legend" data-legend></div>
+      <div class="chart" id="chart-senate"></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-head">
+        <h2>下院 <small>全435議席</small></h2>
+        <p class="chart-sub">民主党の予測議席。点線（218）より上なら民主党が多数派</p>
+      </div>
+      <div class="legend" data-legend></div>
+      <div class="chart" id="chart-house"></div>
+    </div>
+  </section>
+
+  <section class="notes" id="notes" aria-label="各モデルの考察"></section>
+</main>
+
+<footer>
+  <p>毎朝7時（日本時間）ごろ、各モデルが自分の前日までの考察を読み返し、直近24時間のニュースを検索して予測を更新します。モデル同士は互いの予測を見ていません。</p>
+  <p>※ AIによる実験的な予測です。正確性は保証されません。</p>
+</footer>
+
+<div class="tooltip" id="tooltip" role="status" hidden></div>
+<script src="assets/app.js"></script>
+</body>
+</html>

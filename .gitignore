@@ -1,0 +1,6 @@
+key.txt
+*.key
+.env
+logs/
+__pycache__/
+.claude/

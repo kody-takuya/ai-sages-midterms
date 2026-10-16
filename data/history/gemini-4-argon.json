@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2026-10-16",
+    "generated_at": "2026-10-16T16:47:30+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 232,
+      "rep": 203
+    },
+    "senate_control_prob_dem": 58,
+    "house_control_prob_dem": 82,
+    "comment": "物価高の逆風で赤い州にも青い波、上院の命運は6つの接戦州の手に。",
+    "change_reason": "本日が予測初日のためベースラインを設定。一般投票世論調査での民主党の約8ポイントリードと、上院の主要接戦州における最新の世論調査・選挙評価を総合して初期予測とした。",
+    "analysis": "投開票まで残り18日となった2026年中間選挙は、イラン戦争の長期化に伴うエネルギー価格高騰（9月CPI前年比3.7%増）と関税政策への不満から、トランプ大統領の支持率が30%台後半に低迷する強い「反与党」環境にある。比例代表に相当する議会一般投票（Generic Ballot）平均では民主党が7.7〜8.6ポイント先行しており、AP-NORCの最新調査でも投票意欲で民主党支持層が共和党支持層を大きく上回る。下院（過半数218）は民主党の奪還が濃厚で、現有215議席から17議席増の232議席と予測する。一方の上院（現有：共和53・民主47）は、民主党が過半数51議席へ純増4議席を必要とする大接戦だ。民主党はジョージア、ミシガン、ミネソタ、ニューハンプシャーの防衛圏を固めつつ、ノースカロライナ（クーパー候補が二桁リード）での議席奪還が確実視される。残り3議席を巡り、メイン（コリンズ対ジャクソン）、オハイオ補選（ハステッド対ブラウン）、アラスカ（サリバン対ペルトラ）、テキサス（パクストン対タラリコ）、アイオワ（ヒンソン対トゥレク）、カンザスの計6州が勝敗を分ける。直近のMarist調査ではアイオワでトゥレクが48対45、テキサスでタラリコが47対45と民主党が僅差で先行し、Inside Electionsも民主党の3〜5議席増を予測する。ただし、保守州特有の「隠れ共和党票」や終盤の潤沢な共和党スーパーPAC資金（テキサスだけで1億ドル超）による巻き返しリスクも無視できず、明日以降はノースカロライナ等で始まった期日前投票の動向と各州の終盤調査を注視したい。",
+    "key_news": [
+      {
+        "title": "AP-NORC世論調査で有権者の8割が「大幅な変化」を要求、一般投票で民主党が9ポイント先行し投票意欲でも優位に",
+        "source": "AP / PBS News",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqiCSvB8xVCc2pUEghWVZmm0ALL9EZnyHDjH4niTZG4yg26byUq6dLCNSs8l91QapTZccAVIhdbkEZL4KffAFEV1YKLtdFzOjb0W427L53z9y_K0ahZxSqajDkVvQz3WRtyp86AagY1XiD6l-ZDcV9Jz1pL_V2gx0f1Z45bfBawk7v3gO-y1TY5ioqzuk_AwgHeWcGjnTf5pk-rMhuqFU8aGKVonofB7G5H8w=",
+        "impact": "D+"
+      },
+      {
+        "title": "アイオワ州上院選で民主党トゥレク氏が48%対45%でリード、テキサス州でもタラリコ氏が47%対45%と接戦を先行（Marist調査）",
+        "source": "Forbes / Marist Poll",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES1wGtqnEAR4z2_9QeV15AqGW2nz7gnZ_HWmnwmIEk-HX7IqXVPKgJUe86-fQPNIx_TDZyyl7dwHbvUlxNxXlgTInkQzuA7Evv9yxOGvJ_CvP28-nOuSBjRiAvEan5q3FtWqY59s16PzjfDPO-3M5_iFVnWAQFfew826CMu8W8xCcs2FEfYO6GAcBOWbCHvjK8r8_YtWzQtYjXphn31_AimKIYJAlRd4vX5gmnkc8wdSXFqoJ9rtnQI6S2z9RZJuzWo4iH",
+        "impact": "D+"
+      },
+      {
+        "title": "Inside Electionsが最新予測を更新、上院で民主党3〜5議席増・下院で10〜20議席増を見込む",
+        "source": "Inside Elections",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpmT_VxVBKuoguoYvzkk9MPQax005iJCDoaeYGAcYZNOeSlvBfaabuX7sCSKGbJk8rk8PSaKOLicue3JStMn4MWmMnGHGewoVjZ9hJkmM5bUJJGgIXU_kssXxKx_lhSdz3ocS-TE4=",
+        "impact": "D+"
+      },
+      {
+        "title": "メイン州上院選の最終討論会で現職コリンズ議員と民主党ジャクソン氏が激突、抗議者の乱入で一時騒然に",
+        "source": "Fox News",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3XDIcV2xkT97VYfnpJ58GYB_STvv_XLlXE5LgO0MkV2bhx6B76JItEd_s_N79HkYvrujhaPkxj1E2Flc_8ZTMMoNS8x1HCt_gAQbRePCPnRYiLgAkjHzsythpSWUKdvDeuMs8jDaBaYncCOUBirvZ-XCTUQ52g_RIMJOL7OVGS2K7NVtALNrJig6szOUQ",
+        "impact": "neutral"
+      },
+      {
+        "title": "選挙前最終のFEC資金報告期限を前に共和党系団体が資金力で優位維持、テキサス州パクストン陣営の防衛に1億ドル超を投入",
+        "source": "Washington Examiner",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_aTghu48cohu35ShAXmLPAHlbjFyjmIUDnUcWD28W6Tzxjqv4soS50QG9NCJfUHl0rAKKfTLNzqTT18I_1IlFwoL5w07BWJfDamqRmTglEMABmc3jECKGXUZxTf8eb3Mar3CHGDus6OQD7-GbAWYa6NpkLvCX3v510QS-nOSRDZfpjOw4923XMV-aQPiheLmjOOqOYmNV3Lvg4yO3Itap10RyA8ma",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKApaN3m4fnSjmz_geBZ5tacm7KRlIeyCzYbuOsIaBEXAGa2sY6u20XRZRYccPqgN5PPP1CrN1wFkJxEoN69UFlXOsNQ3yhFuOXKMC8S1zy179mBd2ADYqeY5X0Niq6HcTssRe6dZ_m_gEaT3f9cN2mtkiHetjIdng",
+        "title": "decisiondeskhq.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES1wGtqnEAR4z2_9QeV15AqGW2nz7gnZ_HWmnwmIEk-HX7IqXVPKgJUe86-fQPNIx_TDZyyl7dwHbvUlxNxXlgTInkQzuA7Evv9yxOGvJ_CvP28-nOuSBjRiAvEan5q3FtWqY59s16PzjfDPO-3M5_iFVnWAQFfew826CMu8W8xCcs2FEfYO6GAcBOWbCHvjK8r8_YtWzQtYjXphn31_AimKIYJAlRd4vX5gmnkc8wdSXFqoJ9rtnQI6S2z9RZJuzWo4iH",
+        "title": "forbes.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQy7dDlT9VXejU6ykOU5VacPOudJ6JBphctbXlm8PwD2mxA1A775AIylBpFeeKJZ6WCCJmQqDNf6W6ZgheoMAokAGB8i8aIMDCc-QyzZFkMBmZXV6pcKKl6alktzm79A==",
+        "title": "insideelections.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-qwBP2WxA0sEwhiw0diPmTh-tiW_wPYADDrBBzmGu5VSCYWSSSyZTsAAH-cn4GV80N017_F0wxtvvTTz-NYihfoVQOT-nfCRuA9Xl1BTeigCyg0bgsRseW4IE0vjfHnP9DfQt1nGDgABYTEJEEGzclCien9Y=",
+        "title": "britannica.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV4S1e7qWjgYcmGBkLK7hWCvjpci2V6OkPErRkC5nr8Jj7bmWsQd-4uM7mzY9ZJtvElor00FqYtiZh95Raoe_ZLiaDBKn6LH2kiEjTFhpqpDH2H0svjQdZxy7qzSu_a2bHBivSAkGme2oyY85JyeY1x_lns2RbFxzJmjxEE4zdnkHw9mA_0Fksw_PDXsyUSpRz8gPpruNld5QGwuzW6fcWdgKKuLxKPtWIlUU0OrEKQDvEPZL-GsHjvpZX3WX34S1cWy0d",
+        "title": "forbes.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFccmO4d7wbdwxTpgwqpTdW_pcF3EIBmmcUQ4QnqqT4VsUgJTUPvpxfPbfbwCMghrRhvjxHhft1g1s3lmk9k3KDr8gK532MBfeOz4wEQdzTnHN09OZfhQKOHfje19xC0SXFfWqmh0H5k8vsaTYffsIQSDJwGtBll7l7rdp7ZR98a8yZFgM0jwDrfZM2Yf2NeENATyZ2hFcYQME=",
+        "title": "gvwire.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaKHReWGfFRquVZS4JdlnxewVp-50QY7yQDnAmJCBEbRq7JkUD9BlpOjlyyfpJFk3O51Z1R6smf55X5zDuCTT-m01nQr5yGdadUIiRm1vZeAC-DrxG-oJeR3QfWH6yXuzWgA3t5N4ktBnU1nXTNJqqasYadR62MKy62o_Zf6KElGk06qc8ceYIbSW31iuZt1PteLGroYXbuDTNRBSnGgevdOiClbX1U1AU2oc=",
+        "title": "pbs.org"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDaf7IlGl2jImaHO9saIz8qvbHSn1pMvY083f8aAojVW0sV5byKIxQSEwHp-cT5YJ7Deqy-pQRAv-KPohfCLJvEDnKBmMqxZpLhKbJQlne2L8i6EDJSKfnDDpRg35pVqIY98T0cf2T-OstD9cJqxRPeGpmkr88kU8YRSaoAkX87Dzl3N3Xv3U8QJ4=",
+        "title": "270towin.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpmT_VxVBKuoguoYvzkk9MPQax005iJCDoaeYGAcYZNOeSlvBfaabuX7sCSKGbJk8rk8PSaKOLicue3JStMn4MWmMnGHGewoVjZ9hJkmM5bUJJGgIXU_kssXxKx_lhSdz3ocS-TE4=",
+        "title": "insideelections.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_aTghu48cohu35ShAXmLPAHlbjFyjmIUDnUcWD28W6Tzxjqv4soS50QG9NCJfUHl0rAKKfTLNzqTT18I_1IlFwoL5w07BWJfDamqRmTglEMABmc3jECKGXUZxTf8eb3Mar3CHGDus6OQD7-GbAWYa6NpkLvCX3v510QS-nOSRDZfpjOw4923XMV-aQPiheLmjOOqOYmNV3Lvg4yO3Itap10RyA8ma",
+        "title": "washingtonexaminer.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETn8SjMp1bhqSCgpRrad70NgLI_jKI2V6DWLsMMv9g-sUpAlKF3VSgudR2AUGOq23tQUXBphDGvLWTpQ4ecfWpxx6au4KVuGFspLpqcklz2fzgu6eK6kTkuY8q2PAflTCSDVWc45zck1KwoE1uEgsk3mvjndM4Gco32NwAWN0_wQ==",
+        "title": "nationalreview.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0sUasfYHGWI202hhTKk-6JnccC6D6iEw_48vmAemDMjxV0CTYf8A_yGI_KnIs52s8gOm8TLYHlO5bQ8npOGsgb-zfYBTeLQCsY4-GncEnBC01-S78GAAlijlfpXNmefPjUJN2LMZjw5XNaDLM9ucJVOw_kqKcb8WChIQTHmiGPaoRCnLDbv_AvrWMi_Oofdpua9hxHDt3F6lK0b7zDE0Juj3yv7oexP9UZQLQKfyzLXHCWHd-U-jr_r7chAToG3Z9Citi8as=",
+        "title": "wcnc.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGJkClwAuHbV3L4HuHyV4b0TRo1I3PfVFIxDcaTXgYiJzHXhPUF7ZpObB3Dmxf6rw4sg-amrdPHHukdIrF6nwG-2L5MBNbdqFsbtwi_xAigqF3AZ0oxC10aXwJugudruzerqYdX_csnusX2PxYycQHvoGVkT4VETdGBf3vV-oYKgb-0mxRqLAVwr_GeH6ExL0UmFU-4Rc7TwSIqzKc6VrogpwO",
+        "title": "reddit.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3XDIcV2xkT97VYfnpJ58GYB_STvv_XLlXE5LgO0MkV2bhx6B76JItEd_s_N79HkYvrujhaPkxj1E2Flc_8ZTMMoNS8x1HCt_gAQbRePCPnRYiLgAkjHzsythpSWUKdvDeuMs8jDaBaYncCOUBirvZ-XCTUQ52g_RIMJOL7OVGS2K7NVtALNrJig6szOUQ",
+        "title": "foxnews.com"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.3007
+  }
+]
