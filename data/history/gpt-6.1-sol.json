@@ -82,5 +82,74 @@
     ],
     "searches": null,
     "cost_usd": 0.4822
+  },
+  {
+    "date": "2026-10-17",
+    "generated_at": "2026-10-17T07:00:03+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 234,
+      "rep": 201
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 87,
+    "comment": "青い波は赤い選挙区へ。上院はまだ防波堤。",
+    "change_reason": "前回記録は同じ10月16日未明のため、今回は同日18時時点への更新。クックの下院11選挙区の民主方向への格付け変更を受け、民主を１議席上積みしたが、上院は接戦を覆す新証拠が不足し据え置いた。",
+    "analysis": "米東部10月16日18時時点。クックは下院11区を民主方向へ変更し、CNN出演の担当者は民主優勢214、共和優勢200、接戦21と説明。これは当選予測そのものではなく、234議席は接戦の配分と優勢区での逆転も含む独自判断。MT01に加え、オハイオ、ネブラスカ、カンザスの共和地盤への戦線拡大を追う。上院はメーンの最新調査でも決定的な差がなく、ミシガンの防衛とオハイオ、テキサス、アラスカの奪取可能性を併せて評価する。ミネソタも民主の小幅優位にとどまり、討論後の調査待ち。民主の強みは生活費への不満と候補者募金、弱みは小幅リードが共通の調査誤差で消える点。共和は保守州の地盤とマスクらの外部資金が支えだが、防衛対象の拡大が負担。期日前投票数を得票と同一視せず、明日は討論後調査と広告再配分を確認する。民主会派の無所属を含み、上院50対50は共和支配として計算。確率は精密モデルではなく総合判断。",
+    "key_news": [
+      {
+        "title": "16日、クックが下院11区を民主方向へ変更。共和地盤にも接戦拡大",
+        "source": "クック・ポリティカル・リポート／ワシントン・エグザミナー",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768639/seats-shift-democrats-three-red-areas-major-projection-shows/",
+        "impact": "D+"
+      },
+      {
+        "title": "16日、メーン上院選の最終討論と民主候補の募金優位を報道。調査では明確な勝者なし",
+        "source": "CNN",
+        "url": "https://prod.transcripts.cnn.com/show/ip/date/2026-10-16/segment/01",
+        "impact": "neutral"
+      },
+      {
+        "title": "16日、FEC提出資料に基づきマスクの共和系候補・団体への資金支援を報道",
+        "source": "ワシントン・エグザミナー",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768561/elon-musk-political-donations-2026-elections/",
+        "impact": "R+"
+      },
+      {
+        "title": "16日、ミネソタ上院選の唯一の確定討論を予告。直近調査は民主候補が小幅リード",
+        "source": "アクシオス",
+        "url": "https://www.axios.com/local/twin-cities/2026/10/16/minnesota-senate-debate-2026-watch-listen-time",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768639/seats-shift-democrats-three-red-areas-major-projection-shows/",
+        "title": "16日、クックが下院11区を民主方向へ変更。共和地盤にも接戦拡大"
+      },
+      {
+        "url": "https://prod.transcripts.cnn.com/show/ip/date/2026-10-16/segment/01",
+        "title": "16日、メーン上院選の最終討論と民主候補の募金優位を報道。調査では明確な勝者なし"
+      },
+      {
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768561/elon-musk-political-donations-2026-elections/",
+        "title": "16日、FEC提出資料に基づきマスクの共和系候補・団体への資金支援を報道"
+      },
+      {
+        "url": "https://www.axios.com/local/twin-cities/2026/10/16/minnesota-senate-debate-2026-watch-listen-time",
+        "title": "16日、ミネソタ上院選の唯一の確定討論を予告。直近調査は民主候補が小幅リード"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1594,
+    "tokens": {
+      "prompt": 45862,
+      "completion": 1488,
+      "reasoning": 566
+    }
   }
 ]

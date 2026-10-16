@@ -67,5 +67,74 @@
       "completion": 1888,
       "reasoning": 216
     }
+  },
+  {
+    "date": "2026-10-17",
+    "generated_at": "2026-10-17T07:00:03+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 232,
+      "rep": 203
+    },
+    "senate_control_prob_dem": 58,
+    "house_control_prob_dem": 86,
+    "comment": "上院は票差より、ひと晩の開票が長い。51-49の綱渡り",
+    "change_reason": "新しい世論調査は前日までの見方とほぼ同じ方向でした。Poliwaveの上院モデルも民主61%、中央値51議席で変わらず、数字は据え置きました。",
+    "analysis": "【上院】きのう出た調査は、民主党にやや有利で前日までの見方と整合する。アイオワはMaristでトゥレク氏が+3。ミネソタはKSTP/SurveyUSAでフラナガン氏が+3、Mason-Dixonでは+4。メインはSuffolkとRasmussenがいずれもジャクソン氏+2で、InsiderAdvantageも同じく+2だった。ただしFiftyPlusOneの平均では、9月上旬の約+3から約+2へ小幅に縮小している。共和党はメインに5000万ドル超を投入した。一方でノースカロライナでは、共和党系の上院基金(SLF)が支出を縮小している。ノースカロライナのクーパー氏はTrafalgarで+8、Change Resで+10と大きくリードする。テキサスは割れている。Marist(タラリコ氏+2)とUT(+3)は民主優位だが、共和党寄りのInsiderAdvantageはパクストン氏+1だった。カンザスはInsiderAdvantageでマーシャル氏+1と接戦。Poliwaveは上院の民主支配確率を61%、中央値を51議席とした。アイオワ、アラスカ、メイン、テキサスは事実上のコイントスである。一つでも落とすと50-50になり、副大統領の決選票が共和党に有利に働く。この点が民主党の最大のリスクだ。【下院】総合投票はD+7〜11。Foxの予測は民主党が最大237議席。ガソリン価格の高騰が共和党の逆風になっている。下院の民主党支配確率は86%を維持する。明日は早期投票データ、市場オッズ、メインとテキサスの新規調査を確認する。",
+    "key_news": [
+      {
+        "title": "アイオワ(Marist、トゥレク氏+3)とミネソタ(フラナガン氏+3)で民主党候補がリード。共和党寄りのInsiderAdvantageでもメインはジャクソン氏+2",
+        "source": "RealClearPolling",
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "impact": "D+"
+      },
+      {
+        "title": "共和党の10億ドル規模の選挙戦が奏功せず。メインに5000万ドル超を投入する一方、ノースカロライナでは支出を縮小",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html",
+        "impact": "D+"
+      },
+      {
+        "title": "Poliwaveのモデルは上院で民主党の支配確率を61%、中央値を51議席と算出。アイオワ、アラスカ、メインなどが接戦",
+        "source": "Poliwave",
+        "url": "https://www.poliwave.com/us/fed/projection",
+        "impact": "D+"
+      },
+      {
+        "title": "メイン上院選でジャクソン氏が49対47とリード(Suffolk)。ただし無党派層ではコリンズ氏が3点優勢",
+        "source": "Newsweek",
+        "url": "https://www.newsweek.com/maine-senate-polling-as-susan-collins-troy-jackson-head-into-fourth-debate-12569146",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "title": "アイオワ(Marist、トゥレク氏+3)とミネソタ(フラナガン氏+3)で民主党候補がリード。共和党寄りのInsiderAdvantageでもメインはジャクソン氏+2"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html",
+        "title": "共和党の10億ドル規模の選挙戦が奏功せず。メインに5000万ドル超を投入する一方、ノースカロライナでは支出を縮小"
+      },
+      {
+        "url": "https://www.poliwave.com/us/fed/projection",
+        "title": "Poliwaveのモデルは上院で民主党の支配確率を61%、中央値を51議席と算出。アイオワ、アラスカ、メインなどが接戦"
+      },
+      {
+        "url": "https://www.newsweek.com/maine-senate-polling-as-susan-collins-troy-jackson-head-into-fourth-debate-12569146",
+        "title": "メイン上院選でジャクソン氏が49対47とリード(Suffolk)。ただし無党派層ではコリンズ氏が3点優勢"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0834,
+    "tokens": {
+      "prompt": 24600,
+      "completion": 1419,
+      "reasoning": 0
+    }
   }
 ]

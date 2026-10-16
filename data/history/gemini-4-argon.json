@@ -108,5 +108,98 @@
     ],
     "searches": null,
     "cost_usd": 0.3007
+  },
+  {
+    "date": "2026-10-17",
+    "generated_at": "2026-10-17T07:00:03+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 234,
+      "rep": 201
+    },
+    "senate_control_prob_dem": 59,
+    "house_control_prob_dem": 84,
+    "comment": "民主候補に記録的献金の追い風、下院は保守地盤まで青い波が侵食。",
+    "change_reason": "Cook Political Reportが伝統的な共和党地盤を含む下院11選挙区の情勢判断を民主党寄りに修正したこと、および第3四半期の選挙資金報告で民主党候補が圧倒的な集金力を示したことを受け、下院の民主党予測を2議席積み増し、両院の奪還確率をわずかに引き上げた。",
+    "analysis": "投開票まで18日となり、資金面と選挙区情勢の双方で民主党の優勢が一段と鮮明になっている。15日深夜に締め切られた連邦選挙委員会（FEC）の第3四半期報告では、上院の民主党候補が驚異的な集金力を記録した。テキサス州のタラリコが6400万ドル（共和党パクストンは1800万ドル）、オハイオ州のブラウンが2820万ドル（ハステッドは480万ドル）、メイン州のジャクソンが2040万ドル（コリンズは520万ドル）を調達し、共和党系スーパーPACの資金的優位を候補者個人の資金力で相殺しつつある。下院でもCook Political Reportが16日、トランプ氏が2024年に12ポイント差で勝利したモンタナ1区を「接戦」に移すなど計11選挙区を民主党寄りに修正した。最新のFox News世論調査では一般投票で民主党が9ポイント先行し、インフレと並び「政府の腐敗」への懸念が与党の重荷となっている。一方、15日夜の上院討論会ではアラスカ州でペルトラとサリバンがイラン戦争と燃料高を巡り激突し、メイン州ではジャクソンが現職コリンズに「黙れ」と発言して共和党側から品位を問われるなど、接戦州特有の波乱要因もくすぶる。全国で期日前投票が約484万票に達する中、無党派層の最終動向を引き続き注視したい。",
+    "key_news": [
+      {
+        "title": "Cook Political Reportが下院11選挙区の予測を民主党寄りに修正、モンタナ1区など共和党地盤も接戦化",
+        "source": "The Washington Post / Washington Examiner",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3YMXXSL7nhc_1nRIG0Z05Y067icMebzsHODqTMC20AS1j22WpdDAHsf7WgMOfJS8QHL0jH_o-lWbhj0u_p3FiX519qLmUgh5aLlb5Cs0xsMYI-M8CeSleITxGpR2YxbdyARD49OWyKr5zpm8-0qDphcP5MI0FluFK07QpIutpMs0a-SCbzvsSzM5Vu3IG-eA9GaJ4tMpUtfmkNFRZKIOqGm_Oj679j53xZ8CNVO_s",
+        "impact": "D+"
+      },
+      {
+        "title": "第3四半期の選挙資金報告で民主党上院候補が記録的集金、テキサス州タラリコ候補は6400万ドル調達",
+        "source": "Semafor",
+        "url": "https://www.semafor.com/article/10/15/2026/senate-democratic-candidates-post-holy-crap-fundraising-numbers",
+        "impact": "D+"
+      },
+      {
+        "title": "メイン・アラスカ両州で重要な上院討論会が開催、イラン戦争・物価高を巡り激論、メインでは「黙れ」発言も",
+        "source": "Associated Press",
+        "url": "https://www.wsbtv.com/unavailable-location/",
+        "impact": "neutral"
+      },
+      {
+        "title": "Fox News世論調査で「政府の腐敗」と物価高が最大の懸念に、Gallup調査でも経済運営の信頼度で民主党が14年ぶり優位",
+        "source": "The Washington Post / Fox News",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8Beh59fTAMnbz6HsYYQIDK2ToHwtx8O5gYA3W6waPwCqSb-s8IniQLybZBBl-EVC-e79ymkjmrQJm83wKt72IXFl7_W6vzrn7pxyXZAKLnJmyjRVXA4MdbLs7cohrheefasJSKw6qFuMKuC1E7ibcX_fx60cfi37_n4NfR53SlrhtbrYG0yZoZrFihnQgOO-koRwtxE-V9lG9Y7NLpYc4qHzEkTzljKMMfPOKlKtoLtOpXk1JOjOhmvZveg==",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.newsfromthestates.com/article/trump-back-road-analysts-see-more-congressional-races-shifting-dems-favor",
+        "title": "newsfromthestates.com"
+      },
+      {
+        "url": "https://www.the-downballot.com/p/the-downballots-3q-2026-senate-and",
+        "title": "the-downballot.com"
+      },
+      {
+        "url": "https://www.semafor.com/article/10/15/2026/senate-democratic-candidates-post-holy-crap-fundraising-numbers",
+        "title": "semafor.com"
+      },
+      {
+        "url": "https://www.wbal.com/troy-jackson-tells-susan-collins-to-shut-up-during-heated-maine-senate-debate",
+        "title": "wbal.com"
+      },
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3YMXXSL7nhc_1nRIG0Z05Y067icMebzsHODqTMC20AS1j22WpdDAHsf7WgMOfJS8QHL0jH_o-lWbhj0u_p3FiX519qLmUgh5aLlb5Cs0xsMYI-M8CeSleITxGpR2YxbdyARD49OWyKr5zpm8-0qDphcP5MI0FluFK07QpIutpMs0a-SCbzvsSzM5Vu3IG-eA9GaJ4tMpUtfmkNFRZKIOqGm_Oj679j53xZ8CNVO_s",
+        "title": "washingtonpost.com"
+      },
+      {
+        "url": "https://suaragarut.id/en/cook-report-house-races-democrats",
+        "title": "suaragarut.id"
+      },
+      {
+        "url": "https://www.commondreams.org/news/fox-news-poll-corruption",
+        "title": "commondreams.org"
+      },
+      {
+        "url": "https://www.news4jax.com/news/politics/2026/10/16/troy-jackson-tells-susan-collins-to-shut-up-during-heated-maine-senate-debate/",
+        "title": "news4jax.com"
+      },
+      {
+        "url": "https://www.wsbtv.com/unavailable-location/",
+        "title": "wsbtv.com"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "ufl.edu"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.157,
+    "tokens": {
+      "prompt": 1548,
+      "completion": 2794,
+      "reasoning": 962
+    }
   }
 ]

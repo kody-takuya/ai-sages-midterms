@@ -242,5 +242,178 @@
     ],
     "searches": null,
     "cost_usd": 0.1802
+  },
+  {
+    "date": "2026-10-17",
+    "generated_at": "2026-10-17T07:00:03+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 230,
+      "rep": 205
+    },
+    "senate_control_prob_dem": 61,
+    "house_control_prob_dem": 90,
+    "comment": "カンザスの牧師が赤い要塞を揺らし、Foxすら下院民主奪還を予測。上院はあと1州の辛抱",
+    "change_reason": "上院はオハイオ・アイオワ・メインの新規調査が民主寄りだった一方、テキサスでPaxton+1、ミネソタが格下げされ相殺、51-49を維持。下院はDDHQ(235)・Scrutinel(238)・NBC評価・Foxの民主奪還予測を受け226→230に上方修正。",
+    "analysis": "過去48時間の調査は民主にやや追い風。BGSU/YouGovでオハイオはBrownが48-42とリード拡大、MaristのアイオワはTurek48-45(無党派51-31)、InsiderAdvantageのメインはJackson49-47。一方で同調査のテキサスはPaxton49-48と逆転し、KalshiでもTalarico64%ながら資金では共和が圧倒(総額4.45億ドル、Muskが1000万ドル投入)。SabatoはカンザスをToss-upに格上げし、5つの接戦(KS・IA・ME・OH・TX)すべてが共和現職・空席という構図に。ただしミネソタはFlanaganの伸び悩みでLeans Dへ格下げされ、Tafoyaが州の福祉不正問題を突く展開は要注意。メイン最終討論でJacksonがCollinsに「shut up」と発言、SLFが早速攻撃に利用しており小さなリスク。全国環境は一般投票意向で民主+7〜8、AARP接戦区調査でも民主+3、大統領不支持は56%。下院はFox Newsが初の民主奪還予測、NBC評価で民主確定225+Toss-up10。予測確率は上院61%(Kalshi62%、DDHQ56%と同水準)、下院90%を維持。明日は早期投票データとミネソタ・カンザスの追加調査、Paxton録音の波及を確認。",
+    "key_news": [
+      {
+        "title": "オハイオでBrown+6、アイオワでTurek+3、メインでJackson+2など新規調査が相次ぎ共和に警鐘。一方テキサスではPaxton+1",
+        "source": "Newsmax/Yahoo News",
+        "url": "https://www.yahoo.com/news/politics/articles/polls-gop-trouble-ohio-iowa-160419601.html",
+        "impact": "D+"
+      },
+      {
+        "title": "メイン州上院最終討論でJacksonがCollinsに「shut up」と発言。SLFが攻撃材料化、接戦の行方に微妙な影",
+        "source": "Washington Post / Maine Public",
+        "url": "https://www.washingtonpost.com/elections/2026-10-16/troy-jackson-tells-susan-collins-shut-up-during-final-maine-senate-debate/",
+        "impact": "R+"
+      },
+      {
+        "title": "Paxtonの新録音流出「Abbottは苦戦」。共和内の亀裂と自身の資金難・不正献金疑惑がTexasで拡大中",
+        "source": "Rolling Stone / San Antonio Express-News",
+        "url": "https://www.rollingstone.com/politics/politics-features/ken-paxton-new-leaked-audio-texas-senate-1235641655/",
+        "impact": "D+"
+      },
+      {
+        "title": "Sabatoが5評価変更:カンザスをToss-upへ、ミネソタはLeans Dに格下げ。共和は5接戦中4勝が必要な不利な構図に",
+        "source": "Sabato's Crystal Ball (UVA Center for Politics)",
+        "url": "https://centerforpolitics.org/crystalball/10_14_senate/",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-majority-squarely-democrats-sights-kansas-moves-toss-two",
+        "title": "A Senate Majority is Squarely in Democrats' Sights as ..."
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+        "title": "2026 CPR Senate Race ratings | Cook Political Report"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/10_14_senate/",
+        "title": "Five Senate Rating Changes as Close Battle for Majority Control Rages - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://www.ms.now/news/senate-race-ratings-polls-kansas-minnesota-midterms",
+        "title": "Senate ratings change: Kansas and Minnesota tighten"
+      },
+      {
+        "url": "https://www.yahoo.com/news/politics/articles/polls-gop-trouble-ohio-iowa-160419601.html",
+        "title": "New Polls: GOP Trouble in Ohio, Iowa, Maine With Paxton Lead in Texas"
+      },
+      {
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://vote-scope.com/en/us/senate/polls/",
+        "title": "U.S. Senate polling as of October 10, 2026 — Vote-Scope"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/13/hottest-2026-midterm-races-democrat-roy-cooper-has-double-digit-lead-over-former-rnc-chair-michael-whatley-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Democrat Up By Double Digits In North Carolina Senate Race (Updated Daily)"
+      },
+      {
+        "url": "https://votes.decisiondeskhq.com/forecast/2026",
+        "title": "2026 Election Forecast | DDHQ"
+      },
+      {
+        "url": "https://www.pewresearch.org/short-reads/2026/10/15/majority-of-americans-expect-democrats-to-win-control-of-house-public-is-split-on-senate/",
+        "title": "Majority of Americans Expect Democrats to Win Control of House; Public Is Split on Senate | Pew Research Center"
+      },
+      {
+        "url": "https://vote-scope.com/en/us/house/polls/",
+        "title": "Generic Ballot — U.S. House — Vote-Scope"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6149212-democrats-republicans-generic-ballot-aarp-poll/",
+        "title": "Democrats lead Republicans on generic ballot in midterm AARP poll"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/midterms",
+        "title": "Midterms 2026: Congress Polls and More"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html",
+        "title": "Tracking the Early Vote in the 2026 Midterm Elections"
+      },
+      {
+        "url": "https://news.kalshi.com/p/who-will-control-the-senate-2026",
+        "title": "Who Will Control the Senate in 2026? Midterm Odds and Key Races"
+      },
+      {
+        "url": "https://scrutinel.com/",
+        "title": "Scrutinel — 2026 Midterms Forecast"
+      },
+      {
+        "url": "https://www.covers.com/politics/2026-midterms-congress-control-odds",
+        "title": "2026 Congress Control Odds: House & Senate Midterm Markets"
+      },
+      {
+        "url": "https://betapoly.vercel.app/politics/congress",
+        "title": "Congress - BetaPoly"
+      },
+      {
+        "url": "https://www.expressnews.com/news/texas/article/paxton-abbott-struggling-gina-hinojosa-audio-leak-22478521.php",
+        "title": "In leaked audio, Ken Paxton says 'Abbott is struggling,' predicts GOP losses"
+      },
+      {
+        "url": "https://www.dallasobserver.com/news/not-leaks-but-drops-welcome-to-the-ken-paxton-secret-audio-mixtape-40723855/",
+        "title": "Not leaks, but drops: Welcome to the Ken Paxton secret audio mixtape"
+      },
+      {
+        "url": "https://texaspolitics.com/2026/10/15/ken-paxton-says-greg-abbotts-reelection-campaign-is-struggling-in-recent-audio-leak/",
+        "title": "Ken Paxton Says Greg Abbott’s Reelection Campaign is ‘Struggling’ in Recent Audio Leak - Texas Politics"
+      },
+      {
+        "url": "https://www.rollingstone.com/politics/politics-features/ken-paxton-new-leaked-audio-texas-senate-1235641655/",
+        "title": "Ken Paxton in New Leaked Audio: 'Abbott Is Struggling'"
+      },
+      {
+        "url": "https://news.kalshi.com/p/talaricos-texas-senate-odds-at-64-as-more-paxton-recordings-surface",
+        "title": "Talarico's Texas Senate odds at 64% as more Paxton recordings surface"
+      },
+      {
+        "url": "https://apnews.com/article/troy-jackson-susan-collins-maine-senate-debate-f5b57cd89178c1625e80b33ecd039c55",
+        "title": "Troy Jackson tells Susan Collins to 'shut up' during Maine debate | AP News"
+      },
+      {
+        "url": "https://www.washingtonpost.com/elections/2026/10/16/troy-jackson-tells-susan-collins-shut-up-during-final-maine-senate-debate/",
+        "title": "Troy Jackson tells Susan Collins to ‘shut up’ during final Maine Senate debate - The Washington Post"
+      },
+      {
+        "url": "https://www.mainepublic.org/politics/2026-10-16/key-takeaways-from-the-final-fiery-debate-between-susan-collins-and-troy-jackson",
+        "title": "Key takeaways from the final, fiery debate between Susan Collins and Troy Jackson | Maine Public"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-election/trump-looms-tensions-flare-final-maine-senate-debate-rcna603636",
+        "title": "Trump looms as tensions flare in final Maine Senate debate"
+      },
+      {
+        "url": "https://www.newscentermaine.com/article/news/politics/elections/sen-susan-collins-and-troy-jackson-debate-for-the-fourth-and-final-time-pitching-one-last-message-to-voters/97-54f73e09-24a7-4b19-8664-d4f213d2af77",
+        "title": "Sen. Susan Collins and Troy Jackson debate for the fourth ..."
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1226,
+    "tokens": {
+      "prompt": 59053,
+      "completion": 2702,
+      "reasoning": 1424
+    }
   }
 ]
