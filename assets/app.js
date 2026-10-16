@@ -3,7 +3,7 @@
 
   const SAGES = {
     "gpt-6.1-sol":     { color: "--m1", title: "陽の賢者", glyph: "陽", short: "Sol",   emblem: sun },
-    "claude-opus-5.5": { color: "--m2", title: "詩の賢者", glyph: "詩", short: "Opus",  emblem: quill },
+    "claude-sonnet-5.5": { color: "--m2", title: "詩の賢者", glyph: "詩", short: "Sonnet", emblem: quill },
     "gemini-4-argon":  { color: "--m3", title: "光の賢者", glyph: "光", short: "Argon", emblem: crystal },
     "deepseek-v4.1-flash": { color: "--m4", title: "深淵の賢者", glyph: "深", short: "DeepSeek", emblem: abyss, flag: "東方より" },
     "qwen3.8-max":     { color: "--m5", title: "千問の賢者", glyph: "問", short: "Qwen", emblem: question, flag: "東方より" },

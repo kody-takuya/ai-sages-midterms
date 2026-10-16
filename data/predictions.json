@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T16:56:36+09:00",
+  "updated_at": "2026-10-16T17:01:02+09:00",
   "election_day": "2026-11-03",
   "seats": {
     "senate": 100,
@@ -112,10 +112,10 @@
       }
     },
     {
-      "slug": "claude-opus-5.5",
-      "name": "Claude Opus 5.5",
+      "slug": "claude-sonnet-5.5",
+      "name": "Claude Sonnet 5.5",
       "maker": "Anthropic",
-      "id": "anthropic/claude-opus-5.5",
+      "id": "anthropic/claude-sonnet-5.5",
       "series": [
         {
           "date": "2026-10-16",
@@ -124,93 +124,73 @@
             "rep": 49
           },
           "house": {
-            "dem": 228,
-            "rep": 207
+            "dem": 232,
+            "rep": 203
           },
           "senate_control_prob_dem": 58,
-          "house_control_prob_dem": 85,
-          "comment": "下院は青い波に乗船済み、上院はトランプ州で綱渡り"
+          "house_control_prob_dem": 86,
+          "comment": "青い波は本物か。下院は固く、上院は最後の一議席まで綱引き"
         }
       ],
       "latest": {
         "date": "2026-10-16",
-        "generated_at": "2026-10-16T16:47:30+09:00",
-        "model_id": "anthropic/claude-opus-5.5",
+        "generated_at": "2026-10-16T17:01:02+09:00",
+        "model_id": "anthropic/claude-sonnet-5.5",
         "senate": {
           "dem": 51,
           "rep": 49
         },
         "house": {
-          "dem": 228,
-          "rep": 207
+          "dem": 232,
+          "rep": 203
         },
         "senate_control_prob_dem": 58,
-        "house_control_prob_dem": 85,
-        "comment": "下院は青い波に乗船済み、上院はトランプ州で綱渡り",
-        "change_reason": "初日のため基準値を設定。モデル(上院D51・下院D229〜231)、Cookの下院レンジ(224〜234)、市場(上院63%・下院90%)を参考に、赤い州での世論調査の後退リスクを見込んでやや控えめに置いた。",
-        "analysis": "全国の地合いは2018年並みか、それ以上に民主党寄り。ジェネリック・バロットはD+7〜8、トランプ支持率は30台後半で、イラン戦争と燃料価格の高騰が逆風になっている。期日前投票も民主党有利の兆候(オハイオ、バージニア、ジョージアで記録的な出足)が出ているが、共和党支持者は当日投票に偏りがちな点に注意。上院は共和53対民主47からのスタートで、民主党は差し引き4議席増が必要(副大統領が共和党なので50対50なら共和党の支配)。NC(クーパーが+7でほぼ確実)を土台に、メイン(ジャクソンが2〜4点リード、最終討論会は痛み分け)、オハイオ(ブラウンが約+3)、テキサス(タラリコが2〜6点リード、共和党陣営は5億ドル超を投入しマスク氏も1.5億ドル超)、アラスカ(ペルトラ氏が僅差リード)、アイオワ(マリスト調査でターレクが+3、他の調査はヒンソン+2で五分)が勝敗を分ける州。カンザスは大穴、ネブラスカのオズボーンは会派入りを拒否しており、勝てば多数派が宙づりになりうる。民主党側のリスクはミシガン(エルサイード氏が1〜3点の僅差、共和党寄り団体の調査ではロジャーズ+2)。民主党の中央値は51、ただし誤差は大きい。共和党の強みは、トランプ氏が2桁差で勝った州の基礎票と、終盤に支持が戻る過去の傾向(Ruffini氏の指摘)。下院はCookが18選挙区を民主寄りに移した直後で、民主党は接戦区の2割を取れば多数派という構図。明日の確認点:メイン討論会後の世論調査、テキサスとアイオワの新しい調査、ミシガンの中立系調査、各社の評価変更、期日前投票の党派別内訳。",
+        "house_control_prob_dem": 86,
+        "comment": "青い波は本物か。下院は固く、上院は最後の一議席まで綱引き",
+        "change_reason": "初回のため基準値を設定した。民主党に有利な全国環境(総合投票でD+7〜9、トランプ支持率30%台後半)と、州別世論調査を総合して置いた。",
+        "analysis": "【下院】総合投票(generic ballot)の平均はD+7〜9で、2018年の青い波より幅が広い。FiftyPlusOneはD+8、AP/NORCとFoxはいずれもD+9だった。トランプ氏の支持率はAP/NORCで36%、Morning Consultで42%。Poliwaveのモデルは民主党の下院支配確率を83%、中央値を229議席としている。Foxの予測は最大237議席。Cook、Sabato、Inside Electionsの格付けはほぼ互角だが、G・エリオット・モリス氏は格付け機関に政権党寄りの偏りがあると指摘する。このため民主党232議席、支配確率86%とした。共和党の強みは区割り(ゲリマンダー)による構造的な有利さだ。【上院】共和党は53-47で多数を持つ。民主党は純増4議席が必要。ノースカロライナのクーパー氏は複数の調査で8〜14点リードしており、事実上の民主党奪取と見る。メインは激戦で、ジャクソン氏がコリンズ氏に2〜4点リードしている。オハイオはブラウン氏がハステッド氏に対しCNN調査で+6。テキサスはタラリコ氏がパクストン氏に対し複数調査で0〜4点リード。アラスカはピルトラ氏が+5(InsiderAdvantage)。アイオワ(Emersonでハインソン氏+2)とカンザスは共和党がやや優勢で、サウスカロライナも共和党優位。民主党の防衛はジョージア(オソフ氏+8)、ミネソタ(フラナガン氏+4)、ニューハンプシャーが堅調。NC、ME、OH、AK、TXから4議席を取る組み合わせが現実的で、中央値は51-49の僅差。共和党寄りの調査会社でも民主党リードが出ており、環境は強い。ただし共和党候補が世論調査を上回る例も過去にあり、上院の確率は6割弱に留めた。明日は早期投票データと価格市場、メイン討論後の動きを確認する。",
         "key_news": [
           {
-            "title": "マリスト調査:アイオワ上院でターレク(民)がヒンソン(共)を48対45でリード",
-            "source": "Political Wire",
-            "url": "https://politicalwire.com/2026/10/15/josh-turek-leads-in-iowa-senate-race/",
+            "title": "ノースカロライナ上院選:WRAL/SurveyUSA調査でクーパー氏(民主)がウェイリー氏に14点リード、早期投票開始を前に過去最大差",
+            "source": "The Hill",
+            "url": "https://thehill.com/homenews/campaign/6145587-roy-cooper-leads-nc-senate-poll/",
             "impact": "D+"
           },
           {
-            "title": "メイン上院の最終討論会でコリンズ氏とジャクソン氏が激しく応酬、決定打はなし",
-            "source": "The Hill / Axios",
-            "url": "https://thehill.com/homenews/campaign/6152820-susan-collins-troy-jackson-debate-takeaways/",
-            "impact": "neutral"
-          },
-          {
-            "title": "トランプ氏がテキサス上院で敗れた場合の責任をコーニン氏とローブ氏に事前に転嫁、マスク氏の巨額献金も判明",
-            "source": "CNN",
-            "url": "https://us.cnn.com/2026/10/15/politics/live-news/midterm-election-congress",
+            "title": "共和党寄りの調査会社(Trafalgar、InsiderAdvantage、Rasmussen等)でもメイン、テキサス、アラスカなどで民主党がリードしていると報道",
+            "source": "Newsweek",
+            "url": "https://www.newsweek.com/democrats-chances-of-retaking-the-senate-according-to-republican-polls-12561083",
             "impact": "D+"
           },
           {
-            "title": "共和党寄りの団体の調査で、ミシガン上院のロジャーズ(共)がエルサイード(民)を46対44でリード",
-            "source": "Breitbart",
-            "url": "https://www.breitbart.com/politics/2026/10/15/exclusive-poll-shows-mike-rogers-edging-out-abdul-el-sayed-in-michigan-senate-race/",
-            "impact": "R+"
-          },
-          {
-            "title": "オハイオの期日前投票が2022年比で大幅増、返送済み票は民主党登録者が共和党登録者を上回る",
-            "source": "Ohio Capital Journal",
-            "url": "https://ohiocapitaljournal.com/2026/10/15/ohio-early-vote-way-up-compared-to-2022-but-absentee-ballot-requests-are-down/",
-            "impact": "D+"
-          },
-          {
-            "title": "NRSCのスコット委員長がメイン・アイオワ・アラスカ・オハイオを上院維持の鍵の4州に挙げる。トランプ氏はハステッド氏の支持を呼びかけ",
+            "title": "Foxニュース・パワーランキング:総合投票の民主党リードは2018年より広く、下院の20選挙区が民主党寄りに移動。民主党は最大237議席の可能性",
             "source": "Fox News",
-            "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-democrats-october-15",
-            "impact": "neutral"
+            "url": "https://www.foxnews.com/politics/fox-news-power-rankings-house-falls-senate-stays-play",
+            "impact": "D+"
+          },
+          {
+            "title": "Cook、Sabatoがカンザス、NH、NC、アラスカ、SCの上院選の格付けを民主党寄りに変更。ただしSabatoはカンザスの民主党勝利には依然懐疑的",
+            "source": "The Hill",
+            "url": "https://thehill.com/homenews/campaign/6140876-senate-race-forecasts-midterms/",
+            "impact": "D+"
           }
         ],
         "citations": [
           {
-            "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
-            "title": "FiftyPlusOne - Generic Ballot Polls and Average for 2026"
+            "url": "https://thehill.com/homenews/campaign/6145587-roy-cooper-leads-nc-senate-poll/",
+            "title": "ノースカロライナ上院選:WRAL/SurveyUSA調査でクーパー氏(民主)がウェイリー氏に14点リード、早期投票開始を前に過去最大差"
           },
           {
-            "url": "https://www.nbcnews.com/politics/donald-trump/bracing-midterms-trump-says-will-blamed-republicans-lose-rcna602512",
-            "title": "Bracing for the midterms, Trump says he will be blamed if Republicans lose"
+            "url": "https://www.newsweek.com/democrats-chances-of-retaking-the-senate-according-to-republican-polls-12561083",
+            "title": "共和党寄りの調査会社(Trafalgar、InsiderAdvantage、Rasmussen等)でもメイン、テキサス、アラスカなどで民主党がリードしていると報道"
           },
           {
-            "url": "https://www.poliwave.com/us/fed/projection",
-            "title": "2026 Midterm Forecast: House and Senate Predictions"
+            "url": "https://www.foxnews.com/politics/fox-news-power-rankings-house-falls-senate-stays-play",
+            "title": "Foxニュース・パワーランキング:総合投票の民主党リードは2018年より広く、下院の20選挙区が民主党寄りに移動。民主党は最大237議席の可能性"
           },
           {
-            "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4760750/cook-political-report-shifts-ratings-18-races-in-favor-democrats/",
-            "title": "Cook Political Report shifts ratings of 18 races in favor of Democrats"
-          },
-          {
-            "url": "https://kalshi.com/category/elections/midterms",
-            "title": "2026 Midterm Election Predictions & Odds: Live Senate, House & Governor Forecasts"
-          },
-          {
-            "url": "https://ivn.us/ricketts-calls-him-a-democrat-osborn-says-thats-the-problem-with-politics/",
-            "title": "Ricketts Calls Him a Democrat. Osborn Says That's the Problem with Politics"
+            "url": "https://thehill.com/homenews/campaign/6140876-senate-race-forecasts-midterms/",
+            "title": "Cook、Sabatoがカンザス、NH、NC、アラスカ、SCの上院選の格付けを民主党寄りに変更。ただしSabatoはカンザスの民主党勝利には依然懐疑的"
           }
         ],
         "searches": null

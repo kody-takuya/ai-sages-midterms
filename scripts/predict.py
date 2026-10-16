@@ -27,11 +27,11 @@ JST = ZoneInfo("Asia/Tokyo")
 ET = ZoneInfo("America/New_York")
 ELECTION_DAY = dt.date(2026, 11, 3)
 SENATE_SEATS, HOUSE_SEATS = 100, 435
-CONTEXT_DAYS = 7  # how many of the model's own past days to feed back
+CONTEXT_DAYS = 3  # how many of the model's own past days to feed back
 
 MODELS = [
     {"slug": "gpt-6.1-sol", "id": "openai/gpt-6.1-sol", "name": "GPT-6.1 Sol", "maker": "OpenAI"},
-    {"slug": "claude-opus-5.5", "id": "anthropic/claude-opus-5.5", "name": "Claude Opus 5.5", "maker": "Anthropic"},
+    {"slug": "claude-sonnet-5.5", "id": "anthropic/claude-sonnet-5.5", "name": "Claude Sonnet 5.5", "maker": "Anthropic"},
     {"slug": "gemini-4-argon", "id": "google/gemini-4-argon", "name": "Gemini 4 Argon", "maker": "Google"},
     {"slug": "deepseek-v4.1-flash", "id": "deepseek/deepseek-v4.1-flash", "name": "DeepSeek V4.1 Flash", "maker": "DeepSeek"},
     {"slug": "qwen3.8-max", "id": "qwen/qwen3.8-max-0902", "name": "Qwen3.8 Max", "maker": "Alibaba Qwen"},
@@ -44,7 +44,7 @@ Current time: {now_et} (US Eastern) / {now_jst} (Japan).
 You keep a running forecast. Below you will receive YOUR OWN analyses from previous days (and only yours). Treat them as your notes: build on them, but revise whenever new evidence warrants it.
 
 ## Today's procedure
-1. Use the web search tool to gather news and data from roughly the last 24 hours (since about {since_et} ET). Run several distinct searches (aim for 6+), for example: new Senate/House polls, race-rating changes (Cook, Sabato, Inside Elections), polling averages and forecast models, prediction-market odds, fundraising/ad spending, candidate news, scandals, debates, economic and approval data, early-vote / turnout data.
+1. Use the web search tool to gather news and data from roughly the last 24 hours (since about {since_et} ET). Run a handful of focused, distinct searches (about 4-6), for example: new Senate/House polls, race-rating changes (Cook, Sabato, Inside Elections), polling averages and forecast models, prediction-market odds, fundraising/ad spending, candidate news, scandals, debates, economic and approval data, early-vote / turnout data.
 2. Avoid one-sided sourcing. Deliberately draw on left-leaning, right-leaning, and centrist/wire outlets (e.g. AP, Reuters, NYT, WaPo, WSJ, Fox News, Politico, The Hill, NBC, CNN, National Review, Washington Examiner), plus nonpartisan data sources. Weigh hard data (polls, early vote, ratings) above opinion. Note when a poll is partisan-sponsored.
 3. If there is little genuinely new information, it is fine to keep your numbers unchanged — do not create artificial movement. If this is your first day, establish a careful baseline from the overall state of the races.
 4. Produce your updated seat forecast for the NEW Congress (most likely outcome / median expectation):
@@ -61,13 +61,13 @@ Respond with ONE JSON object inside a ```json code block and nothing after it. A
   "house_control_prob_dem": <int 0-100, your probability Democrats control the House>,
   "comment": "<一言コメント: 40字以内。ウィットがあって読んで楽しいが、中身のある一言>",
   "change_reason": "<前日から数字を変えた/変えなかった理由を1〜2文>",
-  "analysis": "<今日時点の考察。注目州・接戦区、世論調査の傾向、両党それぞれの強み・リスクを含めて400〜700字。明日のあなた自身への引き継ぎメモになる>",
+  "analysis": "<今日時点の考察。注目州・接戦区、世論調査の傾向、両党それぞれの強み・リスクを含めて300〜500字。明日のあなた自身への引き継ぎメモになる>",
   "key_news": [
     {{"title": "<ニュースの要約(日本語)>", "source": "<媒体名>", "url": "<URL>", "impact": "D+ | R+ | neutral"}}
   ]
 }}
 ```
-key_news: 3-6 items from the last ~24 hours, from a balanced mix of outlets."""
+key_news: 3-4 items from the last ~24 hours, from a balanced mix of outlets."""
 
 FIX_PROMPT = (
     "Your previous reply could not be used: {error}. "
@@ -230,8 +230,8 @@ def run_model(model: dict, key: str, today: str, now: dt.datetime, effort: str) 
     resp = call_openrouter(key, {
         **base,
         "messages": messages,
-        "tools": [{"type": "openrouter:web_search", "parameters": {"max_results": 8, "max_uses": 10}}],
-        "max_tool_calls": 15,
+        "tools": [{"type": "openrouter:web_search", "parameters": {"max_results": 5, "max_uses": 6, "search_context_size": "medium"}}],
+        "max_tool_calls": 8,
     })
     msg = resp["choices"][0]["message"]
     text = msg.get("content") or ""
@@ -273,6 +273,8 @@ def run_model(model: dict, key: str, today: str, now: dt.datetime, effort: str) 
         "citations": citations,
         "searches": searches,
         "cost_usd": round(cost, 4),
+        "tokens": {"prompt": usage.get("prompt_tokens"), "completion": usage.get("completion_tokens"),
+                   "reasoning": (usage.get("completion_tokens_details") or {}).get("reasoning_tokens")},
     }
     history = [e for e in history if e["date"] != today] + [entry]
     save_history(model["slug"], history)
@@ -292,7 +294,7 @@ def build_site_data(now: dt.datetime) -> None:
                         "senate_control_prob_dem": e.get("senate_control_prob_dem"),
                         "house_control_prob_dem": e.get("house_control_prob_dem"),
                         "comment": e["comment"]} for e in hist],
-            "latest": {k: v for k, v in hist[-1].items() if k not in ("cost_usd",)} if hist else None,
+            "latest": {k: v for k, v in hist[-1].items() if k not in ("cost_usd", "tokens")} if hist else None,
         })
     SITE_DATA.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -302,7 +304,7 @@ def main() -> int:
     sys.stderr.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", nargs="*", help="model slugs to run (default: all)")
-    ap.add_argument("--effort", default="high", choices=["low", "medium", "high"])
+    ap.add_argument("--effort", default="medium", choices=["low", "medium", "high"])
     ap.add_argument("--site-only", action="store_true", help="just rebuild data/predictions.json")
     args = ap.parse_args()
 
