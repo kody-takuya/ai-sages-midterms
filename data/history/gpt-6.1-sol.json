@@ -159,5 +159,78 @@
       "completion": 1998,
       "reasoning": 631
     }
+  },
+  {
+    "date": "2026-10-18",
+    "generated_at": "2026-10-18T07:00:02+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 85,
+    "comment": "共和の財布は厚い。問題は、広告で家計が軽くなるか。",
+    "hidden_dynamics": [
+      "民主の戦争批判は外交論というより家計への訴えだ。生活費と結び付けた広告の実際の放映が確認でき、郊外だけでなく燃料・肥料価格に敏感な地域にも届く戦略と読む。ただし広告量は説得効果の証明ではない。([apnews.com](https://apnews.com/article/e3e355b7d32f0912cb88524531149925))",
+      "共和の下院防衛を単純な資金枯渇とは見ない。民主挑戦者が献金で上回っても共和現職の残金が多い例があり、防衛線拡大の問題は財布の空白より、限られた期間で多数の候補を個別に救済する難しさだ。([rollcall.com](https://rollcall.com/2026/10/16/house-democrats-fundraising-third-quarter-elections/?utm_source=openai))",
+      "テキサスの討論不成立は、民主に候補比較の機会を失わせる一方、共和には全国政治への不満だけで投票される危険を残す。共和側が内部調査で優勢だから逃げている、とまでは推定しない。([washingtonexaminer.com](https://www.washingtonexaminer.com/news/campaigns/congressional/4769396/debate-disputes-center-stage-texas-midterm-races/?utm_source=openai))"
+    ],
+    "hypothesis_title": "資金の防波堤、家計不満の浸透",
+    "hypothesis": "共和の防衛資源が下院では分散し、上院では集中できるという前回仮説を修正する。新たな下院資金資料は、共和現職の残金不足ではなく、家計不満を候補別広告で打ち消す効率の低下が問題だと示唆する。民主の戦争広告も生活費に接続しており、下院優勢は持続すると読む。ただし上院では地盤と候補評価が防波堤になる。共和の追加広告後、複数の独立した投票見込み層調査で家計重視層が共和へ戻れば、この仮説を捨てる。([rollcall.com](https://rollcall.com/2026/10/16/house-democrats-fundraising-third-quarter-elections/?utm_source=openai))",
+    "hypothesis_status": "refined",
+    "change_reason": "下院は広い戦線で民主が接戦の過半を取る233議席、上院は民主会派47議席の維持にノースカロライナ、メーン、オハイオ、テキサスの４奪取を置く51議席を中心シナリオとする。新資料は共和の反撃余力も示すため、前回から議席数・支配確率を動かすほどの純改善とは判断しない。([rollcall.com](https://rollcall.com/2026/10/16/house-democrats-fundraising-third-quarter-elections/?utm_source=openai))",
+    "analysis": "米東部10月17日18時時点。前回の資源分散仮説は維持するが、共和の資金不足という読みは弱める。NY17では共和現職の残金が民主挑戦者を上回り、献金の勢いだけで奪取を積み増せない。([rollcall.com](https://rollcall.com/2026/10/16/house-democrats-fundraising-third-quarter-elections/?utm_source=openai)) 民主の強みは、戦争を燃料・食料価格の問題として語り、別々の不満を同じ投票理由へ束ねられる点。共和は税・治安など候補比較へ戻す余地がある。([apnews.com](https://apnews.com/article/e3e355b7d32f0912cb88524531149925)) 上院51議席はテキサスまで必要な細い経路で、アラスカとアイオワは上振れ枠、ミシガンとミネソタは防衛上の重点監視とする。下院はIA01・03、PA07・10、NY17を継続監視。共和の終盤広告が効けば両院の接戦が同時に戻るため、全国共通の調査誤差を軽視しない。明日は独立調査の投票見込み層と実放映量を確認し、期日前投票総数を得票差へ変換しない。確率は精密モデル値ではなく独自判断。",
+    "key_news": [
+      {
+        "title": "17日公表の広告分析：民主側がイラン戦争批判を生活費問題へ接続",
+        "source": "AP通信",
+        "url": "https://apnews.com/article/midterms-iran-war-campaign-ads-e3e355b7d32f0912cb88524531149925",
+        "impact": "D+"
+      },
+      {
+        "title": "16日18時56分：民主下院挑戦者の献金増でも共和現職には残金優位",
+        "source": "CQ Roll Call",
+        "url": "https://rollcall.com/2026/10/16/house-democrats-fundraising-third-quarter-elections/",
+        "impact": "neutral"
+      },
+      {
+        "title": "17日朝：テキサス接戦で討論不成立が争点化",
+        "source": "Washington Examiner",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4769396/debate-disputes-center-stage-texas-midterm-races/",
+        "impact": "neutral"
+      },
+      {
+        "title": "17日：トランプの相次ぐ論争が選挙終盤を覆う",
+        "source": "Axios",
+        "url": "https://www.axios.com/2026/10/17/trump-october-midterms-controversy",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://apnews.com/article/e3e355b7d32f0912cb88524531149925",
+        "title": "Iran war votes in Congress become a focus for campaign ads | AP News"
+      },
+      {
+        "url": "https://rollcall.com/2026/10/16/house-democrats-fundraising-third-quarter-elections/?utm_source=openai",
+        "title": "‘Red to Blue’ Democrats rake in more than GOP rivals in third quarter – Roll Call"
+      },
+      {
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4769396/debate-disputes-center-stage-texas-midterm-races/?utm_source=openai",
+        "title": "Debate disputes take center stage in high-stakes Texas races"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1476,
+    "tokens": {
+      "prompt": 42324,
+      "completion": 1955,
+      "reasoning": 546
+    }
   }
 ]

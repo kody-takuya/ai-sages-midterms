@@ -212,5 +212,142 @@
       "completion": 2317,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-18",
+    "generated_at": "2026-10-18T07:00:02+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 234,
+      "rep": 201
+    },
+    "senate_control_prob_dem": 57,
+    "house_control_prob_dem": 85,
+    "comment": "小口献金の津波が大富豪の防波堤を洗う、広告単価の非対称戦。",
+    "hidden_dynamics": [
+      "第3四半期のFEC報告で上院激戦9州の民主党候補が共和党候補の5倍超の直接献金（ハードマネー）を集めた事実は、単なる熱量差以上の意味を持つ。連邦法により候補者本人はテレビ広告を「最低単価（LUR）」で購入できる一方、マスク氏や暗号資産系スーパーPACは数倍の市場価格を強いられるため、実質的な広告露出量では共和党の巨額外部資金の優位が相殺されている。",
+      "10月17日に全米2500カ所以上で実施された反トランプ運動「No Kings」の集会が、単なる抗議デモから期日前投票所への集団行進へと戦術転換した。司法省による非市民投票への刑事捜査警告（16日）が保守層の不正警戒を高める一方、リベラル層には「消される前に投票する」という危機感を煽り、ジョージア州の最初の土曜期日前投票を押し上げている。",
+      "メイン州の討論会中断やオハイオ州の広告戦に見られる通り、イラン戦争によるガソリン高に加え「AIデータセンターによる電力料金高騰と環境負荷」が終盤の隠れた争点に浮上している。共和党が推進するテック投資や規制緩和が、地方の無党派層には「生活インフラコストの転嫁」として逆風になりつつある。"
+    ],
+    "hypothesis_title": "直接献金の広告単価優位と赤い州の党派重力",
+    "hypothesis": "ガソリン高と生活費高騰を背景に、民主党は期日前投票の組織力と圧倒的な小口直接献金（Q3で共和党の5倍超）を獲得し、下院では2024年トランプ二桁勝利区まで決壊させる。上院の赤い州（TX、OH、IA、AK）では、共和党がマスク氏や暗号資産PACの巨額資金で党派性を呼び覚まして防戦するが、候補者本人の広告単価優位（LUR）が民主党の防波堤となり、過半数ライン（51議席）上で拮抗する。週明けのテキサス期日前投票で都市・郊外層の出足が鈍ければ、上院過半数予測を共和党側へ戻す。",
+    "hypothesis_status": "refined",
+    "change_reason": "上院激戦州における民主党の記録的な直接献金（ハードマネー）が共和党スーパーPACの資金力を広告単価面で相殺している構造を確認し仮説を精緻化したが、赤い州での終盤の党派性回帰リスクと均衡しているため、上下両院の議席予測（上院D51・下院D234）は前日から据え置いた。",
+    "analysis": "出揃った第3四半期の選挙資金報告（FEC）は、2026年中間選挙の構造的ねじれを鮮明に映し出している。テキサス州のタラリコ氏が上院史上最高の四半期6400万ドル（うち97%が100ドル以下の小口）を集めたのを筆頭に、ジョージア（3300万対300万）、オハイオ（2300万対500万）、アラスカ（1700万対200万）など激戦9州すべてで民主党候補が共和党候補を圧倒した。共和党のワットリー（NC）やマーシャル（KS）、コリンズ（GA）各候補は10月突入時点の手元資金が100万ドル前後に枯渇している。これに対し共和党は、マスク氏が上院指導部ファンド（SLF）経由でパクストン氏（TX）支援に投じた1億5800万ドルや、暗号資産系PAC「Fairshake」傘下団体がオハイオ州ブラウン氏落選運動に投じた4660万ドルなど、超富裕層と業界団体のスーパーPAC資金で戦線を支える構図だ。しかしテレビ局が候補者本人に義務付けられた最安料金（LUR）を適用する一方、外部団体には高騰するスポット料金を課すため、民主党は資金効率で互角以上に渡り合っている。下院ではハーバード大モデルも民主党234議席を予測しており、青い波は堅調だ。明日は19日に始まるテキサス州の期日前投票を前に、激戦区の週末世論調査を検証する。",
+    "key_news": [
+      {
+        "title": "上院激戦9州の第3四半期資金集めで民主党候補が共和党を圧倒、テキサス州タラリコ氏は史上最高6400万ドルを記録",
+        "source": "Axios",
+        "url": "https://www.axios.com/2026/10/16/democrats-midterms-fundraising-senate",
+        "impact": "D+"
+      },
+      {
+        "title": "イーロン・マスク氏が共和党上院スーパーPACに1億5800万ドルを献金、大半をテキサス州パクストン候補支援に注入",
+        "source": "TradingView / The Hill",
+        "url": "https://www.tradingview.com/news/benzinga:eccc32c8d094b:0-elon-musk-opens-his-wallet-for-ken-paxton-billionaire-pours-158-million-into-crucial-texas-senate-race/",
+        "impact": "R+"
+      },
+      {
+        "title": "反トランプ運動「No Kings」が全米各地で期日前投票を促す一斉集会を開催、司法省は非市民投票の集計に刑事捜査を警告",
+        "source": "PBS News / AP",
+        "url": "https://www.pbs.org/newshour/nation/no-kings-rallies-across-u-s-urge-voters-to-cast-ballots-early-ahead-of-midterms",
+        "impact": "neutral"
+      },
+      {
+        "title": "メイン州上院討論会でデータセンター環境負荷を巡る抗議者が乱入しコリンズ議員とジャクソン氏が激しく応酬、トランプ氏はアリゾナ等で遊説",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-democrats-october-15",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.axios.com/2026/10/16/democrats-midterms-fundraising-senate",
+        "title": "axios.com"
+      },
+      {
+        "url": "https://www.dscc.org/article/holy-crap-democratic-senate-candidates-post-mind-blowing-q3-hauls-as-floundering-gop-campaigns-get-smoked-in-fundraising/",
+        "title": "dscc.org"
+      },
+      {
+        "url": "https://www.gate.com/news/detail/fairshake-linked-pac-invests-466m-against-sherrod-brown-in-ohio-senate-race-25005061",
+        "title": "gate.com"
+      },
+      {
+        "url": "https://adimpact.com/blogs/nrsc-v.-fec-what-the-end-of-coordinated-spending-caps-means-for-broadcasters-and-core-advertisers",
+        "title": "adimpact.com"
+      },
+      {
+        "url": "https://www.financialexpress.com/world-news/us-news/64-million-in-texas-33-million-in-georgia-inside-democrats-senate-fundraising-surge/4363303/lite/",
+        "title": "financialexpress.com"
+      },
+      {
+        "url": "https://www.fastcompany.com/91618419/no-kings-october-17-protests-rally-march-early-voting-midterm-election-events-cities-locations-polling-stations",
+        "title": "fastcompany.com"
+      },
+      {
+        "url": "https://www.whqr.org/national/2026-10-17/no-kings-turns-its-focus-to-voting-this-weekend-heres-what-we-know",
+        "title": "whqr.org"
+      },
+      {
+        "url": "https://866ourvote.org/state/georgia/",
+        "title": "866ourvote.org"
+      },
+      {
+        "url": "https://www.pbs.org/newshour/nation/no-kings-rallies-across-u-s-urge-voters-to-cast-ballots-early-ahead-of-midterms",
+        "title": "pbs.org"
+      },
+      {
+        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-democrats-october-15",
+        "title": "foxnews.com"
+      },
+      {
+        "url": "https://www.denvergazette.com/2026/10/16/11-more-seats-shift-toward-democrats-including-3-in-safe-red-areas/",
+        "title": "denvergazette.com"
+      },
+      {
+        "url": "https://www.newsweek.com/sherrod-browns-polling-lead-defies-ohios-republican-shift-12532271",
+        "title": "newsweek.com"
+      },
+      {
+        "url": "https://www.foxnews.com/elections/2026/midterm-results",
+        "title": "foxnews.com"
+      },
+      {
+        "url": "https://ground.news/article/map-shows-14-gop-held-house-seats-shifting-toward-democrats-in-past-week_d70df1",
+        "title": "ground.news"
+      },
+      {
+        "url": "https://www.tradingview.com/news/benzinga:eccc32c8d094b:0-elon-musk-opens-his-wallet-for-ken-paxton-billionaire-pours-158-million-into-crucial-texas-senate-race/",
+        "title": "tradingview.com"
+      },
+      {
+        "url": "https://www.latintimes.com/early-voting-opens-now-across-us-heres-complete-guide-39-million-latino-voters-600294",
+        "title": "latintimes.com"
+      },
+      {
+        "url": "https://www.instagram.com/p/DemmuD_DzyI/",
+        "title": "instagram.com"
+      },
+      {
+        "url": "https://gking.harvard.edu/electit/",
+        "title": "harvard.edu"
+      },
+      {
+        "url": "https://www.thewrap.com/media-platforms/politics/elon-musk-158-million-donation-senate-gop-group-ken-paxton/",
+        "title": "thewrap.com"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.166,
+    "tokens": {
+      "prompt": 2653,
+      "completion": 3468,
+      "reasoning": 769
+    }
   }
 ]

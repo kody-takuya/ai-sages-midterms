@@ -426,5 +426,186 @@
       "completion": 8977,
       "reasoning": 6582
     }
+  },
+  {
+    "date": "2026-10-18",
+    "generated_at": "2026-10-18T07:00:02+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 232,
+      "rep": 203
+    },
+    "senate_control_prob_dem": 65,
+    "house_control_prob_dem": 93,
+    "comment": "逆風の芯はトランプ離れした共和党員。終盤の巻き返し燃料が今回は無い",
+    "hidden_dynamics": [
+      "InsiderAdvantageが一社・同日に「メインはジャクソン+2、カンザスはマーシャル+1、テキサスはパクストン+1」を公表。カンザスは自社前回のハミルトン優位から逆転しており、LVスクリーナを変えた疑いが濃い。共和側の“安定化”はこの一点にしか根拠がない。",
+      "ミシシッピでハイドスミス+4、ネブラスカは民主党が候補を立てられずリケッツ47%——決定的でない州の異常値こそ環境の深さを示すのに、どの媒体も追わない。Cookが10/16に変更した11区の半分がオハイオ・ネブラスカ・カンザスなのと同根だ。",
+      "トランプの日程はオハイオ(10/12)とジョージア(10/16)で、テキサスでもメインでもカンザスでもない。上院地図は安全と踏んだbase対策で、オソフの外見揶揄は早期投票を牽引する郊外女性に投票理由を配っている。"
+    ],
+    "hypothesis_title": "逆風の芯は共和支持層のトランプ離れ",
+    "hypothesis": "昨日の「共和トリアージ=下院放棄・上院死守」は維持し、芯を差し替えた。Morning Consultによれば支持率の任期最低更新は共和支持層内部の離反が原因で、熱量そのものが任期最低だ。NC初日の早期投票は総数+47%なのに登録共和党員は2022年比で減少、アイオワも民主優勢。過去15回中14回で起きた終盤の共和巻き返しの燃料は与党ベースの熱量であり、今回はそれが欠けている。よって例年の「民主過大評価」補正は半分でよく、下院中央値は上に置く。反証条件: 早期投票2週目で登録共和党員比率が平年並みに回復、共和系調査会社がTX・KS・MEで3pt超の改善を同時発表、CLFがNJ-7・IA-1へ支出再開——いずれかで捨てる。",
+    "hypothesis_status": "refined",
+    "change_reason": "トリアージは下院限定で、中西部の州政党ブランド崩壊と共和ベースの熱量低下は資金で修復できないと判断。歴史的な民主過大評価補正を半減させたため下院を231→232、上院は中央値52を維持しつつ制御確率を64→65%とした。",
+    "analysis": "上院は「届く3+4つ目」構造。NC(クーパー+10、Q3資金19.5M対4.2M)は市場96%で確定圏、MI(平均+6だがRasmussenは+2)、OH(BGSU/YouGovでブラウン+6、9月の+3から倍増、知事もアクトン+6)が続く。4つ目はME・TX・IA・AK・KSの五つ巴で、今日の新情報はここに集中した。Maristはアイオワでチュレク+3・無党派+20、知事もサンド+7——同じ州で三レースが同時に動くのは候補個人でなく州政党ブランドの崩壊であり、CLFの1000万ドル再配置では塞げない。逆にInsiderAdvantageのKS/TX改善は「一社・同日・自社前回からの逆転」という三重の割り引きが必要だ。中央値52を維持し制御確率のみ65%へ。下院はCook最新(Solid D185/Likely17/Lean12/Toss Up21/Lean R13/Likely R16/Solid R171)を確率換算すると231〜232で、Cook自身のレンジ224-234やPollingForecastの231(補正後D+6.7)に収束する。早期投票の実測(NC初日20万1609人=2022年比+47%、94/100郡で増、ただし郵便は-31%)が上振れ側を支持するため+1の232とした。リスクは二方向で、郵便投票の減少が登録共和の「当日回帰」なのか単純な萎れなのかはまだ判別できない。明日への申し送り: (1)NC・IA早期投票2週目の党派構成、(2)InsiderAdvantageのLV定義、(3)テキサスの広告予約実測、(4)FL上院ムーディ+8が+4まで詰まるか、(5)閉鎖解除時の帰責変化。",
+    "key_news": [
+      {
+        "title": "新規調査が一斉に出る: オハイオでブラウン+6(9月から倍増)、アイオワでチュレク+3・無党派+20、ミシガンでエルサヤド+2、メインでジャクソン+2。一方でカンザスはマーシャル+1、テキサスはパクストン+1と共和が踏みとどまる",
+        "source": "Newsmax (Yahoo News配信)",
+        "url": "https://www.yahoo.com/news/politics/articles/polls-gop-trouble-ohio-iowa-160419601.html",
+        "impact": "D+"
+      },
+      {
+        "title": "Cookがさらに11区を民主方向へ。変更の半分はオハイオ・ネブラスカ・カンザスで、MT-1がToss Up入り。トランプ+10超の5区が計6区動く。最有力レンジは民主+9〜+19(224〜234)",
+        "source": "Cook Political Report / Washington Post",
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eleven-more-house-races-shift-toward-democrats",
+        "impact": "D+"
+      },
+      {
+        "title": "Morning Consult月次: トランプ支持率は41/57で任期最低、低下は共和支持層内部の離反由来。一般投票意向はLVで民主+7。トランプがプラスの州は31→12に減り、TX・FL・OH・NC・IA・AKがマイナス転落",
+        "source": "Morning Consult",
+        "url": "https://morningconsult.com/reports/october-2026-midterms-report",
+        "impact": "D+"
+      },
+      {
+        "title": "予測の分岐: pollsmaxは47D/53R・民主支配35.4%とする一方、Kalshiは63%、Polymarketは65%。メイン・アラスカ・オハイオ・テキサスをTilt Rに置く少数派モデルで、終盤の共和巻き返しを織り込む側の代表例",
+        "source": "pollsmax / Kalshi / Polymarket",
+        "url": "https://www.pollsmax.com/senate/",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.pollsmax.com/senate/",
+        "title": "2026 Senate Forecast | Interactive Map & Election Odds"
+      },
+      {
+        "url": "https://www.yahoo.com/news/politics/articles/polls-gop-trouble-ohio-iowa-160419601.html",
+        "title": "New Polls: GOP Trouble in Ohio, Iowa, Maine With Paxton Lead in Texas"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/14/hottest-2026-midterm-races-talarico-ahead-in-texas-senate-race-in-2-new-polls-updated-daily/?streamIndex=0",
+        "title": "Hottest 2026 Midterm Races—Democrats Lead In Maine, Texas Senate Races (Updated Daily)"
+      },
+      {
+        "url": "https://www.electoral-vote.com/evp2026/Senate/averages.html",
+        "title": "State Averages for Senate"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eleven-more-house-races-shift-toward-democrats",
+        "title": "Eleven More House Races Shift Toward Democrats | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eighteen-more-house-race-ratings-move-democrats-favor",
+        "title": "Eighteen More House Race Ratings Move in Democrats’ Favor | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings | Cook Political Report"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+        "title": "Cook Political Report moves 11 House races move toward Democrats - The Washington Post"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6153418-cook-political-report-11-house-districts-shift-democratic/",
+        "title": "Cook Political Report shifts nearly a dozen House seats toward Democrats"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html",
+        "title": "Tracking the Early Vote in the 2026 Midterm Elections"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://www.cnn.com/2026/10/16/politics/live-news/midterm-election-congress",
+        "title": "Early voting data shows signs of Democratic advantage in ..."
+      },
+      {
+        "url": "https://www.cbs17.com/news/early-voting-surges-in-nc-as-democrats-lead-turnout-fundraising-in-key-races/",
+        "title": "Early voting surges in NC as Democrats lead turnout, fundraising in key races"
+      },
+      {
+        "url": "https://www.foxnews.com/politics/trump-linked-super-pac-pulls-funding-from-2-house-republicans-gop-fights-keep-majority",
+        "title": "Trump-linked group pulls funding from New Jersey, Iowa House battlegrounds | Fox News"
+      },
+      {
+        "url": "https://apnews.com/article/midterms-republicans-democrats-senate-house-cdd95df350c648d19e60cb3ecea42138",
+        "title": "Battle lines shift in House races as Republicans retreat from front-line districts"
+      },
+      {
+        "url": "https://www.dailygazette.com/nyt-feed/top-gop-groups-pull-support-from-first-house-incumbents/article_6d297829-fdd8-5ebb-8ca4-3e03debfcd9e.html",
+        "title": "Top GOP Groups Pull Support From First House Incumbents | Nyt-feed | dailygazette.com"
+      },
+      {
+        "url": "https://www.nj.com/news/2026/10/why-top-republicans-just-pulled-funding-from-this-nj-congressmans-tight-re-election-bid.html",
+        "title": "Why top Republicans just pulled funding from this N.J. congressman’s tight re-election bid"
+      },
+      {
+        "url": "https://nextnewsnetwork.com/2026/10/13/trump-aligned-super-pac-pulls-cash-from-two-house-republicans-as-gop-majority-ha-mv6u48ur",
+        "title": "TRUMP-ALIGNED SUPER PAC PULLS CASH FROM TWO HOUSE REPUBLICANS AS GOP MAJORITY HANGS BY A THREAD | Next News Network"
+      },
+      {
+        "url": "https://predictionmarketspicks.com/tools/midterms-2026",
+        "title": "2026 Midterms Odds — Live Senate, House & Control Tracker | PredictionMarketsPicks"
+      },
+      {
+        "url": "https://www.runcheyresearch.com/situations/us-midterms-2026/races/senate-control",
+        "title": "U.S. Senate control — 2026 U.S. Senate | Runchey Research"
+      },
+      {
+        "url": "https://defirate.com/odds/house/",
+        "title": "House Control Odds 2026: Latest Prediction Market Odds for the Midterm Elections | DeFi Rate"
+      },
+      {
+        "url": "https://kalshi.com/markets/controls/senate-winner/controls-2026",
+        "title": "Which party will win the U.S. Senate?"
+      },
+      {
+        "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
+        "title": "Balance of Power: 2026 Midterms"
+      },
+      {
+        "url": "https://www.activote.net/polls/generic-ballot/",
+        "title": "Democratic Lead Climbs to New Cycle High in Generic Ballot"
+      },
+      {
+        "url": "https://morningconsult.com/reports/october-2026-midterms-report",
+        "title": "2026 Midterms Report - October | Morning Consult | Report Download"
+      },
+      {
+        "url": "https://www.pollingforecast.com/us/news/107/democrats-generic-ballot-lead-is-large-by-midterm-standards",
+        "title": "Democrats' generic ballot lead is large by midterm standards"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6149212-democrats-republicans-generic-ballot-aarp-poll/",
+        "title": "Democrats lead Republicans on generic ballot in midterm AARP poll"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6143963-democrats-lead-congressional-ballot-ddhq",
+        "title": "Democrats lead Republicans by 7 points on generic congressional ballot"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.2207,
+    "tokens": {
+      "prompt": 71353,
+      "completion": 20226,
+      "reasoning": 18135
+    }
   }
 ]

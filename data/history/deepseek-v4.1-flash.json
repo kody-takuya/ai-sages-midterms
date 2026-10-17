@@ -416,5 +416,187 @@
       "completion": 3029,
       "reasoning": 1356
     }
+  },
+  {
+    "date": "2026-10-18",
+    "generated_at": "2026-10-18T07:00:02+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 235,
+      "rep": 200
+    },
+    "senate_control_prob_dem": 68,
+    "house_control_prob_dem": 88,
+    "comment": "共和の金、民主の足——赤い州で綱引き、残り17日",
+    "hidden_dynamics": [
+      "共和党が9月以降に積んだ新規広告枠700百万ドル（民主は430百万ドル）は「説得」ではなく「床の底上げ」＝防衛資金である。テキサスに150百万ドル、ネブラスカに15百万ドル、サウスカロライナに5百万ドルを追加投入した事実は、共和党内部の調査が「安全な赤州」が実際には接戦だと告げている証拠で、金の多さは強さの指標ではなく恐怖の指標だ。",
+      "ただし同じ金でも効き方が違う。外部団体はテレビ枠を割高なレートで買うのに対し、資金豊富な民主候補は候補者レートで買えるため、ドル額の差ほど実際の接触量の差は大きくない。金は47の下院選挙区では共和の敗北幅を縮めるが、州全域の上院選では候補者の質（パクストン、ハステッド、マーシャル、タフォヤ）を買い戻せない。",
+      "連邦政府閉鎖は「どちらが悪いか」では共和46対民主36で共和が損をしているが、有権者の実感は動いていない。真の効果は争点環境にある——議会がACA補助金と生活費を巡って膠着し続ける限り、民主党が最も強い争点が毎日ニュースの先頭に残り続ける。コリンズが核オプションに言及し始めたのは、引退しない現職が自分の選挙区の数字に怯えているサインだ。",
+      "メディアが取り上げない静かな共和の明るい材料はミネソタとメインの「現金」だ。タフォヤはフラナガンを四半期で上回り、コリンズは9月末時点でジャクソンより現金が多い。資金は候補者アカウントに残るほど終盤の柔軟性を生む。"
+    ],
+    "hypothesis_title": "赤州の世調は今回は嘘をつかない",
+    "hypothesis": "昨日までの仮説「赤州の世調は本番で共和に寄るという歴史的前提が今回は弱い」を維持しつつ、対抗軸を追加する。共和党は記録的な外部資金（SLF四半期272.9百万ドル、下院CLF現金156百万ドル）で「波の上限」を抑えているが、それは下院の多数区で敗北幅を縮める効果に留まる。上院の州全域選では候補者の質と投票率の非対称（オハイオ期日前で民主41%対共和28%、トランプ+20郡の共和リードが30ポイントから5ポイントへ縮小）が支配的で、資金では買い戻せない。よってNC・ME・OH・TX・AKが民主、IA・KS・NE・SCは共和が薄氷で逃げ切る。棄却条件は、終盤1週間で期日前の民主優位が共和の当日票で逆転される兆候、またはメインでコリンズが平均+3以上に抜け出す気配。",
+    "hypothesis_status": "refined",
+    "change_reason": "上院は仮説の中核（投票率の非対称が赤州バイアスを相殺）がクックとインサイド・エレクションズの相次ぐ民主方向への格付け変更で裏づけられ、52を維持。下院はクックが10月9日の18選挙区に続き16日も11選挙区をすべて民主方向へ動かした異例の連続で、レンジ224〜234の上方寄りに引き上げ235とした。",
+    "analysis": "【上院】現状53R-47D、民主党は純増4で51。共和防衛の接戦はNC（クーパー+7〜14、ほぼ確定的）、ME（ジャクソン+2〜4）、OH（ブラウン+3〜6、co/efficientのみハステッド+1）、TX（タラリコ+1〜6、最新インサイダーアドバンテージはパクストン+1）、AK（ペルトーラ+2〜7で一貫）、IA（±2）、KS（マーシャル+1、ハミルトンは9.9百万ドル対0.87百万ドルで圧倒）、NE（オズボーンはリケッツを上回る資金）、SC（アンドリュースがグレアム上院議員を5倍超の資金）。最短経路はNC+ME+OH+TX=51。ここに一貫してリードするアラスカを足して52、IA・KSのどちらかが転べば53〜54。資金と地の赤さを重く見れば49まで下振れし得る。中央値52、幅49〜54。【下院】ジェネリックはD+8.0〜8.2（535.wtf、シルバーD+8.9、RCP D+8.0）。モデルは232（Polling Forecast）、234（ElectIt）、245（535.wtf）と割れており、私は候補者の引退・資金格差とゲリマン州の反応鈍化（TX・MO・NC・OH・FLの新地図）を織り込み235。共和の700百万ドル投入は224割れを防ぐ床になるが、それでも+20は固い。【持ち越し】明日はオハイオ期日前の第2週集計、メイン第4討論会の反応、クック/IEの次回変更、そして共和の外部資金が実際に数字を動かし始めたかの最初の兆候を確認する。上院68%、下院88%。",
+    "key_news": [
+      {
+        "title": "クック政治報告が下院11選挙区をさらに民主方向へ変更。オハイオ・ネブラスカ・カンザスなど中西部の赤州が半数を占め、トランプが10ポイント以上で勝った地区も接戦化。共和の大規模広告も針を動かせていないと指摘。",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eleven-more-house-races-shift-toward-democrats",
+        "impact": "D+"
+      },
+      {
+        "title": "上院民主党候補が赤州で第3四半期の資金を圧倒。テキサスでタラリコ60.2百万ドル対パクストン10.2百万ドル。インサイド・エレクションズはカンザスをTilt R、サウスカロライナをLean R、テキサスをトスアップへ民主方向に変更。",
+        "source": "Roll Call",
+        "url": "https://rollcall.com/2026/10/16/senate-democrats-fundraising-third-quarter-elections/",
+        "impact": "D+"
+      },
+      {
+        "title": "共和党は9月以降に議会選で700百万ドル超の新規広告枠を確保（民主は430百万ドル）。上院の新規広告費の7割が共和で、テキサスだけで150百万ドル。SLFは四半期272.9百万ドルと記録的調達。",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-election/republicans-fight-red-state-midterm-chaos-hundreds-millions-late-money-rcna601675",
+        "impact": "R+"
+      },
+      {
+        "title": "Fox News世論調査でトランプ大統領の支持率が36%と自身最低。インフレ支持は22%、経済不支持70%、有権者の74%が経済を否定的に見て53%が来年悪化を予想。無党派の52%が2年前より暮らしが悪化と回答。",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/politics/fox-news-poll-cost-living-concerns-weigh-gop-midterms",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/14/hottest-2026-midterm-races-talarico-ahead-in-texas-senate-race-in-2-new-polls-updated-daily/?streamIndex=0",
+        "title": "Hottest 2026 Midterm Races—Democrats Lead In Maine, Texas Senate Races (Updated Daily)"
+      },
+      {
+        "url": "https://www.electoral-vote.com/evp2026/Senate/averages.html",
+        "title": "State Averages for Senate"
+      },
+      {
+        "url": "https://fredcornell.com/latest-us-polls",
+        "title": "Latest US polls | Fred Cornell"
+      },
+      {
+        "url": "https://535.wtf/dispatches/517-generic-ballot-average-stands-at-d-8-2-with-17-days-until",
+        "title": "Generic ballot average stands at D+8.2 with 17 days until the midterms · 535"
+      },
+      {
+        "url": "https://gking.harvard.edu/electit/",
+        "title": "ElectIt"
+      },
+      {
+        "url": "https://www.poliwave.com/us/fed/polls",
+        "title": "2026 Midterm Polls: Generic Ballot and Senate Races | Poliwave"
+      },
+      {
+        "url": "https://www.pollingforecast.com/us/news/178/democrats-hold-their-lead-in-a-week-with-one-new-poll",
+        "title": "Democrats hold their lead in a week with one new poll"
+      },
+      {
+        "url": "https://ballotpedia.org/Ballotpedia%27s_Polling_Index:_Generic_congressional_vote",
+        "title": "Ballotpedia's Polling Index: Generic congressional vote - Ballotpedia"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings",
+        "title": "CPR Race Ratings | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eleven-more-house-races-shift-toward-democrats",
+        "title": "Eleven More House Races Shift Toward Democrats | Cook Political Report"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/06/three-senate-races-shift-toward-democrats-cook-ratings/",
+        "title": "Three Senate races shift toward Democrats in Cook ratings - The Washington Post"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eighteen-more-house-race-ratings-move-democrats-favor",
+        "title": "Eighteen More House Race Ratings Move in Democrats’ Favor | Cook Political Report"
+      },
+      {
+        "url": "https://thecookpoliticalreport.substack.com/p/cpr-in-brief-october-6-2026",
+        "title": "CPR In Brief - October 6, 2026"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html",
+        "title": "Tracking the Early Vote in the 2026 Midterm Elections"
+      },
+      {
+        "url": "https://spectrumnews1.com/oh/columbus/news/2026/10/14/democrats-early-voting-ohio",
+        "title": "Democrats lead early voting in Ohio"
+      },
+      {
+        "url": "https://www.aristotle.com/data/early-absentee-voting-dashboard-2026-midterms/",
+        "title": "Early & Absentee Voting Dashboard - 2026 Midterms - Aristotle"
+      },
+      {
+        "url": "https://www.cnn.com/2026/10/11/politics/early-voting-midterms-ohio-democratic-shift-vis",
+        "title": "Early voting figures suggest Democratic gains in Ohio’s most Trump-friendly counties | CNN Politics"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/politics-news/democratic-senate-candidates-swamp-gop-rivals-fundraising-rcna603966",
+        "title": "Democratic Senate candidates swamp GOP rivals in ..."
+      },
+      {
+        "url": "https://senate.coldspark.com/",
+        "title": "2026 Senate Battleground Monitor"
+      },
+      {
+        "url": "https://rollcall.com/2026/10/16/senate-democrats-fundraising-third-quarter-elections/",
+        "title": "Senate Democratic candidates in red states dominate third-quarter fundraising – Roll Call"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+        "title": "2026 midterms money race: Democrats surge as Musk ..."
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-election/republicans-fight-red-state-midterm-chaos-hundreds-millions-late-money-rcna601675",
+        "title": "Republicans fight red-state midterm chaos with hundreds of millions in late money"
+      },
+      {
+        "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+        "title": "Trump Approval Rating: Latest Polls"
+      },
+      {
+        "url": "https://links.morningconsult.com/s/vb/FuWPkeeFhUfSwSDKs6yqxO-8_J5ggtnRucKP5vqLG9Ajf4Zt3Z3Zam-weQ9AI1GjdSwnJawzoU1FtZltqM8B1Egc5k1_YuBTwibppnwhEWkc-UCBjLOuF_8PkK71hHIgRNniKWwyyhdir9VP1803fg8tMTO3FEjgyJd-HA/FMh6qLLGVC0pnUDIqBBm6KvDjVh8Mb5u/25",
+        "title": ""
+      },
+      {
+        "url": "https://www.newsweek.com/donald-trump-approval-rating-conservative-pollster-midterms-12583441",
+        "title": "Trump's Approval Rating Hits All-Time Low Days Before Midterms - Newsweek"
+      },
+      {
+        "url": "https://www.pewresearch.org/politics/2026/10/08/trumps-approval-rating-drops-as-fewer-americans-are-confident-in-his-handling-of-the-economy-other-issues/",
+        "title": "Trump’s Approval Rating Drops as Fewer Americans Are Confident in His Handling of the Economy, Other Issues | Pew Research Center"
+      },
+      {
+        "url": "https://www.foxnews.com/politics/fox-news-poll-cost-living-concerns-weigh-gop-midterms",
+        "title": "Trump hits record-low 36% approval in Fox News poll amid inflation | Fox News"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0567,
+    "tokens": {
+      "prompt": 45602,
+      "completion": 5457,
+      "reasoning": 3101
+    }
   }
 ]
