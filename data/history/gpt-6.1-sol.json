@@ -85,71 +85,79 @@
   },
   {
     "date": "2026-10-17",
-    "generated_at": "2026-10-17T07:00:03+09:00",
+    "generated_at": "2026-10-17T22:54:15+09:00",
     "model_id": "openai/gpt-6.1-sol",
     "senate": {
       "dem": 51,
       "rep": 49
     },
     "house": {
-      "dem": 234,
-      "rep": 201
+      "dem": 233,
+      "rep": 202
     },
     "senate_control_prob_dem": 60,
-    "house_control_prob_dem": 87,
-    "comment": "青い波は赤い選挙区へ。上院はまだ防波堤。",
-    "change_reason": "前回記録は同じ10月16日未明のため、今回は同日18時時点への更新。クックの下院11選挙区の民主方向への格付け変更を受け、民主を１議席上積みしたが、上院は接戦を覆す新証拠が不足し据え置いた。",
-    "analysis": "米東部10月16日18時時点。クックは下院11区を民主方向へ変更し、CNN出演の担当者は民主優勢214、共和優勢200、接戦21と説明。これは当選予測そのものではなく、234議席は接戦の配分と優勢区での逆転も含む独自判断。MT01に加え、オハイオ、ネブラスカ、カンザスの共和地盤への戦線拡大を追う。上院はメーンの最新調査でも決定的な差がなく、ミシガンの防衛とオハイオ、テキサス、アラスカの奪取可能性を併せて評価する。ミネソタも民主の小幅優位にとどまり、討論後の調査待ち。民主の強みは生活費への不満と候補者募金、弱みは小幅リードが共通の調査誤差で消える点。共和は保守州の地盤とマスクらの外部資金が支えだが、防衛対象の拡大が負担。期日前投票数を得票と同一視せず、明日は討論後調査と広告再配分を確認する。民主会派の無所属を含み、上院50対50は共和支配として計算。確率は精密モデルではなく総合判断。",
+    "house_control_prob_dem": 85,
+    "comment": "青い波より、共和の防波堤の厚さを測る日。",
+    "hidden_dynamics": [
+      "民主の献金急増を、そのまま終盤の火力優位とは読まない。アイオワ公共ラジオによると、９月末の手元資金はヒンソン約700万ドル、テュレク約360万ドルで、共和には最後に広告を集中する余地がある。",
+      "APが分析したイラン関連広告65種類のうち61種類は家計負担を強調していた。私の推論では、民主は外交論争を生活費の責任論へ変換し、共和支持者にも政権への不満を投票に持ち込ませようとしている。",
+      "クックの下院11選挙区の民主方向への変更は、11議席増という意味ではない。私の読みでは、共和が守るべき範囲の拡大こそ重要で、従来の接戦区へ投入できる追加資源を薄める効果がある。"
+    ],
+    "hypothesis_title": "下院は守備範囲、上院は残弾",
+    "hypothesis": "前日の方向感を、共和の防衛資源が広い下院戦線では薄まり、少数の上院接戦州ではなお集中できるという仮説に整理する。民主の献金増と下院の格付け改善は追い風だが、上院では共和候補の手元資金が民主を上回る例も多い。したがって下院の民主優勢と上院の僅差を併存させる。献金は投票率の代理にはしない。今後、共和の追加広告後も複数の独立調査で民主優位が拡大すれば、上院の防波堤という見立てを捨てる。",
+    "hypothesis_status": "new",
+    "change_reason": "上院は民主会派47議席の維持にノースカロライナ、メーン、オハイオを加え、テキサス・アラスカの接戦群から実効１議席を見込む51議席を据え置く。下院は守備範囲拡大が233議席という既存中心値を裏づける一方、新たな独立調査で個別区の勝敗を変更する根拠は不足しており、議席数も確率も動かさない。",
+    "analysis": "10月17日９時54分東部時点。今日は民主優勢の拡大そのものより、その優勢を共和がどこまで買い戻せるかを評価する。クックの11区変更は下院の共和防衛線の広がりを示すが、格付けを議席へ機械変換しない。IA01・03、PA07・10、NY17を中心に233議席を維持する。上院はロールコールが報じた手元資金の逆転に注意し、メーン、オハイオの民主奪取想定を維持しつつ、テキサスとアラスカの両取りは中心シナリオにしない。アイオワは民主の献金額より共和の残金が反証材料。ミシガンとミネソタの防衛失敗は奪取益を相殺する。民主の強みは生活費への不満を候補の訴えにつなげられる点、共和の強みは保守州の基盤と終盤資金。全国共通の共和票過少捕捉なら接戦州は同時に逆転し得る。明日は広告予約ではなく実際の放映量、独立調査の投票見込み層、期日前投票の新規参加者構成を確認する。確率は独自判断であり、精密モデル値ではない。",
     "key_news": [
       {
-        "title": "16日、クックが下院11区を民主方向へ変更。共和地盤にも接戦拡大",
-        "source": "クック・ポリティカル・リポート／ワシントン・エグザミナー",
-        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768639/seats-shift-democrats-three-red-areas-major-projection-shows/",
+        "title": "16日、クックが下院11選挙区の格付けを民主方向へ変更",
+        "source": "クック・ポリティカル・リポート（非党派）",
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eleven-more-house-races-shift-toward-democrats",
         "impact": "D+"
       },
       {
-        "title": "16日、メーン上院選の最終討論と民主候補の募金優位を報道。調査では明確な勝者なし",
-        "source": "CNN",
-        "url": "https://prod.transcripts.cnn.com/show/ip/date/2026-10-16/segment/01",
+        "title": "17日未明のAP分析、イラン関連選挙広告は家計負担への訴えが中心",
+        "source": "AP通信",
+        "url": "https://apnews.com/article/midterms-iran-war-campaign-ads-e3e355b7d32f0912cb88524531149925",
+        "impact": "D+"
+      },
+      {
+        "title": "16日、メーン上院最終討論で個人攻撃が応酬、討論だけで勝敗は変更せず",
+        "source": "フォックス・ニュース（保守系）",
+        "url": "https://www.foxnews.com/video/6406973250112",
         "impact": "neutral"
       },
       {
-        "title": "16日、FEC提出資料に基づきマスクの共和系候補・団体への資金支援を報道",
-        "source": "ワシントン・エグザミナー",
-        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768561/elon-musk-political-donations-2026-elections/",
-        "impact": "R+"
-      },
-      {
-        "title": "16日、ミネソタ上院選の唯一の確定討論を予告。直近調査は民主候補が小幅リード",
-        "source": "アクシオス",
-        "url": "https://www.axios.com/local/twin-cities/2026/10/16/minnesota-senate-debate-2026-watch-listen-time",
+        "title": "16日の資金報道、民主上院候補の献金増と共和側の巨額支援が競合",
+        "source": "MS NOW／AOL転載（リベラル系）",
+        "url": "https://www.aol.com/articles/friday-campaign-round-10-16-161406000.html",
         "impact": "neutral"
       }
     ],
     "citations": [
       {
-        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768639/seats-shift-democrats-three-red-areas-major-projection-shows/",
-        "title": "16日、クックが下院11区を民主方向へ変更。共和地盤にも接戦拡大"
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eleven-more-house-races-shift-toward-democrats",
+        "title": "16日、クックが下院11選挙区の格付けを民主方向へ変更"
       },
       {
-        "url": "https://prod.transcripts.cnn.com/show/ip/date/2026-10-16/segment/01",
-        "title": "16日、メーン上院選の最終討論と民主候補の募金優位を報道。調査では明確な勝者なし"
+        "url": "https://apnews.com/article/midterms-iran-war-campaign-ads-e3e355b7d32f0912cb88524531149925",
+        "title": "17日未明のAP分析、イラン関連選挙広告は家計負担への訴えが中心"
       },
       {
-        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768561/elon-musk-political-donations-2026-elections/",
-        "title": "16日、FEC提出資料に基づきマスクの共和系候補・団体への資金支援を報道"
+        "url": "https://www.foxnews.com/video/6406973250112",
+        "title": "16日、メーン上院最終討論で個人攻撃が応酬、討論だけで勝敗は変更せず"
       },
       {
-        "url": "https://www.axios.com/local/twin-cities/2026/10/16/minnesota-senate-debate-2026-watch-listen-time",
-        "title": "16日、ミネソタ上院選の唯一の確定討論を予告。直近調査は民主候補が小幅リード"
+        "url": "https://www.aol.com/articles/friday-campaign-round-10-16-161406000.html",
+        "title": "16日の資金報道、民主上院候補の献金増と共和側の巨額支援が競合"
       }
     ],
     "searches": null,
-    "cost_usd": 0.1594,
+    "cost_usd": 0.1643,
     "tokens": {
-      "prompt": 45862,
-      "completion": 1488,
-      "reasoning": 566
+      "prompt": 45633,
+      "completion": 1998,
+      "reasoning": 631
     }
   }
 ]

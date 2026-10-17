@@ -144,6 +144,10 @@ main { max-width: 1100px; margin: -40px auto 0; padding: 0 16px; position: relat
 }
 .bubble::before { content: ""; position: absolute; top: -7px; left: 22px; width: 12px; height: 12px;
   background: inherit; border-left: inherit; border-top: inherit; transform: rotate(45deg); }
+.thesis { font-size: 13px; font-weight: 700; color: var(--ink-2); display: flex; gap: 8px; align-items: baseline; line-height: 1.45; }
+.thesis span { flex: none; font-size: 11px; font-weight: 800; color: var(--c); border: 1px solid var(--c); border-radius: 6px; padding: 0 6px; }
+.note .hyp b { color: var(--ink); }
+.hstatus { font-size: 11px; font-weight: 800; color: var(--c); border: 1px solid var(--c); border-radius: 6px; padding: 0 6px; margin-left: 4px; }
 .bubble.quiet { color: var(--muted); font-style: italic; }
 .seatrow { display: grid; grid-template-columns: 40px 1fr; gap: 8px; align-items: center; }
 .seatrow .ch { font-size: 12px; color: var(--ink-2); font-weight: 700; }

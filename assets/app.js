@@ -11,6 +11,7 @@
   // D needs 51 in the Senate (the VP breaks 50-50 ties for the GOP); 218 in the House.
   const MAJORITY = { senate: 51, house: 218 };
   const CHAMBER_JA = { senate: "上院", house: "下院" };
+  const STATUS_JA = { new: "新説", kept: "継続", refined: "修正", discarded_and_replaced: "撤回→新説" };
 
   const $ = (s, r = document) => r.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -117,6 +118,7 @@
       const s = SAGES[m.slug], l = m.latest;
       const body = l ? `
         <div class="bubble">${esc(l.comment)}</div>
+        ${l.hypothesis_title ? `<div class="thesis"><span>仮説</span>${esc(l.hypothesis_title)}</div>` : ""}
         <div>
           <div class="seatrow"><span class="ch">上院</span>${seatBar("senate", l.senate)}</div>
           <div class="seatmeta"><span class="delta">${deltaText(m, "senate")}</span><span>D支配確率 ${l.senate_control_prob_dem ?? "–"}%</span></div>
@@ -154,8 +156,11 @@
       }).join("");
       return `<details class="note" style="--c:var(${s.color})">
         <summary><span class="dot"></span>${esc(m.name)} の考察ノート</summary>
+        ${l.hypothesis ? `<h3>仮説 ${STATUS_JA[l.hypothesis_status] ? `<span class="hstatus">${STATUS_JA[l.hypothesis_status]}</span>` : ""}</h3><p class="hyp"><b>${esc(l.hypothesis_title)}</b>
+${esc(l.hypothesis)}</p>` : ""}
+        ${(l.hidden_dynamics || []).length ? `<h3>水面下の動き</h3><ul>${l.hidden_dynamics.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+        ${l.change_reason ? `<h3>仮説から議席数へ</h3><p>${esc(l.change_reason)}</p>` : ""}
         <h3>今日の考察</h3><p>${esc(l.analysis)}</p>
-        ${l.change_reason ? `<h3>数字を動かした理由</h3><p>${esc(l.change_reason)}</p>` : ""}
         ${news ? `<h3>注目ニュース</h3><ul>${news}</ul>` : ""}
         <p class="src">参照ソース ${(l.citations || []).length}件 · ${esc(l.model_id || m.id)} · ${md(l.date)}</p>
       </details>`;

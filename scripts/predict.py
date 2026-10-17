@@ -41,13 +41,21 @@ SYSTEM_PROMPT = """You are an independent, nonpartisan U.S. election analyst pro
 
 Current time: {now_et} (US Eastern) / {now_jst} (Japan).
 
-You keep a running forecast. Below you will receive YOUR OWN analyses from previous days (and only yours). Treat them as your notes: build on them, but revise whenever new evidence warrants it.
+You keep a running forecast. Below you will receive YOUR OWN analyses and hypotheses from previous days (and only yours). Treat them as your notes: build on them, but revise whenever new evidence warrants it.
+
+## Your job is NOT to summarize the news (most important rule)
+Anyone can read the headlines; a news digest is worthless here. Treat news, polls and ratings only as raw evidence. Your value is your own reasoning about what is NOT being said:
+- Look behind the reporting for unspoken dynamics: who is quietly moving money or pulling ads and why, what a campaign's schedule or messaging shift reveals about its internal polling, which voter groups the coverage ignores, structural biases in polls (nonresponse, likely-voter screens, herding), turnout mechanics, candidate quality, local issues, late-deciders, how past cycles' polling errors could repeat or reverse.
+- Form your OWN explicit hypothesis about how the election is really moving (one clear thesis, with your reasoning), even if it contradicts the consensus of forecasters, ratings or other analysts. Do not simply adopt Cook/Sabato/models/markets numbers; if your hypothesis implies a different outcome, your forecast must say so.
+- Derive your seat numbers FROM that hypothesis. The link between hypothesis and numbers must be explicit.
+- Each day, test yesterday's hypothesis against the new evidence: keep it, refine it, or discard it and form a new one. Say which.
 
 ## Today's procedure
 1. Use the web search tool to gather news and data from roughly the last 24 hours (since about {since_et} ET). Run a handful of focused, distinct searches (about 4-6), for example: new Senate/House polls, race-rating changes (Cook, Sabato, Inside Elections), polling averages and forecast models, prediction-market odds, fundraising/ad spending, candidate news, scandals, debates, economic and approval data, early-vote / turnout data.
 2. Avoid one-sided sourcing. Deliberately draw on left-leaning, right-leaning, and centrist/wire outlets (e.g. AP, Reuters, NYT, WaPo, WSJ, Fox News, Politico, The Hill, NBC, CNN, National Review, Washington Examiner), plus nonpartisan data sources. Weigh hard data (polls, early vote, ratings) above opinion. Note when a poll is partisan-sponsored.
-3. If there is little genuinely new information, it is fine to keep your numbers unchanged — do not create artificial movement. If this is your first day, establish a careful baseline from the overall state of the races.
-4. Produce your updated seat forecast for the NEW Congress (most likely outcome / median expectation):
+3. Think beyond the headlines (see the most important rule above): identify the unspoken dynamics, then build or update your own hypothesis.
+4. If there is little genuinely new information, it is fine to keep your numbers unchanged — do not create artificial movement. If this is your first day, establish your baseline hypothesis from the overall state of the races.
+5. Produce your updated seat forecast for the NEW Congress (most likely outcome / median expectation):
    - Senate: "dem" + "rep" must equal {senate}. Count independents who caucus with Democrats as "dem".
    - House: "dem" + "rep" must equal {house}.
 
@@ -60,14 +68,18 @@ Respond with ONE JSON object inside a ```json code block and nothing after it. A
   "senate_control_prob_dem": <int 0-100, your probability Democrats control the Senate>,
   "house_control_prob_dem": <int 0-100, your probability Democrats control the House>,
   "comment": "<一言コメント: 40字以内。ウィットがあって読んで楽しいが、中身のある一言>",
-  "change_reason": "<前日から数字を変えた/変えなかった理由を1〜2文>",
-  "analysis": "<今日時点の考察。注目州・接戦区、世論調査の傾向、両党それぞれの強み・リスクを含めて300〜500字。明日のあなた自身への引き継ぎメモになる>",
+  "hidden_dynamics": ["<報道では語られていないが、あなたが読み取った水面下の動き。1項目1〜2文で2〜3項目>"],
+  "hypothesis_title": "<あなたの仮説を一言で。25字以内>",
+  "hypothesis": "<あなた自身の仮説。何が起きていると考えるか、その根拠、どうなれば仮説を捨てるか。150〜250字>",
+  "hypothesis_status": "new | kept | refined | discarded_and_replaced",
+  "change_reason": "<仮説から今日の議席数をどう導いたか、前日から数字を変えた/変えなかった理由を1〜2文>",
+  "analysis": "<今日時点の考察。ニュースの要約ではなく、仮説に基づく読み。注目州・接戦区と両党の強み・リスクを含めて300〜500字。明日のあなた自身への引き継ぎメモになる>",
   "key_news": [
     {{"title": "<ニュースの要約(日本語)>", "source": "<媒体名>", "url": "<URL>", "impact": "D+ | R+ | neutral"}}
   ]
 }}
 ```
-key_news: 3-4 items from the last ~24 hours, from a balanced mix of outlets."""
+key_news: 3-4 items from the last ~24 hours, from a balanced mix of outlets — the evidence you used, not the point of your answer."""
 
 FIX_PROMPT = (
     "Your previous reply could not be used: {error}. "
@@ -120,12 +132,13 @@ def build_messages(history: list[dict], today: str, now: dt.datetime) -> list[di
                 f"Senate D{e['senate']['dem']}-R{e['senate']['rep']} / House D{e['house']['dem']}-R{e['house']['rep']}"
                 f" (P(D Senate)={e.get('senate_control_prob_dem', '?')}%, P(D House)={e.get('house_control_prob_dem', '?')}%)\n"
                 f"Comment: {e.get('comment', '')}\n"
+                f"Hypothesis: {e.get('hypothesis', '(none yet — form your first hypothesis today)')}\n"
                 f"Analysis: {e.get('analysis', '')}"
             )
-        lines.append("\nNow search today's news and produce today's updated forecast.")
+        lines.append("\nNow search today's news, test your latest hypothesis against it, and produce today's updated forecast.")
         user = "\n".join(lines)
     else:
-        user = "You have no previous forecasts — this is your first day. Research the current state of the midterm races and today's news, then produce your baseline forecast."
+        user = "You have no previous forecasts — this is your first day. Research the current state of the midterm races and today's news, form your own hypothesis, then produce your baseline forecast."
 
     return [{"role": "system", "content": system}, {"role": "user", "content": user}]
 
@@ -181,6 +194,10 @@ def validate(d: dict) -> None:
             raise ValueError(f"{chamber}: dem + rep = {dem + rep}, must equal {total}")
     if not str(d.get("comment", "")).strip() or not str(d.get("analysis", "")).strip():
         raise ValueError("comment and analysis must be non-empty")
+    if not str(d.get("hypothesis", "")).strip() or not str(d.get("hypothesis_title", "")).strip():
+        raise ValueError("hypothesis_title and hypothesis must be non-empty")
+    if not isinstance(d.get("hidden_dynamics"), list) or not d["hidden_dynamics"]:
+        raise ValueError("hidden_dynamics must be a non-empty list")
 
 
 def collect_citations(message: dict) -> list[dict]:
@@ -267,6 +284,10 @@ def run_model(model: dict, key: str, today: str, now: dt.datetime, effort: str) 
         "senate_control_prob_dem": data.get("senate_control_prob_dem"),
         "house_control_prob_dem": data.get("house_control_prob_dem"),
         "comment": str(data["comment"]).strip(),
+        "hidden_dynamics": [str(x).strip() for x in data["hidden_dynamics"] if str(x).strip()],
+        "hypothesis_title": str(data["hypothesis_title"]).strip(),
+        "hypothesis": str(data["hypothesis"]).strip(),
+        "hypothesis_status": str(data.get("hypothesis_status", "")).strip(),
         "change_reason": str(data.get("change_reason", "")).strip(),
         "analysis": str(data["analysis"]).strip(),
         "key_news": key_news,

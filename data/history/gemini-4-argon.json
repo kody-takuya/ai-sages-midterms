@@ -111,7 +111,7 @@
   },
   {
     "date": "2026-10-17",
-    "generated_at": "2026-10-17T07:00:03+09:00",
+    "generated_at": "2026-10-17T22:54:15+09:00",
     "model_id": "google/gemini-4-argon",
     "senate": {
       "dem": 51,
@@ -121,85 +121,96 @@
       "dem": 234,
       "rep": 201
     },
-    "senate_control_prob_dem": 59,
-    "house_control_prob_dem": 84,
-    "comment": "民主候補に記録的献金の追い風、下院は保守地盤まで青い波が侵食。",
-    "change_reason": "Cook Political Reportが伝統的な共和党地盤を含む下院11選挙区の情勢判断を民主党寄りに修正したこと、および第3四半期の選挙資金報告で民主党候補が圧倒的な集金力を示したことを受け、下院の民主党予測を2議席積み増し、両院の奪還確率をわずかに引き上げた。",
-    "analysis": "投開票まで18日となり、資金面と選挙区情勢の双方で民主党の優勢が一段と鮮明になっている。15日深夜に締め切られた連邦選挙委員会（FEC）の第3四半期報告では、上院の民主党候補が驚異的な集金力を記録した。テキサス州のタラリコが6400万ドル（共和党パクストンは1800万ドル）、オハイオ州のブラウンが2820万ドル（ハステッドは480万ドル）、メイン州のジャクソンが2040万ドル（コリンズは520万ドル）を調達し、共和党系スーパーPACの資金的優位を候補者個人の資金力で相殺しつつある。下院でもCook Political Reportが16日、トランプ氏が2024年に12ポイント差で勝利したモンタナ1区を「接戦」に移すなど計11選挙区を民主党寄りに修正した。最新のFox News世論調査では一般投票で民主党が9ポイント先行し、インフレと並び「政府の腐敗」への懸念が与党の重荷となっている。一方、15日夜の上院討論会ではアラスカ州でペルトラとサリバンがイラン戦争と燃料高を巡り激突し、メイン州ではジャクソンが現職コリンズに「黙れ」と発言して共和党側から品位を問われるなど、接戦州特有の波乱要因もくすぶる。全国で期日前投票が約484万票に達する中、無党派層の最終動向を引き続き注視したい。",
+    "senate_control_prob_dem": 57,
+    "house_control_prob_dem": 85,
+    "comment": "下院は青い津波が二桁トランプ区を呑み込み、上院は赤い資金の防波堤が試される。",
+    "hidden_dynamics": [
+      "Maristのアイオワ調査で登録有権者（D+7）と投票確実層（D+3）の間に4ポイントの乖離があり、同州の一般投票（Generic Ballot）では共和党が+3と逆転している。これは「トランプ不在の中間選挙で低関心層が抜け落ち、高学歴・高関心な民主党層が期日前投票で突出する」一方、保守州の基礎票（ベースライン）が終盤に回帰しつつある構造的ねじれを示唆している。",
+      "今夏の最高裁判決（NRSC対FEC）で解禁された政党・候補者間の無制限協調支出により、上院共和党（NRSCやSLF、イーロン・マスク氏の巨額献金）はテキサスやオハイオ等で民主党を圧倒する広告量を投下している。しかし下院では逆に民主党側が広告費で1億ドル以上優位に立っており、共和党の資金が「上院の防衛」に偏重して下院のトランプ二桁勝利区が無防備になる資金配分の非対称性が起きている。"
+    ],
+    "hypothesis_title": "「投票意欲の非対称性」と「上院の巨額資金防波堤」の衝突",
+    "hypothesis": "イラン戦争に伴うガソリン高（1ガロン4.47ドル）が招いたインフレ不満により、高関心な民主党支持層が期日前投票で圧倒的優位を築き、資金防衛の手薄な下院では2024年トランプ二桁勝利区まで決壊する。一方、上院の赤い州（TX、IA、OH、AK）では、共和党が最高裁判決で解禁された協調支出とスーパーPACの記録的資金力で終盤に党派性を呼び覚まし、世論調査のリードを削り取る。もし今後1週間でNCやGAの期日前投票で共和党の出足が2024年並みに回復すれば、下院の波も限定的としてこの仮説を捨てる。",
+    "hypothesis_status": "new",
+    "change_reason": "仮説に基づき、下院は資金優位と期日前投票の勢いが2024年トランプ二桁勝利区（MT-01やOH、NYなど）に波及していることを反映し民主党を2議席増の234議席（奪還確率85%）へ上方修正。上院は赤い州での共和党の巨額広告と潜在的党派性の回帰リスクを織り込み、51対49は維持しつつ過半数確率を58%から57%へ微調整した。",
+    "analysis": "今日設定した仮説の核心は、下院と上院で全く異なる力学が働いている点にある。Cook Political Reportが新たに11の下院選挙区を民主党有利へ変更し、その多くが2024年にトランプ氏が10ポイント以上リードした選挙区（モンタナ1区、オハイオ10・15区、ニューヨーク21区など）である事実は、単なる「反トランプ」ではなく、ガソリン価格45%急騰に直撃された中間層の離反と共和党支持層の意欲減退（Stay-at-home現象）を裏付けている。実際、ノースカロライナやジョージアの期日前投票序盤では、2024年にトランプ氏が先行した層とは対照的に民主党支持層が突出している。下院で民主党の広告支出が共和党を約1.1億ドル上回っていることも、競合区の拡大を加速させている。一方、上院は民主党が過半数（51議席）を得るにはノースカロライナとメインに加え、オハイオ、アイオワ、テキサス、アラスカの「赤い州」から最低2つを奪う必要がある。Maristのアイオワ調査が示す通り、上院候補個人（トゥレク氏）はリードしていても州全体の党派性（一般投票はR+3）は依然として赤い。さらに上院共和党はノースカロライナを切り捨てて浮いた資金とマスク氏らの巨額献金をテキサス（1.8億ドル超）やオハイオに集中投下しており、終盤の「赤い重力」による巻き返しリスクは極めて高い。明日はテキサス州で週明けに始まる期日前投票の事前動向と、激戦州の未決定層が巨額ネガティブ広告にどう反応しているかを検証する。",
     "key_news": [
       {
-        "title": "Cook Political Reportが下院11選挙区の予測を民主党寄りに修正、モンタナ1区など共和党地盤も接戦化",
-        "source": "The Washington Post / Washington Examiner",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3YMXXSL7nhc_1nRIG0Z05Y067icMebzsHODqTMC20AS1j22WpdDAHsf7WgMOfJS8QHL0jH_o-lWbhj0u_p3FiX519qLmUgh5aLlb5Cs0xsMYI-M8CeSleITxGpR2YxbdyARD49OWyKr5zpm8-0qDphcP5MI0FluFK07QpIutpMs0a-SCbzvsSzM5Vu3IG-eA9GaJ4tMpUtfmkNFRZKIOqGm_Oj679j53xZ8CNVO_s",
+        "title": "Cook Political Reportが下院11選挙区の予測を民主党有利に変更、モンタナ1区がトスアップになるなどトランプ二桁勝利区にも波及",
+        "source": "The Washington Post",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXJefTYXBretYOT0RPD91WMNaVAaUdmpH-cwmOrP46LpzqNeaOTzv7GThjQuUruDlEJ3IFQIqJQhzsFu6s3TlJ7AtJURjcAY6NrHfj_BzDpZRi7LiDeE8PmdVI9LuEoMFG2khJJxNRMau4Fu0Yh-DBSecN6XBceih9qE7J-x8jlT1mEoEEkmlTweUoEw6p0oMLkAWdpS239gBqilwyvGGZK8b1qlgQA4aNMdLwZI0=",
         "impact": "D+"
       },
       {
-        "title": "第3四半期の選挙資金報告で民主党上院候補が記録的集金、テキサス州タラリコ候補は6400万ドル調達",
-        "source": "Semafor",
-        "url": "https://www.semafor.com/article/10/15/2026/senate-democratic-candidates-post-holy-crap-fundraising-numbers",
+        "title": "ノースカロライナ・ジョージア両州の期日前投票序盤データで民主党支持層の出足が2024年比で大幅に先行",
+        "source": "CBS News",
+        "url": "https://www.youtube.com/watch?v=tmO47RyW4wo",
         "impact": "D+"
       },
       {
-        "title": "メイン・アラスカ両州で重要な上院討論会が開催、イラン戦争・物価高を巡り激論、メインでは「黙れ」発言も",
-        "source": "Associated Press",
-        "url": "https://www.wsbtv.com/unavailable-location/",
+        "title": "Maristアイオワ州世論調査：上院は民主党トゥレク氏が投票確実層で3ptリードするも、一般投票では共和党が3pt優位",
+        "source": "Marist Poll",
+        "url": "https://maristpoll.marist.edu/latest-polls/",
         "impact": "neutral"
       },
       {
-        "title": "Fox News世論調査で「政府の腐敗」と物価高が最大の懸念に、Gallup調査でも経済運営の信頼度で民主党が14年ぶり優位",
-        "source": "The Washington Post / Fox News",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8Beh59fTAMnbz6HsYYQIDK2ToHwtx8O5gYA3W6waPwCqSb-s8IniQLybZBBl-EVC-e79ymkjmrQJm83wKt72IXFl7_W6vzrn7pxyXZAKLnJmyjRVXA4MdbLs7cohrheefasJSKw6qFuMKuC1E7ibcX_fx60cfi37_n4NfR53SlrhtbrYG0yZoZrFihnQgOO-koRwtxE-V9lG9Y7NLpYc4qHzEkTzljKMMfPOKlKtoLtOpXk1JOjOhmvZveg==",
-        "impact": "D+"
+        "title": "AdImpact集計：中間選挙の広告支出が38億ドル突破、上院は最高裁判決を活用した共和党側が圧倒し下院は民主党側が優位",
+        "source": "Campaigns & Elections",
+        "url": "https://campaignsandelections.com/industry-news/the-2026-political-ad-tally-so-far-3-8b-and-counting/",
+        "impact": "R+"
       }
     ],
     "citations": [
       {
-        "url": "https://www.newsfromthestates.com/article/trump-back-road-analysts-see-more-congressional-races-shifting-dems-favor",
-        "title": "newsfromthestates.com"
+        "url": "https://maristpoll.marist.edu/latest-polls/",
+        "title": "marist.edu"
       },
       {
-        "url": "https://www.the-downballot.com/p/the-downballots-3q-2026-senate-and",
-        "title": "the-downballot.com"
+        "url": "https://campaignsandelections.com/industry-news/the-2026-political-ad-tally-so-far-3-8b-and-counting/",
+        "title": "campaignsandelections.com"
       },
       {
-        "url": "https://www.semafor.com/article/10/15/2026/senate-democratic-candidates-post-holy-crap-fundraising-numbers",
-        "title": "semafor.com"
+        "url": "https://www.wionews.com/world/us-senate-republicans-ad-spending-north-carolina-texas-midterms-2026-1791911830467",
+        "title": "wionews.com"
       },
       {
-        "url": "https://www.wbal.com/troy-jackson-tells-susan-collins-to-shut-up-during-heated-maine-senate-debate",
-        "title": "wbal.com"
+        "url": "https://www.brennancenter.org/our-work/analysis-opinion/big-money-breaks-records-boosts-gop-5-things-know-about-midterms",
+        "title": "brennancenter.org"
       },
       {
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3YMXXSL7nhc_1nRIG0Z05Y067icMebzsHODqTMC20AS1j22WpdDAHsf7WgMOfJS8QHL0jH_o-lWbhj0u_p3FiX519qLmUgh5aLlb5Cs0xsMYI-M8CeSleITxGpR2YxbdyARD49OWyKr5zpm8-0qDphcP5MI0FluFK07QpIutpMs0a-SCbzvsSzM5Vu3IG-eA9GaJ4tMpUtfmkNFRZKIOqGm_Oj679j53xZ8CNVO_s",
-        "title": "washingtonpost.com"
+        "url": "https://dccc.org/%F0%9F%9A%A8-cook-political-report-11-house-races-shift-towards-democrats-%F0%9F%9A%A8/",
+        "title": "dccc.org"
       },
       {
-        "url": "https://suaragarut.id/en/cook-report-house-races-democrats",
-        "title": "suaragarut.id"
+        "url": "https://www.macrobond.com/resources/macro-trends/u-s-2026-midterm-elections-the-cost-of-living-squeeze-behind-the-polling-data",
+        "title": "macrobond.com"
       },
       {
-        "url": "https://www.commondreams.org/news/fox-news-poll-corruption",
-        "title": "commondreams.org"
+        "url": "https://apnews.com/projects/2026-us-elections-senate-key-races-to-watch/",
+        "title": "apnews.com"
       },
       {
-        "url": "https://www.news4jax.com/news/politics/2026/10/16/troy-jackson-tells-susan-collins-to-shut-up-during-heated-maine-senate-debate/",
-        "title": "news4jax.com"
+        "url": "https://www.youtube.com/watch?v=tmO47RyW4wo",
+        "title": "youtube.com"
       },
       {
-        "url": "https://www.wsbtv.com/unavailable-location/",
-        "title": "wsbtv.com"
+        "url": "https://ua.news/en/world/cook-political-report-zminiv-otsinki-11-okrugiv-na-korist-demokrativ-u-ssha-the-hill",
+        "title": "ua.news"
       },
       {
-        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-        "title": "ufl.edu"
+        "url": "https://www.youtube.com/watch?v=6u57MogIEcM",
+        "title": "youtube.com"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=TdRReOSDOCk",
+        "title": "youtube.com"
       }
     ],
     "searches": null,
-    "cost_usd": 0.157,
+    "cost_usd": 0.0972,
     "tokens": {
-      "prompt": 1548,
-      "completion": 2794,
-      "reasoning": 962
+      "prompt": 1995,
+      "completion": 2317,
+      "reasoning": 0
     }
   }
 ]
