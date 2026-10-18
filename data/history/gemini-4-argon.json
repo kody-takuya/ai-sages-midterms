@@ -349,5 +349,114 @@
       "completion": 3468,
       "reasoning": 769
     }
+  },
+  {
+    "date": "2026-10-19",
+    "generated_at": "2026-10-19T07:00:03+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 234,
+      "rep": 201
+    },
+    "senate_control_prob_dem": 57,
+    "house_control_prob_dem": 85,
+    "comment": "知事には赤、上院には青。赤い州の「分割投票」が大富豪の広告爆撃をかわす。",
+    "hidden_dynamics": [
+      "テキサス州の最新CBS調査でタラリコ支持者の7%が共和党アボット知事を支持し、「普段は絶対に民主党に入れない」層の9%を取り込むなど、赤い州で物価高と候補者の人格を軸にした「保守層の分割投票（チケット・スプリット）」がスーパーPACのネガティブ広告を無効化しつつある。",
+      "民主党が赤い州で攻勢をかける裏で、防衛線のミシガン州では左派エルサイード候補が予備選で落としたデトロイトの高齢黒人層・不在者投票層を固めきれず（黒人層の政党支持83%に対し個人支持67%）、共和党ロジャーズ氏の猛追を許す「青い壁の死角」が生じている。",
+      "アリゾナ1区やミシガン州などで、AIデータセンター建設ラッシュに伴う電気代高騰と水資源消費への住民反発が超党派の争点として浮上し、開発推進派と見なされた共和党候補が郊外無党派層を失う隠れた下院の敗因になっている。"
+    ],
+    "hypothesis_title": "赤い州の分割投票と青い壁の死角が交錯する51議席",
+    "hypothesis": "ガソリン高と生活費高騰の中、民主党は期日前投票の動員力と小口献金による広告単価優位で下院を圧倒する。上院の赤い州（TX、OH、IA）では共和党が巨額PAC資金で党派性を煽るが、インフレ不満と候補者の資質を重視する穏健保守層の「分割投票」が民主党の防波堤となる。一方、ミシガン等の防衛区では左派候補への黒人・穏健層の離反リスクが潜み、攻防の相殺で51議席前後に着地する。今週始まるTX期日前投票で都市・郊外層の出足が鈍れば、この仮説を修正し上院予測を共和党側へ戻す。",
+    "hypothesis_status": "refined",
+    "change_reason": "18日公表のCBSテキサス調査（タラリコ51対49）やオハイオ調査（ブラウン48対42）が仮説の「赤い州での互角以上の戦い」を裏付けた一方、ミシガン州での民主党の伸び悩みも確認されたため、昨日の仮説を「分割投票と防衛区の相殺」へ精緻化した上で、上下両院とも昨日の議席予測（上院D51、下院D234）を維持した。",
+    "analysis": "18日発表のCBS調査は、総額4.4億ドルが飛び交うテキサス上院選でタラリコ氏（民）がパクストン氏（共）を51対49で僅差リードしていると示した。注目すべきは中身だ。同じ投票用紙の知事選では共和党現職アボット氏が優位な一方、タラリコ氏は「絶対に民主党に投票しない」としていた層の9%や共和党支持層の5%を奪っている。弾劾歴のあるパクストン氏への忌避感と生活費高騰が、党派性を超えた分割投票を生んでいる構図は、同日発表のオハイオ州（YouGov調査でブラウン氏が48対42と6ポイント先行）でも共通する。これにより民主党はノースカロライナ、メインに加え、オハイオとテキサス・アイオワ・アラスカのいずれかを奪う51議席への道筋を太くした。ただし民主党の死角はミシガン州だ。左派のエルサイード候補に対し、共和党ロジャーズ氏が18日のCNN番組等で猛攻を仕掛け、デトロイトの黒人層・高齢不在者投票層の取り込み不足が表面化している。下院は一般投票平均で民主党が8ポイント前後のリードを保ち、データセンター建設による電気代高騰への反発も追い風に234議席ペースと堅調だ。明日は19日に解禁されるテキサス州の期日前投票の初日データを検証する。",
+    "key_news": [
+      {
+        "title": "CBS世論調査：テキサス上院選はタラリコ51%・パクストン49%の超接戦、物価高と候補者の資質で保守層の一部が分割投票",
+        "source": "CBS News",
+        "url": "https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/",
+        "impact": "D+"
+      },
+      {
+        "title": "オハイオ上院補選の最新YouGov調査で民主党ブラウン氏が48%対42%とリード拡大、各地の最新調査で民主党優位続く",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/18/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-in-new-polls-updated-daily/",
+        "impact": "D+"
+      },
+      {
+        "title": "投開票まで16日、トランプ氏がケンタッキー州で集会し中間選挙を政権の信任投票と位置付け、ジョンソン議長は下院維持を主張",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-republicans-democrats-october-18",
+        "impact": "neutral"
+      },
+      {
+        "title": "ミシガン上院選で共和党ロジャーズ氏がエルサイード氏への懸念を強調、デトロイト黒人層の支持固めが民主党防衛の焦点に",
+        "source": "iHeartRadio / CNN",
+        "url": "https://www.iheart.com/content/2026-10-18-mike-rogers-says-michigan-voters-worry-about-el-sayed/",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/",
+        "title": "cbsnews.com"
+      },
+      {
+        "url": "https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/",
+        "title": "cbsnews.com"
+      },
+      {
+        "url": "https://www.bridgedetroit.com/detroit-is-key-to-abdul-el-sayeds-senate-bid-but-he-faces-deep-divides/",
+        "title": "bridgedetroit.com"
+      },
+      {
+        "url": "https://www.iheart.com/content/2026-10-18-mike-rogers-says-michigan-voters-worry-about-el-sayed/",
+        "title": "iheart.com"
+      },
+      {
+        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-republicans-democrats-october-18",
+        "title": "foxnews.com"
+      },
+      {
+        "url": "https://planetdetroit.org/2026/09/data-centers-michigan-senate-rogers-el-sayed/",
+        "title": "planetdetroit.org"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/18/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-in-new-polls-updated-daily/",
+        "title": "forbes.com"
+      },
+      {
+        "url": "https://www.fisherphillips.com/en/insights/insights/5-us-senate-races-to-watch-this-midterm-election-cycle",
+        "title": "fisherphillips.com"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/14/hottest-2026-midterm-races-talarico-ahead-in-texas-senate-race-in-2-new-polls-updated-daily/",
+        "title": "forbes.com"
+      },
+      {
+        "url": "https://english.elpais.com/usa/2026-10-18/election-calculator-who-will-control-the-senate-after-the-midterms.html",
+        "title": "elpais.com"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+        "title": "wikipedia.org"
+      },
+      {
+        "url": "https://www.latintimes.com/early-voting-opens-now-across-us-heres-complete-guide-39-million-latino-voters-600294",
+        "title": "latintimes.com"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1758,
+    "tokens": {
+      "prompt": 3284,
+      "completion": 4326,
+      "reasoning": 1881
+    }
   }
 ]

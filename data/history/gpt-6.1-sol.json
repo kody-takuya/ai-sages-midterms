@@ -232,5 +232,98 @@
       "completion": 1955,
       "reasoning": 546
     }
+  },
+  {
+    "date": "2026-10-19",
+    "generated_at": "2026-10-19T07:00:03+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 85,
+    "comment": "不満は満タン。投票箱まで走るかが勝負。",
+    "hidden_dynamics": [
+      "家計不満が民主票になる経路は二つある。農村で共和の勝ち幅を削る経路と、若いラティーノの参加を促す経路だが、後者には棄権という出口もあり、一律の民主スイングとは読まない。([apnews.com](https://apnews.com/article/648b1abd8cc3c58f59ac3bce91c95138))",
+      "全国調査で大統領を「やや不支持」とする投票見込み層は共和候補支持が58％。共和の広告が狙えるのは大統領への好感回復より、この層の分割投票維持だと推測する。([abcnews.com](https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id=137322849))",
+      "オハイオの新調査は共和0.4ポイント先行だが、調査期間は９月26日〜10月18日。公表日の新しさを終盤の反転と取り違えず、長期間の回答混合と独自の重み付けを警戒する。([activote.net](https://www.activote.net/polls/2026/oh-u-s-senate))"
+    ],
+    "hypothesis_title": "家計逆風、票への変換は二段階",
+    "hypothesis": "前回の「広告では家計不満を消しにくい」を、説得と参加の二段階に修正する。全国の投票見込み層でも民主優位が残るため、下院の逆風は単なる低関心層の不満ではない。一方、共和寄り州の上院では、不満を持つ有権者の棄権と共和候補への分割投票が防波堤になる。民主の支持拡大だけでは議席を積み増さない。複数の独立調査で家計悪化層が共和へ戻るか、民主寄り若年層の参加意欲が継続低下すれば、この仮説を捨てる。([abcnews.com](https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id=137322849))",
+    "hypothesis_status": "refined",
+    "change_reason": "中心シナリオは民主会派47議席を守り、ノースカロライナ、メーン、オハイオ、テキサスを奪う51議席で据え置く。下院233議席も、全国逆風を接戦区の奪取へ変換する従来想定を維持し、投票見込み層の民主８ポイント優位は補強材料とするが、１調査で獲得区を追加しない。([abcnews.com](https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id=137322849))",
+    "analysis": "米東部2026年10月18日18時基準。前回メモの基準時刻は17日18時だったため、その後の証拠を評価した。全国の民主優位は投票見込み層にも残り、下院233議席を支える一方、上院まで同じ幅で動くとは見ない。([abcnews.com](https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id=137322849)) テキサス新調査のタラリコ51対パクストン49は奪取想定と整合するが、安心圏ではない。([realclearpolling.com](https://www.realclearpolling.com/latest-polls/senate)) オハイオの拮抗調査も加わり、51議席への経路は依然細い。([activote.net](https://www.activote.net/polls/2026/oh-u-s-senate)) メーンの討論後の応酬は、共和が家計から候補の気質へ争点を移す材料になり得るが、効果を示す調査なしに議席は動かさない。([washingtonexaminer.com](https://www.washingtonexaminer.com/news/campaigns/congressional/4770138/troy-jackson-susan-collins-shut-up-maine-debate/)) 下院はIA01・03、PA07・10、NY17に加えAZ06を監視対象とする。民主には家計争点、共和には現職の個人票が武器という見立てだ。AZ06の大統領との距離取りは後者の試みと読む。明日は若年層の参加意欲と独立した短期調査を確認する。確率は独自判断で、精密モデル値ではない。([apnews.com](https://apnews.com/article/e022e43e08124e8f279c858a110860d0))",
+    "key_news": [
+      {
+        "title": "18日公表のABC・ワシントンポスト・Ipsos調査、下院投票意向は投票見込み層で民主52％、共和44％。([abcnews.com](https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id=137322849&utm_source=openai))",
+        "source": "ABC News／The Washington Post／Ipsos",
+        "url": "https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id=137322849",
+        "impact": "D+"
+      },
+      {
+        "title": "18日公表のテキサス上院調査、タラリコ51％、パクストン49％で誤差範囲内。([cbsnews.com](https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/))",
+        "source": "CBS News／YouGov",
+        "url": "https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/",
+        "impact": "D+"
+      },
+      {
+        "title": "18日のAP報道、ラティーノの家計不満が共和離れを促す一方、投票参加は不確実。([apnews.com](https://apnews.com/article/e022e43e08124e8f279c858a110860d0))",
+        "source": "AP",
+        "url": "https://apnews.com/article/latino-hispanic-voters-midterms-house-majority-e022e43e08124e8f279c858a110860d0",
+        "impact": "neutral"
+      },
+      {
+        "title": "18日、メーン州民主上院候補ジャクソンが討論中のコリンズへの発言について謝罪を拒否。([washingtonexaminer.com](https://www.washingtonexaminer.com/news/campaigns/congressional/4770138/troy-jackson-susan-collins-shut-up-maine-debate/))",
+        "source": "Washington Examiner",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4770138/troy-jackson-susan-collins-shut-up-maine-debate/",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://apnews.com/article/648b1abd8cc3c58f59ac3bce91c95138",
+        "title": "Democrats target rural voters in the push to flip Republican strongholds | AP News"
+      },
+      {
+        "url": "https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id=137322849",
+        "title": "Democrats lead Republicans in House vote choice as Trump's approval rating hits record low: ABC/Post/Ipsos poll - ABC News"
+      },
+      {
+        "url": "https://www.activote.net/polls/2026/oh-u-s-senate",
+        "title": "Husted Narrowly Ahead in Ohio Senate Race · ActiVote"
+      },
+      {
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
+      },
+      {
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4770138/troy-jackson-susan-collins-shut-up-maine-debate/",
+        "title": "Troy Jackson declines to apologize for telling Susan Collins to 'shut up'"
+      },
+      {
+        "url": "https://apnews.com/article/e022e43e08124e8f279c858a110860d0",
+        "title": "Latino voters helped give Trump a second term. What's their move now? | AP News"
+      },
+      {
+        "url": "https://abcnews.com/Politics/democrats-lead-republicans-house-vote-choice-trumps-approval/story?id=137322849&utm_source=openai",
+        "title": "Democrats lead Republicans in House vote choice as Trump's approval rating hits record low: ABC/Post/Ipsos poll - ABC News"
+      },
+      {
+        "url": "https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/",
+        "title": "CBS News poll shows a Texas toss-up with Talarico, Paxton in tight Senate race - CBS News"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1834,
+    "tokens": {
+      "prompt": 54107,
+      "completion": 2153,
+      "reasoning": 584
+    }
   }
 ]

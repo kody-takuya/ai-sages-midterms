@@ -607,5 +607,187 @@
       "completion": 20226,
       "reasoning": 18135
     }
+  },
+  {
+    "date": "2026-10-19",
+    "generated_at": "2026-10-19T07:00:03+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 66,
+    "house_control_prob_dem": 93,
+    "comment": "投票済み50万票が本音。共和党員の足が投票所を避けている",
+    "hidden_dynamics": [
+      "NC早期投票は総数が2022年同地点比+38%なのに、登録共和党員の絶対数は-7%。比率が薄まったのではなく共和支持層そのものが減っており、動員できているのは民主(+54%)と無党派(+61%)だけ。これは世論調査には絶対に現れない、投票行動としての熱量差だ。",
+      "メイン州だけ早期投票の党派ギャップが2022年比でほぼ横ばい(D+34.2 対 D+33.6)。全国的な民主の波はメインに届いていない。コリンズは上院歳出委員長として「長期CR反対・核オプションに含み」と与党内で距離を取れており、ジャクソンはトランプ審判を個人に貼り付けられていない。民主の4議席目として最弱の環。",
+      "PoliticoのACA保険料税額控除2年延長協議とNOTUSの核オプションCR報道は、どちらも「閉鎖を10月中に終わらせる」方向の動き。実現すれば民主の最強カードが消滅するが、逆に民主が嫌って引き延ばせば「閉鎖を長引かせたのは民主」の帰責が再点火する。両党とも動けないジレンマにある。",
+      "Morning Consultの承認率46%(週間+3)とIpsosの33%は並存不能で、差はサンプル定義と重み付け。水準ではなくMC自身のトラッカー内で+3動いたこと、generic ballotがD+3で凍結していることが重要。環境は悪化も改善もしていない=民主にとっての「時間稼ぎ」は既に使い切られた可能性がある。"
+    ],
+    "hypothesis_title": "熱量差は票で証明、争点は消えかけている",
+    "hypothesis": "「共和トリアージ+共和支持層の熱量欠如」仮説は維持し、証拠を世論調査から実投票行動へ格上げした。NC早期投票50万票で登録共和は2022年同地点比-7%、民主+54%、無党派+61%、総数+38%。IAも2日目で+61%、党派ギャップD+23.9(2022年D+10.4)。終盤の共和巻き返しに必要な燃料は、実際には投票所に現れていない。反証条件は一つに絞る:早期投票3週目で登録共和の絶対数が2022年比プラスに転じること。ただし新リスクとして、ACA税額控除延長か核オプションCRで閉鎖が10月中に解ければ民主の争点自体が消える。その場合は下院中央値を225前後へ下げる。",
+    "hypothesis_status": "refined",
+    "change_reason": "仮説が投票行動データ(NC・IA早期投票の党派構成)で裏付けられたため下院を232→233へ小幅上方修正。上院はTX(YouGov 51-49)と早期投票の上振れが、AK(PPP+1まで縮小)・ME(早期投票横ばい)・FL(Moody+6.2)の下振れと完全に対称で相殺されたため52-48を維持し、制御確率のみ66%へ引き上げた。",
+    "analysis": "今日の材料は上下がほぼ対称で、中央値を動かす根拠にならなかった。上院の4議席目は依然五つ巴だが中身が変わった。テキサスはYouGov(10/16,n=1458,非党派)がタラリコ51-49で、InsiderAdvantageのパクストン+1を質で上書き。アボット知事も+4まで詰まり州全体のブランド毀損が見える。逆にAKはPPP(民主系)が48-47と9月末NYT/Sienaの50-43から明確に縮小、RCVで第2選択がサリバンに寄る構造を考えると一段落ちた。MEは早期投票の党派ギャップが全国トレンドから唯一乖離しており、コリンズの制度的立場が効いている。\n\n下院はCook構造231-232にPA-10(ステルソン+3)が加わり上振れ余地。Fox勢力図はD219/R198/19未定で、未定19が全部Rに転んでも217止まり——共和多数は構造的に無理だ。CLFのNJ-7・IA-1復帰の形跡はなくトリアージ仮説は生きている。最大の新リスクは「閉鎖の終わり方」。ACA税額控除2年延長か核オプションCRで10月中に決着すれば民主の最強カードが消え、MCの言う通り喧騒だけが残る。その場合は225/50-51へ下げる準備をしておく。\n\n明日への申し送り:(1)早期投票3週目のNC・IA登録共和の絶対数、(2)ACA延長協議が実合意に至るか、(3)PPPのAK調査のLV定義、(4)YouGovテキサスの地域別内訳、(5)ME-2・KS-2の下院調査。",
+    "key_news": [
+      {
+        "title": "最新世論調査でテキサス(タラリコ51-49)とオハイオ(ブラウン)で民主党がリード、YouGovは10月16日に1458人の有権者を調査",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026-10-18/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-in-new-polls-updated-daily/",
+        "impact": "D+"
+      },
+      {
+        "title": "ノースカロライナ早期投票50万1318票、登録共和党員は2022年同地点比-7%、民主+54%・無党派+61%で党派ギャップはD+25.3(2022年D+10.9)",
+        "source": "Call the Map / NC State Board of Elections",
+        "url": "https://www.callthemap.com/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "トランプ大統領の純支持率が週間で3ポイント改善し46%対51%、一般投票意向はD+3で横ばい、閉鎖の帰責も共和46対民主36で変化なし",
+        "source": "Morning Consult",
+        "url": "https://links.morningconsult.com/s/vb/FuWPkeeFhUfSwSDKs6yqxO-8_J5ggtnRucKP5vqLG9Ajf4Zt3Z3Zam-weQ9AI1GjdSwnJawzoU1FtZltqM8B1Egc5k1_YuBTwibppnwhEWkc-UCBjLOuF_8PkK71hHIgRNniKWwyyhdir9VP1803fg8tMTO3FEjgyJd-HA/FMh6qLLGVC0pnUDIqBBm6KvDjVh8Mb5u/25",
+        "impact": "R+"
+      },
+      {
+        "title": "共和系トラファルガーがアイオワでヒンソン45.9-44.2チュレクと逆転、ミネソタでもフラナガン+3.5と差を縮める",
+        "source": "Trafalgar Group / PollingSource",
+        "url": "https://pollingsource.com/senate/polls",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Latest Senate Polls: Midterm Elections 2026"
+      },
+      {
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-senate-model",
+        "title": "FLIPR 2026 Senate forecast"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/18/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-in-new-polls-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Democrats Talarico And Brown Lead In Texas, Ohio (Updated Daily)"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://pollingsource.com/senate/polls",
+        "title": "2026 Senate Polls — Latest Race Polling | PollingSource"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html",
+        "title": "Tracking the Early Vote in the 2026 Midterm Elections"
+      },
+      {
+        "url": "https://www.pollingforecast.com/us/early-vote",
+        "title": "United States: early vote and turnout | Polling Forecast"
+      },
+      {
+        "url": "https://civicapi.org/early-vote/",
+        "title": "Early Vote Tracker | civicAPI"
+      },
+      {
+        "url": "https://www.callthemap.com/early-vote",
+        "title": "Early vote tracker: who has voted so far in 2026 · Call the Map"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eleven-more-house-races-shift-toward-democrats",
+        "title": "Eleven More House Races Shift Toward Democrats"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings | Cook Political Report"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/2026-rating-changes/",
+        "title": "2026 Rating Changes - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://thebostonreport.com/2026/10/16/midterm-elections-2026-senate-house-battleground-ratings/",
+        "title": "2026 Midterm Battlegrounds: Cook, Sabato Ratings | TBR"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+        "title": "Cook Political Report moves 11 House races move toward Democrats - The Washington Post"
+      },
+      {
+        "url": "https://links.morningconsult.com/s/vb/FuWPkeeFhUfSwSDKs6yqxO-8_J5ggtnRucKP5vqLG9Ajf4Zt3Z3Zam-weQ9AI1GjdSwnJawzoU1FtZltqM8B1Egc5k1_YuBTwibppnwhEWkc-UCBjLOuF_8PkK71hHIgRNniKWwyyhdir9VP1803fg8tMTO3FEjgyJd-HA/FMh6qLLGVC0pnUDIqBBm6KvDjVh8Mb5u/25",
+        "title": ""
+      },
+      {
+        "url": "https://acupuncturewithkate.com/article/senate-health-care-votes-us-venezuela-moves-what-it-means-for-you",
+        "title": "Senate Health Care Votes & US-Venezuela Moves: What It Means for You (2026)"
+      },
+      {
+        "url": "https://cripplecreekcabin.com/article/white-house-and-senate-last-ditch-efforts-to-avoid-shutdown",
+        "title": "White House and Senate: Last-Ditch Efforts to Avoid Shutdown (2026)"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/2025/10/18/government-shutdown-trump-third-longest-live-updates/86761391007/",
+        "title": "Third longest government shutdown in history continues"
+      },
+      {
+        "url": "https://links.morningconsult.com/s/vb/ym8JfUaOjlgif38SoCjCGPth6sxgb-ELMIMnEMF2E5YLxxKzw35PTtxDOnXqP6R7BKhuORUQFHsJ74buGtSU3kf1ofbEB0UXS6X7Sj_zbtcGHC2ggiv9S_WVtcNrM0rHXrv1kf7hTLZONoQALWSWwzENlgX1FjWUItM7iA/fE9WtmvEEMUzBgM2U_UlUbtkQvRCt4GY/14",
+        "title": ""
+      },
+      {
+        "url": "https://predictionmarketspicks.com/tools/midterms-2026",
+        "title": "2026 Midterms Odds — Live Senate, House & Control Tracker | PredictionMarketsPicks"
+      },
+      {
+        "url": "https://predictionscout.com/research/2026-midterms-prediction-market-tracker/",
+        "title": "2026 Midterm Predictions: Kalshi vs Polymarket Odds Tracker"
+      },
+      {
+        "url": "https://marketsgrade.com/live/senate-control-2026/",
+        "title": "Senate Control 2026 Odds: Live Prediction Market Prices | MarketsGrade"
+      },
+      {
+        "url": "https://candidatecasino.com/en/united-states/2026/senate-election/control/",
+        "title": "Control of the Senate after the 2026 midterms"
+      },
+      {
+        "url": "https://thinblimp.com/elections/2026-midterms",
+        "title": "2026 Midterm Election Odds — Kalshi vs Polymarket — ThinBlimp"
+      },
+      {
+        "url": "https://apnews.com/article/midterms-republicans-democrats-senate-house-cdd95df350c648d19e60cb3ecea42138",
+        "title": "Battle lines shift in House races as Republicans retreat from front-line districts"
+      },
+      {
+        "url": "https://www.foxnews.com/politics/trump-linked-super-pac-pulls-funding-from-2-house-republicans-gop-fights-keep-majority",
+        "title": "Trump-linked group pulls funding from New Jersey, Iowa House battlegrounds | Fox News"
+      },
+      {
+        "url": "https://www.politico.com/newsletters/playbook/2026/10/12/maga-inc-trims-the-map-01116150",
+        "title": "MAGA Inc. trims the map - POLITICO"
+      },
+      {
+        "url": "https://www.pbs.org/newshour/politics/republicans-retreat-from-battleground-districts-as-lines-shift-in-house-races",
+        "title": "Republicans retreat from battleground districts as lines shift in House races | PBS News"
+      },
+      {
+        "url": "https://particle.news/story/gop-super-pacs-pull-funding-from-two-incumbents-and-concede-three-house-seats",
+        "title": "Particle: GOP Super PACs Pull Funding From Two Incumbents and Concede Three House Seats"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1954,
+    "tokens": {
+      "prompt": 109294,
+      "completion": 10972,
+      "reasoning": 8682
+    }
   }
 ]

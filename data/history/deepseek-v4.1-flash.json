@@ -598,5 +598,186 @@
       "completion": 5457,
       "reasoning": 3101
     }
+  },
+  {
+    "date": "2026-10-19",
+    "generated_at": "2026-10-19T07:00:03+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 235,
+      "rep": 200
+    },
+    "senate_control_prob_dem": 68,
+    "house_control_prob_dem": 88,
+    "comment": "期日前の青い数字は熱量か、仕込みか——残り16日",
+    "hidden_dynamics": [
+      "期日前投票の民主党優位は「熱量」と「タイミング」の混合物で、投票の中身ではない。フロリダは2024年、同時期の登録D+6.1が最終的にR+10.1へ約16ポイント反転した。ノースカロライナのD+25.3も同じ割引が必要で、共和が「当日投票」へ回帰すれば見かけの差は消える。",
+      "共和系世調（InsiderAdvantage）でさえカンザス+1、テキサス+1と「最良でも1点」なのは、党内調査が示す地力低下の露見である。逆にミシシッピはD確率が6%→1%、サウスカロライナは10%→6%と民主党の夢が醒めており、上院の戦場は「赤州全部」ではなく「カンザス型の4〜5州」に収斂しつつある。",
+      "共和の上院外部資金はメイン（コリンズ側PAC 59百万ドル対ジャクソン側34百万ドル）に異常集中しており、資金配分そのものが「守れる州」の党内序列を暴露している。カンザス・アイオワ・サウスカロライナではPACの関心が薄く、ハミルトン（資金11倍）やタークの草の根資金が効く構図。"
+    ],
+    "hypothesis_title": "赤州の世調バイアスは今回は小さく、上院は52",
+    "hypothesis": "従来の「赤州の世調は本番で共和に2〜4点寄る」という歴史的前提は、今回は弱い。2020年・2024年の赤州バイアスはトランプ固有の低学歴・低投票頻度層の押し上げに由来し、トランプが票にいない今回は同じ補正が効きにくい。代わりを支配するのは候補の質（タラリコ、ブラウン、ペルトーラ、ハミルトン）と投票率の非対称、そして共和候補の弱さ（パクストン、ハステッド、マーシャル）である。よってNC・OH・TX・AKは民主、MEは資金差を熱量で逆転して民主、IA・KS・NE・SCは共和が薄氷で逃げ切る。棄却条件は、最終週に期日前の民主優位が共和の当日票で明確に逆転される兆候、またはメインでコリンズが平均+3以上に抜け出す気配。",
+    "hypothesis_status": "refined",
+    "change_reason": "仮説の骨格（赤州バイアス縮小＋候補の質が資金を上回る）は維持。ただし期日前投票のD優位がフロリダ2024型の反転を起こし得る「タイミング産物」である点を新たに織り込み、根拠の重みを世調・資金・候補の質へ移した。結論の中央値52・235は変わらないため数字は据え置き。",
+    "analysis": "【上院】現状53R-47D、必要な純増は4（50-50は副大統領で共和）。ノースカロライナはクーパーが+7〜14でほぼ確定、オハイオはブラウン+3〜6、テキサスはタラリコ+1〜6（ただし共和系インサイダーアドバンテージはパクストン+1）、アラスカはペルトーラが複数世調で一貫リード。この4州で51に届く。52にはメイン・アイオワ・カンザス・ネブラスカのいずれかが必要。メインはコリンズ側PACが59百万ドル（ジャクソン側34百万ドル）、現金も5.4百万対4.0百万と資金では共和が上だが、直近世調はインサイダーアドバンテージのジャクソン49-47、マリスト+4、WaPo+4と民主先行。私の仮説では州全域選は候補の質と熱量が資金を上回るためメインは民主、ただし最大の反証リスクでもある。カンザスは共和系世調でもマーシャル48-47の1点差、ハミルトンのQ3資金9.9百万ドルはマーシャル0.87百万ドルの11倍。ここが転べば53。サウスカロライナとミシシッピは共和が薄氷（IEはSCをリーンR、535のD確率はSC 6%・MS 1%）。民主側の下振れリスクはミシガン（エル=サイード）とネブラスカ（オズボーンは資金で上回るが地の赤さ）。中央値52、幅49〜54。【下院】ジェネリックはD+8.2（535、前日から不変）、LV平均はD+6.7〜7.0。モデルは226（ル・ミレネール）〜245（535）と割れ、クックの幅は224〜234。共和の巨額外部資金（CLF・SLF）は「224割れ」を防ぐ床として機能しているが、床を押し上げる効果は限定的。クックが10/16に11区を民主方向へ動かし、うち5区がOH・NE・KSという中西部赤州なのは上院と同じ経済不満の表れ。TX・MO・NC・OH・FLの新地図で民主保有トスアップが共和寄りに傾くのが唯一の歯止めだが、環境差がそれを上回る。中央値235（+20）。【持ち越し】明日はテキサス期日前投票開始（10/19）とオハイオ期日前の第2週集計、メインの世調更新、共和PACがカンザス・アイオワへ追加投入するかを見る。期日前のD優位はフロリダ2024型（同時期D+6.1→最終R+10.1）の反転を常に警戒し、最終盤の共和当日票サージの兆候を監視する。",
+    "key_news": [
+      {
+        "title": "上院民主党候補が赤州で第3四半期の資金を圧倒——カンザスのハミルトンは9.9百万ドルでマーシャル（0.87百万ドル）の11倍、サウスカロライナのアンドリュースも9.4百万ドル対1.8百万ドル",
+        "source": "Roll Call",
+        "url": "https://rollcall.com/2026/10/16/senate-democrats-fundraising-third-quarter-elections/",
+        "impact": "D+"
+      },
+      {
+        "title": "535.wtfの上院モデルは民主62%・平均51.0議席。カンザスの民主確率が51%→56%に上昇、ミシシッピは6%→1%、サウスカロライナは10%→6%に低下。ジェネリックはD+8.2で不変",
+        "source": "535.wtf",
+        "url": "https://535.wtf/dispatches/522-democrats-senate-chance-sits-at-62-as-kansas-and",
+        "impact": "D+"
+      },
+      {
+        "title": "インサイダー・エレクションズがテキサスをTilt RからToss-upへ、カンザスをTilt R、サウスカロライナをLean Rへ変更。共和防衛の接戦が一段と広がる",
+        "source": "Roll Call / Inside Elections",
+        "url": "https://rollcall.com/2026/10/16/senate-democrats-fundraising-third-quarter-elections/",
+        "impact": "D+"
+      },
+      {
+        "title": "全国で948万票の期日前投票。登録民主党51%対共和32%。ノースカロライナはD+25.3（2022年同時期D+10.9）、アイオワD+23.9、メインD+34.2と民主が大幅先行、一方フロリダは2022年比−28%で赤州の熱量低下を示す",
+        "source": "NBC News / Call the Map",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-senate-model",
+        "title": "FLIPR 2026 Senate forecast"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/18/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-in-new-polls-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Democrats Talarico And Brown Lead In Texas, Ohio (Updated Daily)"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls"
+      },
+      {
+        "url": "https://535.wtf/dispatches/522-democrats-senate-chance-sits-at-62-as-kansas-and",
+        "title": "Democrats' Senate chance sits at 62% as Kansas and Mississippi move in our model · 535"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings",
+        "title": "CPR Race Ratings | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eleven-more-house-races-shift-toward-democrats",
+        "title": "Eleven More House Races Shift Toward Democrats | Cook Political Report"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/06/three-senate-races-shift-toward-democrats-cook-ratings/",
+        "title": "Three Senate races shift toward Democrats in Cook ratings - The Washington Post"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eighteen-more-house-race-ratings-move-democrats-favor",
+        "title": "Eighteen More House Race Ratings Move in Democrats’ Favor | Cook Political Report"
+      },
+      {
+        "url": "https://thecookpoliticalreport.substack.com/p/cpr-in-brief-october-6-2026",
+        "title": "CPR In Brief - October 6, 2026"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html",
+        "title": "Tracking the Early Vote in the 2026 Midterm Elections"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://www.callthemap.com/early-vote",
+        "title": "Early vote tracker: who has voted so far in 2026 · Call the Map"
+      },
+      {
+        "url": "https://www.sos.state.tx.us/elections/earlyvoting/archive.shtml",
+        "title": "Early Voting Totals Archive"
+      },
+      {
+        "url": "https://marketsgrade.com/live/senate-control-2026/",
+        "title": "Senate Control 2026 Odds: Live Prediction Market Prices | MarketsGrade"
+      },
+      {
+        "url": "https://kalshi.com/markets/controls/senate-winner/controls-2026",
+        "title": "Which party will win the U.S. Senate?"
+      },
+      {
+        "url": "https://candidatecasino.com/en/united-states/2026/senate-election/control/",
+        "title": "Control of the Senate after the 2026 midterms"
+      },
+      {
+        "url": "https://predictionmarketspicks.com/tools/midterms-2026",
+        "title": "2026 Midterms Odds — Live Senate, House & Control Tracker | PredictionMarketsPicks"
+      },
+      {
+        "url": "https://predictionscout.com/research/2026-midterms-prediction-market-tracker/",
+        "title": "2026 Midterm Predictions: Kalshi vs Polymarket Odds Tracker"
+      },
+      {
+        "url": "https://senate.coldspark.com/",
+        "title": "2026 Senate Battleground Monitor"
+      },
+      {
+        "url": "https://rollcall.com/2026/10/16/senate-democrats-fundraising-third-quarter-elections/",
+        "title": "Senate Democratic candidates in red states dominate third-quarter fundraising – Roll Call"
+      },
+      {
+        "url": "https://www.politico.com/live-updates/2026/10/13/congress/mary-peltola-raises-17-million-alaska-01116382",
+        "title": "Mary Peltola raises $17M in Q3 in Alaska’s Senate race - Live Updates - POLITICO"
+      },
+      {
+        "url": "https://standandlead.us/data-senate-money/",
+        "title": "Senate Money, Race by Race | Stand & Lead"
+      },
+      {
+        "url": "https://aftercitizensunited.com/federal-races/2026/senate",
+        "title": "2026 U.S. Senate Campaign Finance & Outside Spending | After Citizens United"
+      },
+      {
+        "url": "https://forecast.lemillenaire.org/en/united-states/midterms/2026/house/",
+        "title": "House of Representatives 2026 · Forecast · Le Millénaire"
+      },
+      {
+        "url": "https://whoshowsup.net/national",
+        "title": "2026 Generic Ballot and National Environment | Who Shows Up"
+      },
+      {
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+        "title": "2026 Midterm Election Forecast: Senate & House | Silver Bulletin"
+      },
+      {
+        "url": "https://futureballot.com/districts",
+        "title": "House districts · FutureBallot"
+      },
+      {
+        "url": "https://unitedstatespolling.com/p/democrats-open-strong-in-early-voting",
+        "title": "Democrats Open Strong in Early Voting as the Midterms Approach"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0501,
+    "tokens": {
+      "prompt": 75073,
+      "completion": 7541,
+      "reasoning": 5056
+    }
   }
 ]

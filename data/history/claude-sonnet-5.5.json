@@ -221,5 +221,82 @@
       "completion": 2060,
       "reasoning": 102
     }
+  },
+  {
+    "date": "2026-10-19",
+    "generated_at": "2026-10-19T07:00:03+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 232,
+      "rep": 203
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 86,
+    "comment": "共和党の戻りは遅く、早期投票は青い。薄氷は続く",
+    "hidden_dynamics": [
+      "アイオワとノースカロライナの早期投票で、民主党が登録者ベースで大きく先行している。共和党は当日投票に回る傾向があるため過大評価は禁物だが、共和党の熱量が上がっていない兆しとして読める。",
+      "InsiderAdvantageなど共和党寄りとされる調査会社でも、メインはジャクソン氏+2が続いている。テキサスは同社だけがパクストン氏+1で、他の中立系調査はタラリコ氏+2〜4だ。共和党寄り調査が縮めた分は、実際の接戦化と調査会社ごとの偏りが混ざっている可能性が高い。",
+      "トランプ氏がジョージアなど共和党優位の州で集会を重ねているのは、接戦州より先に基礎票の防衛を迫られていることの表れかもしれない。パクストン氏が負けた場合の責任をコーニン氏とローブ氏に向ける発言は、共和党内で敗北を見越した責任論が始まっている兆候だ。"
+    ],
+    "hypothesis_title": "共和党の戻りは遅く、上院は薄氷",
+    "hypothesis": "上院は終盤に共和党がやや持ち直すとみるが、戻りは緩やかで、NC・ME・OHに加え4議席目をTX・AK・IAのどれかで取る構図は変わらない。下院は総合投票D+8前後で、区割りの不利を吸収できる。早期投票では民主党の動員が優位で、共和党は当日投票に回るため、投票前の調査ほど縮まらない可能性もある。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "新しい調査はおおむね既存の平均の範囲内で、アイオワのMarist(トゥレク氏+3)とYouGov(+1)が民主党にやや追い風だった。このため議席数は据え置き、上院の民主党支配確率だけ58%から60%に上げた。",
+    "analysis": "【上院】主要な新規調査は昨日までの像を大きく変えなかった。テキサスはUT/TPPがタラリコ氏+3、Maristが+2、ReconMR/Sienaが+4、InsiderAdvantageがパクストン氏+1、Quantusは同率で、平均は民主党+2前後だ。メインはRCP平均でジャクソン氏+1.6、アイオワではMaristがトゥレク氏+3、YouGovが+1だった。ミネソタはフラナガン氏が3点リードで、堅調ではあるが余裕はない。ノースカロライナはクーパー氏がWRAL/SurveyUSAで+14、Trafalgarでも+8と、事実上決着に近い。民主党は、NC・ME・OHに加え、TX・AK・IAのどれか1つを取る必要がある。1つ落とすと50-50で、副大統領により共和党が支配する。経路は複数あるが、どれも薄氷だ。【早期投票】アイオワでは民主党の差が23ポイントに広がった(2024年同時期は3ポイント)。ノースカロライナの初日の早期投票は2022年比で約47%増え、民主党が主導した。ただし共和党は当日投票に回る傾向が強く、これを選挙結果に直結させるのは過大評価になる。【下院】総合投票はEconomist/YouGovでD+8、トランプ氏の支持率は39%と低い。D+8は2018年並みで、区割りの不利を吸収できる。232議席、86%を維持する。明日はAK・OH・MIの新規調査、Kalshi/Polymarketの価格、共和党の当日投票への移行の兆候を確認する。",
+    "key_news": [
+      {
+        "title": "RCPの最新調査:テキサスはタラリコ氏が複数調査で+2〜4、InsiderAdvantageだけパクストン氏+1。アイオワはMaristでトゥレク氏+3",
+        "source": "RealClearPolling",
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "impact": "D+"
+      },
+      {
+        "title": "アイオワとノースカロライナの早期投票で民主党が優位。NC初日の早期投票は2022年比で約47%増",
+        "source": "CNN",
+        "url": "https://www.cnn.com/2026/10/16/politics/live-news/midterm-election-congress",
+        "impact": "D+"
+      },
+      {
+        "title": "InsiderAdvantage調査でテキサスはパクストン氏がわずかにリード、メインはジャクソン氏がリード",
+        "source": "Mediaite",
+        "url": "https://www.mediaite.com/media/news/new-poll-shows-republicans-with-slight-leads-over-democrats-in-two-key-senate-races-too-close-to-call/",
+        "impact": "R+"
+      },
+      {
+        "title": "Enten氏が民主党の上院過半数について慎重な見方を示す。OH・TX・IA・KS・ME・AKはいずれも数ポイント差",
+        "source": "Newsweek",
+        "url": "https://www.newsweek.com/harry-enten-raises-big-siren-over-democrats-senate-chances-12583044",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "title": "RCPの最新調査:テキサスはタラリコ氏が複数調査で+2〜4、InsiderAdvantageだけパクストン氏+1。アイオワはMaristでトゥレク氏+3"
+      },
+      {
+        "url": "https://www.cnn.com/2026/10/16/politics/live-news/midterm-election-congress",
+        "title": "アイオワとノースカロライナの早期投票で民主党が優位。NC初日の早期投票は2022年比で約47%増"
+      },
+      {
+        "url": "https://www.mediaite.com/media/news/new-poll-shows-republicans-with-slight-leads-over-democrats-in-two-key-senate-races-too-close-to-call/",
+        "title": "InsiderAdvantage調査でテキサスはパクストン氏がわずかにリード、メインはジャクソン氏がリード"
+      },
+      {
+        "url": "https://www.newsweek.com/harry-enten-raises-big-siren-over-democrats-senate-chances-12583044",
+        "title": "Enten氏が民主党の上院過半数について慎重な見方を示す。OH・TX・IA・KS・ME・AKはいずれも数ポイント差"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1038,
+    "tokens": {
+      "prompt": 31217,
+      "completion": 2132,
+      "reasoning": 69
+    }
   }
 ]
