@@ -789,5 +789,187 @@
       "completion": 10972,
       "reasoning": 8682
     }
+  },
+  {
+    "date": "2026-10-20",
+    "generated_at": "2026-10-20T07:00:03+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 234,
+      "rep": 201
+    },
+    "senate_control_prob_dem": 62,
+    "house_control_prob_dem": 94,
+    "comment": "D+8の波は郊外限定。アイオワの海には届かない",
+    "hidden_dynamics": [
+      "アイオワのトランプ支持率は44%(Marist)で全国の33%(WaPo)より11ポイント高い。逆風の波は「全国的な潮」ではなく「郊外・大卒の潮」で、だから全国ジェネリックがD+7.3でもIA/KS/AK/MTの上院は共和に粘る。逆に下院の限界区はほぼ全て郊外なので、波はそちらでだけ過剰に変換される。",
+      "DCCC報道官ライスが「218を獲るのに金は要らない。話しているのは次のレベルだ」と明言。締切を10月22日に置いた$17M調達と、R+18のOH-10(ターナー)・セントルイス郊外・リトルロックへの展開は、内部予測が既に225超であることを自ら漏らしている。CLFのOH-01撤退(Spectrum)と合わせ、両党の金が同じ物語を反対方向から語っている。",
+      "NPAのアイオワ調査は「投票意欲10/10」がチュレク支持層91%対ヒンソン支持層80%、登録民主91%対登録共和82%。共和がリードしている州ですら熱量格差が同一方向に出る=熱量欠如は州固有でなく全国的構造。終盤の共和巻き返しに必要な燃料が、負けそうな州にすら存在しない。",
+      "トランプは火曜グリーンビル(ピット郡=東カロライナ大のある民主寄り小都市)、バンスは月曜ヘンダーソンビルと、州の両端を回って「投票率を上げろ」と訴える。同時にCLFの新規予約はノーフォーク市場$1.19MでNC-1のデービス(民主現職)攻撃。自分のベースに投票所へ来いと乞いながら、来れば勝てるはずの相手を攻撃するのに残余資金を使う——この矛盾は公開トリアージより内部調査が悪いことを示す。"
+    ],
+    "hypothesis_title": "波は郊外限定、田舎上院は赤いまま",
+    "hypothesis": "「共和トリアージ+共和支持層の熱量欠如」は維持し、空間的な芯を足した。逆風は均一な全国潮汐ではなく、郊外・大卒・無党派に集中する波だ。根拠はアイオワのトランプ支持率44%対全国33%という11pt乖離と、IA州の下院ジェネリックがR+1〜R+3なのに全国はD+7.6という逆転。よって下院の限界区(ほぼ全て郊外)では波が過剰に変換されて234前後、上院の追加獲得枠(IA・KS・AK・MT)では波が届かず52で頭打ちになる。NC早期投票の登録共和-8%、NPAの意欲格差D91対R82は熱量欠如仮説を補強。反証条件:(1)早期投票3週目でNC登録共和の絶対数が2022年比プラスに転じる、(2)IA/KS/AKで民主系・非党派調査が同時に3pt超改善し州のトランプ支持率が全国へ収束する、(3)ACA延長か核オプションCRで閉鎖が10月中に決着する。いずれかで捨てる。",
+    "hypothesis_status": "refined",
+    "change_reason": "下院はCLFのOH-01撤退とDCCCのR+18区への展開(=218が内部で確定済みという自白)から+1の234。上院は議席数を52で維持しつつ、アイオワが三社(co/efficient・NPA・Trafalgar)同時にヒンソン+2〜+3へ反転しオハイオもActiVoteで50-50に詰まったため、「4議席目」への経路が5本から3本に減り、制御確率だけ66%→62%に下げた。",
+    "analysis": "今日の材料は上下院で明確に非対称だった。上院はアイオワの反転が決定的だ。co/efficient(10/15-19,n=863)ヒンソン48-45、NPA(10/8-12,n=678)同+3、Trafalgar(10/13-15)45.9-44.2と、手法も期間も違う三社が揃って共和に振れた。Maristのチュレク+3はLV部分のMOEが±6.6と使い物にならず、RV+7は棄却してよい。アイオワは「州政党ブランドの崩壊」ではなく「全国波が届かない州」だった——私の18日の読みはここで外れた。ただしNPAの意欲データ(民主91対共和82)は熱量欠如仮説を生かし、これはアイオワでの敗北と両立する。4議席目の残る経路はOH(callthemap D+3.2だがActiVoteは50-50)、TX(Talarico+2、CBS/YouGov51-49、Hobby+2)、ME(ジャクソン+2が三社一致)、AK(PPP48-47対ASRサリバン+6で不一致)、KS(平均は民主+1、InsiderAdvantageは+1で逆)。五つ巴からIAが消え、しかもAKの調査間乖離が大きい。中央値52は辛うじて保つが、確率を4pt下げるのが誠実だ。NCは10/18までに525,967票(+37%)、登録共和-8%・民主+53%・無党派+60%で、私の唯一の反証条件は未達成。市場(Kalshi63%/Polymarket65%)は私より上だが、DDHQ56%が近く、62%はその中間。下院は金の動きが全て民主方向だ。APのCLF撤退(IA-1・NJ-7・OH-1・MI-8で$13.3M=総額12%)に続き、SpectrumがOH-01の資金引き揚げを確認。Legis1のFCC予約は10/19週で民主$81.2M対共和$69.2M。共和の新規はノーフォーク市場のNC-1攻撃とフェニックスの$1.11Mのみで、守備にも攻勢にも厚みがない。Cook構造(185/17/12/21/13/16/171)の期待値は226〜232だが、DCCCの「次のレベル」発言と早期投票の実測を乗せて234とした。リスクは二つ:(1)IA州下院ジェネリックR+2が本当ならIA-1・IA-3のLean Dは脆く、2議席の下振れ要因。(2)閉鎖決着。APは「妥協は遠い、閉鎖は続く」と報じ、私の最大の downside シナリオは今日も発動しなかった。明日への申し送り:(1)NC・IA早期投票3週目の登録共和絶対数、(2)AKの調査乖離を解く新規非党派調査、(3)DCCC$17Mが10/22までに集まり実際にOH-10・MO-2・AR-2へ着金するか、(4)Trumpグリーンビル集会後のNC登録共和の日次増加、(5)ACA協議の着地点。",
+    "key_news": [
+      {
+        "title": "アイオワ上院でco/efficientがヒンソン48-45(+3)。知事はサンド+4、州下院ジェネリックは共和+2と、全国D+7.6と逆行",
+        "source": "co/efficient Battlegrounds",
+        "url": "https://battlegrounds.coefficient.org/ia/",
+        "impact": "R+"
+      },
+      {
+        "title": "CLFがIA-1・NJ-7・OH-1・MI-8から撤退(計$13.3M=総額12%)。DCCCは締切10/22の$17M調達を開始し、OH-10やマイアミ、セントルイス郊外、リトルロックへ展開へ。「218を獲るのに金は要らない、次のレベルだ」と幹部",
+        "source": "AP通信",
+        "url": "https://apnews.com/article/midterms-republicans-democrats-senate-house-cdd95df350c648d19e60cb3ecea42138",
+        "impact": "D+"
+      },
+      {
+        "title": "共和党、オハイオ1区(ランズマン現職)での資金投入を撤回。州内の民主シフトを受けた判断と報じられる",
+        "source": "Spectrum News 1 Ohio",
+        "url": "https://spectrumnews1.com/oh/columbus/news/2026-10-19/ohio-1st-district-landsman-conroy",
+        "impact": "D+"
+      },
+      {
+        "title": "NC早期投票は52.5万票で2022年比+36%、登録共和は-9%。トランプが火曜グリーンビル、バンスが月曜ヘンダーソンビル入りし投票率てこ入れ。WaPo調査のトランプ支持率は33%で両任期最低",
+        "source": "NC Newsline / Washington Post",
+        "url": "https://ncnewsline.com/2026-10-19/trump-heads-to-greenville-as-nc-republicans-struggle-with-early-voter-turnout/",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.electoral-vote.com/evp2026/Senate/averages.html",
+        "title": "State Averages for Senate"
+      },
+      {
+        "url": "https://pollingsource.com/senate/polls",
+        "title": "2026 Senate Polls — Latest Race Polling | PollingSource"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://vote-scope.com/en/us/senate/polls/",
+        "title": "U.S. Senate polling as of October 18, 2026 — Vote-Scope"
+      },
+      {
+        "url": "https://ncearly.peark.es/",
+        "title": "NC Early Vote 2026"
+      },
+      {
+        "url": "https://www.callthemap.com/early-vote",
+        "title": "Early vote tracker: who has voted so far in 2026 · Call the Map"
+      },
+      {
+        "url": "https://ncnewsline.com/2026/10/19/trump-heads-to-greenville-as-nc-republicans-struggle-with-early-voter-turnout/",
+        "title": "Trump heads to Greenville as NC Republicans struggle ..."
+      },
+      {
+        "url": "https://scorvec.com/midterms/early-vote.html",
+        "title": "Early Vote: 2026 Midterms"
+      },
+      {
+        "url": "https://carolinaelections.com/votetracker/",
+        "title": "JohnLocke Carolina Elections"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings"
+      },
+      {
+        "url": "https://apnews.com/article/midterms-republicans-democrats-senate-house-cdd95df350c648d19e60cb3ecea42138",
+        "title": "Democrats eye opportunities as Republicans drop spending in some House races | AP News"
+      },
+      {
+        "url": "https://spectrumnews1.com/oh/columbus/news/2026/10/19/ohio-1st-district-landsman-conroy",
+        "title": "Republicans pull funding in OH-01 amid Democratic shift"
+      },
+      {
+        "url": "https://legis1.com/news/super-pac-spending-superpac-shuffle-2",
+        "title": "SuperPAC Shuffle: North Carolina For the Win  | Legis1"
+      },
+      {
+        "url": "https://www.ap.org/news-highlights/elections/2026/battle-lines-shift-in-house-races-as-republicans-retreat-from-front-line-districts/",
+        "title": "Battle lines shift in House races as Republicans retreat from ..."
+      },
+      {
+        "url": "https://wingatecharleston.com/article/congress-last-minute-push-to-save-healthcare-what-s-at-stake",
+        "title": "Congress' Last-Minute Push to Save Healthcare: What's at Stake? (2026)"
+      },
+      {
+        "url": "https://www.cbsnews.com/news/house-health-care-vote-affordable-care-act-tax-credits/",
+        "title": "House approves 3-year Affordable Care Act tax credit extension as ..."
+      },
+      {
+        "url": "https://apnews.com/article/government-shutdown-aca-obamacare-subsidies-congress-trump-da06fcbc940e661234fac2ea9ee717a0",
+        "title": "Health care compromise seems far off as shutdown persists | AP News"
+      },
+      {
+        "url": "https://www.rosen.senate.gov/2025/10/30/video-senate-republicans-vote-to-go-home-override-rosens-attempt-to-keep-working-through-weekend-to-extend-aca-tax-credits-before-open-enrollment/",
+        "title": "VIDEO: Senate Republicans Vote to Go Home, Override Rosen’s Attempt to Keep Working Through Weekend to Extend ACA Tax Credits Before Open Enrollment - Jacky Rosen"
+      },
+      {
+        "url": "https://www.astho.org/communications/blog/2026/aca-enhanced-premium-tax-credits-legislative-developments-2025-2026/",
+        "title": "ACA Enhanced Premium Tax Credits: Legislative Developments in 2025 ..."
+      },
+      {
+        "url": "https://battlegrounds.coefficient.org/ia/",
+        "title": "Iowa U.S. Senate | Senate Battlegrounds 2026 | co/efficient"
+      },
+      {
+        "url": "https://www.realclearpolling.com/polls/senate/general/2026/iowa/turek-vs-hinson",
+        "title": "2026 Iowa Senate - Hinson vs Turek"
+      },
+      {
+        "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-october-2026/",
+        "title": "Home of the Marist Poll | Polls, Analysis, Learning, and More"
+      },
+      {
+        "url": "https://backend.natpublicaffairs.com/media/Iowa_General_Election_Memo_101526.3.pdf",
+        "title": "Iowa 2026 General Election Survey Results"
+      },
+      {
+        "url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/IA-Midterms-Report-1017.pdf",
+        "title": "General Election Poll"
+      },
+      {
+        "url": "https://kalshiview.com/markets/which-party-will-win-the-u-s-senate/",
+        "title": "Which party will win the U.S. Senate? Kalshi Odds: Democratic Party 62% | Kalshi View"
+      },
+      {
+        "url": "https://kalshi.com/markets/controls/senate-winner/controls-2026",
+        "title": "Which party will win the U.S. Senate?"
+      },
+      {
+        "url": "https://vote-scope.com/en/us/senate/compare-forecasts/",
+        "title": "2026 Senate Forecast Comparison: Vote-Scope vs Other Models — Vote-Scope"
+      },
+      {
+        "url": "https://futureballot.com/senate",
+        "title": "2026 Senate forecast · FutureBallot"
+      },
+      {
+        "url": "https://www.northjersey.com/story/news/2026/10/19/latest-midterm-polls-2026-election-betting-odds-whos-winning-midterms-house-senate-polymarket/92327696007/",
+        "title": "Latest midterm polls and election odds: Who’s winning the House and Senate?"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.2013,
+    "tokens": {
+      "prompt": 111182,
+      "completion": 11290,
+      "reasoning": 8575
+    }
   }
 ]

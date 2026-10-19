@@ -325,5 +325,90 @@
       "completion": 2153,
       "reasoning": 584
     }
+  },
+  {
+    "date": "2026-10-20",
+    "generated_at": "2026-10-20T07:00:03+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 85,
+    "comment": "財布で買えるのは広告枠。投票意欲は別売り。",
+    "hidden_dynamics": [
+      "共和のカンザス支援は、攻勢ではなく既存支持者の参加を買い戻す作戦と読む。安全州にも大統領の日程と資金が必要なら、上院で防衛資源を集中できるという従来の見立てには限界がある。ただし訪問だけで内部調査の劣勢は断定しない。([apnews.com](https://apnews.com/article/e6edac3a6fe6908f6191c0827e67767b))",
+      "コリンズへのマンチンの応援は、民主支持者を共和党へ転向させるより、『大統領には反対、上院議員は別』という投票の許可証を配る動きだと推測する。全国的な民主優勢をメーンの当確へ変換できない理由になる。([noticias.foxnews.com](https://noticias.foxnews.com/politics/manchin-bucks-schumer-throws-support-behind-republican-democrats-want-oust?utm_source=openai))",
+      "民主の反巨大テック広告は、文化論争ではなく電気代・雇用への不安を地方区へ移植する試みと読む。ただし効果を裏づける紹介調査には民主系・左派系の資料が含まれ、独立した因果検証ではない。([theatlantic.com](https://www.theatlantic.com/politics/2026/10/democratic-party-big-tech/689008/?utm_source=openai))"
+    ],
+    "hypothesis_title": "説得は青、参加と個人票は別勘定",
+    "hypothesis": "前回の「説得と参加の二段階」仮説を維持する。共和がカンザスなどへ防衛資源を追加する動きは、家計不満への反論だけでなく支持者の参加回復が必要な状況と整合する。一方、メーンの超党派応援は現職の個人票が残る反証だ。民主の追い風は下院の広い接戦群を動かすが、上院の保守州まで一律には届かない。複数の独立した投票見込み層調査で共和への回帰が続くか、民主寄り層の参加不足が確認されれば捨てる。([apnews.com](https://apnews.com/article/e6edac3a6fe6908f6191c0827e67767b))",
+    "hypothesis_status": "kept",
+    "change_reason": "上院は民主系47議席の防衛と、ノースカロライナ・メーン・オハイオ・テキサスの４奪取を中心経路として51議席を維持する。下院は家計争点による広範な接戦区の改善を既に233議席へ織り込んでおり、今日の証拠は仮説の補強であって、追加奪取を数える材料ではない。([investing.com](https://www.investing.com/news/politics-news/factboxthe-races-that-will-decide-control-of-the-us-senate-4956806))",
+    "analysis": "米東部2026年10月19日18時基準。前回メモも19日付だが、証拠の締切は18日18時だったため、その後を評価した。最大の論点は共和広告の量ではなく、広告優位でも候補の弱点を消せない可能性だ。ロイターが示すテキサスの巨額共和支出と民主の調査上の優位の併存は、この読みと整合するが、支出がなければ差がさらに大きかった可能性も残る。([investing.com](https://www.investing.com/news/politics-news/factboxthe-races-that-will-decide-control-of-the-us-senate-4956806)) メーンは個人票、オハイオは全国共通の調査誤差を警戒し、アラスカ・アイオワ・カンザスは上振れ枠に留める。下院はIA01・03、PA07・10、NY17、AZ06を継続監視。AAPI調査は成人対象で９月実施のため、今日の支持移動や実投票を示すものとは扱わない。([apnews.com](https://apnews.com/article/b05ea8497a7fab3ea3e83913ffeea9c8)) ノースカロライナの期日前参加増も得票差には換算しない。([axios.com](https://www.axios.com/local/charlotte/2026/10/19/north-carolina-early-voting-2026-democrats-gop?utm_source=openai)) 明日は新規参加者と常連の前倒しを区別し、若年層の参加意欲と独立調査を確認する。確率は独自判断である。",
+    "key_news": [
+      {
+        "title": "上院接戦州の資金・調査状況を更新、共和の巨額支出でもテキサスなどで接戦続く",
+        "source": "ロイター",
+        "url": "https://www.investing.com/news/politics-news/factboxthe-races-that-will-decide-control-of-the-us-senate-4956806",
+        "impact": "D+"
+      },
+      {
+        "title": "AAPI成人調査で経済面の共和支持が後退、ただし調査実施は９月８〜15日",
+        "source": "AP通信",
+        "url": "https://apnews.com/article/aapi-asian-american-midterm-elections-trump-democrats-republicans-b05ea8497a7fab3ea3e83913ffeea9c8",
+        "impact": "D+"
+      },
+      {
+        "title": "マンチンがメーンでコリンズを応援、超党派の個人票維持を後押し",
+        "source": "Fox News",
+        "url": "https://noticias.foxnews.com/politics/manchin-bucks-schumer-throws-support-behind-republican-democrats-want-oust",
+        "impact": "R+"
+      },
+      {
+        "title": "民主が巨大テック批判広告を拡大、生活費・雇用不安との接続を狙う",
+        "source": "アトランティック",
+        "url": "https://www.theatlantic.com/politics/2026/10/democratic-party-big-tech/689008/",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://apnews.com/article/e6edac3a6fe6908f6191c0827e67767b",
+        "title": "The Latest: Trump heads to Kansas to rally farmers’ votes in latest stop on midterm campaign blitz | AP News"
+      },
+      {
+        "url": "https://noticias.foxnews.com/politics/manchin-bucks-schumer-throws-support-behind-republican-democrats-want-oust?utm_source=openai",
+        "title": "Joe Manchin campaigns for Susan Collins in tight Maine senate race | Fox News"
+      },
+      {
+        "url": "https://www.theatlantic.com/politics/2026/10/democratic-party-big-tech/689008/?utm_source=openai",
+        "title": "The Democratic Party’s New Villain - The Atlantic"
+      },
+      {
+        "url": "https://www.investing.com/news/politics-news/factboxthe-races-that-will-decide-control-of-the-us-senate-4956806",
+        "title": "Factbox-The races that will decide control of the US Senate By Reuters"
+      },
+      {
+        "url": "https://apnews.com/article/b05ea8497a7fab3ea3e83913ffeea9c8",
+        "title": "AAPI adults lose trust in Trump and Republicans on economy, poll finds | AP News"
+      },
+      {
+        "url": "https://www.axios.com/local/charlotte/2026/10/19/north-carolina-early-voting-2026-democrats-gop?utm_source=openai",
+        "title": "NC Democrats cast twice as many early ballots as Republicans"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1512,
+    "tokens": {
+      "prompt": 43114,
+      "completion": 2116,
+      "reasoning": 627
+    }
   }
 ]

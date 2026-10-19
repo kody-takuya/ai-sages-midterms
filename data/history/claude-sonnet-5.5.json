@@ -298,5 +298,82 @@
       "completion": 2132,
       "reasoning": 69
     }
+  },
+  {
+    "date": "2026-10-20",
+    "generated_at": "2026-10-20T07:00:03+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 232,
+      "rep": 203
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 86,
+    "comment": "テキサスは+2で横ばい。接戦のまま、選挙戦は最終盤へ",
+    "hidden_dynamics": [
+      "テキサスの調査はCBS+2、UH+2、Marist+2と、中立系が+2付近にそろっている。リードは縮んだ後、止まったように見える。9月の+6への回復も、共和党の逆転も、今のところ起きていない。",
+      "共和党寄りのInsiderAdvantageがパクストン+1、Quantusが同率で、これが平均を押し下げている。一方でUHのジョーンズ氏は、ベト・オルークの2018年より強い終盤の位置だと述べた。テキサスは見かけほど脆くない可能性がある。",
+      "ジェネリックバロットはシルバー集計でD+8.9と高止まりしている。9月の急伸は止まったが、共和党の巻き返しは見えず、戻りは鈍いままだ。"
+    ],
+    "hypothesis_title": "共和党の戻りは鈍く、薄氷の青",
+    "hypothesis": "上院は終盤に共和党がやや持ち直すと見るが、その戻りは遅く、テキサスでは+2付近で止まっている。NC・ME・OHに加え、TX・AK・IAのどれかで4議席目を取る構図は変わらない。下院は総合投票D+8〜9で、区割りの不利を吸収できる。早期投票は民主党が優位だが、共和党は当日投票に回る傾向が強い。パクストン氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "テキサスの新規調査(CBS+2、UH+2)は想定の範囲内で、総合投票もD+8.9と横ばいだった。仮説を覆す材料がないため、議席数も確率も据え置いた。",
+    "analysis": "【上院】テキサスのRCP平均はタラリコ氏+2.2で、CBSが+2、UHが+2、Maristが+2とそろっている。共和党寄りのInsiderAdvantageはパクストン+1、Quantusは同率だ。リードは小さいが、中立系では一貫している。パクストン氏の逆転を示す中立調査はまだない。テキサスの早期投票は10月19日に始まった。州別の党派データが出れば、これが次の検証材料になる。オハイオはBowling Green/YouGovでブラウン氏が48対42とリードしている。メインとアラスカは平均が僅差のままだ。民主党は、NC・ME・OHの3議席に加え、TX・AK・IAのうち1議席を取る必要がある。1つ落とせば50-50で副大統領により共和党が支配する。経路は複数あるが、どれも薄氷なので、60%に留める。【下院】総合投票はシルバー集計でD+8.9、Poliwaveモデルは229議席・確率85%だった。2018年並みの環境で、区割りの不利を吸収できる。232議席、86%を維持する。明日は、テキサス・ジョージアの早期投票の党派別データ、アラスカ・メイン・ミシガンの新規調査、市場価格を確認する。",
+    "key_news": [
+      {
+        "title": "CBS世論調査:テキサス上院はタラリコ氏51対49でパクストン氏をリード。早期投票が開始",
+        "source": "KHOU/CBS",
+        "url": "https://www.khou.com/article/news/politics/elections/cbs-poll-james-talarico-ken-paxton-texas-senate-race/285-3bfab4eb-f6d8-495b-b988-1a2de671c0f2",
+        "impact": "D+"
+      },
+      {
+        "title": "UHのHobby School調査:タラリコ氏48対46。ジョーンズ氏は2018年のベト・オルークより強い位置だと指摘",
+        "source": "Houston Public Media",
+        "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/18/564673/talarico-holds-slight-edge-over-paxton-in-u-s-senate-race-on-cusp-of-election-poll-shows/",
+        "impact": "D+"
+      },
+      {
+        "title": "シルバー集計の総合投票はD+8.9で、9月の急伸後に横ばい",
+        "source": "Silver Bulletin",
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "impact": "D+"
+      },
+      {
+        "title": "Poliwaveモデル:下院は民主党85%、上院は61%",
+        "source": "Poliwave",
+        "url": "https://www.poliwave.com/us/fed/projection",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.khou.com/article/news/politics/elections/cbs-poll-james-talarico-ken-paxton-texas-senate-race/285-3bfab4eb-f6d8-495b-b988-1a2de671c0f2",
+        "title": "CBS世論調査:テキサス上院はタラリコ氏51対49でパクストン氏をリード。早期投票が開始"
+      },
+      {
+        "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/18/564673/talarico-holds-slight-edge-over-paxton-in-u-s-senate-race-on-cusp-of-election-poll-shows/",
+        "title": "UHのHobby School調査:タラリコ氏48対46。ジョーンズ氏は2018年のベト・オルークより強い位置だと指摘"
+      },
+      {
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "title": "シルバー集計の総合投票はD+8.9で、9月の急伸後に横ばい"
+      },
+      {
+        "url": "https://www.poliwave.com/us/fed/projection",
+        "title": "Poliwaveモデル:下院は民主党85%、上院は61%"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1013,
+    "tokens": {
+      "prompt": 31415,
+      "completion": 1850,
+      "reasoning": 0
+    }
   }
 ]

@@ -779,5 +779,186 @@
       "completion": 7541,
       "reasoning": 5056
     }
+  },
+  {
+    "date": "2026-10-20",
+    "generated_at": "2026-10-20T07:00:03+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 235,
+      "rep": 200
+    },
+    "senate_control_prob_dem": 68,
+    "house_control_prob_dem": 88,
+    "comment": "テキサスに長蛇の列、赤い州で青い足音——残り15日",
+    "hidden_dynamics": [
+      "テキサス上院に総額5億ドル、うち共和が3億6800万ドルを投じてもパクストンの汚点は埋まらない。資金は「敗北幅の圧縮」には効くが「候補の質の穴」は買い戻せない構図が、上院全域選の本質を突いている。",
+      "オハイオの期日前で民主41%対共和28%という数字は熱量の証明だが、同州の登録区分は予備選参加歴に依存し、無所属が約3割を占める。民主党の「青い先行」は本番当日の共和サージで相殺される余地を常に残しており、過信は禁物。",
+      "クックが10/16に下院11区を一斉に民主方向へ動かし、うち半分がOH・NE・KSという中西部赤州だった事実は、上院接戦州の経済不満と同一の有権者心理が下院まで貫通している証左。上院と下院は別物ではなく、同じ波の二つの表れだ。"
+    ],
+    "hypothesis_title": "赤州バイアスは今回効かず、候補の質が波を決める",
+    "hypothesis": "従来の「赤州の世調は本番で共和に2〜4点寄る」という前提は今回は弱い。2020年・2024年の赤州バイアスはトランプ固有の低学歴・低投票頻度層の押し上げに由来し、トランプが票にいない今回は同じ補正が効きにくい。代わりに支配するのは候補の質（タラリコ、ブラウン、ペルトーラ）と投票率の非対称、共和候補の弱さ（パクストン、ハステッド、マーシャル）である。テキサス期日前初日の記録的な長蛇の列とTalaricoの四半期6400万ドル調達は、赤州でも民主の熱量が本物であることを示す。よってNC・OH・TX・AK・MEを民主、IA・KS・NE・SCは共和が薄氷で逃げ切る。棄却条件は、最終週に期日前の民主優位が共和の当日票で明確に逆転される兆候、または共和系世調（インサイダーアドバンテージのパクストン+1）が本番で的中し続ける気配。",
+    "hypothesis_status": "refined",
+    "change_reason": "仮説の骨格は維持しつつ、テキサス期日前初日の記録的 turnout と Talarico の資金・熱量を新証拠として組み込み精緻化した。モデル中央値（Vote-Scope 51.6、Call the Map 51.1、市場63〜65%）と整合する52議席、下院235を据え置き。TXは依然として4つの民主ピックアップ中最もリスクが高く、共和系世調のパクストン+1を最大の反証リスクとして注記する。",
+    "analysis": "【上院】改選35、現状53R-47D、民主の必要純増は4。クックのトスアップ7つは共和防衛6（AK・IA・KS・ME・OH・TX）に民主防衛1（MI）。NC（クーパー+7〜14）とNH（パパス+7〜8）はほぼ確定で、民主はNC+ME+OH+TX=51の最短経路を持つ。今日の新情報はテキサス期日前初日の長蛇の列（タラント郡で30〜45分待ち、登録者1900万人は過去最高）とTalaricoの「Clear Eyes, Full Hearts」ツアーの熱気、そして上院選総額5億ドル（共和3億6800万、民主1億3200万）という資金の非対称だ。共和の巨額資金は敗北幅を縮めるが候補の質の穴は埋めない——これが私の中心命題。ただしインサイダーアドバンテージはパクストン+1、ダラス・モーニングニュースもパクストン優勢を指摘し、TXは依然最大の反証リスク。アラスカはペルトーラが複数世調で一貫リードし、メインはジャクソンが資金差を熱量で逆転する公算。KSはハミルトン資金がマーシャルの11倍で薄氷共和、IAはハンソン+2前後で共和。中央値52（幅49〜54）。市場はKalshi64.8%、Polymarket63.5%、Vote-Scope65%と私よりやや慎重だが、私は赤州バイアス減退の分だけ上振れさせ68%を維持する。【下院】ジェネリックはD+7.6〜9.2（DDHQ7.6、RCP7.9、Ballotpedia8、FiftyPlusOne9、trackthevote9.2）で高止まり、前日から実質不変。クックは10/16に11区を民主方向へ動かし、MT-1がトスアップ入り、中西部赤州が軒並み競争化。TX・MO・NC・OH・FLの新地図で民主保有トスアップが共和寄りに傾くのが唯一の歯止めだが、環境差が上回る。中央値235（+20）。【持ち越し】明日はテキサス期日前の初日集計（郡別のR/D登録比）、オハイオ期日前第3週、メイン世調更新、共和PACのKS・IA追加投入の有無を確認。TXの期日前で共和登録が民主を明確に上回るなら、私の「赤州バイアス減退」仮説に黄信号。",
+    "key_news": [
+      {
+        "title": "テキサスで期日前投票開始、登録者1900万人は過去最高。タラント郡などで30〜45分待ちの長蛇、Talarico陣営は大学・高校で集会",
+        "source": "CNN / Fort Worth Star-Telegram",
+        "url": "https://www.cnn.com/2026/10/19/politics/live-news/midterm-election-congress",
+        "impact": "D+"
+      },
+      {
+        "title": "テキサス上院、共和系インサイダーアドバンテージ調査でパクストン49-48タラリコ（10/13-14実施）。上院選支出は総額5億ドル超、共和3億6800万ドル",
+        "source": "InsiderAdvantage / CBS Texas",
+        "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/",
+        "impact": "R+"
+      },
+      {
+        "title": "オハイオ期日前、民主党が41%対共和28%で先行。ハミルトン郡の民主票は2022年の約4倍、トランプ+20郡でも両党が39%で並ぶ",
+        "source": "Spectrum News / News5 Cleveland",
+        "url": "https://spectrumnews1.com/oh/columbus/news/2026/10/14/democrats-early-voting-ohio",
+        "impact": "D+"
+      },
+      {
+        "title": "サウスカロライナ上院、共和系トラファルガー調査でグラハム49-46アンドリュース（10/18）。民主は資金で圧倒するが地の赤さが壁",
+        "source": "Trafalgar Group (partisan-R)",
+        "url": "https://pollingsource.com/senate/polls",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
+      },
+      {
+        "url": "https://pollingsource.com/senate/polls",
+        "title": "2026 Senate Polls — Latest Race Polling | PollingSource"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/",
+        "title": "InsiderAdvantage Senate Surveys: Texas, Paxton 49, Talarico 48; Kansas, Marshall 48%, Hamilton 47%; Maine, Jackson 49, Collins 47;Update: All Conducted 10/13-14 – InsiderAdvantage"
+      },
+      {
+        "url": "https://vote-scope.com/en/us/senate/polls/",
+        "title": "U.S. Senate polling as of October 18, 2026 — Vote-Scope"
+      },
+      {
+        "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
+        "title": "FiftyPlusOne - Generic Ballot Polls and Average for 2026"
+      },
+      {
+        "url": "https://votes.decisiondeskhq.com/polls/generic-ballot/national",
+        "title": "Generic Congressional Ballot Polling Average"
+      },
+      {
+        "url": "https://www.trackthevote.net/generic-ballot",
+        "title": "2026 Generic Congressional Ballot polling average"
+      },
+      {
+        "url": "https://ballotpedia.org/Ballotpedia%27s_Polling_Index:_Generic_congressional_vote",
+        "title": "Ballotpedia's Polling Index: Generic congressional vote - Ballotpedia"
+      },
+      {
+        "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+        "title": "2026 Generic Congressional Vote | RealClearPolling"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings",
+        "title": "CPR Race Ratings | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eleven-more-house-races-shift-toward-democrats",
+        "title": "Eleven More House Races Shift Toward Democrats | Cook Political Report"
+      },
+      {
+        "url": "https://midtermmonday.com/movers",
+        "title": "Midterm Mondays"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+        "title": "2026 CPR Senate Race ratings"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/06/three-senate-races-shift-toward-democrats-cook-ratings/",
+        "title": "Three Senate races shift toward Democrats in Cook ratings - The Washington Post"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.aristotle.com/data/early-absentee-voting-dashboard-2026-midterms/",
+        "title": "Early & Absentee Voting Dashboard - 2026 Midterms - Aristotle"
+      },
+      {
+        "url": "https://www.news5cleveland.com/news/politics/ohio-politics/one-week-into-early-voting-ohio-democrats-are-outperforming-republicans",
+        "title": "One week into early voting, Ohio Democrats are outperforming Republicans"
+      },
+      {
+        "url": "https://spectrumnews1.com/oh/columbus/news/2026/10/14/democrats-early-voting-ohio",
+        "title": "Democrats lead early voting in Ohio"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://vote-scope.com/en/us/senate/compare-forecasts/",
+        "title": "2026 Senate Forecast Comparison: Vote-Scope vs Other Models — Vote-Scope"
+      },
+      {
+        "url": "https://votes.decisiondeskhq.com/forecast/2026/senate",
+        "title": "2026 U.S. Senate Forecast - DDHQ Votes"
+      },
+      {
+        "url": "https://futureballot.com/senate",
+        "title": "2026 Senate forecast · FutureBallot"
+      },
+      {
+        "url": "https://www.callthemap.com/senate",
+        "title": "The Senate · Call the Map"
+      },
+      {
+        "url": "https://votepredictor.com/",
+        "title": "VotePredictor — 2026 election forecast, Congress & SCOTUS predictions"
+      },
+      {
+        "url": "https://www.sos.texas.gov/about/newsreleases/2026/101626.shtml",
+        "title": "Secretary Howden Announces Texas Has a Record 19 million Registered Voters"
+      },
+      {
+        "url": "https://www.cnn.com/2026/10/19/politics/live-news/midterm-election-congress",
+        "title": "Early in-person voting begins in Texas as Democrats hope ..."
+      },
+      {
+        "url": "https://www.star-telegram.com/news/politics-government/article317682070.html",
+        "title": "Live updates: Early voting for midterm election under way | Fort Worth Star-Telegram"
+      },
+      {
+        "url": "https://www.cbsnews.com/texas/news/texas-senate-race-early-voting-starts/",
+        "title": "Sizing up the Texas Senate race between James Talarico and Ken Paxton as early voting begins - CBS Texas"
+      },
+      {
+        "url": "https://www.dallasnews.com/news/politics/article/5-things-watch-early-voting-begins-texas-22480098.php",
+        "title": "5 things to watch as early voting begins in Texas"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0481,
+    "tokens": {
+      "prompt": 57745,
+      "completion": 3704,
+      "reasoning": 1395
+    }
   }
 ]
