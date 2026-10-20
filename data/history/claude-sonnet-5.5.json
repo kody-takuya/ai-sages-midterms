@@ -375,5 +375,82 @@
       "completion": 1850,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-21",
+    "generated_at": "2026-10-21T07:00:03+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 232,
+      "rep": 203
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 86,
+    "comment": "テキサスは+2で足踏み。票は動かず、動員だけが先行",
+    "hidden_dynamics": [
+      "UHの調査では、共和党支持層のうちPaxton氏に投票する意向の人は88%にとどまる。一方、民主党支持層ではTalarico氏が98%だった。Paxton氏個人への忌避が、無党派6割対3割の差と合わせてリードの主因になっている。この「党内の離反」は、終盤にトランプ氏が動員をかけても完全には閉じにくい。",
+      "ジョージア州の早期投票は100万票を超えたが、増加率は初日の+40%から累計では+12%へ縮んだ。初日の熱狂は、有権者が前倒しで投票した結果という面が大きい。共和党側が「トランプ氏の遊説効果」を主張し始めたことは、早期投票の党派差が民主党優位だと両党が見ている裏返しだ。",
+      "郵便投票はジョージアで大きく減っている(約58%減)。投票手段が在宅から対面へ移っており、従来の党派別の読み方は効きにくい。TXとGAは党派登録がなく、早期投票の党派差は推計に頼るしかない。"
+    ],
+    "hypothesis_title": "共和党の戻りは遅く、差は±2で膠着",
+    "hypothesis": "上院は終盤に共和党がやや持ち直すとみるが、戻りは遅く、テキサスは中立調査でTalarico氏+2付近に張り付いている。民主党の勝ち筋はNC・ME・OHに加え、TX・AK・IAのどれか1つだ。下院は総合投票D+8前後で、区割りの不利を吸収できる。早期投票は民主党優位だが、共和党は当日投票に回る傾向があり、鵜呑みにはできない。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "新規の中立調査(UH+2、CBS+2)は想定の範囲内で、仮説を覆す材料はなかった。早期投票の指標は動員の強さを示すが、結果を決めるには弱いため、数字は据え置いた。",
+    "analysis": "【上院】テキサスはUH Hobby Schoolが48対46、CBSが51対49で、どちらもTalarico氏が僅差で上回る。共和党寄りのInsiderAdvantageだけがPaxton氏+1だ。中立系の+2前後は一貫しており、9月の+6からの縮小は止まったように見える。ただし誤差の範囲内なので、確率は6割強にとどまる。メインはSuffolkでJackson氏が49対47、InsiderAdvantageとRasmussenも同じ49対47でJackson氏リードと報じられている。共和党寄りの調査でさえ民主党がリードしている点は注目に値する。ただし、Collins氏には過去に世論調査を上回った実績がある。アラスカはNYT/Sienaでペルトラ氏が50歳以上でリードしている。【構造】民主党はNC・ME・OHを取ったうえで、TX・AK・IAのどれか1つを取る必要がある。1つ落とすと50-50となり、副大統領によって共和党が支配する。【早期投票】ジョージアは早期の対面投票が100万票を超え、2022年比で+12%だ。党派登録のある州では、早期投票の民主党比率が高い。ただし初期投票者は政治的関与が高く、予測力は弱い。共和党が当日投票に回る構図もあり得る。【下院】総合投票はD+8前後で、2018年並みの環境だ。232議席、86%を維持する。明日は、テキサスの郡別turnout、アラスカ・メイン・ミシガンの新規調査、市場価格を確認する。",
+    "key_news": [
+      {
+        "title": "UH Hobby調査:テキサス上院はTalarico氏48対46。共和党支持層のPaxton支持は88%にとどまる",
+        "source": "Houston Public Media",
+        "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/18/564673/talarico-holds-slight-edge-over-paxton-in-u-s-senate-race-on-cusp-of-election-poll-shows/",
+        "impact": "D+"
+      },
+      {
+        "title": "CBS世論調査:テキサス上院はTalarico氏51対49。早期投票の開始と同時期",
+        "source": "KHOU/CBS",
+        "url": "https://www.khou.com/article/news/politics/elections/cbs-poll-james-talarico-ken-paxton-texas-senate-race/285-3bfab4eb-f6d8-495b-b988-1a2de671c0f2",
+        "impact": "D+"
+      },
+      {
+        "title": "ジョージアの早期投票が100万票を超え、2022年同時期比+12%。RNCはトランプ氏の遊説効果を主張",
+        "source": "Fox News",
+        "url": "https://foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
+        "impact": "neutral"
+      },
+      {
+        "title": "各地で早期投票が急増。ただし初期投票者は政治的関与が高く、予測力は限られる",
+        "source": "Axios",
+        "url": "https://www.axios.com/2026/10/20/midterms-early-voting-states-data",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/18/564673/talarico-holds-slight-edge-over-paxton-in-u-s-senate-race-on-cusp-of-election-poll-shows/",
+        "title": "UH Hobby調査:テキサス上院はTalarico氏48対46。共和党支持層のPaxton支持は88%にとどまる"
+      },
+      {
+        "url": "https://www.khou.com/article/news/politics/elections/cbs-poll-james-talarico-ken-paxton-texas-senate-race/285-3bfab4eb-f6d8-495b-b988-1a2de671c0f2",
+        "title": "CBS世論調査:テキサス上院はTalarico氏51対49。早期投票の開始と同時期"
+      },
+      {
+        "url": "https://foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
+        "title": "ジョージアの早期投票が100万票を超え、2022年同時期比+12%。RNCはトランプ氏の遊説効果を主張"
+      },
+      {
+        "url": "https://www.axios.com/2026/10/20/midterms-early-voting-states-data",
+        "title": "各地で早期投票が急増。ただし初期投票者は政治的関与が高く、予測力は限られる"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1003,
+    "tokens": {
+      "prompt": 29687,
+      "completion": 2096,
+      "reasoning": 0
+    }
   }
 ]

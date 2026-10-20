@@ -960,5 +960,182 @@
       "completion": 3704,
       "reasoning": 1395
     }
+  },
+  {
+    "date": "2026-10-21",
+    "generated_at": "2026-10-21T07:00:03+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 71,
+    "house_control_prob_dem": 90,
+    "comment": "格付けが一斉に青へ——満潮か、同調か。残り14日",
+    "hidden_dynamics": [
+      "Cook・サバト・Inside Electionsが10/20に揃って大量の評価変更を民主方向へ出したのは、独自分析というより相互参照の同調(herding)の色が濃い。終盤の格付けは実際の不確実性より自信過剰に見えやすく、上振れ・下振れ双方のリスクを過小評価させる。",
+      "共和の巨額外部資金が攻勢ではなく、1932年以来民主が勝っていないカンザスなどR+8〜20州の『防衛』に消えている。資金が拡大でなく防衛に回るのは、地元候補の弱さ以上に全国的な逆風の広がりを示す。",
+      "テキサスでは共和強固なモンゴメリー、エリス、ベル、マクレナン郡でも初日の投票記録が出た。これは民主熱の証拠というより『パクストン離れした共和・無所属層』の動員かもしれず、青い数字を素直に民主票と読むのは危険。"
+    ],
+    "hypothesis_title": "波は赤州へ——防衛に回る共和資金",
+    "hypothesis": "従来の『赤州の世調は本番で共和に寄る』前提は今回弱い。2020/2024の赤州バイアスはトランプ固有の低学歴・低投票頻度層の押し上げに由来し、トランプ不在の今回は補正が効きにくい。加えて10/20にCook・サバト・IEが揃ってカンザス、SC、NE、WYなどR+8〜20州の議席を民主方向へ動かしたのは、候補の質を超えた全国的な反共和波の表れだ。共和の巨額資金が攻勢でなく赤州防衛に消えている事実がそれを裏付ける。よってNC・OH・TX・AK・MEは民主、KSはほぼ互角、IA・NE・SCは共和薄氷。棄却条件は、期日前のD優位が当日共和票で明確に逆転される兆候、またはメインでコリンズが平均+3以上に抜け出す気配。",
+    "hypothesis_status": "refined",
+    "change_reason": "仮説自体は維持しつつ『候補の質』から『全国化した反共和波＋資金の防衛シフト』へ重心を移した。上院は52維持（53がほぼ同率で迫る）、下院は格付けの赤州侵食を織り込み235→236、上院Pは68→71へ小幅引き上げ。",
+    "analysis": "【上院】改選35、現状53R-47D、民主の必要純増は4。今日の最大材料はIEの評価変更で、TXをTilt R→Toss-up、KSをLikely R→Tilt R、SCをLikely R→Lean R、FLをSolid R→Likely R、NHをToss-up→Tilt Dへ動かした。CookはKSをToss-up、NHをLean D、NCをLikely Dへ。格付けは『TXは民主が5か月1〜2点リード』という耐久性を認め始めた。最短経路NC+ME+OH+TX=51、AKで52、KSで53。KSはハミルトン資金がマーシャル比11倍、州知事8人中6人が民主支持だが、市場はなお共和65%。私はKSをほぼ互角と見る。中央値52、幅50〜55。最大の反証リスクはメイン：コリンズはトランプ不支持層の12%を取る異常なクロスオーバーを示し、無所属でリード。ジャクソン+2の薄氷。【下院】ジェネリックはReuters/IpsosのRV D+12(47-35)からRasmussenのLV D+4(48-44)、Echelon D+5まで開きが大きい。RVとLVの乖離は民主の熱量と共和の低投票頻度層の双方を示唆。平均はD+8前後で高止まり。サバトは10/20に28区を民主方向へ動かし『218超・235接近』、クックは224〜234、IEは22区変更で開放区で共和が崩れる。中央値236（+21）。【持ち越し】明日はTX期日前の郡別R/D登録比、OH第3週、KS・IAへの共和資金追加、メイン世調の続報を確認。RV-LV乖離が縮まらなければ上院Pをさらに上げる。",
+    "key_news": [
+      {
+        "title": "Inside Electionsが上院5・下院22・知事3の計30評価を民主方向へ変更。TXをToss-up、KSをTilt R、SCをLean R、NHをTilt Dへ動かし、上院予測を民主+3〜5に",
+        "source": "Roll Call / Inside Elections",
+        "url": "https://rollcall.com/2026/10/20/rating-changes-democrats-inside-elections/",
+        "impact": "D+"
+      },
+      {
+        "title": "サバトのクリスタルボールが下院28区を民主方向へ変更。218を超え『235接近』とし、下院は223対200・トスアップ12に。アイオワ4区中3区がLean D",
+        "source": "Sabato's Crystal Ball / The Hill",
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "impact": "D+"
+      },
+      {
+        "title": "テキサス期日前初日、ハリス・ダラスなど青郡だけでなくモンゴメリー・エリス・ベル・マクレナンなど赤郡でも記録的投票。トランプは来週ラボック・ウェーコでパクストン応援へ",
+        "source": "Texas Tribune",
+        "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
+        "impact": "neutral"
+      },
+      {
+        "title": "Reuters/Ipsos中間調査は登録有権者で民主47-共和35(D+12)、Rasmussenは有権者モデルで民主48-共和44(D+4)。RVとLVで大差",
+        "source": "Ipsos / Rasmussen (via Open Chronicle)",
+        "url": "https://www.ipsos.com/en-us/reutersipsos-mid-october-survey",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html",
+        "title": "Tracking the Early Vote in the 2026 Midterm Elections"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://www.electoral-vote.com/evp2026/Senate/senate_polls.txt",
+        "title": ""
+      },
+      {
+        "url": "https://www.realclearpolling.com/latest-polls",
+        "title": "Latest Polls 2026, 2028 | RealClearPolling"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eighteen-more-house-race-ratings-move-democrats-favor",
+        "title": "Eighteen More House Race Ratings Move in Democrats’ Favor | Cook Political Report"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6160820-sabatos-crystal-ball-house-democrats/",
+        "title": "Sabato’s Crystal Ball moves nearly 3 dozen House races in Democrats favor"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings"
+      },
+      {
+        "url": "https://rollcall.com/2026/10/20/rating-changes-democrats-inside-elections/",
+        "title": "Rating changes: 30 races shift toward Democrats – Roll Call"
+      },
+      {
+        "url": "https://www.sos.texas.gov/elections/historical/counties.shtml",
+        "title": "Voter Registration and Unofficial Early Voting Figures"
+      },
+      {
+        "url": "https://www.houstonchronicle.com/projects/2026/texas-midterms-early-voting-turnout/",
+        "title": "Texas midterms early voting tracker: See where turnout is ..."
+      },
+      {
+        "url": "https://cbsaustin.com/news/local/democratic-voters-leading-in-early-voting-totals-as-senate-candidates-travel-state",
+        "title": "Democratic voters leading in early voting totals as Senate candidates travel state"
+      },
+      {
+        "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
+        "title": "What early voting data in Texas means for results"
+      },
+      {
+        "url": "https://newtools.cira.state.tx.us/upload/page/0454/2026%20Primary/EV%20unofficial%20report%203_3_26.pdf",
+        "title": "Statistics"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/maine-us-senate-election-polls-2026.html",
+        "title": "Maine U.S. Senate Election 2026: Latest Polls"
+      },
+      {
+        "url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/10_14_2026_maine_press_release.pdf",
+        "title": "Suffolk University Press Release: Statewide and Bellwether Polls Maine Midterm Elections"
+      },
+      {
+        "url": "https://fiftyplusone.news/polls/senate/general/maine",
+        "title": "FiftyPlusOne - Maine  General Senate Election Polls and Average for the 2026 General Election"
+      },
+      {
+        "url": "https://politixplus.com/race/u-s-senate-maine-jackson-vs-collins",
+        "title": "Maine Senate 2026 Polls: Jackson vs Collins | Politix+"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/09/poll-democrat-troy-jackson-narrowly-leads-susan-collins-maine-senate-race/",
+        "title": "Democrat has edge over Susan Collins in critical Maine Senate battle, poll finds - The Washington Post"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+        "title": "2026 CPR Senate Race ratings | Cook Political Report"
+      },
+      {
+        "url": "https://insideelections.com/ratings/senate/",
+        "title": "Senate"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-majority-squarely-democrats-sights-kansas-moves-toss-two",
+        "title": "A Senate Majority is Squarely in Democrats’ Sights as Kansas Moves to Toss Up; Two Other Races Shift Left | Cook Political Report"
+      },
+      {
+        "url": "https://www.huffmanwrites.org/posts/essays/senate-race-report-2026-10-18/",
+        "title": "Senate Race Report: October 18, 2026 | Huffman Writes"
+      },
+      {
+        "url": "https://pollingsource.com/today",
+        "title": "Today's Source - October 20, 2026 | PollingSource"
+      },
+      {
+        "url": "https://echeloninsights.com/insights/october-2026-verified-voter-omnibus",
+        "title": "October 2026 Verified Voter Omnibus"
+      },
+      {
+        "url": "https://politixplus.com/race/generic-ballot-general",
+        "title": "2026 Generic Congressional Ballot Polls | Politix+"
+      },
+      {
+        "url": "https://www.ipsos.com/en-us/reutersipsos-mid-october-survey",
+        "title": "Reuters/Ipsos mid-October Survey | Ipsos"
+      },
+      {
+        "url": "https://openchronicle.org/2026/10/20/democrats-lead-republicans-48-to-44-in-congressional-poll-as-us-midterm-elections-approach/",
+        "title": "Democrats Lead Republicans 48% to 44% in Congressional Poll as US Midterm Elections Approach Open Chronicle Open Chronicle"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0486,
+    "tokens": {
+      "prompt": 49136,
+      "completion": 5317,
+      "reasoning": 3315
+    }
   }
 ]

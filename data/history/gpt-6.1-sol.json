@@ -410,5 +410,82 @@
       "completion": 2116,
       "reasoning": 627
     }
+  },
+  {
+    "date": "2026-10-21",
+    "generated_at": "2026-10-21T07:00:03+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 85,
+    "comment": "追い風は無料。議席への乗り換えには投票券。",
+    "hidden_dynamics": [
+      "オハイオのMarist調査では、民主の上院候補の優位が登録有権者の９ポイントから投票見込み層の４ポイントへ縮む。不満の広さと実際の参加は別物という前回仮説を補強するが、異なる母集団の差なので支持の急落とは読まない。",
+      "共和系団体によるオハイオの社会主義候補への支援増額は、共和候補への説得だけでなく、反共和票の行き先を分散させる戦術と読む。ただしMS NOWが紹介した支出だけでは、内部調査の劣勢や戦術の成功までは断定できない。",
+      "FOX 4が報じたダラス郡の初日期日前投票記録は、動員能力の証拠であって民主の純増票の証拠ではない。常連の前倒しなら終盤の戸別訪問を未投票者へ集中できる利点はあるが、州全体の得票差には換算しない。"
+    ],
+    "hypothesis_title": "不満は広いが、議席化には参加の壁",
+    "hypothesis": "「説得と参加の二段階」仮説を精緻化する。オハイオのMarist調査で民主優位が登録有権者９ポイント、投票見込み層４ポイントと異なることは、家計不満のすべてが投票へ届かない可能性を示す。一方、共和系団体の第三候補支援は、不満を解消するより反共和票を分散させる戦術と読む。民主の下院優位は維持するが、保守州の上院奪取は薄氷。複数の独立調査で共和への回帰が続くか、民主支持層の参加不足が確認されれば棄却する。",
+    "hypothesis_status": "refined",
+    "change_reason": "上院は民主系47議席の維持と、ノースカロライナ・メーン・オハイオ・テキサスの４奪取を中心経路とし、51議席を据え置く。下院も家計不満が複数地域の接戦区を動かすという233議席の判断を維持し、新調査や期日前投票だけでは追加獲得を認定しない。",
+    "analysis": "米東部2026年10月20日18時基準。前回20日付メモの締切は19日18時であり、その後を評価した。今日の焦点は民主支持の不足ではなく、その議席化の歩留まりだ。Maristのオハイオ調査では上院民主＋４に対し下院一般投票は＋２。同じ州でも候補評価が全国不満の伝わり方を変えており、上院の数字を下院各区へ流用しない。ロイターが報じる共和側の巨額暗号資産関連支出も、支出額だけで効果を判定できない。民主には家計争点と候補の個人票、共和には参加率と票の分散が武器となる。上院51への経路ではメーンの現職票とテキサスの参加構成が弱点。アラスカは代替経路、アイオワ・カンザスは上振れ枠とする。下院はIA01・03、PA07・10、NY17、AZ06を継続監視するが、新しい地区別証拠なしに勝敗を変更しない。明日は都市部だけでなく郊外・農村の参加構成と、同一調査会社の同一母集団での変化を確認する。確率は独自判断である。",
+    "key_news": [
+      {
+        "title": "オハイオのMarist調査、上院はブラウン48％対ハステッド44％。登録有権者と投票見込み層で差",
+        "source": "Marist Poll（非党派調査、10月20日公表）",
+        "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/",
+        "impact": "neutral"
+      },
+      {
+        "title": "生活費が選挙の中心争点に。オハイオでは暗号資産関連団体が共和現職支援に4600万ドル超",
+        "source": "Reuters（MarketScreener転載、10月20日）",
+        "url": "https://www.marketscreener.com/news/three-issues-defining-the-2026-us-midterm-elections-ce785cd8dd8cf023",
+        "impact": "D+"
+      },
+      {
+        "title": "ダラス郡の期日前投票初日、７万6079人で過去最多と地元当局者が報告",
+        "source": "FOX 4 Dallas-Fort Worth（10月19日夜）",
+        "url": "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total",
+        "impact": "neutral"
+      },
+      {
+        "title": "共和系団体がオハイオ上院選の社会主義候補への支援を増額、本人陣営は反発",
+        "source": "MS NOW（AOL転載、左派系解説、10月20日）",
+        "url": "https://www.aol.com/articles/tuesday-campaign-round-10-20-160944000.html",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/",
+        "title": "オハイオのMarist調査、上院はブラウン48％対ハステッド44％。登録有権者と投票見込み層で差"
+      },
+      {
+        "url": "https://www.marketscreener.com/news/three-issues-defining-the-2026-us-midterm-elections-ce785cd8dd8cf023",
+        "title": "生活費が選挙の中心争点に。オハイオでは暗号資産関連団体が共和現職支援に4600万ドル超"
+      },
+      {
+        "url": "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total",
+        "title": "ダラス郡の期日前投票初日、７万6079人で過去最多と地元当局者が報告"
+      },
+      {
+        "url": "https://www.aol.com/articles/tuesday-campaign-round-10-20-160944000.html",
+        "title": "共和系団体がオハイオ上院選の社会主義候補への支援を増額、本人陣営は反発"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1464,
+    "tokens": {
+      "prompt": 41207,
+      "completion": 2019,
+      "reasoning": 591
+    }
   }
 ]

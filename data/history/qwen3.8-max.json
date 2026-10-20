@@ -971,5 +971,182 @@
       "completion": 11290,
       "reasoning": 8575
     }
+  },
+  {
+    "date": "2026-10-21",
+    "generated_at": "2026-10-21T07:00:03+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 235,
+      "rep": 200
+    },
+    "senate_control_prob_dem": 57,
+    "house_control_prob_dem": 95,
+    "comment": "波は党ブランドだけに依存する共和党員を飲み込む",
+    "hidden_dynamics": [
+      "SMPが深紅ミシシッピに$1.2Mの広告を投入し、CookもMS・SCを左へ動かした。同時にCLFはTX-28(クエリャー)から$3Mを抜いてTX-15・TX-34の防衛に回している。両党が同じ内部データ、すなわちヒスパニック系と南部白人性の共和党支持の同時崩壊を見ている証拠だ。",
+      "NC早期投票の登録共和の累積赤字は4日目の-8%から5日目(733,299票)に-5%へ縮小した。共和の当日回帰が始まりつつある。ただし現在の投票者の79%は2022年にも投票した repeat voters で、+38%の急増は新規有権者ではなく投票時期の前倒しが主。ここを混同すると波を二重計上する。",
+      "CookがMNをLean Dへ下げたことと、Tafoya・Hinson・Husted・Rogers・Collinsという個人知名度を持つ共和候補が全て接戦を保っていることは別々のニュースではなく同一現象だ。崩壊しているのは党のラベルであって候補個人ではない。"
+    ],
+    "hypothesis_title": "崩壊は党ブランド限定、個人知名度は生き残る",
+    "hypothesis": "「共和トリアージ+共和支持層の熱量欠如」は維持し、芯を地理から候補者ブランドへ差し替えた。波は郊外だから届く/田舎だから届かないのではなく、共和党候補が党ブランドに依存しているかで選別される。Tafoya(MN)・Hinson(IA)・Husted(OH)・Rogers(MI)・Collins(ME)は個人知名度でD+7環境を生き延び、Paxton(TX)・Graham(SC)・Moody(FL)・Marshall(KS)は党ブランド依存ゆえR+15でも崩れる。下院に独自ブランドで耐えられる共和現職が皆無なのが大崩落の理由だ。反証条件:(1)NC早期投票で登録共和の絶対数が2022年比プラスへ、(2)MN・MIで非党派調査が同時に3pt悪化しLean R以下へ、(3)ACA延長か核オプションCRで閉鎖が10月中に決着。",
+    "hypothesis_status": "refined",
+    "change_reason": "全接戦14レースに独自確率を当てて期待値を再計算するとD系50.6となり、昨日報告した52は自分の期待値を上回っていた。MN(Lean D化・Flanagan 66%)とMI(+2へ縮小)の下振れを織り込み、KS/TX/FL/SCの地図拡大(期待値+0.14)で相殺しても中央値は51が最頻値、制御確率は62→57%へ。下院はSabato「223がLean D以上」・IE「+10〜20」の上方改定とCLFの防衛転化を+1で反映し235。",
+    "analysis": "今日は上下院とも評価機関が一斉に動いたが、方向は片側ではなかった。IE(Gonzales)は30レースを民主へ、うち上院5(FL Solid→Likely、KS Likely→Tilt、NH Toss-up→Tilt D、SC Likely→Lean、TX Tilt→Toss-up)。NHがToss-upを抜けたことで民主は防衛側のToss-upゼロという構造的優位を得た。一方でCookはMNをLikely→Lean Dへ下げ、RasmussenはAKを44-44の完全同率(9月は39-39)とし、ついでにOHでHustedがBrownを逆転と書いている。私の新仮説はこの両方向の動きを一つの原理で説明できる。MNのTafoyaは2022年副知事選を0.4pt差で戦った個人ブランド候補、AKのSullivanは現職で75%の共和票を固め、RCV第2選択が48対47でSullivanに傾く。Heikesと同名Daniel J. Sullivanが取る7%は最終的にSullivanへ移るため、Peltolaの44はほぼ天井だ。よってAKはCtMの50%より下げて44%とした。IAは三社が共和側で30%に確定。4議席目の経路はKS(38%)・TX(53%)・OH(58%)・ME(52%)の四つに絞られ、FL/SC/MSの拡大は期待値をほとんど動かさない。下院は金の流れが全て民主方向で、TX-28から抜いた$3MをTrump+18のTX-15と+10のTX-34の防衛に回した事実は、共和の内部データがRGVの崩壊を示している。Sabatoは223をLean D以上とし2018年の235に言及、IEは+10〜20。ただし抑えとして、NCの共和累積赤字が-8%→-5%へ縮小し始めた点、早期投票者の79%が2022年投票者である点を忘れない。明日への申し送り:(1)NC早期投票6〜8日目の登録共和の絶対数(2022年比プラス転化が私の反証条件)、(2)MNの新規非党派調査が出るか、(3)AKのRCV第2選択を含む調査、(4)DCCCの$17M(締切10/22)が実際にOH-10・MO-2・AR-2・WY-ALへ着金するか、(5)閉鎖決着の有無。",
+    "key_news": [
+      {
+        "title": "Inside Electionsが上院5・下院22・知事3の計30レースを民主側へ格上げ。上院は+3〜5、下院は+10〜20を予測。NHがTilt Dとなり民主の防衛側Toss-upが消滅",
+        "source": "Roll Call",
+        "url": "https://rollcall.com/2026-10-20/rating-changes-democrats-inside-elections/",
+        "impact": "D+"
+      },
+      {
+        "title": "Cookがミネソタ上院をLikely DからLean Dへ。Flanagan対Tafoyaが終盤に接戦化し、民主にとって想定外の防衛戦線が出現",
+        "source": "The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026-10-20/us-senate-race-minnesota-moves-toward-gop-new-cook-rating/",
+        "impact": "R+"
+      },
+      {
+        "title": "Rasmussenのアラスカ上院はPeltola44-44 Sullivanの同率(9月は39-39)。同社はオハイオでHustedがBrownを逆転、下院の党差は4ptへ縮小と報告",
+        "source": "Rasmussen Reports",
+        "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_alaska_senate",
+        "impact": "R+"
+      },
+      {
+        "title": "Sabato's Crystal Ballが下院28レースを格上げ、Lean D以上が223に。2018年の235議席に近い水準まで見えると明記",
+        "source": "Sabato's Crystal Ball / UVA Center for Politics",
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/20/cook-political-report-moves-mississippi-south-carolina-senate-races-toward-democrats/",
+        "title": "Cook Political Report moves Mississippi, South Carolina Senate races toward Democrats - The Washington Post"
+      },
+      {
+        "url": "https://rollcall.com/2026/10/20/rating-changes-democrats-inside-elections/",
+        "title": "Rating changes: 30 races shift toward Democrats – Roll Call"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/20/us-senate-race-minnesota-moves-toward-gop-new-cook-rating/",
+        "title": "U.S. Senate race in Minnesota moves toward GOP in new Cook rating - The Washington Post"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+        "title": "2026 CPR Senate Race ratings"
+      },
+      {
+        "url": "https://www.callthemap.com/senate",
+        "title": "The Senate · Call the Map"
+      },
+      {
+        "url": "https://www.charlotteobserver.com/news/politics-government/election/article317684541.html",
+        "title": "NC early voting: Midterm turnout up in Mecklenburg County | Charlotte Observer"
+      },
+      {
+        "url": "https://www.theassemblync.com/news/politics/early-voting-turnout-north-carolina-2026/",
+        "title": "Democrats Are Trouncing Republicans In Early Voting"
+      },
+      {
+        "url": "https://www.gelliottmorris.com/p/2026-10-20-north-carolina-early-voting",
+        "title": "Republicans are skipping early voting. Will they show up ..."
+      },
+      {
+        "url": "https://www.wfae.org/politics/2026-10-19/republican-share-of-north-carolina-early-vote-trails-previous-midterms",
+        "title": "Republican share of North Carolina early vote trails ..."
+      },
+      {
+        "url": "https://ncpoliticscenter.substack.com/p/day-5-of-nc-early-voting-the-surge",
+        "title": "Day 5 of NC Early Voting: The Surge Continues, but Who Is Showing Up?"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://dccc.org/%F0%9F%9A%A8-inside-elections-22-more-districts-move-in-democrats-favor-%F0%9F%9A%A8/",
+        "title": "🚨 Inside Elections: 22 More Districts Move in Democrats’ Favor 🚨 - DCCC"
+      },
+      {
+        "url": "https://insideelections.com/ratings/house/",
+        "title": "House – Inside Elections"
+      },
+      {
+        "url": "https://insideelections.com/2026-election-overview-democrats-on-the-march/",
+        "title": "2026 Election Overview: Democrats on the March (Oct. 15 ..."
+      },
+      {
+        "url": "https://wingatecharleston.com/article/congress-last-minute-push-to-save-healthcare-what-s-at-stake",
+        "title": "Congress' Last-Minute Push to Save Healthcare: What's at Stake? (2026)"
+      },
+      {
+        "url": "https://princerodriguez.com/article/government-shutdown-looms-senate-fails-to-pass-spending-package",
+        "title": "Government Shutdown Looms: Senate Fails to Pass Spending Package (2026)"
+      },
+      {
+        "url": "https://easternherald.com/2026/09/19/house-partisan-cr-senate-aca-medicaid-shutdown/",
+        "title": "House Passes Partisan CR as Senate Faces Showdown Over ACA and Medicaid Cuts"
+      },
+      {
+        "url": "https://apnews.com/article/shutdown-senate-paychecks-trump-federal-workers-11088c71589297be2ce616525c582b13",
+        "title": "Senate rejects bills to pay federal workers during government shutdown | AP News"
+      },
+      {
+        "url": "https://thehill.com/homenews/senate/5564176-government-shutdown-vote-senate/",
+        "title": "Democrats block bill to end government shutdown for 11th time"
+      },
+      {
+        "url": "https://insideradvantage.com/insideradvantage-u-s-senate-surveys-alaska-ranks-choice-peltola-50-sullivan-48-kansas-hamilton-48-marshall-47-michigan-el-sayed-48-rogers-46/",
+        "title": "InsiderAdvantage U.S. Senate Surveys: Alaska (Ranks Choice)  Peltola 50%, Sullivan 48%; Kansas Hamilton 48%, Marshall, 47%; Michigan El-Sayed 48%, Rogers 46% – InsiderAdvantage"
+      },
+      {
+        "url": "https://electoral-vote.com/evp2026/Senate/senate_polls.html",
+        "title": "All Senate Polls"
+      },
+      {
+        "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_alaska_senate",
+        "title": "Election 2026: Alaska Senate - Rasmussen Reports®"
+      },
+      {
+        "url": "https://www.270towin.com/2026-senate-polls/michigan",
+        "title": "2026 Polls: Michigan Senate - 270toWin"
+      },
+      {
+        "url": "https://votes.decisiondeskhq.com/polls/general-ballot-test/2026-mi-us-senate/michigan",
+        "title": "2026 Michigan Senate Polling Average | DDHQ"
+      },
+      {
+        "url": "https://apnews.com/article/midterms-republicans-democrats-senate-house-cdd95df350c648d19e60cb3ecea42138",
+        "title": "Battle lines shift in House races as Republicans retreat from front-line districts"
+      },
+      {
+        "url": "https://theqrd.com/story/republicans-pull-house-ads-defend-safer-seats",
+        "title": "Republicans pull millions in House ads to defend safer seats — TheQRD"
+      },
+      {
+        "url": "https://www.tpr.org/government-politics/2026-10-14/house-republicans-pull-3-million-reserved-for-ads-against-henry-cuellar",
+        "title": "House Republicans pull $3 million reserved for ads against Henry Cuellar | TPR"
+      },
+      {
+        "url": "https://www.ap.org/news-highlights/elections/2026/battle-lines-shift-in-house-races-as-republicans-retreat-from-front-line-districts/",
+        "title": "Battle lines shift in House races as Republicans retreat from ..."
+      },
+      {
+        "url": "https://www.pbs.org/newshour/politics/republicans-retreat-from-battleground-districts-as-lines-shift-in-house-races",
+        "title": "Republicans retreat from battleground districts as lines shift in House races | PBS News"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.2204,
+    "tokens": {
+      "prompt": 95197,
+      "completion": 16927,
+      "reasoning": 14684
+    }
   }
 ]

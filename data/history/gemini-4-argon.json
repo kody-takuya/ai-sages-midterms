@@ -458,5 +458,82 @@
       "completion": 4326,
       "reasoning": 1881
     }
+  },
+  {
+    "date": "2026-10-21",
+    "generated_at": "2026-10-21T07:00:03+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 58,
+    "house_control_prob_dem": 88,
+    "comment": "期日前投票で7対3の青い奔流、下院は2018年超えの波へ。",
+    "hidden_dynamics": [
+      "ノースカロライナ州の期日前投票で二大政党登録者のうち民主党が70%対30%という2006年以降最大の偏りを記録し、共和党の投票数が2022年比で8%減少している事実は、単なる投票日の分散ではなく共和党穏健・低関心層の深刻な棄権（Stay-at-home）が始まっていることを示している。",
+      "共和党外部団体がノースカロライナやジョージアの上院選、さらにオハイオやアイオワの下院接戦区から広告資金を引き揚げ、本来安全圏だったカンザス（4倍増）やミシシッピ（3倍増）の防衛に転用せざるを得なくなっており、これが下院の競合区を一気に決壊させている。",
+      "一方、民主党が「青い州」のオープンシート（ミシガンやミネソタ）で進歩派候補を擁立した結果、ミネソタ州の福祉不正問題のようなローカル争点で無党派層の離反を招いており、全国的な追い風の中でも上院の上積み余地を自ら削っている。"
+    ],
+    "hypothesis_title": "期日前投票の非対称動員と「赤い砦」の資金枯渇",
+    "hypothesis": "ガソリン高とトランプ支持率31%への低下を背景に、期日前投票で民主党が歴史的な動員優位（NCで党派比7対3、TX都市部で初日最多更新）を築き、共和党が資金を引き揚げた下院接戦区を次々と決壊させる。上院では共和党がKSやMSなど深紅の州の防衛にまで資金分散を強いられる一方、民主党もMNやMIの防衛区で候補者の左派色や州政スキャンダルにより苦戦し、攻防の相殺で51議席に着地する。今後、期日前投票の共和党比率が急回復すれば下院予測を引き下げる。",
+    "hypothesis_status": "refined",
+    "change_reason": "前日設定した検証条件であるテキサス州の期日前投票初日（ハリス郡・ダラス郡）で過去最高の出足が確認されたこと、およびNC等の期日前投票での共和党支持層の落ち込みと下院接戦区からの共和党の資金撤退を受け、下院を民主党236議席（+2）へ引き上げ、上院はMNの接戦化と南部での攻勢拡大を相殺し51議席を維持した。",
+    "analysis": "昨日注視を掲げたテキサス州の期日前投票初日は、最大の票田ハリス郡（10.4万票超）やダラス郡で中間選挙の初日記録を塗り替え、タラント郡でも両党候補が激突するなど都市・郊外層の猛烈な出足を裏付けた。さらに重大なシグナルはノースカロライナ州の期日前投票データだ。民主党の投票数が2022年比53%増に対し共和党は8%減少し、二大政党間の比率は70対30と過去20年で最も民主党に傾いている。Reuters調査で一般投票が民主党+12（Silver平均でも+8.6）へ拡大し、Sabatoが下院28選挙区を一斉に民主党側へ動かしたのもこの動員格差と整合する。共和党がオハイオやアイオワの下院区から広告費を引き揚げて深紅のカンザスやミシシッピ上院の防衛に回しているため、下院の波は2018年（235議席）をわずかに超える236議席に達すると見る。一方、上院で数字を据え置いたのは、オハイオ（Marist調査でブラウン氏+4）やアラスカ（ペルトラ氏+2）の堅調さと、Cookがサウスカロライナ・ミシシッピを民主党方向へ動かした好材料が、ミネソタ州の「Lean D」への格下げ（州の不正受給問題でフラナガン氏が苦戦）やミシガン州の伸び悩みと相殺しているためだ。明日はテキサス州郊外郡の期日前投票の持続性とカンザス・アイオワの動向を追う。",
+    "key_news": [
+      {
+        "title": "Sabato's Crystal Ballが下院28選挙区の予測を民主党有利へ変更、民主党235議席前後の獲得が視野に",
+        "source": "Sabato's Crystal Ball (UVA Center for Politics)",
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "impact": "D+"
+      },
+      {
+        "title": "テキサス州の期日前投票が開始、ヒューストン（ハリス郡）やダラス郡で初日の過去最多投票数を更新",
+        "source": "The Texas Tribune / KPRC",
+        "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
+        "impact": "D+"
+      },
+      {
+        "title": "オハイオ州上院選のMarist世論調査で民主党ブラウン氏が48%対44%でリード維持、ノースカロライナ州ではクーパー氏が13ポイント差",
+        "source": "Marist Poll / Elon University",
+        "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/",
+        "impact": "D+"
+      },
+      {
+        "title": "Cook Political Reportがミネソタ州上院選を「Lean D」へ引き下げ共和党接近と評価、一方サウスカロライナとミシシッピは民主党側へシフト",
+        "source": "Washington Examiner / The Washington Post",
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4772601/cook-political-report-minnesota-senate-race-gop-south-carolina-left/",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "Sabato's Crystal Ballが下院28選挙区の予測を民主党有利へ変更、民主党235議席前後の獲得が視野に"
+      },
+      {
+        "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
+        "title": "テキサス州の期日前投票が開始、ヒューストン（ハリス郡）やダラス郡で初日の過去最多投票数を更新"
+      },
+      {
+        "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/",
+        "title": "オハイオ州上院選のMarist世論調査で民主党ブラウン氏が48%対44%でリード維持、ノースカロライナ州ではクーパー氏が13ポイント差"
+      },
+      {
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4772601/cook-political-report-minnesota-senate-race-gop-south-carolina-left/",
+        "title": "Cook Political Reportがミネソタ州上院選を「Lean D」へ引き下げ共和党接近と評価、一方サウスカロライナとミシシッピは民主党側へシフト"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1265,
+    "tokens": {
+      "prompt": 3324,
+      "completion": 2189,
+      "reasoning": 0
+    }
   }
 ]

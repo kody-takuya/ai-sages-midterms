@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T07:00:03+09:00",
+  "updated_at": "2026-10-21T07:00:03+09:00",
   "election_day": "2026-11-03",
   "seats": {
     "senate": 100,
@@ -81,11 +81,25 @@
           "senate_control_prob_dem": 60,
           "house_control_prob_dem": 85,
           "comment": "財布で買えるのは広告枠。投票意欲は別売り。"
+        },
+        {
+          "date": "2026-10-21",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 85,
+          "comment": "追い風は無料。議席への乗り換えには投票券。"
         }
       ],
       "latest": {
-        "date": "2026-10-20",
-        "generated_at": "2026-10-20T07:00:03+09:00",
+        "date": "2026-10-21",
+        "generated_at": "2026-10-21T07:00:03+09:00",
         "model_id": "openai/gpt-6.1-sol",
         "senate": {
           "dem": 51,
@@ -97,67 +111,59 @@
         },
         "senate_control_prob_dem": 60,
         "house_control_prob_dem": 85,
-        "comment": "財布で買えるのは広告枠。投票意欲は別売り。",
+        "comment": "追い風は無料。議席への乗り換えには投票券。",
         "hidden_dynamics": [
-          "共和のカンザス支援は、攻勢ではなく既存支持者の参加を買い戻す作戦と読む。安全州にも大統領の日程と資金が必要なら、上院で防衛資源を集中できるという従来の見立てには限界がある。ただし訪問だけで内部調査の劣勢は断定しない。([apnews.com](https://apnews.com/article/e6edac3a6fe6908f6191c0827e67767b))",
-          "コリンズへのマンチンの応援は、民主支持者を共和党へ転向させるより、『大統領には反対、上院議員は別』という投票の許可証を配る動きだと推測する。全国的な民主優勢をメーンの当確へ変換できない理由になる。([noticias.foxnews.com](https://noticias.foxnews.com/politics/manchin-bucks-schumer-throws-support-behind-republican-democrats-want-oust?utm_source=openai))",
-          "民主の反巨大テック広告は、文化論争ではなく電気代・雇用への不安を地方区へ移植する試みと読む。ただし効果を裏づける紹介調査には民主系・左派系の資料が含まれ、独立した因果検証ではない。([theatlantic.com](https://www.theatlantic.com/politics/2026/10/democratic-party-big-tech/689008/?utm_source=openai))"
+          "オハイオのMarist調査では、民主の上院候補の優位が登録有権者の９ポイントから投票見込み層の４ポイントへ縮む。不満の広さと実際の参加は別物という前回仮説を補強するが、異なる母集団の差なので支持の急落とは読まない。",
+          "共和系団体によるオハイオの社会主義候補への支援増額は、共和候補への説得だけでなく、反共和票の行き先を分散させる戦術と読む。ただしMS NOWが紹介した支出だけでは、内部調査の劣勢や戦術の成功までは断定できない。",
+          "FOX 4が報じたダラス郡の初日期日前投票記録は、動員能力の証拠であって民主の純増票の証拠ではない。常連の前倒しなら終盤の戸別訪問を未投票者へ集中できる利点はあるが、州全体の得票差には換算しない。"
         ],
-        "hypothesis_title": "説得は青、参加と個人票は別勘定",
-        "hypothesis": "前回の「説得と参加の二段階」仮説を維持する。共和がカンザスなどへ防衛資源を追加する動きは、家計不満への反論だけでなく支持者の参加回復が必要な状況と整合する。一方、メーンの超党派応援は現職の個人票が残る反証だ。民主の追い風は下院の広い接戦群を動かすが、上院の保守州まで一律には届かない。複数の独立した投票見込み層調査で共和への回帰が続くか、民主寄り層の参加不足が確認されれば捨てる。([apnews.com](https://apnews.com/article/e6edac3a6fe6908f6191c0827e67767b))",
-        "hypothesis_status": "kept",
-        "change_reason": "上院は民主系47議席の防衛と、ノースカロライナ・メーン・オハイオ・テキサスの４奪取を中心経路として51議席を維持する。下院は家計争点による広範な接戦区の改善を既に233議席へ織り込んでおり、今日の証拠は仮説の補強であって、追加奪取を数える材料ではない。([investing.com](https://www.investing.com/news/politics-news/factboxthe-races-that-will-decide-control-of-the-us-senate-4956806))",
-        "analysis": "米東部2026年10月19日18時基準。前回メモも19日付だが、証拠の締切は18日18時だったため、その後を評価した。最大の論点は共和広告の量ではなく、広告優位でも候補の弱点を消せない可能性だ。ロイターが示すテキサスの巨額共和支出と民主の調査上の優位の併存は、この読みと整合するが、支出がなければ差がさらに大きかった可能性も残る。([investing.com](https://www.investing.com/news/politics-news/factboxthe-races-that-will-decide-control-of-the-us-senate-4956806)) メーンは個人票、オハイオは全国共通の調査誤差を警戒し、アラスカ・アイオワ・カンザスは上振れ枠に留める。下院はIA01・03、PA07・10、NY17、AZ06を継続監視。AAPI調査は成人対象で９月実施のため、今日の支持移動や実投票を示すものとは扱わない。([apnews.com](https://apnews.com/article/b05ea8497a7fab3ea3e83913ffeea9c8)) ノースカロライナの期日前参加増も得票差には換算しない。([axios.com](https://www.axios.com/local/charlotte/2026/10/19/north-carolina-early-voting-2026-democrats-gop?utm_source=openai)) 明日は新規参加者と常連の前倒しを区別し、若年層の参加意欲と独立調査を確認する。確率は独自判断である。",
+        "hypothesis_title": "不満は広いが、議席化には参加の壁",
+        "hypothesis": "「説得と参加の二段階」仮説を精緻化する。オハイオのMarist調査で民主優位が登録有権者９ポイント、投票見込み層４ポイントと異なることは、家計不満のすべてが投票へ届かない可能性を示す。一方、共和系団体の第三候補支援は、不満を解消するより反共和票を分散させる戦術と読む。民主の下院優位は維持するが、保守州の上院奪取は薄氷。複数の独立調査で共和への回帰が続くか、民主支持層の参加不足が確認されれば棄却する。",
+        "hypothesis_status": "refined",
+        "change_reason": "上院は民主系47議席の維持と、ノースカロライナ・メーン・オハイオ・テキサスの４奪取を中心経路とし、51議席を据え置く。下院も家計不満が複数地域の接戦区を動かすという233議席の判断を維持し、新調査や期日前投票だけでは追加獲得を認定しない。",
+        "analysis": "米東部2026年10月20日18時基準。前回20日付メモの締切は19日18時であり、その後を評価した。今日の焦点は民主支持の不足ではなく、その議席化の歩留まりだ。Maristのオハイオ調査では上院民主＋４に対し下院一般投票は＋２。同じ州でも候補評価が全国不満の伝わり方を変えており、上院の数字を下院各区へ流用しない。ロイターが報じる共和側の巨額暗号資産関連支出も、支出額だけで効果を判定できない。民主には家計争点と候補の個人票、共和には参加率と票の分散が武器となる。上院51への経路ではメーンの現職票とテキサスの参加構成が弱点。アラスカは代替経路、アイオワ・カンザスは上振れ枠とする。下院はIA01・03、PA07・10、NY17、AZ06を継続監視するが、新しい地区別証拠なしに勝敗を変更しない。明日は都市部だけでなく郊外・農村の参加構成と、同一調査会社の同一母集団での変化を確認する。確率は独自判断である。",
         "key_news": [
           {
-            "title": "上院接戦州の資金・調査状況を更新、共和の巨額支出でもテキサスなどで接戦続く",
-            "source": "ロイター",
-            "url": "https://www.investing.com/news/politics-news/factboxthe-races-that-will-decide-control-of-the-us-senate-4956806",
-            "impact": "D+"
-          },
-          {
-            "title": "AAPI成人調査で経済面の共和支持が後退、ただし調査実施は９月８〜15日",
-            "source": "AP通信",
-            "url": "https://apnews.com/article/aapi-asian-american-midterm-elections-trump-democrats-republicans-b05ea8497a7fab3ea3e83913ffeea9c8",
-            "impact": "D+"
-          },
-          {
-            "title": "マンチンがメーンでコリンズを応援、超党派の個人票維持を後押し",
-            "source": "Fox News",
-            "url": "https://noticias.foxnews.com/politics/manchin-bucks-schumer-throws-support-behind-republican-democrats-want-oust",
-            "impact": "R+"
-          },
-          {
-            "title": "民主が巨大テック批判広告を拡大、生活費・雇用不安との接続を狙う",
-            "source": "アトランティック",
-            "url": "https://www.theatlantic.com/politics/2026/10/democratic-party-big-tech/689008/",
+            "title": "オハイオのMarist調査、上院はブラウン48％対ハステッド44％。登録有権者と投票見込み層で差",
+            "source": "Marist Poll（非党派調査、10月20日公表）",
+            "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/",
             "impact": "neutral"
+          },
+          {
+            "title": "生活費が選挙の中心争点に。オハイオでは暗号資産関連団体が共和現職支援に4600万ドル超",
+            "source": "Reuters（MarketScreener転載、10月20日）",
+            "url": "https://www.marketscreener.com/news/three-issues-defining-the-2026-us-midterm-elections-ce785cd8dd8cf023",
+            "impact": "D+"
+          },
+          {
+            "title": "ダラス郡の期日前投票初日、７万6079人で過去最多と地元当局者が報告",
+            "source": "FOX 4 Dallas-Fort Worth（10月19日夜）",
+            "url": "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total",
+            "impact": "neutral"
+          },
+          {
+            "title": "共和系団体がオハイオ上院選の社会主義候補への支援を増額、本人陣営は反発",
+            "source": "MS NOW（AOL転載、左派系解説、10月20日）",
+            "url": "https://www.aol.com/articles/tuesday-campaign-round-10-20-160944000.html",
+            "impact": "R+"
           }
         ],
         "citations": [
           {
-            "url": "https://apnews.com/article/e6edac3a6fe6908f6191c0827e67767b",
-            "title": "The Latest: Trump heads to Kansas to rally farmers’ votes in latest stop on midterm campaign blitz | AP News"
+            "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/",
+            "title": "オハイオのMarist調査、上院はブラウン48％対ハステッド44％。登録有権者と投票見込み層で差"
           },
           {
-            "url": "https://noticias.foxnews.com/politics/manchin-bucks-schumer-throws-support-behind-republican-democrats-want-oust?utm_source=openai",
-            "title": "Joe Manchin campaigns for Susan Collins in tight Maine senate race | Fox News"
+            "url": "https://www.marketscreener.com/news/three-issues-defining-the-2026-us-midterm-elections-ce785cd8dd8cf023",
+            "title": "生活費が選挙の中心争点に。オハイオでは暗号資産関連団体が共和現職支援に4600万ドル超"
           },
           {
-            "url": "https://www.theatlantic.com/politics/2026/10/democratic-party-big-tech/689008/?utm_source=openai",
-            "title": "The Democratic Party’s New Villain - The Atlantic"
+            "url": "https://www.fox4news.com/news/dallas-county-early-voting-2026-day-one-total",
+            "title": "ダラス郡の期日前投票初日、７万6079人で過去最多と地元当局者が報告"
           },
           {
-            "url": "https://www.investing.com/news/politics-news/factboxthe-races-that-will-decide-control-of-the-us-senate-4956806",
-            "title": "Factbox-The races that will decide control of the US Senate By Reuters"
-          },
-          {
-            "url": "https://apnews.com/article/b05ea8497a7fab3ea3e83913ffeea9c8",
-            "title": "AAPI adults lose trust in Trump and Republicans on economy, poll finds | AP News"
-          },
-          {
-            "url": "https://www.axios.com/local/charlotte/2026/10/19/north-carolina-early-voting-2026-democrats-gop?utm_source=openai",
-            "title": "NC Democrats cast twice as many early ballots as Republicans"
+            "url": "https://www.aol.com/articles/tuesday-campaign-round-10-20-160944000.html",
+            "title": "共和系団体がオハイオ上院選の社会主義候補への支援を増額、本人陣営は反発"
           }
         ],
         "searches": null
@@ -238,11 +244,25 @@
           "senate_control_prob_dem": 60,
           "house_control_prob_dem": 86,
           "comment": "テキサスは+2で横ばい。接戦のまま、選挙戦は最終盤へ"
+        },
+        {
+          "date": "2026-10-21",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 232,
+            "rep": 203
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 86,
+          "comment": "テキサスは+2で足踏み。票は動かず、動員だけが先行"
         }
       ],
       "latest": {
-        "date": "2026-10-20",
-        "generated_at": "2026-10-20T07:00:03+09:00",
+        "date": "2026-10-21",
+        "generated_at": "2026-10-21T07:00:03+09:00",
         "model_id": "anthropic/claude-sonnet-5.5",
         "senate": {
           "dem": 51,
@@ -254,59 +274,59 @@
         },
         "senate_control_prob_dem": 60,
         "house_control_prob_dem": 86,
-        "comment": "テキサスは+2で横ばい。接戦のまま、選挙戦は最終盤へ",
+        "comment": "テキサスは+2で足踏み。票は動かず、動員だけが先行",
         "hidden_dynamics": [
-          "テキサスの調査はCBS+2、UH+2、Marist+2と、中立系が+2付近にそろっている。リードは縮んだ後、止まったように見える。9月の+6への回復も、共和党の逆転も、今のところ起きていない。",
-          "共和党寄りのInsiderAdvantageがパクストン+1、Quantusが同率で、これが平均を押し下げている。一方でUHのジョーンズ氏は、ベト・オルークの2018年より強い終盤の位置だと述べた。テキサスは見かけほど脆くない可能性がある。",
-          "ジェネリックバロットはシルバー集計でD+8.9と高止まりしている。9月の急伸は止まったが、共和党の巻き返しは見えず、戻りは鈍いままだ。"
+          "UHの調査では、共和党支持層のうちPaxton氏に投票する意向の人は88%にとどまる。一方、民主党支持層ではTalarico氏が98%だった。Paxton氏個人への忌避が、無党派6割対3割の差と合わせてリードの主因になっている。この「党内の離反」は、終盤にトランプ氏が動員をかけても完全には閉じにくい。",
+          "ジョージア州の早期投票は100万票を超えたが、増加率は初日の+40%から累計では+12%へ縮んだ。初日の熱狂は、有権者が前倒しで投票した結果という面が大きい。共和党側が「トランプ氏の遊説効果」を主張し始めたことは、早期投票の党派差が民主党優位だと両党が見ている裏返しだ。",
+          "郵便投票はジョージアで大きく減っている(約58%減)。投票手段が在宅から対面へ移っており、従来の党派別の読み方は効きにくい。TXとGAは党派登録がなく、早期投票の党派差は推計に頼るしかない。"
         ],
-        "hypothesis_title": "共和党の戻りは鈍く、薄氷の青",
-        "hypothesis": "上院は終盤に共和党がやや持ち直すと見るが、その戻りは遅く、テキサスでは+2付近で止まっている。NC・ME・OHに加え、TX・AK・IAのどれかで4議席目を取る構図は変わらない。下院は総合投票D+8〜9で、区割りの不利を吸収できる。早期投票は民主党が優位だが、共和党は当日投票に回る傾向が強い。パクストン氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+        "hypothesis_title": "共和党の戻りは遅く、差は±2で膠着",
+        "hypothesis": "上院は終盤に共和党がやや持ち直すとみるが、戻りは遅く、テキサスは中立調査でTalarico氏+2付近に張り付いている。民主党の勝ち筋はNC・ME・OHに加え、TX・AK・IAのどれか1つだ。下院は総合投票D+8前後で、区割りの不利を吸収できる。早期投票は民主党優位だが、共和党は当日投票に回る傾向があり、鵜呑みにはできない。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
         "hypothesis_status": "kept",
-        "change_reason": "テキサスの新規調査(CBS+2、UH+2)は想定の範囲内で、総合投票もD+8.9と横ばいだった。仮説を覆す材料がないため、議席数も確率も据え置いた。",
-        "analysis": "【上院】テキサスのRCP平均はタラリコ氏+2.2で、CBSが+2、UHが+2、Maristが+2とそろっている。共和党寄りのInsiderAdvantageはパクストン+1、Quantusは同率だ。リードは小さいが、中立系では一貫している。パクストン氏の逆転を示す中立調査はまだない。テキサスの早期投票は10月19日に始まった。州別の党派データが出れば、これが次の検証材料になる。オハイオはBowling Green/YouGovでブラウン氏が48対42とリードしている。メインとアラスカは平均が僅差のままだ。民主党は、NC・ME・OHの3議席に加え、TX・AK・IAのうち1議席を取る必要がある。1つ落とせば50-50で副大統領により共和党が支配する。経路は複数あるが、どれも薄氷なので、60%に留める。【下院】総合投票はシルバー集計でD+8.9、Poliwaveモデルは229議席・確率85%だった。2018年並みの環境で、区割りの不利を吸収できる。232議席、86%を維持する。明日は、テキサス・ジョージアの早期投票の党派別データ、アラスカ・メイン・ミシガンの新規調査、市場価格を確認する。",
+        "change_reason": "新規の中立調査(UH+2、CBS+2)は想定の範囲内で、仮説を覆す材料はなかった。早期投票の指標は動員の強さを示すが、結果を決めるには弱いため、数字は据え置いた。",
+        "analysis": "【上院】テキサスはUH Hobby Schoolが48対46、CBSが51対49で、どちらもTalarico氏が僅差で上回る。共和党寄りのInsiderAdvantageだけがPaxton氏+1だ。中立系の+2前後は一貫しており、9月の+6からの縮小は止まったように見える。ただし誤差の範囲内なので、確率は6割強にとどまる。メインはSuffolkでJackson氏が49対47、InsiderAdvantageとRasmussenも同じ49対47でJackson氏リードと報じられている。共和党寄りの調査でさえ民主党がリードしている点は注目に値する。ただし、Collins氏には過去に世論調査を上回った実績がある。アラスカはNYT/Sienaでペルトラ氏が50歳以上でリードしている。【構造】民主党はNC・ME・OHを取ったうえで、TX・AK・IAのどれか1つを取る必要がある。1つ落とすと50-50となり、副大統領によって共和党が支配する。【早期投票】ジョージアは早期の対面投票が100万票を超え、2022年比で+12%だ。党派登録のある州では、早期投票の民主党比率が高い。ただし初期投票者は政治的関与が高く、予測力は弱い。共和党が当日投票に回る構図もあり得る。【下院】総合投票はD+8前後で、2018年並みの環境だ。232議席、86%を維持する。明日は、テキサスの郡別turnout、アラスカ・メイン・ミシガンの新規調査、市場価格を確認する。",
         "key_news": [
           {
-            "title": "CBS世論調査:テキサス上院はタラリコ氏51対49でパクストン氏をリード。早期投票が開始",
-            "source": "KHOU/CBS",
-            "url": "https://www.khou.com/article/news/politics/elections/cbs-poll-james-talarico-ken-paxton-texas-senate-race/285-3bfab4eb-f6d8-495b-b988-1a2de671c0f2",
-            "impact": "D+"
-          },
-          {
-            "title": "UHのHobby School調査:タラリコ氏48対46。ジョーンズ氏は2018年のベト・オルークより強い位置だと指摘",
+            "title": "UH Hobby調査:テキサス上院はTalarico氏48対46。共和党支持層のPaxton支持は88%にとどまる",
             "source": "Houston Public Media",
             "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/18/564673/talarico-holds-slight-edge-over-paxton-in-u-s-senate-race-on-cusp-of-election-poll-shows/",
             "impact": "D+"
           },
           {
-            "title": "シルバー集計の総合投票はD+8.9で、9月の急伸後に横ばい",
-            "source": "Silver Bulletin",
-            "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+            "title": "CBS世論調査:テキサス上院はTalarico氏51対49。早期投票の開始と同時期",
+            "source": "KHOU/CBS",
+            "url": "https://www.khou.com/article/news/politics/elections/cbs-poll-james-talarico-ken-paxton-texas-senate-race/285-3bfab4eb-f6d8-495b-b988-1a2de671c0f2",
             "impact": "D+"
           },
           {
-            "title": "Poliwaveモデル:下院は民主党85%、上院は61%",
-            "source": "Poliwave",
-            "url": "https://www.poliwave.com/us/fed/projection",
-            "impact": "D+"
+            "title": "ジョージアの早期投票が100万票を超え、2022年同時期比+12%。RNCはトランプ氏の遊説効果を主張",
+            "source": "Fox News",
+            "url": "https://foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
+            "impact": "neutral"
+          },
+          {
+            "title": "各地で早期投票が急増。ただし初期投票者は政治的関与が高く、予測力は限られる",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/10/20/midterms-early-voting-states-data",
+            "impact": "neutral"
           }
         ],
         "citations": [
           {
-            "url": "https://www.khou.com/article/news/politics/elections/cbs-poll-james-talarico-ken-paxton-texas-senate-race/285-3bfab4eb-f6d8-495b-b988-1a2de671c0f2",
-            "title": "CBS世論調査:テキサス上院はタラリコ氏51対49でパクストン氏をリード。早期投票が開始"
-          },
-          {
             "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/18/564673/talarico-holds-slight-edge-over-paxton-in-u-s-senate-race-on-cusp-of-election-poll-shows/",
-            "title": "UHのHobby School調査:タラリコ氏48対46。ジョーンズ氏は2018年のベト・オルークより強い位置だと指摘"
+            "title": "UH Hobby調査:テキサス上院はTalarico氏48対46。共和党支持層のPaxton支持は88%にとどまる"
           },
           {
-            "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
-            "title": "シルバー集計の総合投票はD+8.9で、9月の急伸後に横ばい"
+            "url": "https://www.khou.com/article/news/politics/elections/cbs-poll-james-talarico-ken-paxton-texas-senate-race/285-3bfab4eb-f6d8-495b-b988-1a2de671c0f2",
+            "title": "CBS世論調査:テキサス上院はTalarico氏51対49。早期投票の開始と同時期"
           },
           {
-            "url": "https://www.poliwave.com/us/fed/projection",
-            "title": "Poliwaveモデル:下院は民主党85%、上院は61%"
+            "url": "https://foxnews.com/live-news/midterm-elections-2026-trump-north-carolina-early-voting-october-20",
+            "title": "ジョージアの早期投票が100万票を超え、2022年同時期比+12%。RNCはトランプ氏の遊説効果を主張"
+          },
+          {
+            "url": "https://www.axios.com/2026/10/20/midterms-early-voting-states-data",
+            "title": "各地で早期投票が急増。ただし初期投票者は政治的関与が高く、予測力は限られる"
           }
         ],
         "searches": null
@@ -373,107 +393,89 @@
           "senate_control_prob_dem": 57,
           "house_control_prob_dem": 85,
           "comment": "知事には赤、上院には青。赤い州の「分割投票」が大富豪の広告爆撃をかわす。"
+        },
+        {
+          "date": "2026-10-21",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 58,
+          "house_control_prob_dem": 88,
+          "comment": "期日前投票で7対3の青い奔流、下院は2018年超えの波へ。"
         }
       ],
       "latest": {
-        "date": "2026-10-19",
-        "generated_at": "2026-10-19T07:00:03+09:00",
+        "date": "2026-10-21",
+        "generated_at": "2026-10-21T07:00:03+09:00",
         "model_id": "google/gemini-4-argon",
         "senate": {
           "dem": 51,
           "rep": 49
         },
         "house": {
-          "dem": 234,
-          "rep": 201
+          "dem": 236,
+          "rep": 199
         },
-        "senate_control_prob_dem": 57,
-        "house_control_prob_dem": 85,
-        "comment": "知事には赤、上院には青。赤い州の「分割投票」が大富豪の広告爆撃をかわす。",
+        "senate_control_prob_dem": 58,
+        "house_control_prob_dem": 88,
+        "comment": "期日前投票で7対3の青い奔流、下院は2018年超えの波へ。",
         "hidden_dynamics": [
-          "テキサス州の最新CBS調査でタラリコ支持者の7%が共和党アボット知事を支持し、「普段は絶対に民主党に入れない」層の9%を取り込むなど、赤い州で物価高と候補者の人格を軸にした「保守層の分割投票（チケット・スプリット）」がスーパーPACのネガティブ広告を無効化しつつある。",
-          "民主党が赤い州で攻勢をかける裏で、防衛線のミシガン州では左派エルサイード候補が予備選で落としたデトロイトの高齢黒人層・不在者投票層を固めきれず（黒人層の政党支持83%に対し個人支持67%）、共和党ロジャーズ氏の猛追を許す「青い壁の死角」が生じている。",
-          "アリゾナ1区やミシガン州などで、AIデータセンター建設ラッシュに伴う電気代高騰と水資源消費への住民反発が超党派の争点として浮上し、開発推進派と見なされた共和党候補が郊外無党派層を失う隠れた下院の敗因になっている。"
+          "ノースカロライナ州の期日前投票で二大政党登録者のうち民主党が70%対30%という2006年以降最大の偏りを記録し、共和党の投票数が2022年比で8%減少している事実は、単なる投票日の分散ではなく共和党穏健・低関心層の深刻な棄権（Stay-at-home）が始まっていることを示している。",
+          "共和党外部団体がノースカロライナやジョージアの上院選、さらにオハイオやアイオワの下院接戦区から広告資金を引き揚げ、本来安全圏だったカンザス（4倍増）やミシシッピ（3倍増）の防衛に転用せざるを得なくなっており、これが下院の競合区を一気に決壊させている。",
+          "一方、民主党が「青い州」のオープンシート（ミシガンやミネソタ）で進歩派候補を擁立した結果、ミネソタ州の福祉不正問題のようなローカル争点で無党派層の離反を招いており、全国的な追い風の中でも上院の上積み余地を自ら削っている。"
         ],
-        "hypothesis_title": "赤い州の分割投票と青い壁の死角が交錯する51議席",
-        "hypothesis": "ガソリン高と生活費高騰の中、民主党は期日前投票の動員力と小口献金による広告単価優位で下院を圧倒する。上院の赤い州（TX、OH、IA）では共和党が巨額PAC資金で党派性を煽るが、インフレ不満と候補者の資質を重視する穏健保守層の「分割投票」が民主党の防波堤となる。一方、ミシガン等の防衛区では左派候補への黒人・穏健層の離反リスクが潜み、攻防の相殺で51議席前後に着地する。今週始まるTX期日前投票で都市・郊外層の出足が鈍れば、この仮説を修正し上院予測を共和党側へ戻す。",
+        "hypothesis_title": "期日前投票の非対称動員と「赤い砦」の資金枯渇",
+        "hypothesis": "ガソリン高とトランプ支持率31%への低下を背景に、期日前投票で民主党が歴史的な動員優位（NCで党派比7対3、TX都市部で初日最多更新）を築き、共和党が資金を引き揚げた下院接戦区を次々と決壊させる。上院では共和党がKSやMSなど深紅の州の防衛にまで資金分散を強いられる一方、民主党もMNやMIの防衛区で候補者の左派色や州政スキャンダルにより苦戦し、攻防の相殺で51議席に着地する。今後、期日前投票の共和党比率が急回復すれば下院予測を引き下げる。",
         "hypothesis_status": "refined",
-        "change_reason": "18日公表のCBSテキサス調査（タラリコ51対49）やオハイオ調査（ブラウン48対42）が仮説の「赤い州での互角以上の戦い」を裏付けた一方、ミシガン州での民主党の伸び悩みも確認されたため、昨日の仮説を「分割投票と防衛区の相殺」へ精緻化した上で、上下両院とも昨日の議席予測（上院D51、下院D234）を維持した。",
-        "analysis": "18日発表のCBS調査は、総額4.4億ドルが飛び交うテキサス上院選でタラリコ氏（民）がパクストン氏（共）を51対49で僅差リードしていると示した。注目すべきは中身だ。同じ投票用紙の知事選では共和党現職アボット氏が優位な一方、タラリコ氏は「絶対に民主党に投票しない」としていた層の9%や共和党支持層の5%を奪っている。弾劾歴のあるパクストン氏への忌避感と生活費高騰が、党派性を超えた分割投票を生んでいる構図は、同日発表のオハイオ州（YouGov調査でブラウン氏が48対42と6ポイント先行）でも共通する。これにより民主党はノースカロライナ、メインに加え、オハイオとテキサス・アイオワ・アラスカのいずれかを奪う51議席への道筋を太くした。ただし民主党の死角はミシガン州だ。左派のエルサイード候補に対し、共和党ロジャーズ氏が18日のCNN番組等で猛攻を仕掛け、デトロイトの黒人層・高齢不在者投票層の取り込み不足が表面化している。下院は一般投票平均で民主党が8ポイント前後のリードを保ち、データセンター建設による電気代高騰への反発も追い風に234議席ペースと堅調だ。明日は19日に解禁されるテキサス州の期日前投票の初日データを検証する。",
+        "change_reason": "前日設定した検証条件であるテキサス州の期日前投票初日（ハリス郡・ダラス郡）で過去最高の出足が確認されたこと、およびNC等の期日前投票での共和党支持層の落ち込みと下院接戦区からの共和党の資金撤退を受け、下院を民主党236議席（+2）へ引き上げ、上院はMNの接戦化と南部での攻勢拡大を相殺し51議席を維持した。",
+        "analysis": "昨日注視を掲げたテキサス州の期日前投票初日は、最大の票田ハリス郡（10.4万票超）やダラス郡で中間選挙の初日記録を塗り替え、タラント郡でも両党候補が激突するなど都市・郊外層の猛烈な出足を裏付けた。さらに重大なシグナルはノースカロライナ州の期日前投票データだ。民主党の投票数が2022年比53%増に対し共和党は8%減少し、二大政党間の比率は70対30と過去20年で最も民主党に傾いている。Reuters調査で一般投票が民主党+12（Silver平均でも+8.6）へ拡大し、Sabatoが下院28選挙区を一斉に民主党側へ動かしたのもこの動員格差と整合する。共和党がオハイオやアイオワの下院区から広告費を引き揚げて深紅のカンザスやミシシッピ上院の防衛に回しているため、下院の波は2018年（235議席）をわずかに超える236議席に達すると見る。一方、上院で数字を据え置いたのは、オハイオ（Marist調査でブラウン氏+4）やアラスカ（ペルトラ氏+2）の堅調さと、Cookがサウスカロライナ・ミシシッピを民主党方向へ動かした好材料が、ミネソタ州の「Lean D」への格下げ（州の不正受給問題でフラナガン氏が苦戦）やミシガン州の伸び悩みと相殺しているためだ。明日はテキサス州郊外郡の期日前投票の持続性とカンザス・アイオワの動向を追う。",
         "key_news": [
           {
-            "title": "CBS世論調査：テキサス上院選はタラリコ51%・パクストン49%の超接戦、物価高と候補者の資質で保守層の一部が分割投票",
-            "source": "CBS News",
-            "url": "https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/",
+            "title": "Sabato's Crystal Ballが下院28選挙区の予測を民主党有利へ変更、民主党235議席前後の獲得が視野に",
+            "source": "Sabato's Crystal Ball (UVA Center for Politics)",
+            "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
             "impact": "D+"
           },
           {
-            "title": "オハイオ上院補選の最新YouGov調査で民主党ブラウン氏が48%対42%とリード拡大、各地の最新調査で民主党優位続く",
-            "source": "Forbes",
-            "url": "https://www.forbes.com/sites/saradorn/2026/10/18/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-in-new-polls-updated-daily/",
+            "title": "テキサス州の期日前投票が開始、ヒューストン（ハリス郡）やダラス郡で初日の過去最多投票数を更新",
+            "source": "The Texas Tribune / KPRC",
+            "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
             "impact": "D+"
           },
           {
-            "title": "投開票まで16日、トランプ氏がケンタッキー州で集会し中間選挙を政権の信任投票と位置付け、ジョンソン議長は下院維持を主張",
-            "source": "Fox News",
-            "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-republicans-democrats-october-18",
+            "title": "オハイオ州上院選のMarist世論調査で民主党ブラウン氏が48%対44%でリード維持、ノースカロライナ州ではクーパー氏が13ポイント差",
+            "source": "Marist Poll / Elon University",
+            "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/",
+            "impact": "D+"
+          },
+          {
+            "title": "Cook Political Reportがミネソタ州上院選を「Lean D」へ引き下げ共和党接近と評価、一方サウスカロライナとミシシッピは民主党側へシフト",
+            "source": "Washington Examiner / The Washington Post",
+            "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4772601/cook-political-report-minnesota-senate-race-gop-south-carolina-left/",
             "impact": "neutral"
-          },
-          {
-            "title": "ミシガン上院選で共和党ロジャーズ氏がエルサイード氏への懸念を強調、デトロイト黒人層の支持固めが民主党防衛の焦点に",
-            "source": "iHeartRadio / CNN",
-            "url": "https://www.iheart.com/content/2026-10-18-mike-rogers-says-michigan-voters-worry-about-el-sayed/",
-            "impact": "R+"
           }
         ],
         "citations": [
           {
-            "url": "https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/",
-            "title": "cbsnews.com"
+            "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+            "title": "Sabato's Crystal Ballが下院28選挙区の予測を民主党有利へ変更、民主党235議席前後の獲得が視野に"
           },
           {
-            "url": "https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/",
-            "title": "cbsnews.com"
+            "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
+            "title": "テキサス州の期日前投票が開始、ヒューストン（ハリス郡）やダラス郡で初日の過去最多投票数を更新"
           },
           {
-            "url": "https://www.bridgedetroit.com/detroit-is-key-to-abdul-el-sayeds-senate-bid-but-he-faces-deep-divides/",
-            "title": "bridgedetroit.com"
+            "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/",
+            "title": "オハイオ州上院選のMarist世論調査で民主党ブラウン氏が48%対44%でリード維持、ノースカロライナ州ではクーパー氏が13ポイント差"
           },
           {
-            "url": "https://www.iheart.com/content/2026-10-18-mike-rogers-says-michigan-voters-worry-about-el-sayed/",
-            "title": "iheart.com"
-          },
-          {
-            "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-republicans-democrats-october-18",
-            "title": "foxnews.com"
-          },
-          {
-            "url": "https://planetdetroit.org/2026/09/data-centers-michigan-senate-rogers-el-sayed/",
-            "title": "planetdetroit.org"
-          },
-          {
-            "url": "https://www.forbes.com/sites/saradorn/2026/10/18/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-in-new-polls-updated-daily/",
-            "title": "forbes.com"
-          },
-          {
-            "url": "https://www.fisherphillips.com/en/insights/insights/5-us-senate-races-to-watch-this-midterm-election-cycle",
-            "title": "fisherphillips.com"
-          },
-          {
-            "url": "https://www.forbes.com/sites/saradorn/2026/10/14/hottest-2026-midterm-races-talarico-ahead-in-texas-senate-race-in-2-new-polls-updated-daily/",
-            "title": "forbes.com"
-          },
-          {
-            "url": "https://english.elpais.com/usa/2026-10-18/election-calculator-who-will-control-the-senate-after-the-midterms.html",
-            "title": "elpais.com"
-          },
-          {
-            "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-            "title": "wikipedia.org"
-          },
-          {
-            "url": "https://www.latintimes.com/early-voting-opens-now-across-us-heres-complete-guide-39-million-latino-voters-600294",
-            "title": "latintimes.com"
+            "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4772601/cook-political-report-minnesota-senate-race-gop-south-carolina-left/",
+            "title": "Cook Political Reportがミネソタ州上院選を「Lean D」へ引き下げ共和党接近と評価、一方サウスカロライナとミシシッピは民主党側へシフト"
           }
         ],
         "searches": null
@@ -554,179 +556,189 @@
           "senate_control_prob_dem": 68,
           "house_control_prob_dem": 88,
           "comment": "テキサスに長蛇の列、赤い州で青い足音——残り15日"
+        },
+        {
+          "date": "2026-10-21",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 71,
+          "house_control_prob_dem": 90,
+          "comment": "格付けが一斉に青へ——満潮か、同調か。残り14日"
         }
       ],
       "latest": {
-        "date": "2026-10-20",
-        "generated_at": "2026-10-20T07:00:03+09:00",
+        "date": "2026-10-21",
+        "generated_at": "2026-10-21T07:00:03+09:00",
         "model_id": "deepseek/deepseek-v4.1-flash",
         "senate": {
           "dem": 52,
           "rep": 48
         },
         "house": {
-          "dem": 235,
-          "rep": 200
+          "dem": 236,
+          "rep": 199
         },
-        "senate_control_prob_dem": 68,
-        "house_control_prob_dem": 88,
-        "comment": "テキサスに長蛇の列、赤い州で青い足音——残り15日",
+        "senate_control_prob_dem": 71,
+        "house_control_prob_dem": 90,
+        "comment": "格付けが一斉に青へ——満潮か、同調か。残り14日",
         "hidden_dynamics": [
-          "テキサス上院に総額5億ドル、うち共和が3億6800万ドルを投じてもパクストンの汚点は埋まらない。資金は「敗北幅の圧縮」には効くが「候補の質の穴」は買い戻せない構図が、上院全域選の本質を突いている。",
-          "オハイオの期日前で民主41%対共和28%という数字は熱量の証明だが、同州の登録区分は予備選参加歴に依存し、無所属が約3割を占める。民主党の「青い先行」は本番当日の共和サージで相殺される余地を常に残しており、過信は禁物。",
-          "クックが10/16に下院11区を一斉に民主方向へ動かし、うち半分がOH・NE・KSという中西部赤州だった事実は、上院接戦州の経済不満と同一の有権者心理が下院まで貫通している証左。上院と下院は別物ではなく、同じ波の二つの表れだ。"
+          "Cook・サバト・Inside Electionsが10/20に揃って大量の評価変更を民主方向へ出したのは、独自分析というより相互参照の同調(herding)の色が濃い。終盤の格付けは実際の不確実性より自信過剰に見えやすく、上振れ・下振れ双方のリスクを過小評価させる。",
+          "共和の巨額外部資金が攻勢ではなく、1932年以来民主が勝っていないカンザスなどR+8〜20州の『防衛』に消えている。資金が拡大でなく防衛に回るのは、地元候補の弱さ以上に全国的な逆風の広がりを示す。",
+          "テキサスでは共和強固なモンゴメリー、エリス、ベル、マクレナン郡でも初日の投票記録が出た。これは民主熱の証拠というより『パクストン離れした共和・無所属層』の動員かもしれず、青い数字を素直に民主票と読むのは危険。"
         ],
-        "hypothesis_title": "赤州バイアスは今回効かず、候補の質が波を決める",
-        "hypothesis": "従来の「赤州の世調は本番で共和に2〜4点寄る」という前提は今回は弱い。2020年・2024年の赤州バイアスはトランプ固有の低学歴・低投票頻度層の押し上げに由来し、トランプが票にいない今回は同じ補正が効きにくい。代わりに支配するのは候補の質（タラリコ、ブラウン、ペルトーラ）と投票率の非対称、共和候補の弱さ（パクストン、ハステッド、マーシャル）である。テキサス期日前初日の記録的な長蛇の列とTalaricoの四半期6400万ドル調達は、赤州でも民主の熱量が本物であることを示す。よってNC・OH・TX・AK・MEを民主、IA・KS・NE・SCは共和が薄氷で逃げ切る。棄却条件は、最終週に期日前の民主優位が共和の当日票で明確に逆転される兆候、または共和系世調（インサイダーアドバンテージのパクストン+1）が本番で的中し続ける気配。",
+        "hypothesis_title": "波は赤州へ——防衛に回る共和資金",
+        "hypothesis": "従来の『赤州の世調は本番で共和に寄る』前提は今回弱い。2020/2024の赤州バイアスはトランプ固有の低学歴・低投票頻度層の押し上げに由来し、トランプ不在の今回は補正が効きにくい。加えて10/20にCook・サバト・IEが揃ってカンザス、SC、NE、WYなどR+8〜20州の議席を民主方向へ動かしたのは、候補の質を超えた全国的な反共和波の表れだ。共和の巨額資金が攻勢でなく赤州防衛に消えている事実がそれを裏付ける。よってNC・OH・TX・AK・MEは民主、KSはほぼ互角、IA・NE・SCは共和薄氷。棄却条件は、期日前のD優位が当日共和票で明確に逆転される兆候、またはメインでコリンズが平均+3以上に抜け出す気配。",
         "hypothesis_status": "refined",
-        "change_reason": "仮説の骨格は維持しつつ、テキサス期日前初日の記録的 turnout と Talarico の資金・熱量を新証拠として組み込み精緻化した。モデル中央値（Vote-Scope 51.6、Call the Map 51.1、市場63〜65%）と整合する52議席、下院235を据え置き。TXは依然として4つの民主ピックアップ中最もリスクが高く、共和系世調のパクストン+1を最大の反証リスクとして注記する。",
-        "analysis": "【上院】改選35、現状53R-47D、民主の必要純増は4。クックのトスアップ7つは共和防衛6（AK・IA・KS・ME・OH・TX）に民主防衛1（MI）。NC（クーパー+7〜14）とNH（パパス+7〜8）はほぼ確定で、民主はNC+ME+OH+TX=51の最短経路を持つ。今日の新情報はテキサス期日前初日の長蛇の列（タラント郡で30〜45分待ち、登録者1900万人は過去最高）とTalaricoの「Clear Eyes, Full Hearts」ツアーの熱気、そして上院選総額5億ドル（共和3億6800万、民主1億3200万）という資金の非対称だ。共和の巨額資金は敗北幅を縮めるが候補の質の穴は埋めない——これが私の中心命題。ただしインサイダーアドバンテージはパクストン+1、ダラス・モーニングニュースもパクストン優勢を指摘し、TXは依然最大の反証リスク。アラスカはペルトーラが複数世調で一貫リードし、メインはジャクソンが資金差を熱量で逆転する公算。KSはハミルトン資金がマーシャルの11倍で薄氷共和、IAはハンソン+2前後で共和。中央値52（幅49〜54）。市場はKalshi64.8%、Polymarket63.5%、Vote-Scope65%と私よりやや慎重だが、私は赤州バイアス減退の分だけ上振れさせ68%を維持する。【下院】ジェネリックはD+7.6〜9.2（DDHQ7.6、RCP7.9、Ballotpedia8、FiftyPlusOne9、trackthevote9.2）で高止まり、前日から実質不変。クックは10/16に11区を民主方向へ動かし、MT-1がトスアップ入り、中西部赤州が軒並み競争化。TX・MO・NC・OH・FLの新地図で民主保有トスアップが共和寄りに傾くのが唯一の歯止めだが、環境差が上回る。中央値235（+20）。【持ち越し】明日はテキサス期日前の初日集計（郡別のR/D登録比）、オハイオ期日前第3週、メイン世調更新、共和PACのKS・IA追加投入の有無を確認。TXの期日前で共和登録が民主を明確に上回るなら、私の「赤州バイアス減退」仮説に黄信号。",
+        "change_reason": "仮説自体は維持しつつ『候補の質』から『全国化した反共和波＋資金の防衛シフト』へ重心を移した。上院は52維持（53がほぼ同率で迫る）、下院は格付けの赤州侵食を織り込み235→236、上院Pは68→71へ小幅引き上げ。",
+        "analysis": "【上院】改選35、現状53R-47D、民主の必要純増は4。今日の最大材料はIEの評価変更で、TXをTilt R→Toss-up、KSをLikely R→Tilt R、SCをLikely R→Lean R、FLをSolid R→Likely R、NHをToss-up→Tilt Dへ動かした。CookはKSをToss-up、NHをLean D、NCをLikely Dへ。格付けは『TXは民主が5か月1〜2点リード』という耐久性を認め始めた。最短経路NC+ME+OH+TX=51、AKで52、KSで53。KSはハミルトン資金がマーシャル比11倍、州知事8人中6人が民主支持だが、市場はなお共和65%。私はKSをほぼ互角と見る。中央値52、幅50〜55。最大の反証リスクはメイン：コリンズはトランプ不支持層の12%を取る異常なクロスオーバーを示し、無所属でリード。ジャクソン+2の薄氷。【下院】ジェネリックはReuters/IpsosのRV D+12(47-35)からRasmussenのLV D+4(48-44)、Echelon D+5まで開きが大きい。RVとLVの乖離は民主の熱量と共和の低投票頻度層の双方を示唆。平均はD+8前後で高止まり。サバトは10/20に28区を民主方向へ動かし『218超・235接近』、クックは224〜234、IEは22区変更で開放区で共和が崩れる。中央値236（+21）。【持ち越し】明日はTX期日前の郡別R/D登録比、OH第3週、KS・IAへの共和資金追加、メイン世調の続報を確認。RV-LV乖離が縮まらなければ上院Pをさらに上げる。",
         "key_news": [
           {
-            "title": "テキサスで期日前投票開始、登録者1900万人は過去最高。タラント郡などで30〜45分待ちの長蛇、Talarico陣営は大学・高校で集会",
-            "source": "CNN / Fort Worth Star-Telegram",
-            "url": "https://www.cnn.com/2026/10/19/politics/live-news/midterm-election-congress",
+            "title": "Inside Electionsが上院5・下院22・知事3の計30評価を民主方向へ変更。TXをToss-up、KSをTilt R、SCをLean R、NHをTilt Dへ動かし、上院予測を民主+3〜5に",
+            "source": "Roll Call / Inside Elections",
+            "url": "https://rollcall.com/2026/10/20/rating-changes-democrats-inside-elections/",
             "impact": "D+"
           },
           {
-            "title": "テキサス上院、共和系インサイダーアドバンテージ調査でパクストン49-48タラリコ（10/13-14実施）。上院選支出は総額5億ドル超、共和3億6800万ドル",
-            "source": "InsiderAdvantage / CBS Texas",
-            "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/",
-            "impact": "R+"
-          },
-          {
-            "title": "オハイオ期日前、民主党が41%対共和28%で先行。ハミルトン郡の民主票は2022年の約4倍、トランプ+20郡でも両党が39%で並ぶ",
-            "source": "Spectrum News / News5 Cleveland",
-            "url": "https://spectrumnews1.com/oh/columbus/news/2026/10/14/democrats-early-voting-ohio",
+            "title": "サバトのクリスタルボールが下院28区を民主方向へ変更。218を超え『235接近』とし、下院は223対200・トスアップ12に。アイオワ4区中3区がLean D",
+            "source": "Sabato's Crystal Ball / The Hill",
+            "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
             "impact": "D+"
           },
           {
-            "title": "サウスカロライナ上院、共和系トラファルガー調査でグラハム49-46アンドリュース（10/18）。民主は資金で圧倒するが地の赤さが壁",
-            "source": "Trafalgar Group (partisan-R)",
-            "url": "https://pollingsource.com/senate/polls",
-            "impact": "R+"
+            "title": "テキサス期日前初日、ハリス・ダラスなど青郡だけでなくモンゴメリー・エリス・ベル・マクレナンなど赤郡でも記録的投票。トランプは来週ラボック・ウェーコでパクストン応援へ",
+            "source": "Texas Tribune",
+            "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
+            "impact": "neutral"
+          },
+          {
+            "title": "Reuters/Ipsos中間調査は登録有権者で民主47-共和35(D+12)、Rasmussenは有権者モデルで民主48-共和44(D+4)。RVとLVで大差",
+            "source": "Ipsos / Rasmussen (via Open Chronicle)",
+            "url": "https://www.ipsos.com/en-us/reutersipsos-mid-october-survey",
+            "impact": "D+"
           }
         ],
         "citations": [
-          {
-            "url": "https://www.realclearpolling.com/latest-polls/senate",
-            "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
-          },
-          {
-            "url": "https://pollingsource.com/senate/polls",
-            "title": "2026 Senate Polls — Latest Race Polling | PollingSource"
-          },
           {
             "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
             "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
           },
           {
-            "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/",
-            "title": "InsiderAdvantage Senate Surveys: Texas, Paxton 49, Talarico 48; Kansas, Marshall 48%, Hamilton 47%; Maine, Jackson 49, Collins 47;Update: All Conducted 10/13-14 – InsiderAdvantage"
-          },
-          {
-            "url": "https://vote-scope.com/en/us/senate/polls/",
-            "title": "U.S. Senate polling as of October 18, 2026 — Vote-Scope"
-          },
-          {
-            "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
-            "title": "FiftyPlusOne - Generic Ballot Polls and Average for 2026"
-          },
-          {
-            "url": "https://votes.decisiondeskhq.com/polls/generic-ballot/national",
-            "title": "Generic Congressional Ballot Polling Average"
-          },
-          {
-            "url": "https://www.trackthevote.net/generic-ballot",
-            "title": "2026 Generic Congressional Ballot polling average"
-          },
-          {
-            "url": "https://ballotpedia.org/Ballotpedia%27s_Polling_Index:_Generic_congressional_vote",
-            "title": "Ballotpedia's Polling Index: Generic congressional vote - Ballotpedia"
-          },
-          {
-            "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
-            "title": "2026 Generic Congressional Vote | RealClearPolling"
-          },
-          {
-            "url": "https://www.cookpolitical.com/ratings",
-            "title": "CPR Race Ratings | Cook Political Report"
-          },
-          {
-            "url": "https://www.cookpolitical.com/analysis/house/house-overview/eleven-more-house-races-shift-toward-democrats",
-            "title": "Eleven More House Races Shift Toward Democrats | Cook Political Report"
-          },
-          {
-            "url": "https://midtermmonday.com/movers",
-            "title": "Midterm Mondays"
-          },
-          {
-            "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
-            "title": "2026 CPR Senate Race ratings"
-          },
-          {
-            "url": "https://www.washingtonpost.com/politics/2026/10/06/three-senate-races-shift-toward-democrats-cook-ratings/",
-            "title": "Three Senate races shift toward Democrats in Cook ratings - The Washington Post"
-          },
-          {
-            "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-            "title": "» 2026 Early Voting UF Election Lab"
-          },
-          {
-            "url": "https://www.aristotle.com/data/early-absentee-voting-dashboard-2026-midterms/",
-            "title": "Early & Absentee Voting Dashboard - 2026 Midterms - Aristotle"
-          },
-          {
-            "url": "https://www.news5cleveland.com/news/politics/ohio-politics/one-week-into-early-voting-ohio-democrats-are-outperforming-republicans",
-            "title": "One week into early voting, Ohio Democrats are outperforming Republicans"
-          },
-          {
-            "url": "https://spectrumnews1.com/oh/columbus/news/2026/10/14/democrats-early-voting-ohio",
-            "title": "Democrats lead early voting in Ohio"
+            "url": "https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html",
+            "title": "Tracking the Early Vote in the 2026 Midterm Elections"
           },
           {
             "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
             "title": "Tracking the 2026 Early Vote: Midterm Elections"
           },
           {
-            "url": "https://vote-scope.com/en/us/senate/compare-forecasts/",
-            "title": "2026 Senate Forecast Comparison: Vote-Scope vs Other Models — Vote-Scope"
+            "url": "https://www.electoral-vote.com/evp2026/Senate/senate_polls.txt",
+            "title": ""
           },
           {
-            "url": "https://votes.decisiondeskhq.com/forecast/2026/senate",
-            "title": "2026 U.S. Senate Forecast - DDHQ Votes"
+            "url": "https://www.realclearpolling.com/latest-polls",
+            "title": "Latest Polls 2026, 2028 | RealClearPolling"
           },
           {
-            "url": "https://futureballot.com/senate",
-            "title": "2026 Senate forecast · FutureBallot"
+            "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+            "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
           },
           {
-            "url": "https://www.callthemap.com/senate",
-            "title": "The Senate · Call the Map"
+            "url": "https://www.cookpolitical.com/analysis/house/house-overview/eighteen-more-house-race-ratings-move-democrats-favor",
+            "title": "Eighteen More House Race Ratings Move in Democrats’ Favor | Cook Political Report"
           },
           {
-            "url": "https://votepredictor.com/",
-            "title": "VotePredictor — 2026 election forecast, Congress & SCOTUS predictions"
+            "url": "https://thehill.com/homenews/campaign/6160820-sabatos-crystal-ball-house-democrats/",
+            "title": "Sabato’s Crystal Ball moves nearly 3 dozen House races in Democrats favor"
           },
           {
-            "url": "https://www.sos.texas.gov/about/newsreleases/2026/101626.shtml",
-            "title": "Secretary Howden Announces Texas Has a Record 19 million Registered Voters"
+            "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+            "title": "2026 CPR House Race ratings"
           },
           {
-            "url": "https://www.cnn.com/2026/10/19/politics/live-news/midterm-election-congress",
-            "title": "Early in-person voting begins in Texas as Democrats hope ..."
+            "url": "https://rollcall.com/2026/10/20/rating-changes-democrats-inside-elections/",
+            "title": "Rating changes: 30 races shift toward Democrats – Roll Call"
           },
           {
-            "url": "https://www.star-telegram.com/news/politics-government/article317682070.html",
-            "title": "Live updates: Early voting for midterm election under way | Fort Worth Star-Telegram"
+            "url": "https://www.sos.texas.gov/elections/historical/counties.shtml",
+            "title": "Voter Registration and Unofficial Early Voting Figures"
           },
           {
-            "url": "https://www.cbsnews.com/texas/news/texas-senate-race-early-voting-starts/",
-            "title": "Sizing up the Texas Senate race between James Talarico and Ken Paxton as early voting begins - CBS Texas"
+            "url": "https://www.houstonchronicle.com/projects/2026/texas-midterms-early-voting-turnout/",
+            "title": "Texas midterms early voting tracker: See where turnout is ..."
           },
           {
-            "url": "https://www.dallasnews.com/news/politics/article/5-things-watch-early-voting-begins-texas-22480098.php",
-            "title": "5 things to watch as early voting begins in Texas"
+            "url": "https://cbsaustin.com/news/local/democratic-voters-leading-in-early-voting-totals-as-senate-candidates-travel-state",
+            "title": "Democratic voters leading in early voting totals as Senate candidates travel state"
+          },
+          {
+            "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
+            "title": "What early voting data in Texas means for results"
+          },
+          {
+            "url": "https://newtools.cira.state.tx.us/upload/page/0454/2026%20Primary/EV%20unofficial%20report%203_3_26.pdf",
+            "title": "Statistics"
+          },
+          {
+            "url": "https://www.nytimes.com/interactive/polls/maine-us-senate-election-polls-2026.html",
+            "title": "Maine U.S. Senate Election 2026: Latest Polls"
+          },
+          {
+            "url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/10_14_2026_maine_press_release.pdf",
+            "title": "Suffolk University Press Release: Statewide and Bellwether Polls Maine Midterm Elections"
+          },
+          {
+            "url": "https://fiftyplusone.news/polls/senate/general/maine",
+            "title": "FiftyPlusOne - Maine  General Senate Election Polls and Average for the 2026 General Election"
+          },
+          {
+            "url": "https://politixplus.com/race/u-s-senate-maine-jackson-vs-collins",
+            "title": "Maine Senate 2026 Polls: Jackson vs Collins | Politix+"
+          },
+          {
+            "url": "https://www.washingtonpost.com/politics/2026/10/09/poll-democrat-troy-jackson-narrowly-leads-susan-collins-maine-senate-race/",
+            "title": "Democrat has edge over Susan Collins in critical Maine Senate battle, poll finds - The Washington Post"
+          },
+          {
+            "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+            "title": "2026 CPR Senate Race ratings | Cook Political Report"
+          },
+          {
+            "url": "https://insideelections.com/ratings/senate/",
+            "title": "Senate"
+          },
+          {
+            "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-majority-squarely-democrats-sights-kansas-moves-toss-two",
+            "title": "A Senate Majority is Squarely in Democrats’ Sights as Kansas Moves to Toss Up; Two Other Races Shift Left | Cook Political Report"
+          },
+          {
+            "url": "https://www.huffmanwrites.org/posts/essays/senate-race-report-2026-10-18/",
+            "title": "Senate Race Report: October 18, 2026 | Huffman Writes"
+          },
+          {
+            "url": "https://pollingsource.com/today",
+            "title": "Today's Source - October 20, 2026 | PollingSource"
+          },
+          {
+            "url": "https://echeloninsights.com/insights/october-2026-verified-voter-omnibus",
+            "title": "October 2026 Verified Voter Omnibus"
+          },
+          {
+            "url": "https://politixplus.com/race/generic-ballot-general",
+            "title": "2026 Generic Congressional Ballot Polls | Politix+"
+          },
+          {
+            "url": "https://www.ipsos.com/en-us/reutersipsos-mid-october-survey",
+            "title": "Reuters/Ipsos mid-October Survey | Ipsos"
+          },
+          {
+            "url": "https://openchronicle.org/2026/10/20/democrats-lead-republicans-48-to-44-in-congressional-poll-as-us-midterm-elections-approach/",
+            "title": "Democrats Lead Republicans 48% to 44% in Congressional Poll as US Midterm Elections Approach Open Chronicle Open Chronicle"
           }
         ],
         "searches": null
@@ -807,180 +819,189 @@
           "senate_control_prob_dem": 62,
           "house_control_prob_dem": 94,
           "comment": "D+8の波は郊外限定。アイオワの海には届かない"
+        },
+        {
+          "date": "2026-10-21",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 235,
+            "rep": 200
+          },
+          "senate_control_prob_dem": 57,
+          "house_control_prob_dem": 95,
+          "comment": "波は党ブランドだけに依存する共和党員を飲み込む"
         }
       ],
       "latest": {
-        "date": "2026-10-20",
-        "generated_at": "2026-10-20T07:00:03+09:00",
+        "date": "2026-10-21",
+        "generated_at": "2026-10-21T07:00:03+09:00",
         "model_id": "qwen/qwen3.8-max-0902",
         "senate": {
-          "dem": 52,
-          "rep": 48
+          "dem": 51,
+          "rep": 49
         },
         "house": {
-          "dem": 234,
-          "rep": 201
+          "dem": 235,
+          "rep": 200
         },
-        "senate_control_prob_dem": 62,
-        "house_control_prob_dem": 94,
-        "comment": "D+8の波は郊外限定。アイオワの海には届かない",
+        "senate_control_prob_dem": 57,
+        "house_control_prob_dem": 95,
+        "comment": "波は党ブランドだけに依存する共和党員を飲み込む",
         "hidden_dynamics": [
-          "アイオワのトランプ支持率は44%(Marist)で全国の33%(WaPo)より11ポイント高い。逆風の波は「全国的な潮」ではなく「郊外・大卒の潮」で、だから全国ジェネリックがD+7.3でもIA/KS/AK/MTの上院は共和に粘る。逆に下院の限界区はほぼ全て郊外なので、波はそちらでだけ過剰に変換される。",
-          "DCCC報道官ライスが「218を獲るのに金は要らない。話しているのは次のレベルだ」と明言。締切を10月22日に置いた$17M調達と、R+18のOH-10(ターナー)・セントルイス郊外・リトルロックへの展開は、内部予測が既に225超であることを自ら漏らしている。CLFのOH-01撤退(Spectrum)と合わせ、両党の金が同じ物語を反対方向から語っている。",
-          "NPAのアイオワ調査は「投票意欲10/10」がチュレク支持層91%対ヒンソン支持層80%、登録民主91%対登録共和82%。共和がリードしている州ですら熱量格差が同一方向に出る=熱量欠如は州固有でなく全国的構造。終盤の共和巻き返しに必要な燃料が、負けそうな州にすら存在しない。",
-          "トランプは火曜グリーンビル(ピット郡=東カロライナ大のある民主寄り小都市)、バンスは月曜ヘンダーソンビルと、州の両端を回って「投票率を上げろ」と訴える。同時にCLFの新規予約はノーフォーク市場$1.19MでNC-1のデービス(民主現職)攻撃。自分のベースに投票所へ来いと乞いながら、来れば勝てるはずの相手を攻撃するのに残余資金を使う——この矛盾は公開トリアージより内部調査が悪いことを示す。"
+          "SMPが深紅ミシシッピに$1.2Mの広告を投入し、CookもMS・SCを左へ動かした。同時にCLFはTX-28(クエリャー)から$3Mを抜いてTX-15・TX-34の防衛に回している。両党が同じ内部データ、すなわちヒスパニック系と南部白人性の共和党支持の同時崩壊を見ている証拠だ。",
+          "NC早期投票の登録共和の累積赤字は4日目の-8%から5日目(733,299票)に-5%へ縮小した。共和の当日回帰が始まりつつある。ただし現在の投票者の79%は2022年にも投票した repeat voters で、+38%の急増は新規有権者ではなく投票時期の前倒しが主。ここを混同すると波を二重計上する。",
+          "CookがMNをLean Dへ下げたことと、Tafoya・Hinson・Husted・Rogers・Collinsという個人知名度を持つ共和候補が全て接戦を保っていることは別々のニュースではなく同一現象だ。崩壊しているのは党のラベルであって候補個人ではない。"
         ],
-        "hypothesis_title": "波は郊外限定、田舎上院は赤いまま",
-        "hypothesis": "「共和トリアージ+共和支持層の熱量欠如」は維持し、空間的な芯を足した。逆風は均一な全国潮汐ではなく、郊外・大卒・無党派に集中する波だ。根拠はアイオワのトランプ支持率44%対全国33%という11pt乖離と、IA州の下院ジェネリックがR+1〜R+3なのに全国はD+7.6という逆転。よって下院の限界区(ほぼ全て郊外)では波が過剰に変換されて234前後、上院の追加獲得枠(IA・KS・AK・MT)では波が届かず52で頭打ちになる。NC早期投票の登録共和-8%、NPAの意欲格差D91対R82は熱量欠如仮説を補強。反証条件:(1)早期投票3週目でNC登録共和の絶対数が2022年比プラスに転じる、(2)IA/KS/AKで民主系・非党派調査が同時に3pt超改善し州のトランプ支持率が全国へ収束する、(3)ACA延長か核オプションCRで閉鎖が10月中に決着する。いずれかで捨てる。",
+        "hypothesis_title": "崩壊は党ブランド限定、個人知名度は生き残る",
+        "hypothesis": "「共和トリアージ+共和支持層の熱量欠如」は維持し、芯を地理から候補者ブランドへ差し替えた。波は郊外だから届く/田舎だから届かないのではなく、共和党候補が党ブランドに依存しているかで選別される。Tafoya(MN)・Hinson(IA)・Husted(OH)・Rogers(MI)・Collins(ME)は個人知名度でD+7環境を生き延び、Paxton(TX)・Graham(SC)・Moody(FL)・Marshall(KS)は党ブランド依存ゆえR+15でも崩れる。下院に独自ブランドで耐えられる共和現職が皆無なのが大崩落の理由だ。反証条件:(1)NC早期投票で登録共和の絶対数が2022年比プラスへ、(2)MN・MIで非党派調査が同時に3pt悪化しLean R以下へ、(3)ACA延長か核オプションCRで閉鎖が10月中に決着。",
         "hypothesis_status": "refined",
-        "change_reason": "下院はCLFのOH-01撤退とDCCCのR+18区への展開(=218が内部で確定済みという自白)から+1の234。上院は議席数を52で維持しつつ、アイオワが三社(co/efficient・NPA・Trafalgar)同時にヒンソン+2〜+3へ反転しオハイオもActiVoteで50-50に詰まったため、「4議席目」への経路が5本から3本に減り、制御確率だけ66%→62%に下げた。",
-        "analysis": "今日の材料は上下院で明確に非対称だった。上院はアイオワの反転が決定的だ。co/efficient(10/15-19,n=863)ヒンソン48-45、NPA(10/8-12,n=678)同+3、Trafalgar(10/13-15)45.9-44.2と、手法も期間も違う三社が揃って共和に振れた。Maristのチュレク+3はLV部分のMOEが±6.6と使い物にならず、RV+7は棄却してよい。アイオワは「州政党ブランドの崩壊」ではなく「全国波が届かない州」だった——私の18日の読みはここで外れた。ただしNPAの意欲データ(民主91対共和82)は熱量欠如仮説を生かし、これはアイオワでの敗北と両立する。4議席目の残る経路はOH(callthemap D+3.2だがActiVoteは50-50)、TX(Talarico+2、CBS/YouGov51-49、Hobby+2)、ME(ジャクソン+2が三社一致)、AK(PPP48-47対ASRサリバン+6で不一致)、KS(平均は民主+1、InsiderAdvantageは+1で逆)。五つ巴からIAが消え、しかもAKの調査間乖離が大きい。中央値52は辛うじて保つが、確率を4pt下げるのが誠実だ。NCは10/18までに525,967票(+37%)、登録共和-8%・民主+53%・無党派+60%で、私の唯一の反証条件は未達成。市場(Kalshi63%/Polymarket65%)は私より上だが、DDHQ56%が近く、62%はその中間。下院は金の動きが全て民主方向だ。APのCLF撤退(IA-1・NJ-7・OH-1・MI-8で$13.3M=総額12%)に続き、SpectrumがOH-01の資金引き揚げを確認。Legis1のFCC予約は10/19週で民主$81.2M対共和$69.2M。共和の新規はノーフォーク市場のNC-1攻撃とフェニックスの$1.11Mのみで、守備にも攻勢にも厚みがない。Cook構造(185/17/12/21/13/16/171)の期待値は226〜232だが、DCCCの「次のレベル」発言と早期投票の実測を乗せて234とした。リスクは二つ:(1)IA州下院ジェネリックR+2が本当ならIA-1・IA-3のLean Dは脆く、2議席の下振れ要因。(2)閉鎖決着。APは「妥協は遠い、閉鎖は続く」と報じ、私の最大の downside シナリオは今日も発動しなかった。明日への申し送り:(1)NC・IA早期投票3週目の登録共和絶対数、(2)AKの調査乖離を解く新規非党派調査、(3)DCCC$17Mが10/22までに集まり実際にOH-10・MO-2・AR-2へ着金するか、(4)Trumpグリーンビル集会後のNC登録共和の日次増加、(5)ACA協議の着地点。",
+        "change_reason": "全接戦14レースに独自確率を当てて期待値を再計算するとD系50.6となり、昨日報告した52は自分の期待値を上回っていた。MN(Lean D化・Flanagan 66%)とMI(+2へ縮小)の下振れを織り込み、KS/TX/FL/SCの地図拡大(期待値+0.14)で相殺しても中央値は51が最頻値、制御確率は62→57%へ。下院はSabato「223がLean D以上」・IE「+10〜20」の上方改定とCLFの防衛転化を+1で反映し235。",
+        "analysis": "今日は上下院とも評価機関が一斉に動いたが、方向は片側ではなかった。IE(Gonzales)は30レースを民主へ、うち上院5(FL Solid→Likely、KS Likely→Tilt、NH Toss-up→Tilt D、SC Likely→Lean、TX Tilt→Toss-up)。NHがToss-upを抜けたことで民主は防衛側のToss-upゼロという構造的優位を得た。一方でCookはMNをLikely→Lean Dへ下げ、RasmussenはAKを44-44の完全同率(9月は39-39)とし、ついでにOHでHustedがBrownを逆転と書いている。私の新仮説はこの両方向の動きを一つの原理で説明できる。MNのTafoyaは2022年副知事選を0.4pt差で戦った個人ブランド候補、AKのSullivanは現職で75%の共和票を固め、RCV第2選択が48対47でSullivanに傾く。Heikesと同名Daniel J. Sullivanが取る7%は最終的にSullivanへ移るため、Peltolaの44はほぼ天井だ。よってAKはCtMの50%より下げて44%とした。IAは三社が共和側で30%に確定。4議席目の経路はKS(38%)・TX(53%)・OH(58%)・ME(52%)の四つに絞られ、FL/SC/MSの拡大は期待値をほとんど動かさない。下院は金の流れが全て民主方向で、TX-28から抜いた$3MをTrump+18のTX-15と+10のTX-34の防衛に回した事実は、共和の内部データがRGVの崩壊を示している。Sabatoは223をLean D以上とし2018年の235に言及、IEは+10〜20。ただし抑えとして、NCの共和累積赤字が-8%→-5%へ縮小し始めた点、早期投票者の79%が2022年投票者である点を忘れない。明日への申し送り:(1)NC早期投票6〜8日目の登録共和の絶対数(2022年比プラス転化が私の反証条件)、(2)MNの新規非党派調査が出るか、(3)AKのRCV第2選択を含む調査、(4)DCCCの$17M(締切10/22)が実際にOH-10・MO-2・AR-2・WY-ALへ着金するか、(5)閉鎖決着の有無。",
         "key_news": [
           {
-            "title": "アイオワ上院でco/efficientがヒンソン48-45(+3)。知事はサンド+4、州下院ジェネリックは共和+2と、全国D+7.6と逆行",
-            "source": "co/efficient Battlegrounds",
-            "url": "https://battlegrounds.coefficient.org/ia/",
+            "title": "Inside Electionsが上院5・下院22・知事3の計30レースを民主側へ格上げ。上院は+3〜5、下院は+10〜20を予測。NHがTilt Dとなり民主の防衛側Toss-upが消滅",
+            "source": "Roll Call",
+            "url": "https://rollcall.com/2026-10-20/rating-changes-democrats-inside-elections/",
+            "impact": "D+"
+          },
+          {
+            "title": "Cookがミネソタ上院をLikely DからLean Dへ。Flanagan対Tafoyaが終盤に接戦化し、民主にとって想定外の防衛戦線が出現",
+            "source": "The Washington Post",
+            "url": "https://www.washingtonpost.com/politics/2026-10-20/us-senate-race-minnesota-moves-toward-gop-new-cook-rating/",
             "impact": "R+"
           },
           {
-            "title": "CLFがIA-1・NJ-7・OH-1・MI-8から撤退(計$13.3M=総額12%)。DCCCは締切10/22の$17M調達を開始し、OH-10やマイアミ、セントルイス郊外、リトルロックへ展開へ。「218を獲るのに金は要らない、次のレベルだ」と幹部",
-            "source": "AP通信",
-            "url": "https://apnews.com/article/midterms-republicans-democrats-senate-house-cdd95df350c648d19e60cb3ecea42138",
-            "impact": "D+"
+            "title": "Rasmussenのアラスカ上院はPeltola44-44 Sullivanの同率(9月は39-39)。同社はオハイオでHustedがBrownを逆転、下院の党差は4ptへ縮小と報告",
+            "source": "Rasmussen Reports",
+            "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_alaska_senate",
+            "impact": "R+"
           },
           {
-            "title": "共和党、オハイオ1区(ランズマン現職)での資金投入を撤回。州内の民主シフトを受けた判断と報じられる",
-            "source": "Spectrum News 1 Ohio",
-            "url": "https://spectrumnews1.com/oh/columbus/news/2026-10-19/ohio-1st-district-landsman-conroy",
+            "title": "Sabato's Crystal Ballが下院28レースを格上げ、Lean D以上が223に。2018年の235議席に近い水準まで見えると明記",
+            "source": "Sabato's Crystal Ball / UVA Center for Politics",
+            "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
             "impact": "D+"
-          },
-          {
-            "title": "NC早期投票は52.5万票で2022年比+36%、登録共和は-9%。トランプが火曜グリーンビル、バンスが月曜ヘンダーソンビル入りし投票率てこ入れ。WaPo調査のトランプ支持率は33%で両任期最低",
-            "source": "NC Newsline / Washington Post",
-            "url": "https://ncnewsline.com/2026-10-19/trump-heads-to-greenville-as-nc-republicans-struggle-with-early-voter-turnout/",
-            "impact": "neutral"
           }
         ],
         "citations": [
           {
-            "url": "https://www.electoral-vote.com/evp2026/Senate/averages.html",
-            "title": "State Averages for Senate"
+            "url": "https://www.washingtonpost.com/politics/2026/10/20/cook-political-report-moves-mississippi-south-carolina-senate-races-toward-democrats/",
+            "title": "Cook Political Report moves Mississippi, South Carolina Senate races toward Democrats - The Washington Post"
           },
           {
-            "url": "https://pollingsource.com/senate/polls",
-            "title": "2026 Senate Polls — Latest Race Polling | PollingSource"
+            "url": "https://rollcall.com/2026/10/20/rating-changes-democrats-inside-elections/",
+            "title": "Rating changes: 30 races shift toward Democrats – Roll Call"
           },
           {
-            "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
-            "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+            "url": "https://www.washingtonpost.com/politics/2026/10/20/us-senate-race-minnesota-moves-toward-gop-new-cook-rating/",
+            "title": "U.S. Senate race in Minnesota moves toward GOP in new Cook rating - The Washington Post"
           },
           {
-            "url": "https://www.callthemap.com/polls",
-            "title": "2026 midterm polls: every Senate, House and governor poll"
+            "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+            "title": "2026 CPR Senate Race ratings"
           },
           {
-            "url": "https://vote-scope.com/en/us/senate/polls/",
-            "title": "U.S. Senate polling as of October 18, 2026 — Vote-Scope"
+            "url": "https://www.callthemap.com/senate",
+            "title": "The Senate · Call the Map"
           },
           {
-            "url": "https://ncearly.peark.es/",
-            "title": "NC Early Vote 2026"
+            "url": "https://www.charlotteobserver.com/news/politics-government/election/article317684541.html",
+            "title": "NC early voting: Midterm turnout up in Mecklenburg County | Charlotte Observer"
           },
           {
-            "url": "https://www.callthemap.com/early-vote",
-            "title": "Early vote tracker: who has voted so far in 2026 · Call the Map"
+            "url": "https://www.theassemblync.com/news/politics/early-voting-turnout-north-carolina-2026/",
+            "title": "Democrats Are Trouncing Republicans In Early Voting"
           },
           {
-            "url": "https://ncnewsline.com/2026/10/19/trump-heads-to-greenville-as-nc-republicans-struggle-with-early-voter-turnout/",
-            "title": "Trump heads to Greenville as NC Republicans struggle ..."
+            "url": "https://www.gelliottmorris.com/p/2026-10-20-north-carolina-early-voting",
+            "title": "Republicans are skipping early voting. Will they show up ..."
           },
           {
-            "url": "https://scorvec.com/midterms/early-vote.html",
-            "title": "Early Vote: 2026 Midterms"
+            "url": "https://www.wfae.org/politics/2026-10-19/republican-share-of-north-carolina-early-vote-trails-previous-midterms",
+            "title": "Republican share of North Carolina early vote trails ..."
           },
           {
-            "url": "https://carolinaelections.com/votetracker/",
-            "title": "JohnLocke Carolina Elections"
+            "url": "https://ncpoliticscenter.substack.com/p/day-5-of-nc-early-voting-the-surge",
+            "title": "Day 5 of NC Early Voting: The Surge Continues, but Who Is Showing Up?"
           },
           {
-            "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
-            "title": "2026 CPR House Race ratings"
+            "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+            "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
           },
           {
-            "url": "https://apnews.com/article/midterms-republicans-democrats-senate-house-cdd95df350c648d19e60cb3ecea42138",
-            "title": "Democrats eye opportunities as Republicans drop spending in some House races | AP News"
+            "url": "https://dccc.org/%F0%9F%9A%A8-inside-elections-22-more-districts-move-in-democrats-favor-%F0%9F%9A%A8/",
+            "title": "🚨 Inside Elections: 22 More Districts Move in Democrats’ Favor 🚨 - DCCC"
           },
           {
-            "url": "https://spectrumnews1.com/oh/columbus/news/2026/10/19/ohio-1st-district-landsman-conroy",
-            "title": "Republicans pull funding in OH-01 amid Democratic shift"
+            "url": "https://insideelections.com/ratings/house/",
+            "title": "House – Inside Elections"
           },
           {
-            "url": "https://legis1.com/news/super-pac-spending-superpac-shuffle-2",
-            "title": "SuperPAC Shuffle: North Carolina For the Win  | Legis1"
-          },
-          {
-            "url": "https://www.ap.org/news-highlights/elections/2026/battle-lines-shift-in-house-races-as-republicans-retreat-from-front-line-districts/",
-            "title": "Battle lines shift in House races as Republicans retreat from ..."
+            "url": "https://insideelections.com/2026-election-overview-democrats-on-the-march/",
+            "title": "2026 Election Overview: Democrats on the March (Oct. 15 ..."
           },
           {
             "url": "https://wingatecharleston.com/article/congress-last-minute-push-to-save-healthcare-what-s-at-stake",
             "title": "Congress' Last-Minute Push to Save Healthcare: What's at Stake? (2026)"
           },
           {
-            "url": "https://www.cbsnews.com/news/house-health-care-vote-affordable-care-act-tax-credits/",
-            "title": "House approves 3-year Affordable Care Act tax credit extension as ..."
+            "url": "https://princerodriguez.com/article/government-shutdown-looms-senate-fails-to-pass-spending-package",
+            "title": "Government Shutdown Looms: Senate Fails to Pass Spending Package (2026)"
           },
           {
-            "url": "https://apnews.com/article/government-shutdown-aca-obamacare-subsidies-congress-trump-da06fcbc940e661234fac2ea9ee717a0",
-            "title": "Health care compromise seems far off as shutdown persists | AP News"
+            "url": "https://easternherald.com/2026/09/19/house-partisan-cr-senate-aca-medicaid-shutdown/",
+            "title": "House Passes Partisan CR as Senate Faces Showdown Over ACA and Medicaid Cuts"
           },
           {
-            "url": "https://www.rosen.senate.gov/2025/10/30/video-senate-republicans-vote-to-go-home-override-rosens-attempt-to-keep-working-through-weekend-to-extend-aca-tax-credits-before-open-enrollment/",
-            "title": "VIDEO: Senate Republicans Vote to Go Home, Override Rosen’s Attempt to Keep Working Through Weekend to Extend ACA Tax Credits Before Open Enrollment - Jacky Rosen"
+            "url": "https://apnews.com/article/shutdown-senate-paychecks-trump-federal-workers-11088c71589297be2ce616525c582b13",
+            "title": "Senate rejects bills to pay federal workers during government shutdown | AP News"
           },
           {
-            "url": "https://www.astho.org/communications/blog/2026/aca-enhanced-premium-tax-credits-legislative-developments-2025-2026/",
-            "title": "ACA Enhanced Premium Tax Credits: Legislative Developments in 2025 ..."
+            "url": "https://thehill.com/homenews/senate/5564176-government-shutdown-vote-senate/",
+            "title": "Democrats block bill to end government shutdown for 11th time"
           },
           {
-            "url": "https://battlegrounds.coefficient.org/ia/",
-            "title": "Iowa U.S. Senate | Senate Battlegrounds 2026 | co/efficient"
+            "url": "https://insideradvantage.com/insideradvantage-u-s-senate-surveys-alaska-ranks-choice-peltola-50-sullivan-48-kansas-hamilton-48-marshall-47-michigan-el-sayed-48-rogers-46/",
+            "title": "InsiderAdvantage U.S. Senate Surveys: Alaska (Ranks Choice)  Peltola 50%, Sullivan 48%; Kansas Hamilton 48%, Marshall, 47%; Michigan El-Sayed 48%, Rogers 46% – InsiderAdvantage"
           },
           {
-            "url": "https://www.realclearpolling.com/polls/senate/general/2026/iowa/turek-vs-hinson",
-            "title": "2026 Iowa Senate - Hinson vs Turek"
+            "url": "https://electoral-vote.com/evp2026/Senate/senate_polls.html",
+            "title": "All Senate Polls"
           },
           {
-            "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-october-2026/",
-            "title": "Home of the Marist Poll | Polls, Analysis, Learning, and More"
+            "url": "https://www.rasmussenreports.com/public_content/politics/elections/election_2026/election_2026_alaska_senate",
+            "title": "Election 2026: Alaska Senate - Rasmussen Reports®"
           },
           {
-            "url": "https://backend.natpublicaffairs.com/media/Iowa_General_Election_Memo_101526.3.pdf",
-            "title": "Iowa 2026 General Election Survey Results"
+            "url": "https://www.270towin.com/2026-senate-polls/michigan",
+            "title": "2026 Polls: Michigan Senate - 270toWin"
           },
           {
-            "url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/IA-Midterms-Report-1017.pdf",
-            "title": "General Election Poll"
+            "url": "https://votes.decisiondeskhq.com/polls/general-ballot-test/2026-mi-us-senate/michigan",
+            "title": "2026 Michigan Senate Polling Average | DDHQ"
           },
           {
-            "url": "https://kalshiview.com/markets/which-party-will-win-the-u-s-senate/",
-            "title": "Which party will win the U.S. Senate? Kalshi Odds: Democratic Party 62% | Kalshi View"
+            "url": "https://apnews.com/article/midterms-republicans-democrats-senate-house-cdd95df350c648d19e60cb3ecea42138",
+            "title": "Battle lines shift in House races as Republicans retreat from front-line districts"
           },
           {
-            "url": "https://kalshi.com/markets/controls/senate-winner/controls-2026",
-            "title": "Which party will win the U.S. Senate?"
+            "url": "https://theqrd.com/story/republicans-pull-house-ads-defend-safer-seats",
+            "title": "Republicans pull millions in House ads to defend safer seats — TheQRD"
           },
           {
-            "url": "https://vote-scope.com/en/us/senate/compare-forecasts/",
-            "title": "2026 Senate Forecast Comparison: Vote-Scope vs Other Models — Vote-Scope"
+            "url": "https://www.tpr.org/government-politics/2026-10-14/house-republicans-pull-3-million-reserved-for-ads-against-henry-cuellar",
+            "title": "House Republicans pull $3 million reserved for ads against Henry Cuellar | TPR"
           },
           {
-            "url": "https://futureballot.com/senate",
-            "title": "2026 Senate forecast · FutureBallot"
+            "url": "https://www.ap.org/news-highlights/elections/2026/battle-lines-shift-in-house-races-as-republicans-retreat-from-front-line-districts/",
+            "title": "Battle lines shift in House races as Republicans retreat from ..."
           },
           {
-            "url": "https://www.northjersey.com/story/news/2026/10/19/latest-midterm-polls-2026-election-betting-odds-whos-winning-midterms-house-senate-polymarket/92327696007/",
-            "title": "Latest midterm polls and election odds: Who’s winning the House and Senate?"
+            "url": "https://www.pbs.org/newshour/politics/republicans-retreat-from-battleground-districts-as-lines-shift-in-house-races",
+            "title": "Republicans retreat from battleground districts as lines shift in House races | PBS News"
           }
         ],
         "searches": null
