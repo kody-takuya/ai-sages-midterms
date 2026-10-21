@@ -1148,5 +1148,187 @@
       "completion": 16927,
       "reasoning": 14684
     }
+  },
+  {
+    "date": "2026-10-22",
+    "generated_at": "2026-10-22T07:00:03+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 235,
+      "rep": 200
+    },
+    "senate_control_prob_dem": 63,
+    "house_control_prob_dem": 95,
+    "comment": "閉鎖は幻に。保険料値上げ通知が民主の最強ビラ",
+    "hidden_dynamics": [
+      "MAGA IncがNo Going Back等に$225Mを横流しし、OH-10・MI-4・NC-11という2024年に+18で勝った区の『防衛』に投入。トランプの身内データがNRCC公表より悲観的な証拠で、さらに2,200本の『早期投票せよ』広告は共和の早期投票劣勢への内部危機感の裏返し。",
+      "NC早期投票の登録共和欠損が-8%→-2%へ縮小したのは熱量回復ではなく構成効果の可能性が高い。対面早期投票が10/15に始まり、この局面は元来共和傾斜。単純な2022年比は共和の回復を過大表示する。",
+      "最大の反証条件だった『10月中の閉鎖決着』は消滅した。9/2成立のCRで12/11まで資金は続き議会は11/9まで休会。ACA強化補助金は2025年末に失効済みで、秋の保険料値上げは選挙前に解けない恒久争点として固定されている。",
+      "Polymarketに『10/23までのホルムズ合意』市場があり96%が否定的。エネルギー・地政学リスクが選挙報道から完全に欠落しているが、合意なら環境が動くと市場は値段をつけている。"
+    ],
+    "hypothesis_title": "ブランド選別説:汚れた brand は沈む",
+    "hypothesis": "「候補者ブランド選別」仮説を維持し、条件を精緻化した。D+8環境は共和党候補を一律に沈めるのではなく、(a)党ブランド・トランプに汚染された候補(Paxton、Marshall、Moody)を赤い州でも沈め、(b)清新で個人実績のある候補(Hinson、Sullivan、Tafoya)は生かす。Cookの二社合同調査(10/9-13)がTX+5・OH+6・IA+2(民主)を出し、Paxtonは5本の連続調査で劣勢—(a)は強化された。一方Collinsは『ブランド耐久』の予測に反しJacksonに押されており、ブランドは『耐久年数』で減衰する修正を加える。反証条件:(1)対面投票全面化後のNC早期投票で登録共和が2022年比プラスかつD-R差が+15未満へ、(2)非党派調査でHusted・Collins・Hinsonが同時に+3以上、(3)トランプ支持率42%超回復かホルムズ合意級の外部ショック。",
+    "hypothesis_status": "refined",
+    "change_reason": "上院はCook二社合同調査(TX+5/OH+6)・SabatoのLean D49・市場の65-67%への3pt上昇を受け、中央値を51→52、確率を57→63%へ。下院はSabato223/200/12とMAGA Incの防衛拡大が同方向で、235を維持(共和の$164M現預金が上振れを抑制)。",
+    "analysis": "今日の核心はCook Political Reportが民主・共和両系の調査会社(New River+GS Strategy)に同時発注した3州調査だ。手法汚染の疑いが最も少ないこの調査がIAでTurek+2を出したことで、私の『IAは全国波が届かない州』という20日の判断は揺らいだ。ただしco/efficient(10/19)は依然Hinson48-45で、IAは真の接戦として共和寄りに残す。4議席目の経路はME・OH・TXの三本に事実上収束し、市場もJackson64%・Brown65%・Talarico64-68%と三者ほぼ同値。相関リスク(2020・2024型の2-3pt共和過大計上)を織り込んでも、P(いずれか1本成立)は7割半ばで、52が中央値として最も誠実だ。KS(市場40%)・AK(DFP最終RCVでPeltola51-49、Rasmussen44-44)は上振れ枠。下院はSabatoが223をLean D以上とし『235に近づきうる』と明言、MAGA Incが+18区まで防衛を広げている事実は戦線の崩壊が私の想定速度で進んでいることを示す。抑え材料は二つ:共和側の$164M現預金+2,200本の早期投票広告、そしてNC早期投票の共和欠損縮小。明日への申し送り:(1)NC登録共和が対面投票全面化後に2022年比プラスへ転じるか(唯一の硬い反証条件)、(2)IAの新規調査でCookとco/efficientのどちらに収束するか、(3)DCCC$17M(締切10/22)のOH-10・MO-2・AR-2着金確認、(4)ホルムズ情勢と原油、(5)MN・MIの追加非党派調査。",
+    "key_news": [
+      {
+        "title": "Cook二社合同調査:Turek46-44(IA)、Brown49-43(OH)、Talarico49-44(TX)と赤州3つで民主候補が優勢",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/new-cpr-battleground-polls-dem-senate",
+        "impact": "D+"
+      },
+      {
+        "title": "Sabato Crystal Ball、下院28レースを一斉変更:Lean D以上223対200、『235近くもありうる』",
+        "source": "Sabato's Crystal Ball / UVA Center for Politics",
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "impact": "D+"
+      },
+      {
+        "title": "MAGA Inc支出$300M超、OH-10・MI-4・NC-11など安全圏だった区を防衛。NYT/Sienaでトランプ支持率36%",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026-10-21/trump-pac-spending-midterm-election-house-republicans.html",
+        "impact": "D+"
+      },
+      {
+        "title": "市場は上院民主65-67%(週間で+3pt)、下院91-92%。上昇はME(Jackson 58→64%)主導",
+        "source": "DeFi Rate / Polymarket・Kalshi",
+        "url": "https://defirate.com/odds/2026-midterms/",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Latest Senate Polls: Midterm Elections 2026"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/new-cpr-battleground-polls-dem-senate",
+        "title": "New CPR Battleground Polls: Dem Senate Candidates Narrowly Lead in OH, TX, IA | Cook Political Report"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls"
+      },
+      {
+        "url": "https://pollingsource.com/senate/polls",
+        "title": "2026 Senate Polls — Latest Race Polling | PollingSource"
+      },
+      {
+        "url": "https://www.callthemap.com/early-vote",
+        "title": "Early vote tracker: who has voted so far in 2026 · Call the Map"
+      },
+      {
+        "url": "https://www.cbs17.com/news/your-local-election-hq/over-one-hundred-thousand-early-votes-cast-in-wake-county-in-first-six-days-nearly-a-million-cast-statewide/",
+        "title": "NC early voting: Wake County early voters cast over a ..."
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://ncearly.peark.es/",
+        "title": "NC Early Vote 2026"
+      },
+      {
+        "url": "https://www.wfae.org/politics/2026-10-21/democrats-turn-out-in-early-voting-surge-but-outcomes-for-key-races-are-still-far-from-certain",
+        "title": "Democrats turn out in early voting surge, but outcomes for key races are still far from certain | WFAE 90.7 - Charlotte's NPR News Source"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/10/21/trump-pac-spending-midterm-election-house-republicans.html",
+        "title": "Trump PAC spending tops $300 million as GOP defends House seats"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at ..."
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings | Cook Political Report"
+      },
+      {
+        "url": "https://www.jdsupra.com/legalnews/2026-midterm-update-where-things-stand-9352711/",
+        "title": "2026 Midterm Update: Where Things Stand Two Weeks From Election Day | McGuireWoods Consulting - JDSupra"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
+        "title": "Cook Political Report moves 11 more House races toward ..."
+      },
+      {
+        "url": "https://www.reuters.com/world/us/schumer-says-democrats-seeking-meeting-with-trump-2025-10-21/",
+        "title": "Trump tells Democrats no meeting over shutdown until government reopens | Reuters"
+      },
+      {
+        "url": "https://www.dlapiper.com/en/insights/publications/2025/10/government-shutdown-update-day-21-october-21",
+        "title": "Government Shutdown Update: Day 21, October 21 | DLA Piper"
+      },
+      {
+        "url": "https://www.physicianspractice.com/view/shutdown-deals-could-decide-medicaid-and-aca-subsidy-changes-after-the-midterms",
+        "title": "Shutdown deals could decide Medicaid and ACA subsidy changes after the midterms, policy panel says"
+      },
+      {
+        "url": "https://www.medicaleconomics.com/view/midterms-could-give-democrats-leverage-on-medicaid-cuts-and-aca-subsidies-policy-experts-say",
+        "title": "Midterms could give Democrats leverage on Medicaid cuts and ACA subsidies, policy experts say"
+      },
+      {
+        "url": "https://text.npr.org/2025/10/21/nx-s1-5581276/the-health-insurance-fight-fueling-the-government-shutdown",
+        "title": "The health insurance fight fueling the government shutdown"
+      },
+      {
+        "url": "https://www.politico.com/live-updates/2026/10/21/congress",
+        "title": "Inside Congress Live - Live Updates - POLITICO"
+      },
+      {
+        "url": "https://tij.news/capitol-watch-october-21-2026-congress-on-recess-as-subpoena-deadline-passes/",
+        "title": "Capitol Watch: October 21, 2026 — Congress on Recess as Subpoena Deadline Passes | TIJ News"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/congress/senate-leaders-reach-deal-avert-shutdown-2026-elections-rcna590564",
+        "title": "Senate leaders reach a deal to avert a shutdown before the ..."
+      },
+      {
+        "url": "https://www.arnoldporter.com/-/media/files/perspectives/publications/2026/10/final-october-capital-snapshot_full-deck_final-t.pdf?hash=4E9B3D65EDA21FBE0E3F0FDEBC347F96&rev=f1dacfebd0c742a5919287162703f19d",
+        "title": "Capital Snapshot"
+      },
+      {
+        "url": "https://www.politico.com/live-updates/2025/10/22/congress/shutdown-senate-rejects-cr-stopgap-bill-12th-time-00619246",
+        "title": "Senate rejects CR for 12th time - Live Updates - POLITICO"
+      },
+      {
+        "url": "https://stateoftheodds.com/midterms/",
+        "title": "2026 Midterm Election Odds: Senate, House, Governor"
+      },
+      {
+        "url": "https://predictionscout.com/research/2026-midterms-prediction-market-tracker/",
+        "title": "2026 Midterm Predictions: Kalshi vs Polymarket Odds Tracker"
+      },
+      {
+        "url": "https://defirate.com/odds/2026-midterms/",
+        "title": "2026 Midterm Election Odds: Live House & Senate Kalshi vs Polymarket"
+      },
+      {
+        "url": "https://polymarket.com/predictions/midterms",
+        "title": "2026 Midterm Elections predictions & odds"
+      },
+      {
+        "url": "https://www.siktintelligence.com/odds/2026-midterm-election-odds",
+        "title": "2026 Midterm Election Odds: House & Senate · Sikt Intelligence"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1476,
+    "tokens": {
+      "prompt": 68761,
+      "completion": 7045,
+      "reasoning": 5069
+    }
   }
 ]

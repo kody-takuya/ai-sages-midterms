@@ -487,5 +487,78 @@
       "completion": 2019,
       "reasoning": 591
     }
+  },
+  {
+    "date": "2026-10-22",
+    "generated_at": "2026-10-22T07:00:03+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 62,
+    "house_control_prob_dem": 86,
+    "comment": "共和の財布は厚いが、投票所までの足取りは重い。",
+    "hidden_dynamics": [
+      "参加率の問題は民主の若者だけではない。CNN調査では共和寄り層の若年・高齢間の投票意欲差が民主側より大きく、共和の終盤戦は浮動票の説得以上に、失望した自党支持者の呼び戻しが課題だと読む。([kesq.com](https://kesq.com/news/national-politics/cnn-us-politics/2026/10/21/desire-for-change-anti-trump-feelings-fuel-democrats-midterms-advantage-cnn-poll/))",
+      "共和の巨額支出を、そのまま広告接触量の優位とはみなせない。APによれば終盤購入の広告料金は早期購入時の５倍超になる場合もあり、資金力の一部は支持回復ではなく出遅れの穴埋めに消える可能性がある。([apnews.com](https://apnews.com/article/0194a89b2209920efa4e3e83ef981205))",
+      "ノースカロライナの民主系期日前参加増は、追加動員と常連の前倒しをまだ区別できない。私が注目するのは党別件数そのものより、上位選挙への共和支持者の失望が下位選挙の参加まで弱める連鎖だ。([wfae.org](https://www.wfae.org/politics/2026-10-21/democrats-turn-out-in-early-voting-surge-but-outcomes-for-key-races-are-still-far-from-certain?_amp=true))"
+    ],
+    "hypothesis_title": "参加の目減りは共和にも",
+    "hypothesis": "「説得と参加の二段階」を、両党で非対称な参加減衰へ精緻化する。家計不満は民主への積極支持だけでなく、共和支持者の棄権として議席に効く。CNNの共和寄り若年層の意欲不足と、保守地盤での支持者動員重視はこの見方に整合する。ただし全国調査だけで保守州の上院まで反転とはしない。独立した複数調査で共和支持層の意欲回復が続くか、投票履歴を調整した参加データで民主側の動員不足が示されれば棄却する。([kesq.com](https://kesq.com/news/national-politics/cnn-us-politics/2026/10/21/desire-for-change-anti-trump-feelings-fuel-democrats-midterms-advantage-cnn-poll/))",
+    "hypothesis_status": "refined",
+    "change_reason": "上院は民主系47議席の維持とNC・ME・OH・TXの４奪取を中心経路とする51、下院は既存の接戦群で民主優勢が議席化する233を据え置く。新証拠は共和の参加リスクを補強するが地区別勝敗を変えるほどではなく、民主支配確率だけ上院２ポイント、下院１ポイント引き上げた。",
+    "analysis": "締切は米東部2026年10月21日18時。前回メモは21日付でも20日18時締切なので、今回はその後の証拠を評価した。最大の修正は、民主の支持が投票へ届かない危険だけでなく、共和支持者が投票へ来ない危険を同時に織り込むことだ。CNNの登録有権者調査を実際の得票率とは扱わないが、共和寄り若年層の意欲不足は、前日のオハイオの投票見込み層への絞り込みだけから共和の参加優位を一般化する読みへの反証になる。([kesq.com](https://kesq.com/news/national-politics/cnn-us-politics/2026/10/21/desire-for-change-anti-trump-feelings-fuel-democrats-midterms-advantage-cnn-poll/)) 上院ではNC・ME・OH・TXを主経路とし、MEの個人票、TXの参加構成、MI・MNの防衛を重点監視する。下院はIA01・03、PA07・10、NY17、AZ06を継続点検し、新規地区の奪取は先取りしない。民主の武器は反与党動員、共和の武器は資金と当日参加。ただし広告高騰で資金の効率は落ち得る。([apnews.com](https://apnews.com/article/0194a89b2209920efa4e3e83ef981205)) 明日は農村・郊外の低頻度投票者の参加を確認する。確率は独自判断で、精密モデル値ではない。",
+    "key_news": [
+      {
+        "title": "CNN・SSRS調査、下院投票先は登録有権者で民主49％、共和39％。共和寄り若年層の投票意欲にも弱さ",
+        "source": "CNN（KESQ転載）",
+        "url": "https://kesq.com/news/national-politics/cnn-us-politics/2026/10/21/desire-for-change-anti-trump-feelings-fuel-democrats-midterms-advantage-cnn-poll/",
+        "impact": "D+"
+      },
+      {
+        "title": "トランプ系スーパーPAC、９月以降約２億7700万ドル支出。終盤の広告料金高騰が購買力を圧迫",
+        "source": "AP",
+        "url": "https://apnews.com/article/trump-maga-inc-super-pac-money-midterms-0194a89b2209920efa4e3e83ef981205",
+        "impact": "neutral"
+      },
+      {
+        "title": "保守地盤でも支持者動員が焦点に。ローブ氏が農村の家計圧迫と共和の終盤戦を論評",
+        "source": "FOX News Radio",
+        "url": "https://radio.foxnews.com/2026/10/21/can-republicans-rally-rural-voters-to-save-their-majority/",
+        "impact": "neutral"
+      },
+      {
+        "title": "NCの期日前投票で民主・無党派の参加が先行。ただし当日投票と前倒し効果を見極める必要",
+        "source": "WFAE",
+        "url": "https://www.wfae.org/politics/2026-10-21/democrats-turn-out-in-early-voting-surge-but-outcomes-for-key-races-are-still-far-from-certain?_amp=true",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://kesq.com/news/national-politics/cnn-us-politics/2026/10/21/desire-for-change-anti-trump-feelings-fuel-democrats-midterms-advantage-cnn-poll/",
+        "title": "Desire for change, anti-Trump feelings fuel Democrats’ midterms advantage: CNN poll - KESQ"
+      },
+      {
+        "url": "https://apnews.com/article/0194a89b2209920efa4e3e83ef981205",
+        "title": "Trump's political groups spend nearly $277 million in late midterm blitz | AP News"
+      },
+      {
+        "url": "https://www.wfae.org/politics/2026-10-21/democrats-turn-out-in-early-voting-surge-but-outcomes-for-key-races-are-still-far-from-certain?_amp=true",
+        "title": "Democrats turn out in early voting surge, but outcomes for key races are still far from certain | WFAE 90.7 - Charlotte's NPR News Source"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1216,
+    "tokens": {
+      "prompt": 33053,
+      "completion": 2167,
+      "reasoning": 668
+    }
   }
 ]

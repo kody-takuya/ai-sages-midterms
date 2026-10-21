@@ -535,5 +535,122 @@
       "completion": 2189,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-22",
+    "generated_at": "2026-10-22T07:00:03+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 65,
+    "house_control_prob_dem": 89,
+    "comment": "オハイオの劇薬CMが自陣に炸裂、赤い州の「逆コートテイル」が上院の壁を破る。",
+    "hidden_dynamics": [
+      "オハイオ州知事選で共和党ラマスワミ氏が対立候補の幼少期の性的虐待被害を否定する絶縁状態の母親を起用した400万ドルの攻撃広告を強行し、同党の上院現職ハステッド氏が即座に「自分なら流さない」と距離を置いたのは、共和党内部調査で郊外女性層の同時離反（逆コートテイル効果）が上院選に直撃しているパニックの裏返しである。",
+      "トランプ大統領の最終盤の遊説日程がカンザス、サウスカロライナ、ミシシッピ（コリンス）、テキサス（ラボック）など本来なら安全圏の深紅の州・農村部ばかりに組まれている事実は、共和党の内部データで「MAGA岩盤層の投票意欲低下」が深刻であり、激戦州の無党派層説得を諦めて基底票の掘り起こしによる防衛戦に退却したことを暴露している。",
+      "アイオワ州上院選でリバタリアン党のレーン候補が8%もの支持を集めている構図は、関税と物価高に不満を持つ伝統的保守・農家層が「民主党には入れられないがトランプ路線にも抗議する」受け皿として第三極を使っており、見かけの支持率差（2ポイント）以上に共和党のヒンソン候補から逆転の余地を奪っている。"
+    ],
+    "hypothesis_title": "知事選発の逆コートテイルと農村部動員不全による上院決壊",
+    "hypothesis": "生活費高騰とイラン戦争疲れに直面する中、民主党は期日前投票の記録的動員で下院を圧倒する。上院の赤い州（OH、IA、TX）では、これまで「知事選は共和党、上院は民主党」の分割投票が民主党の盾だったが、ここに来て知事選の共和党候補の暴走（OHラマスワミ氏の炎上広告）や民主党知事候補の圧勝ペース（IAサンド氏+10）が逆に上院の民主党候補を引き上げる「逆コートテイル効果」へ転化しつつある。今後、TX等の農村部で共和党の期日前投票が都市部を上回る急増を見せれば、上院予測を51議席以下へ戻す。",
+    "hypothesis_status": "refined",
+    "change_reason": "超党派調査（Cook）でOH・TX・IAの上院3州すべてで民主党リードが確認されたうえ、OH知事選の炎上劇とIA知事選の二桁リードが上院選への追い風（逆コートテイル）として機能し始めたため、民主党がNC・ME・AK・OHに加えてTXかIAの少なくとも一方を奪取すると判断し、上院予測を51から52議席（奪還確率65%）へ引き上げた。下院は236議席を維持。",
+    "analysis": "21日に公表されたCook Political Reportの超党派調査（民主・共和両系の調査会社が共同実施）は、上院の勝敗を決する赤い3州すべてで民主党が先行している現実を突きつけた（オハイオでブラウン氏+6、テキサスでタラリコ氏+5、アイオワでトゥレク氏+2）。特に決定的なのは州知事選との連動だ。オハイオでは共和党のラマスワミ知事候補が民主党アクトン候補の幼少期の虐待被害を「嘘」と罵る実母の広告に400万ドルを投じて超党派の猛反発を買い、アクトン氏に5ポイントのリードを許している。ハステッド上院議員が慌てて広告を批判したのは、穏健な郊外層が共和党の投票用紙全体から離反する「逆コートテイル」の兆候を察知したからだ。アイオワでも民主党のサンド知事候補が10ポイント差で圧勝圏にあり、無党派層とリバタリアン票（8%）の流出に苦しむヒンソン氏（共）を追い詰めている。テキサスではハリス郡に続きトラビス郡（オースティン）でも今世紀の期日前投票初日記録を更新し、ジョージアでも期日前投票が前年比12%増の100万票を突破、現職オソフ氏が+8と安全圏に入った。懸念だったミシガン（エルサイード氏+2）とミネソタ（フラナガン氏が学歴誇張疑惑を火消しし+3維持）も踏みとどまっており、上院は52議席に届くと見る。明日はトランプ氏が駆けつけるサウスカロライナ等の深紅州の世論調査と期日前投票の農村部データを検証する。",
+    "key_news": [
+      {
+        "title": "Cook Political Reportの超党派世論調査で、テキサス（+5）、オハイオ（+6）、アイオワ（+2）の激戦3州すべてで民主党上院候補がリード",
+        "source": "Forbes / The Hill",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/",
+        "impact": "D+"
+      },
+      {
+        "title": "オハイオ州知事選のラマスワミ候補（共）、対立候補の幼少期の性的虐待を否定する絶縁状態の母親を起用した広告に400万ドル投入を表明し党内外から猛反発",
+        "source": "The Washington Post / AP",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEU20laUVj-HSbIPZkMR9avJ1UH3KcyqMC4wLuWcjsZc7pQuqPA9GPD5p9YvD2t4DOBCgUZVN3IoQYyOQmUYcJPSQpiRANuLMQYkdqt6JNu8n1ZLNVmHXEX7lWYg-D16aLJ9nXnKbr2tKDHybIRQzJAhU1yrHww9QJCFZKi_FzCpC_xh0xPcZVJ0aNtqjtTkvfeLObw9DCV25030eBu6Y=",
+        "impact": "D+"
+      },
+      {
+        "title": "ジョージア州の期日前投票が100万票を突破し過去最高ペース、テキサス州トラビス郡でも今世紀の中間選挙初日記録を更新",
+        "source": "Capitol Beat / Texas Public Radio",
+        "url": "https://unionrecorder.com/2026/10/21/georgia-early-voting-tops-1-million-ballots/",
+        "impact": "D+"
+      },
+      {
+        "title": "トランプ大統領がノースカロライナ州で集会を開催、今後はミシシッピ、サウスカロライナ、カンザスなど深紅の州での防衛遊説を連日予定",
+        "source": "The Dispatch / PBS News",
+        "url": "https://thedispatch.com/newsletter/next-right/trump-rallies-north-carolina-midterms-maga-future/",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEU20laUVj-HSbIPZkMR9avJ1UH3KcyqMC4wLuWcjsZc7pQuqPA9GPD5p9YvD2t4DOBCgUZVN3IoQYyOQmUYcJPSQpiRANuLMQYkdqt6JNu8n1ZLNVmHXEX7lWYg-D16aLJ9nXnKbr2tKDHybIRQzJAhU1yrHww9QJCFZKi_FzCpC_xh0xPcZVJ0aNtqjtTkvfeLObw9DCV25030eBu6Y=",
+        "title": "washingtonpost.com"
+      },
+      {
+        "url": "https://www.newsfromthestates.com/article/trump-set-campaign-tight-us-senate-contests-iowa-texas-ohio-michigan",
+        "title": "newsfromthestates.com"
+      },
+      {
+        "url": "https://thedispatch.com/newsletter/next-right/trump-rallies-north-carolina-midterms-maga-future/",
+        "title": "thedispatch.com"
+      },
+      {
+        "url": "https://ua.news/en/world/opituvannia-cook-demokrati-lidiruiut-u-trokh-peregonakh-do-senatu-ssha-the-hill",
+        "title": "ua.news"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/",
+        "title": "forbes.com"
+      },
+      {
+        "url": "https://www.houstonchronicle.com/projects/2026/texas-midterms-early-voting-turnout/",
+        "title": "houstonchronicle.com"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/",
+        "title": "forbes.com"
+      },
+      {
+        "url": "https://politicalwire.com/2026/10/21/democrats-lead-in-key-red-state-senate-races/",
+        "title": "politicalwire.com"
+      },
+      {
+        "url": "https://www.realclearpolling.com/latest-polls",
+        "title": "realclearpolling.com"
+      },
+      {
+        "url": "https://www.tpr.org/government-politics/2026-10-21/travis-county-breaks-first-day-early-voting-turnout-record-for-every-midterm-election-this-century",
+        "title": "tpr.org"
+      },
+      {
+        "url": "https://unionrecorder.com/2026/10/21/georgia-early-voting-tops-1-million-ballots/",
+        "title": "unionrecorder.com"
+      },
+      {
+        "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/",
+        "title": "marist.edu"
+      },
+      {
+        "url": "https://www.mprnews.org/story/2026/10/21/dfl-senate-candidate-peggy-flanagan-shows-evidence-of-phi-beta-kappa-membership",
+        "title": "mprnews.org"
+      },
+      {
+        "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
+        "title": "texastribune.org"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1177,
+    "tokens": {
+      "prompt": 3304,
+      "completion": 2708,
+      "reasoning": 0
+    }
   }
 ]

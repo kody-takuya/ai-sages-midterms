@@ -452,5 +452,82 @@
       "completion": 2096,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-22",
+    "generated_at": "2026-10-22T07:00:03+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 232,
+      "rep": 203
+    },
+    "senate_control_prob_dem": 62,
+    "house_control_prob_dem": 86,
+    "comment": "共和党寄りの調査まで民主リード。戻りの兆しは見えない",
+    "hidden_dynamics": [
+      "共和党寄りの調査会社(InsiderAdvantage、Rasmussen)が、メインやアラスカ、ミシガンで民主党リードを出している。党派性のある会社が出す数字は、共和党の戻りがまだ起きていない裏づけとして、中立調査より重い。",
+      "テキサスでは、民主党の牙城だけでなくMontgomeryなど共和党の地盤でも初日の投票が記録的に多い。民主党だけの動員ではなく全体の関心が高まっているので、当日の共和党の追い上げ余地は想定より小さいかもしれない。",
+      "アラスカの民主党リードは、トランプ氏の低支持率とRCV(順位付け投票)の第2選好の効果が組み合わさった結果だ。サリバン氏の出身州というブランド力は、確実な防波堤にはなっていない。"
+    ],
+    "hypothesis_title": "共和党の戻りは遅く小さい",
+    "hypothesis": "上院は終盤に共和党がやや持ち直すとみるが、その戻りは遅く小さい。テキサスは中立調査でTalarico氏+2〜3に張り付き、ミシガンやアラスカも民主党がわずかに上回る。民主党の勝ち筋はNC・ME・OHに加え、TX・AK・IAのどれか1つだ。下院は総合投票D+8前後で、区割りの不利を吸収できる。早期投票は全国で民主党優位だが、共和党は当日投票に回る。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "refined",
+    "change_reason": "新規調査はいずれも民主党が小幅にリードしており、仮説を補強した。ただし誤差の範囲内で議席の読みは変えられないため、上院の確率だけ2ポイント上げ、議席数は据え置いた。",
+    "analysis": "【上院】テキサスはUT/TPPがTalarico氏50対47、UHが48対46、CBSが51対49で、中立系は+2〜3に安定している。共和党寄りのInsiderAdvantageだけがPaxton氏+1だ。ミシガンはMaristがEl-Sayed氏52対45と大きく、Rasmussenでも46対44でリードする。民主党は守る側のミシガンで余裕が出てきた。アラスカはData for ProgressでPeltola氏+3、RasmussenでPeltola氏+2。メインはInsiderAdvantageとSuffolkでJackson氏が49対47だが、Collins氏は過去に世論調査を上回った実績があり、ここは慎重に見る。民主党はNC・ME・OHに加え、TX・AK・IAのどれか1つで足りる。1つ落とせば50-50で、副大統領により共和党が支配する。経路は複数あるが、どれも誤差の範囲内なので確率は62%にとどめる。【早期投票】全国の投票は約1430万票に達した。党派登録のある州では、早期投票者の約51%が民主党登録、約32%が共和党登録だ。ただし初期投票者は関与が高く、予測力は弱い。共和党は当日投票に回る傾向がある。テキサスは共和党の地盤でも記録的な投票が出ており、全体の関心が高い。【下院】総合投票はD+8前後で、2018年並みの環境だ。区割りの不利は吸収できる。232議席、86%を維持する。明日は、テキサス・ジョージアの党派別早期投票、アイオワの新規調査、Kalshi/Polymarketの価格を確認する。",
+    "key_news": [
+      {
+        "title": "テキサス・ミシガンの上院選は民主党が僅差でリード。CBS/YouGovはTalarico氏51対49(NYT集計)",
+        "source": "GV Wire(NYT集計)",
+        "url": "https://gvwire.com/2026/10/21/texas-michigan-senate-polls-show-narrow-democratic-leads-as-midterm-elections-near/",
+        "impact": "D+"
+      },
+      {
+        "title": "RCPの最新調査:UTがTalarico氏+3、アラスカはPeltola氏+2〜+3、MaineはJackson氏+2、SCはGraham氏+3",
+        "source": "RealClearPolling",
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "impact": "D+"
+      },
+      {
+        "title": "全国の早期投票は1430万票超。民主党登録者の投票率が共和党登録者を上回る",
+        "source": "Spectrum News / US News",
+        "url": "https://spectrumlocalnews.com/nc/coastal/politics/2026/10/21/midterm-election-early-voting",
+        "impact": "D+"
+      },
+      {
+        "title": "テキサスの早期投票は初日から記録的。共和党の地盤でも中間選挙の記録を更新",
+        "source": "Texas Tribune",
+        "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://gvwire.com/2026/10/21/texas-michigan-senate-polls-show-narrow-democratic-leads-as-midterm-elections-near/",
+        "title": "テキサス・ミシガンの上院選は民主党が僅差でリード。CBS/YouGovはTalarico氏51対49(NYT集計)"
+      },
+      {
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "title": "RCPの最新調査:UTがTalarico氏+3、アラスカはPeltola氏+2〜+3、MaineはJackson氏+2、SCはGraham氏+3"
+      },
+      {
+        "url": "https://spectrumlocalnews.com/nc/coastal/politics/2026/10/21/midterm-election-early-voting",
+        "title": "全国の早期投票は1430万票超。民主党登録者の投票率が共和党登録者を上回る"
+      },
+      {
+        "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
+        "title": "テキサスの早期投票は初日から記録的。共和党の地盤でも中間選挙の記録を更新"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.1049,
+    "tokens": {
+      "prompt": 31953,
+      "completion": 2100,
+      "reasoning": 103
+    }
   }
 ]
