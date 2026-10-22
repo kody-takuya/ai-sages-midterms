@@ -545,5 +545,76 @@
       "completion": 1769,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-23",
+    "generated_at": "2026-10-23T07:00:02+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 87,
+    "comment": "テキサスはFoxで同率。接戦のまま、最終盤に入る",
+    "hidden_dynamics": [
+      "テキサスの中立調査は+2から同率〜+1へ、わずかに縮んでいる。共和党の戻りが遅れて表に出ている可能性がある。",
+      "メインとアラスカでは、共和党寄りの調査でも民主党がリードしている。ただし現職の底力は、世論調査に表れにくい。",
+      "初期投票者は政治関与が高く、予測力が弱い。党派別の差を、当日投票の結果と取り違えない必要がある。"
+    ],
+    "hypothesis_title": "共和党の戻りは遅く、TXは同率圏",
+    "hypothesis": "上院では共和党の戻りが遅く、テキサスはFoxの49対49、Emersonの+1まで縮んだ。民主党の勝ち筋はNC・ME・OHに加え、TX・AK・IAのどれか1つだ。下院は総合投票D+8〜9を、最終調査の過大評価を割り引いてD+6〜7と見る。この環境なら区割りの不利を吸収できる。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "refined",
+    "change_reason": "テキサスの中立調査が+2から同率〜+1に縮んだため、上院の確率を62%から60%に下げた。議席数と下院は、新しい材料が乏しいので据え置いた。",
+    "analysis": "【上院】Fox(10月15〜19日)はTalarico氏とPaxton氏が49対49で、Emersonは49対48だ。9月の+6から縮小が続いており、Paxton氏がリードした中立調査はまだない。ただ、テキサスで過去に世論調査が民主党を過大評価したことを考えると、実質は五分五分に近い。メインはSuffolkでJackson氏49対47、InsiderAdvantageも同じ49対47だ。アラスカはRasmussenでPeltola氏が一次票44対42、InsiderAdvantageでは50対48と僅差が続く。民主党はNC・ME・OHを取ったうえで、TX・AK・IAのどれか1つを取る必要がある。1つ落とすと50-50で、副大統領により共和党が支配する。【下院】総合投票はD+8〜9で、補正後はD+6〜7だ。区割りの不利はあるが、233議席前後が中央値になる。明日は、テキサスの早期投票の党派別データ、アイオワ・ノースカロライナの新規調査、市場価格を確認する。",
+    "key_news": [
+      {
+        "title": "Fox調査でテキサス上院選はTalarico氏とPaxton氏が49対49の同率",
+        "source": "USA Today",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/22/texas-senate-poll-shows-ken-paxton-james-talarico-tied-senate-race/92377403007/",
+        "impact": "R+"
+      },
+      {
+        "title": "Emersonの調査でTalarico氏が49対48とわずかにリード、メインではJackson氏が49対47でリード",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/22/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "impact": "neutral"
+      },
+      {
+        "title": "アラスカはRasmussenでPeltola氏44対42と一次票でリード",
+        "source": "Politics Elections",
+        "url": "https://politicselections.com/senate-toss-up-races-latest-polls/",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/22/texas-senate-poll-shows-ken-paxton-james-talarico-tied-senate-race/92377403007/",
+        "title": "Fox news poll shows Paxton, Talarico tied in Texas Senate race"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/22/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Talarico, Paxton Tied In Fox ..."
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://politicselections.com/senate-toss-up-races-latest-polls/",
+        "title": "2026 Senate Toss-Up Races: Latest Polls • Politics Elections"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.039,
+    "tokens": {
+      "prompt": 11965,
+      "completion": 1456,
+      "reasoning": 0
+    }
   }
 ]

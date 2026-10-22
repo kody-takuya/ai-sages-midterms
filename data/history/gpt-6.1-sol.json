@@ -596,5 +596,104 @@
       "completion": 1747,
       "reasoning": 254
     }
+  },
+  {
+    "date": "2026-10-23",
+    "generated_at": "2026-10-23T07:00:02+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 58,
+    "house_control_prob_dem": 85,
+    "comment": "青い追い風も、テキサスでは関所待ち。",
+    "hidden_dynamics": [
+      "テキサス同率とオハイオ民主優位の併存は、全国一律の民主波より候補者評価の差を示唆する。共和への不満があっても、民主候補への乗り換えやすさは州ごとに違う。",
+      "期日前投票の増加と民主支持者の高い投票意欲は、別々の追い風とは限らない。同じ熱心な支持層を二重に数えると、民主の上積みを過大評価する。",
+      "複数調査の民主優位も、投票見込み層の選別方法が似ていれば独立した確認にならない。ただし、共和票の過小把握を理由に一律の補正を加える根拠もまだない。"
+    ],
+    "hypothesis_title": "民主の波より、候補と参加の関所",
+    "hypothesis": "「説得と参加の二段階」を精緻化する。家計不満による民主の優位は下院の広い接戦群に届く一方、上院では候補評価と参加構成が最後の関所になる。テキサス同率、オハイオ民主優位という差は、一律の全国波では説明しにくい。期日前票の増加を民主の純増とせず、2016・2024年型の共和票過小把握も下振れ要因に残す。独立調査で複数州の共和回帰が続くか、民主寄り低頻度層の参加不足が確認されれば棄却する。",
+    "hypothesis_status": "refined",
+    "change_reason": "上院51は民主系47議席の維持にメーン、ノースカロライナ、オハイオ、テキサスの４奪取を重ねる中心経路を据え置くが、テキサス同率を受け多数確率は60％から58％へ下げる。下院233は広い接戦群への追い風という判断を維持し、新しい地区別証拠が乏しいため変更しない。",
+    "analysis": "米東部22日18時基準。今回得た材料は民主優位の全面否定ではなく、その州別の濃淡を強める。Foxのテキサス同率とオハイオ民主５ポイント差を並べると、共和候補への不満が民主票へ変わる効率は同じではない。民主には候補の個人票と投票意欲、共和には保守州の基礎票と終盤の支持回収がある。上院51の経路ではテキサスが最大の関門で、メーンの現職票、ミシガンの民主防衛も監視する。アイオワの民主先行調査は代替経路の材料だが、単独で勝利州へ格上げしない。下院のIA01・03、PA07・10、NY17、AZ06も地区別の更新なしに動かさない。2016・2024年型の共通誤差は州数を増やしても消えず、民主小差を安全圏扱いしない。一方、期日前票から共和の潜在票を推計することも避ける。明日は調査の実施期間と母集団、常連の前倒しではない新規参加を優先確認する。21日公表記事の正確な公開時刻は未確認で、すべてを直近24時間の新情報とは扱わない。",
+    "key_news": [
+      {
+        "title": "Fox調査、テキサス上院選はタラリコとパクストンが49％で並ぶ",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish",
+        "impact": "R+"
+      },
+      {
+        "title": "期日前投票と意欲調査は民主の熱気を示すが、低頻度層の参加はなお不明",
+        "source": "ABC News",
+        "url": "https://abcnews.com/Politics/early-vote-shows-democratic-enthusiasm-high-key-states/story?id=137414080",
+        "impact": "D+"
+      },
+      {
+        "title": "Cookの超党派調査、テキサス・アイオワ・オハイオ上院選で民主先行",
+        "source": "The Hill／Cook Political Report",
+        "url": "https://thehill.com/homenews/campaign/6163761-cook-poll-democrats-lead-senate/",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://apnews.com/article/midterm-election-politics-congress-donald-trump-7f7b10c7974ed379a11f4c5421f0e62e",
+        "title": "The Latest: Many states deciding control of the Senate are seeing a big boost in early voting"
+      },
+      {
+        "url": "https://apnews.com/live/trump-midterm-elections-news-updates-10-22-2026",
+        "title": "Live updates: Many states see big boost in early voting, per AP analysis | AP News"
+      },
+      {
+        "url": "https://abcnews.com/Politics/early-vote-shows-democratic-enthusiasm-high-key-states/story?id=137414080",
+        "title": "Early vote shows Democratic enthusiasm high in some key states, but only one piece of puzzle: ABC News analysis - ABC News"
+      },
+      {
+        "url": "https://www.poliwave.com/us/fed/polls",
+        "title": "2026 Midterm Polls: Generic Ballot and Senate Races | Poliwave"
+      },
+      {
+        "url": "https://www.investing.com/news/politics-news/trumps-maga-inc-unleashes-277-million-lastditch-effort-to-save-republicans-in-key-us-races-4963841",
+        "title": "Trump’s MAGA Inc unleashes $277 million last-ditch effort to save Republicans in key US races By Reuters"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/22/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Talarico, Paxton Tied In Fox ..."
+      },
+      {
+        "url": "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish",
+        "title": "Fox News Poll: Texas Senate race galloping toward a ..."
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/22/texas-senate-poll-shows-ken-paxton-james-talarico-tied-senate-race/92377403007/",
+        "title": "Fox news poll shows Paxton, Talarico tied in Texas Senate race"
+      },
+      {
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+        "title": "Voter turnout is soaring in some key states, AP analysis shows | AP News"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6163761-cook-poll-democrats-lead-senate/",
+        "title": "Cook Political Report polls find Dems leading 3 critical races"
+      },
+      {
+        "url": "https://www.riotimesonline.com/us-midterms-2026-data-room/",
+        "title": "US Midterm Elections 2026 Polls, Odds and Race Ratings"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0543,
+    "tokens": {
+      "prompt": 15519,
+      "completion": 1718,
+      "reasoning": 342
+    }
   }
 ]

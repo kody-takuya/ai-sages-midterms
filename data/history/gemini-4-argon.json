@@ -634,5 +634,113 @@
       "completion": 3259,
       "reasoning": 1641
     }
+  },
+  {
+    "date": "2026-10-23",
+    "generated_at": "2026-10-23T07:00:02+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 88,
+    "comment": "オハイオは52%の安全圏へ、テキサスは終盤の『保守帰巣本能』で49対49の肉弾戦。",
+    "hidden_dynamics": [
+      "激戦州の世論調査で決定的な「50%の壁」の分岐が発生している。Fox調査でオハイオのブラウン氏（民）が52%に達し未決定層の逆転余地を封じた一方、テキサスではパクストン氏（共）が49%まで支持を戻し、保守層の終盤の「帰巣（党派回帰）」が既に始まったことを示している。",
+      "トランプ氏と共和党全国委員会（RNC）が潤沢な手元資金を背景に終盤の巨額資金注入に踏み切った（22日報道）。候補者個人の集金で劣る共和党が、残り12日間の絨毯爆撃で低投票率の保守層を強引に引きずり出し、下院の雪崩現象に最後の防波堤を築こうとしている。"
+    ],
+    "hypothesis_title": "「50%の壁」の明暗と保守層の終盤帰巣",
+    "hypothesis": "期日前投票の動員優位とDCCCの攻勢で下院は民主党236議席の波が続くが、トランプ陣営の終盤資金注入が240議席超への暴走を食い止める。上院ではオハイオのように民主党候補が支持率50%を超えた州は逃げ切る一方、テキサスやアイオワでは2016・2024年と同様に終盤の保守層の党派回帰（帰巣本能）が働き大接戦へと収束する。結果として民主党は奪還候補の全ては取り切れず51議席で着地する。今後オハイオで50%割れが続出すれば予測を引き下げる。",
+    "hypothesis_status": "refined",
+    "change_reason": "オハイオでの50%突破（Fox調査52%）およびミシガンでの50%到達（Marist調査）という好材料と、テキサスでの保守層結集による同率（49対49）への接近および共和党の終盤資金投入が相殺し、上院51・下院236の予測を維持した。",
+    "analysis": "昨日立てた「赤い州における終盤の保守層の原点回帰」という仮説が、今日発表された複数の世論調査によって鮮明に裏付けられた。注目すべきはオハイオ州とテキサス州の決定的な違いだ。22日更新のFox News調査で、オハイオのブラウン氏（民）は52対47と過半数の壁を突破した。不人気な共和党知事候補の逆風も手伝い、未決定の保守層が終盤に共和党へ戻っても逆転できない安全圏に入りつつある。対照的にテキサス州では、昨日のCook調査（タラリコ氏+5）から一転、Fox調査で49対49の同率、Emerson調査でも48対46とパクストン氏（共）が急速に差を詰めた。知事選で優位なアボット氏（共）の組織力とトランプ陣営の終盤の巨額資金投入（The Hill報道）により、パクストン氏を嫌っていた保守層が「民主党に議席を渡すよりはまし」と党派的本能に立ち返り始めている。一方、民主党の死角だったミシガン州はMarist調査でエルサイード氏が50対48と踏みとどまった。NC・ME・OHで50議席を固め、TX・IA・AKの肉弾戦から1つをもぎ取る51議席が最も現実的な着地点だ。明日は終盤資金が投入された下院接戦区の動向を点検する。",
+    "key_news": [
+      {
+        "title": "Fox News調査：オハイオ上院はブラウン氏（民）が52対47でリード、テキサス上院はタラリコ氏とパクストン氏が49対49で同率",
+        "source": "Forbes / Fox News",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/22/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "impact": "neutral"
+      },
+      {
+        "title": "Emerson大学/The Hill調査：テキサス上院選はタラリコ氏48%・パクストン氏46%の大接戦、知事選は共和党アボット氏が先行",
+        "source": "The Hill",
+        "url": "https://thehill.com/homenews/6163841-emerson-polling-texas-senate-race/",
+        "impact": "R+"
+      },
+      {
+        "title": "トランプ大統領と共和党、上下両院の死守へ向け終盤の巨額資金注入を決行",
+        "source": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6164073-gop-last-minute-cash-injection-midterms/",
+        "impact": "R+"
+      },
+      {
+        "title": "DCCC（民主党下院選対）が49選挙区に1600万ドルのテレビ広告投入、攻勢区と防衛区の比率は2対1に",
+        "source": "DCCC",
+        "url": "https://dccc.org/dccc-announces-16-million-in-week-2-coordinated-tv-spending-across-49-districts/",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/new-cpr-battleground-polls-dem-senate",
+        "title": "New CPR Battleground Polls: Dem Senate Candidates Narrowly Lead in OH, TX, IA | Cook Political Report"
+      },
+      {
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+        "title": "Many states deciding control of the Senate are seeing a big boost in early voting, AP analysis shows"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/senate-battleground-district-project-october",
+        "title": "Senate Battleground District Project: October 2026 Toplines | Cook Political Report"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6163761-cook-poll-democrats-lead-senate/",
+        "title": "Cook Political Report polls find Dems leading 3 critical races"
+      },
+      {
+        "url": "https://dccc.org/dccc-announces-16-million-in-week-2-coordinated-tv-spending-across-49-districts/",
+        "title": "DCCC Announces $16 Million in Week 2 Coordinated TV Spending Across 49 Districts - DCCC"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6164073-gop-last-minute-cash-injection-midterms/",
+        "title": "Trump, Republicans spend big in last-minute midterm push to keep House and Senate"
+      },
+      {
+        "url": "https://www.fec.gov/updates/statistical-summary-of-18-month-campaign-activity-of-the-2025-2026-election-cycle/",
+        "title": "Statistical Summary of 18-Month Campaign Activity of the ..."
+      },
+      {
+        "url": "https://www.ms.now/rachel-maddow-show/maddowblog/generic-ballot-polls-democrats-lead-republicans-midterm-elections",
+        "title": "Democrats’ lead grows on the generic ballot"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/22/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Talarico, Paxton Tied In Fox ..."
+      },
+      {
+        "url": "https://www.cnn.com/2026/10/21/politics/live-news/midterm-election-congress",
+        "title": "In Michigan and Kansas Senate debates, Republicans ..."
+      },
+      {
+        "url": "https://thehill.com/homenews/6163841-emerson-polling-texas-senate-race/",
+        "title": "Talarico, Paxton in dead heat for Texas Senate, Abbott ..."
+      },
+      {
+        "url": "https://www.npr.org/2026/10/21/nx-s1-6009452/candidates-lock-in-for-final-sprint-in-texas-u-s-senate-race",
+        "title": "Candidates lock in for final sprint in Texas U.S. Senate race : NPR"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0626,
+    "tokens": {
+      "prompt": 10646,
+      "completion": 2716,
+      "reasoning": 1068
+    }
   }
 ]

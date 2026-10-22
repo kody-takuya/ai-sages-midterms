@@ -1257,5 +1257,114 @@
       "completion": 9403,
       "reasoning": 7457
     }
+  },
+  {
+    "date": "2026-10-23",
+    "generated_at": "2026-10-23T07:00:02+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 53,
+    "house_control_prob_dem": 93,
+    "comment": "+1.7%はバッチの幻影。民主の2倍票は本物だった",
+    "hidden_dynamics": [
+      "NC早期投票で民主が共和の2倍の票数(Axios/N&O)。昨日の共和+1.7%は郵便バッチ合算の見かけ上で、熱量格差は実在した。私の測定ミスであり波は本物。",
+      "TXでFox(LV)が49-49同率、EmersonがD+2。LVスクリーンの厳しい2社が並ぶのはTalaricoの天井が48-49に達した証拠で、Paxtonの党ブランド依存がD+7環境で完全に剥がれ落ちた。",
+      "MEでMaristの『57%がCollins勝利を予測』は危険信号。世論の期待と実測(Jackson+2〜4)の乖離は、終盤の現職巻き返しか投票日の下振れの前触れになりうる。"
+    ],
+    "hypothesis_title": "波は本物、変換効率が州で違う",
+    "hypothesis": "昨日の「早期投票の党派ギャップは後退する」は部分的に棄却する。共和+1.7%は郵便バッチ合成のアーティファクトで、N&OとAxiosが民主2倍の投票を確認した以上、熱量格差と郊外波は実在する。ただし波の高さ≠上院議席:TXはFox同率・Emerson D+2でコインフリップ、MEはJackson+1.5〜4でMOE内、IAはR+3で確定。下院は全限界区が波に曝されるため過剰変換、上院は州ごとに候補者ブランドと党派構造が減衰器になる。反証条件:(1)NC・IAで郵便分離後の共和シェアが28%超、(2)MEで討論後の新規調査がCollins+2超に反転、(3)閉鎖が10月中に決着しACA延長が成立。",
+    "hypothesis_status": "refined",
+    "change_reason": "共和早期投票の回復が測定アーティファクトと判明し民主急増が確認されたため、下院を232→233へ戻した。上院はTXがFox LVで完全同率となり3つ目の獲得経路が現実化したため50→51、確率46→53%へ。",
+    "analysis": "昨日私は自分の測定を疑って数字を下げたが、今日はその疑い自体が正しかった——ただし逆向きに。NCの共和+1.7%は同日集計に受理済み郵便投票が全量合算された効果で、AxiosとN&Oは民主が共和の2倍の早期投票票を投じたと報じる。無党派+72%、投票者の79%が2022年投票者という構造も変わらず、波は郊外・高頻度有権者上で実在する。下院233はこの確認に基づく部分的復元で、SabatoのLean D以上223に早期投票実測を乗せた水準。上院の分岐点はTXだ。Fox(LV)49-49、Emerson(LV)48-46+傾き配分で49-48、Pollfinity(n=278、±6.5で参考外)がD+5。LVスクリーンをかけた複数社が並ぶのは信頼でき、IEがToss-upへ下げた判断と整合する。これで民主の51への経路は「ME+TX+1」または「ME+OH+TX」の二本に整理される。MEはSuffolk(10/8-11)49-47、Marist RV+4だが最終討論後の調査が未出で、Maristの期待値57%Collins勝ちが気がかり。AKはRasmussen44-44とCtM50の乖離が未解決のまま。IAはHinson+3〜5で事実上脱落、KSはTilt R。明日への申し送り:(1)ME最終討論後の新規調査、(2)NC・IA早期投票Day8-10の郵便分離シェア、(3)DCCC$17Mの着金確認、(4)閉鎖・ACA協議の進展、(5)AKのRCV第2選択を含む新調査。",
+    "key_news": [
+      {
+        "title": "NC早期投票で民主の投票数が共和の2倍、有権者の熱気と怒りが背景",
+        "source": "Raleigh News & Observer / Axios Charlotte",
+        "url": "https://www.newsobserver.com/news/politics-government/election/article317718444.html",
+        "impact": "D+"
+      },
+      {
+        "title": "Fox News調査:TX上院選はTalarico・Paxtonとも49%の完全同率、写真判定へ",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish",
+        "impact": "D+"
+      },
+      {
+        "title": "ME:Marist RVでJackson+4、無党派は52-45でJackson、57%はCollins勝利を予測",
+        "source": "Marist Poll",
+        "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-maine-october-2026/",
+        "impact": "D+"
+      },
+      {
+        "title": "Emerson/Nexstar(10/17-19,LV n=1000):Talarico48-46Paxton、傾き配分で49-48",
+        "source": "Emerson College Polling",
+        "url": "https://emersoncollegepolling.com/texas-2026-poll-toss-up/",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://ncfree.org/early-voting-tracker/",
+        "title": "NC Early Vote Tracker | NC FreeEnterprise Foundation"
+      },
+      {
+        "url": "https://www.axios.com/local/charlotte/2026/10/19/north-carolina-early-voting-2026-democrats-gop",
+        "title": "NC Democrats cast twice as many ballots as Republicans - Axios Charlotte"
+      },
+      {
+        "url": "https://www.newsobserver.com/news/politics-government/election/article317718444.html",
+        "title": "North Carolina early voting shows higher Democratic turnout | Raleigh News & Observer"
+      },
+      {
+        "url": "https://www.qcitymetro.com/politics/democrats-turn-out-in-early-voting-surge-but-outcomes-for-key-races-are-still-far-from-certain-238c1813/",
+        "title": "Democrats turn out in early voting surge, but outcomes for k..."
+      },
+      {
+        "url": "https://www.suffolk.edu/-/media/suffolk/documents/academics/research-at-suffolk/suprc/polls/other-states/2026/10_14_2026_maine_press_release.pdf",
+        "title": "Suffolk University Press Release: Statewide and Bellwether Polls Maine Midterm Elections"
+      },
+      {
+        "url": "https://www.newsweek.com/maine-senate-polling-as-susan-collins-troy-jackson-head-into-fourth-debate-12569146",
+        "title": "Latest Polls for Maine Senate: Susan Collins, Troy Jackson Prep for Fourth Debate - Newsweek"
+      },
+      {
+        "url": "https://politixplus.com/race/u-s-senate-maine-jackson-vs-collins",
+        "title": "Maine Senate 2026 Polls: Jackson vs Collins | Politix+"
+      },
+      {
+        "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-maine-october-2026/",
+        "title": "Home of the Marist Poll | Polls, Analysis, Learning, and More"
+      },
+      {
+        "url": "https://texaspolitics.utexas.edu/blog/texas-2026-u-s-senate-poll-tracker",
+        "title": "Texas 2026 U.S. Senate Poll Tracker | The Texas Politics Project"
+      },
+      {
+        "url": "https://emersoncollegepolling.com/texas-2026-poll-toss-up/",
+        "title": "Texas 2026 Poll: Toss-Up U.S. Senate Race; Abbott Maintains Edge for Governor - Emerson Polling"
+      },
+      {
+        "url": "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish",
+        "title": "Fox News poll finds Talarico, Paxton tied at 49% in Texas Senate race | Fox News"
+      },
+      {
+        "url": "https://pollfinity.com/polls/tx-governor-senate-2026-oct",
+        "title": "Talarico 48%, Paxton 43%: Texas Senate and Governor Races Inside the Margin in New Pollfinity Survey | Pollfinity Research"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0635,
+    "tokens": {
+      "prompt": 28454,
+      "completion": 3270,
+      "reasoning": 1600
+    }
   }
 ]

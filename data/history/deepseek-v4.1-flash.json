@@ -1318,5 +1318,114 @@
       "completion": 4345,
       "reasoning": 2532
     }
+  },
+  {
+    "date": "2026-10-23",
+    "generated_at": "2026-10-23T07:00:02+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 72,
+    "house_control_prob_dem": 90,
+    "comment": "赤州の平均値に青が混じる——満潮か、潮位計の癖か。残り12日",
+    "hidden_dynamics": [
+      "共和の資金は攻勢ではなくSC・KS・NE・IAという本来安全な赤州の防衛に吸い込まれている。moneyの向きは世論調査より正直で、党内部が自ら『赤州バイアス再現』を信じていない証拠だ。",
+      "テキサスの期日前は共和登録票も大量に動いており、モデル推定ではD+1前後の僅差。登録党派の色分けは投票意図と一致せず、『青い長蛇の列』という報道の絵柄と実際の構成がずれる点を織り込む必要がある。",
+      "メインでコリンズがトランプ不支持層の一部を取る異常なクロスオーバーを続けており、これだけは世論調査のサンプルが構造的に捉えにくい。上院の下振れリスクは実はTXよりMEにある。"
+    ],
+    "hypothesis_title": "赤州バイアスは不在、主役は候補の質",
+    "hypothesis": "2020・2024年の『赤州の世調は本番で共和に2〜4点寄る』前提は、トランプ固有の低学歴・低投票頻度層の押し上げに由来し、トランプ不在の今回は同じ補正が効きにくい。代わりに支配するのは候補の質（タラリコ、ブラウン、ペルトーラ、ジャクソン）と投票率の非対称、そしてパクストン、ハステッド、マーシャルら共和候補の弱さだ。今日の新データ——SCでアンドリュース+3.2、IAでトゥレク+1.6、KSでハミルトン+3.0という赤州平均の民主リード、承認不承認-25——は仮説を支持する。棄却条件は、期日前のD優位が当日共和票で明確に逆転される兆候、またはメインでコリンズが平均+3以上に抜け出す気配。",
+    "hypothesis_status": "refined",
+    "change_reason": "新規証拠（SC・IA・KSの赤州平均で民主リード、TXはFoxタイ・Emerson+1の拮抗維持）は仮説を裏書きし、上院確率を71→72へ小幅に上げた。ただしTX・MEの反証リスクを踏まえ議席中央値は52・236で据え置き。",
+    "analysis": "【上院】現状53R-47D、必要純増4。構造は変わらない：クーパー（NC）、ブラウン（OH +3.9）、ペルトーラ（AK +3.6）、ジャクソン（ME +4.2）で51に到達し、TXの当落に関わらず多数派が取れる。今日の最大材料は赤州平均の広がりだ——SCアンドリュース+3.2（グラハム相手）、IAトゥレク+1.6（ハンソン相手）、KSハミルトン+3.0、NEはリケッツ+0.3。これは『候補の質』だけでなく全国波が深い赤州にまで及んでいることを示す。ただし2点の警戒：(1) FoxのTXは49-49タイで、以前のD+2からはやや締まり、Emersonも+1。(2) TX期日前のモデル推定はD+1.1とほぼ互角で、共和登録票も大量に動く。よってTXは依然コイントス、52は『NC+OH+AK+ME+どれか一つ（TX/KS/SC/IA）』の合成だ。KSはハミルトン資金11倍で最有力の上乗せ候補。下振れ50、上振れ54。市場66〜67%より私は強気の72%。【下院】ジェネリックはD+8前後で高止まり、承認の不承認超過-25。サバトは28区変更で『最低223、235接近』、クック224〜234。私の236は強気側だが、TX・MO・NC等の新地図による民主保有トスアップの共和寄りシフトを差し引いても環境差が勝ると見る。【持ち越し】明日はTX郡別の共和/民主登録比の続報、KS・IAへの共和追加投入の有無、メイン世調の続伸（コリンズが+3圏に入るなら上院Pを引き下げる）。",
+    "key_news": [
+      {
+        "title": "Fox News世論調査でテキサスはタラリコ49%・パクストン49%の完全タイ、Emersonではタラリコ+1と拮抗が継続",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/22/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "impact": "neutral"
+      },
+      {
+        "title": "サバト・クリスタルボール、下院28区の評価変更で『最低でもリード民主223議席、最終的に235接近』と明言",
+        "source": "Sabato's Crystal Ball",
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "impact": "D+"
+      },
+      {
+        "title": "上院選の州別平均でSCアンドリュース+3.2、IAトゥレク+1.6、KSハミルトン+3.0、AKペルトーラ+3.6、MEジャクソン+4.2と赤州・接戦州で民主が優勢",
+        "source": "On Point Politics",
+        "url": "https://onpointpolitics.us/polls/senate",
+        "impact": "D+"
+      },
+      {
+        "title": "AP分析：主要州で期日前投票の投票率が急増。TXは220万票超に達しモデル推定ではD+1.1と僅差",
+        "source": "AP News",
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/",
+        "title": "InsiderAdvantage Senate Surveys: Texas, Paxton 49, Talarico 48; Kansas, Marshall 48%, Hamilton 47%; Maine, Jackson 49, Collins 47;Update: All Conducted 10/13-14 – InsiderAdvantage"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/22/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Talarico, Paxton Tied In Fox ..."
+      },
+      {
+        "url": "https://onpointpolitics.us/polls/senate",
+        "title": "2026 Senate polling averages | On Point Politics"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "title": "Generic Congressional Ballot: Latest Polls | Silver Bulletin"
+      },
+      {
+        "url": "https://vote-scope.com/en/us/house/polls/",
+        "title": "Generic Ballot — U.S. House — Vote-Scope"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://onpointpolitics.us/maps/early-vote",
+        "title": "2026 Early Vote Tracker: Ballots Cast by State | On Point Politics"
+      },
+      {
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+        "title": "Voter turnout is soaring in some key states, AP analysis shows | AP News"
+      },
+      {
+        "url": "https://theoelections.com/early-vote",
+        "title": "Texas early voting results 2026: turnout by county and precinct, updated daily · theoelections"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0242,
+    "tokens": {
+      "prompt": 19675,
+      "completion": 3513,
+      "reasoning": 1679
+    }
   }
 ]
