@@ -1140,54 +1140,53 @@
   },
   {
     "date": "2026-10-22",
-    "generated_at": "2026-10-22T07:00:03+09:00",
+    "generated_at": "2026-10-22T22:06:40+09:00",
     "model_id": "deepseek/deepseek-v4.1-flash",
     "senate": {
       "dem": 52,
       "rep": 48
     },
     "house": {
-      "dem": 238,
-      "rep": 197
+      "dem": 236,
+      "rep": 199
     },
     "senate_control_prob_dem": 71,
-    "house_control_prob_dem": 92,
-    "comment": "共和の金は攻めず守りに、候補は無給で走る——残り13日",
+    "house_control_prob_dem": 90,
+    "comment": "NYT/Siena D+11——満潮の数字を、潮位計はどう読むか",
     "hidden_dynamics": [
-      "共和の巨額PAC（CLF・SLF・MAGA Inc）の資金が、攻勢区ではなくMT-1・OH-10・NE-01・KS-02のようなトランプ+10超の赤区に流れている。これは内部世調が「防衛線の後退」を示している証拠で、公表数値より共和陣営の危機感が強いことを暴露する。",
-      "マーシャル陣営は四半期500万ドルを使いながら給与支出ゼロ。宣伝費に人件費を混ぜている可能性はあるが、有給スタッフ不在＝終盤のGOTV機構が事実上存在しないことを意味し、資金11倍のハミルトンに対して最終盤で致命的になる。",
-      "全国の期日前投票の党登録比はD50対R32だが、これは登録ベースと民主党の早期投票習慣で膨らんでいる。真に読むべきはオハイオのフランクリン郡・カヤホガ郡が1週間で2022年総投票の4割超を消化している事実——熱量は都市部民主に偏在している。",
-      "RVとLVの乖離が今回は逆転気味（VerasightはRV D+10に対しLV D+12）。通常LVスクリーンは共和に有利に働くが、今回は民主の低頻度層が実際に投票行動へ移っており、伝統的な『LV補正＝共和上振れ』の前提が崩れつつある。"
+      "共和の巨額資金（CLF・SLF・NRSC系）が攻勢でなくSC・NE・KS・IAなど赤州の防衛に消えており、これが全国的な反共和波の最も静かな証拠。攻勢に出られない党は守勢である。",
+      "期日前の全国集計はD+15.6（予想比D+2.1）と民主の熱量を示す一方、テキサスは予想比ほぼ互角でタラリコの資金力が登録者構成に現れていない。テキサスは依然コイントス。",
+      "メインはコリンズのトランプ不支持層12%取り込みという異常なクロスオーバーが共和唯一の防火壁。ただし対カナダ関税とディーゼル高が州経済を直撃しており、報道が語る『無所属の強み』の裏で地元経済が静かに削られている。"
     ],
     "hypothesis_title": "赤州バイアス減退、候補の質が勝敗を決める",
-    "hypothesis": "『赤州の世調は本番で共和に寄る』という前提は今回は弱い。2020/2024の赤州バイアスはトランプ固有の低学歴・低投票頻度層の押し上げに由来し、トランプが票にいない今回は同じ補正が効きにくい。代わりを支配するのは候補の質（タラリコ、ブラウン、ペルトーラ、ハミルトン）と投票率の非対称、そして共和候補の構造的弱さ（マーシャルの無給キャンペーン、パクストン、ハステッド）だ。共和資金が攻勢でなく赤州防衛に消えている事実がそれを裏付ける。よってNC・ME・OH・TXを民主、AKで52、KSはほぼ互角で53も射程、IA・NE・SCは共和薄氷。棄却条件は、期日前のD優位が当日共和票で明確に逆転される兆候、テキサスの縮小が全赤州に波及する気配、またはメインでコリンズが平均+3以上に抜け出すこと。",
+    "hypothesis": "2020・2024年の『赤州の世調は本番で共和に2〜4点寄る』前提は、トランプ固有の低学歴・低投票頻度層の押し上げに由来し、トランプ不在の今回は同じ補正が効きにくい。代わりに支配するのは候補の質（タラリコ、ブラウン、ペルトーラ、ジャクソン）と投票率の非対称、共和候補の弱さ（パクストン、ハステッド、マーシャル）だ。よってNC・OH・AK・MEを民主、TXはコイントス、IA・KS・NE・SCは共和薄氷。棄却条件は、期日前のD優位が当日共和票で明確に逆転される兆候、またはメインでコリンズが平均+3以上に抜け出す気配。",
     "hypothesis_status": "refined",
-    "change_reason": "上院は中央値52を維持。テキサスがlean-D→tilt-Dに縮小しアイオワがtilt-Rへ動いた一方、メイン・ミネソタは民主方向に固まり、市場（Kalshi66%・52超38%）は私の52前後と整合する。下院はジェネリックがSilver Bulletin平均D+9.2（LV補正D+9.7）とサイクル最高値を更新しNYT/Siena・CNNもD+10〜11と高止まりしたため、中央値を236→238へ小幅に引き上げた。",
-    "analysis": "【上院】改選35、現状53R-47D、必要純増4。今日の最大材料は格付けの交錯だ。PoliAgg集計でアイオワがtossup→tilt-R、メイン・ミネソタがtilt-D→lean-D、テキサスがlean-D→tilt-Dへ。一見共和に追い風だが、内訳は『共和が守る赤州でわずかに粘り、民主が守る青州で固まる』という構図で、私の中心命題（候補の質が勝敗を決める）をむしろ補強する。カンザスではEnd Citizens Unitedがマーシャルの公金私用疑惑で上院倫理委に調査を要求、MS NOWは四半期500万ドル支出で給与ゼロを確認——有給スタッフ不在の陣営が終盤のGOTVを戦えるはずがなく、資金11倍のハミルトンに対しKSは実質互角以上だ。市場はKalshi66%（前日+3）、52超38%、タラリコ64%・ジャクソン64%・ブラウン66%・エル=サイード70%と民主優勢、共和はハンソン57%・マーシャル60%。最短経路NC+ME+OH+TX=51、AKで52、KSで53。中央値52、幅50〜55。最大の反証リスクはテキサス（パクストンの組織票）とメイン（コリンズの無所属クロスオーバー）。【下院】ジェネリックはSilver Bulletin平均D+9.2とサイクル最高、NYT/Siena D+11、CNN D+10、ActiVote D+7.4。クックは224〜234、サバトは235接近、モデルは226〜245。共和の巨額資金は『224割れ』の床を作るが床を押し上げない。中央値238（+23）。【持ち越し】明日はテキサス期日前の郡別集計（ヒスパニック系リオグランデと郊外のR/D比）、オハイオ第3週、メインの最終討論後世調、KS・IAへの共和追加投入の有無を確認。テキサスで共和登録が民主を明確に上回り続けるなら、赤州バイアス減退仮説に黄信号。",
+    "change_reason": "NYT/SienaのD+11とサバトの223議席『リードD以上』は仮説と整合し、上院D52・下院236を維持。テキサス期日前が予想比ほぼ互角でコイントス示唆のため、TXを確定民主から条件付きに微修正したが議席数は不変。",
+    "analysis": "【上院】現状53R-47D、必要純増4。クーパー（NC +7〜14）とブラウン（OH +4〜6、FOXでも+5）はほぼ確定、ペルトーラはRCVで複数世調一貫リード。この3州で51に達し、TXの当落に関わらず多数派が取れる構造が私の71%の根拠。TXはアクティボートD+2、FOXタイ、CBS D+2、ビーコン・インサイダーはタイ〜R+1で完全なコイントス、期日前も予想比互角。メインはジャクソン+2〜4だがコリンズのクロスオーバーが最大の反証リスク。KSはハミルトン資金11倍で48-47〜48-44と互角、転べば53。IAはハンソン+2前後で共和。中央値52（幅50〜54）。市場は66〜67%で私より慎重だが、赤州バイアス減退分の上振れを維持。【下院】ジェネリックはDDHQ D+7.9、NYT/Siena D+11（2008年以来最大）、アクティボートD+7.4。サバトは28区変更で223議席『リードD以上』、12トスアップ、最終的に235接近と明言。クックも224〜234。TX・MO・NC・OH・FLの新地図が唯一の歯止めだが環境差が上回る。中央値236（+21）。【持ち越し】明日はTX期日前の郡別R/D比、OH第4週、KS・IAへの共和追加投入、メイン世調続報。RV-LV乖離が縮まなければ上院Pを上げる。",
     "key_news": [
       {
-        "title": "NYT/シエナが全国世調で民主D+11（52対41）、CNNもD+10（49対39）。民主は主要争点すべてで優位",
-        "source": "MS NOW (Rachel Maddow Show)",
-        "url": "https://www.ms.now/rachel-maddow-show/maddowblog/generic-ballot-polls-democrats-lead-republicans-midterm-elections",
+        "title": "NYT/Sienaの最終世調で民主党がジェネリック投票で11ポイントリード、2008年以来最大の全国得票差ペース",
+        "source": "The New York Sun",
+        "url": "https://www.nysun.com/article/times-siena-poll-gives-democrats-11-point-lead-in-generic-house-ballot-in-final-midterm-survey",
         "impact": "D+"
       },
       {
-        "title": "Silver Bulletinのジェネリック平均がサイクル最高のD+9.2に更新、LV補正でD+9.7",
-        "source": "Silver Bulletin",
-        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "title": "サバトのクリスタルボールが下院28区を変更、リードD以上の議席が218を超え223に到達、最終的に235接近と予想",
+        "source": "Sabato's Crystal Ball",
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
         "impact": "D+"
       },
       {
-        "title": "上院4州の格付けが一夜で変動：アイオワtossup→tilt-R、メイン・ミネソタtilt-D→lean-D、テキサスlean-D→tilt-D",
-        "source": "PoliAgg",
-        "url": "https://poliagg.com/reports/daily/2026-10-21/",
+        "title": "クックが上院評価を変更、サウスカロライナをLikely R→Lean R、ミシシッピをSafe R→Likely R、ミネソタをLikely D→Lean D",
+        "source": "Midterm Mondays",
+        "url": "https://midtermmonday.com/movers",
+        "impact": "D+"
+      },
+      {
+        "title": "期日前投票は全国17.2百万票、登録民主が予想比D+15.6と熱量示す一方、テキサスは予想比ほぼ互角、フロリダはR+5.3",
+        "source": "On Point Politics",
+        "url": "https://onpointpolitics.us/maps/early-vote",
         "impact": "neutral"
-      },
-      {
-        "title": "マーシャル上院議員に倫理委調査要求、四半期500万ドル支出も給与ゼロ——カンザス選挙戦に公金私用疑惑",
-        "source": "Kansas Reflector / MS NOW",
-        "url": "https://kansasreflector.com/2026/10/21/campaign-finance-group-seeks-investigation-into-roger-marshalls-alleged-ethics-violations/",
-        "impact": "D+"
       }
     ],
     "citations": [
@@ -1196,100 +1195,80 @@
         "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
       },
       {
+        "url": "https://pollingsource.com/today",
+        "title": "Today's Source - October 21, 2026 | PollingSource"
+      },
+      {
         "url": "https://crosstab.vote/polls/",
         "title": "Latest 2026 Election Polls: Senate, Governor, Approval"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/new-cpr-battleground-polls-dem-senate",
+        "title": "New CPR Battleground Polls: Dem Senate Candidates Narrowly Lead in OH, TX, IA | Cook Political Report"
       },
       {
         "url": "https://www.realclearpolling.com/latest-polls/senate",
         "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
       },
       {
-        "url": "https://poliagg.com/reports/daily/2026-10-21/",
-        "title": "Iowa Senate race moves to tilt-R amid four Senate rating shifts — PoliAgg"
+        "url": "https://elections2026.thehill.com/polls/generic-ballot/national/lv-rv-adults/",
+        "title": "Generic Congressional Ballot - The Hill and DDHQ"
       },
       {
-        "url": "https://pollingsource.com/senate/polls",
-        "title": "2026 Senate Polls — Latest Race Polling | PollingSource"
-      },
-      {
-        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eleven-more-house-races-shift-toward-democrats",
-        "title": "Eleven More House Races Shift Toward Democrats | Cook Political Report"
-      },
-      {
-        "url": "https://www.cookpolitical.com/analysis/house/house-overview/eighteen-more-house-race-ratings-move-democrats-favor",
-        "title": "Eighteen More House Race Ratings Move in Democrats’ Favor | Cook Political Report"
-      },
-      {
-        "url": "https://www.cookpolitical.com/ratings",
-        "title": "CPR Race Ratings"
-      },
-      {
-        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
-        "title": "2026 CPR House Race ratings"
-      },
-      {
-        "url": "https://www.washingtonpost.com/politics/2026/10/16/cook-political-report-moves-11-house-races-move-toward-democrats/",
-        "title": "Cook Political Report moves 11 House races move toward Democrats - The Washington Post"
+        "url": "https://www.nysun.com/article/times-siena-poll-gives-democrats-11-point-lead-in-generic-house-ballot-in-final-midterm-survey",
+        "title": "Times-Siena Poll Gives Democrats 11-Point Lead in Generic House Ballot in Final Midterm Survey | The New York Sun"
       },
       {
         "url": "https://www.activote.net/polls/generic-ballot/",
         "title": "Generic ballot poll, Oct 2026 · ActiVote"
       },
       {
-        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
-        "title": "Generic Congressional Ballot: Latest Polls | Silver Bulletin"
+        "url": "https://www.tpr.org/podcast/the-source/2026-10-21/what-the-polls-are-telling-us-about-the-2026-midterms?_amp=true",
+        "title": "What the polls are telling us about the 2026 midterms | TPR"
       },
       {
-        "url": "https://www.gelliottmorris.com/p/2026-10-21-october-strength-in-numbers-verasight-poll-release",
-        "title": "Poll: Democrats post their biggest generic-ballot lead yet, two weeks out"
+        "url": "https://www.nytimes.com/interactive/polls/congressional-vote-2026.html",
+        "title": "The Race for Congress: Latest 2026 Polls"
       },
       {
-        "url": "https://thehill.com/homenews/campaign/6162170-democrats-hold-poll-advantage-midterms/",
-        "title": "Democratic momentum builds as polls show 10-point midterm edge over GOP"
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
       },
       {
-        "url": "https://www.ms.now/rachel-maddow-show/maddowblog/generic-ballot-polls-democrats-lead-republicans-midterm-elections",
-        "title": "Democrats’ lead grows on the generic ballot"
-      },
-      {
-        "url": "https://www.thecaucus.news/p/ohio-early-voting-outpaces-2022-midterms-in-first-week",
-        "title": "Ohio Early Voting Outpaces 2022 Midterms in First Week | The Caucus"
-      },
-      {
-        "url": "https://www.callthemap.com/early-vote",
-        "title": "Early vote tracker: who has voted so far in 2026 · Call the Map"
+        "url": "https://onpointpolitics.us/maps/early-vote",
+        "title": "2026 Early Vote Tracker: Ballots Cast by State | On Point Politics"
       },
       {
         "url": "https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html",
         "title": "Tracking the Early Vote in the 2026 Midterm Elections"
       },
       {
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+        "title": "Voter turnout is soaring in some key states, AP analysis shows | AP News"
+      },
+      {
         "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
         "title": "Tracking the 2026 Early Vote: Midterm Elections"
       },
       {
-        "url": "https://www.houstonchronicle.com/projects/2026/texas-midterms-early-voting-turnout/",
-        "title": "Texas midterms early voting tracker: See where turnout is ..."
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
       },
       {
-        "url": "https://kansasreflector.com/2026/10/21/campaign-finance-group-seeks-investigation-into-roger-marshalls-alleged-ethics-violations/",
-        "title": "Campaign finance group seeks investigation into Roger Marshall’s alleged ethics violations • Kansas Reflector"
+        "url": "https://midtermmonday.com/movers",
+        "title": "Midterm Mondays"
       },
       {
-        "url": "https://www.kcur.org/politics-elections-and-government/2026-10-15/adam-hamilton-roger-marshall-taxpayer-money",
-        "title": "Hamilton calls for ethics inquiry into Kansas Sen. Marshall’s use of taxpayer money | KCUR - Kansas City news and NPR"
+        "url": "https://centerforpolitics.org/crystalball/2026-rating-changes/",
+        "title": "2026 Rating Changes - Sabato's Crystal Ball"
       },
       {
-        "url": "https://kansasreflector.com/2026/10/15/adam-hamilton-says-reporting-on-roger-marshalls-use-of-taxpayer-dollars-warrants-ethics-inquiry/",
-        "title": "Adam Hamilton says reporting on Roger Marshall's use of taxpayer dollars warrants ethics inquiry • Kansas Reflector"
+        "url": "https://www.cookpolitical.com/ratings",
+        "title": "CPR Race Ratings"
       },
       {
-        "url": "https://www.ms.now/news/kansas-senate-roger-marshall",
-        "title": "Weeks before Election Day, Sen. Roger Marshall’s campaign still had no one on payroll"
-      },
-      {
-        "url": "https://votelog.org/investigations/kansas-senate-general-money",
-        "title": "Kansas Senate Race 2026: Marshall vs. Hamilton Money Tracker | VoteLog"
+        "url": "https://centerforpolitics.org/crystalball/10_14_senate/",
+        "title": "Five Senate Rating Changes as Close Battle for Majority Control Rages - Sabato's Crystal Ball"
       },
       {
         "url": "https://marketsgrade.com/live/senate-control-2026/",
@@ -1300,24 +1279,44 @@
         "title": "Which party will win the U.S. Senate?"
       },
       {
-        "url": "https://news.kalshi.com/p/kalshi-american-power-index-kpow-democrats-hit-all-time-high-as-senate-odds-surge",
-        "title": "Kalshi American Power Index: Democrats hit all-time high as Senate odds surge"
+        "url": "https://electionbettingodds.com/Senate-Control-2026_week.html",
+        "title": "Election Betting Odds by Maxim Lott and John Stossel"
       },
       {
         "url": "https://candidatecasino.com/en/united-states/2026/senate-election/control/",
         "title": "Control of the Senate after the 2026 midterms"
       },
       {
-        "url": "https://predictionmarketspicks.com/tools/midterms-2026",
-        "title": "2026 Midterms Odds — Live Senate, House & Control Tracker | PredictionMarketsPicks"
+        "url": "https://predictdesks.com/blog/articles/polymarket-senate-control-odds",
+        "title": "Polymarket and Kalshi midterm odds: who will control the Senate and the House in 2026?"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/maine-us-senate-election-polls-2026.html",
+        "title": "Maine U.S. Senate Election 2026: Latest Polls"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/21/he-lacks-charisma-maines-senate-race-it-may-not-matter/",
+        "title": "Troy Jackson lacks charisma. But in Maine's Senate race, it ..."
+      },
+      {
+        "url": "https://www.actionnetwork.com/politics/collins-vs-jackson-maine-senate-polls-show-a-tight-race-and-kalshi-prices-democrats-near-64",
+        "title": "Maine Senate Odds: Collins vs. Jackson Polls and Prices"
+      },
+      {
+        "url": "https://elections2026.thehill.com/polls/general-ballot-test/2026-me-us-senate-collins-vs-jackson/maine/lv-rv-adults/",
+        "title": "2026 Maine Senate Polling - The Hill and DDHQ"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/10/22/maine-senate-election-trump-tariffs.html",
+        "title": "Trump's tariffs loom over Maine Senate race between ..."
       }
     ],
     "searches": null,
-    "cost_usd": 0.048,
+    "cost_usd": 0.0477,
     "tokens": {
-      "prompt": 48940,
-      "completion": 4461,
-      "reasoning": 2221
+      "prompt": 47525,
+      "completion": 4345,
+      "reasoning": 2532
     }
   }
 ]

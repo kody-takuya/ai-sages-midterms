@@ -455,7 +455,7 @@
   },
   {
     "date": "2026-10-22",
-    "generated_at": "2026-10-22T07:00:03+09:00",
+    "generated_at": "2026-10-22T22:06:40+09:00",
     "model_id": "anthropic/claude-sonnet-5.5",
     "senate": {
       "dem": 51,
@@ -465,69 +465,69 @@
       "dem": 232,
       "rep": 203
     },
-    "senate_control_prob_dem": 62,
+    "senate_control_prob_dem": 60,
     "house_control_prob_dem": 86,
-    "comment": "共和党寄りの調査まで民主リード。戻りの兆しは見えない",
+    "comment": "テキサスはFoxで同率。共和党の戻りは小幅で、薄氷が続く",
     "hidden_dynamics": [
-      "共和党寄りの調査会社(InsiderAdvantage、Rasmussen)が、メインやアラスカ、ミシガンで民主党リードを出している。党派性のある会社が出す数字は、共和党の戻りがまだ起きていない裏づけとして、中立調査より重い。",
-      "テキサスでは、民主党の牙城だけでなくMontgomeryなど共和党の地盤でも初日の投票が記録的に多い。民主党だけの動員ではなく全体の関心が高まっているので、当日の共和党の追い上げ余地は想定より小さいかもしれない。",
-      "アラスカの民主党リードは、トランプ氏の低支持率とRCV(順位付け投票)の第2選好の効果が組み合わさった結果だ。サリバン氏の出身州というブランド力は、確実な防波堤にはなっていない。"
+      "Fox調査では、パクストン氏が保守層・農村部・コーニン支持だった層をまとめ直したことで、+2から同率になった。終盤の共和党回帰は、ひとつの大きな揺り戻しではなく、党内の結束という形で少しずつ進んでいる。",
+      "テキサスでは、知事選のアボット氏はタラリコ支持層の一部から票を得ている。民主党が上院で勝っても、下位の選挙には波及しにくい。上院での勝利は、候補者個人への支持にかなり依存している。",
+      "予測市場はタラリコ氏を67%としており、世論調査の平均よりやや強気だ。民主党の動員が優勢という見方が織り込まれている可能性がある。一方、アイオワでは市場がヒンソン氏を56%とし、民主党寄りの調査との間にずれがある。"
     ],
-    "hypothesis_title": "共和党の戻りは遅く小さい",
-    "hypothesis": "上院は終盤に共和党がやや持ち直すとみるが、その戻りは遅く小さい。テキサスは中立調査でTalarico氏+2〜3に張り付き、ミシガンやアラスカも民主党がわずかに上回る。民主党の勝ち筋はNC・ME・OHに加え、TX・AK・IAのどれか1つだ。下院は総合投票D+8前後で、区割りの不利を吸収できる。早期投票は全国で民主党優位だが、共和党は当日投票に回る。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_title": "共和党の戻りは緩やかな結束回帰",
+    "hypothesis": "上院は終盤に共和党がやや持ち直すとみるが、勢いは緩やかだ。Fox調査でテキサスが同率となったのは、パクストン氏が党内の保守層を固めた結果とみる。民主党の勝ち筋は、NC・ME・OHに加え、TX・AK・IAのうち1つだ。下院は総合投票D+8前後で、区割りの不利を吸収できる。早期投票は民主党優位だが、共和党は当日投票に回りやすい。複数の中立調査でパクストン氏が2点以上リードするか、総合投票がD+5以下になれば仮説を捨てる。",
     "hypothesis_status": "refined",
-    "change_reason": "新規調査はいずれも民主党が小幅にリードしており、仮説を補強した。ただし誤差の範囲内で議席の読みは変えられないため、上院の確率だけ2ポイント上げ、議席数は据え置いた。",
-    "analysis": "【上院】テキサスはUT/TPPがTalarico氏50対47、UHが48対46、CBSが51対49で、中立系は+2〜3に安定している。共和党寄りのInsiderAdvantageだけがPaxton氏+1だ。ミシガンはMaristがEl-Sayed氏52対45と大きく、Rasmussenでも46対44でリードする。民主党は守る側のミシガンで余裕が出てきた。アラスカはData for ProgressでPeltola氏+3、RasmussenでPeltola氏+2。メインはInsiderAdvantageとSuffolkでJackson氏が49対47だが、Collins氏は過去に世論調査を上回った実績があり、ここは慎重に見る。民主党はNC・ME・OHに加え、TX・AK・IAのどれか1つで足りる。1つ落とせば50-50で、副大統領により共和党が支配する。経路は複数あるが、どれも誤差の範囲内なので確率は62%にとどめる。【早期投票】全国の投票は約1430万票に達した。党派登録のある州では、早期投票者の約51%が民主党登録、約32%が共和党登録だ。ただし初期投票者は関与が高く、予測力は弱い。共和党は当日投票に回る傾向がある。テキサスは共和党の地盤でも記録的な投票が出ており、全体の関心が高い。【下院】総合投票はD+8前後で、2018年並みの環境だ。区割りの不利は吸収できる。232議席、86%を維持する。明日は、テキサス・ジョージアの党派別早期投票、アイオワの新規調査、Kalshi/Polymarketの価格を確認する。",
+    "change_reason": "テキサスで同率の調査が出たものの、他の中立調査は民主党のわずかなリードを示しており、市場も民主党有利だ。そのため確率と議席数は据え置いた。下院は総合投票D+7〜8でモデルも88%と近く、変更しなかった。",
+    "analysis": "【上院】テキサスはFoxが49対49の同率となり、9月の+2から動いた。ActiVoteは51対49、Cookは+5で、調査ごとのばらつきが大きい。傾向としては、民主党のリードが+2前後から0〜+2に縮んでいる。パクストン氏の好感度はマイナス17だが、党内の結束で票が戻りつつある。市場はタラリコ氏67%だが、世論調査の接戦に比べやや強気にみえる。アイオワはco/efficientでヒンソン氏+3、CookとYouGovでトゥレク氏が小幅リードと割れている。リバタリアン候補が8%を取る点も不確実だ。メインはジャクソン氏が49対47で、コリンズ氏には調査を上回った前歴がある。アラスカはペルトラ氏が51対49でわずかにリードしている。オハイオはブラウン氏が+6でリードしている。民主党はNC・ME・OHに加え、TX・AK・IAのうち1つを取る必要がある。1つ落とすと50-50で共和党が支配するため、60%に据え置く。【下院】総合投票はRCPでD+8.3、NYT/SienaでD+11、Echelonで+5だ。Poliwaveの確率は88%、議席は231だった。2018年並みの環境で、区割りの不利を吸収できる。232議席、86%を維持する。2016年と2024年の誤差が再現するリスクとして、低関与の共和党票を見落とす可能性はある。ただし、今回は共和党寄りの調査でも民主党が優勢だ。明日は、テキサスの郡別の投票者数、アラスカ・メインの新規調査、市場価格の動きを確認する。",
     "key_news": [
       {
-        "title": "テキサス・ミシガンの上院選は民主党が僅差でリード。CBS/YouGovはTalarico氏51対49(NYT集計)",
-        "source": "GV Wire(NYT集計)",
-        "url": "https://gvwire.com/2026/10/21/texas-michigan-senate-polls-show-narrow-democratic-leads-as-midterm-elections-near/",
+        "title": "Fox News世論調査:テキサス上院はタラリコ氏とパクストン氏が49対49の同率。パクストン氏が保守層・農村部を固め直した",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish",
+        "impact": "R+"
+      },
+      {
+        "title": "Cookの調査:テキサスはタラリコ氏49対44、オハイオはブラウン氏49対43、アイオワはトゥレク氏46対44でそれぞれ民主党がリード",
+        "source": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6163761-cook-poll-democrats-lead-senate/",
         "impact": "D+"
       },
       {
-        "title": "RCPの最新調査:UTがTalarico氏+3、アラスカはPeltola氏+2〜+3、MaineはJackson氏+2、SCはGraham氏+3",
-        "source": "RealClearPolling",
-        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "title": "総合投票はRCP平均でD+8.3、NYT/SienaでD+11。Poliwaveは下院民主党の確率を88%と推計",
+        "source": "RealClearPolling / Poliwave",
+        "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
         "impact": "D+"
       },
       {
-        "title": "全国の早期投票は1430万票超。民主党登録者の投票率が共和党登録者を上回る",
-        "source": "Spectrum News / US News",
-        "url": "https://spectrumlocalnews.com/nc/coastal/politics/2026/10/21/midterm-election-early-voting",
-        "impact": "D+"
-      },
-      {
-        "title": "テキサスの早期投票は初日から記録的。共和党の地盤でも中間選挙の記録を更新",
-        "source": "Texas Tribune",
-        "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
+        "title": "ホビー・スクール調査:テキサス上院でタラリコ氏48対46。InsiderAdvantageはパクストン氏49対48とリード",
+        "source": "FOX 26 Houston / Mediaite",
+        "url": "https://www.fox26houston.com/news/texas-senate-race-talarico-holds-razor-thin-lead-over-paxton-latest-poll",
         "impact": "neutral"
       }
     ],
     "citations": [
       {
-        "url": "https://gvwire.com/2026/10/21/texas-michigan-senate-polls-show-narrow-democratic-leads-as-midterm-elections-near/",
-        "title": "テキサス・ミシガンの上院選は民主党が僅差でリード。CBS/YouGovはTalarico氏51対49(NYT集計)"
+        "url": "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish",
+        "title": "Fox News世論調査:テキサス上院はタラリコ氏とパクストン氏が49対49の同率。パクストン氏が保守層・農村部を固め直した"
       },
       {
-        "url": "https://www.realclearpolling.com/latest-polls/senate",
-        "title": "RCPの最新調査:UTがTalarico氏+3、アラスカはPeltola氏+2〜+3、MaineはJackson氏+2、SCはGraham氏+3"
+        "url": "https://thehill.com/homenews/campaign/6163761-cook-poll-democrats-lead-senate/",
+        "title": "Cookの調査:テキサスはタラリコ氏49対44、オハイオはブラウン氏49対43、アイオワはトゥレク氏46対44でそれぞれ民主党がリード"
       },
       {
-        "url": "https://spectrumlocalnews.com/nc/coastal/politics/2026/10/21/midterm-election-early-voting",
-        "title": "全国の早期投票は1430万票超。民主党登録者の投票率が共和党登録者を上回る"
+        "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+        "title": "総合投票はRCP平均でD+8.3、NYT/SienaでD+11。Poliwaveは下院民主党の確率を88%と推計"
       },
       {
-        "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
-        "title": "テキサスの早期投票は初日から記録的。共和党の地盤でも中間選挙の記録を更新"
+        "url": "https://www.fox26houston.com/news/texas-senate-race-talarico-holds-razor-thin-lead-over-paxton-latest-poll",
+        "title": "ホビー・スクール調査:テキサス上院でタラリコ氏48対46。InsiderAdvantageはパクストン氏49対48とリード"
       }
     ],
     "searches": null,
-    "cost_usd": 0.1049,
+    "cost_usd": 0.1043,
     "tokens": {
-      "prompt": 31953,
-      "completion": 2100,
-      "reasoning": 103
+      "prompt": 31313,
+      "completion": 2172,
+      "reasoning": 78
     }
   }
 ]

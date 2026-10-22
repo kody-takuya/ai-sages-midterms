@@ -538,119 +538,78 @@
   },
   {
     "date": "2026-10-22",
-    "generated_at": "2026-10-22T07:00:03+09:00",
+    "generated_at": "2026-10-22T22:06:40+09:00",
     "model_id": "google/gemini-4-argon",
     "senate": {
-      "dem": 52,
-      "rep": 48
+      "dem": 51,
+      "rep": 49
     },
     "house": {
       "dem": 236,
       "rep": 199
     },
-    "senate_control_prob_dem": 65,
+    "senate_control_prob_dem": 60,
     "house_control_prob_dem": 89,
-    "comment": "オハイオの劇薬CMが自陣に炸裂、赤い州の「逆コートテイル」が上院の壁を破る。",
+    "comment": "オハイオ52%の壁とカンザス倍増の異変、トランプは深紅の州へ走る。",
     "hidden_dynamics": [
-      "オハイオ州知事選で共和党ラマスワミ氏が対立候補の幼少期の性的虐待被害を否定する絶縁状態の母親を起用した400万ドルの攻撃広告を強行し、同党の上院現職ハステッド氏が即座に「自分なら流さない」と距離を置いたのは、共和党内部調査で郊外女性層の同時離反（逆コートテイル効果）が上院選に直撃しているパニックの裏返しである。",
-      "トランプ大統領の最終盤の遊説日程がカンザス、サウスカロライナ、ミシシッピ（コリンス）、テキサス（ラボック）など本来なら安全圏の深紅の州・農村部ばかりに組まれている事実は、共和党の内部データで「MAGA岩盤層の投票意欲低下」が深刻であり、激戦州の無党派層説得を諦めて基底票の掘り起こしによる防衛戦に退却したことを暴露している。",
-      "アイオワ州上院選でリバタリアン党のレーン候補が8%もの支持を集めている構図は、関税と物価高に不満を持つ伝統的保守・農家層が「民主党には入れられないがトランプ路線にも抗議する」受け皿として第三極を使っており、見かけの支持率差（2ポイント）以上に共和党のヒンソン候補から逆転の余地を奪っている。"
+      "トランプ大統領が21日に本来安全圏のサウスカロライナ州へ応援に入り、カンザス州の討論会では共和党現職マーシャル議員が政権のICE摘発や牛肉輸入枠拡大を公然と批判せざるを得なかった。農業州の保守層で「関税・燃料高・労働力不足」の三重苦が共和党の看板政策だった移民・経済の優位を内部崩壊させている。",
+      "超党派のCook調査やFox調査でオハイオ・テキサス・アイオワの民主党候補が揃って先行したが、アイオワ（46%）やテキサス（49%）では民主党候補がまだ過半数に届いていない。2016年や2024年と同様、投票日直前に「シューマー上院院内総務の誕生阻止」を掲げる共和党の引き締めで未決定の穏健保守層が帰巣する余地が残る。"
     ],
-    "hypothesis_title": "知事選発の逆コートテイルと農村部動員不全による上院決壊",
-    "hypothesis": "生活費高騰とイラン戦争疲れに直面する中、民主党は期日前投票の記録的動員で下院を圧倒する。上院の赤い州（OH、IA、TX）では、これまで「知事選は共和党、上院は民主党」の分割投票が民主党の盾だったが、ここに来て知事選の共和党候補の暴走（OHラマスワミ氏の炎上広告）や民主党知事候補の圧勝ペース（IAサンド氏+10）が逆に上院の民主党候補を引き上げる「逆コートテイル効果」へ転化しつつある。今後、TX等の農村部で共和党の期日前投票が都市部を上回る急増を見せれば、上院予測を51議席以下へ戻す。",
+    "hypothesis_title": "看板政策の逆噴射と「50%の壁」が分ける赤い州の明暗",
+    "hypothesis": "燃料高と関税・農業打撃により、共和党は経済だけでなく最大の武器だった「移民・国境対策」の優位まで失い、期日前投票の急増（TXで74%増、KSで倍増）とともに下院で236議席規模の青い波を招いている。上院ではオハイオ州で民主党が50%超の安定圏に入った一方、テキサスやアイオワでは未決定の穏健保守層が投票日当日に共和党へ回帰する「2024年型の揺り戻し」とミネソタ等の防衛リスクが相殺し、51議席へ着地する。今後、赤い州の世論調査で民主党候補が50%を超え続ければ52議席以上へ引き上げる。",
     "hypothesis_status": "refined",
-    "change_reason": "超党派調査（Cook）でOH・TX・IAの上院3州すべてで民主党リードが確認されたうえ、OH知事選の炎上劇とIA知事選の二桁リードが上院選への追い風（逆コートテイル）として機能し始めたため、民主党がNC・ME・AK・OHに加えてTXかIAの少なくとも一方を奪取すると判断し、上院予測を51から52議席（奪還確率65%）へ引き上げた。下院は236議席を維持。",
-    "analysis": "21日に公表されたCook Political Reportの超党派調査（民主・共和両系の調査会社が共同実施）は、上院の勝敗を決する赤い3州すべてで民主党が先行している現実を突きつけた（オハイオでブラウン氏+6、テキサスでタラリコ氏+5、アイオワでトゥレク氏+2）。特に決定的なのは州知事選との連動だ。オハイオでは共和党のラマスワミ知事候補が民主党アクトン候補の幼少期の虐待被害を「嘘」と罵る実母の広告に400万ドルを投じて超党派の猛反発を買い、アクトン氏に5ポイントのリードを許している。ハステッド上院議員が慌てて広告を批判したのは、穏健な郊外層が共和党の投票用紙全体から離反する「逆コートテイル」の兆候を察知したからだ。アイオワでも民主党のサンド知事候補が10ポイント差で圧勝圏にあり、無党派層とリバタリアン票（8%）の流出に苦しむヒンソン氏（共）を追い詰めている。テキサスではハリス郡に続きトラビス郡（オースティン）でも今世紀の期日前投票初日記録を更新し、ジョージアでも期日前投票が前年比12%増の100万票を突破、現職オソフ氏が+8と安全圏に入った。懸念だったミシガン（エルサイード氏+2）とミネソタ（フラナガン氏が学歴誇張疑惑を火消しし+3維持）も踏みとどまっており、上院は52議席に届くと見る。明日はトランプ氏が駆けつけるサウスカロライナ等の深紅州の世論調査と期日前投票の農村部データを検証する。",
+    "change_reason": "オハイオ・テキサス・アイオワでの民主党リードと期日前投票の急増を反映し上下両院の民主党過半数確率を微増させたが、赤い州での未決定層の終盤回帰リスクとミネソタ州の苦戦を織り込み、議席数は上院51・下院236で据え置いた。",
+    "analysis": "21日夜から22日朝にかけて出たデータは、共和党の防衛線がなぜ深紅の州まで後退しているかの構造的理由を暴いている。第一に、Fox調査（ブラウン氏52対47）とCook超党派調査（同49対43）の両方で、オハイオ州のブラウン氏が決定的なリードを固めた。背景には生活費苦に加え、Strength In Numbers調査が示した「移民・強制送還問題での共和党リード消滅」がある。カンザス州の討論会で共和党現職マーシャル氏が政権のICE摘発やロシア産軽油購入構想に苦言を呈し、民主党のハミルトン牧師が「シューマー氏を院内総務に支持しない」と中道層を切り崩した構図は象徴的だ。AP集計で期日前投票が2022年比でテキサス74%増、カンザス2倍超と爆発しているのもこの無党派・穏健層の離反を裏付ける。それでも上院予測を51議席に留めるのは、Cook調査でタラリコ氏（TX・49%）やトゥレク氏（IA・46%）がまだ過半数に達しておらず、終盤の党派的引き締めで保守層が帰巣する2016・2024年型の反動を見込むためだ。またミネソタ州やミシガン州（Marist調査でエルサイード氏+2）の防衛不安も残る。明日は週末前の広告枠移動と激戦区の期日前投票の党派内訳を検証する。",
     "key_news": [
       {
-        "title": "Cook Political Reportの超党派世論調査で、テキサス（+5）、オハイオ（+6）、アイオワ（+2）の激戦3州すべてで民主党上院候補がリード",
-        "source": "Forbes / The Hill",
+        "title": "Fox News世論調査：オハイオ上院選で民主党ブラウン氏が52%対47%でハステッド氏を5ポイントリード",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-south-carolina-democrats-october-21",
+        "impact": "D+"
+      },
+      {
+        "title": "Cook Political Reportの激戦州調査：テキサス（+5）、オハイオ（+6）、アイオワ（+2）の3州すべてで民主党上院候補が先行",
+        "source": "Forbes / Cook Political Report",
         "url": "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/",
         "impact": "D+"
       },
       {
-        "title": "オハイオ州知事選のラマスワミ候補（共）、対立候補の幼少期の性的虐待を否定する絶縁状態の母親を起用した広告に400万ドル投入を表明し党内外から猛反発",
-        "source": "The Washington Post / AP",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEU20laUVj-HSbIPZkMR9avJ1UH3KcyqMC4wLuWcjsZc7pQuqPA9GPD5p9YvD2t4DOBCgUZVN3IoQYyOQmUYcJPSQpiRANuLMQYkdqt6JNu8n1ZLNVmHXEX7lWYg-D16aLJ9nXnKbr2tKDHybIRQzJAhU1yrHww9QJCFZKi_FzCpC_xh0xPcZVJ0aNtqjtTkvfeLObw9DCV25030eBu6Y=",
+        "title": "AP通信の期日前投票分析：上院激戦州で投票が急増、テキサスは2022年比74%増、カンザスは2倍超に",
+        "source": "Associated Press",
+        "url": "https://www.eupnews.com/2026/10/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting/",
         "impact": "D+"
       },
       {
-        "title": "ジョージア州の期日前投票が100万票を突破し過去最高ペース、テキサス州トラビス郡でも今世紀の中間選挙初日記録を更新",
-        "source": "Capitol Beat / Texas Public Radio",
-        "url": "https://unionrecorder.com/2026/10/21/georgia-early-voting-tops-1-million-ballots/",
+        "title": "カンザス州上院選討論会：共和党マーシャル氏が軽油高騰や関税・ICE摘発で防戦、民主党ハミルトン氏は脱党派をアピール",
+        "source": "CBS News",
+        "url": "https://www.cbsnews.com/news/kansas-senate-debate-roger-marshall-adam-hamilton-2026/",
         "impact": "D+"
-      },
-      {
-        "title": "トランプ大統領がノースカロライナ州で集会を開催、今後はミシシッピ、サウスカロライナ、カンザスなど深紅の州での防衛遊説を連日予定",
-        "source": "The Dispatch / PBS News",
-        "url": "https://thedispatch.com/newsletter/next-right/trump-rallies-north-carolina-midterms-maga-future/",
-        "impact": "R+"
       }
     ],
     "citations": [
       {
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEU20laUVj-HSbIPZkMR9avJ1UH3KcyqMC4wLuWcjsZc7pQuqPA9GPD5p9YvD2t4DOBCgUZVN3IoQYyOQmUYcJPSQpiRANuLMQYkdqt6JNu8n1ZLNVmHXEX7lWYg-D16aLJ9nXnKbr2tKDHybIRQzJAhU1yrHww9QJCFZKi_FzCpC_xh0xPcZVJ0aNtqjtTkvfeLObw9DCV25030eBu6Y=",
-        "title": "washingtonpost.com"
-      },
-      {
-        "url": "https://www.newsfromthestates.com/article/trump-set-campaign-tight-us-senate-contests-iowa-texas-ohio-michigan",
-        "title": "newsfromthestates.com"
-      },
-      {
-        "url": "https://thedispatch.com/newsletter/next-right/trump-rallies-north-carolina-midterms-maga-future/",
-        "title": "thedispatch.com"
-      },
-      {
-        "url": "https://ua.news/en/world/opituvannia-cook-demokrati-lidiruiut-u-trokh-peregonakh-do-senatu-ssha-the-hill",
-        "title": "ua.news"
+        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-south-carolina-democrats-october-21",
+        "title": "Fox News世論調査：オハイオ上院選で民主党ブラウン氏が52%対47%でハステッド氏を5ポイントリード"
       },
       {
         "url": "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/",
-        "title": "forbes.com"
+        "title": "Cook Political Reportの激戦州調査：テキサス（+5）、オハイオ（+6）、アイオワ（+2）の3州すべてで民主党上院候補が先行"
       },
       {
-        "url": "https://www.houstonchronicle.com/projects/2026/texas-midterms-early-voting-turnout/",
-        "title": "houstonchronicle.com"
+        "url": "https://www.eupnews.com/2026/10/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting/",
+        "title": "AP通信の期日前投票分析：上院激戦州で投票が急増、テキサスは2022年比74%増、カンザスは2倍超に"
       },
       {
-        "url": "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/",
-        "title": "forbes.com"
-      },
-      {
-        "url": "https://politicalwire.com/2026/10/21/democrats-lead-in-key-red-state-senate-races/",
-        "title": "politicalwire.com"
-      },
-      {
-        "url": "https://www.realclearpolling.com/latest-polls",
-        "title": "realclearpolling.com"
-      },
-      {
-        "url": "https://www.tpr.org/government-politics/2026-10-21/travis-county-breaks-first-day-early-voting-turnout-record-for-every-midterm-election-this-century",
-        "title": "tpr.org"
-      },
-      {
-        "url": "https://unionrecorder.com/2026/10/21/georgia-early-voting-tops-1-million-ballots/",
-        "title": "unionrecorder.com"
-      },
-      {
-        "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/",
-        "title": "marist.edu"
-      },
-      {
-        "url": "https://www.mprnews.org/story/2026/10/21/dfl-senate-candidate-peggy-flanagan-shows-evidence-of-phi-beta-kappa-membership",
-        "title": "mprnews.org"
-      },
-      {
-        "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
-        "title": "texastribune.org"
+        "url": "https://www.cbsnews.com/news/kansas-senate-debate-roger-marshall-adam-hamilton-2026/",
+        "title": "カンザス州上院選討論会：共和党マーシャル氏が軽油高騰や関税・ICE摘発で防戦、民主党ハミルトン氏は脱党派をアピール"
       }
     ],
     "searches": null,
-    "cost_usd": 0.1177,
+    "cost_usd": 0.1722,
     "tokens": {
-      "prompt": 3304,
-      "completion": 2708,
-      "reasoning": 0
+      "prompt": 3397,
+      "completion": 3945,
+      "reasoning": 1731
     }
   }
 ]
