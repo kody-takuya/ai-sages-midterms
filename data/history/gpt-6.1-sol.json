@@ -490,7 +490,7 @@
   },
   {
     "date": "2026-10-22",
-    "generated_at": "2026-10-22T22:06:40+09:00",
+    "generated_at": "2026-10-22T22:22:53+09:00",
     "model_id": "openai/gpt-6.1-sol",
     "senate": {
       "dem": 51,
@@ -502,67 +502,99 @@
     },
     "senate_control_prob_dem": 60,
     "house_control_prob_dem": 85,
-    "comment": "逆風でも地盤は残る。青信号と当選証書は別。",
+    "comment": "期日前の行列、長さだけでは色は読めない。",
     "hidden_dynamics": [
-      "アイオワでヒンソンが大統領との距離を取りながら保守地盤の集会には参加するのは、無党派への説得と共和支持者の動員が両立しにくい証拠と読む。内部調査は確認できないが、支持率より参加率が最後の制約になっている可能性がある。([apnews.com](https://apnews.com/article/d4db60bf0d0884cef80aecebd00edf87))",
-      "期日前投票の増加を民主票の増加とは置かない。テキサスでは投票者の登録政党別内訳がなく、オハイオでは郵便票の期限変更も前倒しを促すため、熱気と制度効果を分離する必要がある。([apnews.com](https://apnews.com/article/44df2c18b387d28022dbb480e99feaba))",
-      "ミネソタの接戦化は、全国的な反共和感情でも州政権への不満までは消せないという反証だ。共和側にとっては全国支持の回復を待たず、責任の所在を州へ移す方が効率的な可能性がある。([thedailybeast.com](https://www.thedailybeast.com/nbcs-data-guru-warns-blue-state-could-slip-from-dems-grasp))"
+      "期日前投票の増加は、民主の動員成功と共和の投票前倒しの両方で起こる。州全体の増加率より、新規参加者の地域・年齢構成と、常連投票者の前倒し割合が重要だが、今回確認できた数字では区別できない。",
+      "共和系団体がテキサス防衛とミシガン攻略を並行するのは、全面撤退ではなく、民主に防衛費を使わせる戦略とも読める。広告費は内部調査の代用品ではなく、支出の大きさだけで共和劣勢とは判定しない。",
+      "民主の上院過半数には接戦州の同時勝利が必要で、各州の誤差は独立とは限らない。共和支持の低頻度投票者を共通して取り逃していれば、接戦の複数議席がまとめて反転する。"
     ],
-    "hypothesis_title": "不満は全国、責任と参加は地元",
-    "hypothesis": "昨日の「説得と参加の二段階」を、責任の帰属まで含めて精緻化する。家計不満は民主への追い風でも、候補が誰の失政と結び付くかで議席化の効率は変わる。アイオワの共和動員策とミネソタの民主防衛リスクは、全国一律の波ではないという読みを支える。([apnews.com](https://apnews.com/article/d4db60bf0d0884cef80aecebd00edf87)) 共和票の共通過小評価も残余リスクとし、独立した同条件調査で共和回帰が続くか、民主寄り層の参加不足が確認されれば棄却する。",
+    "hypothesis_title": "不満の広がり、参加の関門",
+    "hypothesis": "「説得と参加の二段階」を維持し、期日前投票増を動員成功と即断しない形に精緻化する。家計不満は下院の広い接戦群を民主へ押す一方、上院では共和寄り州の参加構成と現職票が関門になる。投票増と共和の攻守両面の広告投入は、勝敗より両党の危機感を示す。2016・2024年型の共和票過小把握も残るため、接戦州の民主小差を安全圏とは見ない。独立調査の継続的な共和回帰か、民主支持層の参加不足が確認されれば棄却する。",
     "hypothesis_status": "refined",
-    "change_reason": "全国の不満は下院の広い接戦群に効く一方、上院では地元責任と動員が波を弱めるため、下院233、上院51を据え置く。上院は民主側の現有47議席維持にノースカロライナ、メーン、オハイオ、テキサスの４奪取を置く中心シナリオであり、今日の証拠だけでは勝敗の入れ替えに足りない。",
-    "analysis": "基準は2026年10月22日９時06分米東部。前日メモの実際の締切は20日18時であり、今日は指定された21日９時06分以降を中心に評価した。全国調査の民主優位拡大は追い風だが、単独調査をそのまま追加議席へ換算しない。([ayde.com](https://www.ayde.com/news/670469-trump-approval-hits-new-low-two-weeks-before-midterms-poll-finds?utm_source=openai)) 2016年・2024年型の共和支持者の非回答や低頻度投票者の見落としは州をまたぐ共通誤差になり得るため、接戦を独立事象として積み上げない。民主の強みは家計不満、共和の強みは保守地盤と候補別の責任転嫁だ。上院はメーンの個人票、テキサスの参加構成に加え、ミネソタの州政権への不満を下振れ要因として監視する。([thedailybeast.com](https://www.thedailybeast.com/nbcs-data-guru-warns-blue-state-could-slip-from-dems-grasp)) アイオワは動員次第の代替経路に留める。([apnews.com](https://apnews.com/article/d4db60bf0d0884cef80aecebd00edf87)) 下院はIA01・03、PA07・10、NY17、AZ06を継続監視し、新しい地区別証拠なしに変更しない。明日は郊外・農村別の参加構成と同一調査会社の変化を確認する。確率は独自判断である。",
+    "change_reason": "上院は民主系47議席を維持し、ノースカロライナ、メーン、オハイオ、テキサスの４奪取で51という細い経路を据え置く。下院233は家計不満が広い接戦群に及ぶ想定であり、今日の投票総数と広告費だけでは地区別勝敗を変更する根拠がない。",
+    "analysis": "今回確認できた証拠では、期日前投票の急増を民主への追加点にしないことが重要だ。APによればテキサスは2022年同期比74％増、カンザスは倍増だが、前倒しと純増を分離できず、共和支持者の参加回復とも両立する。一方、Foxが伝える共和系団体のミシガンへの大型投入は、民主の既存議席維持にも費用がかかるという警告だ。上院51への弱点はテキサスの参加構成、メーンの現職個人票、オハイオの調査間の差。ミシガンも防衛対象として監視し、アラスカは代替経路に留める。下院では民主の家計争点と共和現職の地域票が競合するIA01・03、PA07・10、NY17、AZ06を継続監視する。2016・2024年のような共通方向の調査誤差は、州を増やしても分散できない。ただし再発を自動的に仮定する根拠もない。明日は郊外・農村別の新規参加と同一母集団の調査変化を優先し、全国支持率からの機械的な上積みを避ける。",
     "key_news": [
       {
-        "title": "主要上院州で期日前投票が増加。ただし制度変更や州別の差も大きい",
-        "source": "AP通信",
-        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+        "title": "AP分析、上院激戦州で期日前投票が前回中間選挙を大幅に上回る",
+        "source": "AP",
+        "url": "https://apnews.com/live/trump-midterm-elections-news-updates-10-22-2026",
         "impact": "neutral"
       },
       {
-        "title": "アイオワ共和候補、大統領への異論と支持層の投票動員を両立模索",
-        "source": "AP通信",
-        "url": "https://apnews.com/article/ashley-hinson-trump-iowa-senate-josh-turek-d4db60bf0d0884cef80aecebd00edf87",
-        "impact": "neutral"
-      },
-      {
-        "title": "ミネソタで州政府の不正問題が民主上院候補の弱点になる可能性",
-        "source": "デイリー・ビースト（NBCの分析と地元調査を紹介）",
-        "url": "https://www.thedailybeast.com/nbcs-data-guru-warns-blue-state-could-slip-from-dems-grasp",
+        "title": "共和系MAGA Inc.、ミシガン上院選に2500万ドルのテレビ広告支出",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-south-carolina-democrats-october-21",
         "impact": "R+"
       },
       {
-        "title": "全国の投票見込み層で民主が11ポイント先行する新調査",
-        "source": "ニューヨーク・タイムズ／シエナ大学調査（Ayde転載要旨で確認、原文取得不可）",
-        "url": "https://www.ayde.com/news/670469-trump-approval-hits-new-low-two-weeks-before-midterms-poll-finds",
-        "impact": "D+"
+        "title": "テキサス公共ラジオ、上院選の僅差と全国の民主優位を検討",
+        "source": "Texas Public Radio",
+        "url": "https://www.tpr.org/podcast/the-source/2026-10-21/what-the-polls-are-telling-us-about-the-2026-midterms?_amp=true",
+        "impact": "neutral"
+      },
+      {
+        "title": "民間予測サイト、オハイオ調査を受け民主の上院獲得見通しを小幅下方修正",
+        "source": "Polling Forecast",
+        "url": "https://www.pollingforecast.com/us/news/192/ohio-polls-trim-democratic-chances-as-the-senate-stays-a-toss-up",
+        "impact": "R+"
       }
     ],
     "citations": [
       {
-        "url": "https://apnews.com/article/d4db60bf0d0884cef80aecebd00edf87",
-        "title": "Hinson joins Trump rally in Sioux City as Iowa Senate race tightens | AP News"
+        "url": "https://www.reuters.com/world/us/elections/",
+        "title": "2026 Midterm Elections News | Top Headlines, Latest Polls ..."
       },
       {
-        "url": "https://apnews.com/article/44df2c18b387d28022dbb480e99feaba",
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://www.realclearpolitics.com/video/2026/10/21/rcp_polling_minute_democratic_sweep_odds_and_where_all_8_senate_toss-ups_stand.html",
+        "title": "RCP Polling Minute: Democratic Sweep Odds and Where All 8 Senate Toss-Ups Stand"
+      },
+      {
+        "url": "https://www.tpr.org/podcast/the-source/2026-10-21/what-the-polls-are-telling-us-about-the-2026-midterms?_amp=true",
+        "title": "What the polls are telling us about the 2026 midterms | TPR"
+      },
+      {
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
         "title": "Voter turnout is soaring in some key states, AP analysis shows | AP News"
       },
       {
-        "url": "https://www.thedailybeast.com/nbcs-data-guru-warns-blue-state-could-slip-from-dems-grasp",
-        "title": "NBC's Data Guru Warns Blue State Could Slip From Dems’ Grasp"
+        "url": "https://apnews.com/live/trump-midterm-elections-news-updates-10-22-2026",
+        "title": "Live updates: Many states see big boost in early voting: AP analysis | AP News"
       },
       {
-        "url": "https://www.ayde.com/news/670469-trump-approval-hits-new-low-two-weeks-before-midterms-poll-finds?utm_source=openai",
-        "title": "Trump Approval Hits New Low Two Weeks Before Midterms, Poll Finds | Ayde News"
+        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-south-carolina-democrats-october-21",
+        "title": "2026 Midterm Elections: Trump, Democrats Campaign"
+      },
+      {
+        "url": "https://apnews.com/article/trump-maga-inc-super-pac-money-midterms-0194a89b2209920efa4e3e83ef981205",
+        "title": "Trump's political groups spend nearly $277 million in late midterm blitz | AP News"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Latest Senate Polls: Midterm Elections 2026"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+        "title": "2026 CPR Senate Race ratings"
+      },
+      {
+        "url": "https://www.pollingforecast.com/us/news/192/ohio-polls-trim-democratic-chances-as-the-senate-stays-a-toss-up",
+        "title": "Ohio polls trim Democratic chances as the Senate stays a toss-up"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings"
       }
     ],
     "searches": null,
-    "cost_usd": 0.1617,
+    "cost_usd": 0.055,
     "tokens": {
-      "prompt": 41879,
-      "completion": 2413,
-      "reasoning": 935
+      "prompt": 15943,
+      "completion": 1747,
+      "reasoning": 254
     }
   }
 ]

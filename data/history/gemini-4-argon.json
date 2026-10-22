@@ -538,7 +538,7 @@
   },
   {
     "date": "2026-10-22",
-    "generated_at": "2026-10-22T22:06:40+09:00",
+    "generated_at": "2026-10-22T22:22:53+09:00",
     "model_id": "google/gemini-4-argon",
     "senate": {
       "dem": 51,
@@ -549,67 +549,90 @@
       "rep": 199
     },
     "senate_control_prob_dem": 60,
-    "house_control_prob_dem": 89,
-    "comment": "オハイオ52%の壁とカンザス倍増の異変、トランプは深紅の州へ走る。",
+    "house_control_prob_dem": 88,
+    "comment": "知事選の防波堤が消えたオハイオとアイオワ、22年型の赤い逆転劇は封じられた。",
     "hidden_dynamics": [
-      "トランプ大統領が21日に本来安全圏のサウスカロライナ州へ応援に入り、カンザス州の討論会では共和党現職マーシャル議員が政権のICE摘発や牛肉輸入枠拡大を公然と批判せざるを得なかった。農業州の保守層で「関税・燃料高・労働力不足」の三重苦が共和党の看板政策だった移民・経済の優位を内部崩壊させている。",
-      "超党派のCook調査やFox調査でオハイオ・テキサス・アイオワの民主党候補が揃って先行したが、アイオワ（46%）やテキサス（49%）では民主党候補がまだ過半数に届いていない。2016年や2024年と同様、投票日直前に「シューマー上院院内総務の誕生阻止」を掲げる共和党の引き締めで未決定の穏健保守層が帰巣する余地が残る。"
+      "2022年にオハイオ（デワイン知事25pt差圧勝）やアイオワ（レイノルズ知事19pt差圧勝）で共和党上院候補を引き上げた「人気現職知事のコートテール（相乗り効果）」が消滅し、今回は逆に民主党のサンド氏（IA知事選+11）やアクトン氏（OH知事選+5）が上院選を牽引する逆転現象が起きている。",
+      "アイオワ州の民主党トゥーレク候補の好感度がワシントンの民主党全国平均を28ポイント上回るなど、赤い州の民主党候補が徹底した「脱・中央党派」の個人ブランドを構築したことで、共和党スーパーPACによる全国一律のネガティブ広告が空回りしている。",
+      "ただしアイオワ上院選（46対44）のように赤い州では未決定層が1割残っており、2016・2024年と同様に投票日当日の農村部・低投票頻度層の動員で3〜4ポイント共和党へ揺り戻す構造的バイアスを見込む必要がある。"
     ],
-    "hypothesis_title": "看板政策の逆噴射と「50%の壁」が分ける赤い州の明暗",
-    "hypothesis": "燃料高と関税・農業打撃により、共和党は経済だけでなく最大の武器だった「移民・国境対策」の優位まで失い、期日前投票の急増（TXで74%増、KSで倍増）とともに下院で236議席規模の青い波を招いている。上院ではオハイオ州で民主党が50%超の安定圏に入った一方、テキサスやアイオワでは未決定の穏健保守層が投票日当日に共和党へ回帰する「2024年型の揺り戻し」とミネソタ等の防衛リスクが相殺し、51議席へ着地する。今後、赤い州の世論調査で民主党候補が50%を超え続ければ52議席以上へ引き上げる。",
+    "hypothesis_title": "知事選の逆相乗り効果と赤い州の終盤揺り戻し",
+    "hypothesis": "期日前投票の記録的出足と候補者個人の広告単価優位により、下院は民主党236議席の大きな波が維持される。上院ではTXで分割投票が機能するのに加え、OHとIAでは不人気な共和党知事候補の足を引っ張る「逆コートテール効果」が働き民主党が先行する。ただし2016・2024年同様、赤い州の世論調査には農村部保守層の過小評価と未決定層の終盤の原点回帰（3〜4pt）が潜むため、民主党が全てを取り切ることはなく51議席で着地する。期日前投票で都市部の出足が失速すれば予測を引き下げる。",
     "hypothesis_status": "refined",
-    "change_reason": "オハイオ・テキサス・アイオワでの民主党リードと期日前投票の急増を反映し上下両院の民主党過半数確率を微増させたが、赤い州での未決定層の終盤回帰リスクとミネソタ州の苦戦を織り込み、議席数は上院51・下院236で据え置いた。",
-    "analysis": "21日夜から22日朝にかけて出たデータは、共和党の防衛線がなぜ深紅の州まで後退しているかの構造的理由を暴いている。第一に、Fox調査（ブラウン氏52対47）とCook超党派調査（同49対43）の両方で、オハイオ州のブラウン氏が決定的なリードを固めた。背景には生活費苦に加え、Strength In Numbers調査が示した「移民・強制送還問題での共和党リード消滅」がある。カンザス州の討論会で共和党現職マーシャル氏が政権のICE摘発やロシア産軽油購入構想に苦言を呈し、民主党のハミルトン牧師が「シューマー氏を院内総務に支持しない」と中道層を切り崩した構図は象徴的だ。AP集計で期日前投票が2022年比でテキサス74%増、カンザス2倍超と爆発しているのもこの無党派・穏健層の離反を裏付ける。それでも上院予測を51議席に留めるのは、Cook調査でタラリコ氏（TX・49%）やトゥレク氏（IA・46%）がまだ過半数に達しておらず、終盤の党派的引き締めで保守層が帰巣する2016・2024年型の反動を見込むためだ。またミネソタ州やミシガン州（Marist調査でエルサイード氏+2）の防衛不安も残る。明日は週末前の広告枠移動と激戦区の期日前投票の党派内訳を検証する。",
+    "change_reason": "Cookの超党派調査でOH・TX・IAの3州すべてで民主党リードが確認され上院過半数確率を60%へ微増させたが、赤い州の未決定層が終盤に共和党へ回帰する過去サイクルの誤差を織り込み、上下両院の議席数予測（上院51・下院236）は維持した。",
+    "analysis": "21日に発表されたCook Political Reportの超党派調査（民主・共和双方の調査会社が共同実施）は、オハイオ（ブラウン+6）、テキサス（タラリコ+5）、アイオワ（トゥーレク+2）の重要3州すべてで民主党上院候補の先行を示した。見落とされがちな核心は知事選との連動だ。テキサスでは共和党アボット知事が2ポイント先行しつつ上院でタラリコ氏がリードする「分割投票」が起きているのに対し、オハイオ（ラマスワミ氏が5pt劣勢）とアイオワ（民主党サンド氏が11pt独走）では、2022年に共和党上院を守る盾となった穏健派現職知事が退き、逆に民主党知事候補が上院候補を引き上げる構造転換が起きている。またAP通信の集計でも上院激戦州で期日前投票が前回中間選挙から急増しており、ActiVoteの一般投票調査（民主党+7.4）とも整合する。それでも上院を51議席から積み増さないのは、2016・2024年の教訓から赤い州の調査を額面通りには受け取らないためだ。特にアイオワ（46対44）は民主党候補が50%に届いておらず、残り10%の未決定層が巨額PAC広告の集中砲火で党派的本能に立ち返れば逆転される。明日は週末を控えた各陣営の広告投入先の変更と期日前投票の郡別推移を検証する。",
     "key_news": [
       {
-        "title": "Fox News世論調査：オハイオ上院選で民主党ブラウン氏が52%対47%でハステッド氏を5ポイントリード",
-        "source": "Fox News",
-        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-south-carolina-democrats-october-21",
+        "title": "Cookの超党派世論調査でオハイオ（+6）、テキサス（+5）、アイオワ（+2）の3州すべてで民主党上院候補がリード、知事選でもIA・OHで民主党先行",
+        "source": "The Hill / Cook Political Report",
+        "url": "https://thehill.com/homenews/campaign/6163761-cook-poll-democrats-lead-senate/",
         "impact": "D+"
       },
       {
-        "title": "Cook Political Reportの激戦州調査：テキサス（+5）、オハイオ（+6）、アイオワ（+2）の3州すべてで民主党上院候補が先行",
-        "source": "Forbes / Cook Political Report",
-        "url": "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/",
-        "impact": "D+"
-      },
-      {
-        "title": "AP通信の期日前投票分析：上院激戦州で投票が急増、テキサスは2022年比74%増、カンザスは2倍超に",
+        "title": "上院の過半数を左右する主要激戦州の多くで、期日前投票数が2022年中間選挙から大幅急増",
         "source": "Associated Press",
-        "url": "https://www.eupnews.com/2026/10/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting/",
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
         "impact": "D+"
       },
       {
-        "title": "カンザス州上院選討論会：共和党マーシャル氏が軽油高騰や関税・ICE摘発で防戦、民主党ハミルトン氏は脱党派をアピール",
-        "source": "CBS News",
-        "url": "https://www.cbsnews.com/news/kansas-senate-debate-roger-marshall-adam-hamilton-2026/",
+        "title": "ActiVoteの最新調査で下院一般投票は民主党が7.4ポイントリード、テキサス上院選でもタラリコ氏が51対49で優位を維持",
+        "source": "ActiVote",
+        "url": "https://www.activote.net/polls/generic-ballot/",
         "impact": "D+"
       }
     ],
     "citations": [
       {
-        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-south-carolina-democrats-october-21",
-        "title": "Fox News世論調査：オハイオ上院選で民主党ブラウン氏が52%対47%でハステッド氏を5ポイントリード"
+        "url": "https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/new-cpr-battleground-polls-dem-senate",
+        "title": "New CPR Battleground Polls: Dem Senate Candidates Narrowly Lead in OH, TX, IA | Cook Political Report"
       },
       {
-        "url": "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/",
-        "title": "Cook Political Reportの激戦州調査：テキサス（+5）、オハイオ（+6）、アイオワ（+2）の3州すべてで民主党上院候補が先行"
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+        "title": "Many states deciding control of the Senate are seeing a big boost in early voting, AP analysis shows"
       },
       {
-        "url": "https://www.eupnews.com/2026/10/many-states-deciding-control-of-the-senate-are-seeing-a-big-boost-in-early-voting/",
-        "title": "AP通信の期日前投票分析：上院激戦州で投票が急増、テキサスは2022年比74%増、カンザスは2倍超に"
+        "url": "https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/senate-battleground-district-project-october",
+        "title": "Senate Battleground District Project: October 2026 Toplines | Cook Political Report"
       },
       {
-        "url": "https://www.cbsnews.com/news/kansas-senate-debate-roger-marshall-adam-hamilton-2026/",
-        "title": "カンザス州上院選討論会：共和党マーシャル氏が軽油高騰や関税・ICE摘発で防戦、民主党ハミルトン氏は脱党派をアピール"
+        "url": "https://thehill.com/homenews/campaign/6163761-cook-poll-democrats-lead-senate/",
+        "title": "Cook Political Report polls find Dems leading 3 critical races"
+      },
+      {
+        "url": "https://www.activote.net/polls/generic-ballot/",
+        "title": "Generic ballot poll, Oct 2026 · ActiVote"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://www.activote.net/polls/2026/tx-u-s-senate/",
+        "title": "Talarico Holds Narrow Lead Over Paxton in Texas Senate ..."
+      },
+      {
+        "url": "https://www.politico.com/newsletters/inside-congress/2026/10/08/gop-money-edge-not-yet-saturating-voters-poll-01111298",
+        "title": "Poll: GOP ads have yet to overwhelm voters - POLITICO"
+      },
+      {
+        "url": "https://www.poliwave.com/us/fed/polls",
+        "title": "2026 Midterm Polls: Generic Ballot and Senate Races | Poliwave"
+      },
+      {
+        "url": "https://www.fec.gov/updates/statistical-summary-of-18-month-campaign-activity-of-the-2025-2026-election-cycle/",
+        "title": "Statistical Summary of 18-Month Campaign Activity of the ..."
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/07/half-billion-dollars-gop-spending-does-little-move-polls/",
+        "title": "Half a billion dollars in GOP spending does little to move polls - The Washington Post"
       }
     ],
     "searches": null,
-    "cost_usd": 0.1722,
+    "cost_usd": 0.0678,
     "tokens": {
-      "prompt": 3397,
-      "completion": 3945,
-      "reasoning": 1731
+      "prompt": 10528,
+      "completion": 3259,
+      "reasoning": 1641
     }
   }
 ]

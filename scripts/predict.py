@@ -29,12 +29,18 @@ ELECTION_DAY = dt.date(2026, 11, 3)
 SENATE_SEATS, HOUSE_SEATS = 100, 435
 CONTEXT_DAYS = 3  # how many of the model's own past days to feed back
 
+# Cost control: most of the bill is search-result text fed back into the prompt (and Google's per-query
+# grounding fee), so every model searches through Exa with capped text. The model still writes its own queries.
+EXA_SEARCH = {"engine": "exa", "max_results": 4, "max_total_results": 12, "max_characters": 1500}
+MAX_TOOL_CALLS = 5
+
 MODELS = [
     {"slug": "gpt-6.1-sol", "id": "openai/gpt-6.1-sol", "name": "GPT-6.1 Sol", "maker": "OpenAI"},
     {"slug": "claude-sonnet-5.5", "id": "anthropic/claude-sonnet-5.5", "name": "Claude Sonnet 5.5", "maker": "Anthropic"},
     {"slug": "gemini-4-argon", "id": "google/gemini-4-argon", "name": "Gemini 4 Argon", "maker": "Google"},
     {"slug": "deepseek-v4.1-flash", "id": "deepseek/deepseek-v4.1-flash", "name": "DeepSeek V4.1 Flash", "maker": "DeepSeek"},
-    {"slug": "qwen3.8-max", "id": "qwen/qwen3.8-max-0902", "name": "Qwen3.8 Max", "maker": "Alibaba Qwen"},
+    {"slug": "qwen3.8-max", "id": "qwen/qwen3.8-max-0902", "name": "Qwen3.8 Max", "maker": "Alibaba Qwen",
+     "effort": "low"},
 ]
 
 SYSTEM_PROMPT = """You are an independent, nonpartisan U.S. election analyst producing a daily seat forecast for the {year} U.S. midterm elections (Election Day: {election_day}, {days_left} days from now).
@@ -52,7 +58,7 @@ Anyone can read the headlines; a news digest is worthless here. Treat news, poll
 - Remember 2016 and 2024: in both, media coverage and much of the polling portrayed Democrats as favored, yet Republicans won. Take this fact into account. Ask whether the same mechanisms (underestimated Republican or low-propensity voters, shy voters, media narratives built on elite or urban perspectives, polls herding toward each other) could be at work this time, and reflect your judgment in your hypothesis and numbers rather than taking a Democratic-leaning narrative at face value.
 
 ## Today's procedure
-1. Use the web search tool to gather news and data from roughly the last 24 hours (since about {since_et} ET). Run a handful of focused, distinct searches (about 4-6), for example: new Senate/House polls, race-rating changes (Cook, Sabato, Inside Elections), polling averages and forecast models, prediction-market odds, fundraising/ad spending, candidate news, scandals, debates, economic and approval data, early-vote / turnout data.
+1. Use the web search tool to gather news and data from roughly the last 24 hours (since about {since_et} ET). Run a few well-chosen, distinct searches (about 3-4; choose queries that best test your hypothesis), for example: new Senate/House polls, race-rating changes (Cook, Sabato, Inside Elections), polling averages and forecast models, prediction-market odds, fundraising/ad spending, candidate news, scandals, debates, economic and approval data, early-vote / turnout data.
 2. Avoid one-sided sourcing. Deliberately draw on left-leaning, right-leaning, and centrist/wire outlets (e.g. AP, Reuters, NYT, WaPo, WSJ, Fox News, Politico, The Hill, NBC, CNN, National Review, Washington Examiner), plus nonpartisan data sources. Weigh hard data (polls, early vote, ratings) above opinion. Note when a poll is partisan-sponsored.
 3. Think beyond the headlines (see the most important rule above): identify the unspoken dynamics, then build or update your own hypothesis.
 4. If there is little genuinely new information, it is fine to keep your numbers unchanged — do not create artificial movement. If this is your first day, establish your baseline hypothesis from the overall state of the races.
@@ -243,13 +249,13 @@ def run_model(model: dict, key: str, today: str, now: dt.datetime, effort: str) 
     base = {
         "model": model["id"],
         "max_tokens": 32000,
-        "reasoning": {"effort": effort},
+        "reasoning": {"effort": model.get("effort", effort)},
     }
     resp = call_openrouter(key, {
         **base,
         "messages": messages,
-        "tools": [{"type": "openrouter:web_search", "parameters": {"max_results": 5, "max_uses": 6, "search_context_size": "medium"}}],
-        "max_tool_calls": 8,
+        "tools": [{"type": "openrouter:web_search", "parameters": model.get("search", EXA_SEARCH)}],
+        "max_tool_calls": MAX_TOOL_CALLS,
     })
     msg = resp["choices"][0]["message"]
     text = msg.get("content") or ""

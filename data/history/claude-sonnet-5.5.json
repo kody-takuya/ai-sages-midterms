@@ -455,79 +455,95 @@
   },
   {
     "date": "2026-10-22",
-    "generated_at": "2026-10-22T22:06:40+09:00",
+    "generated_at": "2026-10-22T22:22:53+09:00",
     "model_id": "anthropic/claude-sonnet-5.5",
     "senate": {
       "dem": 51,
       "rep": 49
     },
     "house": {
-      "dem": 232,
-      "rep": 203
+      "dem": 233,
+      "rep": 202
     },
-    "senate_control_prob_dem": 60,
-    "house_control_prob_dem": 86,
-    "comment": "テキサスはFoxで同率。共和党の戻りは小幅で、薄氷が続く",
+    "senate_control_prob_dem": 62,
+    "house_control_prob_dem": 87,
+    "comment": "テキサスは僅差のまま。民主は上向きだが誤差の中だ",
     "hidden_dynamics": [
-      "Fox調査では、パクストン氏が保守層・農村部・コーニン支持だった層をまとめ直したことで、+2から同率になった。終盤の共和党回帰は、ひとつの大きな揺り戻しではなく、党内の結束という形で少しずつ進んでいる。",
-      "テキサスでは、知事選のアボット氏はタラリコ支持層の一部から票を得ている。民主党が上院で勝っても、下位の選挙には波及しにくい。上院での勝利は、候補者個人への支持にかなり依存している。",
-      "予測市場はタラリコ氏を67%としており、世論調査の平均よりやや強気だ。民主党の動員が優勢という見方が織り込まれている可能性がある。一方、アイオワでは市場がヒンソン氏を56%とし、民主党寄りの調査との間にずれがある。"
+      "テキサスでは中立系の調査がTalarico氏+2前後に集まっており、Paxton氏がリードした中立調査は一つもない。ただし、各社が互いの結果に寄せている(ハーディング)可能性もある。共和党の過小評価が過去2回と同じ向きに出れば、この+2は消える。",
+      "アラスカのNYT/Sienaは民主党+7と、他の調査より大きい。調査がまばらな州では、1本の高い数字が見出しになりやすい。実際の差はもっと小さいと見るのが妥当だ。",
+      "総合投票は、Silverの集計でD+9.2と今サイクルの最高値になった。一方、Pollingforecastは、過去の最終調査が民主党を過大評価してきたとして、全国の下院得票をD+6.6に補正している。補正後でも、区割りの不利は吸収できる水準だ。"
     ],
-    "hypothesis_title": "共和党の戻りは緩やかな結束回帰",
-    "hypothesis": "上院は終盤に共和党がやや持ち直すとみるが、勢いは緩やかだ。Fox調査でテキサスが同率となったのは、パクストン氏が党内の保守層を固めた結果とみる。民主党の勝ち筋は、NC・ME・OHに加え、TX・AK・IAのうち1つだ。下院は総合投票D+8前後で、区割りの不利を吸収できる。早期投票は民主党優位だが、共和党は当日投票に回りやすい。複数の中立調査でパクストン氏が2点以上リードするか、総合投票がD+5以下になれば仮説を捨てる。",
-    "hypothesis_status": "refined",
-    "change_reason": "テキサスで同率の調査が出たものの、他の中立調査は民主党のわずかなリードを示しており、市場も民主党有利だ。そのため確率と議席数は据え置いた。下院は総合投票D+7〜8でモデルも88%と近く、変更しなかった。",
-    "analysis": "【上院】テキサスはFoxが49対49の同率となり、9月の+2から動いた。ActiVoteは51対49、Cookは+5で、調査ごとのばらつきが大きい。傾向としては、民主党のリードが+2前後から0〜+2に縮んでいる。パクストン氏の好感度はマイナス17だが、党内の結束で票が戻りつつある。市場はタラリコ氏67%だが、世論調査の接戦に比べやや強気にみえる。アイオワはco/efficientでヒンソン氏+3、CookとYouGovでトゥレク氏が小幅リードと割れている。リバタリアン候補が8%を取る点も不確実だ。メインはジャクソン氏が49対47で、コリンズ氏には調査を上回った前歴がある。アラスカはペルトラ氏が51対49でわずかにリードしている。オハイオはブラウン氏が+6でリードしている。民主党はNC・ME・OHに加え、TX・AK・IAのうち1つを取る必要がある。1つ落とすと50-50で共和党が支配するため、60%に据え置く。【下院】総合投票はRCPでD+8.3、NYT/SienaでD+11、Echelonで+5だ。Poliwaveの確率は88%、議席は231だった。2018年並みの環境で、区割りの不利を吸収できる。232議席、86%を維持する。2016年と2024年の誤差が再現するリスクとして、低関与の共和党票を見落とす可能性はある。ただし、今回は共和党寄りの調査でも民主党が優勢だ。明日は、テキサスの郡別の投票者数、アラスカ・メインの新規調査、市場価格の動きを確認する。",
+    "hypothesis_title": "TXは+2で足踏み、下院は優位",
+    "hypothesis": "上院では共和党の戻りが遅く、テキサスは中立調査でTalarico氏+2前後に張り付いている。民主党の勝ち筋はNC・ME・OHに加え、TX・AK・IAのどれか1つだ。下院は総合投票がD+8〜9で、区割りの不利を吸収できる。ただし過去の最終調査は民主党を過大評価する傾向があるため、補正後のD+6〜7を想定する。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "総合投票が過去最高の水準に上がり、テキサスも新規のEmerson調査で+2と変わらなかった。そのため、上院はわずかに上げて確率62%、下院は233議席・87%とした。",
+    "analysis": "【上院】Emerson/Nexstar(10月17〜19日)はTalarico氏48対Paxton氏46で、誘導後は49対48に縮まる。CNNの集計は49対47、Fox調査は同率だ。リードは一貫して小さく、Paxton氏がリードした中立調査はない。ただ、テキサスでは過去に世論調査が民主党を過大評価したことがあり、+2は実質的に五分五分に近い。アラスカはNYT/SienaでPeltola氏+7だが、調査が少ない。メインとアイオワは僅差のままだ。民主党は、NC・ME・OHの3議席に加え、TX・AK・IAのうち1議席を取る必要がある。1つ落とせば50-50で、副大統領により共和党が支配する。【下院】Silver集計のD+9.2は今サイクル最高だ。ただし最終調査の過大評価を割り引くと、D+6〜7が妥当になる。それでも、2018年に近い環境といえる。区割りの不利はあるが、233議席前後が中央値だ。明日は、テキサスの早期投票の党派別データ、アラスカ・メイン・アイオワの新規調査、市場価格を確認する。",
     "key_news": [
       {
-        "title": "Fox News世論調査:テキサス上院はタラリコ氏とパクストン氏が49対49の同率。パクストン氏が保守層・農村部を固め直した",
-        "source": "Fox News",
-        "url": "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish",
+        "title": "Emerson/Nexstarのテキサス調査:Talarico氏48対Paxton氏46、誘導後は49対48",
+        "source": "Emerson College Polling",
+        "url": "https://emersoncollegepolling.com/texas-2026-poll-toss-up/",
+        "impact": "D+"
+      },
+      {
+        "title": "CNNの上院「反転しそうな10議席」:アラスカは3位、テキサスは平均49対47",
+        "source": "CNN",
+        "url": "https://www.cnn.com/2026/10/22/politics/cnn-top-10-senate-races-most-likely-to-flip",
+        "impact": "D+"
+      },
+      {
+        "title": "Silver集計の総合投票がD+9.2と今サイクルの最高を記録",
+        "source": "Silver Bulletin",
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "impact": "D+"
+      },
+      {
+        "title": "過去の最終調査は民主党を過大評価してきたとして、下院得票をD+6.6に補正",
+        "source": "Pollingforecast",
+        "url": "https://www.pollingforecast.com/research/us-generic-ballot",
         "impact": "R+"
-      },
-      {
-        "title": "Cookの調査:テキサスはタラリコ氏49対44、オハイオはブラウン氏49対43、アイオワはトゥレク氏46対44でそれぞれ民主党がリード",
-        "source": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/6163761-cook-poll-democrats-lead-senate/",
-        "impact": "D+"
-      },
-      {
-        "title": "総合投票はRCP平均でD+8.3、NYT/SienaでD+11。Poliwaveは下院民主党の確率を88%と推計",
-        "source": "RealClearPolling / Poliwave",
-        "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
-        "impact": "D+"
-      },
-      {
-        "title": "ホビー・スクール調査:テキサス上院でタラリコ氏48対46。InsiderAdvantageはパクストン氏49対48とリード",
-        "source": "FOX 26 Houston / Mediaite",
-        "url": "https://www.fox26houston.com/news/texas-senate-race-talarico-holds-razor-thin-lead-over-paxton-latest-poll",
-        "impact": "neutral"
       }
     ],
     "citations": [
       {
-        "url": "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish",
-        "title": "Fox News世論調査:テキサス上院はタラリコ氏とパクストン氏が49対49の同率。パクストン氏が保守層・農村部を固め直した"
+        "url": "https://emersoncollegepolling.com/texas-2026-poll-toss-up/",
+        "title": "Texas 2026 Poll: Toss-Up U.S. Senate Race; Abbott ..."
       },
       {
-        "url": "https://thehill.com/homenews/campaign/6163761-cook-poll-democrats-lead-senate/",
-        "title": "Cookの調査:テキサスはタラリコ氏49対44、オハイオはブラウン氏49対43、アイオワはトゥレク氏46対44でそれぞれ民主党がリード"
+        "url": "https://www.cnn.com/2026/10/22/politics/cnn-top-10-senate-races-most-likely-to-flip",
+        "title": "The top 10 Senate seats most likely to flip, less than two ..."
       },
       {
-        "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
-        "title": "総合投票はRCP平均でD+8.3、NYT/SienaでD+11。Poliwaveは下院民主党の確率を88%と推計"
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
       },
       {
-        "url": "https://www.fox26houston.com/news/texas-senate-race-talarico-holds-razor-thin-lead-over-paxton-latest-poll",
-        "title": "ホビー・スクール調査:テキサス上院でタラリコ氏48対46。InsiderAdvantageはパクストン氏49対48とリード"
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://www.activote.net/polls/generic-ballot/",
+        "title": "Generic ballot poll, Oct 2026 · ActiVote"
+      },
+      {
+        "url": "https://www.pollingforecast.com/research/us-generic-ballot",
+        "title": "The generic ballot: the national vote behind every race"
+      },
+      {
+        "url": "https://vote-scope.com/en/us/house/polls/",
+        "title": "Generic Ballot — U.S. House — Vote-Scope"
+      },
+      {
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "title": "Who's ahead on the generic congressional ballot?"
       }
     ],
     "searches": null,
-    "cost_usd": 0.1043,
+    "cost_usd": 0.0518,
     "tokens": {
-      "prompt": 31313,
-      "completion": 2172,
-      "reasoning": 78
+      "prompt": 13202,
+      "completion": 1769,
+      "reasoning": 0
     }
   }
 ]
