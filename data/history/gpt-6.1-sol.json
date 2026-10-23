@@ -695,5 +695,114 @@
       "completion": 1718,
       "reasoning": 342
     }
+  },
+  {
+    "date": "2026-10-24",
+    "generated_at": "2026-10-24T07:00:03+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 50,
+      "rep": 50
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 48,
+    "house_control_prob_dem": 85,
+    "comment": "下院は追い風、上院は同率という向かい風。",
+    "hidden_dynamics": [
+      "共和系資金の保守的な下院選挙区への投入は、全国的な攻勢より「守るべき地域が広がった」兆候とも読める。ただし広告費は接戦度だけでなく市場価格や候補の資金不足にも左右され、撤退・敗北の証拠とはしない。",
+      "メーンとテキサスが同率なら、民主の上院過半数は複数の薄い勝機を同時に実現する必要がある。州ごとの誤差を独立扱いすると、共和支持者の回答不足という共通リスクを過小評価する。",
+      "期日前投票総数が増えても、新規参加者と常連の前倒しを分離しなければ動員の勝者は分からない。今回取得できた集計抜粋には、その判別に必要な内訳がない。"
+    ],
+    "hypothesis_title": "下院の広がり、上院の関所",
+    "hypothesis": "「説得と参加の二段階」を維持しつつ、上院の関所を重くする。共和側が下院の保守的選挙区にも広告を投入する動きは、民主の優位が広いことと整合的。一方、メーン同率とミシガン僅差は、上院では候補評価と参加構成が全国環境を相殺する可能性を示す。2016・2024年型の共和票過小把握も残るが、自動的な補正はしない。独立調査で民主の州別優位が広がり、低頻度層の純増が確認されれば、この慎重化を撤回する。",
+    "hypothesis_status": "refined",
+    "change_reason": "従来の上院51議席は、メーンとテキサスなどの僅差奪取を重ねる経路への依存が強かった。メーン同率とミシガンの小差を受け、独自の中心値を50議席へ下げる一方、下院は防衛範囲拡大の証拠と整合する233議席を維持する。",
+    "analysis": "米東部23日18時基準。上院の修正は共和への全国的な潮目の変化ではなく、民主51議席という経路の脆さの再評価だ。Forbes掲載のメーン同率は前回メモの現職票リスクと整合するが、調査間の差を時系列の変化とは断定しない。InsiderAdvantageではミシガン民主１ポイント差、オハイオ民主３ポイント差、アイオワ共和２ポイント差。保守系調査会社の単発結果として扱い、スポンサーも確認できていない。民主にはオハイオの候補個人票、共和にはメーンの現職票と保守州の基礎票がある。下院は共和系広告の防衛範囲が広く、民主233を維持。ただしCookの検索抜粋では集計値が一致せず、その数字を直接採用しない。IA01・03、PA07・10、NY17、AZ06は地区別証拠待ち。明日は調査の実施期間、投票見込み層の定義、農村・郊外の新規参加を確認する。50対50では共和党副大統領が決定票を持つため、民主の上院支配確率は48％とする。",
+    "key_news": [
+      {
+        "title": "23日更新の接戦一覧、メーン上院選は両候補49％と掲載",
+        "source": "Forbes（Fox News調査の二次報道）",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/23/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "impact": "R+"
+      },
+      {
+        "title": "21〜22日実施調査、ミシガン民主１ポイント差、アイオワ共和２ポイント差",
+        "source": "InsiderAdvantage",
+        "url": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+        "impact": "neutral"
+      },
+      {
+        "title": "共和系団体、22日にトランプ優位の下院選挙区でも広告購入",
+        "source": "Bloomberg Government（公開時刻は検索抜粋で未確認）",
+        "url": "https://news.bgov.com/bloomberg-government-news/new-tv-ads-campaign-donations-flood-deep-red-house-districts",
+        "impact": "D+"
+      },
+      {
+        "title": "23日付の下院格付け一覧を確認、別記事の集計との不一致には留保",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/print/ratings/races/house",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/23/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Maine Senate Race Tied In Latest Poll (Updated Daily)"
+      },
+      {
+        "url": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+        "title": "InsiderAdvantage Senate Surveys: MI-El-Sayed 47, Rogers 46; IA- Hinson 47, Turek 45; OH-Brown 47, Husted 44 – InsiderAdvantage"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "title": "Democrats’ Projected Majority Grows as 19 More House Races Shift Away From the GOP | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/print/ratings/races/house",
+        "title": "The Cook Political Report: 2026 House Race Ratings"
+      },
+      {
+        "url": "https://news.bgov.com/bloomberg-government-news/new-tv-ads-campaign-donations-flood-deep-red-house-districts",
+        "title": "New TV Ads, Campaign Donations Flood Deep-Red House Districts"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/23/democrats-may-flip-between-12-22-seats-cook-political-report-estimates/",
+        "title": "Democrats may flip between 12 and 22 seats, Cook Political Report estimates - The Washington Post"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html",
+        "title": "Tracking the Early Vote in the 2026 Midterm Elections"
+      },
+      {
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+        "title": "Voter turnout is soaring in some key states, AP analysis shows | AP News"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0545,
+    "tokens": {
+      "prompt": 15108,
+      "completion": 1776,
+      "reasoning": 299
+    }
   }
 ]

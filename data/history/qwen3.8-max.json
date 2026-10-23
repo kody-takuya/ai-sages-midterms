@@ -1366,5 +1366,115 @@
       "completion": 3270,
       "reasoning": 1600
     }
+  },
+  {
+    "date": "2026-10-24",
+    "generated_at": "2026-10-24T07:00:03+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 50,
+      "rep": 50
+    },
+    "house": {
+      "dem": 234,
+      "rep": 201
+    },
+    "senate_control_prob_dem": 47,
+    "house_control_prob_dem": 94,
+    "comment": "共和系調査が民主リードを載せた日、波は観測から実測へ移った",
+    "hidden_dynamics": [
+      "InsiderAdvantage(共和寄り・混在モード)がOH Brown+3、MI El-Sayed+1を公表。身内に不利な数字を出すのは内部調査がさらに悪い証拠で、終盤の広告引き上げと符合する。",
+      "FoxのME49-49は反転ではなく「Collinsの49天井」に届いただけ。今サイクル全調査で彼女は49を超えておらず、討論効果は上振れでなく上限確認と読むべき。",
+      "閉鎖23日目、Trumpはアジア外遊で事実上不在。10月中決着の反証条件は消え、ACAが選挙当日まで唯一の争点として凍結される構造的優位が確定した。",
+      "GAでOssoff+8。どの評価機関も接戦扱いしていない州でこの数字が出るのは、波が Ratings の想定より広いことを示す。"
+    ],
+    "hypothesis_title": "波は実在、ただし州の減衰器で上院は50止まり",
+    "hypothesis": "「早期投票の熱量格差は実在する」を維持し、芯を精緻化する。今日は共和系InsiderAdvantageですらOH・MIで民主リードを出し、IAもCook調査でTurek+2と私の想定(R+3)を裏切った。党ブランド依存の共和党候補(Husted・Rogers・Hinson・Paxton)はD+5〜7環境で軒並み沈む。一方、個人ブランドを持つCollins(ME)は49で天井に張り付き、Sullivan(AK)はRCV第2選択で守られる。よって波は広いが上院では州単位の減衰器が働き、期待値は49.3〜50.0に収束する。下院は減衰器が存在せず全限界区が同時に曝されるため過剰変換する。反証条件:(1)InsiderAdvantage系でOHがR+2へ反転、(2)MEでCollins50超の調査、(3)閉鎖が10月中に決着。",
+    "hypothesis_status": "refined",
+    "change_reason": "上院は期待値計算(47−MI流失0.42+獲得2.70≒49.3)に従い51→50へ。MEのFox同率が+1議席分の損失、OHのBrown+5とIAの逆転がそれを相殺し、51には届かないと判断した。下院はCookの新規19区変更(D有利220・純Toss-up17・純増12〜22)を早期投票実測と重ね、233→234へ小幅上方修正。",
+    "analysis": "今日の最大の変化は情報の出所だ。民主系でも評価機関でもない、共和寄りのInsiderAdvantageがBrown+3・El-Sayed+1を公表した。これは2016年・2024年型の「民主寄りバイアス」では説明できず、むしろ共和内部データの悪化を外部に漏らした形だ。Cookが19区を民主方向へ動かしD有利220としたのは整合的で、下院218は事実上決着、争点は230台半ばを越えるかだけになった。\n\n上院は分岐が残る。OHはFox52-47とIA47-44の二社が並び、Hustedは党ブランド依存の典型として崩壊しつつある——ここは民主獲得確率を68%に置いた。TXはFox49-49とEmerson49-48で完全にコインフリップ、LVスクリーンの有無でしか動かない脆い状態。MEはSuffolk49-47→Marist RV+4→Fox49-49とJacksonの後退系列になっており、私の反証条件(2)「Collins+2超」には届かないが、討論が加点でなく減点だった可能性は高い。IAはCook調査Turek46-44がHinson優位の想定と矛盾し、ここが再評価点。AKはRasmussen44-44とCtM50の乖離が未解決のまま、RCV第2選択でSullivanに下駄が入る構造を考えると35%に留める。\n\n結果として獲得期待値2.7、MI流出0.42を差し、E[D]≒49.3。中央値は50で、51にはOH+TX+MEの三点同時成立(確率約17%)かOH+TX+AK/KSが必要だ。P(D上院)=47%とする。\n\n明日への申し送り:(1)MEのFox以外の討論後調査、特にCollins50超が出るか、(2)IAの非党派調査追加(Cook46-44の再現性)、(3)NC早期投票の郵便分離シェア、(4)NRSCの広告予約キャンセルの有無——これが私の「内部データ悪化」説の直接検証になる、(5)Trump外遊中の閉鎖協議。",
+    "key_news": [
+      {
+        "title": "Fox News最新調査:メイン上院はCollins49-49の同率、テキサスはTalarico-Paxton49-49、オハイオはBrown52-47",
+        "source": "Forbes / Fox News",
+        "url": "https://www.forbes.com/sites/saradorn/2026-10-23/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "impact": "neutral"
+      },
+      {
+        "title": "InsiderAdvantage(10/21-22, LV1200):MI El-Sayed47-Rogers46、IA Hinson47-Turek45、OH Brown47-Husted44",
+        "source": "InsiderAdvantage",
+        "url": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+        "impact": "D+"
+      },
+      {
+        "title": "Cook Political Report、19区を民主方向へ変更。D有利220・R198・純Toss-up17、純増12〜22議席と試算",
+        "source": "Cook Political Report / Washington Post",
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "impact": "D+"
+      },
+      {
+        "title": "政府閉鎖23日目、ACA補助金延長を巡り膠着。Trumpは交渉から距離を置きアジア外遊へ",
+        "source": "AP通信",
+        "url": "https://apnews.com/article/shutdown-senate-paychecks-trump-federal-workers-11088c71589297be2ce616525c582b13",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/23/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Maine Senate Race Tied In Latest Poll (Updated Daily)"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/maine-us-senate-election-polls-2026.html",
+        "title": "Maine U.S. Senate Election 2026: Latest Polls"
+      },
+      {
+        "url": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+        "title": "InsiderAdvantage Senate Surveys: MI-El-Sayed 47, Rogers 46; IA- Hinson 47, Turek 45; OH-Brown 47, Husted 44 – InsiderAdvantage"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "title": "Democrats’ Projected Majority Grows as 19 More House Races Shift Away From the GOP | Cook Political Report"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/2026-house/",
+        "title": "2026 House - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/23/democrats-may-flip-between-12-22-seats-cook-political-report-estimates/",
+        "title": "Democrats may flip between 12 and 22 seats, Cook Political Report estimates - The Washington Post"
+      },
+      {
+        "url": "https://apnews.com/article/government-shutdown-aca-obamacare-subsidies-congress-trump-da06fcbc940e661234fac2ea9ee717a0",
+        "title": "Health care compromise seems far off as shutdown persists | AP News"
+      },
+      {
+        "url": "https://apnews.com/article/shutdown-senate-paychecks-trump-federal-workers-11088c71589297be2ce616525c582b13",
+        "title": "Senate rejects bills to pay federal workers during government shutdown | AP News"
+      },
+      {
+        "url": "https://www.politico.com/live-updates/2026/10/23/congress",
+        "title": "Inside Congress Live - Live Updates - POLITICO"
+      },
+      {
+        "url": "https://www.politico.com/live-updates/2026/01/07/congress/senate-deal-obamacare-subsidies-00714048",
+        "title": "Senate group nears deal to revive Obamacare subsidies"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0684,
+    "tokens": {
+      "prompt": 25957,
+      "completion": 4405,
+      "reasoning": 2431
+    }
   }
 ]

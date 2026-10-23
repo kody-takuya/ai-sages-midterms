@@ -1427,5 +1427,115 @@
       "completion": 3513,
       "reasoning": 1679
     }
+  },
+  {
+    "date": "2026-10-24",
+    "generated_at": "2026-10-24T07:00:03+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 72,
+    "house_control_prob_dem": 90,
+    "comment": "Cook19区・サバト28区——格付けが満潮を追いかける",
+    "hidden_dynamics": [
+      "格付け3社(Cook19区・サバト28区・IE)が数日で一斉に青へ動いたこと自体が同調(バンドワゴン)の兆候。世調の平均が動いた分を格付けが遅れて追認している可能性があり、終盤の締め戻しリスクを過小評価させかねない。",
+      "TX期日前+74%・KS倍増という『投票率急騰』はD熱量と読まれているが、TX共和は期日前投票を制度化済みで構成的には超党派。APの『民主が各州を狙う』という枠組みは編集的な色付けで、急騰=民主優位の証拠ではない。",
+      "メインでFoxが49-49のタイ——コリンズが青州唯一の共和上院として終盤資金を集中投下し固めに入った可能性。私の棄却条件(コリンズ+3)に最も近い警告で、52の一本足がここに依存する。",
+      "TX/MO/NC/OH/FLの中間年区割り改定が下院の民主上限を静かに抑えている。報道は全国波に注目し、地図の構造的歯止めを軽視している。"
+    ],
+    "hypothesis_title": "赤州バイアス減退、ただし格付けが同調",
+    "hypothesis": "2020・2024年の『赤州世調は本番で共和に2〜4点寄る』前提は、トランプ固有の低学歴・低投票頻度層の押し上げに由来し、トランプ不在の今回は同じ補正が効きにくい。代わりに支配するのは候補の質(タラリコ、ブラウン、ペルトーラ、ジャクソン)と投票率の非対称、そしてパクストン、ハステッド、マーシャルら共和候補の弱さだ。今日のCook19区・サバト28区・Silver D+9.1・赤州平均の民主リードは仮説を支持する。ただし3社の同時移動は同調であり、世調そのものの精度とは別問題として警戒する。棄却条件は期日前D優位が当日共和票で明確に逆転される兆候、またはメインでコリンズが平均+3以上に抜け出す気配。",
+    "hypothesis_status": "refined",
+    "change_reason": "仮説の骨格は維持。Cook19区・サバト28区・SilverD+9.1と材料は民主方向で上院52・下院236は据え置き妥当。ただし既にCookの上限(237)近くに位置するため、格付け同調を理由に上振れさせるのは避け、数字は動かさなかった。",
+    "analysis": "【上院】改選35、現状53R-47D、必要純増4。構造は不変：クーパー(NC)、ブラウン(OH)、ペルトーラ(AK)、ジャクソン(ME)で51に達し、TXの当落に関わらず多数派が取れる。今日の新材料は(1)Cook/Sabato/Silverの一斉青シフトで仮説は支持されたが、(2)Foxメイン49-49のタイは初の逆行サイン。ジャクソンの+2〜4が消え、コリンズが固めに入った。棄却条件(+3)には未達だが、52の一本足はここに依存する。TXはFoxタイ・エマソン+1で依然コイントス、KS(ハミルトン資金11倍)・IA(Cookでトゥレク+2)・SCで赤州民主リードが続く。下振れ50、上振れ54、中央値52。【下院】ジェネリックはD+9.1(Silver、LV調整で+9.6)、Cookは12〜22区増(227〜237)、サバトは218超。私の236はCook上限付近で強気側だが、TX・MO・NC等の区割り改定による歯止めを差し引いても全国波が勝つと見る。ただし格付け3社の同時移動は終盤の締め戻しを織り込んでおらず、私は90%を据え置く。【持ち越し】明日はメイン世調の続報(コリンズが+3圏なら上院P引き下げ)、TX郡別の共和/民主登録比、KS・IA・SCへの共和追加投入の有無。",
+    "key_news": [
+      {
+        "title": "Cookが下院19区をさらに民主方向へ移動、220議席が民主優位に。予想反転幅は12〜22議席",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "impact": "D+"
+      },
+      {
+        "title": "Silver Bulletinのジェネリック平均がD+9.1(サイクル最高)、LV調整でD+9.6",
+        "source": "Silver Bulletin",
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "impact": "D+"
+      },
+      {
+        "title": "Foxメイン世調でジャクソン49・コリンズ49のタイ、TXはタラリコ・パクストン49-49",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/23/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "impact": "neutral"
+      },
+      {
+        "title": "争点州で期日前投票が急増、TXは2022年比+74%、KSは倍増、ME・NC・OHも+30%超",
+        "source": "AP News",
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/23/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Maine Senate Race Tied In Latest Poll (Updated Daily)"
+      },
+      {
+        "url": "https://vote-scope.com/en/us/senate/polls/",
+        "title": "U.S. Senate polling as of October 21, 2026 — Vote-Scope"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "title": "Democrats’ Projected Majority Grows as 19 More House Races Shift Away From the GOP | Cook Political Report"
+      },
+      {
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "title": "Generic Congressional Ballot: Latest Polls | Silver Bulletin"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/23/democrats-may-flip-between-12-22-seats-cook-political-report-estimates/",
+        "title": "Democrats may flip between 12 and 22 seats, Cook Political Report estimates - The Washington Post"
+      },
+      {
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+        "title": "Voter turnout is soaring in some key states, AP analysis shows | AP News"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html",
+        "title": "Tracking the Early Vote in the 2026 Midterm Elections"
+      },
+      {
+        "url": "https://onpointpolitics.us/maps/early-vote",
+        "title": "2026 Early Vote Tracker: Ballots Cast by State | On Point Politics"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0303,
+    "tokens": {
+      "prompt": 18419,
+      "completion": 4179,
+      "reasoning": 2344
+    }
   }
 ]

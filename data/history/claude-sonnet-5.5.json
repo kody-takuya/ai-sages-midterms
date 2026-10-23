@@ -616,5 +616,97 @@
       "completion": 1456,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-24",
+    "generated_at": "2026-10-24T07:00:03+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 87,
+    "comment": "接戦は続く。早期投票が山でも、勝負は当日の谷で決まる",
+    "hidden_dynamics": [
+      "Cookの超党派(民主・共和の両社)調査でIA・OH・TXの民主候補がそろって僅差リードした。ただしトランプ氏が2024年に2桁差で勝った州ばかりで、共和党の当日投票への回帰と低関与層の回収が過小評価されている可能性がある。",
+      "早期投票は郵送の民主優位が縮み、対面投票の共和優位も縮小傾向にある。早期投票の党派差は2022年と構造が違うため、単純な比較は民主党の勢いを過大に見せかねない。"
+    ],
+    "hypothesis_title": "共和の戻りは遅いが接戦は続く",
+    "hypothesis": "上院では共和党の戻りが遅く、TX・IA・OHは中立〜超党派調査で民主党が1〜6ポイントの僅差リードにある。ただし2016年と2024年の誤差を考えると、僅差のリードは実質五分五分だ。下院は総合投票D+7前後で、区割りの不利を吸収できる。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "新規調査はTX・IA・OHで民主僅差リードという従来の見立てと整合するため、議席数も確率も据え置いた。Who Shows Upの下院D+7.2は補正後の想定と合う。",
+    "analysis": "【上院】CookのBattleground調査(民主系と共和系の2社、10月9〜13日)では、Talarico氏49対44、Brown氏49対43、Turek氏46対44だった。ActiVoteのTexasは51対49だ。調査に共和系が加わっても民主が先行するのは注目だが、いずれも2024年にトランプ氏が2桁勝った州で、世論調査が民主を過大評価する危険がある。民主党の勝ち筋はNC・ME・OHに加え、TX・AK・IAの1つだ。1つ落とせば50-50で、副大統領により共和党が支配する。モデル間の差は大きく、pollingforecastは共和党の上院支配52%、Who Shows Upは民主73%だ。【早期投票】全米で約2,100万票が投じられた。NPRによると、メインとアイオワの動員が目立つ。一方で郵送の民主優位は縮小しており、早期投票は総投票数の増加を意味しない。【下院】Who Shows UpはD+7.2、民主の勝率97%、約234議席だ。他方、pollingforecastは225対210で民主72%と慎重だ。233議席、87%を維持する。明日は、アイオワとノースカロライナの新規調査、テキサスの党派別早期投票、市場価格を確認する。",
+    "key_news": [
+      {
+        "title": "Cook超党派調査:TXでTalarico氏49対44、OHでBrown氏49対43、IAでTurek氏46対44",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/new-cpr-battleground-polls-dem-senate",
+        "impact": "D+"
+      },
+      {
+        "title": "早期投票は約2,100万票だが、総投票数の増加を意味しない。郵送の民主優位は縮小",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/10/23/nx-s1-6012308/midterm-elections-early-voting-data",
+        "impact": "neutral"
+      },
+      {
+        "title": "Who Shows Upは下院全国得票D+7.2、民主の下院勝率97%、上院73%と推計",
+        "source": "Who Shows Up",
+        "url": "https://whoshowsup.net/national",
+        "impact": "D+"
+      },
+      {
+        "title": "Polling Forecastは上院で共和党支配52%、下院は民主225議席で72%",
+        "source": "Polling Forecast",
+        "url": "https://www.pollingforecast.com/us",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/new-cpr-battleground-polls-dem-senate",
+        "title": "New CPR Battleground Polls: Dem Senate Candidates Narrowly Lead in OH, TX, IA | Cook Political Report"
+      },
+      {
+        "url": "https://vote-scope.com/en/us/senate/polls/",
+        "title": "U.S. Senate polling as of October 21, 2026 — Vote-Scope"
+      },
+      {
+        "url": "https://www.pollingforecast.com/us",
+        "title": "2026 midterm forecast: House and Senate | Polling Forecast"
+      },
+      {
+        "url": "https://www.npr.org/2026/10/23/nx-s1-6012308/midterm-elections-early-voting-data",
+        "title": "Why surging early voting may not mean higher midterm turnout : NPR"
+      },
+      {
+        "url": "https://whoshowsup.net/national",
+        "title": "2026 Generic Ballot and National Environment | Who Shows Up"
+      },
+      {
+        "url": "https://www.realclearpolling.com/polls/state-of-the-union/generic-congressional-vote",
+        "title": "2026 Generic Congressional Vote"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0503,
+    "tokens": {
+      "prompt": 12865,
+      "completion": 1649,
+      "reasoning": 0
+    }
   }
 ]

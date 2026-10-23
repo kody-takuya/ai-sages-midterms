@@ -742,5 +742,114 @@
       "completion": 2716,
       "reasoning": 1068
     }
+  },
+  {
+    "date": "2026-10-24",
+    "generated_at": "2026-10-24T07:00:03+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 89,
+    "comment": "公表調査は楽観でも資金は正直。オハイオ死守の借金と深紅州の火消し。",
+    "hidden_dynamics": [
+      "公表世論調査でブラウン氏（民）が50%超の安全圏に入ったはずのオハイオ州に対し、民主党系スーパーPAC（WinSenate）が直近の新規広告費の84%を集中投下しDSCCも1500万ドルの融資枠を引いたことは、内部調査では農村部の保守層回帰により公表値よりはるかに僅差であることを物語っている。",
+      "共和党上院指導部系PAC（SLF）と下院系PAC（CLF）が、本来は安泰のはずのサウスカロライナ州に計80万ドル超の防衛広告を緊急投入しており、資金の分散によってオハイオやメインなど最重点州への最終盤の火力支援が削がれている。",
+      "保守系調査会社のRasmussenとRMGが同日に発表した大統領支持率がともに「支持42%・不支持57%（純支持率マイナス15pt）」で完全一致しており、今回の共和党への逆風はリベラル系メディアの調査バイアスではなく保守層内部の離反を含んだ実態である。"
+    ],
+    "hypothesis_title": "資金配分が暴く公表調査の死角と防戦の連鎖",
+    "hypothesis": "保守系調査機関（Rasmussen等）でも大統領支持率がマイナス15ptに沈む構造的逆風下、下院は民主党236議席の波が維持される。一方、上院では公表調査で先行するオハイオに民主党が巨額の追加広告と借入金を集中させており、内部調査では農村部保守層の終盤回帰で公表値より競っている実態が透ける。共和党も深紅のサウスカロライナ防衛に資金を割かれ攻め手を欠くため、メイン等の接戦を取りこぼしても民主党が51議席で競り勝つ。オハイオから資金が他州へ再配分されれば上院予測を引き上げる。",
+    "hypothesis_status": "refined",
+    "change_reason": "Cook（19選挙区）とInside Elections（22選挙区）の下院格付け変更は既に織り込み済みの236議席予測を追認するものであり、上院もオハイオの内部接戦化と共和党の資金分散が相殺し合うため、下院の過半数確率のみ1pt微増させ議席予測は据え置いた。",
+    "analysis": "23日にCookが下院19選挙区、Inside Electionsが22選挙区を一斉に民主党優位へ動かしたことで、当予測が先行して見込んでいた下院236議席（21議席増）の「青い波」に大手予測機関が追いついた形となった。保守系のRasmussenやRMGの最新調査でもトランプ氏の純支持率がマイナス15pt（支持42・不支持57）で一致しており、下院の追い風はメディアの偏向ではなく実態を伴っている。しかし上院の深層は公表調査ほど単純ではない。前日のFox調査でブラウン氏が52%に達したはずのオハイオ州に、民主党系スーパーPAC（WinSenate）が新規広告費の84%（約216万ドル）を集中投下し、DSCCも1500万ドルの緊急融資枠を引いた。これは陣営の内部データが、2016・2024年型の「隠れ保守層の終盤回帰」を検知し危機感を強めている証拠だ。メイン州でもコリンズ氏（共）が49対49の同率に持ち直している。ただ共和党側もSLFがサウスカロライナ州（グラム氏の議席）やアイオワ州の防戦に資金を奪われ、オハイオ等に十分な追撃資金を回せていない。両党の台所事情の苦しさが51対49の均衡を裏付ける。明日は週末の期日前投票における農村部の追い上げを検証する。",
+    "key_news": [
+      {
+        "title": "Cook Political Reportが下院19選挙区の格付けを民主党方向へ変更、民主党の12〜22議席増を予測",
+        "source": "The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/10/23/democrats-may-flip-between-12-22-seats-cook-political-report-estimates/",
+        "impact": "D+"
+      },
+      {
+        "title": "民主党上院選対（DSCC）が終盤戦に向け1500万ドルを借り入れ、オハイオなど10州に重点投入",
+        "source": "Politico",
+        "url": "https://www.politico.com/live-updates/2026/10/22/congress/borrowing-for-the-midterms-01133437",
+        "impact": "neutral"
+      },
+      {
+        "title": "終盤のスーパーPAC広告費で民主党系が共和党系を圧倒、WinSenateはオハイオに集中し共和党SLFはアイオワ・サウスカロライナを防衛",
+        "source": "Legis1",
+        "url": "https://legis1.com/news/super-pac-ad-spending-dems-push-gop-pulls-back-as",
+        "impact": "D+"
+      },
+      {
+        "title": "メイン州上院選はコリンズ氏とジャクソン氏が49%対49%の同率、Rasmussen調査のトランプ氏支持率はマイナス15pt",
+        "source": "CallTheMap / Beacon Research / Rasmussen Reports",
+        "url": "https://www.callthemap.com/polls",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.realclearpolling.com/latest-polls",
+        "title": "Latest Polls 2026, 2028 | RealClearPolling"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Latest Senate Polls: Midterm Elections 2026"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://www.electoral-vote.com/evp2026/Items/Oct22-2.html",
+        "title": "Electoral-vote.com"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/23/democrats-may-flip-between-12-22-seats-cook-political-report-estimates/",
+        "title": "Democrats may flip between 12 and 22 seats, Cook Political Report estimates - The Washington Post"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+        "title": "2026 United States House of Representatives election ratings"
+      },
+      {
+        "url": "https://insideelections.com/podcast/episode-82-final-2026-midterm-predictions-w-erin-covey-kirk-a-bado/",
+        "title": "Episode 82: Final 2026 Midterm Predictions w/ Erin Covey & Kirk A. Bado – Inside Elections"
+      },
+      {
+        "url": "https://www.politico.com/live-updates/2026/10/22/congress/borrowing-for-the-midterms-01133437",
+        "title": "Senate Democrats’ campaign arm takes out $15M loan - Live Updates - POLITICO"
+      },
+      {
+        "url": "https://legis1.com/news/super-pac-ad-spending-dems-push-gop-pulls-back-as",
+        "title": "Dems push in, GOP pulls back as super PAC ad money shifts | Legis1"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6164073-gop-last-minute-cash-injection-midterms/",
+        "title": "Trump, Republicans spend big in last-minute midterm push to keep House and Senate"
+      },
+      {
+        "url": "https://apnews.com/article/midterm-election-politics-congress-donald-trump-7f7b10c7974ed379a11f4c5421f0e62e",
+        "title": "The Latest: Many states deciding control of the Senate are seeing a big boost in early voting | AP News"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0764,
+    "tokens": {
+      "prompt": 10629,
+      "completion": 4100,
+      "reasoning": 2435
+    }
   }
 ]
