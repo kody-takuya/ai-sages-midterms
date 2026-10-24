@@ -851,5 +851,113 @@
       "completion": 4100,
       "reasoning": 2435
     }
+  },
+  {
+    "date": "2026-10-25",
+    "generated_at": "2026-10-25T07:00:03+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 89,
+    "comment": "期日前2678万票の青い貯金と、共和党PACの倍返し1180万ドル砲。",
+    "hidden_dynamics": [
+      "直近の広告枠買い付け（23日締切分）で、共和党系スーパーPACが約1187万ドルを投じ、民主党側（約549万ドル）の2倍以上の資金を一気に注入した。公表調査の劣勢を見て諦めるどころか、未決定の保守層を投票日直前に強引に引き戻す『2016・2024年型の終盤逆転劇』を資金面で仕掛けている。",
+      "一方、NBCの集計で全国の期日前投票は約2678万票に達し、党派内訳は民主党47%・共和党35%（+12pt）と民主党が分厚い『貯金』を作った。民主党の広告買い控えは資金切れではなく、すでに期日前で浮動票を固め終え、地上戦（GOTV）へ重心を移したサインと読める。"
+    ],
+    "hypothesis_title": "期日前の青い貯金vs終盤の赤い資金砲の相殺",
+    "hypothesis": "全国2678万票に達した期日前投票での民主党優位（47%対35%）と、CookやSabatoが接戦区を除いても民主党過半数（220〜223議席）と判定した構造的追い風により、下院は民主党236議席を維持する。一方、上院はSilver Bulletin等が民主党52議席予測へ傾く中、共和党系スーパーPACが直近窓口で民主党の2倍超（1187万ドル）の広告費を投下しており、赤い州の未決定保守層を呼び戻す終盤の引き締めが機能するため51議席にとどまる。週明けに共和党の期日前対面投票が急増し差が5pt以内に縮まれば予測を引き下げる。",
+    "hypothesis_status": "refined",
+    "change_reason": "期日前投票での民主党の12ptリードが終盤の共和党スーパーPACによる2倍超の資金攻勢と相殺し合う構図が鮮明になったため、上院51・下院236の議席予測と確率を据え置いた。",
+    "analysis": "選挙戦最後の週末を迎え、「早期に票を固めた民主党」と「直前の空中戦で巻き返す共和党」の非対称な戦いが浮き彫りになった。NBCの24日更新データでは期日前投票が約2678万票に達し、民主党が47%対35%と12pt先行している。24日からは最重要州ミシガンやフロリダ、ニューヨークでも対面での期日前投票が一斉に始まり、ジョージア州は最後の土曜投票日を迎えた。下院ではCook（220議席）に続きSabato（223議席）も、トスアップ（純粋接戦区）を1つも加算しない段階で民主党の過半数到達を認定しており、当予測の236議席は極めて堅い。一方、上院ではSilver Bulletinが民主党52議席予測を打ち出すなどメディアの楽観論が強まっているが、ここに2016・2024年と同じ罠がある。Legis1の集計によれば、23日締切の広告買い付けで共和党系スーパーPACは1187万ドルを投じ、民主党側（549万ドル）の2倍以上を圧倒した。テキサスやアイオワなど支持率50%未満で推移する赤い州では、この終盤の集中砲火が保守層の帰巣本能を刺激し、世論調査に表れない3〜4ptの押し戻しを生む。52議席への上振れシナリオには乗らず、51対49を維持する。明日はミシガン等の週末対面投票の出足を検証する。",
+    "key_news": [
+      {
+        "title": "全国の期日前投票が約2678万票に到達、党派別では民主党47%・共和党35%・無党派18%で民主党が12pt先行",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "23日締切の広告枠買い付けで共和党系スーパーPACが1187万ドルを投入、民主党側（549万ドル）の2倍以上の攻勢",
+        "source": "Legis1",
+        "url": "https://legis1.com/news/gop-super-pacs-push-in-as-democrats-pull-back-in-1",
+        "impact": "R+"
+      },
+      {
+        "title": "Cook（220議席）とSabato（223議席）の双方が、接戦区を除いた段階でも下院民主党が過半数（218）を超えると評価",
+        "source": "Cook Political Report / Hansen Intel Report",
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "impact": "D+"
+      },
+      {
+        "title": "上院激戦のミシガン州で24日土曜日から州全体の期日前対面投票がスタート、ジョージア州は最後の土曜期日前投票日に",
+        "source": "Michigan Secretary of State / Newsweek",
+        "url": "https://www.michigan.gov/sos/resources/news/2026/10/23/early-in-person-voting-begins-statewide-saturday-oct-24-for-the-2026-general-election",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.poliwave.com/us/fed/polls",
+        "title": "2026 Midterm Polls: Generic Ballot and Senate Races | Poliwave"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://elections.ajaycent.com/",
+        "title": "2026 Midterm Elections Tracker"
+      },
+      {
+        "url": "https://www.newsweek.com/who-will-win-the-midterms-what-polls-show-10-days-out-12610772",
+        "title": "Who will win the midterms? What polls show 10 days out"
+      },
+      {
+        "url": "https://www.michigan.gov/sos/resources/news/2026/10/23/early-in-person-voting-begins-statewide-saturday-oct-24-for-the-2026-general-election",
+        "title": "Early in-person voting begins statewide Saturday, Oct. 24 for the 2026 General Election"
+      },
+      {
+        "url": "https://georgia.gov/events/2026-10-24/second-and-last-saturday-early-voting-general-election",
+        "title": "Second (and Last) Saturday for Early Voting in General Election | Georgia.gov"
+      },
+      {
+        "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026",
+        "title": "General Election - November 3, 2026"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://hansenintelreport.com/us-election-2026",
+        "title": "2026 US Election | Hansen Intel Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "title": "Democrats' Projected Majority Grows as 19 More House ..."
+      },
+      {
+        "url": "https://www.smithgarson.com/washington-update/friday-october-23rd-2026/",
+        "title": "Friday, October 23rd, 2026 - Smith Garson"
+      },
+      {
+        "url": "https://legis1.com/news/gop-super-pacs-push-in-as-democrats-pull-back-in-1",
+        "title": "GOP super PACs push in as Democrats pull back in ad-buy window | Legis1"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0538,
+    "tokens": {
+      "prompt": 9532,
+      "completion": 2052,
+      "reasoning": 436
+    }
   }
 ]

@@ -804,5 +804,108 @@
       "completion": 1776,
       "reasoning": 299
     }
+  },
+  {
+    "date": "2026-10-25",
+    "generated_at": "2026-10-25T07:00:03+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 50,
+      "rep": 50
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 48,
+    "house_control_prob_dem": 85,
+    "comment": "広告は赤く、財布は薄く。票の色はまだ別。",
+    "hidden_dynamics": [
+      "NBCが伝える共和党の新規広告予約の偏りは、上院防衛の限界費用が高いことを示唆する。ただし、危機感の表れと広告の実効性は別で、投入額だけを民主勝利の証拠にはできない。",
+      "期日前投票の党派差には、投票方法の変更と党派推定モデルが混在する。民主支持者の投票が早まっただけなら、見かけの先行ほど最終得票は増えない。",
+      "共和党の終盤広告が既存支持者の呼び戻しに効けば、保守州の上院候補は救えても、郊外の下院候補まで一様には救えない。この効き方の違いが上下院の予測差を生む。"
+    ],
+    "hypothesis_title": "逆風は広く、救命資金は上院へ",
+    "hypothesis": "前日の「説得と参加の二段階」を維持する。家計不満による民主への追い風は下院に広く届く一方、上院では共和寄り州の基礎票と終盤の支持回収が壁になる。共和の巨額広告は苦戦と立て直し能力の両方を示し、民主への追加点にはしない。期日前票も純増と前倒しを分ける。2016・2024年型の共和票過小把握は共通下振れ要因として残す。独立調査で複数州の民主優位拡大と低頻度層の参加純増がそろえば、上院への慎重姿勢を撤回する。",
+    "hypothesis_status": "kept",
+    "change_reason": "上院は民主の既存47議席から純増３程度、下院は2024年の215議席から純増18程度という中心線を維持する。今回の広告・期日前投票情報は上下院で異なる競争環境と整合するが、個別接戦の勝敗を動かす新証拠には不足し、議席数も支配確率も据え置いた。",
+    "analysis": "米東部24日18時基準。検索では直近24時間の独立した新規州別調査を十分確認できず、取得記事にも公開時刻未確認のものがあるため、すべてを当日更新とは扱わない。NBCの広告予約集計では共和の追加資金が上院、とりわけテキサスに集中する。これは民主の攻勢の広さを示す半面、共和が保守票の再結集に資金を使えるという反証でもある。上院50の中心線はノースカロライナ、オハイオ、メーンなどで純増３を確保する程度で、テキサス勝利は織り込まない。メーンの現職票とミシガンの民主防衛が弱点。下院233は郊外接戦群への追い風を維持する判断だが、IA01・03、PA07・10、NY17、AZ06の新証拠なしに上積みしない。2016・2024年型の共通誤差は多数の接戦に同時に効く。明日は広告予約と実放映を分け、農村・郊外別の新規参加、調査の実施期間と投票見込み層の定義を優先する。",
+    "key_news": [
+      {
+        "title": "共和党の終盤広告予約が急増、上院ではテキサスへの投入が突出",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-election/republicans-fight-red-state-midterm-chaos-hundreds-millions-late-money-rcna601675",
+        "impact": "neutral"
+      },
+      {
+        "title": "期日前投票の急増をめぐり、民主の先行と共和の熱意を双方が主張",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/video/6407347398112",
+        "impact": "neutral"
+      },
+      {
+        "title": "期日前投票の増加は最終投票率の上昇を意味するとは限らない",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/10/23/nx-s1-6012308/midterm-elections-early-voting-data",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/world/us/elections/",
+        "title": "2026 Midterm Elections News | Top Headlines, Latest Polls ..."
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/23/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Maine Senate Race Tied In Latest Poll (Updated Daily)"
+      },
+      {
+        "url": "https://www.foxnews.com/video/6407347398112",
+        "title": "Trump hits campaign trail with days left until midterms as early voting numbers surge | Fox News Video"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/21/trump-maga-inc-super-pac-money-midterms/249ee9da-cd7b-11f1-ac04-9f58578a68b4_story.html",
+        "title": "Trump's political groups spend nearly $277 million in late midterm blitz on behalf of GOP candidates - The Washington Post"
+      },
+      {
+        "url": "https://podcastrex.com/shows/fox-news-hourly-update/7am-et-10242026-newscast/transcript",
+        "title": "Transcript — 7AM ET 10/24/2026 Newscast — Podcast Rex"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-election/republicans-fight-red-state-midterm-chaos-hundreds-millions-late-money-rcna601675",
+        "title": "Republicans fight red-state midterm chaos with hundreds of millions in late money"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6169626-early-voting-battleground-states-democrats-republicans/",
+        "title": "Early voting surges in battleground states as Democrats outpace GOP gains"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://www.npr.org/2026/10/23/nx-s1-6012308/midterm-elections-early-voting-data",
+        "title": "Why surging early voting may not mean higher midterm turnout : NPR"
+      },
+      {
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+        "title": "Voter turnout is soaring in some key states, AP analysis shows | AP News"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0529,
+    "tokens": {
+      "prompt": 13307,
+      "completion": 1659,
+      "reasoning": 323
+    }
   }
 ]

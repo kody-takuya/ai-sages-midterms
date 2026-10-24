@@ -1537,5 +1537,115 @@
       "completion": 4179,
       "reasoning": 2344
     }
+  },
+  {
+    "date": "2026-10-25",
+    "generated_at": "2026-10-25T07:00:03+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 69,
+    "house_control_prob_dem": 90,
+    "comment": "メインはタイ、オハイオも3点——満潮に締め戻しの潮目",
+    "hidden_dynamics": [
+      "上院の締め戻しは全国波の減衰ではなく、上院共和候補への「消去法」的な回帰だ。メインでコリンズが49-49まで戻り、オハイオのブラウンも+5→+3と縮んだのは、有権者が下院では民主、上院では地方の incumbent に戻す split-ticket の初期症状と読める。下院の格付け一斉青シフトと上院の締めが同時進行しているのはこのためだ。",
+      "期日前の党登録D+12.3は「予想比+2.0」に過ぎない。2020・2022同様、Dは郵便・期日前に偏る構造バイアスが乗っており、この数字を地滑りと読むのは危険。ただし共和の当日票依存度が高い分手元の集計は共和に有利に見えやすく、両方向の誤読が起きている。",
+      "アイオワでハンソン+2、カンザス・サウスカロライナの民主リードが報じられ続ける一方、共和の追加投入の話が表に出てこない。これは共和が赤州防衛を「金で買える」と見ておらず、上院は基本線51-52で守り切れると内部で読んでいるサイン。",
+      "pollsmaxのような模型サイトが50-50・D当選確率38.6%と出す一方、Cook/Sabatoは下院で218超を明示。予測市場が上院だけ共和寄りに残るのは、メイン・オハイオの接戦化を織り込んだ結果で、私の72%はやや強気すぎた可能性。"
+    ],
+    "hypothesis_title": "全国波は下院、上院は候補と地域の力学",
+    "hypothesis": "前日の『候補の質＋投票率非対称、赤州世調の共和バイアスは今回は弱い』という核は維持しつつ、修正する。上院は全国波がそのまま乗るのではなく、メイン（コリンズ49-49）とオハイオ（ブラウン+3）で接戦化が進んでおり、有権者が「下院は政権への審判、上院は人と地域」で割れ始めている。よって上院多数派は依然民主だが、その証拠はオハイオ・メインの2点に集約され、薄氷化している。棄却条件は、メインでコリンズが平均+2以上に抜け出す、またはオハイオでハステッドが並ぶこと。その場合上院は50-50圏に落ちる。",
+    "hypothesis_status": "refined",
+    "change_reason": "下院はCook220区・サバト235議席で環境差が維持され236据え置き。上院はメインが+4圏から+1.9へ、オハイオが+5から+3へ縮み、51の拠り所が細ったため確率のみ72→69に微減し議席中央値52は維持。",
+    "analysis": "【上院】現状53R-47D、必要純増4。構造は不変で、クーパー(NC +10)、ペルトーラ(AK)、ブラウン(OH +3)、ジャクソン(ME +1.9)で51。ただし今日の材料は締め方向：(1)Foxメイン49-49、(2)インサイダー・オハイオでブラウン+3（先週+5）、(3)アイオワはハンソン+2で共和に戻った。TXはラスムセン45-45、Foxタイ、TPOR（ partisan 系）タラリコ+4で依然コイントス、ミシガンはエルサイード+1と新たな上振れ候補。52の内訳は「NC+AK+OH+ME＋TX/KS/SC/IA/MIのどれか一つ」で、KSはハミルトン資金優位、SC・IAは接戦。下振れ49（ME・OH両落ち）、上振れ54。市場・模型は38〜61%と割れており、私の69%は「メインとオハイオの少なくとも一方は取る」という一点に賭けた数字。両州が同日に共和へ戻る相関を過小評価しない。【下院】ジェネリックD+7.4〜9、Cookは民主有利220区・トスアップ17、サバトは235接近。私の236は妥当な中央値だが、上院で見えた split-ticket が下院にも及べば235前後に留まる。240超への強気は採らない。【持ち越し】明日はメイン世調の続報（コリンズ+2超なら上院Pを60%台前半へ）、オハイオ第4週のTV投入量、TX郡別の共和登録票の伸び、期日前の「予想比」が+4以上に拡大するか。",
+    "key_news": [
+      {
+        "title": "Foxニュース最新世調でメイン上院はジャクソン49・コリンズ49の完全タイ。ジャクソンのリードは平均+1.9まで縮小",
+        "source": "Forbes / Fox News",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/23/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "impact": "R+"
+      },
+      {
+        "title": "RCP最新世調：TXはラスムセン45-45タイ、オハイオはブラウン+3（先週+5から縮小）、アイオワはハンソン+2で共和リード回復、ミシガンはエルサイード+1",
+        "source": "RealClearPolitics",
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "impact": "R+"
+      },
+      {
+        "title": "期日前投票は約2,600万票。党登録別でD45.4%・R31.3%だが「予想比」はD+2.0に留まり、地滑りを示す水準ではない",
+        "source": "NBC News / On Point Politics",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "一部予測模型は上院を50-50、民主当確率38.6%と算出。格付け各社の下院青シフトと上院の締めが並立している",
+        "source": "PollsMax",
+        "url": "https://www.pollsmax.com/senate/",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.trackthevote.net/senate/maine",
+        "title": "Maine Senate polling average"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/23/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Maine Senate Race Tied In Latest Poll (Updated Daily)"
+      },
+      {
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
+      },
+      {
+        "url": "https://www.pollsmax.com/senate/",
+        "title": "2026 Senate Forecast | Interactive Map & Election Odds"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "title": "Democrats’ Projected Majority Grows as 19 More House Races Shift Away From the GOP | Cook Political Report"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://vote-scope.com/en/us/house/polls/",
+        "title": "Generic Ballot — U.S. House as of October 22, 2026 — Vote-Scope"
+      },
+      {
+        "url": "https://www.activote.net/polls/generic-ballot/",
+        "title": "Generic ballot poll, Oct 2026 · ActiVote"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html",
+        "title": "Tracking the Early Vote in the 2026 Midterm Elections"
+      },
+      {
+        "url": "https://onpointpolitics.us/maps/early-vote",
+        "title": "2026 Early Vote Tracker: Ballots Cast by State | On Point Politics"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0269,
+    "tokens": {
+      "prompt": 17913,
+      "completion": 2990,
+      "reasoning": 1044
+    }
   }
 ]

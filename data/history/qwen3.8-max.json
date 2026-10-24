@@ -1476,5 +1476,114 @@
       "completion": 4405,
       "reasoning": 2431
     }
+  },
+  {
+    "date": "2026-10-25",
+    "generated_at": "2026-10-25T07:00:03+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 50,
+      "rep": 50
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 49,
+    "house_control_prob_dem": 95,
+    "comment": "態度ではなく行動——NCの投票箱は既に答えを書き始めている",
+    "hidden_dynamics": [
+      "共和寄りRasmussenがTX45-45とAK44-44の「同率」を同日に並べた。内部データが良ければリードをリークするはずで、同率の公開は献金者向け期待値管理、つまり守勢のシグナルだ。",
+      "NCの受理済み早期投票は96%が期日前で郵便はわずか4%。郵便は民主偏重なので、D+17.5という差は今後さらに開く設計になっている。LVスクリーン調査は波の上限でなく下限を測っている可能性がある。",
+      "共和の期日前シェアは22%→24%へ緩やかに上昇中。これは説得ではなく既存支持層の回収であり、私の反証条件28%には遠い。同時にSabatoがKS(Marshall)をToss-upへ下げたことは、NRSCがAK・KSから下院防衛へ資金を振り向け始めたトリアージの痕跡と読める。"
+    ],
+    "hypothesis_title": "LVスクリーンは波の下限を測っている",
+    "hypothesis": "昨日の「熱量格差は実在する」を維持し、芯を一段進める。NCは2022年同日比で民主+44%・共和+4%、差はD+7.8からD+17.5へ拡大し、しかも96%が期日前で郵便は未着。行動データが態度データを先行しており、Fox(ME49-49)やRasmussen(TX45-45)の高頻度投票者スクリーンは、初めて投票する低頻度層を切り落として民主リードを過小表示している疑いが濃い。ゆえに上院の期待値は49.5〜50.3で、中央値は50だが分布は二峰性——減衰器が効いて49-50か、スクリーンバイアスが剥がれて52-53か。反証条件:(1)NC・IAで郵便分離後の共和シェアが28%超、(2)MEでCollins50超の調査、(3)10月中の閉鎖決着とACA延長成立。",
+    "hypothesis_status": "refined",
+    "change_reason": "MEがFox49-49へ後退した一方でAK(Sabato Leans D)・KS(Toss-up)が上がり、IAはInsiderAdvantageのHinson+2で共和確定に戻ったため、獲得期待値はほぼ相殺され上院はD50のままとした。ただし行動データ(NC D+17.5、郵便未着)を根拠にコントロール確率は47%→49%へ微増、下院はCookの19区移動とSabatoのFL-25・NE-2昇格を受け234→236へ。",
+    "analysis": "今日の主戦場は「誰が数字を出したか」だ。共和系InsiderAdvantageがOHでBrown+3、MIでEl-Sayed+1を出し続け、私の反証条件(1)は不発。党ブランド依存のHusted・RogersはD+5〜7環境で沈み続けている。逆にMEはSuffolk49-47→Marist RV+4→Fox49-49とJackson後退の系列が完成し、個人ブランドCollinsの天井49は崩れない。ここは民主獲得確率を47%へ下げた。IAはHinson47-45で私の当初想定(R+3)に回帰し、昨日の「Cook調査Turek+2」は誤読だったと訂正する。\n\nTXはRasmussen45-45、TPOR Talarico+4、ActiVote51-49とバラつき、依然コインフリップだが下限が引き上がっている。AKはelectoral-vote集計でPeltola48、SabatoがLeans Dへ移動済みで、RCV第2選択の下駄を織り込んでも45%まで上げた。KSはMarshallがToss-up化し、51への第三の経路として浮上。リスク側はMNで、RasmussenがFlanagan+3まで詰め寄り流出確率15%へ。\n\n下院は減衰器が存在しないため波がそのまま議席に変換される。Cookが19区を民主方向へ動かしD有利220超、SabatoもFL-25をLean D、NE-2をLikely D、TX-34はWaPoでGonzalez+7。218は決着済みで、争点は240に届くかだけだ。\n\n明日への申し送り:(1)NC早期投票Day9-11で郵便バッチ到着後の党派別シェア(共和28%が分水嶺)、(2)MEでCollins50超が出るか、(3)NRSC/DCCCの広告予約キャンセル——AK・KSからの撤退が確認できればトリアージ説が実証される、(4)Trump外遊中の閉鎖協議、(5)MNの追加調査。",
+    "key_news": [
+      {
+        "title": "Rasmussen最新:TX上院はPaxton45-45Talaricoの同率、AKはPeltola48でSullivanと拮抗",
+        "source": "RealClearPolling",
+        "url": "https://www.realclearpolling.com/latest-polls",
+        "impact": "neutral"
+      },
+      {
+        "title": "Fox NewsのME上院調査、討論後にJackson49-Collins49の同率へ後退",
+        "source": "RealClearPolling / Fox News",
+        "url": "https://www.realclearpolling.com/latest-polls",
+        "impact": "R+"
+      },
+      {
+        "title": "共和寄りInsiderAdvantageがOHでBrown+3、MIでEl-Sayed+1、IAはHinson+2を公表",
+        "source": "NBC News / InsiderAdvantage",
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "impact": "D+"
+      },
+      {
+        "title": "NC早期投票:民主60.2万票(2022年比+44%)対共和34.8万票(+4%)、郵便はまだ4%のみ",
+        "source": "Call the Map / NC Politics Center",
+        "url": "https://www.callthemap.com/early-vote",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.realclearpolling.com/latest-polls",
+        "title": "Latest Polls 2026, 2028 | RealClearPolling"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://electoral-vote.com/evp2026/Senate/averages.html",
+        "title": "State Averages for Senate"
+      },
+      {
+        "url": "https://pollingsource.com/senate/polls",
+        "title": "2026 Senate Polls — Latest Race Polling | PollingSource"
+      },
+      {
+        "url": "https://midtermmonday.com/movers",
+        "title": "Midterm Mondays"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/2026-rating-changes/",
+        "title": "2026 Rating Changes - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings",
+        "title": "CPR Race Ratings | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "title": "Democrats' Projected Majority Grows as 19 More House ..."
+      },
+      {
+        "url": "https://dashboard.majorityrisingnc.org/early-voting/index.html",
+        "title": "North Carolina Early Voting Turnout 2026: Daily Tracker by Party, County and District | Majority Rising NC"
+      },
+      {
+        "url": "https://www.callthemap.com/early-vote",
+        "title": "Early vote tracker: who has voted so far in 2026 · Call the Map"
+      },
+      {
+        "url": "https://ncpoliticscenter.substack.com/p/day-8-of-nc-early-voting-the-early",
+        "title": "Day 8 of NC Early Voting: The Early Vote Story Isn’t Just How Many—It’s Who"
+      },
+      {
+        "url": "https://www.newsobserver.com/news/politics-government/election/article317718444.html",
+        "title": "North Carolina early voting shows higher Democratic turnout | Raleigh News & Observer"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0772,
+    "tokens": {
+      "prompt": 25606,
+      "completion": 5902,
+      "reasoning": 4054
+    }
   }
 ]

@@ -708,5 +708,81 @@
       "completion": 1649,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-25",
+    "generated_at": "2026-10-25T07:00:03+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 59,
+    "house_control_prob_dem": 87,
+    "comment": "メインもテキサスも同率。最終盤は、誤差が主役だ",
+    "hidden_dynamics": [
+      "共和系のInsiderAdvantageやRasmussenでも、TX・OH・MIで民主が同率か僅差リードだ。共和系調査が民主に傾くのは、表面的な数字以上に環境が民主寄りだという信号になる。",
+      "アイオワだけは共和系調査でHinson氏が+2とリードし、民主の「TX・AK・IAのどれか1つ」の道で最も細い。実質的にはTXとAKが鍵になる。"
+    ],
+    "hypothesis_title": "僅差リードは実質五分五分",
+    "hypothesis": "上院では共和党の戻りが遅く、TXは中立〜共和系の調査でも同率からTalarico氏+4に収まり、MEはFoxで同率、OHはBrown氏が僅差でリードしている。ただし2016年と2024年の誤差を考えると、僅差のリードは実質五分五分だ。民主党の勝ち筋はNC・ME・OHに加え、TX・AK・IAの1つだ。下院は総合投票D+7前後で、区割りの不利を吸収できる。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "新規調査は想定の範囲内だった。TXは同率〜+4、MEは同率、IAは共和系で共和+2。方向は一貫しており、議席数は据え置き、上院確率だけ1ポイント下げた。",
+    "analysis": "【上院】RCPの最新では、TXのRasmussenが45対45の同率、TPORがTalarico氏+4、MEのFoxが49対49、OHのInsiderAdvantageがBrown氏+3、MIがEl-Sayed氏+1、MNがFlanagan氏+3だった。NCはCooper氏が10ポイント差でリードし、ほぼ確保済みとみる。IAはInsiderAdvantageでHinson氏+2、CookではTurek氏+2と割れている。民主党は、NC・ME・OHに加えて、TX・AK・IAのうち1議席が必要だ。ただし、MEとTXは同率で、2024年のように共和党が上振れする余地を無視できない。1つ落とせば50-50で、副大統領により共和党が支配する。【下院】総合投票はD+7前後で、区割りの不利を吸収できる。233議席、87%を維持する。明日は、TXの党派別早期投票、AKの新規調査、市場価格を確認する。",
+    "key_news": [
+      {
+        "title": "RealClearPolling最新集計:TXのRasmussenは45対45、TPORはTalarico氏+4。OHのInsiderAdvantageはBrown氏+3",
+        "source": "RealClearPolling",
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "impact": "D+"
+      },
+      {
+        "title": "メインのFox調査はJackson氏とCollins氏が49対49。TXのFoxも同率",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/23/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "impact": "neutral"
+      },
+      {
+        "title": "PoliAgg:TXはTalarico氏+2.25でtilt-Dからlean-Dへ",
+        "source": "PoliAgg",
+        "url": "https://poliagg.com/reports/daily/2026-10-24/",
+        "impact": "D+"
+      },
+      {
+        "title": "IAのInsiderAdvantage調査はHinson氏47対45でリード",
+        "source": "RealClearPolling",
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
+      },
+      {
+        "url": "https://poliagg.com/reports/daily/2026-10-24/",
+        "title": "Texas Senate shifts to lean-D as Talarico holds narrow polling edge — PoliAgg"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/23/hottest-2026-midterm-races-talarico-paxton-tied-in-fox-news-poll-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Maine Senate Race Tied In Latest Poll (Updated Daily)"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0392,
+    "tokens": {
+      "prompt": 11567,
+      "completion": 1526,
+      "reasoning": 0
+    }
   }
 ]
