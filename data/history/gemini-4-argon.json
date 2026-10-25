@@ -959,5 +959,114 @@
       "completion": 2052,
       "reasoning": 436
     }
+  },
+  {
+    "date": "2026-10-26",
+    "generated_at": "2026-10-26T07:00:03+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 89,
+    "comment": "テキサスに5億ドルの札束飛び交う肉弾戦、NCは無党派急増の静かな地殻変動。",
+    "hidden_dynamics": [
+      "上院接戦州では「小口献金で勝る民主党候補」対「スーパーPACの巨額資金で防戦する共和党」の極端な非対称構造が定着しており、特にテキサス州ではパクストン陣営への外部資金が約3億ドルとタラリコ側の約3.8倍に達し、不人気候補を札束の絨毯爆撃で強引に支えている。",
+      "ノースカロライナ州の期日前投票（2022年比37%増）の内訳を見ると、民主党登録者の47%増以上に無党派層が60%増と爆発的に伸びている一方、共和党登録者はわずか2.6%増にとどまっており、中間層の政権離れが世論調査以上に進行している。",
+      "25日発表のCBS/YouGov調査モデルが下院民主党229議席とやや抑制的な試算を出したのは、インフレ懸念の根強さと2024年大統領選の投票行動による厳格な重み付けを反映したためであり、実際の期日前動員力との間にギャップが生じている。"
+    ],
+    "hypothesis_title": "無党派の早期動員と3億ドル外部資金の激突",
+    "hypothesis": "期日前投票が全国2788万票に達し、NC等で民主党と無党派層の投票が急増（+47%・+60%）する一方、共和党の出足が鈍い（+2.6%）ことから、下院の民主党236議席の波は揺るがない。しかし上院では、候補者個人の資金力に劣る共和党側がテキサス州に約3億ドル、オハイオ州に約2.3億ドルの外部資金（IE）を投入して防波堤を築いており、赤い州での保守層引き締めが機能するため民主党は51議席にとどまる。週明けに対面期日前投票で共和党が急伸しなければ上院52議席へ引き上げる。",
+    "hypothesis_status": "refined",
+    "change_reason": "DDHQの最新予測（上院51・下院237）も当予測のベースラインとほぼ一致し、無党派層の期日前投票急増と共和党スーパーPACの巨額資金防戦という双方の根拠が強化されたため、上院51・下院236の予測を維持した。",
+    "analysis": "投票日まで残り9日となり、「組織と熱量で先行する民主党」と「巨額の外部資金で終盤の保守層回帰を狙う共和党」の綱引きが極限に達している。NBCの集計で期日前投票は約2788万票に達し、特に注目すべきはThe Hillが報じたノースカロライナ州の内部データだ。2022年比で民主党が47%増、無党派層が60%増と急増する一方、共和党は2.6%増と完全に立ち遅れている。クーパー氏（民）が優位を固めるだけでなく、下院接戦区でも無党派層の政権批判票が早期に固定化されている証拠だ。今日公表のCBS/YouGovモデルはインフレ懸念と2024年投票補正を重く見て下院民主党229議席と保守的に試算したが、メイン州（+41%）やアイオワ州（+24%）も含む実投票の勢いを見れば、DDHQモデル（237議席）に近い当予測の236議席が妥当だ。一方、上院で民主党が52議席以上へ突き抜けられない理由はVoteLogの資金データにある。テキサス州ではタラリコ氏（民）が個人献金で圧倒するものの、共和党系外部団体がパクストン氏支援に約3億ドル（民主党側の約3.8倍）を投下し、総額5.3億ドルの空中戦で保守層の離反を力ずくで食い止めている。オハイオ州でも共和党側外部資金が2.3億ドルと倍近い。この札束の防波堤が2016・2024年型の終盤の保守回帰を促すため、上院は51対49の着地を見込む。明日は週明けの対面投票で共和党が巻き返すかを検証する。",
+    "key_news": [
+      {
+        "title": "CBS/YouGov最新調査モデル、経済・インフレ懸念の中で下院民主党229議席と試算",
+        "source": "CBS News",
+        "url": "https://www.cbsnews.com/news/poll-house-estimate-midterm-elections-2026/",
+        "impact": "D+"
+      },
+      {
+        "title": "激戦州で期日前投票が急増、NC州では民主党47%増・無党派60%増に対し共和党は2.6%増と停滞",
+        "source": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6169626-early-voting-battleground-states-democrats-republicans/",
+        "impact": "D+"
+      },
+      {
+        "title": "全国の期日前・郵便投票総数が2787万票を突破、週末の対面投票解禁でさらに加速",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "上院選の資金集計、テキサス州で共和党系外部支出が約3億ドルに達し総額5.3億ドルの史上最高水準に",
+        "source": "VoteLog",
+        "url": "https://votelog.org/investigations/senate-general-money",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+        "title": "2026 Midterm Election Forecast: Senate & House | Silver Bulletin"
+      },
+      {
+        "url": "https://votes.decisiondeskhq.com/forecast/2026",
+        "title": "2026 Midterm Predictions: House & Senate Forecast | DDHQ"
+      },
+      {
+        "url": "https://gking.harvard.edu/electit/",
+        "title": "ElectIt"
+      },
+      {
+        "url": "https://www.cbsnews.com/news/poll-house-estimate-midterm-elections-2026/",
+        "title": "CBS News poll finds Democrats still boosted by voters ..."
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6169626-early-voting-battleground-states-democrats-republicans/",
+        "title": "Early voting surge in battleground states fuels Democrats' hopes"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/ohio-results",
+        "title": "Ohio Midterm Elections 2026: Key Races, Candidates and ..."
+      },
+      {
+        "url": "https://www.npr.org/2026/10/23/nx-s1-6012308/midterm-elections-early-voting-data",
+        "title": "Why surging early voting may not mean higher midterm turnout : NPR"
+      },
+      {
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/21/hottest-2026-midterm-races-democrats-lead-in-texas-ohio-michigan-iowa/",
+        "title": "Hottest 2026 Midterm Races—Democrats Ahead In Texas, Ohio, Michigan, Iowa, Georgia"
+      },
+      {
+        "url": "https://votelog.org/investigations/senate-general-money",
+        "title": "2026 Senate Races: The Money in All 35 Races, Ranked | VoteLog"
+      },
+      {
+        "url": "https://tali.news/2026/10/senate-polls-iowa-ohio-texas/",
+        "title": "DEMOCRATS LEAD IOWA, OHIO AND TEXAS SENATE RACES IN NEW COOK POLLING – TALi News"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0583,
+    "tokens": {
+      "prompt": 10587,
+      "completion": 2288,
+      "reasoning": 672
+    }
   }
 ]

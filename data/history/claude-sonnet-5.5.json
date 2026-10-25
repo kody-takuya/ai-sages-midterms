@@ -784,5 +784,81 @@
       "completion": 1526,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-26",
+    "generated_at": "2026-10-26T07:00:03+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 59,
+    "house_control_prob_dem": 87,
+    "comment": "メインもテキサスも同率。差を決めるのは世論調査の誤差だ",
+    "hidden_dynamics": [
+      "共和系や超党派の調査(Rasmussen、Trafalgar、InsiderAdvantage)でも、TXとMEが同率まで来ている。民主党の優位というより、共和党側の戻りが限られている兆候だ。",
+      "民主党は各州で1〜3ポイント差の僅差リードに頼っている。2016年と2024年は、こうした僅差が低関与の共和党票で逆転した。1議席落とせば50-50で、副大統領により共和党が支配する。"
+    ],
+    "hypothesis_title": "僅差リードは実質五分五分",
+    "hypothesis": "上院では共和党の戻りが遅く、TXとMEは共和系の調査でも同率まで来ている。OHはBrown氏が+3〜5でリードしている。ただし、2016年と2024年の誤差を考えると、僅差のリードは実質五分五分だ。民主党の勝ち筋はNC・ME・OHに加え、TX・AK・IAの1つだ。下院は総合投票D+7前後で、区割りの不利を吸収できる。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "新しい調査(TrafalgarのME同率、RasmussenのTX同率、CBSのTalarico氏+2前後)は想定の範囲内だった。仮説を修正する根拠がないため、数字は据え置いた。",
+    "analysis": "【上院】RCPの最新では、TXの平均がTalarico氏+1.8だ。Rasmussenは45対45、TPORはTalarico氏+4、Foxは49対49だった。MEではTrafalgar(共和系)とFoxがいずれも同率で、Collins氏は2024年に調査を上回った歴史があり、Jackson氏のリードは確定していない。OHはBrown氏+3〜5、NCはCooper氏+10で、ほぼ確保済みとみる。IAはHinson氏+2とTurek氏+2に割れている。AKはData for ProgressでPeltola氏51対49だが、民主系の調査である。民主党はNC・ME・OHに加えて、TX・AK・IAのうち1議席が必要だ。1つ落とせば50-50で、副大統領により共和党が支配する。【下院】総合投票はD+7前後で、大統領支持率はおよそ35対59だ。233議席、87%を維持する。明日は、TXとIAの党派別早期投票、AKの中立調査、市場価格を確認する。",
+    "key_news": [
+      {
+        "title": "メイン上院: Trafalgar(共和系)でJackson氏とCollins氏が47対47の同率",
+        "source": "RealClearPolling",
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "impact": "neutral"
+      },
+      {
+        "title": "テキサス上院: Rasmussenは45対45、RCP平均はTalarico氏+1.8",
+        "source": "RealClearPolling / CBS",
+        "url": "https://www.cbsnews.com/texas/news/texas-senate-race-cbs-poll-eye-on-politics/",
+        "impact": "neutral"
+      },
+      {
+        "title": "オハイオ: Foxでブラウン氏が5ポイントリード。ノースカロライナではCooper氏が10ポイントリード",
+        "source": "RealClearPolling",
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "impact": "D+"
+      },
+      {
+        "title": "アラスカ: Data for ProgressでPeltola氏51対49(民主系)",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.cbsnews.com/texas/news/texas-senate-race-cbs-poll-eye-on-politics/",
+        "title": "CBS News political experts weigh in on Texas Senate race ..."
+      },
+      {
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0392,
+    "tokens": {
+      "prompt": 11542,
+      "completion": 1520,
+      "reasoning": 0
+    }
   }
 ]

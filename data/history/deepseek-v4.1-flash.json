@@ -1647,5 +1647,114 @@
       "completion": 2990,
       "reasoning": 1044
     }
+  },
+  {
+    "date": "2026-10-26",
+    "generated_at": "2026-10-26T07:00:03+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 63,
+    "house_control_prob_dem": 90,
+    "comment": "全盤が一斉に赤へ締まる——潮位計が揃う時こそ疑え",
+    "hidden_dynamics": [
+      "直近7日で激戦7州の平均が例外なく共和方向へ動いた（変化幅▼12〜19）。個別材料というより各社が同じ方向に微修正する平均値の収束で、接戦の実態ではなく『安心できる接戦』を各社が作り込んでいるヘルディングの匂いが濃い。",
+      "アラスカがSullivan+1.9へ反転し、以前のペルトーラ優位が消えた。共和は防波堤をアラスカへ移しつつ、真の防衛線をメインとオハイオの2点に絞った——両州への終盤資金と応援演説の集中先が内部世調の正直な答え。",
+      "テキサス期日前のD優勢（初日は2024比+10）は、逆に共和が本番当日型へ動員を移している可能性を排除しない。2024の教訓（期日前の青は当日赤で相殺）を前提に読むべき。"
+    ],
+    "hypothesis_title": "上院は一本足、下院は全国波のまま",
+    "hypothesis": "昨日の『上院は人と地域、下院は政権審判』の核を維持しつつ精緻化する。ここ7日で全激戦区の平均が一様に共和方向へ動き、アラスカはSullivan+1.9へ反転、アイオワ・カンザスも共和リードに戻った。真偽は別としてこの収束はヘルディングの疑いが強く、民主多数派の『厚み』ではなく『薄さ』を可視化した。よって上院はNC+OH+MIで50、メインかテキサスのどちらかで51という一本足打法。棄却条件は、メインでコリンズが+2超に出る、オハイオでハステッドが並ぶ、テキサス期日前のD優位が予想比で縮小する、のいずれか。",
+    "hypothesis_status": "refined",
+    "change_reason": "上院を52→51、Pを69→63へ。アラスカ反転と全州一様のR方向修正が『AK経由の52』を消し、メイン/テキサス依存の51へ置き換えたため。下院は新規の全国データが薄く、236・90%を据え置き。",
+    "analysis": "【上院】現状53R-47D、必要純増4だが50-50はVance副大統領で共和支配のため実質5。構造を再計算：クーパー(NC)はほぼ確定で48、ブラウン(OH +2.0)とエルサイード(MI +1.1)を足して50。メイン(Jackson avg+0.4、Fox50-48)かテキサス(Talarico ±0)のどちらかを取れば51で多数派。だがアラスカはTrafalgar24Sep以降Sullivan+1.9、アイオワHinson+1.5、カンザスMarshall+0.6と、以前の赤州民主リードは消えた。ここ7日の7日変化が全州で▼12〜19と一様に共和方向——単一材料ではなく平均値の収束で、ヘルディングの匂いが強い。警戒点：(1)ME/TXが同日に共和へ振れる相関、(2)2016/24型の当日共和票上積み。一方でテキサス期日前は初日D+10の熱気。下振れ49、上振れ53、中央値51。【下院】ジェネリックD+7.4〜9で高止まり、Sabatoは『223区が最低Lean D、235接近』、Cookは19区移動で『共和の維持はほぼ蒸発』。だが上院の一様な締めは下院に遅れて届き得る。新規の全国材料が薄く236・P90%を据え置く。【持ち越し】①メイン世調でコリンズ+2超なら上院P55前後へ、②オハイオ終盤TV投入量、③テキサス期日前の『予想比』が縮小するか、④収束が続くならモデル全体のR方向修正か。",
+    "key_news": [
+      {
+        "title": "メイン上院、Trafalgarが47-47のタイを確認（R系スポンサー、10/21-23）——コリンズが固めに入った",
+        "source": "PB Polls",
+        "url": "https://polls.politicalbetting.com/us/latest-polls",
+        "impact": "R+"
+      },
+      {
+        "title": "テキサス期日前、初日の有権者は2024比で約10点民主寄り。D歴32%対R歴21%が投票",
+        "source": "CBS Texas",
+        "url": "https://www.cbsnews.com/texas/news/what-early-voting-trends-and-predictions-for-midterm-election-in-texas-show-so-far/",
+        "impact": "D+"
+      },
+      {
+        "title": "Cookが下院19区を民主方向へ移動、『共和の多数派維持はほぼ蒸発』と予測",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/23/republicans-chances-of-maintaining-house-majority-have-all-but-evaporated-cook-political-report-says/",
+        "impact": "D+"
+      },
+      {
+        "title": "Sabato、28区の格付け変更で『最低223区がLean D、235議席接近』と上方修正",
+        "source": "Sabato's Crystal Ball",
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.pollingforecast.com/us/battleground",
+        "title": "2026 battleground: the closest races and the latest polls"
+      },
+      {
+        "url": "https://polls.politicalbetting.com/us/latest-polls",
+        "title": "PB Polls — Latest United States polls"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings"
+      },
+      {
+        "url": "https://midtermmonday.com/movers",
+        "title": "Midterm Mondays"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/23/republicans-chances-of-maintaining-house-majority-have-all-but-evaporated-cook-political-report-says/",
+        "title": "Cook Political Report Moves 19 House Races Toward Democrats, Predicts They’ll Win Control"
+      },
+      {
+        "url": "https://www.cbsnews.com/texas/news/what-early-voting-trends-and-predictions-for-midterm-election-in-texas-show-so-far/",
+        "title": "What early voting trends and predictions for midterm election in Texas show so far - CBS Texas"
+      },
+      {
+        "url": "https://www.houstonchronicle.com/projects/2026/texas-midterms-early-voting-turnout/",
+        "title": "Texas midterms early voting tracker: See where turnout is ..."
+      },
+      {
+        "url": "https://www.cbsnews.com/texas/news/texas-early-voting-turnout-more-democratic-2024-votehub-october-2026/",
+        "title": "Texas turnout more Democratic in first two days of early voting than in 2024, VoteHub says, but too early to draw conclusions - CBS Texas"
+      },
+      {
+        "url": "https://www.texastribune.org/2026/10/20/texas-early-voting-records-election/",
+        "title": "What early voting data in Texas means for results"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0262,
+    "tokens": {
+      "prompt": 28633,
+      "completion": 5905,
+      "reasoning": 4138
+    }
   }
 ]

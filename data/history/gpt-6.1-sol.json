@@ -907,5 +907,114 @@
       "completion": 1659,
       "reasoning": 323
     }
+  },
+  {
+    "date": "2026-10-26",
+    "generated_at": "2026-10-26T07:00:03+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 50,
+      "rep": 50
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 48,
+    "house_control_prob_dem": 85,
+    "comment": "先に投じた票も、最後に投じる票も一票。",
+    "hidden_dynamics": [
+      "テキサスの民主寄り地域で投票が先行しても、支持者の純増か投票日の前倒しかは分からない。共和支持者が遅く投票するだけなら、見かけの民主優位と最終接戦は両立する。",
+      "共和側の巨額資金投入は、苦戦の証拠であると同時に支持回収の手段でもある。政治団体間の資金移転と実際の広告放映を分けなければ、防衛力を二重に数えてしまう。",
+      "メーンとテキサスの同率調査は民主の上積みに慎重である理由になるが、調査会社の偏りや実施期間を確認せず、複数の掲載結果を独立した潮流とは扱わない。"
+    ],
+    "hypothesis_title": "下院の追い風、上院の参加関門",
+    "hypothesis": "「説得と参加の二段階」を維持する。家計不満による民主への追い風は下院の接戦群に広がる一方、上院では共和寄り州の基礎票と終盤の支持回収が壁になる。テキサスの期日前投票は民主の参加優位と整合するが、前倒しだけでも説明できる。２０１６・２０２４年型の共和票過小把握を共通リスクに残し、自動補正はしない。独立調査で複数州の民主優位拡大と低頻度層の参加純増が確認できれば、この慎重姿勢を撤回する。",
+    "hypothesis_status": "kept",
+    "change_reason": "上院は民主系47議席を起点に、防衛成功とノースカロライナ、オハイオ、メーンの純増３を中心経路とし、テキサスは上積みに数えず50を維持する。下院233を支える広い接戦群への追い風を覆す新証拠も、上積みを正当化する地区別証拠もなく、数字と支配確率は据え置く。",
+    "analysis": "米東部25日18時基準。新材料は前日の仮説を覆さない。テキサスの序盤投票は民主寄り地域の参加改善を示唆するが、比較対象が大統領選の２０２４年であり、投票時期の変化も混ざる。民主への追加議席には換算しない。共和の資金力は終盤の広告接触を増やせても、候補への不満を必ず解消するわけではない。上院はメーンの現職票、ミシガンの民主防衛、オハイオの候補個人票が分岐点。下院では民主の郊外での強さと、共和の農村票回収が競合し、IA01・03、PA07・10、NY17、AZ06を引き続き監視する。共和票の共通過小把握があれば接戦は同時に動くが、それを理由に全州へ一律補正はしない。取得情報で更新時刻を確認できたのは期日前投票集計などに限られ、記事すべてを直近24時間の新報とは扱わない。明日は低頻度層の参加と実放映、調査の実施期間・依頼主を優先確認する。",
+    "key_news": [
+      {
+        "title": "25日掲載のメーン同率、24日掲載のテキサス同率調査。原調査の依頼主・手法は未確認",
+        "source": "RealClearPolling",
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "impact": "neutral"
+      },
+      {
+        "title": "トランプ系団体が９月以降約２億7700万ドルの支出を報告。団体間移転を含み、記事公開時刻は未確認",
+        "source": "AP",
+        "url": "https://apnews.com/article/trump-maga-inc-super-pac-money-midterms-0194a89b2209920efa4e3e83ef981205",
+        "impact": "R+"
+      },
+      {
+        "title": "期日前投票集計は25日15時39分更新。検索抜粋では票数を取得できず、党派別優劣の判定には使わない",
+        "source": "UF Election Lab",
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "impact": "neutral"
+      },
+      {
+        "title": "テキサスの民主寄り地域で序盤投票が相対的に活発との分析。共和の投票後ずれの可能性も指摘、公開時刻は未確認",
+        "source": "CBS Texas",
+        "url": "https://www.cbsnews.com/texas/news/what-early-voting-trends-and-predictions-for-midterm-election-in-texas-show-so-far/",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.maplepolls.com/us/midterms-2026/race/senate-mi",
+        "title": "MI — 2026 US Senate race — MaplePolls"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://www.livemint.com/news/world/us-midterms-2026-political-ad-spending-tops-10-billion-where-is-the-money-coming-from-and-what-is-driving-the-surge-11792930396568.html",
+        "title": "US midterms 2026: Political ad spending tops $10 billion — where is the money coming from and what is driving the surge? | Today News"
+      },
+      {
+        "url": "https://apnews.com/article/trump-maga-inc-super-pac-money-midterms-0194a89b2209920efa4e3e83ef981205",
+        "title": "Trump's political groups spend nearly $277 million in late midterm blitz | AP News"
+      },
+      {
+        "url": "https://apnews.com/article/midterms-trump-ads-democrats-republicans-158c022f4aa225ea1bb84ef92a0eed5b",
+        "title": "Democrats are happy to focus on Trump in campaign ads | AP News"
+      },
+      {
+        "url": "https://apnews.com/article/midterms-iran-war-campaign-ads-e3e355b7d32f0912cb88524531149925",
+        "title": "Iran war votes in Congress become a focus for campaign ads | AP News"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.foxnews.com/video/6407347398112",
+        "title": "Trump hits campaign trail with days left until midterms as early voting numbers surge | Fox News Video"
+      },
+      {
+        "url": "https://www.foxnews.com/elections/2026/midterm-results",
+        "title": "Latest Election 2026 News and Updates | Fox News Elections Center"
+      },
+      {
+        "url": "https://www.cbsnews.com/texas/news/what-early-voting-trends-and-predictions-for-midterm-election-in-texas-show-so-far/",
+        "title": "What early voting trends and predictions for midterm election in Texas show so far - CBS Texas"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0534,
+    "tokens": {
+      "prompt": 9275,
+      "completion": 1714,
+      "reasoning": 249
+    }
   }
 ]

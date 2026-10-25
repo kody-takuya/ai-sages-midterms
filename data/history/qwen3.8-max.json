@@ -1585,5 +1585,114 @@
       "completion": 5902,
       "reasoning": 4054
     }
+  },
+  {
+    "date": "2026-10-26",
+    "generated_at": "2026-10-26T07:00:03+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 53,
+    "house_control_prob_dem": 96,
+    "comment": "反証条件は二つとも不発。波は検証に耐えた",
+    "hidden_dynamics": [
+      "NCで郵便票が6万枚近く到着しても共和シェアは23.8%に留まり、私が分水嶺に置いた28%に届かなかった。D+20.5→D+17.7の微減は「+1.7%はバッチ合成の幻影」という2日前の私の読みを事後的に証明しており、行動データは態度データを裏切っていない。",
+      "評価機関がBoebertのCO-04をSolid RからLean Rへ動かした。絶対に落ちないとされた地区が動くのは環境が想定天井を突破した時だけで、両党の資金配分はこの「第三層」へ既に再配置されているはずだ。",
+      "逆にMNがLikely D→Lean Dへ後退したのは、波が全国一律ではなく候補者個人ブランドの弱い所で剥がされる証拠。上院の減衰器は共和側(Collins)だけでなく、民主側新人(Flanagan)にも非対称に働く。"
+    ],
+    "hypothesis_title": "行動データは勝つが減衰器は両方向",
+    "hypothesis": "「熱量格差は実在し、LVスクリーンがそれを過小表示する」を維持・精緻化。NCの郵便分離後も共和23.8%で反証条件(1)は不発、MEはTrafalgar47-47でCollins50超の(2)も不発。よって高頻度有権者に寄せたFox/Rasmussen系は民主リードを1〜3pt削っていると見る。ただし減衰器は双方向で、党ブランド依存の共和候補(Husted・Rogers・Paxton)が沈む一方、個人ブランドの弱い民主新人(MN・IA)も同時に剥がされる。期待値は50.5〜51.3、中央値は51。50-50は副大統領が共和のため敗北である点を忘れない。反証条件:(1)NC・IAの共和シェアが28%超、(2)NRSCがAK・KS・TXから広告を撤退(トリアージ)、(3)10月中の閉鎖決着。",
+    "hypothesis_status": "refined",
+    "change_reason": "二つの反証条件がいずれも不発だったため上院を50-50から51-49へ1議席引き上げ、P(D)を49→53%に。下院はCO-04・AZ-01/06・CO-08の格上げとD有利220確定を受け236→238としたが、Cookの予測上限22増を超える分は仮説由来の意図的オーバーシュート。",
+    "analysis": "今日の核心は「私の仮説が殺されなかった」ことだ。NCはDay11で154万票、うち郵便6万枚が合算されても党派別は民主41.5%・共和23.8%。共和が28%を超えれば波は幻影だったと自ら決めていたが、届かなかった。しかも期日前が96%を占め、投票者の79%が2022年投票者という構造は、LVスクリーン型調査が切り落とす「初めて投票する低頻度層」の存在を示唆する。上院の獲得期待値はMI(IA調査でもEl-Sayed+1)0.84、OH0.72、NC0.70、TX0.50、ME0.48、AK0.45、KS0.30、IA0.28で約4.27、MN流出0.22を差しE[D]≒51.0。中央値51、ただし分布は49-51と52-53の二峰性のままだ。\n\n注意すべきはTrafalgarがMEを47-47と出したこと。Suffolk49-47→Marist RV+4→Fox49-49→Trafalgar47-47と、Jacksonは「負けてはいないが伸びてもいない」系列になった。Collinsの天井49は固く、ここは獲得確率を47→48%で据え置く。逆にMNはCookがLean Dへ下げ、RasmussenのFlanagan+3も薄い。ここは流出確率を15→22%へ上げた——減衰器は民主側にも効く。\n\n下院は減衰器が存在しない。CookはD有利220を確定させ12〜22増を予測、Sabato/Cookの合意でAZ-01・AZ-06・CO-08がLean D、CA-13・CA-45がLikely D、そしてCO-04がSolid R→Lean R。Boebertが動く環境で238は過大ではない。明日の自分へ:(1)NC Day12-13の郵便合算後シェア、(2)NRSCのTX/AK/KS広告撤退の有無(トリアージ説の直接検証)、(3)MEの追加調査でCollins50超が出るか、(4)閉鎖・ACA協議、(5)MN・IAの民主側流出が他州へ波及しないか。",
+    "key_news": [
+      {
+        "title": "NC期日前投票154万票、郵便6万枚合算後も民主41.5%・共和23.8%——共和28%の分水嶺に届かず",
+        "source": "PollingSource / OnPoint Politics",
+        "url": "https://pollingsource.com/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "Trafalgar、メイン州上院をJackson47-Collins47の同率と公表(Suffolk・Foxに続く討論後系列)",
+        "source": "RealClearPolling",
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "impact": "neutral"
+      },
+      {
+        "title": "Cook/Sabato合意でAZ-01・AZ-06・CO-08がLean D、BoebertのCO-04はSolid R→Lean Rへ大幅後退",
+        "source": "poliboards",
+        "url": "https://poliboards.us/midterms-2026/",
+        "impact": "D+"
+      },
+      {
+        "title": "Cook予測:民主は12〜22議席増の可能性、D有利220で218は事実上確保——ただしMN上院はLean Dへ格下げ",
+        "source": "The Washington Post / Cook Political Report",
+        "url": "https://www.washingtonpost.com/politics/2026/10/23/democrats-may-flip-between-12-22-seats-cook-political-report-estimates/",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://gking.harvard.edu/electit/",
+        "title": "ElectIt"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.realclearpolling.com/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://dashboard.majorityrisingnc.org/early-voting/index.html",
+        "title": "North Carolina Early Voting Turnout 2026: Daily Tracker by Party, County and District | Majority Rising NC"
+      },
+      {
+        "url": "https://pollingsource.com/early-vote",
+        "title": "Early Vote Tracker | PollingSource"
+      },
+      {
+        "url": "https://onpointpolitics.us/maps/early-vote/north-carolina",
+        "title": "North Carolina Early Vote Tracker 2026: Ballots Cast by County"
+      },
+      {
+        "url": "https://www.newsobserver.com/news/politics-government/election/article317718444.html",
+        "title": "North Carolina early voting shows higher Democratic turnout | Raleigh News & Observer"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "title": "Democrats' Projected Majority Grows as 19 More House ..."
+      },
+      {
+        "url": "https://midtermmonday.com/movers",
+        "title": "Midterm Mondays"
+      },
+      {
+        "url": "https://poliboards.us/midterms-2026/",
+        "title": "2026 Midterm Race Ratings: House & Senate Consensus | poliboards"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/23/democrats-may-flip-between-12-22-seats-cook-political-report-estimates/",
+        "title": "Democrats may flip between 12 and 22 seats, Cook Political Report estimates - The Washington Post"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0702,
+    "tokens": {
+      "prompt": 25926,
+      "completion": 4710,
+      "reasoning": 2827
+    }
   }
 ]
