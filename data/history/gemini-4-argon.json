@@ -1068,5 +1068,114 @@
       "completion": 2288,
       "reasoning": 672
     }
+  },
+  {
+    "date": "2026-10-27",
+    "generated_at": "2026-10-27T07:00:05+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 62,
+    "house_control_prob_dem": 90,
+    "comment": "大統領の4億ドルで大統領を斬る、共和党候補の巧妙な「擬態」戦術。",
+    "hidden_dynamics": [
+      "総額110億ドルに達した史上最大の広告戦の裏で、共和党上院候補が「トランプ切り離し」へ一斉に舵を切った。ニューハンプシャー州のスヌヌ氏が「彼に会ったこともない」とイラン戦争や対カナダ関税を批判するCMを流す一方、そのスヌヌ氏をトランプ系スーパーPACが1300万ドルで支援しており、大統領の資金でMAGA層を固めつつ候補者本人は反トランプ無党派層を取り込む「分業型の分割投票誘導」が機能している。",
+      "民主党系スーパーPAC（New Deal for All）が終盤に入り、カンザス、フロリダ、ミシシッピの共和党現職上院議員を標的にした攻撃広告を投入した。一見すると民主党の攻勢拡大に見えるが、実態は共和党側の4億ドル規模の大統領系PAC資金を接戦州から深紅州の防衛へ分散させるための陽動作戦である。",
+      "期日前投票が約2988万票と1日で200万票急増する中、上院予測モデル（民主党勝率76%）と予測市場のオッズの乖離が拡大している。市場は2016・2024年と同様に、政権に不満を持ちつつも上院では共和党の歯止めを残そうとする保守・穏健層の「隠れ分割投票」を織り込んでいる。"
+    ],
+    "hypothesis_title": "4億ドル防波堤と「トランプ切り」の分業",
+    "hypothesis": "Reuters/Ipsos調査で政党支持率が民主党+9pt、経済支持率25%と政権への逆風が極まる中、期日前投票も2988万票に達し下院の民主党236議席は揺るがない。一方、上院で民主党が52議席へ突き抜けられないのは、トランプ系スーパーPACの4億ドルが保守層を固める裏で、共和党候補自身が政権の関税や外交を批判して無党派層の離反を防ぐ「分業型の防戦」が赤い州で機能しているためで、51議席にとどまる。この分割投票戦術が崩れれば52議席へ引き上げる。",
+    "hypothesis_status": "refined",
+    "change_reason": "前日の「共和党の外部資金による防波堤」仮説を、本日判明した「トランプ系PACの4億ドル支援と候補者本人の反トランプ広告による分業戦術」へと精緻化した。下院の強い追い風と上院の分割投票による拮抗という構造が裏付けられたため、議席予測（上院51・下院236）は維持し、2988万票に達した期日前投票の貯金を反映して勝率のみ微修正した。",
+    "analysis": "投票日まで残り8日となり、なぜこれほどの政権逆風下で上院の赤い州が完全決壊しないのか、そのカラクリがAdImpactの最新広告分析（総額110億ドル規模）から判明した。象徴的なのはニューハンプシャー州の共和党候補スヌヌ氏だ。最新広告で「トランプ氏に会ったこともない」と絶縁をアピールし、イラン戦争や対カナダ貿易戦争を公然と批判している。ところがその裏で、トランプ氏のスーパーPAC（総額4億ドル投入）はスヌヌ氏支援に1300万ドルを投じている。つまり、大統領の資金力で低投票率のMAGA層を掘り起こしつつ、候補者本人は政権批判で中道・無党派層を引き留める「公認のロールプレイ」が展開されているのだ。これがSilver Bulletinのモデル（民主党上院勝率76%）ほど実際の議席が伸びない理由であり、オハイオやテキサスでも同様の保守回帰・分割投票が働くため上院は51対49を見込む。一方、個人の知名度で政権と距離を置きにくい下院では、Ipsos調査の民主党9ptリード（物価対策支持率20%）と全国2988万票の期日前投票の波が直撃するため、民主党236議席は極めて堅い。",
+    "key_news": [
+      {
+        "title": "Reuters/Ipsos調査で民主党が下院投票先で9ptリード（53%対44%）、大統領の物価対策支持率は20%に低迷",
+        "source": "Ipsos / Reuters",
+        "url": "https://www.ipsos.com/en-us/democrats-hold-9-point-edge-midterm-congressional-ballot",
+        "impact": "D+"
+      },
+      {
+        "title": "中間選挙の広告費が過去最高の110億ドル突破へ、トランプ系PACが4億ドル投じる裏で共和党候補は政権との違いを強調",
+        "source": "Inside Elections",
+        "url": "https://insideelections.com/the-issues-fueling-the-most-expensive-ad-war-in-midterm-history/",
+        "impact": "R+"
+      },
+      {
+        "title": "全国の期日前・郵便投票が約2988万票に到達、週末明けでさらにペース加速",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "Silver Bulletinが上院全選挙区を検証、モデル（民主党勝率76%）と予測市場の乖離を分析",
+        "source": "Silver Bulletin",
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+        "title": "2026 Midterm Election Forecast: Senate & House | Silver Bulletin"
+      },
+      {
+        "url": "https://whoshowsup.net/polls",
+        "title": "2026 Midterm Polls: Every Senate, Governor and House Poll | Who Shows Up"
+      },
+      {
+        "url": "https://www.ipsos.com/en-us/democrats-hold-9-point-edge-midterm-congressional-ballot",
+        "title": "Democrats hold 9-point edge on midterm congressional ballot | Ipsos"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6169626-early-voting-battleground-states-democrats-republicans/",
+        "title": "Early voting surge in battleground states fuels Democrats' hopes"
+      },
+      {
+        "url": "https://www.newscubby.com/briefings/early-voting-numbers-2026-midterms-october-25-2026",
+        "title": "Early voting numbers 2026: How many have already voted, and where | NewsCubby"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/texas-results",
+        "title": "Texas Midterm Elections 2026: Key Races, Candidates ..."
+      },
+      {
+        "url": "https://insideelections.com/the-issues-fueling-the-most-expensive-ad-war-in-midterm-history/",
+        "title": "The Issues Fueling the Most Expensive Ad War in Midterm History – Inside Elections"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house-independent-expenditure-cheat-sheet",
+        "title": "House Independent Expenditure Cheat Sheet"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+        "title": "2026 CPR Senate Race ratings"
+      },
+      {
+        "url": "https://insideelections.com/ratings/senate/",
+        "title": "Senate"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.063,
+    "tokens": {
+      "prompt": 10188,
+      "completion": 2859,
+      "reasoning": 1220
+    }
   }
 ]

@@ -1756,5 +1756,114 @@
       "completion": 5905,
       "reasoning": 4138
     }
+  },
+  {
+    "date": "2026-10-27",
+    "generated_at": "2026-10-27T07:00:05+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 63,
+    "house_control_prob_dem": 90,
+    "comment": "テキサスは赤くならず、上院の一本足は今日も立っている",
+    "hidden_dynamics": [
+      "「全激戦区が一斉にRへ締まる」という昨日の観測は、今日のテキサス各社（エマーソン+2、アクティボート51-49、TPOR+4）とNH（パパス+6）で部分的に反転した。一方向の収束はヘルディングだった可能性が高い。",
+      "共和はアラスカ・アイオワ・カンザスで世調を戻したが、これは逆に『守る州』が増えた証拠で、攻めに回す資金（TX・ME・MI）が薄まっている。資金の矢印と世調の矢印が逆を向く時は世調を疑う。",
+      "ラスムッセンのジェネリックD+4→D+5は共和寄りハウスの中でも動いており、彼らの傾向補正後も民主リードが残ることを示す。無党派の経済不満が政権与党への審判として固定化しつつある。"
+    ],
+    "hypothesis_title": "収束はヘルディング、実勢はTX・NHで民主下支え",
+    "hypothesis": "昨日の『全州一様なR方向締め＝ヘルディング疑い』という核を精緻化する。今日、テキサスは各社横並びでタラリコが±0〜+4、NHはパパス+6とむしろ民主が固まり、一方向収束は反転した。つまり世調平均の見かけの締めはモデル同調的なノイズで、実勢は『下院＝政権審判（D+9）、上院＝候補の質と地域』のまま。上院はNC＋OH＋MI＋NHで49-50、TXかMEの一方で51という構造を維持する。棄却条件は、TXで共和系含め全社がPaxson/共和リードへ反転、またはMEでコリンズが平均+2超に出る、のいずれか。",
+    "hypothesis_status": "refined",
+    "change_reason": "前日のR方向収束は一部反転（TXは民主僅差、NHは民主拡大）し、上院51の一本足構造は維持。ジェネリックもD+9で不変のため、議席数・確率は据え置き。",
+    "analysis": "【上院】現状53R-47D、必要純増4。クーパー(NC)で48、ブラウン(OH+3)＋エルサイード(MI+2)＋パパス(NH、ほぼ確定)で50、TX(タラリコ+1.5平均)かME(コリンズ・ジャクソン±0)の一方で51。今日の新材料はTXが共和反転せず民主僅差を保ったこと、NHがラスムッセンでさえパパス+6と固まったこと。警戒は2点：TXはパクストンの知名度と資金で終盤に寄る可能性、MEは現職コリンズの地元組織。両州が同日にRへ振れる相関を織り込み、中央値51・下振れ49・上振れ53。VIX的にヘルディングは剥がれつつあり、私の63%は「TX/MEの少なくとも一方」を取る賭け。【下院】ジェネリックD+9（Silver、イプソス53-44）、共和寄りラスムッセンでもD+5。サバトは223区が最低Lean D、Cookは接戦の共和維持が蒸発。区割り改定(TX/MO/NC)の歯止めを差し引いて236は妥当な中央値だが、上院で見えたsplit-ticketが下院に届けば235前後。240超の強気は採らない。【持ち越し】①TX世調が共和リードへ反転するか、②MEでコリンズ+2超、③オハイオ最終週のTV投入、④期日前の予想比。",
+    "key_news": [
+      {
+        "title": "ロイター/イプソス世調：ジェネリックで民主が9点リード（53-44、投票意思層）",
+        "source": "Ipsos",
+        "url": "https://www.ipsos.com/en-us/democrats-hold-9-point-edge-midterm-congressional-ballot",
+        "impact": "D+"
+      },
+      {
+        "title": "エマーソン/ネクスター世調：テキサス上院はタラリコ48-パクストン46で民主2点リード",
+        "source": "USA Today",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/26/texas-senate-polls-show-james-talarico-leading-ken-paxton/92381980007/",
+        "impact": "D+"
+      },
+      {
+        "title": "メイン上院はFox・トラファルガーともにタイ（49-49／47-47）、コリンズ固め",
+        "source": "RealClearPolling",
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "impact": "neutral"
+      },
+      {
+        "title": "ラスムッセン世調：ジェネリック民主リードが+4から+5へ拡大（48-43）",
+        "source": "Rasmussen Reports",
+        "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_oct26",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Latest Senate Polls: Midterm Elections 2026"
+      },
+      {
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/26/texas-senate-polls-show-james-talarico-leading-ken-paxton/92381980007/",
+        "title": "Texas Senate polls: How Talarico, Paxton compare before Election Day"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/2026-rating-changes/",
+        "title": "2026 Rating Changes - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://midtermmonday.com/movers",
+        "title": "Midterm Mondays"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings",
+        "title": "CPR Race Ratings"
+      },
+      {
+        "url": "https://www.ipsos.com/en-us/democrats-hold-9-point-edge-midterm-congressional-ballot",
+        "title": "Democrats hold 9-point edge on midterm congressional ballot | Ipsos"
+      },
+      {
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "title": "Generic Congressional Ballot: Latest Polls | Silver Bulletin"
+      },
+      {
+        "url": "https://www.rasmussenreports.com/public_content/politics/mood_of_america/generic_congressional_ballot_oct26",
+        "title": "Generic Congressional Ballot - Rasmussen Reports®"
+      },
+      {
+        "url": "https://www.cbsnews.com/news/poll-house-estimate-midterm-elections-2026/",
+        "title": "CBS News poll finds Democrats still boosted by voters' economic concerns, but many don't think either party has a plan - CBS News"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0268,
+    "tokens": {
+      "prompt": 11092,
+      "completion": 3083,
+      "reasoning": 1475
+    }
   }
 ]

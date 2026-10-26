@@ -1694,5 +1694,110 @@
       "completion": 4710,
       "reasoning": 2827
     }
+  },
+  {
+    "date": "2026-10-27",
+    "generated_at": "2026-10-27T07:00:05+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 52,
+    "house_control_prob_dem": 96,
+    "comment": "共和の財布が正直者。撤退先はNC、増援先はKSだった",
+    "hidden_dynamics": [
+      "SLFがNCに3000万ドル以上つぎ込んだ末に「一時停止」し、同額級980万ドルを深紅のKSへ新規投入——出資先の移動は内部世論の破綻地点をそのまま地図化したものだ。言葉より予約表が正直である。",
+      "NRSCの9月の反転目標リストにミシガンだけでなくニューハンプシャーが入っている。波の報道に埋もれているが、民主側も現職引退の空席を同時に晒しており、減衰器は一方的ではない。",
+      "NC早期投票の党派別シェアは「登録政党」ベースで、実際の実数は無党派が34〜41%を占める。しかも共和は当日投票に偏るため、11月3日には差が必ず圧縮される。波は実在するが、今日の数字はその規模を過大表示している。"
+    ],
+    "hypothesis_title": "資金移動が波を実証、ただし規模は過大",
+    "hypothesis": "「熱量格差は実在し、LVスクリーンが過小表示する」を維持しつつ、検証軸を態度データから資金データへ移す。反証条件(2)のトリアージは、想定と逆向きの形で成立した。撤退したのはAKでもTXでもなくNCで、増援したのはKSとOH・IAだった。これは共和内部でNCが既に落ち、KSが想定外に危険という序列を意味する。同時にNCのDay12早期投票は154万→158万票、共和シェア23.6%で私の閾値28%を大きく下回り、反証条件(1)も三度目の不発。よって上院の期待値は50.8〜51.3。ただしNH・MNの民主側流出を新たに織り込み、中央値は51に留める。反証条件:(1)NC当日投票で共和シェアが35%超へ跳ねる、(2)SLFがKSからも撤退(=KS放弃、その場合TX/MEで相殺が必要)、(3)10月中の閉鎖決着。",
+    "hypothesis_status": "refined",
+    "change_reason": "NC獲得確率を0.70→0.78、KSを0.30→0.35へ上げ、代わりにNH流出0.20を新規計上したため期待値は51.0→50.9とほぼ横ばい。議席はD51-R49を維持し、下位テールが太くなった分だけP(D上院)を53%→52%へ微減した。",
+    "analysis": "今日の主戦場は「誰が金を動かしたか」だ。Semafor→Politico→WaPo→NBCと四媒体が同じ動きを追い、SLFのNC一時停止とKS新規980万ドルが確定した。3000万ドルを沉めてなお撤退するのは、内部調査がCooper(民主)の勝ちを告げているからにほかならない。NCはこれで態度・行動・資金の三系統すべてが民主方向に揃った。早期投票は158万3181票、民主41.6%・共和23.6%、郵便6万枚が合算されても共和は18%のまま。私の閾値28%には一度も届いていない。獲得期待値はOH0.72、NC0.78、MI0.84、TX0.50、ME0.48、AK0.45、KS0.35、IA0.28で約4.40。流出はMN0.24、NH0.20、GA0.10で0.54。E[D]≒50.9、中央値51。ただし50-50は副大統領が共和のため敗北であり、51には四つ目の州が要る。最も脆いのはTXで、Rasmussen45-45とTPOR Talarico+4の乖離が未解決のまま。逆に最も固い上乗せはKSで、SLFの panic 投入そのものがMarshall劣勢の告白になっている。MEはTrafalgar47-47以降の新調査が取れず据え置き、Collinsの天井49は崩れていない。下院は本日ハードデータなし。Cook D有利220・CO-04のSolid R→Lean R降格を維持し、238は動かさない。明日の自分へ:(1)SLFがKSからさらに上乗せするか、それともTXへ回すか——配分の再変更が最良のシグナル、(2)NC当日投票・無党派の分解、(3)NHの初調査(民主流出の実在性)、(4)ME追加調査、(5)閉鎖協議。",
+    "key_news": [
+      {
+        "title": "SLFがノースカロライナ上院選の広告を停止、深紅のカンザスへ9.8百万ドルを新規投入",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-election/gop-super-pac-pauses-spending-north-carolina-senate-race-shift-kansas-rcna601134",
+        "impact": "D+"
+      },
+      {
+        "title": "共和系グループがNCから撤退、MarshallがHamiltonに劣勢との内部警戒が背景",
+        "source": "The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026-10-02/top-republican-group-shifts-money-nc-kansas-gop-woes-worsen/",
+        "impact": "D+"
+      },
+      {
+        "title": "NC早期投票158万3181票:登録民主41.6%・共和23.6%、郵便返送分でも共和18%止まり",
+        "source": "On Point Politics",
+        "url": "https://onpointpolitics.us/maps/early-vote/north-carolina",
+        "impact": "D+"
+      },
+      {
+        "title": "NRSCの反転目標はミシガンとニューハンプシャー、防衛はME・AK・OH・IA・TX——NCとGAは対象外",
+        "source": "Politico",
+        "url": "https://www.politico.com/news/2026-09-23/nrsc-tim-scott-georgia-north-carolina-senate-01090764",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.pollytic.net/us/north-carolina",
+        "title": "North Carolina Polls 2026: Senate Race Polling Average | Pollytic"
+      },
+      {
+        "url": "https://votes.decisiondeskhq.com/races/2026-11-03/north-carolina-us-senate-general-election/early-voting",
+        "title": "2026 North Carolina US Senate Early Voting | DDHQ"
+      },
+      {
+        "url": "https://afightworthhaving.com/polling/2026/north-carolina/senate",
+        "title": "North Carolina U.S. Senate poll | RedBox Research | A Fight Worth Having"
+      },
+      {
+        "url": "https://onpointpolitics.us/maps/early-vote/north-carolina",
+        "title": "North Carolina Early Vote Tracker 2026: Ballots Cast by County | On Point Politics"
+      },
+      {
+        "url": "https://www.axios.com/2026/10/08/republicans-triage-campaign-midterms",
+        "title": "Republican midterm triage puts bleak outlook into focus"
+      },
+      {
+        "url": "https://www.politico.com/news/2026/09/23/nrsc-tim-scott-georgia-north-carolina-senate-01090764",
+        "title": "NRSC Chair Tim Scott leaves Georgia, North Carolina off his list of top Senate targets - POLITICO"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-election/gop-super-pac-pauses-spending-north-carolina-senate-race-shift-kansas-rcna601134",
+        "title": "GOP super PAC cancels spending in North Carolina Senate race, shifting money to Kansas"
+      },
+      {
+        "url": "https://www.axios.com/2026/09/24/nrsc-republicans-alaska-iowa-ohio",
+        "title": "Scoop: NRSC pleads for $9M to defend three red seats"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/02/top-republican-group-shifts-money-nc-kansas-gop-woes-worsen/",
+        "title": "Top Republican group shifts money from N.C. to Kansas as GOP woes worsen - The Washington Post"
+      },
+      {
+        "url": "https://www.politico.com/news/2026/10/02/republicans-slf-scale-back-north-carolina-senate-spending-01104964",
+        "title": "Top GOP groups retreat from North Carolina Senate race as hopes fade - POLITICO"
+      },
+      {
+        "url": "https://www.semafor.com/article/10/02/2026/republicans-pull-ad-spending-from-north-carolina",
+        "title": "Top GOP group pauses Senate spending in N.C., goes up ..."
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0674,
+    "tokens": {
+      "prompt": 25942,
+      "completion": 4233,
+      "reasoning": 2416
+    }
   }
 ]

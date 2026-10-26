@@ -860,5 +860,71 @@
       "completion": 1520,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-27",
+    "generated_at": "2026-10-27T07:00:05+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 58,
+    "house_control_prob_dem": 87,
+    "comment": "新情報は薄い。動かない数字も、最終盤では立派な予測だ",
+    "hidden_dynamics": [
+      "TXとMEの同率は、民主の勢いというより共和支持層が最後に戻る前の途中経過かもしれない。2016年と2024年は、最後の1週間に未決定層が共和へ流れた。",
+      "早期投票で民主が優位でも、それは当日投票の共和支持層が来る前の見かけにすぎない。総投票数が増えるとは限らない。"
+    ],
+    "hypothesis_title": "僅差のリードは五分五分",
+    "hypothesis": "上院では共和党の戻りが遅く、TXとMEは共和系の調査でも同率まで来ている。OHはBrown氏が僅差でリードしている。ただし2016年と2024年のように、調査は共和支持層を過小評価した恐れがある。そのため、民主の僅差リードは実質五分五分とみる。下院は総合投票D+7前後で、不利な区割りを吸収できる。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "本日は検索で新情報を確認しておらず、仮説を覆す材料もないため、議席数は据え置いた。上院の民主支配確率だけ、調査誤差の余地を考えて1ポイント下げた。",
+    "analysis": "【上院】民主党はNC、ME、OHに加えて、TX、AK、IAのうち1議席が必要だ。NCはCooper氏が約10ポイントリードし、ほぼ確保済みとみる。OHはBrown氏が3〜5ポイント差で先行している。MEは共和系のTrafalgarもFoxも同率で、Collins氏は2024年に調査を上回った歴史があり、決着はまだ見えない。TXは平均でTalarico氏+2程度だが、2024年にトランプ氏が2桁で勝った州なので、調査の過大評価に注意が要る。1議席を落とせば50-50で、副大統領により共和党が支配する。【下院】総合投票D+7前後、大統領支持率35対59台という環境から、233議席を維持する。モデル間の差は大きく、225から234議席の幅がある。不利な区割りが最大のリスクだ。明日は、TXとIAの党派別早期投票、AKの中立調査、市場価格を確認し、Paxton氏のリード調査やD+5以下の総合投票が出れば仮説を見直す。",
+    "key_news": [
+      {
+        "title": "RCP平均でTXはTalarico氏+1.8、MEはFoxで同率",
+        "source": "RealClearPolling",
+        "url": "https://www.realclearpolling.com",
+        "impact": "D+"
+      },
+      {
+        "title": "Trafalgar(共和系)もMEで同率と報告",
+        "source": "RealClearPolling",
+        "url": "https://www.realclearpolling.com",
+        "impact": "neutral"
+      },
+      {
+        "title": "NPR: 全米の早期投票が約2,100万票、郵送の民主優位は縮小",
+        "source": "NPR",
+        "url": "https://www.npr.org",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.realclearpolling.com",
+        "title": "RCP平均でTXはTalarico氏+1.8、MEはFoxで同率"
+      },
+      {
+        "url": "https://www.realclearpolling.com",
+        "title": "Trafalgar(共和系)もMEで同率と報告"
+      },
+      {
+        "url": "https://www.npr.org",
+        "title": "NPR: 全米の早期投票が約2,100万票、郵送の民主優位は縮小"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0242,
+    "tokens": {
+      "prompt": 4940,
+      "completion": 1190,
+      "reasoning": 0
+    }
   }
 ]

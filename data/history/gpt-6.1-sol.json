@@ -1016,5 +1016,114 @@
       "completion": 1714,
       "reasoning": 249
     }
+  },
+  {
+    "date": "2026-10-27",
+    "generated_at": "2026-10-27T07:00:05+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 50,
+      "rep": 50
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 48,
+    "house_control_prob_dem": 85,
+    "comment": "青い追い風でも、上院の関所は赤信号。",
+    "hidden_dynamics": [
+      "民主優位が投票見込み層への絞り込みで拡大する点は、支持の広がりより参加意欲の差を映している可能性がある。共和寄りの低頻度投票者が最終週に戻れば、全国調査と複数の接戦州が同時に外れうる。",
+      "全国的な民主優位と上院接戦の併存は、必ずしも矛盾しない。民主票が安全区で積み上がる一方、共和寄り州では候補個人票と地盤が全国的逆風を吸収する、という説明が成り立つ。",
+      "期日前投票の記録更新は、両党の動員競争の激しさを示しても勝者は示さない。共和側も強調している以上、民主の参加純増と決めつけず、新規参加者と従来の当日投票者の前倒しを分けたい。"
+    ],
+    "hypothesis_title": "下院の追い風、上院の関所",
+    "hypothesis": "前日の「説得と参加の二段階」を維持する。全国調査の民主優位は下院の広い接戦群を支えるが、上院では共和寄り州の地盤と候補個人票が波をせき止める。投票見込み層で民主優位が強まる点は動員力の証拠にも、参加想定への依存にもなる。２０１６・２０２４年型の共和票過小把握は共通リスクとして残す。複数の独立州別調査と低頻度層の参加純増が同じ方向を示せば、この上下院の分離仮説を見直す。",
+    "hypothesis_status": "kept",
+    "change_reason": "全国の民主優位を補強する材料はあるが、新たな州別・選挙区別の勝敗変更を裏づける証拠は足りず、下院民主233を維持する。上院は民主の現有陣営維持とノースカロライナ、オハイオ、メーンの純増３を中心経路とし、民主50、同数時は共和側が支配する前提も据え置く。",
+    "analysis": "今日の検証では、民主への全国的追い風と上院の難しさが併存する仮説を維持する。26日付のイプソスは投票見込み層で民主９ポイント優位だが、全国差から接戦区の追加獲得を機械的には計算しない。平均値も同程度という一致は安心材料である半面、共通の参加想定や調査の収斂なら独立した保証にならない。上院はノースカロライナの民主優位、オハイオの候補個人票が強みで、メーンの共和現職票とミシガンの民主防衛が弱点。テキサスの投票増だけでは民主への追加議席を認めない。下院は郊外の不満票が民主を支える一方、共和の農村票回収が最大の反証になる。IA01・03、PA07・10、NY17、AZ06の新規参加者構成を優先確認したい。取得記事の公開時刻は一部未確認で、すべてを締切前24時間の新情報とは扱わない。明日は調査の依頼主、実施期間、低頻度層の扱いを照合する。",
+    "key_news": [
+      {
+        "title": "上院激戦州の整理：ノースカロライナで民主優勢、オハイオでも民主先行",
+        "source": "ロイター",
+        "url": "https://www.investing.com/news/politics-news/factboxthe-races-that-will-decide-control-of-the-us-senate-4971841",
+        "impact": "D+"
+      },
+      {
+        "title": "26日付調査で下院投票先は民主53％、共和44％。対象は投票見込み層",
+        "source": "イプソス",
+        "url": "https://www.ipsos.com/en-us/democrats-hold-9-point-edge-midterm-congressional-ballot",
+        "impact": "D+"
+      },
+      {
+        "title": "26日更新の全国平均は民主９ポイント優位、投票見込み層補正後は9.5ポイント",
+        "source": "シルバー・ブレティン",
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "impact": "D+"
+      },
+      {
+        "title": "テキサスの期日前投票初日の記録的参加を報道。直近24時間の新報かは未確認",
+        "source": "フォックス・ニュース",
+        "url": "https://www.foxnews.com/video/6407209123112",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.investing.com/news/politics-news/factboxthe-races-that-will-decide-control-of-the-us-senate-4971841",
+        "title": "Factbox-The races that will decide control of the US Senate By Reuters"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/26/midterm-polls-republicans-democrats-tied-senate/92382198007/",
+        "title": "Polling tightens to virtual ties in key red-state Senate races"
+      },
+      {
+        "url": "https://www.reuters.com/world/us/elections/",
+        "title": "2026 Midterm Elections News | Top Headlines, Latest Polls ..."
+      },
+      {
+        "url": "https://votes.decisiondeskhq.com/polls",
+        "title": "Decision Desk HQ Votes"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://www.cbsnews.com/texas/news/what-early-voting-trends-and-predictions-for-midterm-election-in-texas-show-so-far/",
+        "title": "What early voting trends and predictions for midterm election in Texas show so far - CBS Texas"
+      },
+      {
+        "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+        "title": "Voter turnout is soaring in some key states, AP analysis shows | AP News"
+      },
+      {
+        "url": "https://www.foxnews.com/video/6407209123112",
+        "title": "Texas sees record-breaking turnout on first day of early voting"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings | Cook Political Report"
+      },
+      {
+        "url": "https://www.ipsos.com/en-us/democrats-hold-9-point-edge-midterm-congressional-ballot",
+        "title": "Democrats hold 9-point edge on midterm congressional ballot | Ipsos"
+      },
+      {
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "title": "Generic Congressional Ballot: Latest Polls | Silver Bulletin"
+      },
+      {
+        "url": "https://www.cookpolitical.com/print/ratings/races/house",
+        "title": "2026 House Race Ratings"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0543,
+    "tokens": {
+      "prompt": 14343,
+      "completion": 1849,
+      "reasoning": 387
+    }
   }
 ]
