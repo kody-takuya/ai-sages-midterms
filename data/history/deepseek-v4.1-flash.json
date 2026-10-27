@@ -1865,5 +1865,114 @@
       "completion": 3083,
       "reasoning": 1475
     }
+  },
+  {
+    "date": "2026-10-28",
+    "generated_at": "2026-10-28T07:00:04+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 237,
+      "rep": 198
+    },
+    "senate_control_prob_dem": 68,
+    "house_control_prob_dem": 92,
+    "comment": "上院は一本足から二本足へ——波は満ちたが赤州の土手はまだ低い",
+    "hidden_dynamics": [
+      "共和の資金がカンザスやミシシッピなど『勝って当然』の深紅州にまで流れている（PBS）。防衛的な支出拡大は、共和内部の世調が本来安全なはずの議席で崩れている証拠で、表面的な接戦報道より雄弁な弱さのサインだ。",
+      "サバトはKY-6、MT-1、CO-5、MO-2、PA-1、VA-5など赤寄りの共和議席を『メガウェーブ可能性を反映して』一斉にトスアップへ動かした。選挙直前の格付け機関の予防的ヘッジで、地力より『床の高さ』が上がっていることを示す。",
+      "市場は『民主が両院＝63%』と一括りにするが、実態の非対称は『下院はほぼ確定、上院は紙一重』。真のテールリスクは赤州上院（TX/OH）の同日相関的な世調誤差で、ここだけが2016/24型の逆転が残る場所だ。"
+    ],
+    "hypothesis_title": "中間選挙型の波、赤州上院も耐える",
+    "hypothesis": "核は『2016/2024型の隠れ共和票は大統領選固有の現象』という判断だ。赤州・ヒスパニック・低投票率層での世調誤差は大統領年特有で、中間選挙（2018）では世調はむしろ正確、波は全国化した。今回はその2018型——トランプ不支持（NPR/PBS）が期日前を押し出し、候補の質で上院4激戦（TX D+2.4/OH D+3.2/AK D+3.7/ME D+2）を民主が揃って先行、NCはほぼ確定。1つ落としても51-53に届くため中央値を52へ引き上げる。棄却条件は、TXで共和系含め全社がパクストン・リードへ揃う、MEでコリンズが平均+2超、または共和資金が赤州から外へ攻勢転換した場合。",
+    "hypothesis_status": "refined",
+    "change_reason": "上院を51→52へ。共和保持4激戦すべてで民主先行（Silver平均）＋TXのUnivision D+5・AKの民主回帰で『1つ落としても多数派』が現実味を帯びたため。下院はジェネリックD+8.6とサバトの230s台で236→237へ微増。",
+    "analysis": "【上院】現状53R-47D、必要純増4（50-50はVance副大統領で共和支配のため実質5）。クーパー(NC)ほぼ確定で48、ブラウン(OH D+3.2)・エルサイード(MI)で50、さらにTX(Talarico D+2.4〜5)・AK(Peltola D+3.7)・ME(Jackson D+2)のいずれか2つで52が中央値。4激戦すべてD先行かつ1つ捨てても届く構造は昨日より明確に厚い。警戒は赤州上院の同日誤差：TXはパクストンの知名度・資金で終盤に寄り得る、MEはコリンズの地元組織。両州同時反転なら49まで下振れ、逆に4州全てなら54。マリストME 49-47は横ばいで『抜け出し』なし、TX Univision 50-45は単独ではなく傾向の裏付け。Pは63→68へ。【下院】ジェネリックD+8.6（PollCheck）、NPRはTrump不支持が期日前を駆動、サバトは『230s台、235超も視野』で赤寄り共和6区をトスアップ化。区割り改定(TX/MO/NC)の歯止めは残るが、共和の防衛資金がKS/MSへ漏れる姿は地滑りの予兆。237は妥当な中央値、240超の強気はなお採らない。【持ち越し】①TX世調がPaxsonリードへ反転するか、②MEコリンズ+2超、③共和資金が赤州防衛から攻勢へ転じるか、④期日前の『予想比』と当日共和上積みの有無。",
+    "key_news": [
+      {
+        "title": "マリスト調査でメインはジャクソン49-47、コリンズは抜け出せず横ばい",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/27/latest-polls-in-2026-midterms-democrats-lead-in-michigan-texas-maine-updated-daily/",
+        "impact": "D+"
+      },
+      {
+        "title": "テキサスはUnivision/YouGovでタラリコ50-45と民主が5点先行",
+        "source": "Univision/YouGov (Forbes経由)",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/27/latest-polls-in-2026-midterms-democrats-lead-in-michigan-texas-maine-updated-daily/",
+        "impact": "D+"
+      },
+      {
+        "title": "サバト、共和寄り6区をトスアップへ移動。下院は230s台、235超も視野と明記",
+        "source": "Sabato's Crystal Ball",
+        "url": "https://sabatoscrystalball.substack.com/p/democrats-appear-to-hold-narrow-senate",
+        "impact": "D+"
+      },
+      {
+        "title": "予測市場は民主の両院制覇を63%、下院92%・上院65%と安定して民主有利",
+        "source": "CNBC / Kalshi / Polymarket",
+        "url": "https://www.cnbc.com/2026/10/27/2026-midterms-prediction-markets-democrats-congress.html",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/27/latest-polls-in-2026-midterms-democrats-lead-in-michigan-texas-maine-updated-daily/",
+        "title": "Latest Polls In 2026 Midterms: Democrats Lead In ..."
+      },
+      {
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+        "title": "FLIPR 2026 midterm election forecast"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6175621-midterm-elections-polls-close-results/",
+        "title": "2026 midterm elections: When polls close; when results ..."
+      },
+      {
+        "url": "https://sabatoscrystalball.substack.com/p/democrats-appear-to-hold-narrow-senate",
+        "title": "Democrats Appear to Hold Narrow Senate Edge with Week to Go; Rating Changes for Senate, House, and Governors"
+      },
+      {
+        "url": "https://www.pbs.org/newshour/politics/poll-likely-voters-favor-democrats-as-trump-disapproval-drives-early-turnout",
+        "title": "What our final poll before Election Day says about midterms and Trump | PBS News"
+      },
+      {
+        "url": "https://www.pollcheck.co.uk/us-midterms-2026/generic-ballot",
+        "title": "Generic Ballot Polls 2026: Dems vs Republicans | PollCheck"
+      },
+      {
+        "url": "https://www.npr.org/2026/10/27/nx-s1-6017479/2026-midterms-npr-poll-democrats-trump-approval",
+        "title": "New poll shows Democrats have midterm edge, with caution signs : NPR"
+      },
+      {
+        "url": "https://kalshi.com/category/elections/midterms",
+        "title": "2026 Midterm Election Predictions & Odds: Live Senate, House & Governor Forecasts | Kalshi"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/10/27/2026-midterms-prediction-markets-democrats-congress.html",
+        "title": "2026 midterms: Prediction markets favor Democratic Congress sweep"
+      },
+      {
+        "url": "https://kevinmdeluca.com/forecast/",
+        "title": "Election Forecast Tracker · Election Forecast Tracker"
+      },
+      {
+        "url": "https://polymarket.com/predictions/midterms",
+        "title": "2026 Midterms Election Odds & Predictions"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0228,
+    "tokens": {
+      "prompt": 10935,
+      "completion": 4775,
+      "reasoning": 3047
+    }
   }
 ]

@@ -926,5 +926,75 @@
       "completion": 1190,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-28",
+    "generated_at": "2026-10-28T07:00:04+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 87,
+    "comment": "テキサスで民主が先行。それでも誤差は静かに待っている",
+    "hidden_dynamics": [
+      "TXでは調査7件の平均がTalarico氏+3程度だが、2024年にトランプ氏が2桁で勝った州だ。民主系有権者の回答率が高い可能性が残る。",
+      "MEのMaristは民主系ではない調査だが、Jackson氏+2にとどまる。Collins氏が2024年に調査を上回った例を考えると、1議席を決めるのは僅差の誤差だ。"
+    ],
+    "hypothesis_title": "民主僅差リードは誤差圏内",
+    "hypothesis": "上院では民主党がTX、ME、OHで僅差のリードを持つ。ただし2016年と2024年のように、調査が共和支持層を過小評価した恐れがある。そのため、僅差のリードは実質五分五分とみる。下院は総合投票D+7前後で、不利な区割りを吸収できる。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "TXとMEで新しい調査が民主党にやや有利だったため、上院支配確率を1ポイント上げた。ただし誤差の余地があるため、議席数は据え置いた。",
+    "analysis": "【上院】TXは7件の平均でTalarico氏+3程度だった。Univision/YouGovは50対45、Emersonは49対48、Foxは同率だ。MEのMaristではJackson氏が49対47でリードした。ただし両州とも誤差圏内であり、共和支持層の過小評価という2016年・2024年型の誤差が出れば、民主の勝ち筋は細くなる。NC、OHに加えてME、TX、AK、IAの中から勝ち筋が必要だ。1議席を落とせば50-50で、副大統領により共和党が支配する。【下院】総合投票D+7前後、大統領支持率35対59台という環境は変わらず、233議席を維持する。不利な区割りが最大のリスクだ。明日は、TXの党派別早期投票、AKとIAの中立調査、市場価格を確認する。",
+    "key_news": [
+      {
+        "title": "Univision/YouGovの調査で、TXはTalarico氏50対Paxton氏45。MEのMaristはJackson氏49対Collins氏47",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/27/latest-polls-in-2026-midterms-democrats-lead-in-michigan-texas-maine-updated-daily/",
+        "impact": "D+"
+      },
+      {
+        "title": "TXの7件平均は、Talarico氏49.6対Paxton氏46.7。Foxは同率、InsiderAdvantageはPaxton氏+1",
+        "source": "270toWin",
+        "url": "https://www.270towin.com/2026-senate-polls/texas",
+        "impact": "D+"
+      },
+      {
+        "title": "TXの早期投票が中間選挙として記録的な水準。6件中5件でTalarico氏がリード",
+        "source": "Newsweek",
+        "url": "https://www.newsweek.com/james-talarico-vs-ken-paxton-what-texas-polls-show-one-week-before-midterm-12621879",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/texas-us-senate-election-polls-2026.html",
+        "title": "Texas U.S. Senate Election 2026: Latest Polls"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/27/latest-polls-in-2026-midterms-democrats-lead-in-michigan-texas-maine-updated-daily/",
+        "title": "Latest Polls In 2026 Midterms: Democrats Lead In ..."
+      },
+      {
+        "url": "https://www.newsweek.com/james-talarico-vs-ken-paxton-what-texas-polls-show-one-week-before-midterm-12621879",
+        "title": "James Talarico vs. Ken Paxton—What Texas polls show ..."
+      },
+      {
+        "url": "https://www.270towin.com/2026-senate-polls/texas",
+        "title": "2026 Polls: Texas Senate - 270toWin"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0367,
+    "tokens": {
+      "prompt": 11275,
+      "completion": 1321,
+      "reasoning": 0
+    }
   }
 ]

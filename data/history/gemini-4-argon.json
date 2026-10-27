@@ -1177,5 +1177,110 @@
       "completion": 2859,
       "reasoning": 1220
     }
+  },
+  {
+    "date": "2026-10-28",
+    "generated_at": "2026-10-28T07:00:04+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 65,
+    "house_control_prob_dem": 91,
+    "comment": "対面投票1810万票でも縮まらぬ12pt差、共和党の「当日逆転池」が枯渇。",
+    "hidden_dynamics": [
+      "期日前投票が3477万票に達し、保守層が多いはずの「対面期日前投票（1810万票）」が郵便投票（1660万票）を逆転したにもかかわらず、党派別内訳は民主党47%対共和党35%（+12pt）から1ミリも動いていない。",
+      "PBS/NPR/Marist調査のクロス集計で、既投票者の68%対31%が民主党支持である一方、未投票層は両党ほぼ五分（イーブン）に割れていることが判明し、共和党が頼みとする「当日投票での大逆転用の貯水池」がそもそも存在しない構造が浮き彫りになった。",
+      "メイン州上院選のMarist調査で民主党ジャクソン氏が49%対47%と僅差リードにとどまっており、全国D+8の猛烈な追い風下でも現職コリンズ議員（共）が2020年同様に世論調査以上の底堅い分割投票を得ている兆候が見える。"
+    ],
+    "hypothesis_title": "対面投票での共和党不発と上院現職の防波堤",
+    "hypothesis": "期日前投票が3477万票に達し対面投票が郵便を上回っても民主党+12pt差が縮まらず、Marist調査でも未投票層が五分にとどまるため、共和党の当日逆転は困難となり下院は民主党238議席へ上振れする。一方、上院はNC州が固まったものの、メイン州で現職コリンズ氏が2pt差に踏みとどまるなど個人の看板と巨額PAC資金による分割投票が機能しており、2020年型の調査誤差も考慮して51議席を維持する。未投票層で共和党が10pt以上優位に立たない限りこの見立てを維持する。",
+    "hypothesis_status": "refined",
+    "change_reason": "週明けの対面期日前投票急増（1810万票）でも共和党が差を詰められず、Sabatoが下院の共和党優勢区を大量に接戦・民主党優勢へ引き下げたため下院を民主党+2議席の238議席へ修正。上院はNC州の固まりで民主党過半数確率を65%へ引き上げたが、メイン州等の僅差と過去の調査誤差を踏まえ51議席を据え置いた。",
+    "analysis": "投票日1週間前となり、当予測が最大の検証ポイントとしていた「対面での期日前投票本格化による共和党の追い上げ」に明確な答えが出た。NBCの27日集計（3477万票）では、ついにウエイトの大きい対面投票（1810万票）が郵便投票（1660万票）を上回ったが、党派比率は民主党47%・共和党35%のまま凍結している。さらに決定的なのは27日発表のPBS/NPR/Marist調査（民主党52%対44%）の中身だ。既投票層で民主党が68%対31%と圧倒する一方、これから投票する未投票層は両党がほぼ拮抗している。2022年や2024年のように「期日前の劣勢を当日の赤い波でひっくり返す」ための未投票保守層の塊が見当たらないのだ。Sabatoが27日、PA-8を民主党優勢へ、PA-1やMO-2、KY-6など共和党の牙城だった郊外・地方区を一斉にトスアップへ動かしたのもこの実投票データの悪化を裏付けており、下院予測を238議席へ引き上げる。一方、上院はSabatoがNC州を「民主党優位（Likely D）」へ引き上げ50議席目の確保は盤石となったが、52議席以上への上積みは慎重に見るべきだ。27日のMarist調査でメイン州は49%対47%のわずか2pt差であり、全調査で劣勢ながら8.6pt差で圧勝した2020年のコリンズ氏の「隠れ支持」や、テキサス州等の外部資金防波堤を考慮し、上院は51対49を維持する。",
+    "key_news": [
+      {
+        "title": "全国の期日前投票が3477万票に到達、対面投票（1810万票）が郵便を上回るも民主党47%対共和党35%の12pt差は維持",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "PBS/NPR/Marist最終世論調査：投票意欲層で民主党が52%対44%と8ptリード、未投票層は両党拮抗",
+        "source": "PBS News",
+        "url": "https://www.pbs.org/newshour/politics/poll-likely-voters-favor-democrats-as-trump-disapproval-drives-early-turnout",
+        "impact": "D+"
+      },
+      {
+        "title": "Sabato's Crystal Ballが予測変更：上院NC州を民主党優位へ、下院PA-8やPA-1など多数の共和党議席を民主党側へシフト",
+        "source": "Sabato's Crystal Ball",
+        "url": "https://centerforpolitics.org/crystalball/2026-rating-changes/",
+        "impact": "D+"
+      },
+      {
+        "title": "注目州の最新調査：メイン州上院は民主党ジャクソン氏が現職コリンズ氏に49%対47%と僅差、テキサス州はタラリコ氏が50%対45%",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/27/latest-polls-in-2026-midterms-democrats-lead-in-michigan-texas-maine-updated-daily/",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.pbs.org/newshour/politics/poll-likely-voters-favor-democrats-as-trump-disapproval-drives-early-turnout",
+        "title": "What our final poll before Election Day says about midterms and Trump | PBS News"
+      },
+      {
+        "url": "https://www.npr.org/2026/10/27/nx-s1-6017479/2026-midterms-npr-poll-democrats-trump-approval",
+        "title": "New poll shows Democrats have midterm edge, with caution signs : NPR"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/27/latest-polls-in-2026-midterms-democrats-lead-in-michigan-texas-maine-updated-daily/",
+        "title": "Latest Polls In 2026 Midterms: Democrats Lead In ..."
+      },
+      {
+        "url": "https://votes.decisiondeskhq.com/forecast/2026",
+        "title": "2026 Midterm Predictions: House & Senate Forecast | DDHQ"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.cnn.com/politics/early-voting-2026-us-midterm-election-vis",
+        "title": "Tracking early voting in the 2026 US midterm election | CNN Politics"
+      },
+      {
+        "url": "https://midtermmonday.com/movers",
+        "title": "Midterm Mondays"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/2026-rating-changes/",
+        "title": "2026 Rating Changes - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://sabatoscrystalball.substack.com/p/democrats-appear-to-hold-narrow-senate",
+        "title": "Democrats Appear to Hold Narrow Senate Edge with Week to Go; Rating Changes for Senate, House, and Governors"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings",
+        "title": "CPR Race Ratings | Cook Political Report"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0709,
+    "tokens": {
+      "prompt": 10366,
+      "completion": 3606,
+      "reasoning": 1878
+    }
   }
 ]

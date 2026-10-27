@@ -1799,5 +1799,114 @@
       "completion": 4233,
       "reasoning": 2416
     }
+  },
+  {
+    "date": "2026-10-28",
+    "generated_at": "2026-10-28T07:00:04+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 53,
+    "house_control_prob_dem": 95,
+    "comment": "カンザスに1400万ドル——赤の海に溺れる者の音",
+    "hidden_dynamics": [
+      "SLFのKS投入が9.8M→14Mへ増額され、SMPも5Mで参戦した。深紅州に両党が計2千万ドル近くを沈める異常事態で、Marshallの個人ブランド(党ブランド依存型)がこの環境で溶けていることを告白している。",
+      "NCの早期投票は共和シェアが23.6%→24.2%へ反転上昇し始めた。郵便が6.6万枚止まりで当日投票偏重に構造変化しており、Trumpが郵便を貶めた結果、共和票が11月3日に集中する設計になっている——私の閾値28%はこの「後ズレ」を織り込む必要がある。",
+      "MEでCollinsが50を超えないままEchelon(LV)51-44、Marist(LV)49-47が同時に出た。LVスクリーンをかけてもJacksonが落ちないのは、私が疑ってきた「高頻度層への寄せ」がMEでは効かない=個人ブランドCollinsの天井が47で確定しつつあることを意味する。"
+    ],
+    "hypothesis_title": "熱は実在、ただし共和票は当日に後ズレ",
+    "hypothesis": "「熱量格差は実在し、LVスクリーンが過小表示する」を維持しつつ、重要な修正を加える。NCの共和シェアが23.6→24.2%へ反転し、郵便投票が激減している事実は、共和票が期日前から当日投票へ移動していることを示す。2016・2024で民主有利の数字が裏切られた機構——低頻度・非都市・非大卒層の当日投票——が今回も同じ方向で働く余地がある。よって早期投票の党派別集計は共和の下限を保証するが上限は保証しない。一方でKSへのSLF14M増額は共和内部調査がMarshall劣勢を告げている証拠で、これは態度・行動データと独立した資金シグナルとして強い。両者を相殺し、上院期待値は51.0近傍、中央値51。反証条件:(1)NC当日投票で共和シェア35%超、(2)SLFがKSから撤退しTXへ回す(KS放棄)、(3)TXでPaxton+3超の調査が二つ連続。",
+    "hypothesis_status": "refined",
+    "change_reason": "MEでLV調査2本がJackson+2〜+7を出しCollins50超の不発が確定したため獲得確率を48→56%へ、KSはSLF14M増額とSMP参戦を重く見て35→45%へ上げた。逆にNCは共和シェアの反転上昇を警戒し78→76%へ小幅に下げ、期待値は約51.0で前日とほぼ同水準。中央値51・下院238は据え置いた。",
+    "analysis": "今日は資金と態度の二系統が民主方向に、行動データの一角が共和方向に振れた。最重要はSLFのKS増額(9.8M→14M)とSMPの5M参戦だ。Trump+16の州に両党が2千万ドルを投じるのは、Marshallが党ブランドに完全に依存する候補で、D+7環境では個人票が積み上がらないため。逆にCollins(ME)はLVスクリーンをかけた2本の新調査でも47%で頭打ちになり、「減衰器は個人ブランドには効かない」という私の枠組みが裏付けられた。MEは獲得確率を56%へ上げ、これが今日の51維持を支える柱になった。TXはActiVote51-49で下限が上がりつつあるが、Paxtonの強硬保守ブランドが当日投票の低頻度層をどこまで喚起するか不明で、50%に留める。警戒すべきはNCだ。1,773,889票で共和シェア24.2%——閾値28%には未達だが、三日前の23.6%から反転した。郵便が65,841枚に減り当日投票偏重へ構造が変わっており、2024年に民主を騙した「共和票の後ズレ」が再演されうる。On PointはCooper99%だが、これは登録党派ベースのモデルで無党派の分解を見ていない。MN・NHの民主側流出(計0.44)が実在するなら、NC当日の共和急伸と重なって50-50に落ちる経路は生きている。下院は本日ハードデータなし、Cook D有利220を維持し238。明日への申し送り:(1)NC当日投票分の無党派分解、(2)SLFの配分再変更(KS撤退=放棄の確定打)、(3)NH・MNの追加調査、(4)閉鎖協議、(5)TXの共和系調査。",
+    "key_news": [
+      {
+        "title": "SLF、カンザスでMarshall防衛に計1400万ドル投入へ。Marshall 48-47 Hamiltonで接戦化",
+        "source": "The Hill / Punchbowl News",
+        "url": "https://thehill.com/homenews/campaign/6129513-slf-spends-kansas-senate/",
+        "impact": "D+"
+      },
+      {
+        "title": "メイン州: Echelon Insights(LV)でJackson 51-44 Collins、Marist(LV)でも49-47。Collinsは50%を超えず",
+        "source": "270toWin / Echelon Insights",
+        "url": "https://www.270towin.com/2026-senate-polls/maine",
+        "impact": "D+"
+      },
+      {
+        "title": "ノースカロライナ早期投票177万票到達。民主41.0%・共和24.2%だが共和シェアは反転上昇、郵便は6.6万枚に減少",
+        "source": "On Point Politics / WFAE",
+        "url": "https://onpointpolitics.us/maps/early-vote/north-carolina",
+        "impact": "R+"
+      },
+      {
+        "title": "テキサス州上院選: ActiVoteでTalarico 51-49 Paxton。共和党はNCからKSへ資金を移動",
+        "source": "NBC News / AP",
+        "url": "https://apnews.com/article/senate-republicans-campaign-spending-kansas-north-carolina-72a0a3ff32c3626396f72ba77dc0264f",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://www.270towin.com/2026-senate-polls/maine",
+        "title": "2026 Polls: Maine Senate - 270toWin"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.politico.com/live-updates/2026/10/09/congress/dems-push-into-kansas-01114520",
+        "title": "Democrats drop $5M into Kansas Senate race - Live Updates - POLITICO"
+      },
+      {
+        "url": "https://apnews.com/article/senate-republicans-campaign-spending-kansas-north-carolina-72a0a3ff32c3626396f72ba77dc0264f",
+        "title": "Senate GOP moves cash from purple North Carolina to red Kansas | AP News"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6129513-slf-spends-kansas-senate/",
+        "title": "GOP's Senate Leadership Fund will spend $14M in Kansas as Senate race tightens"
+      },
+      {
+        "url": "https://punchbowl.news/article/campaigns/slf-kansas-spending/",
+        "title": "Senate Leadership Fund will spend $14M in Kansas"
+      },
+      {
+        "url": "https://onpointpolitics.us/maps/early-vote/north-carolina",
+        "title": "North Carolina Early Vote Tracker 2026: Ballots Cast by County | On Point Politics"
+      },
+      {
+        "url": "https://southeastpolitics.com/north-carolina-democrats-post-sizable-early-voting-lead/",
+        "title": "North Carolina Democrats post sizable early voting lead - Southeast Politics"
+      },
+      {
+        "url": "https://www.wfae.org/politics/2026-10-27/with-one-week-until-election-day-gop-vote-is-still-lagging",
+        "title": "With one week until Election Day, GOP vote is still lagging | WFAE 90.7 - Charlotte's NPR News Source"
+      },
+      {
+        "url": "https://thencbeat.com/one-week-nc-midterms-2026-cooper-whatley-early-vote/",
+        "title": "NC Midterms 2026: NC Early Vote Tops 1.7M As Cooper Leads Whatley"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0585,
+    "tokens": {
+      "prompt": 26678,
+      "completion": 2738,
+      "reasoning": 868
+    }
   }
 ]

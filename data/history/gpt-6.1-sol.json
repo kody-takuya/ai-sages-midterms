@@ -1125,5 +1125,108 @@
       "completion": 1849,
       "reasoning": 387
     }
+  },
+  {
+    "date": "2026-10-28",
+    "generated_at": "2026-10-28T07:00:04+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 50,
+      "rep": 50
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 48,
+    "house_control_prob_dem": 85,
+    "comment": "札束の厚さと、届く広告の厚さは別。",
+    "hidden_dynamics": [
+      "共和党の広告支出額は、そのまま有権者への接触量ではない。外部団体への依存で放映単価が高くなるため、巨額支出を終盤の巻き返し能力として過大評価しない。",
+      "民主党優位の期日前投票と、未投票者の拮抗は両立する。民主票の前倒しなら全国差の拡大を意味せず、共和党が最終週に回収すべき支持者の構成こそ重要になる。",
+      "複数の全国調査が似た数字でも、州別の独立した確認にはならない。高関心層を拾いやすい参加想定が共通なら、共和党の低頻度投票者を同時に見落とす余地がある。"
+    ],
+    "hypothesis_title": "青い全国風、赤い州の防波堤",
+    "hypothesis": "上下院を分ける仮説を修正維持する。全国的な民主優位は下院の郊外接戦群を支えるが、上院では共和寄り州の地盤と候補個人票が壁になる。共和の資金優位は広告単価で目減りし、民主の期日前優位も前倒しで説明できるため、双方を割り引く。２０１６・２０２４年型の共和票過小把握は共通リスクだが、一律補正はしない。複数州の独立調査と低頻度層の参加純増が民主優位で一致すれば、上院への慎重姿勢を捨てる。",
+    "hypothesis_status": "refined",
+    "change_reason": "下院は全国的な民主優位が郊外接戦区に広がるとの判断から２３３議席、上院は民主防衛を前提にノースカロライナ、メーン、オハイオで純増３を中心線として５０議席を維持する。広告費の効率差は評価を修正する材料だが、追加の州別勝利へ換算できる新証拠はなく、議席数と確率は据え置く。",
+    "analysis": "米東部２７日１８時基準。新たに確認したマリスト調査の民主８ポイント優位は下院２３３と整合するが、調査期間は１９～２０日であり、直近の加速を示すものではない。既投票者の民主優位と未投票者の拮抗は、参加の純増と前倒しを区別する必要性を強める。全国の期日前票増も党派別の最終投票率を確定しない。上院はノースカロライナの民主攻勢、オハイオの候補個人票を評価する一方、メーンの共和現職票とミシガンの民主防衛が分岐点。テキサスは共和の巨額支出だけで安全とも、民主の参加増だけで逆転とも判断しない。下院ではＩＡ０１・０３、ＰＡ０７・１０、ＮＹ１７、ＡＺ０６を監視する。明日は新規参加者の投票履歴と広告接触量を優先する。右派媒体の該当新報は取得できず、ロイター記事の公開時刻も未確認で、情報の偏りと鮮度には留保を置く。",
+    "key_news": [
+      {
+        "title": "ＮＰＲ公表のマリスト調査は民主優位と注意点を提示。実査は１９～２０日",
+        "source": "NPR／PBS News／Marist",
+        "url": "https://www.npr.org/2026/10/27/nx-s1-6017479/2026-midterms-npr-poll-democrats-trump-approval",
+        "impact": "D+"
+      },
+      {
+        "title": "火曜午後の期日前投票は３４００万超。投票時期の変化と参加純増の区別が必要",
+        "source": "News From The States／University of Florida Election Lab",
+        "url": "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots",
+        "impact": "neutral"
+      },
+      {
+        "title": "共和側がテキサス上院選へ巨額投入。公開時刻未確認のため当日変化には算入せず",
+        "source": "Reuters（Investing.com転載）",
+        "url": "https://www.investing.com/news/politics-news/republicans-bet-musks-millions-can-rescue-texas-paxton-in-us-senate-race-4974631",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.ipsos.com/en-us/democrats-hold-9-point-edge-midterm-congressional-ballot",
+        "title": "Democrats hold 9-point edge on midterm congressional ballot | Ipsos"
+      },
+      {
+        "url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20October%20Core%20Political%20Topline%2010.26%20release.pdf",
+        "title": "TOPLINE & METHODOLOGY"
+      },
+      {
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-democrats-republican-midterm-poll-b3074097.html",
+        "title": "Democrats open up double-digit lead over Republicans days before midterms: poll | The Independent"
+      },
+      {
+        "url": "https://votendi.com/election-polls/561/",
+        "title": "Reuters/Ipsos — National Generic Congressional Ballot (Oct 26, 2026) - Votendi"
+      },
+      {
+        "url": "https://www.investing.com/news/politics-news/republicans-bet-musks-millions-can-rescue-texas-paxton-in-us-senate-race-4974631",
+        "title": "Republicans bet Musk’s millions can rescue Texas’ Paxton in US Senate race By Reuters"
+      },
+      {
+        "url": "https://www.politico.com/news/2026/10/21/senate-republicans-cash-advantage-television-01128724",
+        "title": "Why Republicans’ massive cash advantage is evaporating on the airwaves - POLITICO"
+      },
+      {
+        "url": "https://www.newsweek.com/map-shows-most-expensive-senate-races-12566048",
+        "title": "Map shows most expensive Senate races - Newsweek"
+      },
+      {
+        "url": "https://www.axios.com/2026/10/08/2026-senate-spending-ads",
+        "title": "The staggering cost of winning a Senate seat in 2026"
+      },
+      {
+        "url": "https://www.pbs.org/newshour/politics/poll-likely-voters-favor-democrats-as-trump-disapproval-drives-early-turnout",
+        "title": "What our final poll before Election Day says about midterms and Trump | PBS News"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings",
+        "title": "CPR Race Ratings"
+      },
+      {
+        "url": "https://www.newsfromthestates.com/article/early-voting-surges-midterm-elections-millions-cast-their-ballots",
+        "title": "Early voting surges in midterm elections as millions cast their ballots | News From The States"
+      },
+      {
+        "url": "https://www.npr.org/2026/10/27/nx-s1-6017479/2026-midterms-npr-poll-democrats-trump-approval",
+        "title": "New poll shows Democrats have midterm edge, with caution signs : NPR"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0528,
+    "tokens": {
+      "prompt": 15213,
+      "completion": 1578,
+      "reasoning": 179
+    }
   }
 ]
