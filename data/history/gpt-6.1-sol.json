@@ -1228,5 +1228,114 @@
       "completion": 1578,
       "reasoning": 179
     }
+  },
+  {
+    "date": "2026-10-29",
+    "generated_at": "2026-10-29T07:00:04+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 50,
+      "rep": 50
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 48,
+    "house_control_prob_dem": 85,
+    "comment": "赤い州への応援便、余裕の遊説とは限らない。",
+    "hidden_dynamics": [
+      "共和党が赤い州への大統領訪問を重ねる動きは、説得より支持者の欠席防止を急ぐ姿とも読める。ただし陣営関係者の悲観論には、献金と動員を促す意図も混ざり得る。",
+      "カンザス上院への広告費急増は、共和党の防衛範囲が広がっている兆候。ただし報道の金額は両陣営の合計であり、共和党の内部調査悪化や民主党の逆転を直接証明しない。",
+      "共和党支持者の棄権と、世論調査に捕捉されない共和党支持者の存在は両立する。全国の民主優位だけで前者を選び取らず、農村部の低頻度投票者が最後に参加する余地を残す。"
+    ],
+    "hypothesis_title": "青い波より、赤い票の出欠",
+    "hypothesis": "上下院分離の仮説を修正維持する。民主への追い風に加え、共和の課題は支持転換より支持者の欠席にあるとみる。赤い州への遊説と防衛支出はこの解釈と整合するが、危機を演出した動員策でも説明できる。下院の郊外には広く効いても、上院の共和寄り州では地盤が残る。２０１６・２０２４年型の共和票過小把握も残し、一律補正はしない。独立州別調査と低頻度層の参加純増が共和の回復を示せば、この解釈を撤回する。",
+    "hypothesis_status": "refined",
+    "change_reason": "上院は民主系現有４７議席の防衛と、ノースカロライナ・メーン・オハイオの計３議席獲得を中心シナリオに据え、５０議席を維持する。下院は郊外接戦群での純増を織り込んだ２３３議席を維持し、広告費や陣営の悲観論だけでは個別区の勝率も支配確率も引き上げない。",
+    "analysis": "米東部２８日１８時基準。今日の材料は「民主支持の急伸」より「共和支持者を投票所へ戻す必要」を示唆する。共和関係者がオハイオ悪化とアイオワ改善を同時に語る点は、全国一様の波ではなく候補・州別の差を重視する理由になる。ただし匿名の危機感は資金集めにも使えるため、議席には直結させない。上院は民主のミシガン防衛、ノースカロライナ攻勢、オハイオの候補個人票が柱。メーンの共和現職票が５０議席シナリオの弱点で、テキサス・カンザスは上振れ候補にとどめる。下院は郊外の反与党票が民主の強みだが、ＩＡ０１・０３、ＰＡ０７・１０、ＮＹ１７、ＡＺ０６では農村・低頻度層の終盤参加が共通リスク。２０１６・２０２４年の教訓は共和への自動加点ではなく、調査誤差が複数区で同時発生する可能性として扱う。記事の日付は確認できるが締切前の公開時刻は未確認。明日は独立調査の実施期間と、投票履歴別の参加を優先照合する。",
+    "key_news": [
+      {
+        "title": "共和関係者、上院で支持者の棄権を警戒。オハイオとアイオワの情勢認識は分かれる",
+        "source": "Axios",
+        "url": "https://www.axios.com/2026/10/28/republicans-senate-turnout-2026-midterms",
+        "impact": "D+"
+      },
+      {
+        "title": "２０～２７日の接戦広告費は７億４９００万ドル、カンザス上院に２５００万ドル流入",
+        "source": "The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/10/28/749-million-has-been-spent-final-push-before-elections/",
+        "impact": "neutral"
+      },
+      {
+        "title": "トランプ氏が終盤のオハイオ応援へ、上院接戦で投票率が焦点",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-ohio-midterms-october-28",
+        "impact": "neutral"
+      },
+      {
+        "title": "全国調査の民主優位と上院接戦が併存、テキサスも拮抗と報道",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/28/us-midterms-six-days-left-who-leads-in-the-polls-as-trump-obama-rally",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/latest-polls.html",
+        "title": "Latest Polls: 2026 Elections, Trump Approval and More"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/10/28/us-midterms-six-days-left-who-leads-in-the-polls-as-trump-obama-rally",
+        "title": "US midterms: Six days left – who leads in the polls as Trump, Obama rally | US Midterm Elections 2026 News | Al Jazeera"
+      },
+      {
+        "url": "https://midtermforecast.com/polls/",
+        "title": "2026 Midterm Polls: Senate, House and Generic Ballot"
+      },
+      {
+        "url": "https://www.reuters.com/world/us/elections/",
+        "title": "2026 Midterm Elections News | Top Headlines, Latest Polls ..."
+      },
+      {
+        "url": "https://www.foxnews.com/video/6407502413112",
+        "title": "Who is winning the early vote?: Midterm Update | Fox News Video"
+      },
+      {
+        "url": "https://www.foxnews.com/elections/2026/midterm-results/senate",
+        "title": "2026 Senate Election Results"
+      },
+      {
+        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-ohio-midterms-october-28",
+        "title": "2026 Midterms: Trump Returns to Ohio in Final Campaign Push"
+      },
+      {
+        "url": "https://www.axios.com/2026/10/28/republicans-senate-turnout-2026-midterms",
+        "title": "Republicans fear \"red scream\" could depress GOP voter turnout"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/28/749-million-has-been-spent-final-push-before-elections/",
+        "title": "$749 million has been spent in a final push before the elections - The Washington Post"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/28/how-democrats-are-getting-their-money-midterm-elections/",
+        "title": "How Democrats are getting their money in the midterm ..."
+      },
+      {
+        "url": "https://www.cbsnews.com/live-updates/2026-elections-midtems-house-senate-trump/",
+        "title": "Live Updates: 2026 midterm campaigns make final push before Election Day as early voters hit the polls"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "title": "Democrats' Projected Majority Grows as 19 More House ..."
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0549,
+    "tokens": {
+      "prompt": 15152,
+      "completion": 1792,
+      "reasoning": 273
+    }
   }
 ]

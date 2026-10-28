@@ -1908,5 +1908,114 @@
       "completion": 2738,
       "reasoning": 868
     }
+  },
+  {
+    "date": "2026-10-29",
+    "generated_at": "2026-10-29T07:00:04+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 237,
+      "rep": 198
+    },
+    "senate_control_prob_dem": 53,
+    "house_control_prob_dem": 95,
+    "comment": "カンザスの1400万ドルこそが本物の世論調査",
+    "hidden_dynamics": [
+      "KSで民主系団体の投入額が38Mドルと共和系32Mを上回り、州史上最高の計71Mに。Trump+16州で資金が逆転している事実は、どの態度調査よりもMarshallの党ブランド依存の脆弱性を物語っている。RedBoxの未決定9.3%は天井が未確定である証拠。",
+      "NC早期投票の最大勢力はどちらの党でもなく無党派(+59% vs 2022、民主+42%・共和+8%を大きく上回る)。LVスクリーンが構造的に切り落とす層が最多で流入しており、共和シェアの23.6→24.2→25.0への這い上がりより不確定要素が大きい。",
+      "ME-01で現職PingreeがCharlesと互角。民主盤石地区での incumbent 苦戦は、下院の民主ブランド天井が想定より低い可能性を示す見落とされた流出シグナル。"
+    ],
+    "hypothesis_title": "資金は本音を語り、当日投票は裏切る",
+    "hypothesis": "「熱量格差は実在しLVスクリーンが過小表示」を維持しつつ精緻化。検証軸を資金に移した判断は正しく、KSはRedBox(10/20-23, LV1301)で45.7-45.0の互角、TrackTheVote平均もEVENに。民主38M対共和32Mという資金逆転と合わせ、獲得確率を35→42%へ上げた。一方でNCは在来型メディア自身が「登録民主の1/3が投票済み、共和は1/5のみ=共和に残存票の厚い池がある」と明言し、2016・2024と同じ当日投票後ズレ機構の存在を認めた。ただし無党派+59%がこれを相殺。両者はほぼ打ち消し、期待値は50.9、中央値51。反証条件:(1)NC当日の共和シェア35%超、(2)SLFがKSから撤退、(3)MEでCollins50超が二本連続。",
+    "hypothesis_status": "refined",
+    "change_reason": "KS(+0.07)の上振れとNC・TX(-0.06)の当日投票リスクが相殺し上院期待値は50.9でほぼ不変、中央値51を維持。下院はME-01のPingree互角という民主側流出の新たなハードデータを受け238→237へ1議席のみ減じた。",
+    "analysis": "今日の発見は「私が見ていた場所が少しずれていた」ことだ。反証条件(2)のSLF撤退は起きず、逆にKSはRedBoxが45.7-45.0、TrackTheVote平均がEVEN(Marshall46.7/Hamilton47.0)、Kalshiすら「Hamiltonが差を詰める」と追随した。APが報じた資金構造が決定的で、共和系26M+Marshall陣営=32Mに対し民主系は38M、総額71Mは州史上最高。赤の海で民主が財布で勝っている——これは態度調査のノイズでは説明できない。KS獲得確率を42%へ上げ、これが今日の51を支える。再計算:MI0.84+OH0.72+NC0.74+TX0.48+ME0.57+AK0.43+KS0.42+IA0.28=4.48、流出MN0.24+NH0.22+GA0.10=0.56、純増3.92でE[D]=50.9。\n\n警戒はNCだ。早期投票は189万票に達し共和シェアは25.0%(三日連続の上昇)、郵便は7万枚に縮小。WRALが専門家の言葉で「共和により深い残存票の池がある」と明言し、投票者の構成が当日投票へ移るほど2024型の後ズレ余地が拡大する。ただし無党派が+59%と両党を上回る伸びで、これが低頻度層の波なら環境はD+7のまま。Cooperの確率は78→74%に小幅減。MEはMarist(49-47)とFiftyPlusOne平均(Jackson+3)でCollinsの47天井が再確認され、56→57%。TXは新データなしで48%に据え置く。\n\n下院は237。CookのD有利220は動かず、AZ-01/06・CO-08・CA-13/45の積み上がりも維持だが、ME-01でPingreeがCharlesと互角という一点が民主ブランドの天井を示唆する。明日の自分へ:(1)SLFのKS追加増額かTX転用か——配分変更が最強シグナル、(2)NC当日投票の無党派分解、(3)TXの共和系調査(Paxton+3が二本続けば仮説破棄)、(4)ME-01の追加調査でPingree劣勢が確認されるか、(5)閉鎖・ACA協議の決着。",
+    "key_news": [
+      {
+        "title": "RedBox調査(10/20-23, LV1301)でKS上院はMarshall45.7-Hamilton45.0の互角、未決定9.3%",
+        "source": "A Fight Worth Having / RedBox Research",
+        "url": "https://afightworthhaving.com/polling/2026/kansas",
+        "impact": "D+"
+      },
+      {
+        "title": "KSで民主系が38Mドル、共和系は32Mドル。総額71Mは州史上最高額",
+        "source": "AP News",
+        "url": "https://apnews.com/article/senate-race-kansas-trump-cdbb4aa59fdcb04d6df0f7a461d6d5e3",
+        "impact": "D+"
+      },
+      {
+        "title": "NC早期投票189万票、登録民主の1/3が投票済みに対し共和は1/5——専門家は「共和に残存票の厚い池」と指摘",
+        "source": "WRAL",
+        "url": "https://www.wral.com/news/nccapitol/north-carolina-democrats-polls-early-voting-turnout-midterms-october-28/",
+        "impact": "R+"
+      },
+      {
+        "title": "Marist(10/23-26, LV1449)でME上院はJackson49-Collins47、同州下院ME-01はPingreeとCharlesが互角",
+        "source": "Six State Signal",
+        "url": "https://sixstatesignal.com/articles/maine-marist-poll-october-27-jackson-collins-pingree-charles",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.trackthevote.net/senate/kansas",
+        "title": "Kansas Senate polling average"
+      },
+      {
+        "url": "https://apnews.com/article/senate-race-kansas-trump-cdbb4aa59fdcb04d6df0f7a461d6d5e3",
+        "title": "GOP isn't giving Sen. Marshall financial edge in Kansas reelection bid | AP News"
+      },
+      {
+        "url": "https://afightworthhaving.com/polling/2026/kansas",
+        "title": "Kansas statewide poll, October 2026 | RedBox Research | A Fight Worth Having"
+      },
+      {
+        "url": "https://news.kalshi.com/p/kansas-senate-odds-hamilton-closing-gap-on-marshall-as-midterms-approach",
+        "title": "Kansas Senate odds: Marshall still favored, but Hamilton closing gap as midterms approach"
+      },
+      {
+        "url": "https://www.pollytic.net/us/north-carolina",
+        "title": "North Carolina Polls 2026: Senate Race Polling Average | Pollytic"
+      },
+      {
+        "url": "https://www.wral.com/news/nccapitol/north-carolina-democrats-polls-early-voting-turnout-midterms-october-28/",
+        "title": "‘No guarantee’: NC Democrats try to ignore polls, spark turnout where they underperformed in 2022 :: WRAL.com"
+      },
+      {
+        "url": "https://www.wfae.org/politics/2026-10-27/with-one-week-until-election-day-gop-vote-is-still-lagging",
+        "title": "With one week until Election Day, GOP vote is still lagging | WFAE 90.7 - Charlotte's NPR News Source"
+      },
+      {
+        "url": "https://www.callthemap.com/early-vote/north-carolina",
+        "title": "North Carolina early voting results 2026: who has voted so far"
+      },
+      {
+        "url": "https://elections2026.thehill.com/polls/general-ballot-test/2026-me-us-senate-collins-vs-jackson/maine/lv-rv-adults/",
+        "title": "2026 Maine Senate Polling - The Hill and DDHQ"
+      },
+      {
+        "url": "https://votes.decisiondeskhq.com/races/2026-11-03/maine-us-senate-general-election/forecast",
+        "title": "2026 Maine US Senate Forecast | DDHQ"
+      },
+      {
+        "url": "https://fiftyplusone.news/polls/senate/general/maine",
+        "title": "FiftyPlusOne - Maine  General Senate Election Polls and Average for the 2026 General Election"
+      },
+      {
+        "url": "https://sixstatesignal.com/articles/maine-marist-poll-october-27-jackson-collins-pingree-charles",
+        "title": "Maine poll puts Jackson and Collins close, with Pingree and Charles even"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0674,
+    "tokens": {
+      "prompt": 27820,
+      "completion": 4026,
+      "reasoning": 2019
+    }
   }
 ]

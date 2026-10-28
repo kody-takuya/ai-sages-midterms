@@ -996,5 +996,97 @@
       "completion": 1321,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-29",
+    "generated_at": "2026-10-29T07:00:04+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 88,
+    "comment": "民主は全方位で先行。ただ調査の先行ほど信用しにくいものはない",
+    "hidden_dynamics": [
+      "早期投票は民主が先行している。Maristでは既投票者が民主68対31だが、未投票者は48対48の同率だ。民主は票を前倒しで使っているだけで、当日投票は共和が取り戻す余地がある。",
+      "TXでは調査の差が民主+0〜+8とばらつく。YouGov系が高めに出ており、共和票を拾えていない可能性がある。2024年にトランプ氏が14ポイント勝った州なので、平均+3は割り引いて読むべきだ。"
+    ],
+    "hypothesis_title": "民主の僅差リードは割引が必要",
+    "hypothesis": "上院では民主がTX、OH、ME、IA、AKで1〜3ポイントの僅差リードを持つが、2016年と2024年のように共和支持層や低関与層が過小評価されている恐れがある。早期投票は民主が先行するが、未投票層は同率であり、共和は当日投票で追い上げられる。下院は総合投票D+7〜8で、不利な区割りを吸収できる。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "新しい調査はおおむね民主に有利だが、誤差の範囲内で、仮説を覆す材料はない。そのため上院の議席は据え置き、下院の確率だけ1ポイント上げた。",
+    "analysis": "【上院】OHはSuffolkでBrown氏47対44。TXはUnivision/YouGovで50対45、別のYouGov系では51対43だった。IAはTurek氏が2ポイント前後リードし、AKはPeltola氏が51対49、NYT/Sienaでは50歳以上で50対43だった。WaPoの平均ではTX+3、IA+2、AK+5が民主に出ている。ただしどれも2024年のトランプ氏の勝ち幅(13〜16ポイント)から大きく動いた数字で、調査の過大評価が最大のリスクだ。NCはほぼ確保とみる。民主はNC、OH、MEに加え、TX、AK、IAのどれかが必要だ。1議席を落とせば50-50で、副大統領により共和党が支配する。【下院】Maristの議会投票はD+8、早期投票は3900万票超で、民主の熱意が高い。233議席を維持する。最大のリスクは不利な区割りと、当日投票での共和の反発だ。明日は、TXとIAの党派別早期投票、AKの中立調査、市場価格を確認する。",
+    "key_news": [
+      {
+        "title": "オハイオ上院:Suffolk調査でBrown氏47%、Husted氏44%",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/28/latest-polls-in-2026-midterms-tie-in-south-carolina-senate-race-for-lindsey-grahams-seat-updated-daily/",
+        "impact": "D+"
+      },
+      {
+        "title": "Marist:議会投票は民主52対44。既投票者は民主68対31で、未投票者は同率",
+        "source": "PBS News",
+        "url": "https://www.pbs.org/newshour/politics/poll-likely-voters-favor-democrats-as-trump-disapproval-drives-early-turnout",
+        "impact": "D+"
+      },
+      {
+        "title": "早期投票が3900万票を超え、ヒスパニック有権者も多い",
+        "source": "Washington Post",
+        "url": "https://www.washingtonpost.com/elections/2026/10/28/more-than-39-million-americans-have-voted-early-including-many-hispanic-voters/",
+        "impact": "neutral"
+      },
+      {
+        "title": "上院7大激戦区:TX、IA、AKなどで民主が平均で先行",
+        "source": "Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/10/28/these-seven-races-will-determine-which-party-controls-senate/",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/28/latest-polls-in-2026-midterms-tie-in-south-carolina-senate-race-for-lindsey-grahams-seat-updated-daily/",
+        "title": "Hottest 2026 Midterm Races—Democrats Ahead In ..."
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/28/these-seven-races-will-determine-which-party-controls-senate/",
+        "title": "The seven races that will decide control of the Senate"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://www.davemanuel.com/2026/10/28/the-2026-early-vote-is-running-ahead-of-2022-who-does-that-help/",
+        "title": "The 2026 Early Vote Is Running Ahead of 2022. Who Does That Help?"
+      },
+      {
+        "url": "https://www.pbs.org/newshour/politics/poll-likely-voters-favor-democrats-as-trump-disapproval-drives-early-turnout",
+        "title": "Poll: Likely voters favor Democrats as Trump disapproval drives early turnout"
+      },
+      {
+        "url": "https://www.washingtonpost.com/elections/2026/10/28/more-than-39-million-americans-have-voted-early-including-many-hispanic-voters/",
+        "title": "More than 39 million Americans have voted early, including many Hispanic voters - The Washington Post"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0506,
+    "tokens": {
+      "prompt": 12513,
+      "completion": 1672,
+      "reasoning": 0
+    }
   }
 ]

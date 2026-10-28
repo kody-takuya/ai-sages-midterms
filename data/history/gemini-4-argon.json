@@ -1282,5 +1282,114 @@
       "completion": 3606,
       "reasoning": 1878
     }
+  },
+  {
+    "date": "2026-10-29",
+    "generated_at": "2026-10-29T07:00:04+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 65,
+    "house_control_prob_dem": 92,
+    "comment": "期日前3918万票の奔流と、上院「3ptの壁」に潜む赤い亡霊。",
+    "hidden_dynamics": [
+      "上院の最激戦4州（TX・OH・AK・ME）における民主党の世論調査リードがすべて「+2.4〜3.6pt」の狭い帯域に不自然に密集しており、調査機関が過去の読み違いを恐れて横並び（ハーディング）を起こしている兆候が濃厚だ。",
+      "期日前投票でヒスパニック層の投票が急増しているが、これは2024年に共和党へ流れた労働者層が物価高への不満から民主党の下院候補へ回帰する一方、上院では巨額の保守系広告に晒されて分割投票を行う温床になっている。",
+      "Cookが下院19選挙区を動かしたことで、トスアップ（純粋接戦区）を1つも取らなくても民主党が過半数を超える220議席の土台が固まり、共和党陣営の資金配分は下院防衛から上院の「3pt差防衛」へ事実上シフトしている。"
+    ],
+    "hypothesis_title": "下院220議席固めと上院3pt差の罠",
+    "hypothesis": "期日前投票が3918万票へ急増する中、Cookが下院19選挙区を民主党寄りに変更しトスアップ除外でも過半数超の220議席に達したことで、下院238議席の波は確定段階に入った。一方、上院激戦のTX・OH・AK・MEの調査リードは全て2.4〜3.6ptの狭い帯域に密集している。これは過去サイクルの保守層の無回答バイアスや分割投票による誤差（3〜4pt）で消える水準のため51議席を維持する。4州の差が5pt超へ開けば52議席へ引き上げる。",
+    "hypothesis_status": "refined",
+    "change_reason": "Cookの19選挙区変更により民主党はトスアップを除いても220議席で優位に立ったため下院支配確率を92%へ引き上げつつ、すでに織り込み済みの238議席を維持。上院も激戦4州のリードが調査誤差圏内（2.4〜3.6pt）に留まるため51議席を据え置いた。",
+    "analysis": "投票日まで残り6日。NBC集計で期日前投票は前日比440万票増の3918万票（対面2080万・郵便1840万）に達したが、党派比率は民主党47%対共和党35%（+12pt）から1ミリも動いていない。さらにWaPoが報じたヒスパニック層の早期投票急増は、インフレと政権への不満（無党派層で民主党+13pt）がマイノリティ層を再び民主党へ呼び戻している兆候だ。Cookが下院19選挙区を一挙に動かし、接戦区（Toss-up）を除外した段階ですでに民主党優勢が220議席に達した事実は重く、下院勝率を92%へ引き上げ238議席を維持する。対照的に、上院で民主党強気論に乗らない理由はSilver Bulletinの最新集計にある。民主党が狙うテキサス（+2.5pt）、オハイオ（+3.0pt）、アラスカ（+3.6pt）、メイン（+2.4pt）のリードが、不気味なほど「2.4〜3.6pt」のレンジに張り付いている点だ。ここは世論調査のハーディングと、2020年メイン州や2024年大統領選で繰り返された「調査に答えない保守層」の誤差が直撃する死角である。巨額の外部資金による引き締めを織り込み、4州のうち民主党が取り切れるのは最大1州と見て上院51対49を据え置く。明日はヒスパニック票がテキサス上院の壁を突破し得るか検証する。",
+    "key_news": [
+      {
+        "title": "Cook Political Reportが下院19選挙区を民主党寄りに変更、トスアップ除外でも民主党優勢が過半数の220議席に到達",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "impact": "D+"
+      },
+      {
+        "title": "全国の期日前投票が3918万票を突破（対面2080万・郵便1840万）、登録党派比は民主党47%・共和党35%で12pt差を維持",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "期日前投票が3900万票を超える中、ヒスパニック系有権者の早期投票参加が各地で急増",
+        "source": "The Washington Post",
+        "url": "https://www.washingtonpost.com/elections/2026/10/28/more-than-39-million-americans-have-voted-early-including-many-hispanic-voters/",
+        "impact": "D+"
+      },
+      {
+        "title": "上院激戦4州（TX+2.5、OH+3.0、AK+3.6、ME+2.4）の民主党リードはいずれも通常の世論調査誤差の範囲内にとどまる",
+        "source": "Silver Bulletin",
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://www.pbs.org/newshour/politics/poll-likely-voters-favor-democrats-as-trump-disapproval-drives-early-turnout",
+        "title": "What our final poll before Election Day says about midterms and Trump | PBS News"
+      },
+      {
+        "url": "https://www.poliwave.com/us/fed/polls",
+        "title": "2026 Midterm Polls: Generic Ballot and Senate Races | Poliwave"
+      },
+      {
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+        "title": "2026 Midterm Election Forecast: Senate & House | Silver Bulletin"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.washingtonpost.com/elections/2026/10/28/more-than-39-million-americans-have-voted-early-including-many-hispanic-voters/",
+        "title": "More than 39 million Americans have voted early, including many Hispanic voters - The Washington Post"
+      },
+      {
+        "url": "https://lperson.github.io/pages/EARLY_VOTE_DAILY.html",
+        "title": "Early vote 2026 vs 2022 — 2026-10-28"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings | Cook Political Report"
+      },
+      {
+        "url": "https://almanacofamericanpolitics.substack.com/p/an-updated-look-at-the-shape-of-the-96a",
+        "title": "An updated look at the shape of the House battleground (Oct. 28 edition)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+        "title": "2026 United States House of Representatives election ratings"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/democrats-projected-majority-grows-19",
+        "title": "Democrats' Projected Majority Grows as 19 More House ..."
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0767,
+    "tokens": {
+      "prompt": 10314,
+      "completion": 3836,
+      "reasoning": 2186
+    }
   }
 ]

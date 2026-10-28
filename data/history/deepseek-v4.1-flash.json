@@ -1974,5 +1974,114 @@
       "completion": 4775,
       "reasoning": 3047
     }
+  },
+  {
+    "date": "2026-10-29",
+    "generated_at": "2026-10-29T07:00:04+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 70,
+    "house_control_prob_dem": 92,
+    "comment": "査定者は満潮を叫び、自ら『外れるかも』と囁く——波は本物、だが潮位計は既に満杯",
+    "hidden_dynamics": [
+      "ヒスパニック期日前投票の急増(3.8M、2022年比+1.4M)は民主党系データ企業ターゲットスマートの指標で、増加の中心はMD+184%・NY+71%・VA+86%と青い州。これは『 persuasion』ではなく都市部基盤の票固めであり、サンベルトでの共和流出を覆い隠す可能性がある。TXの+37%も、パクストン陣営が早期に共和票を積んでいるだけかもしれない。",
+      "Cookは今回を『reversion(回帰)』と定義し、Sabatoは9区を一斉にD方向へ動かす一方、自ら2020・2022の『波の読み過ぎで外した』前例を明記。両査定者が満場一致でDへ傾いた瞬間こそ、エリート合意が天井に達したシグナルでもある。",
+      "上院4激戦が全てD+2.4〜3.6という『通常サイズの世調誤差1回』圏内にあるとSilver自身が警告。2016/24型のR方向誤差3〜4ptが中間選挙でも起こるなら、TX/OH/AK/MEは同日に揃って反転し得る——相関リスクが中央値を一段下げる。"
+    ],
+    "hypothesis_title": "2018型の回帰波、ただし査定者は満潮を過大評価",
+    "hypothesis": "核は据え置く。2016/2024型の隠れ共和票は大統領年固有の現象で、中間選挙では世調誤差は小さい（2018は正確だった）。今回はその2018型——トランプ不支持が期日前を押し出し、候補の質で上院激戦にDが先行、下院は資金力でも逆転した。ただし今日、CookとSabatoが同時に満場一致でDへ傾き、自らの外し前例まで記述した。潮流は本物でも、波の『厚み』は査定者自身が34区もの一斉移動を重ねた時点で最大に達した疑いがある。よって中央値は維持しつつ天井を取らない。棄却条件はTXが共和系含め全社Paxson首位へ反転、MEでCollinsが平均+2超、または共和資金が赤州防衛から攻勢へ大きく回った場合。",
+    "hypothesis_status": "refined",
+    "change_reason": "査定者（Cook=回帰波、Sabato=9区を一斉にDへ）と世調水準は仮説を支持し上院Pを68→70へ微上げ。ただしSabatoが2020/2022の外しを自認し、下院はCook 217・Sabato 221（最低Lean D）＋トスアップ17で230前後に収まるため、237→236へ小幅に慎重化した。",
+    "analysis": "【上院】現状53R-47D、必要純増4。クーパー(NC)で48、ブラウン(OH、Suﬀolk 47-44・Fox 52-47)＋エルサイード(MI)で50、さらにTX(Talarico 50-45 Univision, avg D+2.5)・AK(Peltola、NYT/Siena高齢層+7含む D+3.6)・ME(Jackson 49-47 Marist, D+2.4)のいずれか1つで51、2つで52。4激戦すべてD先行で1つ捨てても届く構造は昨日と同じ。警戒は一点に集約される——Silver自身が『4州全てが通常サイズの誤差1回で反転する』と明記した通り、誤差が全国相関すれば5州同日反転で49まで沈む。逆に4州制すれば54。相関を織り込みPは70。【下院】ジェネリックD+8.6、Cookは『政権審判』を回帰と表現、Sabatoは最低Lean Dを218超へ。ただし両者とも『235には届かない』『波を読み過ぎた年があった』と自戒。区割り改定(TX/MO/NC)の歯止めも残り、235超の強気は採らず236を中央値に。【持ち越し】①TX終盤でPaxtonが世調を割るか、②ME Collinsの地元組織が±を詰めるか、③ヒスパニック早期票の内訳がTXでどちらに厚いか、④当日の共和上積みの有無。",
+    "key_news": [
+      {
+        "title": "Cook Political Report『2026はバック・トゥ・ザ・フューチャーの中間選挙』——民主党の多数派への道は新突破ではなく『回帰』だと分析",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/analysis/national/national-politics/2026-back-future-midterm",
+        "impact": "D+"
+      },
+      {
+        "title": "Sabato's Crystal Ballが下院9区を一斉に民主方向へ移動、最低Lean Dが218を超過（AK-01, AZ-02, OH-10など）",
+        "source": "Sabato's Crystal Ball",
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "impact": "D+"
+      },
+      {
+        "title": "期日前投票が3900万人超、ヒスパニック有権者の早期投票が2022年の同時期を大幅に上回る（民主系TargetSmart集計）",
+        "source": "The Washington Post",
+        "url": "https://www.washingtonpost.com/elections/2026/10/28/more-than-39-million-americans-have-voted-early-including-many-hispanic-voters/",
+        "impact": "neutral"
+      },
+      {
+        "title": "オハイオ上院補選、Suffolkでブラウン47-ハステッド44(ブラウン+3)、メインはMaristでジャクソン49-コリンズ47(ジャクソン+2)",
+        "source": "RealClearPolling",
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+        "title": "FLIPR 2026 midterm election forecast"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/28/these-seven-races-will-determine-which-party-controls-senate/",
+        "title": "These seven races will determine which party controls the Senate - The Washington Post"
+      },
+      {
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/27/latest-polls-in-2026-midterms-democrats-lead-in-michigan-texas-maine-updated-daily/",
+        "title": "Latest Polls In 2026 Midterms: Democrats Lead In ..."
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/national/national-politics/2026-back-future-midterm",
+        "title": "2026 Is the ‘Back to the Future’ Midterm | Cook Political Report"
+      },
+      {
+        "url": "https://lillypredicts.com/brief/2026-10-28",
+        "title": "Sabato moves 8 races, Missouri's 2nd district to Tossup among them · The daily brief, October 28 · Lilly Predicts"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://www.nj.com/politics/2026/10/election-forecaster-makes-major-shift-in-2026-midterms-one-party-has-slight-advantage.html",
+        "title": "Election forecaster makes major shift in 2026 midterms: One party has ‘slight advantage’"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.washingtonpost.com/elections/2026/10/28/more-than-39-million-americans-have-voted-early-including-many-hispanic-voters/",
+        "title": "More than 39 million Americans have voted early, including many Hispanic voters - The Washington Post"
+      },
+      {
+        "url": "https://www.pewresearch.org/race-and-ethnicity/2026/10/16/how-latino-voters-are-experiencing-the-2026-midterm-elections/",
+        "title": "How Latino Voters Are Experiencing the 2026 Midterm ..."
+      },
+      {
+        "url": "http://time.com/article/2026/10/27/midterm-elections-early-voting-data-democrats-republicans-hispanic-voters/",
+        "title": "What Early Voting Data Is Showing About the Midterm Elections"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0249,
+    "tokens": {
+      "prompt": 10972,
+      "completion": 4582,
+      "reasoning": 2804
+    }
   }
 ]
