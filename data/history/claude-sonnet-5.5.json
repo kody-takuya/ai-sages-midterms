@@ -1088,5 +1088,75 @@
       "completion": 1672,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-30",
+    "generated_at": "2026-10-30T07:00:03+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 62,
+    "house_control_prob_dem": 88,
+    "comment": "CNNまで民主先行。だが2016年の亡霊は投票所の外で待つ",
+    "hidden_dynamics": [
+      "CNN/SSRSのTX+6やME+4は、他の調査(+2程度)より大きい。無党派の回答率が民主側に偏っている可能性があり、平均では+3前後に割り引くのが妥当だ。",
+      "早期投票は4300万票を超えた。ただし民主の熱意が高いほど、調査の投票意向が実際の投票以上に民主へ傾く恐れがある。共和は当日投票で追い上げる余地を残している。"
+    ],
+    "hypothesis_title": "民主の僅差先行、誤差が最後の壁",
+    "hypothesis": "上院では民主がTX、ME、OH、IA、AKで1〜4ポイントの僅差リードを持つが、2016年と2024年のように共和支持層や低関与層が過小評価されている恐れがある。そのため先行幅は割り引いて見る。下院は総合投票D+7〜8で、不利な区割りを吸収できる。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "CNNの大きめの民主リードが新たに出たが、誤差分を割り引くと議席の中央値は変わらない。確率のみ上院を2ポイント上げた。",
+    "analysis": "【上院】CNN/SSRSはTXでTalarico氏49対43、MEでJackson氏49対45だった。Texas Southern/YouGovは49対47で、バラツキがある。TXの平均は+3前後で、2024年にトランプ氏が13ポイント差で勝った州なので、調査の過大評価に注意が要る。民主はNCをほぼ確保し、OH、MEに加えてTX、IA、AKのどれかが必要だ。1議席を落とせば50-50で、副大統領により共和党が支配する。【下院】総合投票D+7〜8、大統領の低支持率という環境は変わらず、233議席を維持する。最大のリスクは不利な区割りと、当日投票での共和の反発だ。明日は、党派別の早期投票、AKとIAの中立調査、市場価格を確認する。",
+    "key_news": [
+      {
+        "title": "CNN/SSRSでTXはTalarico氏49対43、MEはJackson氏49対45",
+        "source": "NYT 世論調査集計",
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "impact": "D+"
+      },
+      {
+        "title": "Texas Southern/YouGovでTalarico氏49対47、僅差",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/29/latest-polls-in-2026-midterms-democrats-lead-in-texas-maine-michigan-kansas-new-hampshire/",
+        "impact": "D+"
+      },
+      {
+        "title": "全米の早期投票が4300万票超",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/29/latest-polls-in-2026-midterms-democrats-lead-in-texas-maine-michigan-kansas-new-hampshire/",
+        "title": "Latest Polls In 2026 Midterms: Democrats Lead In Texas ..."
+      },
+      {
+        "url": "https://www.electoral-vote.com/evp2026/Senate/senate_polls.txt",
+        "title": ""
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0358,
+    "tokens": {
+      "prompt": 11055,
+      "completion": 1262,
+      "reasoning": 0
+    }
   }
 ]

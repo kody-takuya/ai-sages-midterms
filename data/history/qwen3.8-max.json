@@ -2017,5 +2017,114 @@
       "completion": 4026,
       "reasoning": 2019
     }
+  },
+  {
+    "date": "2026-10-30",
+    "generated_at": "2026-10-30T07:00:03+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 237,
+      "rep": 198
+    },
+    "senate_control_prob_dem": 66,
+    "house_control_prob_dem": 95,
+    "comment": "CNN四州一斉、同じ手のひらが四枚同時に表を向いた",
+    "hidden_dynamics": [
+      "KSの有権者は「上院は共和が支配すべき」と答えながらHamiltonを+4でリードさせている。党志向と候補評価が逆向きに割れる分断投票で、これは全国的な環境読みでは絶対に捕捉できない層だ。CNN自身が「選択はMarshallに関するもの」と明記している。",
+      "Wesleyan Media ProjectがNEとSCの広告支出急増を報告。GOPが攻めから守りへ、しかも守るべき州が増えた。KS・IA・MI・NE・SCへの同時分散は、1週間前にNCを捨てた組織がさらに薄く引き伸ばされている証拠だ。",
+      "SLFはKSに1,100万ドル超を投じつつ、TX系列には10月だけで4,800万ドルを残している。つまりTXは放棄されていない。金がありながらCNNで+6つけられているなら、これは資金不足ではなく候補(Paxton)の天井の問題だ。"
+    ],
+    "hypothesis_title": "熱量格差は党ブランドでなく個人評価で増幅される",
+    "hypothesis": "「熱量格差は実在しLVスクリーンが過小表示する」を維持し、さらに一歩進める。今日の決定的発見は、民主の伸びが党ブランドの追い風ではなく「弱い現職・極端な候補」への拒否として局所的に集中していることだ。KSで党志向が共和有利なのにHamiltonが+4、MEでCollinsが45%の天井から動かない、TXでPaxtonが強硬保守ゆえに無党派を失う——これは2016・2024型の「当日投票で共和が後ズレして挽回する」機構が効きにくい構造を意味する。後ズレは党に投票する低頻度層を拾うが、今回は投票先が党でなく人だからだ。よって私はNCの残存票警戒を維持しつつも、TX・KS・MEの獲得確率を一斉に引き上げ、上院期待値を52.3へ、中央値を52へ移した。反証条件:(1)TXでPaxton+1超の調査が二本連続、(2)NC当日投票で共和シェア35%超、(3)SLFがTX系列の4,800万ドルを取消し(=TX内部調査の崩壊、ただしその場合はKSも同時に失う)。",
+    "hypothesis_status": "refined",
+    "change_reason": "CNN/SSRSの四州同時LV調査(KS+4・TX+6・ME+4・MI+7)が、RedBox・Marist・TSU/YouGov・FiftyPlusOneという別系統の既存データと同じ方向に揃ったため、単独ハウスの外れ値ではなく収束と判断。TXを48→58%、KSを42→55%、MEを57→65%へ上げ、純増4.32で中央値を51から52へ。下院は本日ハードデータなしのため237を据え置いた。",
+    "analysis": "サイクル最大の証拠が一気に来た。CNN/SSRSがMI・ME・TX・KSの四州を同一週(10/20-27)にLVで回り、El-Sayed51-44、Jackson49-45、Talarico49-43、Hamilton49-45。重要なのは、これが私が三日間追い続けてきた別系統のデータと矛盾しないことだ。KSはRedBox45.7-45.0・DDHQ平均Hamilton47.0/Marshall45.7、MEはMarist49-47・FiftyPlusOne平均Jackson+3、TXはTSU/YouGov49-47。四つの独立源が同じ象限を指している。\n\nただし単一ハウスのクラスタリングは割り引く。TX+6はTSU/YouGovの+2と4ポイント乖離しており、真値は+2〜+3と見て58%に留めた。KSもDDHQ平均では+1.3にすぎず、CNNの+4は上振れの可能性が高い。それでも55%に上げたのは、共和系が1,100万ドル超を投じた直後の数字だからだ。金を使って動かないなら、それは動かない。\n\n再計算:獲得MI0.85+OH0.74+NC0.77+TX0.58+ME0.65+AK0.40+KS0.55+IA0.30=4.84、流出MN0.22+NH0.20+GA0.10=0.52、純増4.32でE[D]=52.3。\n\n最大の残存リスクはNCだ。Quantus+9、HPU+14が出る一方、早期投票の共和シェアは25.0%へ三日連続上昇し、WRALは「共和に残存票の厚い池」と明言する。ActiVote+14はモデル値で実調査ではない点も忘れてはならない。Cooperの確率は74→77%に小幅増に留めた。\n\n警戒すべき逆シグナルは二つ。第一に、KSのLVは「上院は共和が支配すべき」と答えており、generic環境はD+7ではない。第二に、WesleyanがIAの支出を$42M→$65M、NE・SCも急増と報告したことで、最終週の空域は極めて高価になっており、このCNN数字が最後の広告で削られる余地がある。\n\n下院は237を維持。Cook D有利220は動かず、ME-01のPingree苦戦だけが民主ブランドの天井を示す一点として残る。明日の自分へ:(1)TXの共和系調査——Paxton+1が二本出たら仮説破棄、(2)SLFがTX系列48Mを取消すか(取消し=内部調査崩壊の確定打)、(3)NC当日投票分の無党派・党派別分解、(4)MN・NH・GAの民主流出を追う新調査、(5)閉鎖・ACA協議の決着がgenericを動かすか。",
+    "key_news": [
+      {
+        "title": "CNN/SSRS四州LV調査:MIでEl-Sayed+7、TXでTalarico+6(49-43)、MEでJackson+4(49-45)、KSでHamilton+4(49-45)。民主が上院多数派に「打撃圏内」",
+        "source": "CNN",
+        "url": "https://edition.cnn.com/2026-10-29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+        "impact": "D+"
+      },
+      {
+        "title": "Wesleyan Media Project:KS・IA・MI・NE・SCで上院広告支出が急増(IAは$42M→$65M)、NCとGAでは減速。戦線が赤州へ拡大",
+        "source": "Wesleyan Media Project",
+        "url": "https://mediaproject.wesleyan.edu/releases-102926/",
+        "impact": "D+"
+      },
+      {
+        "title": "SLFはNCから資金を転用しKSに1,100万ドル超を投入、Marshall-Hamiltonは州史上最も高価な選挙に。一方SLFのTX系列は10月に4,800万ドルを予約継続",
+        "source": "Kansas Reflector / NBC News",
+        "url": "https://kansasreflector.com/2026-10-29/marshall-hamilton-showdown-spurs-most-expensive-election-in-kansas-history/",
+        "impact": "neutral"
+      },
+      {
+        "title": "TXではTSU/YouGovがTalarico49-47(+2)でCNNの+6と乖離。NCはQuantus+9、HPU+14、ActiVote+14とCooper優位が並ぶ",
+        "source": "The New York Times / Forbes",
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://edition.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+        "title": "Democrats in striking distance: New CNN polls in four states highlight party’s path to Senate majority"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/north-carolina-us-senate-election-polls-2026.html",
+        "title": "Who Is Ahead in the U.S. Senate Race in North Carolina? Latest 2026 Polls - The New York Times"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      },
+      {
+        "url": "https://votes.decisiondeskhq.com/races/2026-11-03/kansas-us-senate-general-election/forecast",
+        "title": "2026 Kansas US Senate Forecast | DDHQ"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+        "title": "Democrats in striking distance: New CNN polls in four ..."
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/29/latest-polls-in-2026-midterms-democrats-lead-in-texas-maine-michigan-kansas-new-hampshire/",
+        "title": "Latest Polls In 2026 Midterms: Democrats Lead In Texas ..."
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/29/democrats-lead-texas-michigan-maine-kansas-midterm-election-cnn-polls/92494314007/",
+        "title": "Democrats in strong position for Senate takeover, CNN polls find"
+      },
+      {
+        "url": "https://kansasreflector.com/2026/10/29/marshall-hamilton-showdown-spurs-most-expensive-election-in-kansas-history/",
+        "title": "Marshall-Hamilton showdown becomes most expensive election in Kansas history • Kansas Reflector"
+      },
+      {
+        "url": "https://mediaproject.wesleyan.edu/releases-102926/",
+        "title": "Ad Spending Up Sharply in Senate Races in Kansas, Iowa, Michigan, Nebraska and South Carolina; Spending Slows in North Carolina and Georgia - Wesleyan Media Project"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-election/gop-super-pac-pauses-spending-north-carolina-senate-race-shift-kansas-rcna601134",
+        "title": "GOP super PAC cancels spending in North Carolina Senate race, shifting money to Kansas"
+      },
+      {
+        "url": "https://thehill.com/newsletters/on-the-ballot/6179672-the-5-key-money-moves-in-the-priciest-midterms-yet/",
+        "title": "On The Ballot: The 5 key money moves in the priciest midterms yet"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0675,
+    "tokens": {
+      "prompt": 27036,
+      "completion": 4111,
+      "reasoning": 1886
+    }
   }
 ]

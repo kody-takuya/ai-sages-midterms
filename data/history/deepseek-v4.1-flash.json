@@ -2083,5 +2083,114 @@
       "completion": 4582,
       "reasoning": 2804
     }
+  },
+  {
+    "date": "2026-10-30",
+    "generated_at": "2026-10-30T07:00:03+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 72,
+    "house_control_prob_dem": 93,
+    "comment": "青い潮位計が総出で上振れ—土手か、それとも水路か、鍵はテキサス",
+    "hidden_dynamics": [
+      "CNNのTX・ME・MI・KS一斉調査は『候補の質』が赤州の安全マージンを溶かす構図を裏付けた。特にTXは共和現職でなくパクストンという『抱える負債』候補ゆえ、資金を積んでも本人の不人気が相殺されない——共和の赤州防衛戦略の前提が崩れている。",
+      "期日前のヒスパニック票急増（TargetSmart、TXでシェア+37%とD系データ会社が発信）は、両方向に読める。2024に共和へ流れた低参加層が中間選挙で回帰している可能性がある一方、南テキサスの農村部なら共和上積みもある。『誰が』投票したかと『どう』投票したかの混同に注意。",
+      "Silver BulletinでD+9.2→8.7とDリードが縮みつつ共和支持も同時に上向く局面は、波の『山』が過ぎた可能性を示す。全国ジェネリックは頭打ちで、上院は州・候補単位でまだ動く——上下両院の絵が乖離する典型パターン。"
+    ],
+    "hypothesis_title": "波は上院に遅れて届く、全国は頭打ち",
+    "hypothesis": "核は据え置く——2016/2024型の隠れ共和票は大統領年固有で、中間選挙（2018）の世調は概ね正確だった。今回はその2018型だ。ただし今日、Silver BulletinでジェネリックがD+9.2からD+8.7へ縮み共和支持も上向き、全国の波は頭打ちの兆しを見せた。一方でCNNがTXでTalarico+6、MEでJackson+4と州単位の上院戦はDへ固まった。つまり『下院＝ほぼ天井、上院＝候補の質でなお伸びる』という非対称。棄却条件は、TXが共和系含め全社Paxson首位へ反転、MEでCollinsが平均+2超、または共和資金が赤州防衛から攻勢へ転換した場合。",
+    "hypothesis_status": "refined",
+    "change_reason": "全国ジェネリックは天井感が出た一方、CNNのTX+6・ME+4は上院のD構造を一段と補強したため、下院236は据え置き、上院52も維持しつつ上振れ余地を見てPを70→72へ微上げ。",
+    "analysis": "【上院】現状53R-47D、確実支配に純増4が必要。Cooper(NC)で48、Brown(OH)＋Elsayed(MI)＋Pappas(NH)で50、CNNのTalarico+6(TX)・Jackson+4(ME)の両方が取れれば52、AK(Peltola)まで伸びれば53。今日の最重要材料はCNNの4州一斉調査で、TXが『共和資金で終盤に寄る』との私の警戒を打ち消した点。パクストンの印象が極端に悪く、2024にトランプへ流れた黒人・ラテン・アジア系がTalaricoへ回帰している。リスクは全国相関誤差——Silver自身が警告する通り4〜5激戦が同日にRへ振れれば49まで沈む。中央値52、幅49〜54、P72。【下院】ジェネリックD+8.7（Silver）、サバトのモデルは同水準で239議席・上院53を弾くが、標準誤差8.8/2.7と大きく、モデルを額面通り採らない。区割り改定(TX/MO/NC)の歯止めと、共和支持も同時に上向く天井感を差し引き236を中央値に据える。ヒスパニック期日前票の急増がTXでどちらに厚いかが当日の鍵。【持ち越し】①TX最終週でPaxsonが世調を割るか、②ME Collinsの地元組織が±を詰めるか、③ジェネリックの頭打ちが続くか、④当日共和の上積みの有無。",
+    "key_news": [
+      {
+        "title": "CNNの4州調査で民主党が優位——TXはTalarico 49-43でPaxtonを6点リード、MEもJackson 49-45、MI・KSでもD先行",
+        "source": "CNN",
+        "url": "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+        "impact": "D+"
+      },
+      {
+        "title": "サバトのジェネリック・モデルが『青い波』を予測——D+8で下院239-196、上院53-47と算出",
+        "source": "Sabato's Crystal Ball",
+        "url": "https://centerforpolitics.org/crystalball/generic-ballot-models-predict-blue-wave-next-week/",
+        "impact": "D+"
+      },
+      {
+        "title": "Silver Bulletinのジェネリック平均はD+8.7——最高値D+9.2から縮小、共和支持も同時に微増",
+        "source": "Silver Bulletin",
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "impact": "neutral"
+      },
+      {
+        "title": "期日前投票が3900万票超——ヒスパニック票が2022年同時期を大きく上回り、TXでシェア+37%（TargetSmart）",
+        "source": "Washington Post",
+        "url": "https://www.washingtonpost.com/elections/2026/10/28/more-than-39-million-americans-have-voted-early-including-many-hispanic-voters/",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+        "title": "Democrats in striking distance: New CNN polls in four ..."
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/29/latest-polls-in-2026-midterms-democrats-lead-in-texas-maine-michigan-kansas-new-hampshire/",
+        "title": "Latest Polls In 2026 Midterms: Democrats Lead In Texas ..."
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/29/democrats-lead-texas-michigan-maine-kansas-midterm-election-cnn-polls/92494314007/",
+        "title": "Democrats in strong position for Senate takeover, CNN polls find"
+      },
+      {
+        "url": "https://www.activote.net/polls/2026/tx-u-s-senate/",
+        "title": "Talarico Widens Lead Over Paxton in Texas Senate Race"
+      },
+      {
+        "url": "https://midterm-pulse-2026.vercel.app/en/changes",
+        "title": "Latest — Midterm Pulse 2026"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/generic-ballot-models-predict-blue-wave-next-week/",
+        "title": "Generic Ballot Models Predict Blue Wave Next Week"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+        "title": "Generic Congressional Ballot: Latest Polls | Silver Bulletin"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://www.washingtonpost.com/elections/2026/10/28/more-than-39-million-americans-have-voted-early-including-many-hispanic-voters/",
+        "title": "More than 39 million Americans have voted early, including many Hispanic voters - The Washington Post"
+      },
+      {
+        "url": "https://www.aristotle.com/data/early-absentee-voting-dashboard-2026-midterms/",
+        "title": "Early & Absentee Voting Dashboard - 2026 Midterms - Aristotle"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0234,
+    "tokens": {
+      "prompt": 17517,
+      "completion": 3653,
+      "reasoning": 2983
+    }
   }
 ]

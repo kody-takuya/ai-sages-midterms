@@ -1391,5 +1391,114 @@
       "completion": 3836,
       "reasoning": 2186
     }
+  },
+  {
+    "date": "2026-10-30",
+    "generated_at": "2026-10-30T07:00:03+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 66,
+    "house_control_prob_dem": 92,
+    "comment": "期日前4356万票の青き津波と、専門家が飛び込む「テキサスの罠」。",
+    "hidden_dynamics": [
+      "Inside Electionsが上院9州を一斉に民主党寄りに変更し、テキサスとオハイオを「民主党やや優位（Tilt D）」へ引き上げたが、直近調査はテキサス（Talarico+2）やメイン（Jackson+4）など依然として過去の保守層無回答バイアス（3〜4pt）の射程圏内にとどまっている。",
+      "トランプ大統領が投票5日前の貴重日程を割いて「安全なはずの赤い州」サウスカロライナ（Lean RからTilt Rへ格下げ）で集会を開いた事実は、共和党の内部調査でも南部保守層の投票意欲低下が深刻であることを裏付けている。",
+      "期日前投票は4356万票（対面2330万・郵便2020万）に達し対面投票がさらに伸びたにもかかわらず、党派内訳は民主党47%対共和党35%で完全に固定化しており、下院での共和党の当日逆転余地はほぼ消滅した。"
+    ],
+    "hypothesis_title": "下院238議席の確定と上院「2〜4pt差」の罠",
+    "hypothesis": "期日前投票が4356万票に達し対面投票急増でも民主党+12pt差が崩れず、下院238議席は盤石だ。一方、今日Inside ElectionsがTX・OHを民主党優位へ動かしたが、最新調査でもTX（+2pt）やME（+4pt）は過去の「調査に答えない保守層」の誤差（3〜4pt）と終盤の保守回帰で逆転される危険水域にある。予測機関の集団的な強気化（ハーディング）に距離を置き上院は51議席を維持する。TX等で5pt超の差が確認されれば52議席へ引き上げる。",
+    "hypothesis_status": "kept",
+    "change_reason": "Inside ElectionsがTX・OHをTilt Dへ引き上げたものの、同時発表のTX調査（+2pt）やCNNのME調査（+4pt）は依然として当予測が警戒する「3〜4ptの調査誤差の壁」を超えていないため、上院51議席・下院238議席を据え置いた（NC・NHの安定を受け上院勝率のみ66%へ1pt微増）。",
+    "analysis": "投票日まで残り5日。NBC集計の期日前投票は前日比約440万票増の4356万票（対面2330万・郵便2020万）と歴史的なペースで膨張しているが、党派比率は民主党47%対共和党35%（+12pt）のまま1ミリも動かない。Sabato（Abramowitzモデル）が下院民主党239議席と算出した通り、当予測の238議席は極めて堅い。一方、本日の最大の焦点は上院だ。Inside Electionsが9州を一挙に民主党寄りに動かし、ついにテキサスとオハイオを「Tilt D」へ、アイオワとカンザスを「トスアップ」へ変更した。しかし、この「専門家の民主党雪崩現象」にそのまま乗るのは危険だ。本日追加されたテキサス州のBarbara Jordan調査では民主党Talarico氏のリードはわずか2pt（49%対47%）、CNNのメイン州調査でも4pt差（49%対45%）、カンザス州は共和党Marshall氏が4ptリード（49%対45%）と、赤い州の壁は決壊していない。ニューハンプシャー州（Pappas+7pt）やノースカロライナ州で50〜51議席目は固まったが、TX・OH・MEの「2〜4ptリード」は2016年・2024年に繰り返された隠れ保守票の誤差で吹き飛ぶ水準だ。トランプ氏のサウスカロライナ集会が示す通り共和党の防戦は苦しいが、最後の保守回帰を見込み上院51対49を維持する。",
+    "key_news": [
+      {
+        "title": "期日前投票が全国で4356万票を突破、対面投票2330万票に達するも民主党47%・共和党35%の12pt差が続く",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "Inside Electionsが上院9州を民主党寄りに変更、テキサスとオハイオを「Tilt D」へ、アイオワ・カンザスをトスアップへ",
+        "source": "Inside Elections / Lilly Predicts",
+        "url": "https://lillypredicts.com/brief/2026-10-29",
+        "impact": "D+"
+      },
+      {
+        "title": "最新上院調査：NHで民主党Pappasが+7ptとリード拡大、一方TXは民主党Talarico+2pt（49%対47%）の極限の接戦",
+        "source": "New York Times",
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "impact": "neutral"
+      },
+      {
+        "title": "CNN最新調査：メイン州で民主党Jacksonが49%対45%で現職Collinsを4ptリード、カンザス州は共和党Marshallが49%対45%で防戦",
+        "source": "Forbes / CNN",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/29/latest-polls-in-2026-midterms-democrats-lead-in-texas-maine-michigan-kansas-new-hampshire/",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://yougov.com/en-us/articles/55847-democrats-2026-midterms-lead-voter-fraud-concerns-ramaswamy-ad-more-october-23-26-2026-economist-yougov-poll",
+        "title": "Democrats' midterms lead, voter-fraud concerns, Ramaswamy’s ad, and more: October 23–26, 2026 Economist / YouGov Poll"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/midterms",
+        "title": "Midterms 2026: Congress Polls and More"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/29/latest-polls-in-2026-midterms-democrats-lead-in-texas-maine-michigan-kansas-new-hampshire/",
+        "title": "Latest Polls In 2026 Midterms: Democrats Lead In Texas ..."
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html",
+        "title": "Tracking the Early Vote in the 2026 Midterm Elections"
+      },
+      {
+        "url": "https://www.nytimes.com/live/2026/10/29/us/midterms-elections-trump",
+        "title": "2026 Elections Live Updates: Trump Rallies in South ..."
+      },
+      {
+        "url": "https://www.bbc.com/news/articles/c30rlxkjv2yko",
+        "title": "More than 43 million ballots cast so far in midterms early voting surge"
+      },
+      {
+        "url": "https://insideelections.com/2026-senate-report-shorts-oct-29-2026/",
+        "title": "2026 Senate Report Shorts (Oct. 29, 2026)"
+      },
+      {
+        "url": "https://insideelections.com/2026-house-report-shorts-oct-29-2026/",
+        "title": "2026 House Report Shorts (Oct. 29, 2026)"
+      },
+      {
+        "url": "https://insideelections.com/2026-election-overview-oct-29-2026-gop-faces-midterm-backlash/",
+        "title": "2026 Election Overview (Oct. 29, 2026): GOP Faces Midterm Backlash – Inside Elections"
+      },
+      {
+        "url": "https://lillypredicts.com/brief/2026-10-29",
+        "title": "1 new poll and the board holds: Democrats 64 in 100 for the Senate, 90 for the House and 70 for the governors · The daily brief, October 29 · Lilly Predicts"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0519,
+    "tokens": {
+      "prompt": 10617,
+      "completion": 1646,
+      "reasoning": 0
+    }
   }
 ]

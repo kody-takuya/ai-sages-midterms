@@ -1337,5 +1337,104 @@
       "completion": 1792,
       "reasoning": 273
     }
+  },
+  {
+    "date": "2026-10-30",
+    "generated_at": "2026-10-30T07:00:03+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 54,
+    "house_control_prob_dem": 85,
+    "comment": "赤い防波堤に亀裂。ただし青い津波とは限らない。",
+    "hidden_dynamics": [
+      "共和党の問題が支持者の欠席だけなら、終盤の動員で回復できる。しかしテキサスで異なる調査がともに民主優位を示す点は、候補への抵抗や投票先変更も混じる可能性を示す。得票率と投票率の両方を修復する必要があるなら、防衛は難しくなる。",
+      "複数州の民主優位が同じＣＮＮ調査に由来する部分は、独立した追認ではない。共通の投票見込み層の設定が外れれば、接戦州がまとめて共和側へ戻るため、州数ほど証拠の厚みはない。",
+      "共和寄り州へ接戦が広がると、防衛資金だけでなく候補者・応援者の時間も分散する。ただし広告撤去や接触量の実測は確認できず、現時点では民主の追加議席ではなく上振れ余地として扱う。"
+    ],
+    "hypothesis_title": "赤い州の壁は崩落でなく浸食",
+    "hypothesis": "上下院分離の仮説を修正する。共和の弱点は支持者の欠席だけでなく、一部候補への抵抗にも及ぶ可能性がある。テキサスの二調査での民主優位と、メーン・ミシガンの数字は、民主が上院の関所を一つ余分に越す展開を支持する。ただし同一調査機関の州別結果は独立証拠と数えず、２０１６・２０２４年型の共和票過小把握を共通リスクとして残す。独立した終盤調査と低頻度層の参加が共和回復で一致すれば、５１議席予測を撤回する。",
+    "hypothesis_status": "refined",
+    "change_reason": "民主の既存議席維持にノースカロライナ、メーン、オハイオの奪取を重ねる５０議席を土台に、テキサスの追加獲得を僅差の中心シナリオへ移し、上院を１議席増やした。下院の接戦区を直接更新する材料は乏しく、２３３議席と多数確率８５％は据え置く。",
+    "analysis": "米東部２９日１８時基準。昨日の「共和支持者の欠席」だけでは説明が狭いと判断する。フォーブス掲載のテキサス調査はＣＮＮで民主６ポイント、別の大学・ユ―ガブ調査で２ポイント優位。幅の違いは重要で、大差の方をそのまま採用せず、それでも共和安全圏という前提は弱める。メーンの民主４ポイント、ミシガンの７ポイント優位は、それぞれ奪取と防衛を支えるが、共通の調査設計による連動誤差を警戒する。カンザスは上振れ候補にとどめる。共和の強みは赤い州の地盤と未投票支持者の回収余地で、２０１６・２０２４年型の誤差なら５１議席は容易に崩れる。下院は郊外の反与党票を評価しつつ、ＩＡ０１・０３、ＰＡ０７・１０、ＮＹ１７、ＡＺ０６の農村票回収を監視する。明日は州別調査の実施期間・依頼主・参加想定を確認する。記事更新日と調査の新しさは区別し、一部記事の公開時刻は未確認。",
+    "key_news": [
+      {
+        "title": "テキサスで二調査が民主優位、メーン・ミシガン・カンザスでも民主先行と掲載",
+        "source": "Forbes（CNN、テキサスサザン大学／YouGovなどの調査を紹介）",
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/29/latest-polls-in-2026-midterms-democrats-lead-in-texas-maine-michigan-kansas-new-hampshire/",
+        "impact": "D+"
+      },
+      {
+        "title": "上院評価を変更、共和寄り州の投票率が多数党を左右すると分析",
+        "source": "Fox News（２９日午前９時公開）",
+        "url": "https://www.foxnews.com/politics/fox-news-power-rankings-south-carolina-moves-toss-up",
+        "impact": "neutral"
+      },
+      {
+        "title": "全国下院投票意向の平均は民主８・２ポイント優位、上院との地域差は残る",
+        "source": "Al Jazeera（RealClearPolling平均を紹介）",
+        "url": "https://www.aljazeera.com/news/2026/10/29/us-midterms-five-days-to-go-what-the-polls-say-as-trump-harris-campaign",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/29/pollwatcher-10-most-important-poll-findings-shaping-midterm-elections/",
+        "title": "The Pollwatcher: The 10 most important poll findings shaping the midterm elections  - The Washington Post"
+      },
+      {
+        "url": "https://apnews.com/live/trump-midterm-elections-news-updates-10-29-2026",
+        "title": "Live updates: Trump in Ohio and Obama in Georgia make closing stretch appeals | AP News"
+      },
+      {
+        "url": "https://yougov.com/en-us/articles/55847-democrats-2026-midterms-lead-voter-fraud-concerns-ramaswamy-ad-more-october-23-26-2026-economist-yougov-poll",
+        "title": "Democrats' midterms lead, voter-fraud concerns, Ramaswamy’s ad, and more: October 23–26, 2026 Economist / YouGov Poll"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/10/29/latest-polls-in-2026-midterms-democrats-lead-in-texas-maine-michigan-kansas-new-hampshire/",
+        "title": "Latest Polls In 2026 Midterms: Democrats Lead In Texas ..."
+      },
+      {
+        "url": "https://www.foxnews.com/video/6407570434112",
+        "title": "Kansas Senate race tightens as early voter turnout surges | Fox News Video"
+      },
+      {
+        "url": "https://www.foxnews.com/elections/2026/midterm-results/senate",
+        "title": "2026 Senate Election Results"
+      },
+      {
+        "url": "https://www.foxnews.com/video/6407502413112",
+        "title": "Who is winning the early vote?: Midterm Update | Fox News Video"
+      },
+      {
+        "url": "https://www.foxnews.com/politics/fox-news-power-rankings-south-carolina-moves-toss-up",
+        "title": "Fox News Power Rankings shift Ohio and South Carolina Senate races | Fox News"
+      },
+      {
+        "url": "https://www.yahoo.com/news/politics/articles/gop-outspends-dems-237-million-191058153.html",
+        "title": "GOP Outspends Dems by $237 Million in Senate Races"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/10/29/us-midterms-five-days-to-go-what-the-polls-say-as-trump-harris-campaign",
+        "title": "US midterms: Five days to go – What the polls say as Trump, Harris campaign | US Midterm Elections 2026 News | Al Jazeera"
+      },
+      {
+        "url": "https://www.cnn.com/2026/10/27/politics/live-news/midterm-election-congress",
+        "title": "Trump and Talarico campaign two miles apart in Texas rallies"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0537,
+    "tokens": {
+      "prompt": 15119,
+      "completion": 1688,
+      "reasoning": 218
+    }
   }
 ]
