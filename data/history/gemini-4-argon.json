@@ -1500,5 +1500,114 @@
       "completion": 1646,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-31",
+    "generated_at": "2026-10-31T07:00:04+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 67,
+    "house_control_prob_dem": 93,
+    "comment": "Cookの上限「240」が証明した下院の青い波と、カンザスに潜む蜃気楼。",
+    "hidden_dynamics": [
+      "Cookが投票4日前に下院12選挙区を民主党寄りに動かし上限を「240議席」と算出したのは、各陣営の終盤の内部調査で共和党安全圏だった郊外区の決壊が確認されたためであり、当予測が先行して提示してきた238議席に機関側が追いついた形だ。",
+      "一方、Cookが上院では7つのトスアップを動かさず、フロリダやネブラスカの周辺州調整にとどめたのは、昨日のInside Electionsの強気化（TX・OHをTilt Dへ）に対し、赤い州の「隠れ保守票」と終盤の党派回帰を強く警戒している証拠である。",
+      "カンザス（民主党+2pt）やサウスダコタ（無所属+2pt・民主党系調査）で一見センセーショナルな世論調査が出ているが、第3党候補への票割れや回答バイアスが作った終盤特有の「青い蜃気楼」であり、実態は共和党の防戦ラインが機能している。"
+    ],
+    "hypothesis_title": "下院238議席の収束と上院「赤い州の罠」の選別",
+    "hypothesis": "期日前投票が4611万票（対面2500万・郵便2110万）に達しても民主党+12pt差が不動であり、今日Cookが下院12選挙区を民主党へ動かして上限240議席としたことで、当予測の238議席は完全に裏付けられた。一方、上院はKS等で民主党リードの調査が出たが、Cookは7激戦州をトスアップに据え置いた。2016・2024年型の保守層の無回答バイアス（3〜4pt）と終盤の保守回帰を見込み、上院51議席を維持する。TX・OH等で5pt超の差が出れば52議席へ引き上げる。",
+    "hypothesis_status": "refined",
+    "change_reason": "Cookの下院12選挙区変更（最大240議席予測）と期日前投票4611万票の+12pt維持が、当予測の下院238議席・上院51議席の仮説をそのまま裏付けたため議席数は据え置き、データ確定に伴い両院の民主党勝率のみ1ptずつ微増させた。",
+    "analysis": "投票日まで残り4日。NBC集計の期日前投票は4611万票（対面2500万・郵便2110万）に達し、対面投票がさらに膨らんでも民主党47%対共和党35%（+12pt）の差は微動だにしない。この実投票の圧力を受け、本日Cook Political Reportが下院12選挙区を一挙に民主党寄りに変更した。トスアップ除外で民主党222議席、18のトスアップを全て取れば240議席というCookの最新推計は、当予測が数日前から維持してきた「下院238議席」の妥当性を完全に証明している。一方、上院では極めて興味深い「評価の分裂」が起きている。昨日Inside Electionsがテキサスとオハイオを民主党優位へ動かしたのに対し、本日のCook最終分析は7つの激戦州（TX・OH・ME・AK等）をすべてトスアップのまま据え置いた。本日公表のEmerson調査でカンザス州が民主党+2pt（50%対47%、リバタリアン3%）、民主党系調査でサウスダコタ州が無所属+2ptとなるなど赤い州で驚きの数字が出ているが、これこそ終盤の過剰反応が作る「青い蜃気楼」だ。2016年や2024年に繰り返された「調査に答えない農村部・低投票頻度保守層」の当日投票と、リバタリアン票の終盤の共和党回帰を計算に入れれば、2〜3pt差の赤い州はほぼ全て共和党が押し返す。下院の大勝と上院の51議席止まりという「ねじれ現象」を見据え、週末の最終盤へ臨む。",
+    "key_news": [
+      {
+        "title": "Cookが投票4日前に下院12選挙区を民主党寄りに変更、民主党は最大240議席獲得の勢いと分析",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/dozen-more-House-October2026",
+        "impact": "D+"
+      },
+      {
+        "title": "全米の期日前投票が4611万票突破（対面2500万・郵便2110万）、登録党派比は民主党47%対共和党35%を維持",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "Cookが上院最終分析を発表、過半数を決める7つの激戦州をすべて誤差内のトスアップとして据え置き",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/closing-analysis-2026-senate-ratings",
+        "impact": "neutral"
+      },
+      {
+        "title": "上院最新世論調査：カンザス州（Emerson）で民主党ハミルトン氏が50%対47%で現職マーシャル氏を2ptリード",
+        "source": "The New York Times",
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://polling-desk.com/",
+        "title": "2026 Midterm Results Live, Polls & Averages | Polling Desk"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/2026/us/elections/midterms-house-senate-key-races.html",
+        "title": "2026 Midterms Tracker: The Key Senate and House Races - The New York Times"
+      },
+      {
+        "url": "https://yougov.com/en-us/articles/55847-democrats-2026-midterms-lead-voter-fraud-concerns-ramaswamy-ad-more-october-23-26-2026-economist-yougov-poll",
+        "title": "Democrats' midterms lead, voter-fraud concerns, Ramaswamy’s ad, and more: October 23–26, 2026 Economist / YouGov Poll"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.nbcnews.com/video/early-midterm-voting-data-shows-enthusiasm-ahead-of-election-day-272440901813",
+        "title": "Early midterm voting data shows enthusiasm ahead of election day"
+      },
+      {
+        "url": "https://onpointpolitics.us/maps/early-vote",
+        "title": "2026 Early Vote Tracker: Ballots Cast by State | On Point Politics"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/closing-analysis-2026-senate-ratings",
+        "title": "Closing Senate Analysis: The Seven States That Will Decide the Majority | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/dozen-more-House-October2026",
+        "title": "Four Days Out, a Dozen More House Races Move Toward Democrats | Cook Political Report"
+      },
+      {
+        "url": "https://hansenintelreport.com/us-election-2026",
+        "title": "2026 US Election | Hansen Intel Report"
+      },
+      {
+        "url": "https://insideelections.com/2026-election-overview-oct-29-2026-gop-faces-midterm-backlash/",
+        "title": "2026 Election Overview (Oct. 29, 2026): GOP Faces Midterm Backlash – Inside Elections"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0518,
+    "tokens": {
+      "prompt": 10519,
+      "completion": 1664,
+      "reasoning": 0
+    }
   }
 ]

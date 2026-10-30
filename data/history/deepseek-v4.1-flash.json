@@ -2192,5 +2192,114 @@
       "completion": 3653,
       "reasoning": 2983
     }
+  },
+  {
+    "date": "2026-10-31",
+    "generated_at": "2026-10-31T07:00:04+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 73,
+    "house_control_prob_dem": 93,
+    "comment": "査定者が天井240を口にした日、波は最も静かに満ちる",
+    "hidden_dynamics": [
+      "期日前は43百万超で黒人・ヒスパニック票が急増しているが、TargetSmart自身が「誰が投票したか、どう投票したかではない」と注記する通り、2022年も期日前はD優位で本選の一般票は共和が取った。早期票の構成を青い波の物証と読むのは錯覚だ。",
+      "CookとInside Electionsが同日に十数区を一斉にDへ移したのは、資金・内部調査を相互に追随するヘルディングの典型。逆に共和資金が赤州防衛から攻勢へ転じた形跡がまだ無いことが、両陣営の内部データが何を示しているかの最も雄弁な証拠だ。",
+      "TXはTSU（Talarico+2、誤差内）とCNN（+6）、A2（+3）で幅が大きく、4激戦の中で最も不安定。2024に共和へ流れたラテン系の回帰が本物かは、期日前の内訳では未確定のままだ。"
+    ],
+    "hypothesis_title": "2018型・候補の質が波を上院へ運ぶ",
+    "hypothesis": "核は据え置く——隠れ共和票は大統領年固有の現象で、中間選挙の世調誤差は小さい。今回は2018型で、トランプ不支持が期日前を押し出し、候補の質で上院激戦にDが先行、下院は資金力でも逆転した。今日CookとInside Electionsが下院を一斉にDへ動かしたのは潮流の裏付けだが、確認材料が「査定者の移動」に偏り、一般票は頭打ち（D+8.7）。よって中央値は厚くせず天井を取らない。棄却条件はTXが共和系含め全社Paxson首位へ反転、MEでCollinsが平均+2超、または共和資金が赤州防衛から攻勢へ転換した場合。",
+    "hypothesis_status": "kept",
+    "change_reason": "新材料（Cookの12区移動、CNN4州調査、A2/TSUのTX調査）はいずれも仮説の方向を裏付けたが、内容は既知の傾向の再確認で、上院中央値52・下院236を動かす新たな硬データは無かった。上院PのみCNNの州単位固化を受け72→73へ微上げ。",
+    "analysis": "【上院】確実支配に純増4。Cooper(NC)=48、Brown(OH)+Elsayed(MI)+Pappas(NH)=50、TX(Talarico: TSU+2・A2+3・CNN+6、平均+3.5)とME(Jackson: Marist+2・CNN+4)の両取りで52、AK(Peltola)まで伸びれば53。CNNの4州同時調査でMEが+4へ広がったのは、Collinsの地元組織が±を詰めていないことを示す重要材料。最大リスクは依然として全国相関した世調誤差で、4〜5激戦が同日Rへ振れれば49まで沈む。P73。【下院】一般票D+8.7で頭打ち、Cookは「12〜25区、最大240」、Inside ElectionsはToss-up→Lean Dを重ねた。ただし18のToss-upを全部取って240という計算は、査定者が波の厚みを最大限に見積もった時の数字であり、区割り改定(TX/MO/NC)の歯止めと共和支持の同時上向きを差し引けば236が妥当な中央値。幅は225〜241。【持ち越し】①最終週末でTXがPaxtonへ寄るか、②MEでCollinsが±2以内に詰めるか、③一般票の頭打ちが続くか、④当日共和の上積み（特に高齢・白人有権者）。",
+    "key_news": [
+      {
+        "title": "Cook Political Reportが下院12区をさらにDへ移動、民主党は最大240議席に届く可能性と予測",
+        "source": "Cook Political Report / The Hill",
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/dozen-more-House-October2026",
+        "impact": "D+"
+      },
+      {
+        "title": "CNNの4州同時調査、TXでTalarico+6、MEでJackson+4——民主の上院多数への道筋を強調",
+        "source": "CNN",
+        "url": "https://edition.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+        "impact": "D+"
+      },
+      {
+        "title": "テキサス南部大学調査、TalaricoがPaxtonを49-47で僅差リード（誤差内の接戦）",
+        "source": "USA Today",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/29/texas-senate-poll-shows-talarico-narrowly-ahead-of-paxton/92476565007/",
+        "impact": "D+"
+      },
+      {
+        "title": "期日前投票が4300万人超、2022年同時点より約1000万人増——黒人・ヒスパニック票が急増",
+        "source": "AP News",
+        "url": "https://apnews.com/article/election-early-voting-midterms-3f7d5c378b3d9bff5cde4604a55b9c9a",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://fredcornell.com/latest-senate-polls",
+        "title": "Latest Senate polls | Fred Cornell"
+      },
+      {
+        "url": "https://edition.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+        "title": "Democrats in striking distance: New CNN polls in four states highlight party’s path to Senate majority"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/29/texas-senate-poll-shows-talarico-narrowly-ahead-of-paxton/92476565007/",
+        "title": "TSU Texas senate poll shows Talarico narrowly ahead of Paxton"
+      },
+      {
+        "url": "https://www.callthemap.com/polls",
+        "title": "2026 midterm polls: every Senate, House and governor poll"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/dozen-more-House-October2026",
+        "title": "Four Days Out, a Dozen More House Races Move Toward Democrats | Cook Political Report"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6183415-cook-political-report-house-race-shifts-democrats-midterms/",
+        "title": "Cook Political Report shifts more House races toward Democrats days before midterms"
+      },
+      {
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/30/trump-rally-iowa-kansas-republican-strategy-midterms-live",
+        "title": "Democrats could win as many as 240 House seats to take majority, Cook Political Report predicts – live"
+      },
+      {
+        "url": "https://midtermmonday.com/movers",
+        "title": "Midterm Mondays"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://apnews.com/article/election-early-voting-midterms-3f7d5c378b3d9bff5cde4604a55b9c9a",
+        "title": "Early voting jumps as millions more Americans vote ahead of Election Day | AP News"
+      },
+      {
+        "url": "https://www.bbc.com/news/articles/c30rlxkjv2yko",
+        "title": "More than 43 million ballots cast so far in midterms early voting surge"
+      },
+      {
+        "url": "https://www.washingtonpost.com/elections/2026/10/28/more-than-39-million-americans-have-voted-early-including-many-hispanic-voters/",
+        "title": "More than 39 million Americans have voted early, including many Hispanic voters - The Washington Post"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0262,
+    "tokens": {
+      "prompt": 16625,
+      "completion": 2638,
+      "reasoning": 1003
+    }
   }
 ]

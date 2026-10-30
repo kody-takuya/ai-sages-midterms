@@ -1436,5 +1436,104 @@
       "completion": 1688,
       "reasoning": 218
     }
+  },
+  {
+    "date": "2026-10-31",
+    "generated_at": "2026-10-31T07:00:04+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 54,
+    "house_control_prob_dem": 85,
+    "comment": "赤い州も接戦。ただし接戦の数ほど議席は増えない。",
+    "hidden_dynamics": [
+      "共和の防衛対象が広がれば、資金総額より現地組織や候補本人の時間配分が制約になる。ただし遊説の再設定は危機演出による動員策でも説明でき、内部調査悪化の証拠とは断定しない。",
+      "白人労働者層への接触難は、複数州の民主優位が独立した裏付けではなく、共通の回答者偏りである可能性を示す。候補への反感と調査への非回答を区別できない点が、上院予測の最大の弱点だ。",
+      "期日前投票の党派別集計は、集計対象州の偏りと投票時期の前倒しを含む。民主の既投票優位だけでは、共和の選挙当日動員を上回る参加純増とは判断できない。"
+    ],
+    "hypothesis_title": "赤州の亀裂、共通誤差の影",
+    "hypothesis": "共和候補への抵抗が赤い州にも広がり、民主は下院の郊外優位に加えて上院でも僅差の過半数に届く、という仮説を維持する。ただし接戦州の増加を独立した追い風とは数えない。白人労働者層への調査接触難は、２０１６・２０２４年型の共和票過小把握が複数州で同時に起きる経路だからだ。独立調査の投票履歴別集計と実際の低頻度層参加が共和回復で一致すれば、民主５１議席を撤回する。",
+    "hypothesis_status": "refined",
+    "change_reason": "民主の現有４７議席防衛と、ノースカロライナ、メーン、オハイオ、テキサスの４議席奪取を中心経路として上院５１を維持する。新たな接戦報道には既出調査の再評価も含まれ、下院の郊外接戦群を含め議席数や確率を動かす独立した証拠は不足している。",
+    "analysis": "米東部３０日１８時基準。今日の重要点は共和の防衛範囲拡大そのものより、それを測る調査にも共通の死角があることだ。右派媒体の接戦評価は民主優位が一部媒体だけの物語ではないと示すが、同じ調査を参照していれば独立した裏付けにはならない。サウスカロライナの接戦化は共和の余力を削る可能性として扱い、民主の獲得議席には加えない。中心経路はミシガン防衛とＮＣ・メーン・オハイオ・テキサス奪取。ただしメーンの現職個人票とテキサスの共和地盤が弱点になる。下院は郊外の反与党票を評価し２３３を維持する一方、ＩＡ０１・０３、ＰＡ０７・１０、ＮＹ１７、ＡＺ０６の農村・低頻度共和票が同時に上振れる危険を残す。明日は調査機関の数ではなく標本構成の違いと、過去の投票履歴別参加を確認する。ライブ記事は更新内容の締切前後を完全には分離できず、鮮度には留保がある。",
+    "key_news": [
+      {
+        "title": "期日前投票の党派別集計には対象範囲と投票先の判別に限界",
+        "source": "AP",
+        "url": "https://apnews.com/live/trump-midterm-elections-news-updates-10-30-2026",
+        "impact": "neutral"
+      },
+      {
+        "title": "上院評価でオハイオを民主優勢、サウスカロライナを接戦に",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/live-news/4-days-to-go-battle-for-control-of-congress-intensifies-as-midterms-reach-their-final-stretch-october-30",
+        "impact": "D+"
+      },
+      {
+        "title": "赤い州の接戦調査とともに、白人労働者層への接触難を指摘",
+        "source": "The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/10/30/these-are-midterm-polls-that-got-our-attention-this-week/",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://edition.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+        "title": "Democrats in striking distance: New CNN polls in four states highlight party’s path to Senate majority"
+      },
+      {
+        "url": "https://fredcornell.com/latest-senate-polls",
+        "title": "Latest Senate polls | Fred Cornell"
+      },
+      {
+        "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/30/poll-michigan-texas-maine-kansas-u-s--senate-races",
+        "title": "Senate poll: Democrats gain in Texas, Michigan; Maine tight"
+      },
+      {
+        "url": "https://apnews.com/article/election-early-voting-midterms-3f7d5c378b3d9bff5cde4604a55b9c9a",
+        "title": "Early voting jumps as millions more Americans vote ahead of Election Day | AP News"
+      },
+      {
+        "url": "https://apnews.com/article/trump-election-democrats-senate-alaska-735089be466c4d0e57ff40789c28bb94",
+        "title": "The Latest: Trump to hold rallies in Kansas and Iowa after canceling them"
+      },
+      {
+        "url": "https://apnews.com/live/trump-midterm-elections-news-updates-10-30-2026",
+        "title": "Live updates: Trump to hold rallies in Kansas and Iowa after initially canceling | AP News"
+      },
+      {
+        "url": "https://www.rappler.com/world/us-canada/things-to-know-united-states-midterm-elections-2026/",
+        "title": "What you need to know about the 2026 US midterm elections"
+      },
+      {
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4785595/no-signs-red-state-firewall-gop-majorities-midterm-elections/",
+        "title": "No signs of red-state firewall around GOP majorities days before midterm"
+      },
+      {
+        "url": "https://www.foxnews.com/live-news/4-days-to-go-battle-for-control-of-congress-intensifies-as-midterms-reach-their-final-stretch-october-30",
+        "title": "2026 midterms live updates: Battle for control of Congress heats up"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/30/these-are-midterm-polls-that-got-our-attention-this-week/",
+        "title": "These are midterm polls that got our attention this week - The Washington Post"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0524,
+    "tokens": {
+      "prompt": 9117,
+      "completion": 1658,
+      "reasoning": 303
+    }
   }
 ]

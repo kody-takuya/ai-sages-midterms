@@ -1158,5 +1158,91 @@
       "completion": 1262,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-10-31",
+    "generated_at": "2026-10-31T07:00:04+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 58,
+    "house_control_prob_dem": 88,
+    "comment": "市場は上院に民主7割。だが平均は1〜2点差、誤差は静かに待つ",
+    "hidden_dynamics": [
+      "個別の世論調査は民主+3〜6の数字が目立つ。しかし調査を集めた平均ではTX+1.8、ME+0.7、IA・AKも1〜2点差にとどまる。見出しの印象より実際の余裕は薄い。",
+      "予測市場(上院69〜70%)は、調査が示す差より民主に強気に見える。2016年と2024年は共和支持層が過小評価されたので、市場の熱も割り引いて見る。"
+    ],
+    "hypothesis_title": "上院の僅差リードは割引が必要",
+    "hypothesis": "上院では民主がTX、OH、ME、IA、AKで0.5〜2ポイントの僅差リードを持つが、いずれも誤差の範囲だ。2016年と2024年のように共和支持層や低関与層が過小評価される恐れがあり、実質は五分五分に近い。下院は総合投票D+7前後で、不利な区割りを吸収できる。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "refined",
+    "change_reason": "調査平均が、これまで私が見ていた個別調査より僅差だと確認できた。議席数は据え置き、上院の民主支配確率だけ62%から58%に下げた。下院は変えない。",
+    "analysis": "【上院】調査を集めた平均(PollCheck)では、TXはTalarico氏+1.8、OHはBrown氏+2.3、MEはJackson氏+0.7、AKはPeltola氏+1.8だ。IAはHinson氏+0.5で、ほぼ互角になる。NCはほぼ民主が確保するとみる。民主はOH、MEに加え、TX、IA、AKのどれかが必要で、51議席は全勝に近い。1議席を落とせば50-50となり、副大統領により共和党が支配する。2024年にトランプ氏が大差で勝った州が多く、調査が共和を過小評価している恐れがある。ただし、民主の熱意と大統領の低支持率という環境は追い風だ。中央値は51-49を維持するが、確率は6割弱とする。【下院】市場は民主に92〜93%を付ける。総合投票D+7前後で233議席を維持する。最大のリスクは不利な区割りと、当日投票での共和の反発だ。明日は、党派別の早期投票、IAとAKの中立調査、市場の動きを確認する。",
+    "key_news": [
+      {
+        "title": "調査平均:TXはTalarico氏+1.8、OHはBrown氏+2.3、MEはJackson氏+0.7、IAはHinson氏が僅差で上回る",
+        "source": "PollCheck",
+        "url": "https://www.pollcheck.co.uk/us-midterms-2026",
+        "impact": "neutral"
+      },
+      {
+        "title": "予測市場:民主の下院支配は92〜93%、上院支配は約69〜70%",
+        "source": "PennLive / Hansen Intel Report",
+        "url": "https://www.pennlive.com/politics/2026/10/is-trump-doomed-what-bettors-are-saying-ahead-of-midterms.html",
+        "impact": "D+"
+      },
+      {
+        "title": "アラスカの民主勝利確率は75%から68%に低下(Polymarket)",
+        "source": "Newsweek",
+        "url": "https://www.newsweek.com/five-senate-races-that-are-tightening-before-midterms-12636248",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://fredcornell.com/latest-senate-polls",
+        "title": "Latest Senate polls | Fred Cornell"
+      },
+      {
+        "url": "https://www.newsweek.com/five-senate-races-that-are-tightening-before-midterms-12636248",
+        "title": "Five Senate races that are tightening before midterms"
+      },
+      {
+        "url": "https://www.pollcheck.co.uk/us-midterms-2026",
+        "title": "US Midterms 2026: Senate, House, Governor Polls | PollCheck"
+      },
+      {
+        "url": "https://candidatecasino.com/en/united-states/2026/house-election/control/",
+        "title": "Control of the House After the 2026 Midterms: Betting Odds"
+      },
+      {
+        "url": "https://predictionscout.com/research/generic-ballot-polls-vs-prediction-markets/",
+        "title": "Generic Ballot Polls vs Prediction Markets (2026 House Odds)"
+      },
+      {
+        "url": "https://www.pennlive.com/politics/2026/10/is-trump-doomed-what-bettors-are-saying-ahead-of-midterms.html",
+        "title": "Is Trump doomed? What bettors are saying ahead of midterms"
+      },
+      {
+        "url": "https://hansenintelreport.com/us-election-2026",
+        "title": "2026 US Election | Hansen Intel Report"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0498,
+    "tokens": {
+      "prompt": 12573,
+      "completion": 1557,
+      "reasoning": 63
+    }
   }
 ]

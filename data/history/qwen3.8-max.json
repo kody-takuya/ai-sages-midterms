@@ -2126,5 +2126,115 @@
       "completion": 4111,
       "reasoning": 1886
     }
+  },
+  {
+    "date": "2026-10-31",
+    "generated_at": "2026-10-31T07:00:04+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 237,
+      "rep": 198
+    },
+    "senate_control_prob_dem": 64,
+    "house_control_prob_dem": 95,
+    "comment": "+4の幻を捨てて+3の実を取った日",
+    "hidden_dynamics": [
+      "NCの日次増分を見ると、10/29当日の投票者のうち共和登録は30.0%(=59,629/198,809)で、累計シェア25.65%を大きく上回る。限界投票者は累計より明らかに共和寄りであり、郵便が3.5%まで死んで当日投票一本になった今、2016・2024型の「後ズレ」が機能する余地はここだけに残っている。期日前は10/31終了で、残り2日が最大量日だ。",
+      "広告資金が防衛側から攻撃側へ逆流している。WesleyanはIAを$42M→$65M、NE・SC急増、KS急増と報告し、逆にNC・GAは減速。民主がアイオワ・ネブラスカ・サウスカロライナに空域を買うのは守るためではなく、内部調査で赤い地図に亀裂が見えているからだ。資金の地理は世論調査より正直である。",
+      "WaPoが報じたTXの内部カットが決定的に重要。Talaricoは「2024年にTrumpへ投票した有色有権者の22%」を獲得している。これはまさに当日投票で後ズレを起こす低頻度・非大卒層そのものであり、その層が先に離反している限り、TXでは後ズレ機構が起動しない。",
+      "PollingSourceには同一n=838のCNNカンザスが2本並んでいる(49-45と45-45)。単一ハウスのクラスターが集計サイトで二重計上され、メディアは有利なカットだけを拡散した。昨日私が「四つの独立源」と呼んだものは実質三つだった。"
+    ],
+    "hypothesis_title": "候補特異型の上振れ、ただしNCだけ党ブランド型",
+    "hypothesis": "「熱量格差は実在しLVスクリーンが過小表示」を維持しつつ、昨日の拡張に修正を加える。民主の伸びは党ブランドの追い風でなく弱い現職・極端候補への局所的拒否であり、よって当日投票の後ズレが効かない——この枠組みはTX(TalaricoがTrump系有色有権者の22%を既に獲得)とME(Collins45%天井)では強く成立する。だがNCはCooperという党ブランド型レースなので例外で、限界投票者の共和シェア30%・累計25.65%という行動データは後ズレ余地の実在を示す。一方KSはCNNのEven版カット発覚で「四源一致」が崩れ、確率を下方修正した。両者が相殺し期待値52.3、中央値52。反証条件:(1)TXでPaxton+1超が二本連続、(2)NC累計共和シェアが30%到達、(3)SLFがTX系列$48Mを取消し、(4)$11M投下後にMarshall+2超のKS調査。",
+    "hypothesis_status": "refined",
+    "change_reason": "TXを0.58→0.60(A2 Insights+3で第三源確認)、IAを0.30→0.32、NCを0.77→0.74(日次共和シェア30%)、KSを0.55→0.53(Even版カット発覚)とし、純増4.31で期待値は52.3のまま。中央値52は据え置き、ただし昨日の四本柱のうち一本が実質崩れたため上院支配確率のみ66%→64%へ小幅減。",
+    "analysis": "今日は証拠が両方向にきれいに割れ、期待値が動かずに確率だけ削る日になった。TXはA2 Insights(50.2-47.2、LV631)が加わり、TSU/YouGov+2、CNN+6の三者で真値+3に収束。WaPoの「Trump系有色有権者22%がTalaricoへ」は、後ズレを生む層自体が先に離反している証拠で、私の仮説を最も強く支える一点だ。0.60へ。逆にKSは昨日の判断を自分で撤回する。PollingSourceにCNNの49-45と45-45が並存し、KCUR/KMUWは「SLFが$11M超を投下しても歴史的最高額になった」と報じるだけでMarshallの反転を示さない。金が効かないのは民主に有利だが、+4を根拠にした55%は支えきれず53%。NCは警戒度を一段上げた。累計2,353,234票、D39.31/R25.65/無党派35.04でD-RギャップはD+13.7と2022年時点のD+6.8を大きく超えるが、当日増分では共和が30%を占める。郵便82,018枚(3.5%)まで縮小し当日投票偏重が極まった今、2024年に民主を騙した構造がそのまま残っている。Cooperは74%へ小幅減。MEはCollins45-47の天井が動かず65%維持、MI0.85・OH0.74・AK0.40も据え置き。下院は本日ハードデータなしで237、Cook D有利220は動かず、ME-01のPingree苦戦だけが民主ブランドの天井として残る一点。明日の自分へ:(1)NC累計共和シェアが30%を越えるか——越えたらNCを0.65以下へ、(2)SLFのTX$48M取消しの有無、(3)KSで$11M投下後の新調査、(4)IA・NE・SCへの民主資金が調査に転化するか、(5)閉鎖・ACA協議の決着がgenericを動かすか。",
+    "key_news": [
+      {
+        "title": "Wesleyan Media Project:上院選広告費がKS・IA($42M→$65M)・MI・NE・SCで急増、NCとGAでは減速",
+        "source": "Wesleyan Media Project",
+        "url": "https://mediaproject.wesleyan.edu/releases-102926/",
+        "impact": "D+"
+      },
+      {
+        "title": "TX上院選:Talaricoがラテン系LVの63%、有色LVの64%を獲得。うち22%は2024年にTrumpへ投票した層",
+        "source": "The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026-10-30/these-are-midterm-polls-that-got-our-attention-this-week/",
+        "impact": "D+"
+      },
+      {
+        "title": "カンザス上院選、州史上最高額の選挙戦に。SLFがNCから資金を移し$11M超を投入もMarshallは動かない",
+        "source": "KCUR / NPR",
+        "url": "https://www.kcur.org/politics-elections-and-government/2026-10-30/marshall-hamilton-spending-kansas-senate-election",
+        "impact": "neutral"
+      },
+      {
+        "title": "NC早期投票2,353,234票:共和登録シェア25.65%へ4日連続上昇、郵便は3.5%まで縮小し当日投票が96.5%",
+        "source": "PollingSource / NC State Board of Elections",
+        "url": "https://pollingsource.com/early-vote",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://edition.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+        "title": "Democrats in striking distance: New CNN polls in four states highlight party’s path to Senate majority"
+      },
+      {
+        "url": "https://pollingsource.com/today",
+        "title": "Today's Source - October 30, 2026 | PollingSource"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6182720-hamilton-jackson-ahead-cnn-poll/",
+        "title": "Adam Hamilton and Troy Jackson lead close Senate battles in Kansas and Maine"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/30/these-are-midterm-polls-that-got-our-attention-this-week/",
+        "title": "These are midterm polls that got our attention this week - The Washington Post"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.callthemap.com/early-vote/north-carolina",
+        "title": "North Carolina early voting results 2026: who has voted so far"
+      },
+      {
+        "url": "https://dashboard.majorityrisingnc.org/early-voting/index.html",
+        "title": "North Carolina Early Voting Turnout 2026: Daily Tracker by Party, County and District | Majority Rising NC"
+      },
+      {
+        "url": "https://pollingsource.com/early-vote",
+        "title": "Early Vote Tracker | PollingSource"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-election/gop-super-pac-pauses-spending-north-carolina-senate-race-shift-kansas-rcna601134",
+        "title": "GOP super PAC cancels spending in North Carolina Senate race, shifting money to Kansas"
+      },
+      {
+        "url": "https://www.kcur.org/politics-elections-and-government/2026-10-30/marshall-hamilton-spending-kansas-senate-election",
+        "title": "Marshall-Hamilton race has become most expensive election in Kansas history — by a lot | KCUR - Kansas City news and NPR"
+      },
+      {
+        "url": "https://www.kmuw.org/politics/2026-10-30/marshall-hamilton-showdown-becomes-most-expensive-election-in-kansas-history",
+        "title": "Marshall-Hamilton showdown becomes most expensive election in Kansas history | KMUW"
+      },
+      {
+        "url": "https://mediaproject.wesleyan.edu/releases-102926/",
+        "title": "Ad Spending Up Sharply in Senate Races in Kansas, Iowa, Michigan, Nebraska and South Carolina; Spending Slows in North Carolina and Georgia - Wesleyan Media Project"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0916,
+    "tokens": {
+      "prompt": 48717,
+      "completion": 5675,
+      "reasoning": 3422
+    }
   }
 ]
