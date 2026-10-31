@@ -2236,5 +2236,114 @@
       "completion": 5675,
       "reasoning": 3422
     }
+  },
+  {
+    "date": "2026-11-01",
+    "generated_at": "2026-11-01T07:00:04+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 67,
+    "house_control_prob_dem": 96,
+    "comment": "態度調査は揺れるが、投函された用紙は揺れない",
+    "hidden_dynamics": [
+      "NCの早期投票は260万票超・2022年比32%増で終了したが、登録共和のシェアは32%→26%へ6ポイント崩落。SLFがNCの10月広告を全取消ししてカンザスへ転用した事実と合わせ、共和上層部はNCを内部で既に落としている公算が高い。",
+      "WaPoがカンザスで直接接触調査を行い「民主は語りたがり、共和は語らない」と報告。これは非応答バイアスの古典的警告で、KS平均+2.9を額面通りには取れない根拠であると同時に、共和支持層の動員そのものが低下している兆候でもある。",
+      "SLF系のTX予約が9月の$122Mに加え$66Mへ拡大。安全圏の州にその額は積まない。Paxtonが実際に危険水域にいる内部認識の裏返しであり、NCから抜いた金の行き先が「守り」である点が見落とされている。"
+    ],
+    "hypothesis_title": "用紙が実証した熱度格差、後ズレの池は浅い",
+    "hypothesis": "「熱度格差は実在しLVスクリーンは過小表示」を維持し、昨日残した例外をつぶす。民主の伸びは弱い現職・極端候補への局所的拒否なので当日投票の後ズレが効かない——この枠組みからNCだけを党ブランド型レースとして例外扱いしてきたが、早期投票終了時点の登録共和シェア26%(2022年32%)は、WRALが言う「厚い残存票の池」が実際には痩せていることを示す。よってNCも例外でなく、後ズレ余地は全州で限定的だと判断を拡張した。ただしWaPoのKS非応答報告を重く見て、態度調査の民主上振れ1〜2ptを常時割り引く。反証条件:(1)NC当日投票分の共和シェア35%超、(2)TXでPaxton+1超が二本連続、(3)$11M投下後にMarshall+2超のKS調査、(4)最終週にSLFがTX予約を取り消してKSへ再転用。",
+    "hypothesis_status": "refined",
+    "change_reason": "NC早期投票終了で登録共和シェアが26%まで低下し、私の反証条件(累計30%到達)が明確に否定されたためCooperを0.77→0.85へ。KSはEmerson最終49-45とDDHQ平均+2.9で反証条件(4)も否定され0.55→0.58へ戻した。純増4.42でE[D]=52.4、中央値52を維持しつつ確率を64→67%へ。下院は用紙で環境が実証された点を1議席に反映し238。",
+    "analysis": "今日は仮説の「例外条項」を一つ消せた日だ。NCの早期投票は10/31で終了、受理261万2千票(登録有権者の33%)、2,524,620が対面・87,629が郵便で、2022年の同時点より32%多い。決定的なのは内訳で、民主38.7/共和26.0/無党派35.0。2022年の共和32%から6ポイントの崩落は、当日投票で挽回すべき「残存票の池」が想定より浅いことを意味する。無党派が最大勢力という留保はあるが、D+7環境で無党派が民主に傾くのはKSのEmerson(無党派59-25でHamilton、前月比+17pt)が実証済みだ。Cooperは0.85。\n\nKSは判断を戻す。Emerson最終(10/26-28, LV800)が49-45、DDHQ平均もHamilton48.3/Marshall45.4の+2.9へ改善。SLFの$11M投下後もMarshallは動かない。ただし自由党Grahamが3%で、これはそのままHamiltonのリード幅。WaPoが「共和は電話に出ない」と明言した以上、真値は+1〜+2と見て0.58で止める。55→60%の誘惑を断った。\n\nTXは新データなし。SLFが$66Mを追加予約した事実は両義的だが、NCから金を抜いてTXへ積むという配分変更自体がPaxton危険の告白だ。0.57。ME0.65・MI0.85・OH0.74・AK0.40・IA0.30は据え置き。再計算:獲得4.94、流出MN0.22+NH0.20+GA0.10=0.52、純増4.42でE[D]=52.4。\n\n下院は238へ。用紙で環境が裏付けられた以上、AZ-01/06・CO-08・CA-13/45の边际で民主が床を一段上げたと見る。ただしME-01でPingreeがCharlesと互角という一点は残っており、民主ブランドの天井は低い。明日の自分へ:(1)NC当日投票分の党派・無党派分解——共和35%超ならCooperを0.75以下へ、(2)SLFがTX$66M予約を取り消すか(取消し=KS再転用ならTX内部崩壊の確定打、そのまま撤退ならPaxton負け)、(3)TXの共和系調査でPaxton+1が二本続くか、(4)KSのWaPo独自調査の結果公表、(5)閉鎖・ACA協議決着がgenericを動かすか。",
+    "key_news": [
+      {
+        "title": "NC早期投票が史上最高の中間選挙投票率で終了、受理261万票。登録民主38.7%・共和26%(2022年32%)・無党派35%",
+        "source": "The NC Beat",
+        "url": "https://thencbeat.com/nc-early-voting-ends-record-turnout-2026/",
+        "impact": "D+"
+      },
+      {
+        "title": "Emerson最終カンザス調査:Hamilton 49-45 Marshall、無党派は59-25でHamilton、前月比+17pt",
+        "source": "Emerson College Polling",
+        "url": "https://emersoncollegepolling.com/october-2026-kansas-poll-hamilton-maintains-edge-over-marshall/",
+        "impact": "D+"
+      },
+      {
+        "title": "WaPoがカンザスで直接接触調査「民主支持者は話したがったが、共和支持者はそうではなかった」——非応答バイアスの警告",
+        "source": "The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026-10-30/we-polled-kansas-democrats-wanted-talk-republicans-not-so-much/",
+        "impact": "R+"
+      },
+      {
+        "title": "上院共和、NCが滑り落ちる中で広告費を大移動。TXは9月$122Mに加え$66Mを予約、大半がPaxton支援",
+        "source": "WION / AdImpact",
+        "url": "https://www.wionews.com/world/us-senate-republicans-ad-spending-north-carolina-texas-midterms-2026-1791911830467",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://votes.decisiondeskhq.com/races/2026-11-03/north-carolina-us-senate-general-election/early-voting",
+        "title": "2026 NC US Senate General Election Early Voting | DDHQ"
+      },
+      {
+        "url": "https://pollitrack.com/nc",
+        "title": "North Carolina Senate Bellwether Model"
+      },
+      {
+        "url": "https://thencbeat.com/nc-early-voting-ends-record-turnout-2026/",
+        "title": "NC Early Voting Ends With Record Midterm Turnout"
+      },
+      {
+        "url": "https://ncelectionslive.com/",
+        "title": "NC Election Live"
+      },
+      {
+        "url": "https://www.wionews.com/world/us-senate-republicans-ad-spending-north-carolina-texas-midterms-2026-1791911830467",
+        "title": "US Senate Republicans shift millions in ad spending as North Carolina slips away"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-election/gop-super-pac-pauses-spending-north-carolina-senate-race-shift-kansas-rcna601134",
+        "title": "GOP super PAC cancels spending in North Carolina Senate race, shifting money to Kansas"
+      },
+      {
+        "url": "https://www.texastribune.org/2026/10/01/texas-senate-gop-outside-spending-ken-paxton-thune-trump-talarico/",
+        "title": "Thune, Senate GOP rain cash on Texas to boost Ken Paxton"
+      },
+      {
+        "url": "https://www.texastribune.org/2026/09/11/senate-gop-leadership-ken-paxton-john-thune-texas-spending/",
+        "title": "Senate GOP’s super PAC starts spending big for Ken Paxton"
+      },
+      {
+        "url": "https://emersoncollegepolling.com/october-2026-kansas-poll-hamilton-maintains-edge-over-marshall/",
+        "title": "October 2026 Kansas Poll: Hamilton Maintains Edge over Marshall in Toss-up Election - Emerson Polling"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/30/we-polled-kansas-democrats-wanted-talk-republicans-not-so-much/",
+        "title": "We polled Kansas. Democrats wanted to talk. Republicans, not so much. - The Washington Post"
+      },
+      {
+        "url": "https://votes.decisiondeskhq.com/races/2026-11-03/kansas-us-senate-general-election/forecast",
+        "title": "2026 Kansas US Senate Forecast | DDHQ"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/6181812-hamilton-marshall-kansas-senate-poll/",
+        "title": "Adam Hamilton leads Roger Marshall in narrow Kansas Senate poll"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0709,
+    "tokens": {
+      "prompt": 27630,
+      "completion": 5000,
+      "reasoning": 2912
+    }
   }
 ]

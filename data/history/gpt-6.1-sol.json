@@ -1535,5 +1535,114 @@
       "completion": 1658,
       "reasoning": 303
     }
+  },
+  {
+    "date": "2026-11-01",
+    "generated_at": "2026-11-01T07:00:04+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 54,
+    "house_control_prob_dem": 85,
+    "comment": "期日前の行列は、青い波の高さ計ではない。",
+    "hidden_dynamics": [
+      "期日前投票の増加は、追加の有権者動員だけでなく、選挙当日票の前倒しでも起きる。投票履歴別の内訳なしに民主の参加純増と解釈すると、共和の当日票を二重に過小評価しかねない。",
+      "共和の広告支出優位は、防衛線の崩壊だけでなく終盤の回収能力も意味する。ただし労働節以降続く優位なら、その効果は既存調査にも相当程度織り込まれており、今から全額を共和への追い風として加算するのも誤りだ。",
+      "テキサスの民主優位とオハイオの同率は、全国一様の民主波より候補別の抵抗という仮説に合う。ただし調査方式・実施期間が異なり、この差だけで候補効果を識別できたとはいえない。"
+    ],
+    "hypothesis_title": "青い郊外、赤い州は候補次第",
+    "hypothesis": "共和候補への抵抗が一部の赤い州にも及び、民主は郊外中心の下院奪回と上院の僅差過半数を両立する、という仮説を維持する。テキサスの追加調査は整合的だが、オハイオ同率と共和の広告優位は圧勝説を退ける。期日前票の増加は民主への純増と数えない。２０１６・２０２４年型の共和票過小把握を州横断の共通リスクとし、独立調査と投票履歴別参加が共和回復で一致すれば撤回する。",
+    "hypothesis_status": "kept",
+    "change_reason": "民主の現有４７議席相当を防衛し、ＮＣ・メーン・オハイオ・テキサスを奪う中心経路で上院５１、下院は２０２４年比で民主純増１８の２３３を維持する。新材料はテキサスの裏付けとオハイオの不確実性が相殺し、議席数・確率を動かすほどではない。",
+    "analysis": "米東部３１日１８時基準。前回仮説は維持するが、５１議席は四つの奪取が必要な細い経路であり、安全な優勢ではない。テキサスの追加調査は民主３ポイント優位だが、依頼主と標本設計を確認するまで独立した強い裏付けには数えない。オハイオ同率も長い実施期間を含み、終盤の方向は断定できない。民主はミシガンに加えジョージア・ニューハンプシャーの防衛が前提で、メーンの現職個人票とテキサスの共和地盤が弱点。下院の２３３は郊外の反与党票を評価する一方、共和の広告力と当日動員を割り引かない数字だ。ＩＡ０１・０３、ＰＡ０７・１０、ＮＹ１７、ＡＺ０６の同時反転を警戒する。２０１６・２０２４年の教訓は共和への一律加点でなく、複数州・区で連動する誤差への備えである。明日は投票履歴別の参加純増と広告の純追加分を優先確認。ライブ記事と随時更新表は締切前後の混在に留保する。",
+    "key_news": [
+      {
+        "title": "最新掲載調査でテキサスは民主３ポイント優位、オハイオは同率",
+        "source": "The New York Times",
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "impact": "neutral"
+      },
+      {
+        "title": "３１日朝の期日前投票が５０５０万票超、前回中間選挙の総数を上回る",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/oct/31/early-voting-midterms",
+        "impact": "neutral"
+      },
+      {
+        "title": "共和は労働節以降、接戦の広告支出で毎週民主を上回る",
+        "source": "The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/10/31/republicans-are-outspending-democrats-ads-midterms-near/",
+        "impact": "R+"
+      },
+      {
+        "title": "共和の終盤応援はオハイオとミシガンにも集中",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/live-news/4-days-to-go-battle-for-control-of-congress-intensifies-as-midterms-reach-their-final-stretch-october-30",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://fredcornell.com/latest-senate-polls",
+        "title": "Latest Senate polls | Fred Cornell"
+      },
+      {
+        "url": "https://www.newsweek.com/democrats-boost-senate-battlegrounds-midterms-polls-12644622",
+        "title": "Democrats get triple poll boost in 3 battlegrounds days before midterms"
+      },
+      {
+        "url": "https://edition.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+        "title": "Democrats in striking distance: New CNN polls in four states highlight party’s path to Senate majority"
+      },
+      {
+        "url": "https://apnews.com/article/election-early-voting-midterms-3f7d5c378b3d9bff5cde4604a55b9c9a",
+        "title": "Early voting jumps as millions more Americans vote ahead of Election Day | AP News"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+        "title": "US midterms: 3 days to go – What latest polls say as early voting surges | US Midterm Elections 2026 News | Al Jazeera"
+      },
+      {
+        "url": "https://www.theguardian.com/us-news/2026/oct/31/early-voting-midterms",
+        "title": "More than 50m Americans cast ballots in early voting with three days to go before midterms | US midterm elections 2026 | The Guardian"
+      },
+      {
+        "url": "https://www.bbc.com/news/articles/c30rlxkjv2yko",
+        "title": "More than 43 million ballots cast so far in midterms early voting surge"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/31/republicans-are-outspending-democrats-ads-midterms-near/",
+        "title": "Republicans are outspending Democrats on ads as midterms near - The Washington Post"
+      },
+      {
+        "url": "https://www.foxnews.com/live-news/4-days-to-go-battle-for-control-of-congress-intensifies-as-midterms-reach-their-final-stretch-october-30",
+        "title": "2026 midterms live updates: Battle for control of Congress heats up"
+      },
+      {
+        "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4783374/2026-midterm-elections-cash-surges-house-senate-races/",
+        "title": "The races seeing cash surges in the final days of the midterm elections"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/31/elections-final-days-candidates-face-political-map-few-predicted/",
+        "title": "Candidates head to key swing states in a rapidly changing electoral map - The Washington Post"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0538,
+    "tokens": {
+      "prompt": 9276,
+      "completion": 1756,
+      "reasoning": 305
+    }
   }
 ]

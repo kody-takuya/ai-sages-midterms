@@ -1609,5 +1609,109 @@
       "completion": 1664,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-11-01",
+    "generated_at": "2026-11-01T07:00:04+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 67,
+    "house_control_prob_dem": 94,
+    "comment": "期日前5217万票の衝撃と、トランプ系調査さえ認めた下院の奔流。",
+    "hidden_dynamics": [
+      "2016年・2024年に隠れトランプ層を捉えた右派系調査機関Big Data Pollの最終調査でさえ、下院政党支持で民主党+12.3pt（52.3%対40.0%）を記録したことは、下院の青い波がリベラル系調査のバイアスではなく実在することを裏付けている。",
+      "CookがネブラスカをLean R、フロリダをLikely Rへ動かして戦線拡大を演出する裏で、肝心のアラスカ最新調査では民主党Peltola氏のリードが2pt（48%）へ縮小しており、赤い州の上院選では終盤の保守回帰が静かに始まっている。"
+    ],
+    "hypothesis_title": "5217万票の津波と上院「誤差圏」の壁",
+    "hypothesis": "期日前投票が5217万票に達し2022年総数を突破、保守層に強いBig Data Pollでも下院支持で民主党が+12.3ptリードしたことで下院238議席は揺るぎない。一方、上院はAK最新調査でPeltola氏が+2ptへ縮小し、Cookも7激戦州を誤差内のトスアップに据え置いた。2016・2024年型の保守層の無回答バイアス（3〜4pt）と当日投票の巻き返しを見込み上院51議席を維持する。TXやOHで5pt超の差が出れば52議席へ修正する。",
+    "hypothesis_status": "refined",
+    "change_reason": "右派系調査機関でも下院の2桁リードが確認され期日前投票が5200万票を超えたため下院民主党勝率を94%へ微増させたが、上院激戦州は依然2〜3ptの誤差帯に留まりアラスカでも差が詰まっているため、上下両院とも議席予測（上院51・下院238）は維持した。",
+    "analysis": "投票日まで残り3日。NBC集計の期日前投票は1日で約600万票急増し5217万票（対面2900万・郵便2320万）に到達、フロリダ大集計でも5050万票を超え、すでに2022年中間選挙の期日前投票総数を約500万票上回った。最大の注目は、過去の大統領選で低投票頻度の保守層を正確に捕捉してきたBig Data Pollの最終調査だ。同調査が下院政党支持で民主党52.3%対共和党40.0%（+12.3pt）、週末の期日前投票予定層でも51.8%対30.8%と圧倒的優位を示したことで、「下院の青波は世論調査の幻影ではないか」という疑念は完全に払拭された。一方、上院は様相が異なる。Cookがネブラスカ（Lean R）とフロリダ（Likely R）を動かしたものの、勝敗を決める7激戦州はすべて誤差圏内のトスアップから動かしていない。さらにNYT集計の最新アラスカ調査（10/26-29）で民主党Peltola氏が+2pt（48%）と従来の平均（+3.6pt）から減速したことは、赤い州での終盤の保守結集を示唆する。SabatoのKondik氏も指摘する「下院の確実な奪還と上院の不透明さ」の乖離は鮮明であり、当日投票での農村部・保守層の底力を織り込み、上院は51対49を据え置く。明日は最終盤の州別調査でTX・OHに3ptの壁を超える動きがあるか見極める。",
+    "key_news": [
+      {
+        "title": "全米の期日前投票が5217万票に到達（対面2900万・郵便2320万）、3日を残して2022年中間選挙の期日前総数を大幅に突破",
+        "source": "NBC News / The Guardian",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "右派系Big Data Pollの最終調査で下院政党支持は民主党52.3%対共和党40.0%（+12.3pt）、週末の早期投票層でも民主党が圧倒",
+        "source": "Big Data Poll",
+        "url": "https://www.bigdatapoll.com/blog/democrats-head-into-midterms-with-big-advantage-in-final-poll/",
+        "impact": "D+"
+      },
+      {
+        "title": "Cook Political Reportが上院ネブラスカをLean R、フロリダをLikely Rへ変更する一方、主要7激戦州は誤差圏内のトスアップを維持",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/closing-analysis-2026-senate-ratings",
+        "impact": "neutral"
+      },
+      {
+        "title": "RCP平均で下院政党支持は民主党+8.2ptも、SabatoのKondik氏は「下院奪還はほぼ確実だが上院は依然不透明」と分析、AK最新調査はPeltola+2pt",
+        "source": "Al Jazeera / The New York Times",
+        "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+        "title": "2026 Midterm Election Forecast: Senate & House | Silver Bulletin"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+        "title": "US midterms: 3 days to go – What latest polls say as early voting surges | US Midterm Elections 2026 News | Al Jazeera"
+      },
+      {
+        "url": "https://www.bigdatapoll.com/blog/democrats-head-into-midterms-with-big-advantage-in-final-poll/",
+        "title": "Democrats Head Into Midterms with Big Advantage in Final Poll | BIG DATA POLL"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://www.theguardian.com/us-news/2026/oct/31/early-voting-midterms",
+        "title": "More than 50m Americans cast ballots in early voting with three days to go before midterms | US midterm elections 2026 | The Guardian"
+      },
+      {
+        "url": "https://www.livenewsworld.com/early-voting-record-2026-midterms/",
+        "title": "Early Voting Record 2026: Over 48 Million Ballots Cast"
+      },
+      {
+        "url": "https://news.rthk.hk/rthk/en/component/k2/1876036-20261031.htm",
+        "title": "Millions cast early votes in US midterms - RTHK"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/closing-analysis-2026-senate-ratings",
+        "title": "Closing Senate Analysis: The Seven States That Will Decide the Majority | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/dozen-more-House-October2026",
+        "title": "Four Days Out, a Dozen More House Races Move Toward Democrats | Cook Political Report"
+      },
+      {
+        "url": "https://thecookpoliticalreport.substack.com/p/two-senate-and-a-dozen-house-moves",
+        "title": "Two Senate and a Dozen House Moves in Democrats’ Direction"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0656,
+    "tokens": {
+      "prompt": 10256,
+      "completion": 3102,
+      "reasoning": 1485
+    }
   }
 ]

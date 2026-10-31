@@ -1244,5 +1244,81 @@
       "completion": 1557,
       "reasoning": 63
     }
+  },
+  {
+    "date": "2026-11-01",
+    "generated_at": "2026-11-01T07:00:04+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 58,
+    "house_control_prob_dem": 88,
+    "comment": "最終週も民主が薄く先行。誤差は静かに出番を待つ",
+    "hidden_dynamics": [
+      "テキサスの期日前投票は630万票超で、前回の420万票から大きく増えた。ただし投票増は民主の優位を意味しない。低関与の共和支持層が早めに動いた可能性もあり、党派別の内訳を確認するまでは判断を保留する。",
+      "ActiVoteのOH調査は50対50で、他の調査より民主の先行が小さい。最終週に出る調査は互いに寄せ合う傾向があり、実際の差が見えにくくなっている恐れがある。"
+    ],
+    "hypothesis_title": "民主の薄氷リード、誤差が勝負を決める",
+    "hypothesis": "上院では民主がTX、ME、AK、OH、IAで0〜4ポイントの僅差リードを持つが、いずれも誤差の範囲だ。2016年と2024年のように共和支持層や低関与層が過小評価される恐れがあり、実質は五分五分に近い。下院は総合投票D+7前後で、不利な区割りを吸収できる。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "新しい調査はTXでTalarico氏+3〜4、MEでJackson氏+5と民主に有利だが、OHは50対50と互角だった。差し引きで仮説を変える材料にはならず、数字は据え置いた。",
+    "analysis": "【上院】TXはKreate(Oct27-30)でTalarico氏48対45、Data for Progressで49対45と、民主が3〜4ポイント先行している。MEではData for Progressが Jackson氏50対45とした。ただしData for Progressは民主寄りの調査会社だ。OHはActiVoteが50対50で、民主の先行はOHで最も薄い。民主が51議席に届くには、NC、OH、MEに加えてTX、IA、AKのどれかが必要だ。1議席を落とせば50-50で、副大統領により共和党が支配する。2024年にトランプ氏が大差で勝った州が多く、調査が共和を過小評価している恐れが残る。中央値は51-49、確率は58%を維持する。【下院】総合投票D+7前後という環境は変わらず、233議席を維持する。最大のリスクは不利な区割りと、当日投票での共和の反発だ。明日は、党派別の期日前投票、IAとAKの中立調査、市場の動きを確認する。",
+    "key_news": [
+      {
+        "title": "TXの調査で民主Talarico氏が3〜4ポイント先行(Kreate、Data for Progress)",
+        "source": "New York Times(調査集計)",
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "impact": "D+"
+      },
+      {
+        "title": "OHのActiVote調査は50対50の互角",
+        "source": "New York Times(調査集計)",
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "impact": "R+"
+      },
+      {
+        "title": "投票まで3日。TXの期日前投票は630万票超で、前回の420万票を上回る",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+        "impact": "neutral"
+      },
+      {
+        "title": "CNN調査で民主が上院奪還に有利な位置",
+        "source": "USA Today",
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/29/democrats-lead-texas-michigan-maine-kansas-midterm-election-cnn-polls/92494314007/",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+        "title": "US midterms: 3 days to go – What latest polls say as early voting surges | US Midterm Elections 2026 News | Al Jazeera"
+      },
+      {
+        "url": "https://www.newsweek.com/democrats-boost-senate-battlegrounds-midterms-polls-12644622",
+        "title": "Democrats get triple poll boost in 3 battlegrounds days before midterms"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/29/democrats-lead-texas-michigan-maine-kansas-midterm-election-cnn-polls/92494314007/",
+        "title": "Democrats in strong position for Senate takeover, CNN polls find"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0381,
+    "tokens": {
+      "prompt": 11047,
+      "completion": 1499,
+      "reasoning": 0
+    }
   }
 ]

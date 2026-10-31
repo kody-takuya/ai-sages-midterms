@@ -2301,5 +2301,114 @@
       "completion": 2638,
       "reasoning": 1003
     }
+  },
+  {
+    "date": "2026-11-01",
+    "generated_at": "2026-11-01T07:00:04+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 72,
+    "house_control_prob_dem": 93,
+    "comment": "市場は二つで同じ71.5％——独立の物差しが、いつの間にか鏡になっている",
+    "hidden_dynamics": [
+      "PolymarketとKalshiの上院確率が同日『71.5％対71.5％』で完全一致した。裁定取引による収束なら健全だが、ここまで揃うと市場は独立の予測器というより既に世論・査定者の『青い波』合意を映す鏡に変わった疑いが強く、独立性の担保を失いつつある。",
+      "オハイオでActiVote（オンラインパネル）がBrown-Hustedを50対50の『イーブン』に持ってきた一方、Suffolk(47-44)・Fox(52-47)のライブコール系はBrown先行のまま。モード差（パネルは低関心層を拾い高齢・白人の当日組を取りこぼす）か、単なる終盤の締めかで解釈が割れる。",
+      "共和の資金と査定がNC-13等の「赤州防衛」へ静かに後退しており、攻勢へ回る気配がない。これは内部世論調査が『取り返す州はない、守る州だけ』と告げていることの間接証拠だ。"
+    ],
+    "hypothesis_title": "2018型の潮流、ただし波は既に満潮",
+    "hypothesis": "核は据え置く——隠れ共和票は大統領年固有の現象で中間選挙の世調誤差は小さい。今回は2018型で、トランプ不支持が期日前を押し出し、候補の質で上院激戦にDが先行、下院は資金力でも逆転した。ただし今日の新材料は『波の天井』を示す方向にのみ動いた：オハイオがイーブンへ締まり、予測市場は左右の情報源なのに同一値へ収束し、サバトの一般票モデルは自ら標準誤差8.8議席を認めつつ239-53という外挿値を出す。潮流は本物でも厚みを足す材料は尽きた。棄却条件はTXが共和系含め全社Paxson首位へ反転、MEでCollinsが平均+2超、または共和資金が赤州防衛から攻勢へ転換した場合。",
+    "hypothesis_status": "refined",
+    "change_reason": "仮説の骨格（2018型・天井感）は不変で、議席数も52/236を据え置き。上院確率のみオハイオのイーブン化と市場収束を重く見て73→72へ微減。新情報が天井方向にしか動かなかったため、インフレ的に数字を膨らませない。",
+    "analysis": "【上院】確実支配に純増4。Cooper(NC)=48、Brown(OH)+Elsayed(MI)+Pappas(NH)=50、TX(Talarico、Kalshi投影D+2.9・CNN+6)とME(Jackson: Marist+2・CNN+4・DFP+5だがDFPは親D機関)の両取りで52、AKまで伸びれば53。今日の最重要は方向が逆の二つ——オハイオのActiVote『イーブン』(Brown先行のSuffolk/Foxと真逆、パネル調査の質疑)と、Polymarket/Kalshiが71.5％で完全一致した事実だ。市場の一致は情報の独立確認ではなく相互参照の可能性があり、確率の上振れ根拠には使えない。TXは共和資金が終盤に寄せる気配がなくPaxson不利が固着、MEはCollinsの地元組織が未だ±を詰めていない。最大リスクは全国相関した世調誤差で4〜5激戦が同日Rへ振れるシナリオ(→49)。P72。【下院】一般票D+8.7で頭打ち、Cookは『12〜25区・最大240』、サバトの一般票モデルは239を弾くが標準誤差8.8議席を自認しており額面通り採れない。Toss-upを全部取って240という計算は査定者が波の厚みを最大限見積もった数字。区割り改定(TX/MO/NC)の歯止めと共和支持の同時上向きを差し引けば236が妥当な中央値。幅225〜241。【持ち越し】①最終週末でTXがPaxtonへ寄るか、②オハイオのパネル/ライブコール乖離がどちらに決着するか、③MEでCollinsが±2以内に詰めるか、④当日共和の上積み（高齢・白人有権者）。",
+    "key_news": [
+      {
+        "title": "NYT上院世論調査トラッカー更新：オハイオでActiVoteがBrown-Husted50対50のイーブン、メインはData for ProgressがJackson+5（50-45）",
+        "source": "The New York Times",
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "impact": "neutral"
+      },
+      {
+        "title": "サバト・クリスタルボール：一般票モデルが青い波を予測、D+8で下院239・上院53と弾く（ただし標準誤差は下院8.8議席・上院2.7議席）",
+        "source": "Sabato's Crystal Ball",
+        "url": "https://sabatoscrystalball.substack.com/p/generic-ballot-models-predict-blue",
+        "impact": "D+"
+      },
+      {
+        "title": "予測市場：PolymarketとKalshiが上院民主71.5％・共和28.5％で完全一致、下院民主は94〜95％。TXはTalarico70％・投影D+2.9",
+        "source": "PolyKal / Kalshi",
+        "url": "https://polykal.net/midterms/",
+        "impact": "neutral"
+      },
+      {
+        "title": "Newsweek：メインなど激戦3州で民主党が世論調査の追い風、JacksonがCollinsに50-45でリード（DFP調査、SMS・電話・ウェブ混合、652有権者）",
+        "source": "Newsweek",
+        "url": "https://www.newsweek.com/democrats-boost-senate-battlegrounds-midterms-polls-12644622",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.newsweek.com/democrats-boost-senate-battlegrounds-midterms-polls-12644622",
+        "title": "Democrats get triple poll boost in 3 battlegrounds days before midterms"
+      },
+      {
+        "url": "https://edition.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+        "title": "Democrats in striking distance: New CNN polls in four states highlight party’s path to Senate majority"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/29/democrats-lead-texas-michigan-maine-kansas-midterm-election-cnn-polls/92494314007/",
+        "title": "Democrats in strong position for Senate takeover, CNN polls find"
+      },
+      {
+        "url": "http://www.midtermmonday.com/movers",
+        "title": "Midterm Mondays"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://sabatoscrystalball.substack.com/p/generic-ballot-models-predict-blue",
+        "title": "Generic Ballot Models Predict Blue Wave Next Week"
+      },
+      {
+        "url": "https://www.cookpolitical.com/print/ratings/races/house",
+        "title": "The Cook Political Report: 2026 House Race Ratings"
+      },
+      {
+        "url": "https://goldsky.com/blog/prediction-market-odds-data-us-2026-midterms",
+        "title": "Prediction market odds data: US 2026 midterms on Polymarket - Goldsky"
+      },
+      {
+        "url": "https://kalshi.com/category/elections/midterms",
+        "title": "2026 Midterm Election Predictions & Odds: Live Senate, House & Governor Forecasts | Kalshi"
+      },
+      {
+        "url": "https://predictiontape.com/markets/politics/midterms-2026/",
+        "title": "2026 Midterm Election Odds: Live House & Senate Control Prices"
+      },
+      {
+        "url": "https://polykal.net/midterms/",
+        "title": "2026 U.S. Midterm Elections: Polymarket vs Kalshi"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0228,
+    "tokens": {
+      "prompt": 16486,
+      "completion": 2784,
+      "reasoning": 1982
+    }
   }
 ]
