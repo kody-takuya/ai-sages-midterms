@@ -2410,5 +2410,114 @@
       "completion": 2784,
       "reasoning": 1982
     }
+  },
+  {
+    "date": "2026-11-02",
+    "generated_at": "2026-11-02T07:00:04+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 71,
+    "house_control_prob_dem": 93,
+    "comment": "全市場68〜69で沈黙——増水は本物、深さは誰も測っていない",
+    "hidden_dynamics": [
+      "テキサスでPaxton首位を報じたQuantus調査は、回答者の共和比率が46.7％と実際の有権者構成（30％台後半）を大きく超過している。この偏った標本でもPaxton+1に留まるなら、ヘッドライン以上にTalaricoの地力は強い——「R首位」の見出しほど悪材料ではない。",
+      "テキサスの期日前投票が既に2022年総投票数の93.6％（約763万票）に達し、都市圏Harris/Travis/Bexarが牽引している。これは2018年に近い若年・ヒスパニック・低関心層の動員を示唆し、当日共和の『隠れ票』を上回る可能性がある。ただし当日票の年齢・人種構成が判明するまでは双方向に振れうる。",
+      "Kalshi69・Polymarket68-72と上院確率は3日間ほぼ動かず、出来高4億ドルが同じ情報を周回している。左右の媒体が引用する独立値ではなく相互参照の鏡像であり、市場の一致を上振れ根拠に使うのは危険。"
+    ],
+    "hypothesis_title": "2018型の波、天井は240、鍵はTXの当日票",
+    "hypothesis": "核は据え置く——隠れ共和票は大統領年固有の現象で、中間選挙の世調誤差は小さい。今回は2018型で、トランプ不支持が期日前を押し出し、候補の質で上院激戦はDが先行、下院は資金力でも逆転した。今日の新材料は方向が割れた：QuantusがTXでPaxton+1を出した一方、同調査の共和比率は46.7％と過大で、映像は『共和標本での横並び』を意味する。予測市場は68-69へ微軟化し、波の厚みを足す材料は尽きた。よって中央値を膨らませず、上院52・下院236に据える。棄却条件はTXが共和系偏重を補正した中立調査でもPaxton首位、MEでCollinsが平均+2超、または共和資金が赤州防衛から攻勢へ転換した場合。",
+    "hypothesis_status": "kept",
+    "change_reason": "TXのQuantus首位は共和46.7％標本という偏りで割り引き、市場の68-69への微軟化も確証性が低いため、上院52・下院236の中央値を据え置いた。ただし不確実性がやや増したため上院確率のみ72→71へ微調整。",
+    "analysis": "【上院】現状53R-47D、確実支配に純増4。Dの中央値52は、NC(Cooper)・OH(Brown)・ME(Jackson)・TX(Talarico)の4州を取って51、AK(Peltola)まで伸ばして52という計算。今日の焦点はTXで、Fox7Austinが伝えるQuantusのPaxton+1は一見逆風だが、回答者の共和比率46.7％という過大標本での僅差であり、CNN+6・A2+3・ActiVote+4.2と並べれば『中立補正でなおTalarico先行』と読むのが妥当。連結器は依然として全米相関した世調誤差で、4〜5激戦が同日Rへ振れれば49まで沈む。OHはSuffolk/FoxのBrown先行とActiVote『イーブン』の乖離が未決着、MEはCollinsの地元組織が±2以内に詰めていない。P71。【下院】一般票D+8前後で頭打ち、Cookの内訳はSolid D183・R161、Lean/Likely D22・R27、接戦36区——全部取ってもD241、全落としで224。サバトの一般票モデルは239-53を弾くが標準誤差8.8議席を自認しており額面通り採れない。区割り改定(TX/MO/NC)の歯止めと共和支持の同時上向きを差し引けば236が妥当な中央値、幅225〜241。【持ち越し】①TXの当日票が都市圏偏重か郊外共和回帰か、②OHのパネル/ライブコール乖離の決着、③当日共和の高齢・白人有権者上積み、④期日前53.1Mの最終構成。",
+    "key_news": [
+      {
+        "title": "Fox7Austin：Quantus調査でテキサス上院はPaxtonがTalaricoに48.7対47.6で僅差首位——だが回答者の共和比率は46.7％と過大",
+        "source": "Fox 7 Austin",
+        "url": "https://www.fox7austin.com/news/paxton-slips-past-talarico-latest-poll-senate-race-enters-final-days",
+        "impact": "R+"
+      },
+      {
+        "title": "予測市場は2日前で上院Kalshi69・Polymarket68-72、下院91-94と3日間ほぼ横ばい、総出来高4億ドル",
+        "source": "Prediction Authority / Newsweek",
+        "url": "https://predictionauthority.com/politics/midterms-2026-two-days-out-house-91-senate-69-kalshi-polymarket-final-sunday/",
+        "impact": "neutral"
+      },
+      {
+        "title": "期日前投票は全米53.1Mに到達、テキサスは2022年総投票数の93.6％を既に消化",
+        "source": "UF Election Lab / Election Lab",
+        "url": "https://www.electionlab.app/",
+        "impact": "neutral"
+      },
+      {
+        "title": "サバトの一般票モデルがD+8で下院239・上院53を予測（標準誤差は下院8.8・上院2.7議席）",
+        "source": "Sabato's Crystal Ball",
+        "url": "https://sabatoscrystalball.substack.com/p/generic-ballot-models-predict-blue",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.newsweek.com/democrats-boost-senate-battlegrounds-midterms-polls-12644622",
+        "title": "Democrats get triple poll boost in 3 battlegrounds days before midterms"
+      },
+      {
+        "url": "https://crosstab.vote/polls/",
+        "title": "Latest 2026 Election Polls: Senate, Governor, Approval"
+      },
+      {
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
+      },
+      {
+        "url": "https://www.fox7austin.com/news/paxton-slips-past-talarico-latest-poll-senate-race-enters-final-days",
+        "title": "Paxton leads Talarico in Senate race, latest poll finds"
+      },
+      {
+        "url": "https://sabatoscrystalball.substack.com/p/generic-ballot-models-predict-blue",
+        "title": "Generic Ballot Models Predict Blue Wave Next Week"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings | Cook Political Report"
+      },
+      {
+        "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+        "title": "FLIPR 2026 midterm election forecast"
+      },
+      {
+        "url": "https://www.cookpolitical.com/print/ratings/races/house",
+        "title": "The Cook Political Report: 2026 House Race Ratings"
+      },
+      {
+        "url": "https://www.electionlab.app/",
+        "title": "ELECTION LAB - 2026 Midterms"
+      },
+      {
+        "url": "https://www.newsweek.com/midterm-polls-prediction-markets-ride-blue-wave-to-death-or-glory-12641327",
+        "title": "Midterm polls, prediction markets ride \"blue wave\" to death or glory"
+      },
+      {
+        "url": "https://predictionauthority.com/politics/midterms-2026-two-days-out-house-91-senate-69-kalshi-polymarket-final-sunday/",
+        "title": "2026 Midterms 2 Days Out: House 91 Cents, Senate 69 | PA"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/01/midterm-elections-news-updates-polls--live/92383820007/",
+        "title": "Elections live updates: Latest midterm polls, last day to vote"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0242,
+    "tokens": {
+      "prompt": 16518,
+      "completion": 5271,
+      "reasoning": 4583
+    }
   }
 ]

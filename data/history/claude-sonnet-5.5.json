@@ -1320,5 +1320,92 @@
       "completion": 1499,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-11-02",
+    "generated_at": "2026-11-02T07:00:04+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 60,
+    "house_control_prob_dem": 88,
+    "comment": "最終日前も民主が薄氷でリード。2016年の亡霊は投票所の外",
+    "hidden_dynamics": [
+      "YouGovの最新調査は、TXで民主4点、MEで5点、OHで2点、IAで1点と、各州で民主が一律に先行している。YouGovのような同じ手法の調査は結果が似通うので、独立した証拠としては数が少ない。",
+      "TXでは期日前投票が2018年の水準をすでに超えた。これは民主の熱意の表れだ。ただ、増えた分が低関与の共和支持層の掘り起こしによる可能性もあり、党派別の内訳が出るまで結論は出せない。",
+      "IAとOHの差は1〜2点で、2024年の調査誤差(共和への過小評価)と同じ規模だ。51議席は全勝に近い条件になる。"
+    ],
+    "hypothesis_title": "民主の薄氷リードは誤差内",
+    "hypothesis": "上院では民主がTX、ME、OH、IAで1〜5点の僅差リードを持つが、多くは誤差の範囲だ。2016年と2024年のように共和支持層や低関与層が過小評価される恐れがあり、実質は五分五分に近い。下院は総合投票D+7前後で、不利な区割りを吸収できる。Paxton氏が複数の中立調査でリードするか、総合投票がD+5以下になれば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "新しい調査(YouGov、InsiderAdvantage)は民主の小幅リードで、前日の構図とほぼ同じだ。議席数は据え置き、上院の確率だけ2点上げて60%とした。",
+    "analysis": "【上院】YouGov(10/26-29)はTXでTalarico氏51対47、OHでBrown氏50対48、IAでTurek氏50対49、MEでJackson氏が5点リードだった。InsiderAdvantageのOH(10/29-30)もBrown氏49対47で、共和寄りとされる調査会社でも民主が先行している。これは民主にとって良い材料だ。ただし差は1〜4点で、2024年に調査が共和を過小評価した幅と同じ規模になる。民主が51議席に届くには、NC、OH、MEに加えてTX、IA、AKのどれかが必要だ。1議席を落とせば50-50で、副大統領により共和党が支配する。中央値は51-49とするが、確率は60%にとどめる。【下院】総合投票D+7前後という環境は変わらず、233議席、確率88%を維持する。最大のリスクは不利な区割りと、当日投票での共和の反発だ。明日は、投票日前の最終調査と、党派別の期日前投票、AKの中立調査を確認する。",
+    "key_news": [
+      {
+        "title": "NYT調査集計: YouGovはTXでTalarico氏+4、OHでBrown氏+2、IAでTurek氏+1、MEでJackson氏+5。OHのInsiderAdvantageもBrown氏+2",
+        "source": "New York Times",
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "impact": "D+"
+      },
+      {
+        "title": "Huffman Writes: TXの期日前投票が2018年を超え、Kalshiの確率はTalarico氏71%",
+        "source": "Huffman Writes",
+        "url": "https://www.huffmanwrites.org/posts/essays/senate-race-report-2026-11-01/",
+        "impact": "D+"
+      },
+      {
+        "title": "NBC集計: 全米の郵送・期日前投票は約5,480万票に達した",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
+      },
+      {
+        "url": "https://www.huffmanwrites.org/posts/essays/senate-race-report-2026-11-01/",
+        "title": "Senate Race Report: November 1, 2026 | Huffman Writes"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/generic-ballot-models-predict-blue-wave-next-week/",
+        "title": "Generic Ballot Models Predict Blue Wave Next Week"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings"
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/the-house-28-rating-changes/",
+        "title": "The House: 28 Rating Changes Push Number of Seats at Least Leaning to Democrats Past 218 - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://sabatoscrystalball.substack.com/p/generic-ballot-models-predict-blue",
+        "title": "Generic Ballot Models Predict Blue Wave Next Week"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0496,
+    "tokens": {
+      "prompt": 12156,
+      "completion": 1651,
+      "reasoning": 98
+    }
   }
 ]

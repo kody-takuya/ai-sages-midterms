@@ -1713,5 +1713,114 @@
       "completion": 3102,
       "reasoning": 1485
     }
+  },
+  {
+    "date": "2026-11-02",
+    "generated_at": "2026-11-02T07:00:04+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 68,
+    "house_control_prob_dem": 94,
+    "comment": "期日前5483万票の奔流と、YouGovでも越えられぬ「5ptの壁」。",
+    "hidden_dynamics": [
+      "本日公表のYouGov激戦8州調査は一見すると「民主党7州リード」という華々しい見出しだが、NCで+11ptが出るほど民主党に好意的なサンプル下でもOH（+2pt）・IA（+1pt）・TX（+4pt）が誤差圏内に張り付いており、むしろ赤い州の基礎票の硬さを逆照射している。",
+      "NBC最終全国調査で未決定層がわずか3%に減少し無党派層で民主党が+21ptと圧倒したことで、共和党は郊外・無党派の説得を事実上断念し、火曜日の当日投票における農村部・低投票頻度層の動員だけに全てを賭ける最終局面に入った。",
+      "メイン州（Jackson氏52%）とノースカロライナ州（Cooper氏55%）で民主党候補が過半数の50%ラインを明確に突破したことで、赤い州の隠れ保守票が爆発しても民主党が上院51議席を割り込むリスクは大きく低下している。"
+    ],
+    "hypothesis_title": "無党派+21ptの下院圧勝と赤い州「4ptの壁」",
+    "hypothesis": "期日前投票が5483万票に達し、NBC最終調査でも無党派層で民主党が+21ptと圧倒しており下院238議席は盤石だ。一方、本日公表のYouGov上院8州調査ではNC（+11pt）とME（+5pt）で51議席目を固めたものの、赤い州はTX（+4pt）・OH（+2pt）・IA（+1pt）・NE（同率）とすべて当方が設定した「5ptの壁」の手前で足踏みしている。過去の保守層の無回答バイアス（3〜4pt）と当日投票の逆風を見込み上院51議席を維持する。明日TX・OHで5pt超が出れば52議席へ上げる。",
+    "hypothesis_status": "kept",
+    "change_reason": "YouGovの最新州別調査でTX（+4pt）やOH（+2pt）が引き上げ条件である「5pt超のリード」に届かず、保守層の無回答バイアスで逆転され得る圏内にとどまったため上院51議席・下院238議席を据え置いた。ただしNCとMEでの50%超えを受け上院民主党過半数確率を68%へ1pt微増させた。",
+    "analysis": "投票日まで残り2日。NBC集計の期日前投票は5483万票（対面3080万・郵便2400万）に達し、フロリダ大集計でも2022年の最終期日前総数をすでに800万票以上も上回る歴史的動員となっている。本日のNBC最終全国調査で議会支持が民主党52%対共和党45%（+7pt）、特に無党派層で21pt差をつけ未決定層がわずか3%に縮小したことは、下院238議席の予測を決定づけるものだ。最大の見どころは本日日曜日に一斉公表されたYouGovの激戦8州調査だ。ノースカロライナ州でCooper氏が+11pt（55%対44%）、ハリス氏勝利州のメイン州でもJackson氏が+5pt（52%対47%）と過半数に乗せ、民主党が51議席を確保する道筋は一段と太くなった。しかし、強気な見出しの裏を読む必要がある。NCで11pt差が出るほど民主党に追い風の調査設計でありながら、テキサス州（Talarico氏+4pt）、オハイオ州（Brown氏+2pt）、アイオワ州（+1pt）、ネブラスカ州（同率）はいずれも誤差圏内の1〜4pt差にとどまり、当予測が引き上げ条件とした「5ptの壁」を越えられなかった。2016・2024年型の調査に答えない農村部保守層の当日投票（3〜4ptの隠れバイアス）を計算に入れれば、これら赤い州の僅差リードは開票夜にひっくり返る公算が高い。上院51対49を据え置き、最終日の数字を待つ。",
+    "key_news": [
+      {
+        "title": "YouGovが上院激戦8州調査を公表、NC（+11pt）とME（+5pt）で民主党が50%超えの一方、TX（+4pt）・OH（+2pt）・IA（+1pt）・NE（同率）は接戦",
+        "source": "Nacionale / YouGov",
+        "url": "https://www.nacionale.com/en/articles/yougov-polls-senate-governor-texas-michigan-ohio-iowa-kansas-nebraska-maine-nc",
+        "impact": "neutral"
+      },
+      {
+        "title": "NBC最終全国世論調査で民主党が議会支持52%対45%（+7pt）とリード拡大、無党派層で21pt差、未決定層は残り3%に",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183",
+        "impact": "D+"
+      },
+      {
+        "title": "全国の期日前投票が5483万票（対面3080万・郵便2400万）に到達、2022年中間選挙の期日前総数を800万票以上上回る",
+        "source": "NBC News / USA Today",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "RCP全国平均で民主党+8.2ptも、SabatoのKondik氏は「下院奪還はほぼ確実だが上院は依然として不透明」と分析",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+        "title": "US midterms: 3 days to go – What latest polls say as early voting surges | US Midterm Elections 2026 News | Al Jazeera"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183",
+        "title": "Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/01/midterm-elections-news-updates-polls--live/92383820007/",
+        "title": "Elections live updates: Latest midterm polls, last day to vote"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://www.usatoday.com/story/graphics/2026/11/01/early-voting-2026-surging-past-2022/92500629007/",
+        "title": "Early voting is far ahead of 2022. Here’s where it's rising fastest"
+      },
+      {
+        "url": "https://www.newsweek.com/map-reveals-states-where-early-voting-is-surging-days-before-midterms-12646178",
+        "title": "Map reveals states where early voting is surging days before midterms"
+      },
+      {
+        "url": "https://www.nacionale.com/en/articles/yougov-polls-senate-governor-texas-michigan-ohio-iowa-kansas-nebraska-maine-nc",
+        "title": "YouGov Senate polls: Cooper +11, Talarico +4, Nebraska tied"
+      },
+      {
+        "url": "https://www.nacionale.com/en/articles/us-senate-races-2026-that-will-decide-control-texas-ohio-alaska-maine",
+        "title": "Democrats need four seats: the Senate races to watch"
+      },
+      {
+        "url": "https://electoral-vote.com/evp2026/Senate/senate_polls.html",
+        "title": "All Senate Polls"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/senate-battleground-polls",
+        "title": "2026 Senate Battleground Polls: Midterm Primary Trends"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0703,
+    "tokens": {
+      "prompt": 10590,
+      "completion": 3510,
+      "reasoning": 1702
+    }
   }
 ]

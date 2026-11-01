@@ -2345,5 +2345,114 @@
       "completion": 5000,
       "reasoning": 2912
     }
+  },
+  {
+    "date": "2026-11-02",
+    "generated_at": "2026-11-02T07:00:04+09:00",
+    "model_id": "qwen/qwen3.8-max-0902",
+    "senate": {
+      "dem": 53,
+      "rep": 47
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 70,
+    "house_control_prob_dem": 96,
+    "comment": "SLFの財布が白状した。NC放棄・KS注入はどの世論調査より雄弁だ",
+    "hidden_dynamics": [
+      "SLFがNC広告を全面取消しKSに$8Mを新規予約——共和党内部調査がCooper敗北を認めた行動証拠。態度調査でなく資金配分が語るのは、後ズレ挽回の前提『残存票の池』が共和側に存在しないことだ。",
+      "Puck報道によればSMPはKSに支出計画なし、TXもデジタル$2.5Mのみ。民主側のこの静寂は内部調査への自信か資金枯渇のどちらかで、YouGov+1のKS真値がさらに狭い可能性を示唆する。",
+      "NEで無所属OsbornがRickettsと49-49。当選すれば民主会派入りの公算が大きく、報道が几乎無視する『53席への裏口』。SLFがNEにも資金を急増させているのはこの危険の裏返しだ。"
+    ],
+    "hypothesis_title": "資金配分が裏付ける局所拒否・後ズレ不在",
+    "hypothesis": "「民主の伸びは弱い現職・極端候補への局所的拒否で、当日投票の後ズレが効かない」を維持し、態度調査から行動証拠へ重心を移す。SLFのNC撤退・KS注入は共和内部の告白であり、私の反証条件(4)のNC→KS再転用がほぼ的中した。一方TX予約$48Mは取消されておらず、Paxtonはまだ戦えるという共和側の判断だ。YouGov8州一括(TX+4・NC+11・ME/MI/OH/IAで民主先行、NEのみ同率)は単一ハウスの大規模オンラインで、WaPoの非応答問題を踏まえ1〜2pt割り引く。反証条件:(1)KSでMarshall+2超の電話調査、(2)TXでPaxton+1超が二本、(3)SMPが最終48時間にKS・TXへ大口予約(=民主内部の危機の裏返し)。",
+    "hypothesis_status": "refined",
+    "change_reason": "SLFのNC撤退でCooperを0.90へ、YouGov確認でME0.68・IA0.40へ上げ、NE(Osborn)を0.35で新規算入した結果、期待値が52.4→約53.0に達し中央値を53へ引き上げた。TXはSMPの支出不在を警戒し0.58で据え置き、KSも+1の薄さから0.58のまま。",
+    "analysis": "決定的だったのは数字でなく金の動きだ。SLFがNCから撤退しKSへ$8M——これは共和党がCooperを諦め、MarshallをYouGov+1(50-49)より深刻と見ている証拠。私のNC残存票警戒はこれで決着とし、Cooperを0.85→0.90へ。YouGov一括調査はTX+4(n=2141)でA2・TSUと整合しTalarico優勢を再確認したが、SMPがTXに$2.5Mしか投じていない不気味さを割り引き0.58据え置き。KSはHamilton50-49、Emerson+4・CNN・DDHQ平均と五源が同じ向きを指す一方、SMPの無支出とWaPo非応答問題から0.58で止めた。NEはOsborn49-49を0.35で算入——SLFのNE支出急増がこの脅威の実在を裏付ける。MEはCollins45%天井が三つのハウスで再現し0.68へ、IAもYouGov民主先行(誤差内)で0.40へ。MN・NH・GA流出0.52を差し引きE[D]≈53.0。2016・2024型の当日後ズレを最も警戒してきたが、NC早期投票の共和シェア26%崩落とSLFの撤退判断が『今回は池が浅い』を示しており、上院中央値を53へ移す。下院は新規ハードデータなしで238維持。明日へ:(1)KS・TXの最終電話調査、(2)NEのOsborn会派表明、(3)当日投票速報の無党派分解、(4)投票率——D+7環境が低 turnout で消えるかが最後のリスク。",
+    "key_news": [
+      {
+        "title": "SLFがNC上院の広告支出を取消し、Kansasへ$8M超を新規予約——多数派争いが赤い州へ移動",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-election/gop-super-pac-pauses-spending-north-carolina-senate-race-shift-kansas-rcna601134",
+        "impact": "D+"
+      },
+      {
+        "title": "YouGov8州一括調査(10/26-29):TX Talarico51-47、KS Hamilton50-49、NC Cooper+11、NEはOsbornと49-49の同率",
+        "source": "Nacionale/YouGov",
+        "url": "https://www.nacionale.com/en/articles/yougov-polls-senate-governor-texas-michigan-ohio-iowa-kansas-nebraska-maine-nc",
+        "impact": "D+"
+      },
+      {
+        "title": "SMPはKansasに支出計画なし、Texasもデジタル$2.5Mのみ——民主側の最終週資金戦略に疑問",
+        "source": "Puck",
+        "url": "https://puck.news/washington/2026/10/the-gops-kansas-bailout-and-dem-ad-counterpunches",
+        "impact": "R+"
+      },
+      {
+        "title": "Kansas世論調査集計:YouGov(11/1)Hamilton50-49、Emerson(10/30)49-45、5調査平均+3.4",
+        "source": "270toWin",
+        "url": "https://www.270towin.com/2026-senate-polls/kansas",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://real-clear-polling-new-features.vercel.app/latest-polls/senate",
+        "title": "Senate Election Polls 2026 | Latest Polls | RealClearPolling"
+      },
+      {
+        "url": "https://qz.com/talarico-paxton-texas-senate-race-polls-narrow-lead-110126",
+        "title": "Talarico leads Paxton in Texas Senate race polls, CNN and CBS show"
+      },
+      {
+        "url": "https://www.nacionale.com/en/articles/yougov-polls-senate-governor-texas-michigan-ohio-iowa-kansas-nebraska-maine-nc",
+        "title": "YouGov Senate polls: Cooper +11, Talarico +4, Nebraska ..."
+      },
+      {
+        "url": "https://www.270towin.com/2026-senate-polls/kansas",
+        "title": "2026 Polls: Kansas Senate - 270toWin"
+      },
+      {
+        "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt",
+        "title": ""
+      },
+      {
+        "url": "https://www.ncsbe.gov/results-data/election-results/historical-election-results-data",
+        "title": "Historical Election Results Data | NCSBE"
+      },
+      {
+        "url": "https://www.usatoday.com/elections/results/2026-11-03/us/nc/",
+        "title": "2026 North Carolina Election: Live Results & Maps"
+      },
+      {
+        "url": "https://elections.majorityrisingnc.org/us-senate",
+        "title": "NC US Senate Results 2026: Cooper vs. Whatley"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-election/gop-super-pac-pauses-spending-north-carolina-senate-race-shift-kansas-rcna601134",
+        "title": "GOP super PAC cancels spending in North Carolina Senate race, shifting money to Kansas"
+      },
+      {
+        "url": "https://www.kcur.org/politics-elections-and-government/2026-10-08/us-senate-pac-kansas-marshall-hamilton",
+        "title": "Top Democratic US Senate PAC is watching Kansas race 'really closely' as it disburses funding | KCUR - Kansas City news and NPR"
+      },
+      {
+        "url": "https://www.semafor.com/article/10/02/2026/republicans-pull-ad-spending-from-north-carolina",
+        "title": "Republicans pull ad spending from North Carolina"
+      },
+      {
+        "url": "https://puck.news/washington/2026/10/the-gops-kansas-bailout-and-dem-ad-counterpunches",
+        "title": "The G.O.P.’s Kansas Bailout & Dem Ad Counterpunches | Puck"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0688,
+    "tokens": {
+      "prompt": 20985,
+      "completion": 4436,
+      "reasoning": 2643
+    }
   }
 ]

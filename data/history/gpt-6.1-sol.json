@@ -1644,5 +1644,108 @@
       "completion": 1756,
       "reasoning": 305
     }
+  },
+  {
+    "date": "2026-11-02",
+    "generated_at": "2026-11-02T07:00:04+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 54,
+    "house_control_prob_dem": 85,
+    "comment": "行列は長い。だが議席への換算窓口はない。",
+    "hidden_dynamics": [
+      "期日前投票の増加は、支持者の純増ではなく投票日の前倒しかもしれない。登録政党別の集計も対象州が限られるため、全国の民主優勢へ直接換算できない。",
+      "トランプ氏の最終盤の訪問先にアイオワとカンザスが入るのは、共和が赤い州でも支持者の回収を必要としている可能性を示す。ただし、訪問だけでは内部調査の悪化や民主の勝勢までは推定できない。",
+      "民主の上院奪取経路は複数あるように見えて、同じ低頻度共和支持層の参加に左右される。接戦州が増えても、州ごとの勝算を独立に扱えば民主の安全度を過大評価する。"
+    ],
+    "hypothesis_title": "郊外は青く、上院は共通誤差との勝負",
+    "hypothesis": "共和候補への抵抗が赤い州にも及び、民主は郊外主導の下院奪回と上院の僅差過半数を両立する、という仮説を維持する。共和の終盤日程は防衛範囲の広さと整合するが、期日前投票の増加は民主票の純増とは限らない。２０１６・２０２４年型の共和票過小把握を州横断の共通リスクとして残す。投票履歴別の参加と独立した終盤調査がそろって共和回復を示せば、民主５１議席を撤回する。",
+    "hypothesis_status": "kept",
+    "change_reason": "上院は民主現有議席の防衛とＮＣ・メーン・オハイオ・テキサスの４奪取、下院は郊外接戦区での民主優位を中心経路として、５１議席・２３３議席を維持する。今回確認できた期日前投票と選挙日程は経路を覆さず、確率を引き上げるほど独立した新証拠でもない。",
+    "analysis": "米東部１日１７時基準。今日の検証結果は「矛盾なし、確証増しではない」。全国の期日前投票増とジョージアの記録的参加は動員の強さを示すが、当日票の前倒しと新規参加を分離できず、民主への加点は見送る。共和のアイオワ・カンザス訪問も防衛負担の示唆にとどめ、この２州を民主獲得には足さない。上院５１の核心はＮＣ・メーンに加えオハイオとテキサスを取ること。民主には候補個人への支持、共和には赤い州の地盤と当日動員があり、メーンの現職個人票も残る。ミシガン・ジョージア・ニューハンプシャーの防衛失敗なら経路は崩れる。下院２３３は郊外の反与党票を評価する一方、ＩＡ０１・０３、ＰＡ０７・１０、ＮＹ１７、ＡＺ０６の連動した共和上振れを警戒する。明日は登録政党より過去の投票頻度別参加を優先確認。検索で得た一部記事は公開時刻が不明で、締切前の新規情報か判別できないものを追加の裏付けには数えない。",
+    "key_news": [
+      {
+        "title": "ジョージアの期日前投票が約２８０万票、中間選挙の記録に",
+        "source": "AP",
+        "url": "https://apnews.com/live/midterm-elections-trump-news-updates-11-01-2026",
+        "impact": "neutral"
+      },
+      {
+        "title": "１日朝の全米期日前投票は約５３１４万票、登録政党別数字の解釈が焦点",
+        "source": "Al Jazeera／フロリダ大学選挙研究所集計",
+        "url": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean",
+        "impact": "neutral"
+      },
+      {
+        "title": "トランプ氏の最終盤の遊説先にアイオワとカンザス",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-iowa-kansas-november-1",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://yougov.com/en-us/articles/55871-2026-us-congressional-gubernatorial-elections-yougov-state-polling-iowa-texas-michigan-maine-ohio-kansas-nebraska-north-carolina",
+        "title": "2026 U.S. elections: YouGov's state polling"
+      },
+      {
+        "url": "https://www.nacionale.com/en/articles/yougov-polls-senate-governor-texas-michigan-ohio-iowa-kansas-nebraska-maine-nc",
+        "title": "YouGov Senate polls: Cooper +11, Talarico +4, Nebraska tied"
+      },
+      {
+        "url": "https://www.nacionale.com/en/articles/us-senate-races-2026-that-will-decide-control-texas-ohio-alaska-maine",
+        "title": "Democrats need four seats: the Senate races to watch"
+      },
+      {
+        "url": "https://www.newsweek.com/democrats-boost-senate-battlegrounds-midterms-polls-12644622",
+        "title": "Democrats get triple poll boost in 3 battlegrounds days before midterms"
+      },
+      {
+        "url": "https://apnews.com/live/midterm-elections-trump-news-updates-11-01-2026",
+        "title": "Judge bars federal government from trying to separate ballots | AP News"
+      },
+      {
+        "url": "https://www.usatoday.com/story/graphics/2026/11/01/early-voting-2026-surging-past-2022/92500629007/",
+        "title": "Early voting surges past 54 million, topping 2022 midterm ..."
+      },
+      {
+        "url": "https://www.dailysabah.com/world/americas/campaigning-enters-homestretch-before-key-us-midterm-elections",
+        "title": "Campaigning enters homestretch before key US midterm elections | Daily Sabah"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/11/1/more-than-50-million-votes-cast-in-us-midterm-elections-what-does-it-mean",
+        "title": "More than 50 million votes cast in US midterm elections: What does it mean? | US Midterm Elections 2026 News | Al Jazeera"
+      },
+      {
+        "url": "https://www.foxnews.com/politics/fox-news-power-rankings-kansas-moves-toss-up-nebraska-moves-lean-r",
+        "title": "Senate control remains toss-up as Kansas, Ohio shift in 2026 polls | Fox News"
+      },
+      {
+        "url": "https://www.foxnews.com/politics/everything-know-house-senate-control-ballot-measures-2026-election-day-poll-closing",
+        "title": "What's at stake in the 2026 midterm elections for House and Senate | Fox News"
+      },
+      {
+        "url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-iowa-kansas-november-1",
+        "title": "2 days until midterms, Trump campaigns in Iowa and Kansas as both parties make final push | Live Updates from Fox News Digital"
+      },
+      {
+        "url": "https://www.foxnews.com/video/6407753243112",
+        "title": "Fox News Power Rankings reveal major shifts ahead of midterms | Fox News Video"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0529,
+    "tokens": {
+      "prompt": 9480,
+      "completion": 1611,
+      "reasoning": 234
+    }
   }
 ]
