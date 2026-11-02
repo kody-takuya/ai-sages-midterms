@@ -2,7 +2,7 @@
 $ErrorActionPreference = "Stop"
 $Runner = Join-Path $PSScriptRoot "run_daily.ps1"
 $Action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$Runner`"" -WorkingDirectory (Split-Path $PSScriptRoot -Parent)
-$Settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -WakeToRun -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 4) -RestartCount 3 -RestartInterval (New-TimeSpan -Minutes 10)
+$Settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -WakeToRun -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 4) -RestartCount 3 -RestartInterval (New-TimeSpan -Minutes 10)
 # Explicit offsets make the instants independent of the Windows display timezone.
 $Final = ([DateTimeOffset]::Parse("2026-11-04T06:00:00+09:00")).LocalDateTime
 $Review = ([DateTimeOffset]::Parse("2026-11-05T06:00:00+09:00")).LocalDateTime

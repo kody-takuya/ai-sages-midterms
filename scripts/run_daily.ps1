@@ -17,9 +17,13 @@ catch { Write-Log "Another runner is active; skipping."; exit 0 }
 $Result = 0
 try {
     Write-Log "=== $(Get-Date -Format o) start"
-    # Retry a previous failed push before pulling (never rebase over unpublished data).
+    # Sync first: pushing while behind origin (e.g. after a commit made elsewhere) is rejected even with nothing
+    # to publish. Then retry any previous failed push. A conflicting rebase is aborted so later runs start clean.
+    if ((Invoke-Logged "git pull --rebase --quiet") -ne 0) {
+        Invoke-Logged "git rebase --abort" | Out-Null
+        throw "git pull failed"
+    }
     if ((Invoke-Logged "git push") -ne 0) { throw "Could not publish previous commits" }
-    if ((Invoke-Logged "git pull --rebase --quiet") -ne 0) { throw "git pull failed" }
     $Result = Invoke-Logged "`"$Python`" -u scripts\predict.py"
     Write-Log "predict exit: $Result"
     # Publish partial successes too; successful retrospectives are never regenerated.
