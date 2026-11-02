@@ -1822,5 +1822,113 @@
       "completion": 3510,
       "reasoning": 1702
     }
+  },
+  {
+    "date": "2026-11-03",
+    "generated_at": "2026-11-03T07:00:05+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 79,
+    "house_control_prob_dem": 95,
+    "comment": "NYT/Sienaが突き破った「5ptの壁」と、テキサスに吹く異変の風。",
+    "hidden_dynamics": [
+      "金・日曜日に続き、最も精度の高いNYT/Sienaの最終7州調査でテキサス（Talarico氏+7pt・50%到達）とオハイオ（Brown氏+5pt）が当方の設定していた「5ptの壁」を突破した。これはトランプ氏不在の中間選挙において、スキャンダルを抱える共和党候補（Paxton氏）から郊外穏健保守層が離反する『候補者質のペナルティ』が、農村部の無回答バイアス（3〜4pt）を上回ったことを意味する。",
+      "本日Sabato's Crystal Ballが最終予測で上院53議席（TX・OH・ME・KSをすべて民主党優位へ変更）と一気に強気へ振れたが、アラスカ（+2pt）やアイオワ（+1pt）、カンザスといった純粋な赤い州は依然として3〜4ptの隠れ保守バイアスの射程圏内にあり、メディアと予測機関の最終盤の『青い過剰修正（ハーディング）』には強い警戒が必要だ。"
+    ],
+    "hypothesis_title": "「5ptの壁」突破による上院52議席への上方修正",
+    "hypothesis": "期日前投票が5614万票に達し民主党+11pt差を維持、Sabato最終予測も下院239議席としたことで当方の下院238議席は完全に収束した。上院は本日分析のNYT/Siena最終調査でTX（+7pt・50%到達）とOH（+5pt）が、昨日までの引き上げ条件「5ptの壁」を突破したため、仮説の条件に従い52議席へ1議席上方修正する。ただしSabatoが53議席としたKSやAK（+2pt）・IA（+1pt）は保守層の無回答バイアス（3〜4pt）で当日逆転されると見て織り込まない。",
+    "hypothesis_status": "refined",
+    "change_reason": "昨日まで「TX・OHで5pt超の差が出れば上院を52議席へ引き上げる」と明記していた条件が、NYT/Siena最終調査（TXで+7pt、OHで+5pt）によって満たされたため、上院を民主党52議席（+1）へ修正した。下院はSabato最終予測（239議席）が当方の238議席と事実上一致したため据え置く。",
+    "analysis": "いよいよ明日が投票日。NBC集計の期日前投票は5614万票（対面3190万・郵便2420万）に達し、民主党46%対共和党35%（+11pt）と圧倒的優位を保ったまま最終日を迎えた。本日Sabato's Crystal Ballが発表した最終予測は下院を民主党239議席対共和党196議席とし、当予測が1週間前から維持してきた「238対197」と1議席差まで収束した。下院の青い波は歴史的規模で確定したと言ってよい。一方、上院は最終日に重大なシグナルが出た。最も信頼性の高いNYT/Siena最終調査で、メイン州（Jackson氏+6pt、51%対45%）に加え、テキサス州でTalarico氏が50%対43%（+7pt）、オハイオ州でBrown氏が49%対44%（+5pt）とリードを広げ、当予測が一貫して課してきた「5ptの壁」を突破したのだ。特にテキサスで民主党候補が50%の大台に乗せたのは、共和党Paxton氏の忌避感が無回答バイアス（3〜4pt）を凌駕している証拠であり、TXまたはOHの少なくとも一方は民主党が奪取すると見て上院を52対48へ引き上げる。ただし、Sabatoが今日KSを含む53議席まで一気に積み上げたのは終盤特有の前のめりだ。NYT調査でもアラスカ（+2pt）とアイオワ（+1pt）は依然48%止まりであり、明日の当日投票で農村部保守層が押し返す余地は十分にある。熱狂と冷静の境界線を「52議席」に引き、審判の日を迎える。",
+    "key_news": [
+      {
+        "title": "Sabato's Crystal Ballが最終予測を発表、下院239議席・上院53議席（TX・OH・ME・KSを民主党優位へ変更）と予測",
+        "source": "Sabato's Crystal Ball",
+        "url": "https://centerforpolitics.org/crystalball/2026finalratings/",
+        "impact": "D+"
+      },
+      {
+        "title": "NYT/Siena最終上院7州調査で民主党が全州リード、テキサス（+7pt）・メイン（+6pt）・オハイオ（+5pt）で差を拡大",
+        "source": "Siena Research Institute / NYT",
+        "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+        "impact": "D+"
+      },
+      {
+        "title": "全国の期日前投票が5614万票（対面3190万・郵便2420万）に到達、登録政党比は民主党46%対共和党35%で投票日へ",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "アラスカ（+2pt）とアイオワ（+1pt）の上院選はNYT最終調査でも誤差範囲内の大接戦にとどまる",
+        "source": "USA Today",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/democrats-lead-republicans-senate-battlegrounds-nyt-siena-polls/92560201007/",
+        "impact": "R+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://centerforpolitics.org/crystalball/2026finalratings/",
+        "title": "THE FINAL 2026 RATINGS: Democrats Favored to Capture ..."
+      },
+      {
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/",
+        "title": "2026 Senate - Sabato's Crystal Ball"
+      },
+      {
+        "url": "https://yellowhammernews.com/sabatos-crystal-ball-moves-alabamas-2nd-district-to-leans-democratic-in-final-2026-ratings/",
+        "title": "Sabato’s Crystal Ball moves Alabama’s 2nd District to ‘Leans Democratic’ in final 2026 ratings - Yellowhammer News"
+      },
+      {
+        "url": "https://legal-planet.org/2026/11/02/election-2026-the-final-sprint/",
+        "title": "Election 2026: The Final Sprint - Legal Planet"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Elections"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.wgal.com/article/2026-midterm-election-early-voting-map/74296734",
+        "title": "54 million have voted early in 2026 midterms - WGAL"
+      },
+      {
+        "url": "https://www.nacionale.com/en/articles/us-early-voting-record-2026-midterms-can-you-still-vote-early",
+        "title": "Over 46 million early votes, a US midterm record"
+      },
+      {
+        "url": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html",
+        "title": "Democrats Show Strength in Final Days of Race for ..."
+      },
+      {
+        "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+        "title": "NYTimes/Siena Poll of Likely Voters – Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas – Siena Research Institute"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/democrats-lead-republicans-senate-battlegrounds-nyt-siena-polls/92560201007/",
+        "title": "Polls: Democrats lead Republicans in Senate battlegrounds"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/11/02/final-2026-midterm-polls-democrats-lead-key-senate-races-in-last-new-york-times-poll/",
+        "title": "Hottest 2026 Midterm Races—Democrats Lead All 7 Key ..."
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0527,
+    "tokens": {
+      "prompt": 10754,
+      "completion": 1722,
+      "reasoning": 0
+    }
   }
 ]

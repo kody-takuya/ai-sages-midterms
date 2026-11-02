@@ -1407,5 +1407,97 @@
       "completion": 1651,
       "reasoning": 98
     }
+  },
+  {
+    "date": "2026-11-03",
+    "generated_at": "2026-11-03T07:00:05+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 66,
+    "house_control_prob_dem": 91,
+    "comment": "最終調査は民主が全7州でリード。誤差の亡霊は最後の砦だ",
+    "hidden_dynamics": [
+      "NYT/Siena最終調査は、民主がOH+5、TX+7、ME+6、MI+11でリードし、KSでも+5だった。共和支持が堅いはずの州にまで接戦が広がっている。2024年型の「共和過小評価」が起きても、1〜2点の誤差では民主のリードを消しきれない余裕が出てきた。",
+      "期日前投票は民主登録43%、共和32%と、民主が大きく先行する。ただ、これは登録政党の集計で、実際の投票先とは違う。共和は当日投票に偏る傾向があり、期日前の差は見た目ほど大きな優位ではない。"
+    ],
+    "hypothesis_title": "民主優勢だが誤差が最後の保険",
+    "hypothesis": "総合投票はD+9前後で、前日までの「D+7、上院は僅差」より民主の優勢が強まった。上院ではOH、TX、MEの3州で民主が5点前後リードし、IAとAKは互角だ。2016年と2024年の共和過小評価が2〜3点出ても、NC、OH、ME、TXの4州で51議席に届く。ただしTXかOHを落とせば50-50で共和が支配する。TXとOHの両方で共和が勝つか、総合投票がD+6以下に縮めば仮説を捨てる。",
+    "hypothesis_status": "refined",
+    "change_reason": "NYT/Siena最終調査と、D+9の総合投票平均を受けて、下院を236議席、上院の民主支配確率を66%に引き上げた。上院の中央値は、IAとAKが互角のため51議席のままとした。",
+    "analysis": "【上院】NYT/Siena最終調査(10/23〜11/1)は、TXでTalarico氏50対43、OHでBrown氏49対44、MEでJackson氏51対45とした。AKはPeltola氏48対46、IAはTurek氏48対47で、この2州は誤差内の接戦だ。民主が51議席に届く条件は、NC、OH、ME、TXの4州だ。IAとAKは上積みの扱いになる。共和の過小評価が2024年並みの2〜3点出ても、TXとOHでは5〜7点差が残る。ただし、テキサスで民主が勝った例は長年ない。調査の民主回答者が多すぎる可能性も残る。1議席を落とすと50-50となり、副大統領により共和が支配する。モデルによって民主の上院制御確率は大きく異なる(pollingforecast.comは81%)。私は、今回の予測の不確実性を考えて66%にとどめる。【下院】総合投票はD+9前後で、不利な区割りを吸収しても236議席前後になるとみる。Enten氏は237議席、pollingforecastは242議席としている。明日は開票で、早く集計が出るOH、NC、MEの結果を見る。民主が全てリードすれば、上院も民主支配に傾く。",
+    "key_news": [
+      {
+        "title": "NYT/Siena最終調査:民主がOH+5、TX+7、ME+6、MI+11でリードし、AKとIAは接戦",
+        "source": "Siena Research Institute / NYT",
+        "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+        "impact": "D+"
+      },
+      {
+        "title": "総合投票は民主が8〜10点リードで、ほぼ動いていない。民主の下院多数確率は90%",
+        "source": "Polling Forecast",
+        "url": "https://www.pollingforecast.com/us/news/232/two-days-out-the-polls-have-hardly-moved-neither-has-our-forecast",
+        "impact": "D+"
+      },
+      {
+        "title": "期日前投票5400万票:民主登録43%、共和32%",
+        "source": "USA Today",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
+        "impact": "D+"
+      },
+      {
+        "title": "Enten氏の最終予測:民主が下院で237議席、確率92%",
+        "source": "HuffPost",
+        "url": "https://www.huffpost.com/entry/harry-enten-2026-midterms-final-forecast_n_6ae8357de4b0283c45778cf1",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html",
+        "title": "Democrats Show Strength in Final Days of Race for ..."
+      },
+      {
+        "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+        "title": "NYTimes/Siena Poll of Likely Voters – Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas – Siena Research Institute"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/democrats-lead-republicans-senate-battlegrounds-nyt-siena-polls/92560201007/",
+        "title": "Polls: Democrats lead Republicans in Senate battlegrounds"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/11/02/final-2026-midterm-polls-democrats-lead-key-senate-races-in-last-new-york-times-poll/",
+        "title": "Hottest 2026 Midterm Races—Democrats Lead All 7 Key ..."
+      },
+      {
+        "url": "https://www.pollingforecast.com/us/news/232/two-days-out-the-polls-have-hardly-moved-neither-has-our-forecast",
+        "title": "Two days out, the polls have hardly moved. Neither has our forecast"
+      },
+      {
+        "url": "https://www.huffpost.com/entry/harry-enten-2026-midterms-final-forecast_n_6ae8357de4b0283c45778cf1",
+        "title": "Harry Enten Drops Final Midterm Forecast With Dramatic Shift In Battle For Congress | HuffPost Latest News"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
+        "title": "What early voting data tell us about the 2026 midterm elections"
+      },
+      {
+        "url": "https://www.npr.org/2026/11/02/nx-s1-6026532/what-early-voting-numbers-tell-us-about-the-midterms",
+        "title": "What early voting numbers tell us about the midterms : Here & Now Anytime : NPR"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0544,
+    "tokens": {
+      "prompt": 12808,
+      "completion": 1991,
+      "reasoning": 191
+    }
   }
 ]

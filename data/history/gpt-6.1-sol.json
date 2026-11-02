@@ -1747,5 +1747,114 @@
       "completion": 1611,
       "reasoning": 234
     }
+  },
+  {
+    "date": "2026-11-03",
+    "generated_at": "2026-11-03T07:00:05+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 58,
+    "house_control_prob_dem": 86,
+    "comment": "青信号は増えた。ただし世論調査は同じ電源。",
+    "hidden_dynamics": [
+      "メーン・オハイオ・テキサスの民主優位は地理的には別々でも、同じ調査機関の結果なら誤差も連動しうる。報道本数の増加を、独立した証拠の増加とは数えない。",
+      "期日前投票で民主登録者が多いことは、投票日当日の動員負担を軽くする可能性がある。ただし、常連支持者の前倒しなら最終得票は増えず、共和の当日票との比較なしに議席へ換算できない。",
+      "右派媒体にも民主優勢論が載る一方、今回確認できた記事は論説であり、共和陣営の内部調査や広告撤退の証拠ではない。論調の収束と、有権者の収束は区別する。"
+    ],
+    "hypothesis_title": "郊外の反与党票、赤州では薄氷",
+    "hypothesis": "前日の仮説を精緻化する。民主は郊外の反与党票で下院を奪回し、上院も候補個人への支持で僅差過半数に届くとみる。シエナの赤州での民主優位は整合的だが、複数州を同じ調査設計で測った結果を独立した追い風とは扱わない。２０１６・２０２４年型の共和支持層の非回答と当日動員は共通リスクとして残す。別方式の独立調査と投票履歴別参加がともに共和回復を示せば、上院５１議席の仮説を撤回する。",
+    "hypothesis_status": "refined",
+    "change_reason": "ＮＣ・メーン・オハイオ・テキサスの４議席奪取と民主現有議席防衛で上院５１、郊外接戦区を中心とする純増で下院２３３という経路を維持する。新しい報道はこの経路の確度をやや高めるが、独立性の限界から議席は据え置き、民主の多数確率だけ上院５８％・下院８６％へ小幅に上げる。",
+    "analysis": "米東部２日１７時基準。今日の検証は「経路は補強、波の拡大は未確認」。２日付報道が伝えるシエナのメーン民主６点、オハイオ５点、テキサス７点優位は、昨日の５１議席経路に沿う。ただし調査公表は１日で時刻不明。同じ結果の再報道も含むため、新規の独立証拠として満額加算しない。ＮＢＣの全国民主７点優位も登録有権者ベースで、接戦区の投票者構成とは異なる。共和にはメーンの現職個人票、オハイオ・テキサスの地盤と当日動員が残る。民主はミシガン・ジョージア・ニューハンプシャー防衛が前提で、ＮＣの新しい裏付けは今回得られていない。下院は郊外優位を維持しつつ、ＩＡ０１・０３、ＰＡ０７・１０、ＮＹ１７、ＡＺ０６の共和上振れを一括したリスクとして扱う。明日は開票順による見かけの振れを避け、郡別・投票方式別に過去との偏差を見る。右派論説は公開時刻未確認で、追加の数量的証拠にはしない。",
+    "key_news": [
+      {
+        "title": "最終シエナ調査、メーン・オハイオ・テキサスで民主候補がリードと２日朝報道",
+        "source": "USA TODAY",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/democrats-lead-republicans-senate-battlegrounds-nyt-siena-polls/92560201007/",
+        "impact": "D+"
+      },
+      {
+        "title": "ＮＢＣ調査、登録有権者の議会支持は民主５２％・共和４５％",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183",
+        "impact": "D+"
+      },
+      {
+        "title": "期日前投票約５４００万票、政党登録集計は報告する２７州に限定",
+        "source": "USA TODAY",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
+        "impact": "neutral"
+      },
+      {
+        "title": "民主優勢を論じる右派媒体掲載の論説、独自調査ではなく公開時刻も未確認",
+        "source": "Fox News（論説）",
+        "url": "https://www.foxnews.com/opinion/schoen-cooperman-democrats-close-republicans-scramble-hold-congress",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+        "title": "NYTimes/Siena Poll of Likely Voters – Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas – Siena Research Institute"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/democrats-lead-republicans-senate-battlegrounds-nyt-siena-polls/92560201007/",
+        "title": "Polls: Democrats lead Republicans in Senate battlegrounds"
+      },
+      {
+        "url": "https://fredcornell.com/latest-senate-polls",
+        "title": "Latest Senate polls | Fred Cornell"
+      },
+      {
+        "url": "https://www.foxnews.com/opinion/schoen-cooperman-democrats-close-republicans-scramble-hold-congress",
+        "title": "2026 midterm polls show Democrats poised to flip House and Senate | Fox News"
+      },
+      {
+        "url": "https://www.npr.org/2026/11/02/nx-s1-6026532/what-early-voting-numbers-tell-us-about-the-midterms",
+        "title": "What early voting numbers tell us about the midterms : Here & Now Anytime : NPR"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
+        "title": "What early voting data tell us about the 2026 midterm elections"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/house-polls-2026.html",
+        "title": "House Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://theweek.com/politics/expert-polling-midterm-2026-final-results-democrats-republicans",
+        "title": "What to expect in tomorrow's midterm elections | The Week US"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183",
+        "title": "Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage"
+      },
+      {
+        "url": "https://www.nacionale.com/en/articles/us-midterms-2026-all-coverage-senate-house-polls-results",
+        "title": "Midterms 2026: guide to the key races, polls and results"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/midterms",
+        "title": "Midterms 2026: Congress Polls and More"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0549,
+    "tokens": {
+      "prompt": 15442,
+      "completion": 1760,
+      "reasoning": 220
+    }
   }
 ]

@@ -2519,5 +2519,115 @@
       "completion": 5271,
       "reasoning": 4583
     }
+  },
+  {
+    "date": "2026-11-03",
+    "generated_at": "2026-11-03T07:00:05+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 72,
+    "house_control_prob_dem": 93,
+    "comment": "Siena最終、上院7州すべてD首位——過大標本か本物か、明日が裁く",
+    "hidden_dynamics": [
+      "Siena最終がオハイオでBrown+5とライブコーラーで決着をつけた——パネル系ActiVoteの『イーブン』は標本の質が低かった疑いが濃厚。共和資金もオハイオで攻勢に転じず防衛線のまま。",
+      "期日前53.1Mの『D+12モデル』は登録ベースで投票内容の証明ではない。共和は高齢・白人層を当日票に残しており、過去2回同様『期日前の青い像』は割り引いて見る必要がある。",
+      "予測市場が68〜69へ軟化したのは情報の更新ではなく資金フローの揺れ。左右の情報源が同一値へ収束するのは相互参照の痕跡で、確率の独立した裏付けには使えない。",
+      "Sienaが赤州カンザスでD+5を弾いたのは、全州D首位という絵の中で最も過大標本を疑わせる一点。ここを額面通り採るかどうかが上院52と53の分水嶺になる。"
+    ],
+    "hypothesis_title": "上院7州D首位——波の証明か、標本の錯覚か",
+    "hypothesis": "核は据え置き。隠れ共和票は大統領年固有で中間選挙の世調誤差は小さく、今回は2018型。今日の新材料は方向が明確にD：Siena最終が上院7州すべてでD首位（MI+11、TX+7、ME+6、OH+5、KS+5、AK/IAは僅差）。ただしKS+5は赤州での過大標本の兆候で、Siena自身も総MoE内と認める。よって支配は厚くDだが天井は取らない。棄却条件は共和資金の攻勢転換、TX/MEで共和系偏重を補正した中立調査の反転、当日高齢・白人有権者の上積みが標本を覆す場合。",
+    "hypothesis_status": "refined",
+    "change_reason": "Siena最終の全州D首位を受け上院確率を71→72へ微上げしたが、KSの過大標本懸念から議席中央値は52・236を据え置き。新材料は方向を強めたが『波の厚み』を足すものではないため数字は動かさない。",
+    "analysis": "【上院】現状53R-47D。Siena最終でNC(Cooper)・ME(Jackson+6)・OH(Brown+5)・TX(Talarico+7)の4州がD首位、AK(Peltola+2)・IA(Turek+1)は総MoE内。これら4州で51、AKを足して52、KS(Hamilton+5)まで取れば53。ただしKSのD+5は赤州標本の過大を疑う最重要シグナルで額面通りには採らない。中央値52、上振れ53、4〜5激戦が全国相関して同日Rへ振れる下振れ49。P72。【下院】一般票D+8前後で頭打ち、Cook最終は230-240・Toss-up全取りで240。期日前53.1Mは登録比D40.3/R33.2だが内容保証なし。区割り改定(TX/MO/NC)の歯止めと当日共和の高齢・白人有権者上積みを差し引き、236が中央値で幅225〜240。【持ち越し】①TX当日票の都市/郊外構成、②KS・IAが標本過大かの検証、③当日R上積みの実測、④上院49〜53の相関シナリオ管理。",
+    "key_news": [
+      {
+        "title": "NYT/Siena最終調査：上院激戦7州すべてで民主党がリード（MI+11、TX+7、ME+6、OH+5、KS+5、AK・IAは誤差内）",
+        "source": "New York Times / Siena Research Institute",
+        "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+        "impact": "D+"
+      },
+      {
+        "title": "Cook Political Report最終見通し：民主党は15〜25議席増、最大240議席の多数派に届く可能性",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/hour-hour-election-night-guide-race-house",
+        "impact": "D+"
+      },
+      {
+        "title": "期日前投票は約5,310万票、党登録州で民主党40.3%・共和党33.2%と民主党が先行",
+        "source": "USA Today / On Point Politics",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
+        "impact": "D+"
+      },
+      {
+        "title": "Forbes：Siena最終調査で民主党が全7激戦州リード、テキサスはTalarico50-43でPaxtonを圧倒",
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/saradorn/2026/11/02/final-2026-midterm-polls-democrats-lead-key-senate-races-in-last-new-york-times-poll/",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html",
+        "title": "Democrats Show Strength in Final Days of Race for ..."
+      },
+      {
+        "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+        "title": "NYTimes/Siena Poll of Likely Voters – Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas – Siena Research Institute"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saradorn/2026/11/02/final-2026-midterm-polls-democrats-lead-key-senate-races-in-last-new-york-times-poll/",
+        "title": "Hottest 2026 Midterm Races—Democrats Lead All 7 Key ..."
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/house/house-overview/hour-hour-election-night-guide-race-house",
+        "title": "An Hour-by-Hour Election Night Guide to the Race for the House | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+        "title": "2026 CPR House Race ratings | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/print/ratings/races/house",
+        "title": "The Cook Political Report: 2026 House Race Ratings"
+      },
+      {
+        "url": "https://www.washingtonpost.com/politics/2026/10/31/cook-political-report-says-democrats-could-win-up-240-house-seats-tuesday/",
+        "title": "Cook Political Report says Democrats could win up to 240 House seats on Tuesday - The Washington Post"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://onpointpolitics.us/maps/early-vote",
+        "title": "2026 Early Vote Tracker: Ballots Cast by State - On Point Politics"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
+        "title": "What early voting data tell us about the 2026 midterm elections"
+      },
+      {
+        "url": "https://www.newsquawk.com/headlines/recent-midterm-developments-dems-lead-early-ballots-cast-in-8-key-senate-states-gop-leads-in-6-",
+        "title": "Recent midterm developments: Dems lead early ballots cast in 8 key Senate states; GOP leads in 6  | Newsquawk"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0251,
+    "tokens": {
+      "prompt": 18646,
+      "completion": 4887,
+      "reasoning": 3248
+    }
   }
 ]
