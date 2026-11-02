@@ -19,6 +19,7 @@
   <h1>中間選挙の議席数を<br><span class="sanken">AI五賢者</span>が予測！</h1>
   <p class="countdown" id="countdown">投票日 11月3日</p>
   <p class="updated" id="updated"></p>
+  <p class="updated" id="schedule">最終予測：11/4 6:00 JST ／ 振り返り：11/5 6:00 JST（処理完了後に掲載）</p>
 </header>
 
 <main>
@@ -49,6 +50,11 @@
   </section>
 
   <section class="notes" id="notes" aria-label="各モデルの考察"></section>
+  <section id="retrospective" aria-labelledby="review-title" hidden>
+    <h2 id="review-title">振り返り</h2>
+    <p id="review-status"></p>
+    <div class="notes" id="review-models"></div>
+  </section>
 </main>
 
 <footer>
@@ -59,3 +65,4 @@
 <script src="assets/app.js"></script>
 </body>
 </html>
+

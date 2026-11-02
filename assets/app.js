@@ -54,6 +54,7 @@
     renderSages();
     renderLegends();
     renderNotes();
+    renderRetrospective();
     const charts = [["senate", $("#chart-senate")], ["house", $("#chart-house")]];
     const draw = () => charts.forEach(([c, el]) => drawChart(el, c));
     draw();
@@ -70,10 +71,39 @@
     const days = Math.round((Date.UTC(y, m - 1, d) - today) / 864e5);
     $("#countdown").innerHTML = days > 0 ? `投票日まで あと<b>${days}</b>日`
       : days >= -1 ? `🗳️ 投票日！ 開票を待て` : `投票日（11/3）は終了しました`;
+    if (DATA.final_forecast) {
+      $("#countdown").textContent = "🔒 最終予測を保存済み";
+      $("#schedule").textContent = "11/4 6:00 JST の最終予測を固定。振り返りは 11/5 6:00 JST に開始し、完了後に下部へ追記します。";
+    }
     const u = new Date(DATA.updated_at);
     if (!isNaN(u)) {
       $("#updated").textContent = `最終更新 ${u.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })} JST`;
     }
+  }
+
+  function renderRetrospective() {
+    const section = $("#retrospective");
+    if (!DATA.final_forecast && !DATA.retrospective) { section.hidden = true; return; }
+    section.hidden = false;
+    const reviews = DATA.retrospective?.models || [];
+    $("#review-status").textContent = reviews.length
+      ? "11/5 6:00 JST 時点の報道結果に基づく振り返りです。未確定議席を含み、最終確定結果とは限りません。上の予測・考察・グラフは保存時のままです。"
+      : "11/5 6:00 JST に振り返りを開始します。予測のスナップショットはそのまま保持します。";
+    $("#review-models").innerHTML = DATA.models.map((m) => {
+      const r = reviews.find((entry) => entry.slug === m.slug);
+      if (!r) return `<article class="note"><h3>${esc(m.name)}</h3><p>振り返り待ち（未取得）</p></article>`;
+      const counts = ["senate", "house"].map((ch) => {
+        const n = r.results[ch];
+        return `<p>${CHAMBER_JA[ch]}：民主 ${esc(n.dem)}・共和 ${esc(n.rep)}・その他 ${esc(n.other)}・未確定 ${esc(n.uncalled)}</p>`;
+      }).join("");
+      const sources = r.sources.map((src) => safeUrl(src.url)
+        ? `<li><a href="${esc(src.url)}" target="_blank" rel="noopener noreferrer">${esc(src.title)}</a></li>` : "").join("");
+      return `<article class="note" style="--c:var(${SAGES[m.slug].color})">
+        <h3>${esc(m.name)}</h3><p><strong>${esc(r.comment)}</strong></p>
+        <p class="src">結果の基準時刻：${esc(r.results_as_of)}</p>${counts}
+        <p>${esc(r.analysis)}</p><h3>今回の教訓</h3><p>${esc(r.lessons)}</p>
+        <h3>結果の出典</h3><ul>${sources}</ul></article>`;
+    }).join("");
   }
 
   function renderVerdict(ch, el) {
@@ -131,7 +161,7 @@
       return `<article class="sage" style="--c:var(${s.color})">${s.flag ? `<span class="flag">${s.flag}</span>` : ""}
         <div class="sage-top">
           <div class="emblem" style="color:var(${s.color})">${s.emblem()}</div>
-          <div><div class="sage-title">${s.title}</div><div class="sage-name">${esc(m.name)}</div><div class="sage-maker">${esc(m.maker)}${l ? ` · ${md(l.date)}の予測` : ""}</div></div>
+          <div><div class="sage-title">${s.title}</div><div class="sage-name">${esc(m.name)}</div><div class="sage-maker">${esc(m.maker)}${l ? ` · ${md(l.date)}の予測${m.final_status === "final" ? "（最終）" : m.final_status === "fallback" ? "（最終取得失敗・前回値を保持）" : ""}` : ""}</div></div>
         </div>${body}
       </article>`;
     }).join("");
@@ -265,3 +295,4 @@ ${esc(l.hypothesis)}</p>` : ""}
     hit.addEventListener("pointerleave", leave);
   }
 })();
+
