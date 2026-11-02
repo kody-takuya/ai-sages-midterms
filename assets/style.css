@@ -12,6 +12,7 @@
   --rep: #e34948;
   --dem-wash: rgba(42, 120, 214, 0.07);
   --rep-wash: rgba(227, 73, 72, 0.07);
+  --good: #006300;
   --m1: #1baf7a;   /* GPT-6.1 Sol */
   --m2: #eb6834;   /* Claude Sonnet 5.5 */
   --m3: #4a3aa7;   /* Gemini 4 Argon */
@@ -37,6 +38,7 @@
     --rep: #e66767;
     --dem-wash: rgba(57, 135, 229, 0.10);
     --rep-wash: rgba(230, 103, 103, 0.09);
+    --good: #0ca30c;
     --m1: #199e70;
     --m2: #d95926;
     --m3: #9085e9;
@@ -51,7 +53,7 @@
   color-scheme: dark;
   --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
   --grid: #2c2c2a; --axis: #383835; --border: rgba(255, 255, 255, 0.10);
-  --dem: #3987e5; --rep: #e66767; --dem-wash: rgba(57,135,229,.10); --rep-wash: rgba(230,103,103,.09);
+  --dem: #3987e5; --rep: #e66767; --dem-wash: rgba(57,135,229,.10); --rep-wash: rgba(230,103,103,.09); --good: #0ca30c;
   --m1: #199e70; --m2: #d95926; --m3: #9085e9; --m4: #c98500; --m5: #d55181; --hero-a: #0f0c2e; --hero-b: #2a1f5c; --shadow: none;
 }
 
@@ -220,3 +222,13 @@ footer p { margin: 4px 0; }
   .verdict { grid-template-columns: 1fr; }
   .hero { padding-top: 40px; }
 }
+
+/* ---------- retrospective ---------- */
+#retrospective > h2 { margin: 28px 0 4px; font-size: 22px; }
+#review-status { margin: 0 0 12px; font-size: 13px; color: var(--ink-2); }
+.verdict-badge { font-size: 11px; font-weight: 800; padding: 0 7px; border-radius: 6px; border: 1px solid currentColor; vertical-align: 1px; }
+.verdict-badge.hit { color: var(--good); }
+.verdict-badge.miss { color: var(--rep); }
+.verdict-badge.pending { color: var(--muted); }
+.note p.reflection { border-left: 3px solid var(--rep); padding-left: 10px; }
+#review-models .note > h3:first-child { font-size: 16px; color: var(--c, var(--ink)); margin-top: 14px; }

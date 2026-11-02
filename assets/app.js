@@ -11,6 +11,7 @@
   // D needs 51 in the Senate (the VP breaks 50-50 ties for the GOP); 218 in the House.
   const MAJORITY = { senate: 51, house: 218 };
   const CHAMBER_JA = { senate: "上院", house: "下院" };
+  const VERDICT_JA = { hit: "的中", miss: "外れ", pending: "判定待ち" };
   const STATUS_JA = { new: "新説", kept: "継続", refined: "修正", discarded_and_replaced: "撤回→新説" };
 
   const $ = (s, r = document) => r.querySelector(s);
@@ -94,14 +95,20 @@
       if (!r) return `<article class="note"><h3>${esc(m.name)}</h3><p>振り返り待ち（未取得）</p></article>`;
       const counts = ["senate", "house"].map((ch) => {
         const n = r.results[ch];
-        return `<p>${CHAMBER_JA[ch]}：民主 ${esc(n.dem)}・共和 ${esc(n.rep)}・その他 ${esc(n.other)}・未確定 ${esc(n.uncalled)}</p>`;
+        const v = VERDICT_JA[r.scorecard?.[ch]?.verdict];
+        const badge = v ? ` <span class="verdict-badge ${r.scorecard[ch].verdict}">${v}</span>` : "";
+        const fc = r.scorecard?.[ch] ? `（予測 D${esc(r.scorecard[ch].forecast_dem)}）` : "";
+        return `<p>${CHAMBER_JA[ch]}${badge}：民主 ${esc(n.dem)}・共和 ${esc(n.rep)}・その他 ${esc(n.other)}・未確定 ${esc(n.uncalled)}${fc}</p>`;
       }).join("");
+      const missed = Object.values(r.scorecard || {}).some((c) => c.verdict === "miss");
       const sources = r.sources.map((src) => safeUrl(src.url)
         ? `<li><a href="${esc(src.url)}" target="_blank" rel="noopener noreferrer">${esc(src.title)}</a></li>` : "").join("");
       return `<article class="note" style="--c:var(${SAGES[m.slug].color})">
         <h3>${esc(m.name)}</h3><p><strong>${esc(r.comment)}</strong></p>
         <p class="src">結果の基準時刻：${esc(r.results_as_of)}</p>${counts}
-        <p>${esc(r.analysis)}</p><h3>今回の教訓</h3><p>${esc(r.lessons)}</p>
+        <p>${esc(r.analysis)}</p>
+        ${r.reflection ? `<h3>${missed ? "反省文" : "的中の理由と運"}</h3><p class="${missed ? "reflection" : ""}">${esc(r.reflection)}</p>` : ""}
+        <h3>今回の教訓</h3><p>${esc(r.lessons)}</p>
         <h3>結果の出典</h3><ul>${sources}</ul></article>`;
     }).join("");
   }

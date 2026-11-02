@@ -102,7 +102,7 @@ class ElectionTests(unittest.TestCase):
             self.assertEqual(p.history_path(m['slug']).read_bytes(), histories[m['slug']])
 
     def test_review_schema_allows_uncalled_but_rejects_bad_totals(self):
-        data = dict(comment='comment', analysis='analysis', lessons='lessons',
+        data = dict(comment='comment', analysis='analysis', lessons='lessons', reflection='reflection',
                     results_as_of=p.REVIEW_AT.isoformat(), sources=[{'title': 'AP', 'url': 'https://apnews.com/'}],
                     results={'senate': {'dem': 48, 'rep': 49, 'other': 0, 'uncalled': 3},
                              'house': {'dem': 200, 'rep': 200, 'other': 0, 'uncalled': 35}})
@@ -122,7 +122,7 @@ class ElectionTests(unittest.TestCase):
         self.assertEqual(frozen['models'][0]['final_status'], 'fallback')
 
     def test_review_prompt_only_sees_own_forecast_and_cutoff(self):
-        response = dict(comment='c', analysis='a', lessons='l', results_as_of=p.REVIEW_AT.isoformat(),
+        response = dict(comment='c', analysis='a', lessons='l', reflection='r', results_as_of=p.REVIEW_AT.isoformat(),
                         sources=[{'title': 'AP', 'url': 'https://apnews.com/'}],
                         results={'senate': {'dem': 45, 'rep': 48, 'other': 0, 'uncalled': 7},
                                  'house': {'dem': 200, 'rep': 210, 'other': 0, 'uncalled': 25}})
@@ -131,5 +131,48 @@ class ElectionTests(unittest.TestCase):
         messages = call.call_args.args[1]['messages']
         self.assertEqual(json.loads(messages[1]['content']), self.entry)
         self.assertIn(p.REVIEW_AT.isoformat(), messages[0]['content'])
+
+    def test_score_forecast_hit_miss_pending(self):
+        res = lambda sd, su, hd, hu: {'senate': {'dem': sd, 'rep': 100 - sd - su, 'other': 0, 'uncalled': su},
+                                      'house': {'dem': hd, 'rep': 435 - hd - hu, 'other': 0, 'uncalled': hu}}
+        fc = {'senate': {'dem': 51}, 'house': {'dem': 233}}
+        card = p.score_forecast(fc, res(52, 0, 230, 0))
+        self.assertEqual((card['senate']['verdict'], card['house']['verdict']), ('hit', 'hit'))
+        card = p.score_forecast(fc, res(49, 0, 233, 0))           # wrong Senate majority
+        self.assertEqual(card['senate']['verdict'], 'miss')
+        self.assertEqual(card['senate']['control_result'], 'rep')
+        card = p.score_forecast(fc, res(51, 0, 220, 0))           # House majority right but 13 seats off
+        self.assertEqual(card['house']['verdict'], 'miss')
+        card = p.score_forecast(fc, res(49, 3, 214, 20))          # undecided, forecast still possible
+        self.assertEqual((card['senate']['verdict'], card['house']['verdict']), ('pending', 'pending'))
+        card = p.score_forecast({'senate': {'dem': 50}, 'house': {'dem': 233}}, res(50, 0, 233, 0))
+        self.assertEqual(card['senate']['verdict'], 'hit')        # 50-50 is a Republican Senate, as forecast
+
+    def test_review_miss_requires_reflection_and_retries_without_new_search(self):
+        base = dict(comment='c', analysis='a', lessons='l', results_as_of=p.REVIEW_AT.isoformat(),
+                    sources=[{'title': 'AP', 'url': 'https://apnews.com/'}],
+                    results={'senate': {'dem': 47, 'rep': 53, 'other': 0, 'uncalled': 0},
+                             'house': {'dem': 200, 'rep': 235, 'other': 0, 'uncalled': 0}})
+        short, long_ = {**base, 'reflection': '外れた'}, {**base, 'reflection': '反省' * 120}
+        replies = [{'choices': [{'message': {'content': json.dumps(r, ensure_ascii=False)}}]} for r in (short, long_)]
+        forecast = {**self.entry, 'senate': {'dem': 52, 'rep': 48}, 'house': {'dem': 233, 'rep': 202}}
+        with patch.object(p, 'call_openrouter', side_effect=replies) as call:
+            out = p.run_review(p.MODELS[0], forecast, 'key', p.REVIEW_AT, 'low')
+        self.assertEqual(call.call_count, 2)
+        self.assertIn('tools', call.call_args_list[0].args[1])
+        self.assertNotIn('tools', call.call_args_list[1].args[1])
+        self.assertIn('MISSED', call.call_args_list[1].args[1]['messages'][-1]['content'])
+        self.assertEqual(out['reflection'], long_['reflection'])
+        self.assertEqual(out['scorecard']['senate']['verdict'], 'miss')
+
+    def test_review_hit_accepts_short_reflection(self):
+        reply = dict(comment='c', analysis='a', lessons='l', reflection='運も味方した', results_as_of=p.REVIEW_AT.isoformat(),
+                     sources=[{'title': 'AP', 'url': 'https://apnews.com/'}],
+                     results={'senate': {'dem': 49, 'rep': 51, 'other': 0, 'uncalled': 0},
+                              'house': {'dem': 221, 'rep': 214, 'other': 0, 'uncalled': 0}})
+        with patch.object(p, 'call_openrouter', return_value={'choices': [{'message': {'content': json.dumps(reply, ensure_ascii=False)}}]}) as call:
+            out = p.run_review(p.MODELS[0], self.entry, 'key', p.REVIEW_AT, 'low')
+        self.assertEqual(call.call_count, 1)
+        self.assertEqual({c['verdict'] for c in out['scorecard'].values()}, {'hit'})
 
 if __name__ == '__main__': unittest.main()
