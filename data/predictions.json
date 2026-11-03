@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T07:00:05+09:00",
+  "updated_at": "2026-11-04T06:00:04+09:00",
   "election_day": "2026-11-03",
   "seats": {
     "senate": 100,
@@ -277,57 +277,65 @@
           "senate_control_prob_dem": 58,
           "house_control_prob_dem": 86,
           "comment": "青信号は増えた。ただし世論調査は同じ電源。"
+        },
+        {
+          "date": "2026-11-04",
+          "senate": {
+            "dem": 50,
+            "rep": 50
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 47,
+          "house_control_prob_dem": 86,
+          "comment": "下院は青信号、上院は同点でも赤信号。"
         }
       ],
       "latest": {
-        "date": "2026-11-03",
-        "generated_at": "2026-11-03T07:00:05+09:00",
+        "date": "2026-11-04",
+        "generated_at": "2026-11-04T06:00:04+09:00",
         "model_id": "openai/gpt-6.1-sol",
         "senate": {
-          "dem": 51,
-          "rep": 49
+          "dem": 50,
+          "rep": 50
         },
         "house": {
           "dem": 233,
           "rep": 202
         },
-        "senate_control_prob_dem": 58,
+        "senate_control_prob_dem": 47,
         "house_control_prob_dem": 86,
-        "comment": "青信号は増えた。ただし世論調査は同じ電源。",
+        "comment": "下院は青信号、上院は同点でも赤信号。",
         "hidden_dynamics": [
-          "メーン・オハイオ・テキサスの民主優位は地理的には別々でも、同じ調査機関の結果なら誤差も連動しうる。報道本数の増加を、独立した証拠の増加とは数えない。",
-          "期日前投票で民主登録者が多いことは、投票日当日の動員負担を軽くする可能性がある。ただし、常連支持者の前倒しなら最終得票は増えず、共和の当日票との比較なしに議席へ換算できない。",
-          "右派媒体にも民主優勢論が載る一方、今回確認できた記事は論説であり、共和陣営の内部調査や広告撤退の証拠ではない。論調の収束と、有権者の収束は区別する。"
+          "上院の民主優勢は、複数州の数字ほどには独立した証拠が多くない。同じシエナ調査に依存した四州奪取の経路は、オハイオ一州の見直しだけで過半数を失う。",
+          "共和党側の「当日投票に来れば勝てる」という訴えは、潜在支持と実際の参加の間に穴があることを示唆する。ただし、その穴が埋まらないと決めつけるのも、期日前票を民主の純増と数えるのも危険だ。",
+          "共和優位地域の下院接戦化は、防衛に必要な資源を広げる可能性がある。ただし、目立つ接戦区の調査だけでは、民主の議席上積みを直接計算できない。"
         ],
-        "hypothesis_title": "郊外の反与党票、赤州では薄氷",
-        "hypothesis": "前日の仮説を精緻化する。民主は郊外の反与党票で下院を奪回し、上院も候補個人への支持で僅差過半数に届くとみる。シエナの赤州での民主優位は整合的だが、複数州を同じ調査設計で測った結果を独立した追い風とは扱わない。２０１６・２０２４年型の共和支持層の非回答と当日動員は共通リスクとして残す。別方式の独立調査と投票履歴別参加がともに共和回復を示せば、上院５１議席の仮説を撤回する。",
+        "hypothesis_title": "郊外は青、上院の四枚抜きは未達",
+        "hypothesis": "前日の仮説を修正する。郊外の反与党票は下院奪回に十分だが、上院で必要な四州同時奪取には届かないとみる。オハイオの別方式調査がシエナと逆方向で、赤い州の候補個人票を全国的な民主の波と同一視できないためだ。２０１６・２０２４年型の共和支持層の非回答と当日参加は、州横断の共通リスクとして残す。投票方式を調整した地域別参加と独立調査が民主優位で一致すれば、この慎重化を撤回する。",
         "hypothesis_status": "refined",
-        "change_reason": "ＮＣ・メーン・オハイオ・テキサスの４議席奪取と民主現有議席防衛で上院５１、郊外接戦区を中心とする純増で下院２３３という経路を維持する。新しい報道はこの経路の確度をやや高めるが、独立性の限界から議席は据え置き、民主の多数確率だけ上院５８％・下院８６％へ小幅に上げる。",
-        "analysis": "米東部２日１７時基準。今日の検証は「経路は補強、波の拡大は未確認」。２日付報道が伝えるシエナのメーン民主６点、オハイオ５点、テキサス７点優位は、昨日の５１議席経路に沿う。ただし調査公表は１日で時刻不明。同じ結果の再報道も含むため、新規の独立証拠として満額加算しない。ＮＢＣの全国民主７点優位も登録有権者ベースで、接戦区の投票者構成とは異なる。共和にはメーンの現職個人票、オハイオ・テキサスの地盤と当日動員が残る。民主はミシガン・ジョージア・ニューハンプシャー防衛が前提で、ＮＣの新しい裏付けは今回得られていない。下院は郊外優位を維持しつつ、ＩＡ０１・０３、ＰＡ０７・１０、ＮＹ１７、ＡＺ０６の共和上振れを一括したリスクとして扱う。明日は開票順による見かけの振れを避け、郡別・投票方式別に過去との偏差を見る。右派論説は公開時刻未確認で、追加の数量的証拠にはしない。",
+        "change_reason": "民主の現有４７議席維持にノースカロライナ、メーン、テキサスの奪取を加え、オハイオは共和維持に戻して上院を５１から５０へ修正する。下院は郊外優位を覆す独立した証拠がなく２３３を維持し、上院民主支配確率は５８％から４７％へ下げる。",
+        "analysis": "最終判断は「下院の広がりと上院の深さは別物」。３日付の調査集約には、オハイオでエマーソンの共和２点優位、テキサスでリサーチ社の民主３点優位があり、シエナ一系列への依存を弱めると四州奪取の確信は下がる。ただし公表時刻を独立確認できない掲載情報は低く加重し、締切後の更新や開票結果は使わない。民主はミシガン、ジョージア、ニューハンプシャー防衛が前提で、メーンの現職個人票とテキサスの共和地盤も残る。５０対５０なら副大統領の決裁票で共和支配となる。下院２３３は郊外の反与党票を中心に置き、ＭＯ０２やＭＴ０１の接戦情報を追加議席には換算しない。ＩＡ０１・０３、ＰＡ０７・１０、ＮＹ１７、ＡＺ０６の連動した共和上振れが主な下振れ経路。開票検証では赤青の初動でなく、同じ地域・同じ投票方式の過去比を見る。",
         "key_news": [
           {
-            "title": "最終シエナ調査、メーン・オハイオ・テキサスで民主候補がリードと２日朝報道",
-            "source": "USA TODAY",
-            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/democrats-lead-republicans-senate-battlegrounds-nyt-siena-polls/92560201007/",
-            "impact": "D+"
+            "title": "３日付調査集約でオハイオは共和２点優位、テキサスは民主３点優位。掲載時刻未確認のため低加重",
+            "source": "Electoral-vote.com（Emerson College、Research Co.の調査集約）",
+            "url": "https://www.electoral-vote.com/evp2026/Items/Nov03-6.html",
+            "impact": "R+"
           },
           {
-            "title": "ＮＢＣ調査、登録有権者の議会支持は民主５２％・共和４５％",
-            "source": "NBC News",
-            "url": "https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183",
-            "impact": "D+"
-          },
-          {
-            "title": "期日前投票約５４００万票、政党登録集計は報告する２７州に限定",
-            "source": "USA TODAY",
-            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
+            "title": "共和党の当日動員が焦点に。民主の参加意欲優位を報じるが、実際の投票構成とは区別",
+            "source": "Fox News",
+            "url": "https://www.foxnews.com/politics/battle-congress-just-beginning-heres-whats-stake-election-day",
             "impact": "neutral"
           },
           {
-            "title": "民主優勢を論じる右派媒体掲載の論説、独自調査ではなく公開時刻も未確認",
-            "source": "Fox News（論説）",
-            "url": "https://www.foxnews.com/opinion/schoen-cooperman-democrats-close-republicans-scramble-hold-congress",
-            "impact": "neutral"
+            "title": "下院調査一覧にＭＴ０１同率、ＭＯ０２民主１点差。依頼主はPoll Vaultで、党派性は抜粋から確認できず",
+            "source": "The New York Times（Emerson College調査掲載）",
+            "url": "https://www.nytimes.com/interactive/polls/house-polls-2026.html",
+            "impact": "D+"
           }
         ],
         "citations": [
@@ -336,52 +344,53 @@
             "title": "NYTimes/Siena Poll of Likely Voters – Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas – Siena Research Institute"
           },
           {
-            "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
-            "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
-          },
-          {
             "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/democrats-lead-republicans-senate-battlegrounds-nyt-siena-polls/92560201007/",
             "title": "Polls: Democrats lead Republicans in Senate battlegrounds"
           },
           {
-            "url": "https://fredcornell.com/latest-senate-polls",
-            "title": "Latest Senate polls | Fred Cornell"
+            "url": "https://www.electoral-vote.com/evp2026/Senate/senate_polls.txt",
+            "title": ""
           },
           {
-            "url": "https://www.foxnews.com/opinion/schoen-cooperman-democrats-close-republicans-scramble-hold-congress",
-            "title": "2026 midterm polls show Democrats poised to flip House and Senate | Fox News"
+            "url": "https://www.electoral-vote.com/evp2026/Items/Nov03-6.html",
+            "title": "Electoral-vote.com"
           },
           {
-            "url": "https://www.npr.org/2026/11/02/nx-s1-6026532/what-early-voting-numbers-tell-us-about-the-midterms",
-            "title": "What early voting numbers tell us about the midterms : Here & Now Anytime : NPR"
+            "url": "https://apnews.com/article/midterm-elections-house-senate-congress-trump-ef6199e25927a9ac9f4c18eae0e497cd",
+            "title": "The Latest: Voters cast their ballots as Republicans hope to hold control of Congress"
           },
           {
-            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
-            "title": "What early voting data tell us about the 2026 midterm elections"
+            "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
+            "title": "Midterm elections are coming to a close as voters pass judgment on Trump's second term"
+          },
+          {
+            "url": "https://apnews.com/article/midterms-election-day-voting-polls-trump-ba3037eed7bd816cc084bb1c4a2e6ccf",
+            "title": "Election Day unfolds with relatively few problems. Some voters disrupted by weather, machine issues"
           },
           {
             "url": "https://www.nytimes.com/interactive/polls/house-polls-2026.html",
             "title": "House Polls 2026: See the Latest Midterm Polls - The New York Times"
           },
           {
-            "url": "https://theweek.com/politics/expert-polling-midterm-2026-final-results-democrats-republicans",
-            "title": "What to expect in tomorrow's midterm elections | The Week US"
+            "url": "https://www.foxnews.com/politics/everything-know-house-senate-control-ballot-measures-2026-election-day-poll-closing",
+            "title": "What's at stake in the 2026 midterm elections for House and Senate | Fox News"
           },
           {
-            "url": "https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183",
-            "title": "Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage"
+            "url": "https://www.foxnews.com/politics/battle-congress-just-beginning-heres-whats-stake-election-day",
+            "title": "Election Day 2026 polls open with House and Senate control at stake | Fox News"
           },
           {
-            "url": "https://www.nacionale.com/en/articles/us-midterms-2026-all-coverage-senate-house-polls-results",
-            "title": "Midterms 2026: guide to the key races, polls and results"
+            "url": "https://www.uspresidentialelectionnews.com/2026/10/the-final-midterm-predictions-are-in-heres-where-they-agree/",
+            "title": "The Final Midterm Predictions Are In. Here's Where They Agree - Election Central"
           },
           {
-            "url": "https://www.nbcnews.com/politics/2026-elections/midterms",
-            "title": "Midterms 2026: Congress Polls and More"
+            "url": "https://www.foxnews.com/live-news/2026-midterm-elections-news-analysis-races-11-3-2026",
+            "title": "Election Day 2026: Top midterm election races to watch, coverage, analysis and more | Live Updates"
           }
         ],
         "searches": null
-      }
+      },
+      "final_status": "final"
     },
     {
       "slug": "claude-sonnet-5.5",
@@ -654,94 +663,93 @@
           "senate_control_prob_dem": 66,
           "house_control_prob_dem": 91,
           "comment": "最終調査は民主が全7州でリード。誤差の亡霊は最後の砦だ"
+        },
+        {
+          "date": "2026-11-04",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 237,
+            "rep": 198
+          },
+          "senate_control_prob_dem": 68,
+          "house_control_prob_dem": 93,
+          "comment": "最終モデルは青い津波。2016年の亡霊が最後に出るか"
         }
       ],
       "latest": {
-        "date": "2026-11-03",
-        "generated_at": "2026-11-03T07:00:05+09:00",
+        "date": "2026-11-04",
+        "generated_at": "2026-11-04T06:00:04+09:00",
         "model_id": "anthropic/claude-sonnet-5.5",
         "senate": {
           "dem": 51,
           "rep": 49
         },
         "house": {
-          "dem": 236,
-          "rep": 199
+          "dem": 237,
+          "rep": 198
         },
-        "senate_control_prob_dem": 66,
-        "house_control_prob_dem": 91,
-        "comment": "最終調査は民主が全7州でリード。誤差の亡霊は最後の砦だ",
+        "senate_control_prob_dem": 68,
+        "house_control_prob_dem": 93,
+        "comment": "最終モデルは青い津波。2016年の亡霊が最後に出るか",
         "hidden_dynamics": [
-          "NYT/Siena最終調査は、民主がOH+5、TX+7、ME+6、MI+11でリードし、KSでも+5だった。共和支持が堅いはずの州にまで接戦が広がっている。2024年型の「共和過小評価」が起きても、1〜2点の誤差では民主のリードを消しきれない余裕が出てきた。",
-          "期日前投票は民主登録43%、共和32%と、民主が大きく先行する。ただ、これは登録政党の集計で、実際の投票先とは違う。共和は当日投票に偏る傾向があり、期日前の差は見た目ほど大きな優位ではない。"
+          "各モデルは過去の世論調査の誤差が約4点だったことを織り込んでいる。それでもD+9なら下院は届く。上院の51議席目は、TXとOHの数点差に依存している。",
+          "民主は期日前投票で優位だが、これは投票時期が前倒しになっただけかもしれない。当日投票に共和の低関与層が集中すれば、差は縮む。"
         ],
-        "hypothesis_title": "民主優勢だが誤差が最後の保険",
-        "hypothesis": "総合投票はD+9前後で、前日までの「D+7、上院は僅差」より民主の優勢が強まった。上院ではOH、TX、MEの3州で民主が5点前後リードし、IAとAKは互角だ。2016年と2024年の共和過小評価が2〜3点出ても、NC、OH、ME、TXの4州で51議席に届く。ただしTXかOHを落とせば50-50で共和が支配する。TXとOHの両方で共和が勝つか、総合投票がD+6以下に縮めば仮説を捨てる。",
-        "hypothesis_status": "refined",
-        "change_reason": "NYT/Siena最終調査と、D+9の総合投票平均を受けて、下院を236議席、上院の民主支配確率を66%に引き上げた。上院の中央値は、IAとAKが互角のため51議席のままとした。",
-        "analysis": "【上院】NYT/Siena最終調査(10/23〜11/1)は、TXでTalarico氏50対43、OHでBrown氏49対44、MEでJackson氏51対45とした。AKはPeltola氏48対46、IAはTurek氏48対47で、この2州は誤差内の接戦だ。民主が51議席に届く条件は、NC、OH、ME、TXの4州だ。IAとAKは上積みの扱いになる。共和の過小評価が2024年並みの2〜3点出ても、TXとOHでは5〜7点差が残る。ただし、テキサスで民主が勝った例は長年ない。調査の民主回答者が多すぎる可能性も残る。1議席を落とすと50-50となり、副大統領により共和が支配する。モデルによって民主の上院制御確率は大きく異なる(pollingforecast.comは81%)。私は、今回の予測の不確実性を考えて66%にとどめる。【下院】総合投票はD+9前後で、不利な区割りを吸収しても236議席前後になるとみる。Enten氏は237議席、pollingforecastは242議席としている。明日は開票で、早く集計が出るOH、NC、MEの結果を見る。民主が全てリードすれば、上院も民主支配に傾く。",
+        "hypothesis_title": "津波予想でも上院は薄氷",
+        "hypothesis": "総合投票はD+9前後で、下院の民主多数はほぼ固い。上院はTX、OH、MEで5点前後のリードがあるが、IAとAKは互角だ。共和の過小評価が2〜3点出ても51議席には届く。ただし1議席を落とすと50-50で、副大統領により共和が支配する。TXとOHの両方で共和が勝つか、下院の民主得票が6点を下回れば仮説を捨てる。",
+        "hypothesis_status": "kept",
+        "change_reason": "最終のモデル(Silver系99%・中央値240、Morris系も上院は優勢)が下院で民主優位を再確認したため、下院を1議席上げた。上院は、共和の過小評価リスクを残して51-49のままにした。",
+        "analysis": "【上院】NYT/Siena最終調査では、民主は調査した7州すべてでリードした。MIは11点、TXは7点、MEは6点、OHは5点、AKは2点、IAは1点だ。民主が51議席に届くには、NC、OH、ME、TXの4州が要る。IAとAKは上積みの扱いになる。モデルは民主の上院制御を77〜81%としているが、過去3回の調査の共和過小評価が再び出れば、制御は五分五分に近づく。私は不確実性を考え、68%とする。【下院】総合投票D+9前後で、不利な区割りを吸収しても237議席前後とみる。調査が過去並みの3.9点ずれても、モデルでは226議席が残る。明日は、開票の早いOH、NC、MEの結果を確認する。",
         "key_news": [
           {
-            "title": "NYT/Siena最終調査:民主がOH+5、TX+7、ME+6、MI+11でリードし、AKとIAは接戦",
-            "source": "Siena Research Institute / NYT",
-            "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+            "title": "最終のNYT/Siena調査で、民主は上院の接戦7州すべてでリード。MIは11点、TXは7点",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
             "impact": "D+"
           },
           {
-            "title": "総合投票は民主が8〜10点リードで、ほぼ動いていない。民主の下院多数確率は90%",
-            "source": "Polling Forecast",
-            "url": "https://www.pollingforecast.com/us/news/232/two-days-out-the-polls-have-hardly-moved-neither-has-our-forecast",
+            "title": "Morris氏の最終予測では、民主が上下両院を取る確率は約8割。期日前投票も民主が優位",
+            "source": "G. Elliott Morris",
+            "url": "https://www.gelliottmorris.com/p/2026-11-03-election-day-preview",
             "impact": "D+"
           },
           {
-            "title": "期日前投票5400万票:民主登録43%、共和32%",
-            "source": "USA Today",
-            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
+            "title": "最終予測は下院の民主が99%で中央値240議席。調査が3.9点ずれても226議席",
+            "source": "MS NOW",
+            "url": "https://www.ms.now/opinion/midterm-polls-house-senate-election",
             "impact": "D+"
           },
           {
-            "title": "Enten氏の最終予測:民主が下院で237議席、確率92%",
-            "source": "HuffPost",
-            "url": "https://www.huffpost.com/entry/harry-enten-2026-midterms-final-forecast_n_6ae8357de4b0283c45778cf1",
-            "impact": "D+"
+            "title": "NPR: 上院は「誰にも読めない」。民主は4議席の純増が必要",
+            "source": "NPR",
+            "url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
+            "impact": "neutral"
           }
         ],
         "citations": [
           {
-            "url": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html",
-            "title": "Democrats Show Strength in Final Days of Race for ..."
+            "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
+            "title": "Final polls, models and markets see a \"blue tsunami\""
           },
           {
-            "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
-            "title": "NYTimes/Siena Poll of Likely Voters – Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas – Siena Research Institute"
+            "url": "https://www.gelliottmorris.com/p/2026-11-03-election-day-preview",
+            "title": "FINAL forecast: a blue wave, or a blue tsunami?"
           },
           {
-            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/democrats-lead-republicans-senate-battlegrounds-nyt-siena-polls/92560201007/",
-            "title": "Polls: Democrats lead Republicans in Senate battlegrounds"
+            "url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
+            "title": "Election Day 2026: What to know as polls open : NPR"
           },
           {
-            "url": "https://www.forbes.com/sites/saradorn/2026/11/02/final-2026-midterm-polls-democrats-lead-key-senate-races-in-last-new-york-times-poll/",
-            "title": "Hottest 2026 Midterm Races—Democrats Lead All 7 Key ..."
-          },
-          {
-            "url": "https://www.pollingforecast.com/us/news/232/two-days-out-the-polls-have-hardly-moved-neither-has-our-forecast",
-            "title": "Two days out, the polls have hardly moved. Neither has our forecast"
-          },
-          {
-            "url": "https://www.huffpost.com/entry/harry-enten-2026-midterms-final-forecast_n_6ae8357de4b0283c45778cf1",
-            "title": "Harry Enten Drops Final Midterm Forecast With Dramatic Shift In Battle For Congress | HuffPost Latest News"
-          },
-          {
-            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
-            "title": "What early voting data tell us about the 2026 midterm elections"
-          },
-          {
-            "url": "https://www.npr.org/2026/11/02/nx-s1-6026532/what-early-voting-numbers-tell-us-about-the-midterms",
-            "title": "What early voting numbers tell us about the midterms : Here & Now Anytime : NPR"
+            "url": "https://www.ms.now/opinion/midterm-polls-house-senate-election",
+            "title": "The final polls are actually better than some Democrats are expecting — with a few caveats"
           }
         ],
         "searches": null
-      }
+      },
+      "final_status": "final"
     },
     {
       "slug": "gemini-4-argon",
@@ -1000,11 +1008,25 @@
           "senate_control_prob_dem": 79,
           "house_control_prob_dem": 95,
           "comment": "NYT/Sienaが突き破った「5ptの壁」と、テキサスに吹く異変の風。"
+        },
+        {
+          "date": "2026-11-04",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 80,
+          "house_control_prob_dem": 95,
+          "comment": "期日前5890万票の金字塔。熱狂と隠れ保守のせめぎ合いは52議席へ。"
         }
       ],
       "latest": {
-        "date": "2026-11-03",
-        "generated_at": "2026-11-03T07:00:05+09:00",
+        "date": "2026-11-04",
+        "generated_at": "2026-11-04T06:00:04+09:00",
         "model_id": "google/gemini-4-argon",
         "senate": {
           "dem": 52,
@@ -1014,96 +1036,97 @@
           "dem": 238,
           "rep": 197
         },
-        "senate_control_prob_dem": 79,
+        "senate_control_prob_dem": 80,
         "house_control_prob_dem": 95,
-        "comment": "NYT/Sienaが突き破った「5ptの壁」と、テキサスに吹く異変の風。",
+        "comment": "期日前5890万票の金字塔。熱狂と隠れ保守のせめぎ合いは52議席へ。",
         "hidden_dynamics": [
-          "金・日曜日に続き、最も精度の高いNYT/Sienaの最終7州調査でテキサス（Talarico氏+7pt・50%到達）とオハイオ（Brown氏+5pt）が当方の設定していた「5ptの壁」を突破した。これはトランプ氏不在の中間選挙において、スキャンダルを抱える共和党候補（Paxton氏）から郊外穏健保守層が離反する『候補者質のペナルティ』が、農村部の無回答バイアス（3〜4pt）を上回ったことを意味する。",
-          "本日Sabato's Crystal Ballが最終予測で上院53議席（TX・OH・ME・KSをすべて民主党優位へ変更）と一気に強気へ振れたが、アラスカ（+2pt）やアイオワ（+1pt）、カンザスといった純粋な赤い州は依然として3〜4ptの隠れ保守バイアスの射程圏内にあり、メディアと予測機関の最終盤の『青い過剰修正（ハーディング）』には強い警戒が必要だ。"
+          "Cookが最終判定でミシガン州上院を「民主党優勢（Lean D）」へ引き上げた一方、共和党現職・開放の激戦区をトスアップに据え置いたのは、民主党の防衛ライン（48議席＋NC・MEで50議席）が完全に固まり、残る勝負が赤い州での「調査に表れない当日投票の保守層」との我慢比べに絞られたことを意味する。",
+          "期日前投票が最終集計で5890万票（2022年比で約1300万票増）に達し、うち対面投票が3280万票と過半を占めた。共和党側も終盤に対面期日前へ動員をかけたため、当日投票の赤い波だけで下院の67競合区やTX・OHの5pt以上の差を覆す余力は削がれている。"
         ],
-        "hypothesis_title": "「5ptの壁」突破による上院52議席への上方修正",
-        "hypothesis": "期日前投票が5614万票に達し民主党+11pt差を維持、Sabato最終予測も下院239議席としたことで当方の下院238議席は完全に収束した。上院は本日分析のNYT/Siena最終調査でTX（+7pt・50%到達）とOH（+5pt）が、昨日までの引き上げ条件「5ptの壁」を突破したため、仮説の条件に従い52議席へ1議席上方修正する。ただしSabatoが53議席としたKSやAK（+2pt）・IA（+1pt）は保守層の無回答バイアス（3〜4pt）で当日逆転されると見て織り込まない。",
-        "hypothesis_status": "refined",
-        "change_reason": "昨日まで「TX・OHで5pt超の差が出れば上院を52議席へ引き上げる」と明記していた条件が、NYT/Siena最終調査（TXで+7pt、OHで+5pt）によって満たされたため、上院を民主党52議席（+1）へ修正した。下院はSabato最終予測（239議席）が当方の238議席と事実上一致したため据え置く。",
-        "analysis": "いよいよ明日が投票日。NBC集計の期日前投票は5614万票（対面3190万・郵便2420万）に達し、民主党46%対共和党35%（+11pt）と圧倒的優位を保ったまま最終日を迎えた。本日Sabato's Crystal Ballが発表した最終予測は下院を民主党239議席対共和党196議席とし、当予測が1週間前から維持してきた「238対197」と1議席差まで収束した。下院の青い波は歴史的規模で確定したと言ってよい。一方、上院は最終日に重大なシグナルが出た。最も信頼性の高いNYT/Siena最終調査で、メイン州（Jackson氏+6pt、51%対45%）に加え、テキサス州でTalarico氏が50%対43%（+7pt）、オハイオ州でBrown氏が49%対44%（+5pt）とリードを広げ、当予測が一貫して課してきた「5ptの壁」を突破したのだ。特にテキサスで民主党候補が50%の大台に乗せたのは、共和党Paxton氏の忌避感が無回答バイアス（3〜4pt）を凌駕している証拠であり、TXまたはOHの少なくとも一方は民主党が奪取すると見て上院を52対48へ引き上げる。ただし、Sabatoが今日KSを含む53議席まで一気に積み上げたのは終盤特有の前のめりだ。NYT調査でもアラスカ（+2pt）とアイオワ（+1pt）は依然48%止まりであり、明日の当日投票で農村部保守層が押し返す余地は十分にある。熱狂と冷静の境界線を「52議席」に引き、審判の日を迎える。",
+        "hypothesis_title": "5890万票の防波堤と赤い州の当日逆風",
+        "hypothesis": "期日前投票が5890万票に達し2022年最終実績を1300万票近く上回ったことで下院238議席は揺るぎない。上院もCook最終判定でMIがLean Dへ移り防衛線が完成、NYT調査で「5ptの壁」を超えたTX・OHのうち最低1州を奪取し52議席に届くと見る。ただし2016・2024年型の保守層の無回答バイアス（3〜4pt）と農村部の当日投票の底力は健在であり、1〜2pt差のAK・IA・KSは当日夜に共和党が押し返すと判断し52議席を最終結論とする。",
+        "hypothesis_status": "kept",
+        "change_reason": "期日前投票の最終集計（5890万票）とCookのミシガン州引き上げは昨日の仮説（上院52・下院238）を強く裏付けるものであり、当日投票の保守回帰リスクも織り込み済みのため議席予測は据え置き、上院奪還確率のみ80%へ微調整した。",
+        "analysis": "投票日午後を迎え、全米の期日前投票はNBC集計で5890万票（対面3280万・郵便2610万）、フロリダ大集計でも2022年最終実績を1160万票以上も上回る歴史的規模で確定した。下院は3大評価機関がいずれか競合とみる議席が最終日で67議席へさらに拡大し、DDHQ（241議席）やSabato（239議席）など各モデルの中心値も当予測の「民主党238対共和党197」の前後へ完全に収束した。最大の見どころである上院では、Cookが最終判定でミシガン州を「民主党優勢（Lean D）」へ引き上げ、民主党は現有防衛にノースカロライナ州とメイン州を加えた51議席の土台を固めた。問題は52議席目以降の「赤い州の壁」だ。一部モデルは53議席まで見込むが、2016年・2024年に繰り返された低投票頻度・農村部保守層の無回答バイアス（3〜4pt）を軽視すべきではない。終盤にリードが1〜2pt差にとどまったアラスカ州やアイオワ州は当日投票の赤い波で逆転される公算が大きい。一方、候補者要因で5〜7pt差をつけたテキサス州・オハイオ州はその逆風を耐え抜く余力がある。熱狂に流されず、上院52対48・下院238対197を最終予測として開票を迎える。",
         "key_news": [
           {
-            "title": "Sabato's Crystal Ballが最終予測を発表、下院239議席・上院53議席（TX・OH・ME・KSを民主党優位へ変更）と予測",
-            "source": "Sabato's Crystal Ball",
-            "url": "https://centerforpolitics.org/crystalball/2026finalratings/",
-            "impact": "D+"
-          },
-          {
-            "title": "NYT/Siena最終上院7州調査で民主党が全州リード、テキサス（+7pt）・メイン（+6pt）・オハイオ（+5pt）で差を拡大",
-            "source": "Siena Research Institute / NYT",
-            "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
-            "impact": "D+"
-          },
-          {
-            "title": "全国の期日前投票が5614万票（対面3190万・郵便2420万）に到達、登録政党比は民主党46%対共和党35%で投票日へ",
-            "source": "NBC News",
+            "title": "全米の期日前投票が5890万票に到達、対面3280万・郵便2610万で2022年実績を1160万票以上更新",
+            "source": "NBC News / UF Election Lab",
             "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
             "impact": "D+"
           },
           {
-            "title": "アラスカ（+2pt）とアイオワ（+1pt）の上院選はNYT最終調査でも誤差範囲内の大接戦にとどまる",
-            "source": "USA Today",
-            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/democrats-lead-republicans-senate-battlegrounds-nyt-siena-polls/92560201007/",
-            "impact": "R+"
+            "title": "Cook Political Reportが最終上院判定でミシガン州を「民主党優勢（Lean D）」へ引き上げ、激戦7州の構図を確定",
+            "source": "Cook Political Report",
+            "url": "https://www.cookpolitical.com/analysis/senate",
+            "impact": "D+"
+          },
+          {
+            "title": "3大評価機関の最終下院分析で競合区が67議席へさらに2議席拡大、共和党の防衛線が一段と広がる",
+            "source": "Almanac of American Politics",
+            "url": "https://almanacofamericanpolitics.substack.com/p/our-final-look-at-the-shape-of-the",
+            "impact": "D+"
+          },
+          {
+            "title": "DDHQ最終予測モデルは下院で民主党241議席（奪還確率84%）、上院奪還確率65%と試算",
+            "source": "Decision Desk HQ",
+            "url": "https://votes.decisiondeskhq.com/forecast/2026",
+            "impact": "neutral"
           }
         ],
         "citations": [
           {
-            "url": "https://centerforpolitics.org/crystalball/2026finalratings/",
-            "title": "THE FINAL 2026 RATINGS: Democrats Favored to Capture ..."
+            "url": "https://whoshowsup.net/",
+            "title": "2026 Midterm Election Forecast: House, Senate and Governor Odds | Who Shows Up"
           },
           {
-            "url": "https://centerforpolitics.org/crystalball/2026-senate/",
-            "title": "2026 Senate - Sabato's Crystal Ball"
+            "url": "https://votes.decisiondeskhq.com/forecast/2026",
+            "title": "2026 Midterm Predictions: House & Senate Forecast | DDHQ"
           },
           {
-            "url": "https://yellowhammernews.com/sabatos-crystal-ball-moves-alabamas-2nd-district-to-leans-democratic-in-final-2026-ratings/",
-            "title": "Sabato’s Crystal Ball moves Alabama’s 2nd District to ‘Leans Democratic’ in final 2026 ratings - Yellowhammer News"
+            "url": "https://oliviajacksonlambert.com/project/projects_files/turnout-first-2026/turnout-first-2026",
+            "title": "Turnout First: Forecasting the 2026 Midterms · Olivia Jackson Lambert"
           },
           {
-            "url": "https://legal-planet.org/2026/11/02/election-2026-the-final-sprint/",
-            "title": "Election 2026: The Final Sprint - Legal Planet"
-          },
-          {
-            "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
-            "title": "Tracking the 2026 Early Vote: Midterm Elections"
+            "url": "https://www.newsquawk.com/content/research_sheets/production/original/000/042/554/Midterm_Preview_-_November_3rd_2026.pdf",
+            "title": "Democrats Eye Sweep: House Likely, Senate Within Reach"
           },
           {
             "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
             "title": "» 2026 Early Voting UF Election Lab"
           },
           {
-            "url": "https://www.wgal.com/article/2026-midterm-election-early-voting-map/74296734",
-            "title": "54 million have voted early in 2026 midterms - WGAL"
+            "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+            "title": "Tracking the 2026 Early Vote: Midterm Election Results"
           },
           {
-            "url": "https://www.nacionale.com/en/articles/us-early-voting-record-2026-midterms-can-you-still-vote-early",
-            "title": "Over 46 million early votes, a US midterm record"
+            "url": "https://freshcalendars.com/news/how-many-people-voted-early-2026-59-million-early-votes/",
+            "title": "How Many People Voted Early in 2026? 59 Million"
           },
           {
-            "url": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html",
-            "title": "Democrats Show Strength in Final Days of Race for ..."
+            "url": "https://www.livenewsworld.com/early-voting-record-2026-midterms/",
+            "title": "Early Voting Record 2026: Over 57 Million Ballots Cast"
           },
           {
-            "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
-            "title": "NYTimes/Siena Poll of Likely Voters – Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas – Siena Research Institute"
+            "url": "https://www.cookpolitical.com/analysis/senate",
+            "title": "Senate"
           },
           {
-            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/democrats-lead-republicans-senate-battlegrounds-nyt-siena-polls/92560201007/",
-            "title": "Polls: Democrats lead Republicans in Senate battlegrounds"
+            "url": "https://almanacofamericanpolitics.substack.com/p/our-final-look-at-the-shape-of-the",
+            "title": "Our final look at the shape of the House battleground"
           },
           {
-            "url": "https://www.forbes.com/sites/saradorn/2026/11/02/final-2026-midterm-polls-democrats-lead-key-senate-races-in-last-new-york-times-poll/",
-            "title": "Hottest 2026 Midterm Races—Democrats Lead All 7 Key ..."
+            "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/closing-analysis-2026-senate-ratings",
+            "title": "Closing Senate Analysis: The Seven States That Will ..."
+          },
+          {
+            "url": "https://www.ibtimes.com/democrats-major-gains-house-senate-election-forecasts-3809325",
+            "title": "Final Midterm Election Forecasts Calls For Potential Democratic Sweep | IBTimes"
           }
         ],
         "searches": null
-      }
+      },
+      "final_status": "final"
     },
     {
       "slug": "deepseek-v4.1-flash",
@@ -1376,11 +1399,25 @@
           "senate_control_prob_dem": 72,
           "house_control_prob_dem": 93,
           "comment": "Siena最終、上院7州すべてD首位——過大標本か本物か、明日が裁く"
+        },
+        {
+          "date": "2026-11-04",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 74,
+          "house_control_prob_dem": 93,
+          "comment": "全市場が「津波」68％——2018年のD+8.6は235議席だった"
         }
       ],
       "latest": {
-        "date": "2026-11-03",
-        "generated_at": "2026-11-03T07:00:05+09:00",
+        "date": "2026-11-04",
+        "generated_at": "2026-11-04T06:00:04+09:00",
         "model_id": "deepseek/deepseek-v4.1-flash",
         "senate": {
           "dem": 52,
@@ -1390,98 +1427,98 @@
           "dem": 236,
           "rep": 199
         },
-        "senate_control_prob_dem": 72,
+        "senate_control_prob_dem": 74,
         "house_control_prob_dem": 93,
-        "comment": "Siena最終、上院7州すべてD首位——過大標本か本物か、明日が裁く",
+        "comment": "全市場が「津波」68％——2018年のD+8.6は235議席だった",
         "hidden_dynamics": [
-          "Siena最終がオハイオでBrown+5とライブコーラーで決着をつけた——パネル系ActiVoteの『イーブン』は標本の質が低かった疑いが濃厚。共和資金もオハイオで攻勢に転じず防衛線のまま。",
-          "期日前53.1Mの『D+12モデル』は登録ベースで投票内容の証明ではない。共和は高齢・白人層を当日票に残しており、過去2回同様『期日前の青い像』は割り引いて見る必要がある。",
-          "予測市場が68〜69へ軟化したのは情報の更新ではなく資金フローの揺れ。左右の情報源が同一値へ収束するのは相互参照の痕跡で、確率の独立した裏付けには使えない。",
-          "Sienaが赤州カンザスでD+5を弾いたのは、全州D首位という絵の中で最も過大標本を疑わせる一点。ここを額面通り採るかどうかが上院52と53の分水嶺になる。"
+          "予測市場（Polymarket76％・Kalshi75〜94％）と各モデルが同一値へ収束しているが、これは独立した情報の確認ではなく相互参照の産物。『群衆の知恵』の一部は、群衆が互いを読んでいるだけだ。",
+          "Sienaの上院7州全勝とCookのミシガンLean D移行が選挙前にエリート・バンドワゴンを形成。これがKS・IAなど実は僅差の州で共和の終盤資金を萎縮させ、世論の実勢以上に上院Dマージンを膨らませて見せる自己成就の恐れ。",
+          "報道が語る『一般票D+8の大波』の裏で、TX/MO/NCの新ゲリマンダーが下院の構造的天井を3〜5議席下げている。大統領選型の全国数値と、区割りで歪んだ議席換算との乖離はほぼ無視されている。"
         ],
-        "hypothesis_title": "上院7州D首位——波の証明か、標本の錯覚か",
-        "hypothesis": "核は据え置き。隠れ共和票は大統領年固有で中間選挙の世調誤差は小さく、今回は2018型。今日の新材料は方向が明確にD：Siena最終が上院7州すべてでD首位（MI+11、TX+7、ME+6、OH+5、KS+5、AK/IAは僅差）。ただしKS+5は赤州での過大標本の兆候で、Siena自身も総MoE内と認める。よって支配は厚くDだが天井は取らない。棄却条件は共和資金の攻勢転換、TX/MEで共和系偏重を補正した中立調査の反転、当日高齢・白人有権者の上積みが標本を覆す場合。",
+        "hypothesis_title": "津波は本物、深さは2018年並み",
+        "hypothesis": "核は維持・微修正：今回は2018年型の中間選挙で、トランプ不支持が期日前を押し出し、上院は候補の質でDが激戦を制す。鍵は『波の深さ』だ。2018年は一般票D+8.6で235議席。今回もD+8だが、TX/MO/NCの新ゲリマンダーが構造的にDの天井を3〜5議席下げる。ゆえに市場の『235＋51』津波確率68％は方向として正しくても、中央値は236議席前後が妥当。Siena7州全勝やCookのミシガン移行にはエリート・バンドワゴンの側面もあり、KS・IAの僅差を過大評価しうる。棄却条件は、当日の高齢・白人有権者の上積みが郊外D優位を覆す場合。",
         "hypothesis_status": "refined",
-        "change_reason": "Siena最終の全州D首位を受け上院確率を71→72へ微上げしたが、KSの過大標本懸念から議席中央値は52・236を据え置き。新材料は方向を強めたが『波の厚み』を足すものではないため数字は動かさない。",
-        "analysis": "【上院】現状53R-47D。Siena最終でNC(Cooper)・ME(Jackson+6)・OH(Brown+5)・TX(Talarico+7)の4州がD首位、AK(Peltola+2)・IA(Turek+1)は総MoE内。これら4州で51、AKを足して52、KS(Hamilton+5)まで取れば53。ただしKSのD+5は赤州標本の過大を疑う最重要シグナルで額面通りには採らない。中央値52、上振れ53、4〜5激戦が全国相関して同日Rへ振れる下振れ49。P72。【下院】一般票D+8前後で頭打ち、Cook最終は230-240・Toss-up全取りで240。期日前53.1Mは登録比D40.3/R33.2だが内容保証なし。区割り改定(TX/MO/NC)の歯止めと当日共和の高齢・白人有権者上積みを差し引き、236が中央値で幅225〜240。【持ち越し】①TX当日票の都市/郊外構成、②KS・IAが標本過大かの検証、③当日R上積みの実測、④上院49〜53の相関シナリオ管理。",
+        "change_reason": "新材料は方向をDに揃えた（Siena7州全勝、CookのMI Lean D、市場津波68％）が、いずれも『波の天井』を示すものではない。2018年の一般票D+8.6→235議席という錨と新ゲリマンダーの逆風を踏まえ、議席中央値は据え置き。市場確率の小幅上昇を受けP(D上院)のみ72→74に引き上げた。",
+        "analysis": "【上院】現状53R-47D、Dは純増4で51。Siena最終は7州すべてD首位（MI+11、TX+7、ME+6、OH+5、KS+5、AK・IA僅差）、CookはミシガンをLean Dへ。NC・MI・OH・ME・TXの5州中4州で51、AK・KSを足せば52〜53。中央値52、下振れ49、上振れ53。KS+5は赤州での過大標本の疑いが残り額面通りには採らない。P74。【下院】一般票D+8。2018年のD+8.6→235議席が最良の錨で、新ゲリマンダーが3〜5議席の逆風。Cook最終はSolid D183/R158、接戦37区で全取り242が上限。市場の津波（235＋51）68％は方向として妥当だが、『全接戦を取る』計算は波の厚みを最大化したもの。236を中央値に幅228〜241。P93。【持ち越し】①当日の高齢・白人有権者上積みが郊外D優位を覆すか、②KS・IAが標本過大かの検証、③予測市場の相互参照バイアス、④上院49〜53の相関シナリオ管理。",
         "key_news": [
           {
-            "title": "NYT/Siena最終調査：上院激戦7州すべてで民主党がリード（MI+11、TX+7、ME+6、OH+5、KS+5、AK・IAは誤差内）",
-            "source": "New York Times / Siena Research Institute",
-            "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+            "title": "最終世論・モデル・市場がそろって『青い津波』を描く——NYT/Sienaは上院激戦7州すべてでD首位（MI+11、TX+7）",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
             "impact": "D+"
           },
           {
-            "title": "Cook Political Report最終見通し：民主党は15〜25議席増、最大240議席の多数派に届く可能性",
+            "title": "Cook最終評：ミシガン開選をToss UpからLean Democratへ変更、上院は7州が誤差範囲内で両党に多数派の道",
             "source": "Cook Political Report",
-            "url": "https://www.cookpolitical.com/analysis/house/house-overview/hour-hour-election-night-guide-race-house",
+            "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/michigan-moves-final-ratings",
             "impact": "D+"
           },
           {
-            "title": "期日前投票は約5,310万票、党登録州で民主党40.3%・共和党33.2%と民主党が先行",
-            "source": "USA Today / On Point Politics",
-            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
+            "title": "Kalshiの『ブルー・ツナミ』（下院235＋上院51）が68〜69％へ急騰、『ブルー・ウェーブ』は87％",
+            "source": "Kalshi News",
+            "url": "https://news.kalshi.com/p/democrats-odds-of-a-blue-tsunami-surge-to-68-as-final-midterm-polls-show-momentum",
             "impact": "D+"
           },
           {
-            "title": "Forbes：Siena最終調査で民主党が全7激戦州リード、テキサスはTalarico50-43でPaxtonを圧倒",
-            "source": "Forbes",
-            "url": "https://www.forbes.com/sites/saradorn/2026/11/02/final-2026-midterm-polls-democrats-lead-key-senate-races-in-last-new-york-times-poll/",
+            "title": "予測市場は下院D94％・上院D75〜76％を織り込み、MS Nowモデルは下院中央値240・上院中央値52で77％と算出",
+            "source": "The Block / MS Now",
+            "url": "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
             "impact": "D+"
           }
         ],
         "citations": [
           {
-            "url": "https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html",
-            "title": "Democrats Show Strength in Final Days of Race for ..."
+            "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
+            "title": "Final polls, models and markets see a \"blue tsunami\""
           },
           {
-            "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
-            "title": "NYTimes/Siena Poll of Likely Voters – Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas – Siena Research Institute"
+            "url": "https://www.ms.now/opinion/midterm-polls-house-senate-election",
+            "title": "The final polls are actually better than some Democrats are expecting — with a few caveats"
+          },
+          {
+            "url": "https://yougov.com/en-us/articles/55871-2026-us-congressional-gubernatorial-elections-yougov-state-polling-iowa-texas-michigan-maine-ohio-kansas-nebraska-north-carolina",
+            "title": "2026 U.S. elections: YouGov's final polling for the Senate, the House, and governors' races"
           },
           {
             "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
             "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
           },
           {
-            "url": "https://www.forbes.com/sites/saradorn/2026/11/02/final-2026-midterm-polls-democrats-lead-key-senate-races-in-last-new-york-times-poll/",
-            "title": "Hottest 2026 Midterm Races—Democrats Lead All 7 Key ..."
-          },
-          {
-            "url": "https://www.cookpolitical.com/analysis/house/house-overview/hour-hour-election-night-guide-race-house",
-            "title": "An Hour-by-Hour Election Night Guide to the Race for the House | Cook Political Report"
-          },
-          {
-            "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
-            "title": "2026 CPR House Race ratings | Cook Political Report"
-          },
-          {
             "url": "https://www.cookpolitical.com/print/ratings/races/house",
             "title": "The Cook Political Report: 2026 House Race Ratings"
           },
           {
-            "url": "https://www.washingtonpost.com/politics/2026/10/31/cook-political-report-says-democrats-could-win-up-240-house-seats-tuesday/",
-            "title": "Cook Political Report says Democrats could win up to 240 House seats on Tuesday - The Washington Post"
+            "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/michigan-moves-final-ratings",
+            "title": "As Michigan Moves to Lean Democrat, Here Are Our Final Senate Ratings — and What Else We're Watching | Cook Political Report"
           },
           {
-            "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-            "title": "» 2026 Early Voting UF Election Lab"
+            "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/closing-analysis-2026-senate-ratings",
+            "title": "Closing Senate Analysis: The Seven States That Will Decide the Majority | Cook Political Report"
           },
           {
-            "url": "https://onpointpolitics.us/maps/early-vote",
-            "title": "2026 Early Vote Tracker: Ballots Cast by State - On Point Politics"
+            "url": "https://www.270towin.com/2026-senate-election/cook-political-report-2026-senate",
+            "title": "Cook Political Report 2026 Senate Race Ratings - 270toWin"
           },
           {
-            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
-            "title": "What early voting data tell us about the 2026 midterm elections"
+            "url": "https://news.kalshi.com/p/democrats-odds-of-a-blue-tsunami-surge-to-68-as-final-midterm-polls-show-momentum",
+            "title": "Democrats' Blue Tsunami odds surge to 68% on Kalshi"
           },
           {
-            "url": "https://www.newsquawk.com/headlines/recent-midterm-developments-dems-lead-early-ballots-cast-in-8-key-senate-states-gop-leads-in-6-",
-            "title": "Recent midterm developments: Dems lead early ballots cast in 8 key Senate states; GOP leads in 6  | Newsquawk"
+            "url": "https://www.oddschecker.com/us/insight/specials/politics/20261103-blue-wave-odds-2026-will-democrats-win-a-blue-wave-or-blue-tsunami",
+            "title": "Blue Wave Odds 2026: Will Democrats Win a Blue Wave or Tsunami?"
+          },
+          {
+            "url": "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
+            "title": "Prediction markets bet on Democratic sweep of House, Senate in midterm elections"
+          },
+          {
+            "url": "https://predictmarketcap.com/events/will-democrats-hold-235-or-more-seats-in-the-house-after-the-2026-midterms-and-h",
+            "title": "Democrats 235 House 51 Senate 2026 Odds | Kalshi & Polymarket"
           }
         ],
         "searches": null
-      }
+      },
+      "final_status": "final"
     },
     {
       "slug": "qwen3.8-max",
@@ -1754,108 +1791,132 @@
           "senate_control_prob_dem": 75,
           "house_control_prob_dem": 95,
           "comment": "七州の矢印が全部同じ向きを指した日"
+        },
+        {
+          "date": "2026-11-04",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 242,
+            "rep": 193
+          },
+          "senate_control_prob_dem": 76,
+          "house_control_prob_dem": 95,
+          "comment": "投票率は嘘をつかない。TXは2018年の記録を越えた"
         }
       ],
       "latest": {
-        "date": "2026-11-03",
-        "generated_at": "2026-11-03T07:00:05+09:00",
+        "date": "2026-11-04",
+        "generated_at": "2026-11-04T06:00:04+09:00",
         "model_id": "qwen/qwen3.8-max-0902",
         "senate": {
           "dem": 52,
           "rep": 48
         },
         "house": {
-          "dem": 240,
-          "rep": 195
+          "dem": 242,
+          "rep": 193
         },
-        "senate_control_prob_dem": 75,
+        "senate_control_prob_dem": 76,
         "house_control_prob_dem": 95,
-        "comment": "七州の矢印が全部同じ向きを指した日",
+        "comment": "投票率は嘘をつかない。TXは2018年の記録を越えた",
         "hidden_dynamics": [
-          "SienaのTX標本は共和38%・民主30%・無党派26%と明確に共和傾斜のLVスクリーン。それでもTalarico+7なのは、サンプル操作でなく無党派と穏和共和がPaxtonの人物問題から先に離脱済みだからだ。2016・2024年に民主を騙した「青いサンプル」の失敗モードとは逆向きである。",
-          "Fox News自身がSiena調査を「共和への警鐘」として配信し、「2016・2024は調査が外れた」という但し書きを一切付けていない。右派メディアが投票前日に世論調査と論争するのをやめるのは、通常は党内調査も同じ向きを指している時の兆候だ。",
-          "MI+11(Rogers42%)は下院地図と整合しない。Rogersが本当に42%ならミシガンの接戦下院3区も同時に落ちるはずで、下院データが無反応なのは矛盾している。この不整合が、私が下院を2議席しか動かさなかった最大の理由だ。",
-          "KSでYouGov+1とSiena+5が4pt乖離しているのは、オンライン調査が低参加傾向層を多く拾う構造の証拠。2022年に問題になった「隠れ共和票」ではなく、逆方向のバイアスが残っていると読むべきだ。"
+          "KSの早期投票は2022年比で2倍以上に膨らんだのに、党派構成は共和43.7%/民主40.1%でまだR+3.6。民主だけが湧いたのではなく、Marshallの地盤も同時に動員されている。Siena+5はここを過大評価している可能性が高い。",
+          "TXの早期投票率40.5%は2018年の中間選挙記録超え。これは低頻度のラティーノ層が実際に会場に来ている証拠で、SLFが$48M予約を解除しない理由そのもの。Paxton陣営は内部で「まだ届く」と読んでいる。",
+          "Kalshiの取引量が$1.4B、上下院同時奪取73%。個人投資家マネーは2016・2024で逆を突かれた歴史があるが、これだけの流動性がある以上、上院74%は薄い世論調査ではなく情報価格として扱う価値がある。",
+          "KSで無党派シェアが12.3%→15.6%へ拡大。勝敗を決めるのはこの層で、D+6〜7環境では民主に振れる(KSのEmersonが実証済み)。共和の+3.6はここで相殺されうる。"
         ],
-        "hypothesis_title": "候補者拒否が全国環境へ溢れ出した",
-        "hypothesis": "「民主の伸びは弱い現職・極端候補への局所的拒否で、当日投票の後ズレが効かない」を維持しつつ、重要な修正を加える。今日SienaがAK+2(Peltola48-46)・IA+1(Turek48-47)を出したことは、拒否がSullivanやHinsonという有能な穏和現職にまで溢れ、D+6〜7の実体的な全国環境が存在することを意味する。これで上院の天井は53〜54へ上がったが、同時にリスクの質が変わった——局所拒否なら州ごとに誤差が独立するが、全国波なら7州が同時に同じ方向へズレる。相関誤差が最大の敵になった。反証条件:(1)最終24時間に共和系または独立系電話調査でPaxtonかMarshallが1pt差以内、(2)TX・KSの当日投票率が2022年を下回る(波は高turnoutを要する)、(3)下院が平坦のまま上院だけ反転=結局は候補者固有だった証明。",
+        "hypothesis_title": "波は本物、ただし深さは州ごとに不均一",
+        "hypothesis": "「民主の伸びは弱い現職・極端候補への局所的拒否」という枠組みを維持しつつ、今日の投票率データで全国波の要素を強めた。早期投票5,900万超は2022年の5,800万を越し、TX+74%、KS倍増。私の反証条件(2)「TX・KSの投票率が2022年を下回る」は明確に偽となり、波が消える主経路は塞がれた。しかしKSの党派別内訳がR+3.6で残っている事実は、Sienaの7州一括が持つ相関誤差リスクの具体的な兆候だ。よって全国一律の+3pt上振れではなく、州ごとに深さが違う不均一な波だと refined した。反証条件:(1)当日速報の無党派分解で共和が過半、(2)下院が平坦のまま上院だけ反転、(3)KS当日投票分の共和シェアが50%超。",
         "hypothesis_status": "refined",
-        "change_reason": "全構成要素の確率を上げた(TX.58→.75、KS.58→.72、ME.68→.80、OH.74→.82、AK.40→.52、IA.40→.48)結果、期待純増は+5.3でD52.3。昨日のD53は私自身の要素確率(純増4.42=D51.4)を先行してラベル付けした算術不一致だったので、材料が民主有利に動いた日ではあるが52へ正した。下院は直接データがなく、TX・NC・OHのゲリマンダーと候補者固有要因の減衰を考慮し238→240の小幅修正。",
-        "analysis": "今日の決定的材料はNYT/Siena最終7州LV調査(10/23-11/1、計5,708)だ。MI+11、TX+7、ME+6、KS+5、OH+5、AK+2、IA+1——共和現職5州で民主が先行し、Fox Newsですら「警鐘」と報じた。AtlasIntelのTX+6(n=1,678)が独立に整合し、私の反証条件(1)(2)は両方とも逆方向に偽となった。\n\n州別の読み。TXはSiena標本が共和38%傾斜でも+7という点が最も硬い。SLFの$48M予約が生きている以上Paxtonはまだ戦っているが、0.75へ。KSは五源(Emerson+4/CNN/Siena+5/DDHQ平均+4.6/YouGov+1)が同方向で、SLFがNCから抜いた$8Mを注入した事実が共和側の危機認識を裏付ける。WaPoの非応答問題を割り引いても真値+3と見て0.72。MEはCollins45%の天井が四つ目のハウスで再現し、Jackson51は過半数超えなので0.80。OHはBrown49で0.82。AKは誤差±5の+2だが、Peltolaが2022年にR+10州で+10勝した実績を踏まえ0.52。IAは誤差内で0.48。NCはSLF撤退確定で0.92。\n\n民主の強みは早期投票済みの離反票という「取り消せない資産」。リスクは相関誤差——Sienaが系統的に3pt青ければAK・IA・KSを落とし、それでも純増+4で51議席に届くが、5pt青ければ50で割れる。これがP=75%の根拠だ。Levy自身も「7州中5州が総誤差範囲内」と留保している。\n\n明日の自分へ:(1)TX・KSの当日投票率が2022年比で増えているか——増えていなければ波は消える、(2)当日速報の無党派分解、(3)下院が動かないまま上院だけ反転したら仮説は候補者固有説へ差し戻し、(4)Osborn(NE)の会派表明——49-49のこの1議席が52と53を分ける。",
+        "change_reason": "KSの早期投票党派構成がR+3.6で残るため0.72→0.66へ下げ、逆に記録的投票率が出たTXを0.75→0.77へ上げた。相殺して期待値はほぼ不変で上院中央値は52を維持し、投票率の上振れを素直に反映して下院を240→242、上院支配確率を75→76%とした。",
+        "analysis": "今日は数字より行動証拠が揃った日だ。APの全国集計で早期投票は5,900万を超え2022年を上回った。特に重要なのはTXの7.7M/40.5%という2018年記録超えで、これは低頻度層が実際に投票所へ来ていることを意味する。高投票率は民主に有利というのが2018年の教訓であり、私の反証条件(2)は完全に偽となった。\n\n一方で警戒材料も得た。IKE LabのKS分解(受理50.6万、D40.1/R43.7/無所属15.6)は、2022年のD37.6/R49.6から共和シェアが6pt落ちたものの、なお共和が+3.6でリードしている。投票率が倍増したのに党派差が詰まり切っていないのは、Marshall側も動員できている証左だ。SienaのKS+5はここを過大評価しているとみて0.66へ下げた。無党派15.6%(前回12.3%)の向きが決め手で、D+6環境なら民主に振れると読む。\n\n州別最終形:NC0.92/MI0.95/OH0.82/ME0.80/TX0.77/KS0.66/AK0.52/IA0.48、流出はMN・NH・GAで0.52。純増+4でE[D]≈52.9、中央値52。相関誤差が最大の敵という昨日の判断は維持で、Sienaが系統的に3pt青ければ51、5pt青ければ50で割れる。これがP=76%の根拠。\n\n下院は242へ。投票率の記録更新が全国環境の実体性を補強したため、AZ-01/06・CO-08・CA-13/45の边际で床をもう一段上げた。ただしKalshiのHouse94%と比べればまだ私は保守的であり、それはME-01(Pingree)型の候補者固有の弱さを残しているからだ。明日へ:(1)当日投票分の無党派分解、(2)下院が動かず上院だけ反転したら候補者固有説へ差し戻し、(3)Osborn(NE)の会派表明——49-49のこの1議席が52と53を分ける。",
         "key_news": [
           {
-            "title": "NYT/Siena最終調査(10/23-11/1、7州5,708人):MI+11・TX+7・ME+6・KS+5・OH+5・AK+2・IA+1、共和現職5州で民主先行",
-            "source": "Siena Research Institute",
-            "url": "https://sri.siena.edu/2026-11-01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+            "title": "早期投票は5,900万人超で2022年の5,800万を超過。TX+74%、KSは倍増、ME・NC・OHも30%超増",
+            "source": "AP",
+            "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
             "impact": "D+"
           },
           {
-            "title": "Fox News、Siena調査を「7州の上院激戦で共和への警鐘」と報道。反論ナラティブや過去調査への但し書きなし",
-            "source": "Fox News",
-            "url": "https://www.foxnews.com/politics/poll-flashes-warning-signs-republicans-7-battleground-senate-races",
+            "title": "TXの早期投票は7.7M/投票率40.5%で、2018年が持つ中間選挙の現代記録を上回った",
+            "source": "Texas Tribune",
+            "url": "https://www.texastribune.org/2026-10-31/texas-early-voting-turnout-rate-election-2026/",
             "impact": "D+"
           },
           {
-            "title": "AtlasIntel最終TX調査(10/28-11/1、n=1,678、±2):Talarico 51.3 - Paxton 45.4。Siena+7と独立に整合し+6",
-            "source": "Newsweek",
-            "url": "https://www.newsweek.com/james-talaricos-chances-beating-ken-paxton-final-texas-polls-show-12648344",
-            "impact": "D+"
+            "title": "KS早期投票の党派内訳は共和43.7%・民主40.1%・無所属15.3%。受理数は2022年比+30%だが共和がなお先行",
+            "source": "IKE Lab / JustKansas",
+            "url": "https://www.ike-lab.com/evcompare_261103.html",
+            "impact": "neutral"
           },
           {
-            "title": "Siena最終KS調査(11/1、LV736、±4.4):Hamilton 49 - Marshall 44 - Graham(自由党)4。5調査平均はHamilton 49.8 - Marshall 45.2",
-            "source": "USA Today / 270toWin",
-            "url": "https://www.usatoday.com/story/news/politics/elections/2026-11-02/final-texas-talarico-paxton-senate-abbott-hinojosa-governor-poll/92563626007/",
+            "title": "Kalshiの中間選挙取引が$1.4Bに到達。上下院同時奪取73%、上院74%、下院94%が民主",
+            "source": "Fortune / Covers",
+            "url": "https://fortune.com/2026-11-03/kalshis-midterm-trading-1-4-billion-traders-democratic-sweep-congress/",
             "impact": "D+"
           }
         ],
         "citations": [
           {
-            "url": "https://www.270towin.com/2026-senate-polls/kansas",
-            "title": "2026 Polls: Kansas Senate - 270toWin"
+            "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+            "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control"
           },
           {
-            "url": "https://www.realclearpolling.com/polls/senate/general/2026/kansas/hamilton-vs-marshall",
-            "title": "2026 Kansas Senate - Marshall vs. Hamilton"
+            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
+            "title": "What early voting data tell us about the 2026 midterm elections"
           },
           {
-            "url": "https://emersoncollegepolling.com/october-2026-kansas-poll-hamilton-maintains-edge-over-marshall/",
-            "title": "October 2026 Kansas Poll: Hamilton Maintains Edge over Marshall in Toss-up Election - Emerson Polling"
+            "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
+            "title": "Midterm elections are coming to a close as voters pass judgment on Trump's second term"
           },
           {
-            "url": "https://www.pollytic.net/us/kansas",
-            "title": "Kansas Polls 2026: Governor & Senate Race Polling Average | Pollytic"
+            "url": "https://thehill.com/homenews/campaign/6190426-democrats-lead-senate-polling/",
+            "title": "Democrats are on the brink of a blue tsunami, if the polls are right"
           },
           {
-            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/final-texas-talarico-paxton-senate-abbott-hinojosa-governor-poll/92563626007/",
-            "title": "NYT/Siena final poll: Texas Senate, governor races before Election Day"
+            "url": "https://www.covers.com/politics/most-traded-midterm-election-predictions-markets-election-day-nov-3-2026",
+            "title": "Most Traded Midterm Election Markets at Prediction Sites"
           },
           {
-            "url": "https://www.newsweek.com/james-talaricos-chances-beating-ken-paxton-final-texas-polls-show-12648344",
-            "title": "James Talarico’s Chances of Beating Ken Paxton—What Final Texas Polls Show"
+            "url": "https://fortune.com/2026/11/03/kalshis-midterm-trading-1-4-billion-traders-democratic-sweep-congress/",
+            "title": "Kalshi’s midterm trading tops $1.4 billion as traders bet on a Democratic sweep of Congress | Fortune"
           },
           {
-            "url": "https://www.fox7austin.com/news/talarico-holds-lead-over-paxton-latest-texas-senate-race-poll-election-day-just-hours-away",
-            "title": "Talarico leads Paxton in latest poll on Texas Senate race"
+            "url": "https://www.independent.co.uk/news/world/americas/us-politics/midterms-betting-odds-democrats-republicans-trump-b3078266.html",
+            "title": "Trump-linked prediction market hits highest odds yet for Democratic midterm sweep | The Independent"
           },
           {
-            "url": "https://www.foxnews.com/politics/poll-flashes-warning-signs-republicans-7-battleground-senate-races",
-            "title": "Democrats lead in 7 Senate battlegrounds including Texas ..."
+            "url": "https://predictdesks.com/elections/2026",
+            "title": "2026 midterm election odds: Senate, House and governor races (live)"
           },
           {
-            "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
-            "title": "NYTimes/Siena Poll of Likely Voters – Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas – Siena Research Institute"
+            "url": "https://www.ike-lab.com/evcompare_261103.html",
+            "title": "IKE Lab - Advance Voting Compared to Past Elections - November 3, 2026"
           },
           {
-            "url": "https://www.nytimes.com/spotlight/times-siena-polls",
-            "title": "Times/Siena Poll Data - The New York Times"
+            "url": "https://justkansas.com/news/kansas-sees-surge-early-voting-voting-balance-shifting-toward-democrats",
+            "title": "Kansas sees a surge in early voting, with voting balance shifting toward Democrats | Kansas News | JustKansas"
           },
           {
-            "url": "https://www.hindustantimes.com/world-news/us-news/us-midterms-new-poll-shows-democrats-gain-ground-in-seven-key-senate-battlegrounds-putting-gop-strongholds-at-risk-101793627689099.html",
-            "title": "US midterms: New poll shows Democrats gain ground in seven key Senate battlegrounds, putting GOP strongholds at risk | Hindustan Times"
+            "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+            "title": "Voter turnout is soaring in some key states, AP analysis ..."
+          },
+          {
+            "url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/",
+            "title": "Early vote in 2026 Texas election beats 2018 record"
           }
         ],
         "searches": null
-      }
+      },
+      "final_status": "final"
     }
-  ]
+  ],
+  "final_forecast": {
+    "scheduled_at": "2026-11-04T06:00:00+09:00",
+    "frozen_at": "2026-11-04T06:00:04.410382+09:00",
+    "review_at": "2026-11-05T06:00:00+09:00"
+  }
 }

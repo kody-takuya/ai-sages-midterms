@@ -1930,5 +1930,113 @@
       "completion": 1722,
       "reasoning": 0
     }
+  },
+  {
+    "date": "2026-11-04",
+    "generated_at": "2026-11-04T06:00:04+09:00",
+    "model_id": "google/gemini-4-argon",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 238,
+      "rep": 197
+    },
+    "senate_control_prob_dem": 80,
+    "house_control_prob_dem": 95,
+    "comment": "期日前5890万票の金字塔。熱狂と隠れ保守のせめぎ合いは52議席へ。",
+    "hidden_dynamics": [
+      "Cookが最終判定でミシガン州上院を「民主党優勢（Lean D）」へ引き上げた一方、共和党現職・開放の激戦区をトスアップに据え置いたのは、民主党の防衛ライン（48議席＋NC・MEで50議席）が完全に固まり、残る勝負が赤い州での「調査に表れない当日投票の保守層」との我慢比べに絞られたことを意味する。",
+      "期日前投票が最終集計で5890万票（2022年比で約1300万票増）に達し、うち対面投票が3280万票と過半を占めた。共和党側も終盤に対面期日前へ動員をかけたため、当日投票の赤い波だけで下院の67競合区やTX・OHの5pt以上の差を覆す余力は削がれている。"
+    ],
+    "hypothesis_title": "5890万票の防波堤と赤い州の当日逆風",
+    "hypothesis": "期日前投票が5890万票に達し2022年最終実績を1300万票近く上回ったことで下院238議席は揺るぎない。上院もCook最終判定でMIがLean Dへ移り防衛線が完成、NYT調査で「5ptの壁」を超えたTX・OHのうち最低1州を奪取し52議席に届くと見る。ただし2016・2024年型の保守層の無回答バイアス（3〜4pt）と農村部の当日投票の底力は健在であり、1〜2pt差のAK・IA・KSは当日夜に共和党が押し返すと判断し52議席を最終結論とする。",
+    "hypothesis_status": "kept",
+    "change_reason": "期日前投票の最終集計（5890万票）とCookのミシガン州引き上げは昨日の仮説（上院52・下院238）を強く裏付けるものであり、当日投票の保守回帰リスクも織り込み済みのため議席予測は据え置き、上院奪還確率のみ80%へ微調整した。",
+    "analysis": "投票日午後を迎え、全米の期日前投票はNBC集計で5890万票（対面3280万・郵便2610万）、フロリダ大集計でも2022年最終実績を1160万票以上も上回る歴史的規模で確定した。下院は3大評価機関がいずれか競合とみる議席が最終日で67議席へさらに拡大し、DDHQ（241議席）やSabato（239議席）など各モデルの中心値も当予測の「民主党238対共和党197」の前後へ完全に収束した。最大の見どころである上院では、Cookが最終判定でミシガン州を「民主党優勢（Lean D）」へ引き上げ、民主党は現有防衛にノースカロライナ州とメイン州を加えた51議席の土台を固めた。問題は52議席目以降の「赤い州の壁」だ。一部モデルは53議席まで見込むが、2016年・2024年に繰り返された低投票頻度・農村部保守層の無回答バイアス（3〜4pt）を軽視すべきではない。終盤にリードが1〜2pt差にとどまったアラスカ州やアイオワ州は当日投票の赤い波で逆転される公算が大きい。一方、候補者要因で5〜7pt差をつけたテキサス州・オハイオ州はその逆風を耐え抜く余力がある。熱狂に流されず、上院52対48・下院238対197を最終予測として開票を迎える。",
+    "key_news": [
+      {
+        "title": "全米の期日前投票が5890万票に到達、対面3280万・郵便2610万で2022年実績を1160万票以上更新",
+        "source": "NBC News / UF Election Lab",
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "impact": "D+"
+      },
+      {
+        "title": "Cook Political Reportが最終上院判定でミシガン州を「民主党優勢（Lean D）」へ引き上げ、激戦7州の構図を確定",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/analysis/senate",
+        "impact": "D+"
+      },
+      {
+        "title": "3大評価機関の最終下院分析で競合区が67議席へさらに2議席拡大、共和党の防衛線が一段と広がる",
+        "source": "Almanac of American Politics",
+        "url": "https://almanacofamericanpolitics.substack.com/p/our-final-look-at-the-shape-of-the",
+        "impact": "D+"
+      },
+      {
+        "title": "DDHQ最終予測モデルは下院で民主党241議席（奪還確率84%）、上院奪還確率65%と試算",
+        "source": "Decision Desk HQ",
+        "url": "https://votes.decisiondeskhq.com/forecast/2026",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://whoshowsup.net/",
+        "title": "2026 Midterm Election Forecast: House, Senate and Governor Odds | Who Shows Up"
+      },
+      {
+        "url": "https://votes.decisiondeskhq.com/forecast/2026",
+        "title": "2026 Midterm Predictions: House & Senate Forecast | DDHQ"
+      },
+      {
+        "url": "https://oliviajacksonlambert.com/project/projects_files/turnout-first-2026/turnout-first-2026",
+        "title": "Turnout First: Forecasting the 2026 Midterms · Olivia Jackson Lambert"
+      },
+      {
+        "url": "https://www.newsquawk.com/content/research_sheets/production/original/000/042/554/Midterm_Preview_-_November_3rd_2026.pdf",
+        "title": "Democrats Eye Sweep: House Likely, Senate Within Reach"
+      },
+      {
+        "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+        "title": "» 2026 Early Voting UF Election Lab"
+      },
+      {
+        "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+        "title": "Tracking the 2026 Early Vote: Midterm Election Results"
+      },
+      {
+        "url": "https://freshcalendars.com/news/how-many-people-voted-early-2026-59-million-early-votes/",
+        "title": "How Many People Voted Early in 2026? 59 Million"
+      },
+      {
+        "url": "https://www.livenewsworld.com/early-voting-record-2026-midterms/",
+        "title": "Early Voting Record 2026: Over 57 Million Ballots Cast"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/senate",
+        "title": "Senate"
+      },
+      {
+        "url": "https://almanacofamericanpolitics.substack.com/p/our-final-look-at-the-shape-of-the",
+        "title": "Our final look at the shape of the House battleground"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/closing-analysis-2026-senate-ratings",
+        "title": "Closing Senate Analysis: The Seven States That Will ..."
+      },
+      {
+        "url": "https://www.ibtimes.com/democrats-major-gains-house-senate-election-forecasts-3809325",
+        "title": "Final Midterm Election Forecasts Calls For Potential Democratic Sweep | IBTimes"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0574,
+    "tokens": {
+      "prompt": 10708,
+      "completion": 2214,
+      "reasoning": 655
+    }
   }
 ]

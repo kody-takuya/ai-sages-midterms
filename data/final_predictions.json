@@ -1,0 +1,1922 @@
+{
+  "updated_at": "2026-11-04T06:00:04+09:00",
+  "election_day": "2026-11-03",
+  "seats": {
+    "senate": 100,
+    "house": 435
+  },
+  "models": [
+    {
+      "slug": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "maker": "OpenAI",
+      "id": "openai/gpt-6.1-sol",
+      "series": [
+        {
+          "date": "2026-10-16",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 85,
+          "comment": "下院は青信号、上院はまだ黄色信号。"
+        },
+        {
+          "date": "2026-10-17",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 85,
+          "comment": "青い波より、共和の防波堤の厚さを測る日。"
+        },
+        {
+          "date": "2026-10-18",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 85,
+          "comment": "共和の財布は厚い。問題は、広告で家計が軽くなるか。"
+        },
+        {
+          "date": "2026-10-19",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 85,
+          "comment": "不満は満タン。投票箱まで走るかが勝負。"
+        },
+        {
+          "date": "2026-10-20",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 85,
+          "comment": "財布で買えるのは広告枠。投票意欲は別売り。"
+        },
+        {
+          "date": "2026-10-21",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 85,
+          "comment": "追い風は無料。議席への乗り換えには投票券。"
+        },
+        {
+          "date": "2026-10-22",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 85,
+          "comment": "期日前の行列、長さだけでは色は読めない。"
+        },
+        {
+          "date": "2026-10-23",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 58,
+          "house_control_prob_dem": 85,
+          "comment": "青い追い風も、テキサスでは関所待ち。"
+        },
+        {
+          "date": "2026-10-24",
+          "senate": {
+            "dem": 50,
+            "rep": 50
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 48,
+          "house_control_prob_dem": 85,
+          "comment": "下院は追い風、上院は同率という向かい風。"
+        },
+        {
+          "date": "2026-10-25",
+          "senate": {
+            "dem": 50,
+            "rep": 50
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 48,
+          "house_control_prob_dem": 85,
+          "comment": "広告は赤く、財布は薄く。票の色はまだ別。"
+        },
+        {
+          "date": "2026-10-26",
+          "senate": {
+            "dem": 50,
+            "rep": 50
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 48,
+          "house_control_prob_dem": 85,
+          "comment": "先に投じた票も、最後に投じる票も一票。"
+        },
+        {
+          "date": "2026-10-27",
+          "senate": {
+            "dem": 50,
+            "rep": 50
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 48,
+          "house_control_prob_dem": 85,
+          "comment": "青い追い風でも、上院の関所は赤信号。"
+        },
+        {
+          "date": "2026-10-28",
+          "senate": {
+            "dem": 50,
+            "rep": 50
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 48,
+          "house_control_prob_dem": 85,
+          "comment": "札束の厚さと、届く広告の厚さは別。"
+        },
+        {
+          "date": "2026-10-29",
+          "senate": {
+            "dem": 50,
+            "rep": 50
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 48,
+          "house_control_prob_dem": 85,
+          "comment": "赤い州への応援便、余裕の遊説とは限らない。"
+        },
+        {
+          "date": "2026-10-30",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 54,
+          "house_control_prob_dem": 85,
+          "comment": "赤い防波堤に亀裂。ただし青い津波とは限らない。"
+        },
+        {
+          "date": "2026-10-31",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 54,
+          "house_control_prob_dem": 85,
+          "comment": "赤い州も接戦。ただし接戦の数ほど議席は増えない。"
+        },
+        {
+          "date": "2026-11-01",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 54,
+          "house_control_prob_dem": 85,
+          "comment": "期日前の行列は、青い波の高さ計ではない。"
+        },
+        {
+          "date": "2026-11-02",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 54,
+          "house_control_prob_dem": 85,
+          "comment": "行列は長い。だが議席への換算窓口はない。"
+        },
+        {
+          "date": "2026-11-03",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 58,
+          "house_control_prob_dem": 86,
+          "comment": "青信号は増えた。ただし世論調査は同じ電源。"
+        },
+        {
+          "date": "2026-11-04",
+          "senate": {
+            "dem": 50,
+            "rep": 50
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 47,
+          "house_control_prob_dem": 86,
+          "comment": "下院は青信号、上院は同点でも赤信号。"
+        }
+      ],
+      "latest": {
+        "date": "2026-11-04",
+        "generated_at": "2026-11-04T06:00:04+09:00",
+        "model_id": "openai/gpt-6.1-sol",
+        "senate": {
+          "dem": 50,
+          "rep": 50
+        },
+        "house": {
+          "dem": 233,
+          "rep": 202
+        },
+        "senate_control_prob_dem": 47,
+        "house_control_prob_dem": 86,
+        "comment": "下院は青信号、上院は同点でも赤信号。",
+        "hidden_dynamics": [
+          "上院の民主優勢は、複数州の数字ほどには独立した証拠が多くない。同じシエナ調査に依存した四州奪取の経路は、オハイオ一州の見直しだけで過半数を失う。",
+          "共和党側の「当日投票に来れば勝てる」という訴えは、潜在支持と実際の参加の間に穴があることを示唆する。ただし、その穴が埋まらないと決めつけるのも、期日前票を民主の純増と数えるのも危険だ。",
+          "共和優位地域の下院接戦化は、防衛に必要な資源を広げる可能性がある。ただし、目立つ接戦区の調査だけでは、民主の議席上積みを直接計算できない。"
+        ],
+        "hypothesis_title": "郊外は青、上院の四枚抜きは未達",
+        "hypothesis": "前日の仮説を修正する。郊外の反与党票は下院奪回に十分だが、上院で必要な四州同時奪取には届かないとみる。オハイオの別方式調査がシエナと逆方向で、赤い州の候補個人票を全国的な民主の波と同一視できないためだ。２０１６・２０２４年型の共和支持層の非回答と当日参加は、州横断の共通リスクとして残す。投票方式を調整した地域別参加と独立調査が民主優位で一致すれば、この慎重化を撤回する。",
+        "hypothesis_status": "refined",
+        "change_reason": "民主の現有４７議席維持にノースカロライナ、メーン、テキサスの奪取を加え、オハイオは共和維持に戻して上院を５１から５０へ修正する。下院は郊外優位を覆す独立した証拠がなく２３３を維持し、上院民主支配確率は５８％から４７％へ下げる。",
+        "analysis": "最終判断は「下院の広がりと上院の深さは別物」。３日付の調査集約には、オハイオでエマーソンの共和２点優位、テキサスでリサーチ社の民主３点優位があり、シエナ一系列への依存を弱めると四州奪取の確信は下がる。ただし公表時刻を独立確認できない掲載情報は低く加重し、締切後の更新や開票結果は使わない。民主はミシガン、ジョージア、ニューハンプシャー防衛が前提で、メーンの現職個人票とテキサスの共和地盤も残る。５０対５０なら副大統領の決裁票で共和支配となる。下院２３３は郊外の反与党票を中心に置き、ＭＯ０２やＭＴ０１の接戦情報を追加議席には換算しない。ＩＡ０１・０３、ＰＡ０７・１０、ＮＹ１７、ＡＺ０６の連動した共和上振れが主な下振れ経路。開票検証では赤青の初動でなく、同じ地域・同じ投票方式の過去比を見る。",
+        "key_news": [
+          {
+            "title": "３日付調査集約でオハイオは共和２点優位、テキサスは民主３点優位。掲載時刻未確認のため低加重",
+            "source": "Electoral-vote.com（Emerson College、Research Co.の調査集約）",
+            "url": "https://www.electoral-vote.com/evp2026/Items/Nov03-6.html",
+            "impact": "R+"
+          },
+          {
+            "title": "共和党の当日動員が焦点に。民主の参加意欲優位を報じるが、実際の投票構成とは区別",
+            "source": "Fox News",
+            "url": "https://www.foxnews.com/politics/battle-congress-just-beginning-heres-whats-stake-election-day",
+            "impact": "neutral"
+          },
+          {
+            "title": "下院調査一覧にＭＴ０１同率、ＭＯ０２民主１点差。依頼主はPoll Vaultで、党派性は抜粋から確認できず",
+            "source": "The New York Times（Emerson College調査掲載）",
+            "url": "https://www.nytimes.com/interactive/polls/house-polls-2026.html",
+            "impact": "D+"
+          }
+        ],
+        "citations": [
+          {
+            "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+            "title": "NYTimes/Siena Poll of Likely Voters – Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas – Siena Research Institute"
+          },
+          {
+            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/democrats-lead-republicans-senate-battlegrounds-nyt-siena-polls/92560201007/",
+            "title": "Polls: Democrats lead Republicans in Senate battlegrounds"
+          },
+          {
+            "url": "https://www.electoral-vote.com/evp2026/Senate/senate_polls.txt",
+            "title": ""
+          },
+          {
+            "url": "https://www.electoral-vote.com/evp2026/Items/Nov03-6.html",
+            "title": "Electoral-vote.com"
+          },
+          {
+            "url": "https://apnews.com/article/midterm-elections-house-senate-congress-trump-ef6199e25927a9ac9f4c18eae0e497cd",
+            "title": "The Latest: Voters cast their ballots as Republicans hope to hold control of Congress"
+          },
+          {
+            "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
+            "title": "Midterm elections are coming to a close as voters pass judgment on Trump's second term"
+          },
+          {
+            "url": "https://apnews.com/article/midterms-election-day-voting-polls-trump-ba3037eed7bd816cc084bb1c4a2e6ccf",
+            "title": "Election Day unfolds with relatively few problems. Some voters disrupted by weather, machine issues"
+          },
+          {
+            "url": "https://www.nytimes.com/interactive/polls/house-polls-2026.html",
+            "title": "House Polls 2026: See the Latest Midterm Polls - The New York Times"
+          },
+          {
+            "url": "https://www.foxnews.com/politics/everything-know-house-senate-control-ballot-measures-2026-election-day-poll-closing",
+            "title": "What's at stake in the 2026 midterm elections for House and Senate | Fox News"
+          },
+          {
+            "url": "https://www.foxnews.com/politics/battle-congress-just-beginning-heres-whats-stake-election-day",
+            "title": "Election Day 2026 polls open with House and Senate control at stake | Fox News"
+          },
+          {
+            "url": "https://www.uspresidentialelectionnews.com/2026/10/the-final-midterm-predictions-are-in-heres-where-they-agree/",
+            "title": "The Final Midterm Predictions Are In. Here's Where They Agree - Election Central"
+          },
+          {
+            "url": "https://www.foxnews.com/live-news/2026-midterm-elections-news-analysis-races-11-3-2026",
+            "title": "Election Day 2026: Top midterm election races to watch, coverage, analysis and more | Live Updates"
+          }
+        ],
+        "searches": null
+      },
+      "final_status": "final"
+    },
+    {
+      "slug": "claude-sonnet-5.5",
+      "name": "Claude Sonnet 5.5",
+      "maker": "Anthropic",
+      "id": "anthropic/claude-sonnet-5.5",
+      "series": [
+        {
+          "date": "2026-10-16",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 232,
+            "rep": 203
+          },
+          "senate_control_prob_dem": 58,
+          "house_control_prob_dem": 86,
+          "comment": "青い波は本物か。下院は固く、上院は最後の一議席まで綱引き"
+        },
+        {
+          "date": "2026-10-17",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 232,
+            "rep": 203
+          },
+          "senate_control_prob_dem": 58,
+          "house_control_prob_dem": 86,
+          "comment": "世論調査は青、共和党の逆襲は最後の一週間待ち"
+        },
+        {
+          "date": "2026-10-18",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 232,
+            "rep": 203
+          },
+          "senate_control_prob_dem": 58,
+          "house_control_prob_dem": 86,
+          "comment": "テキサスは縮んでも沈まず。収束は鈍足、青は粘る"
+        },
+        {
+          "date": "2026-10-19",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 232,
+            "rep": 203
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 86,
+          "comment": "共和党の戻りは遅く、早期投票は青い。薄氷は続く"
+        },
+        {
+          "date": "2026-10-20",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 232,
+            "rep": 203
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 86,
+          "comment": "テキサスは+2で横ばい。接戦のまま、選挙戦は最終盤へ"
+        },
+        {
+          "date": "2026-10-21",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 232,
+            "rep": 203
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 86,
+          "comment": "テキサスは+2で足踏み。票は動かず、動員だけが先行"
+        },
+        {
+          "date": "2026-10-22",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 62,
+          "house_control_prob_dem": 87,
+          "comment": "テキサスは僅差のまま。民主は上向きだが誤差の中だ"
+        },
+        {
+          "date": "2026-10-23",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 87,
+          "comment": "テキサスはFoxで同率。接戦のまま、最終盤に入る"
+        },
+        {
+          "date": "2026-10-24",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 87,
+          "comment": "接戦は続く。早期投票が山でも、勝負は当日の谷で決まる"
+        },
+        {
+          "date": "2026-10-25",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 59,
+          "house_control_prob_dem": 87,
+          "comment": "メインもテキサスも同率。最終盤は、誤差が主役だ"
+        },
+        {
+          "date": "2026-10-26",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 59,
+          "house_control_prob_dem": 87,
+          "comment": "メインもテキサスも同率。差を決めるのは世論調査の誤差だ"
+        },
+        {
+          "date": "2026-10-27",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 58,
+          "house_control_prob_dem": 87,
+          "comment": "新情報は薄い。動かない数字も、最終盤では立派な予測だ"
+        },
+        {
+          "date": "2026-10-28",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 87,
+          "comment": "テキサスで民主が先行。それでも誤差は静かに待っている"
+        },
+        {
+          "date": "2026-10-29",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 88,
+          "comment": "民主は全方位で先行。ただ調査の先行ほど信用しにくいものはない"
+        },
+        {
+          "date": "2026-10-30",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 62,
+          "house_control_prob_dem": 88,
+          "comment": "CNNまで民主先行。だが2016年の亡霊は投票所の外で待つ"
+        },
+        {
+          "date": "2026-10-31",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 58,
+          "house_control_prob_dem": 88,
+          "comment": "市場は上院に民主7割。だが平均は1〜2点差、誤差は静かに待つ"
+        },
+        {
+          "date": "2026-11-01",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 58,
+          "house_control_prob_dem": 88,
+          "comment": "最終週も民主が薄く先行。誤差は静かに出番を待つ"
+        },
+        {
+          "date": "2026-11-02",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 88,
+          "comment": "最終日前も民主が薄氷でリード。2016年の亡霊は投票所の外"
+        },
+        {
+          "date": "2026-11-03",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 66,
+          "house_control_prob_dem": 91,
+          "comment": "最終調査は民主が全7州でリード。誤差の亡霊は最後の砦だ"
+        },
+        {
+          "date": "2026-11-04",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 237,
+            "rep": 198
+          },
+          "senate_control_prob_dem": 68,
+          "house_control_prob_dem": 93,
+          "comment": "最終モデルは青い津波。2016年の亡霊が最後に出るか"
+        }
+      ],
+      "latest": {
+        "date": "2026-11-04",
+        "generated_at": "2026-11-04T06:00:04+09:00",
+        "model_id": "anthropic/claude-sonnet-5.5",
+        "senate": {
+          "dem": 51,
+          "rep": 49
+        },
+        "house": {
+          "dem": 237,
+          "rep": 198
+        },
+        "senate_control_prob_dem": 68,
+        "house_control_prob_dem": 93,
+        "comment": "最終モデルは青い津波。2016年の亡霊が最後に出るか",
+        "hidden_dynamics": [
+          "各モデルは過去の世論調査の誤差が約4点だったことを織り込んでいる。それでもD+9なら下院は届く。上院の51議席目は、TXとOHの数点差に依存している。",
+          "民主は期日前投票で優位だが、これは投票時期が前倒しになっただけかもしれない。当日投票に共和の低関与層が集中すれば、差は縮む。"
+        ],
+        "hypothesis_title": "津波予想でも上院は薄氷",
+        "hypothesis": "総合投票はD+9前後で、下院の民主多数はほぼ固い。上院はTX、OH、MEで5点前後のリードがあるが、IAとAKは互角だ。共和の過小評価が2〜3点出ても51議席には届く。ただし1議席を落とすと50-50で、副大統領により共和が支配する。TXとOHの両方で共和が勝つか、下院の民主得票が6点を下回れば仮説を捨てる。",
+        "hypothesis_status": "kept",
+        "change_reason": "最終のモデル(Silver系99%・中央値240、Morris系も上院は優勢)が下院で民主優位を再確認したため、下院を1議席上げた。上院は、共和の過小評価リスクを残して51-49のままにした。",
+        "analysis": "【上院】NYT/Siena最終調査では、民主は調査した7州すべてでリードした。MIは11点、TXは7点、MEは6点、OHは5点、AKは2点、IAは1点だ。民主が51議席に届くには、NC、OH、ME、TXの4州が要る。IAとAKは上積みの扱いになる。モデルは民主の上院制御を77〜81%としているが、過去3回の調査の共和過小評価が再び出れば、制御は五分五分に近づく。私は不確実性を考え、68%とする。【下院】総合投票D+9前後で、不利な区割りを吸収しても237議席前後とみる。調査が過去並みの3.9点ずれても、モデルでは226議席が残る。明日は、開票の早いOH、NC、MEの結果を確認する。",
+        "key_news": [
+          {
+            "title": "最終のNYT/Siena調査で、民主は上院の接戦7州すべてでリード。MIは11点、TXは7点",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
+            "impact": "D+"
+          },
+          {
+            "title": "Morris氏の最終予測では、民主が上下両院を取る確率は約8割。期日前投票も民主が優位",
+            "source": "G. Elliott Morris",
+            "url": "https://www.gelliottmorris.com/p/2026-11-03-election-day-preview",
+            "impact": "D+"
+          },
+          {
+            "title": "最終予測は下院の民主が99%で中央値240議席。調査が3.9点ずれても226議席",
+            "source": "MS NOW",
+            "url": "https://www.ms.now/opinion/midterm-polls-house-senate-election",
+            "impact": "D+"
+          },
+          {
+            "title": "NPR: 上院は「誰にも読めない」。民主は4議席の純増が必要",
+            "source": "NPR",
+            "url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
+            "impact": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
+            "title": "Final polls, models and markets see a \"blue tsunami\""
+          },
+          {
+            "url": "https://www.gelliottmorris.com/p/2026-11-03-election-day-preview",
+            "title": "FINAL forecast: a blue wave, or a blue tsunami?"
+          },
+          {
+            "url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
+            "title": "Election Day 2026: What to know as polls open : NPR"
+          },
+          {
+            "url": "https://www.ms.now/opinion/midterm-polls-house-senate-election",
+            "title": "The final polls are actually better than some Democrats are expecting — with a few caveats"
+          }
+        ],
+        "searches": null
+      },
+      "final_status": "final"
+    },
+    {
+      "slug": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "maker": "Google",
+      "id": "google/gemini-4-argon",
+      "series": [
+        {
+          "date": "2026-10-16",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 232,
+            "rep": 203
+          },
+          "senate_control_prob_dem": 58,
+          "house_control_prob_dem": 82,
+          "comment": "物価高の逆風で赤い州にも青い波、上院の命運は6つの接戦州の手に。"
+        },
+        {
+          "date": "2026-10-17",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 234,
+            "rep": 201
+          },
+          "senate_control_prob_dem": 57,
+          "house_control_prob_dem": 85,
+          "comment": "下院は青い津波が二桁トランプ区を呑み込み、上院は赤い資金の防波堤が試される。"
+        },
+        {
+          "date": "2026-10-18",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 234,
+            "rep": 201
+          },
+          "senate_control_prob_dem": 57,
+          "house_control_prob_dem": 85,
+          "comment": "小口献金の津波が大富豪の防波堤を洗う、広告単価の非対称戦。"
+        },
+        {
+          "date": "2026-10-19",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 234,
+            "rep": 201
+          },
+          "senate_control_prob_dem": 57,
+          "house_control_prob_dem": 85,
+          "comment": "知事には赤、上院には青。赤い州の「分割投票」が大富豪の広告爆撃をかわす。"
+        },
+        {
+          "date": "2026-10-21",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 58,
+          "house_control_prob_dem": 88,
+          "comment": "期日前投票で7対3の青い奔流、下院は2018年超えの波へ。"
+        },
+        {
+          "date": "2026-10-22",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 88,
+          "comment": "知事選の防波堤が消えたオハイオとアイオワ、22年型の赤い逆転劇は封じられた。"
+        },
+        {
+          "date": "2026-10-23",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 88,
+          "comment": "オハイオは52%の安全圏へ、テキサスは終盤の『保守帰巣本能』で49対49の肉弾戦。"
+        },
+        {
+          "date": "2026-10-24",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 89,
+          "comment": "公表調査は楽観でも資金は正直。オハイオ死守の借金と深紅州の火消し。"
+        },
+        {
+          "date": "2026-10-25",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 89,
+          "comment": "期日前2678万票の青い貯金と、共和党PACの倍返し1180万ドル砲。"
+        },
+        {
+          "date": "2026-10-26",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 89,
+          "comment": "テキサスに5億ドルの札束飛び交う肉弾戦、NCは無党派急増の静かな地殻変動。"
+        },
+        {
+          "date": "2026-10-27",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 62,
+          "house_control_prob_dem": 90,
+          "comment": "大統領の4億ドルで大統領を斬る、共和党候補の巧妙な「擬態」戦術。"
+        },
+        {
+          "date": "2026-10-28",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 65,
+          "house_control_prob_dem": 91,
+          "comment": "対面投票1810万票でも縮まらぬ12pt差、共和党の「当日逆転池」が枯渇。"
+        },
+        {
+          "date": "2026-10-29",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 65,
+          "house_control_prob_dem": 92,
+          "comment": "期日前3918万票の奔流と、上院「3ptの壁」に潜む赤い亡霊。"
+        },
+        {
+          "date": "2026-10-30",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 66,
+          "house_control_prob_dem": 92,
+          "comment": "期日前4356万票の青き津波と、専門家が飛び込む「テキサスの罠」。"
+        },
+        {
+          "date": "2026-10-31",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 67,
+          "house_control_prob_dem": 93,
+          "comment": "Cookの上限「240」が証明した下院の青い波と、カンザスに潜む蜃気楼。"
+        },
+        {
+          "date": "2026-11-01",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 67,
+          "house_control_prob_dem": 94,
+          "comment": "期日前5217万票の衝撃と、トランプ系調査さえ認めた下院の奔流。"
+        },
+        {
+          "date": "2026-11-02",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 68,
+          "house_control_prob_dem": 94,
+          "comment": "期日前5483万票の奔流と、YouGovでも越えられぬ「5ptの壁」。"
+        },
+        {
+          "date": "2026-11-03",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 79,
+          "house_control_prob_dem": 95,
+          "comment": "NYT/Sienaが突き破った「5ptの壁」と、テキサスに吹く異変の風。"
+        },
+        {
+          "date": "2026-11-04",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 80,
+          "house_control_prob_dem": 95,
+          "comment": "期日前5890万票の金字塔。熱狂と隠れ保守のせめぎ合いは52議席へ。"
+        }
+      ],
+      "latest": {
+        "date": "2026-11-04",
+        "generated_at": "2026-11-04T06:00:04+09:00",
+        "model_id": "google/gemini-4-argon",
+        "senate": {
+          "dem": 52,
+          "rep": 48
+        },
+        "house": {
+          "dem": 238,
+          "rep": 197
+        },
+        "senate_control_prob_dem": 80,
+        "house_control_prob_dem": 95,
+        "comment": "期日前5890万票の金字塔。熱狂と隠れ保守のせめぎ合いは52議席へ。",
+        "hidden_dynamics": [
+          "Cookが最終判定でミシガン州上院を「民主党優勢（Lean D）」へ引き上げた一方、共和党現職・開放の激戦区をトスアップに据え置いたのは、民主党の防衛ライン（48議席＋NC・MEで50議席）が完全に固まり、残る勝負が赤い州での「調査に表れない当日投票の保守層」との我慢比べに絞られたことを意味する。",
+          "期日前投票が最終集計で5890万票（2022年比で約1300万票増）に達し、うち対面投票が3280万票と過半を占めた。共和党側も終盤に対面期日前へ動員をかけたため、当日投票の赤い波だけで下院の67競合区やTX・OHの5pt以上の差を覆す余力は削がれている。"
+        ],
+        "hypothesis_title": "5890万票の防波堤と赤い州の当日逆風",
+        "hypothesis": "期日前投票が5890万票に達し2022年最終実績を1300万票近く上回ったことで下院238議席は揺るぎない。上院もCook最終判定でMIがLean Dへ移り防衛線が完成、NYT調査で「5ptの壁」を超えたTX・OHのうち最低1州を奪取し52議席に届くと見る。ただし2016・2024年型の保守層の無回答バイアス（3〜4pt）と農村部の当日投票の底力は健在であり、1〜2pt差のAK・IA・KSは当日夜に共和党が押し返すと判断し52議席を最終結論とする。",
+        "hypothesis_status": "kept",
+        "change_reason": "期日前投票の最終集計（5890万票）とCookのミシガン州引き上げは昨日の仮説（上院52・下院238）を強く裏付けるものであり、当日投票の保守回帰リスクも織り込み済みのため議席予測は据え置き、上院奪還確率のみ80%へ微調整した。",
+        "analysis": "投票日午後を迎え、全米の期日前投票はNBC集計で5890万票（対面3280万・郵便2610万）、フロリダ大集計でも2022年最終実績を1160万票以上も上回る歴史的規模で確定した。下院は3大評価機関がいずれか競合とみる議席が最終日で67議席へさらに拡大し、DDHQ（241議席）やSabato（239議席）など各モデルの中心値も当予測の「民主党238対共和党197」の前後へ完全に収束した。最大の見どころである上院では、Cookが最終判定でミシガン州を「民主党優勢（Lean D）」へ引き上げ、民主党は現有防衛にノースカロライナ州とメイン州を加えた51議席の土台を固めた。問題は52議席目以降の「赤い州の壁」だ。一部モデルは53議席まで見込むが、2016年・2024年に繰り返された低投票頻度・農村部保守層の無回答バイアス（3〜4pt）を軽視すべきではない。終盤にリードが1〜2pt差にとどまったアラスカ州やアイオワ州は当日投票の赤い波で逆転される公算が大きい。一方、候補者要因で5〜7pt差をつけたテキサス州・オハイオ州はその逆風を耐え抜く余力がある。熱狂に流されず、上院52対48・下院238対197を最終予測として開票を迎える。",
+        "key_news": [
+          {
+            "title": "全米の期日前投票が5890万票に到達、対面3280万・郵便2610万で2022年実績を1160万票以上更新",
+            "source": "NBC News / UF Election Lab",
+            "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+            "impact": "D+"
+          },
+          {
+            "title": "Cook Political Reportが最終上院判定でミシガン州を「民主党優勢（Lean D）」へ引き上げ、激戦7州の構図を確定",
+            "source": "Cook Political Report",
+            "url": "https://www.cookpolitical.com/analysis/senate",
+            "impact": "D+"
+          },
+          {
+            "title": "3大評価機関の最終下院分析で競合区が67議席へさらに2議席拡大、共和党の防衛線が一段と広がる",
+            "source": "Almanac of American Politics",
+            "url": "https://almanacofamericanpolitics.substack.com/p/our-final-look-at-the-shape-of-the",
+            "impact": "D+"
+          },
+          {
+            "title": "DDHQ最終予測モデルは下院で民主党241議席（奪還確率84%）、上院奪還確率65%と試算",
+            "source": "Decision Desk HQ",
+            "url": "https://votes.decisiondeskhq.com/forecast/2026",
+            "impact": "neutral"
+          }
+        ],
+        "citations": [
+          {
+            "url": "https://whoshowsup.net/",
+            "title": "2026 Midterm Election Forecast: House, Senate and Governor Odds | Who Shows Up"
+          },
+          {
+            "url": "https://votes.decisiondeskhq.com/forecast/2026",
+            "title": "2026 Midterm Predictions: House & Senate Forecast | DDHQ"
+          },
+          {
+            "url": "https://oliviajacksonlambert.com/project/projects_files/turnout-first-2026/turnout-first-2026",
+            "title": "Turnout First: Forecasting the 2026 Midterms · Olivia Jackson Lambert"
+          },
+          {
+            "url": "https://www.newsquawk.com/content/research_sheets/production/original/000/042/554/Midterm_Preview_-_November_3rd_2026.pdf",
+            "title": "Democrats Eye Sweep: House Likely, Senate Within Reach"
+          },
+          {
+            "url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+            "title": "» 2026 Early Voting UF Election Lab"
+          },
+          {
+            "url": "https://www.nbcnews.com/politics/2026-elections/early-vote",
+            "title": "Tracking the 2026 Early Vote: Midterm Election Results"
+          },
+          {
+            "url": "https://freshcalendars.com/news/how-many-people-voted-early-2026-59-million-early-votes/",
+            "title": "How Many People Voted Early in 2026? 59 Million"
+          },
+          {
+            "url": "https://www.livenewsworld.com/early-voting-record-2026-midterms/",
+            "title": "Early Voting Record 2026: Over 57 Million Ballots Cast"
+          },
+          {
+            "url": "https://www.cookpolitical.com/analysis/senate",
+            "title": "Senate"
+          },
+          {
+            "url": "https://almanacofamericanpolitics.substack.com/p/our-final-look-at-the-shape-of-the",
+            "title": "Our final look at the shape of the House battleground"
+          },
+          {
+            "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/closing-analysis-2026-senate-ratings",
+            "title": "Closing Senate Analysis: The Seven States That Will ..."
+          },
+          {
+            "url": "https://www.ibtimes.com/democrats-major-gains-house-senate-election-forecasts-3809325",
+            "title": "Final Midterm Election Forecasts Calls For Potential Democratic Sweep | IBTimes"
+          }
+        ],
+        "searches": null
+      },
+      "final_status": "final"
+    },
+    {
+      "slug": "deepseek-v4.1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "maker": "DeepSeek",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "series": [
+        {
+          "date": "2026-10-16",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 232,
+            "rep": 203
+          },
+          "senate_control_prob_dem": 60,
+          "house_control_prob_dem": 82,
+          "comment": "上院の天王山は赤い5州、波は届くか。——残り18日"
+        },
+        {
+          "date": "2026-10-17",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 234,
+            "rep": 201
+          },
+          "senate_control_prob_dem": 65,
+          "house_control_prob_dem": 86,
+          "comment": "赤い州の序盤投票、民主党が静かに先行——波は地面を這っている"
+        },
+        {
+          "date": "2026-10-18",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 235,
+            "rep": 200
+          },
+          "senate_control_prob_dem": 68,
+          "house_control_prob_dem": 88,
+          "comment": "共和の金、民主の足——赤い州で綱引き、残り17日"
+        },
+        {
+          "date": "2026-10-19",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 235,
+            "rep": 200
+          },
+          "senate_control_prob_dem": 68,
+          "house_control_prob_dem": 88,
+          "comment": "期日前の青い数字は熱量か、仕込みか——残り16日"
+        },
+        {
+          "date": "2026-10-20",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 235,
+            "rep": 200
+          },
+          "senate_control_prob_dem": 68,
+          "house_control_prob_dem": 88,
+          "comment": "テキサスに長蛇の列、赤い州で青い足音——残り15日"
+        },
+        {
+          "date": "2026-10-21",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 71,
+          "house_control_prob_dem": 90,
+          "comment": "格付けが一斉に青へ——満潮か、同調か。残り14日"
+        },
+        {
+          "date": "2026-10-22",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 71,
+          "house_control_prob_dem": 90,
+          "comment": "NYT/Siena D+11——満潮の数字を、潮位計はどう読むか"
+        },
+        {
+          "date": "2026-10-23",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 72,
+          "house_control_prob_dem": 90,
+          "comment": "赤州の平均値に青が混じる——満潮か、潮位計の癖か。残り12日"
+        },
+        {
+          "date": "2026-10-24",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 72,
+          "house_control_prob_dem": 90,
+          "comment": "Cook19区・サバト28区——格付けが満潮を追いかける"
+        },
+        {
+          "date": "2026-10-25",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 69,
+          "house_control_prob_dem": 90,
+          "comment": "メインはタイ、オハイオも3点——満潮に締め戻しの潮目"
+        },
+        {
+          "date": "2026-10-26",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 63,
+          "house_control_prob_dem": 90,
+          "comment": "全盤が一斉に赤へ締まる——潮位計が揃う時こそ疑え"
+        },
+        {
+          "date": "2026-10-27",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 63,
+          "house_control_prob_dem": 90,
+          "comment": "テキサスは赤くならず、上院の一本足は今日も立っている"
+        },
+        {
+          "date": "2026-10-28",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 237,
+            "rep": 198
+          },
+          "senate_control_prob_dem": 68,
+          "house_control_prob_dem": 92,
+          "comment": "上院は一本足から二本足へ——波は満ちたが赤州の土手はまだ低い"
+        },
+        {
+          "date": "2026-10-29",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 70,
+          "house_control_prob_dem": 92,
+          "comment": "査定者は満潮を叫び、自ら『外れるかも』と囁く——波は本物、だが潮位計は既に満杯"
+        },
+        {
+          "date": "2026-10-30",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 72,
+          "house_control_prob_dem": 93,
+          "comment": "青い潮位計が総出で上振れ—土手か、それとも水路か、鍵はテキサス"
+        },
+        {
+          "date": "2026-10-31",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 73,
+          "house_control_prob_dem": 93,
+          "comment": "査定者が天井240を口にした日、波は最も静かに満ちる"
+        },
+        {
+          "date": "2026-11-01",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 72,
+          "house_control_prob_dem": 93,
+          "comment": "市場は二つで同じ71.5％——独立の物差しが、いつの間にか鏡になっている"
+        },
+        {
+          "date": "2026-11-02",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 71,
+          "house_control_prob_dem": 93,
+          "comment": "全市場68〜69で沈黙——増水は本物、深さは誰も測っていない"
+        },
+        {
+          "date": "2026-11-03",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 72,
+          "house_control_prob_dem": 93,
+          "comment": "Siena最終、上院7州すべてD首位——過大標本か本物か、明日が裁く"
+        },
+        {
+          "date": "2026-11-04",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 74,
+          "house_control_prob_dem": 93,
+          "comment": "全市場が「津波」68％——2018年のD+8.6は235議席だった"
+        }
+      ],
+      "latest": {
+        "date": "2026-11-04",
+        "generated_at": "2026-11-04T06:00:04+09:00",
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "senate": {
+          "dem": 52,
+          "rep": 48
+        },
+        "house": {
+          "dem": 236,
+          "rep": 199
+        },
+        "senate_control_prob_dem": 74,
+        "house_control_prob_dem": 93,
+        "comment": "全市場が「津波」68％——2018年のD+8.6は235議席だった",
+        "hidden_dynamics": [
+          "予測市場（Polymarket76％・Kalshi75〜94％）と各モデルが同一値へ収束しているが、これは独立した情報の確認ではなく相互参照の産物。『群衆の知恵』の一部は、群衆が互いを読んでいるだけだ。",
+          "Sienaの上院7州全勝とCookのミシガンLean D移行が選挙前にエリート・バンドワゴンを形成。これがKS・IAなど実は僅差の州で共和の終盤資金を萎縮させ、世論の実勢以上に上院Dマージンを膨らませて見せる自己成就の恐れ。",
+          "報道が語る『一般票D+8の大波』の裏で、TX/MO/NCの新ゲリマンダーが下院の構造的天井を3〜5議席下げている。大統領選型の全国数値と、区割りで歪んだ議席換算との乖離はほぼ無視されている。"
+        ],
+        "hypothesis_title": "津波は本物、深さは2018年並み",
+        "hypothesis": "核は維持・微修正：今回は2018年型の中間選挙で、トランプ不支持が期日前を押し出し、上院は候補の質でDが激戦を制す。鍵は『波の深さ』だ。2018年は一般票D+8.6で235議席。今回もD+8だが、TX/MO/NCの新ゲリマンダーが構造的にDの天井を3〜5議席下げる。ゆえに市場の『235＋51』津波確率68％は方向として正しくても、中央値は236議席前後が妥当。Siena7州全勝やCookのミシガン移行にはエリート・バンドワゴンの側面もあり、KS・IAの僅差を過大評価しうる。棄却条件は、当日の高齢・白人有権者の上積みが郊外D優位を覆す場合。",
+        "hypothesis_status": "refined",
+        "change_reason": "新材料は方向をDに揃えた（Siena7州全勝、CookのMI Lean D、市場津波68％）が、いずれも『波の天井』を示すものではない。2018年の一般票D+8.6→235議席という錨と新ゲリマンダーの逆風を踏まえ、議席中央値は据え置き。市場確率の小幅上昇を受けP(D上院)のみ72→74に引き上げた。",
+        "analysis": "【上院】現状53R-47D、Dは純増4で51。Siena最終は7州すべてD首位（MI+11、TX+7、ME+6、OH+5、KS+5、AK・IA僅差）、CookはミシガンをLean Dへ。NC・MI・OH・ME・TXの5州中4州で51、AK・KSを足せば52〜53。中央値52、下振れ49、上振れ53。KS+5は赤州での過大標本の疑いが残り額面通りには採らない。P74。【下院】一般票D+8。2018年のD+8.6→235議席が最良の錨で、新ゲリマンダーが3〜5議席の逆風。Cook最終はSolid D183/R158、接戦37区で全取り242が上限。市場の津波（235＋51）68％は方向として妥当だが、『全接戦を取る』計算は波の厚みを最大化したもの。236を中央値に幅228〜241。P93。【持ち越し】①当日の高齢・白人有権者上積みが郊外D優位を覆すか、②KS・IAが標本過大かの検証、③予測市場の相互参照バイアス、④上院49〜53の相関シナリオ管理。",
+        "key_news": [
+          {
+            "title": "最終世論・モデル・市場がそろって『青い津波』を描く——NYT/Sienaは上院激戦7州すべてでD首位（MI+11、TX+7）",
+            "source": "Axios",
+            "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
+            "impact": "D+"
+          },
+          {
+            "title": "Cook最終評：ミシガン開選をToss UpからLean Democratへ変更、上院は7州が誤差範囲内で両党に多数派の道",
+            "source": "Cook Political Report",
+            "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/michigan-moves-final-ratings",
+            "impact": "D+"
+          },
+          {
+            "title": "Kalshiの『ブルー・ツナミ』（下院235＋上院51）が68〜69％へ急騰、『ブルー・ウェーブ』は87％",
+            "source": "Kalshi News",
+            "url": "https://news.kalshi.com/p/democrats-odds-of-a-blue-tsunami-surge-to-68-as-final-midterm-polls-show-momentum",
+            "impact": "D+"
+          },
+          {
+            "title": "予測市場は下院D94％・上院D75〜76％を織り込み、MS Nowモデルは下院中央値240・上院中央値52で77％と算出",
+            "source": "The Block / MS Now",
+            "url": "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
+            "impact": "D+"
+          }
+        ],
+        "citations": [
+          {
+            "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
+            "title": "Final polls, models and markets see a \"blue tsunami\""
+          },
+          {
+            "url": "https://www.ms.now/opinion/midterm-polls-house-senate-election",
+            "title": "The final polls are actually better than some Democrats are expecting — with a few caveats"
+          },
+          {
+            "url": "https://yougov.com/en-us/articles/55871-2026-us-congressional-gubernatorial-elections-yougov-state-polling-iowa-texas-michigan-maine-ohio-kansas-nebraska-north-carolina",
+            "title": "2026 U.S. elections: YouGov's final polling for the Senate, the House, and governors' races"
+          },
+          {
+            "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+            "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+          },
+          {
+            "url": "https://www.cookpolitical.com/print/ratings/races/house",
+            "title": "The Cook Political Report: 2026 House Race Ratings"
+          },
+          {
+            "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/michigan-moves-final-ratings",
+            "title": "As Michigan Moves to Lean Democrat, Here Are Our Final Senate Ratings — and What Else We're Watching | Cook Political Report"
+          },
+          {
+            "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/closing-analysis-2026-senate-ratings",
+            "title": "Closing Senate Analysis: The Seven States That Will Decide the Majority | Cook Political Report"
+          },
+          {
+            "url": "https://www.270towin.com/2026-senate-election/cook-political-report-2026-senate",
+            "title": "Cook Political Report 2026 Senate Race Ratings - 270toWin"
+          },
+          {
+            "url": "https://news.kalshi.com/p/democrats-odds-of-a-blue-tsunami-surge-to-68-as-final-midterm-polls-show-momentum",
+            "title": "Democrats' Blue Tsunami odds surge to 68% on Kalshi"
+          },
+          {
+            "url": "https://www.oddschecker.com/us/insight/specials/politics/20261103-blue-wave-odds-2026-will-democrats-win-a-blue-wave-or-blue-tsunami",
+            "title": "Blue Wave Odds 2026: Will Democrats Win a Blue Wave or Tsunami?"
+          },
+          {
+            "url": "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
+            "title": "Prediction markets bet on Democratic sweep of House, Senate in midterm elections"
+          },
+          {
+            "url": "https://predictmarketcap.com/events/will-democrats-hold-235-or-more-seats-in-the-house-after-the-2026-midterms-and-h",
+            "title": "Democrats 235 House 51 Senate 2026 Odds | Kalshi & Polymarket"
+          }
+        ],
+        "searches": null
+      },
+      "final_status": "final"
+    },
+    {
+      "slug": "qwen3.8-max",
+      "name": "Qwen3.8 Max",
+      "maker": "Alibaba Qwen",
+      "id": "qwen/qwen3.8-max-0902",
+      "series": [
+        {
+          "date": "2026-10-16",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 226,
+            "rep": 209
+          },
+          "senate_control_prob_dem": 61,
+          "house_control_prob_dem": 91,
+          "comment": "与党逆風。上院51、下院226だが、カンザスとメインが分岐点"
+        },
+        {
+          "date": "2026-10-17",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 231,
+            "rep": 204
+          },
+          "senate_control_prob_dem": 64,
+          "house_control_prob_dem": 92,
+          "comment": "下院は撤退戦、上院だけ死守。共和党の財布が本音を語る"
+        },
+        {
+          "date": "2026-10-18",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 232,
+            "rep": 203
+          },
+          "senate_control_prob_dem": 65,
+          "house_control_prob_dem": 93,
+          "comment": "逆風の芯はトランプ離れした共和党員。終盤の巻き返し燃料が今回は無い"
+        },
+        {
+          "date": "2026-10-19",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 66,
+          "house_control_prob_dem": 93,
+          "comment": "投票済み50万票が本音。共和党員の足が投票所を避けている"
+        },
+        {
+          "date": "2026-10-20",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 234,
+            "rep": 201
+          },
+          "senate_control_prob_dem": 62,
+          "house_control_prob_dem": 94,
+          "comment": "D+8の波は郊外限定。アイオワの海には届かない"
+        },
+        {
+          "date": "2026-10-21",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 235,
+            "rep": 200
+          },
+          "senate_control_prob_dem": 57,
+          "house_control_prob_dem": 95,
+          "comment": "波は党ブランドだけに依存する共和党員を飲み込む"
+        },
+        {
+          "date": "2026-10-22",
+          "senate": {
+            "dem": 50,
+            "rep": 50
+          },
+          "house": {
+            "dem": 232,
+            "rep": 203
+          },
+          "senate_control_prob_dem": 46,
+          "house_control_prob_dem": 92,
+          "comment": "共和+1.7%は郵便バッチの合算効果。波の高さを測り直した"
+        },
+        {
+          "date": "2026-10-23",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 233,
+            "rep": 202
+          },
+          "senate_control_prob_dem": 53,
+          "house_control_prob_dem": 93,
+          "comment": "+1.7%はバッチの幻影。民主の2倍票は本物だった"
+        },
+        {
+          "date": "2026-10-24",
+          "senate": {
+            "dem": 50,
+            "rep": 50
+          },
+          "house": {
+            "dem": 234,
+            "rep": 201
+          },
+          "senate_control_prob_dem": 47,
+          "house_control_prob_dem": 94,
+          "comment": "共和系調査が民主リードを載せた日、波は観測から実測へ移った"
+        },
+        {
+          "date": "2026-10-25",
+          "senate": {
+            "dem": 50,
+            "rep": 50
+          },
+          "house": {
+            "dem": 236,
+            "rep": 199
+          },
+          "senate_control_prob_dem": 49,
+          "house_control_prob_dem": 95,
+          "comment": "態度ではなく行動——NCの投票箱は既に答えを書き始めている"
+        },
+        {
+          "date": "2026-10-26",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 53,
+          "house_control_prob_dem": 96,
+          "comment": "反証条件は二つとも不発。波は検証に耐えた"
+        },
+        {
+          "date": "2026-10-27",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 52,
+          "house_control_prob_dem": 96,
+          "comment": "共和の財布が正直者。撤退先はNC、増援先はKSだった"
+        },
+        {
+          "date": "2026-10-28",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 53,
+          "house_control_prob_dem": 95,
+          "comment": "カンザスに1400万ドル——赤の海に溺れる者の音"
+        },
+        {
+          "date": "2026-10-29",
+          "senate": {
+            "dem": 51,
+            "rep": 49
+          },
+          "house": {
+            "dem": 237,
+            "rep": 198
+          },
+          "senate_control_prob_dem": 53,
+          "house_control_prob_dem": 95,
+          "comment": "カンザスの1400万ドルこそが本物の世論調査"
+        },
+        {
+          "date": "2026-10-30",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 237,
+            "rep": 198
+          },
+          "senate_control_prob_dem": 66,
+          "house_control_prob_dem": 95,
+          "comment": "CNN四州一斉、同じ手のひらが四枚同時に表を向いた"
+        },
+        {
+          "date": "2026-10-31",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 237,
+            "rep": 198
+          },
+          "senate_control_prob_dem": 64,
+          "house_control_prob_dem": 95,
+          "comment": "+4の幻を捨てて+3の実を取った日"
+        },
+        {
+          "date": "2026-11-01",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 67,
+          "house_control_prob_dem": 96,
+          "comment": "態度調査は揺れるが、投函された用紙は揺れない"
+        },
+        {
+          "date": "2026-11-02",
+          "senate": {
+            "dem": 53,
+            "rep": 47
+          },
+          "house": {
+            "dem": 238,
+            "rep": 197
+          },
+          "senate_control_prob_dem": 70,
+          "house_control_prob_dem": 96,
+          "comment": "SLFの財布が白状した。NC放棄・KS注入はどの世論調査より雄弁だ"
+        },
+        {
+          "date": "2026-11-03",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 240,
+            "rep": 195
+          },
+          "senate_control_prob_dem": 75,
+          "house_control_prob_dem": 95,
+          "comment": "七州の矢印が全部同じ向きを指した日"
+        },
+        {
+          "date": "2026-11-04",
+          "senate": {
+            "dem": 52,
+            "rep": 48
+          },
+          "house": {
+            "dem": 242,
+            "rep": 193
+          },
+          "senate_control_prob_dem": 76,
+          "house_control_prob_dem": 95,
+          "comment": "投票率は嘘をつかない。TXは2018年の記録を越えた"
+        }
+      ],
+      "latest": {
+        "date": "2026-11-04",
+        "generated_at": "2026-11-04T06:00:04+09:00",
+        "model_id": "qwen/qwen3.8-max-0902",
+        "senate": {
+          "dem": 52,
+          "rep": 48
+        },
+        "house": {
+          "dem": 242,
+          "rep": 193
+        },
+        "senate_control_prob_dem": 76,
+        "house_control_prob_dem": 95,
+        "comment": "投票率は嘘をつかない。TXは2018年の記録を越えた",
+        "hidden_dynamics": [
+          "KSの早期投票は2022年比で2倍以上に膨らんだのに、党派構成は共和43.7%/民主40.1%でまだR+3.6。民主だけが湧いたのではなく、Marshallの地盤も同時に動員されている。Siena+5はここを過大評価している可能性が高い。",
+          "TXの早期投票率40.5%は2018年の中間選挙記録超え。これは低頻度のラティーノ層が実際に会場に来ている証拠で、SLFが$48M予約を解除しない理由そのもの。Paxton陣営は内部で「まだ届く」と読んでいる。",
+          "Kalshiの取引量が$1.4B、上下院同時奪取73%。個人投資家マネーは2016・2024で逆を突かれた歴史があるが、これだけの流動性がある以上、上院74%は薄い世論調査ではなく情報価格として扱う価値がある。",
+          "KSで無党派シェアが12.3%→15.6%へ拡大。勝敗を決めるのはこの層で、D+6〜7環境では民主に振れる(KSのEmersonが実証済み)。共和の+3.6はここで相殺されうる。"
+        ],
+        "hypothesis_title": "波は本物、ただし深さは州ごとに不均一",
+        "hypothesis": "「民主の伸びは弱い現職・極端候補への局所的拒否」という枠組みを維持しつつ、今日の投票率データで全国波の要素を強めた。早期投票5,900万超は2022年の5,800万を越し、TX+74%、KS倍増。私の反証条件(2)「TX・KSの投票率が2022年を下回る」は明確に偽となり、波が消える主経路は塞がれた。しかしKSの党派別内訳がR+3.6で残っている事実は、Sienaの7州一括が持つ相関誤差リスクの具体的な兆候だ。よって全国一律の+3pt上振れではなく、州ごとに深さが違う不均一な波だと refined した。反証条件:(1)当日速報の無党派分解で共和が過半、(2)下院が平坦のまま上院だけ反転、(3)KS当日投票分の共和シェアが50%超。",
+        "hypothesis_status": "refined",
+        "change_reason": "KSの早期投票党派構成がR+3.6で残るため0.72→0.66へ下げ、逆に記録的投票率が出たTXを0.75→0.77へ上げた。相殺して期待値はほぼ不変で上院中央値は52を維持し、投票率の上振れを素直に反映して下院を240→242、上院支配確率を75→76%とした。",
+        "analysis": "今日は数字より行動証拠が揃った日だ。APの全国集計で早期投票は5,900万を超え2022年を上回った。特に重要なのはTXの7.7M/40.5%という2018年記録超えで、これは低頻度層が実際に投票所へ来ていることを意味する。高投票率は民主に有利というのが2018年の教訓であり、私の反証条件(2)は完全に偽となった。\n\n一方で警戒材料も得た。IKE LabのKS分解(受理50.6万、D40.1/R43.7/無所属15.6)は、2022年のD37.6/R49.6から共和シェアが6pt落ちたものの、なお共和が+3.6でリードしている。投票率が倍増したのに党派差が詰まり切っていないのは、Marshall側も動員できている証左だ。SienaのKS+5はここを過大評価しているとみて0.66へ下げた。無党派15.6%(前回12.3%)の向きが決め手で、D+6環境なら民主に振れると読む。\n\n州別最終形:NC0.92/MI0.95/OH0.82/ME0.80/TX0.77/KS0.66/AK0.52/IA0.48、流出はMN・NH・GAで0.52。純増+4でE[D]≈52.9、中央値52。相関誤差が最大の敵という昨日の判断は維持で、Sienaが系統的に3pt青ければ51、5pt青ければ50で割れる。これがP=76%の根拠。\n\n下院は242へ。投票率の記録更新が全国環境の実体性を補強したため、AZ-01/06・CO-08・CA-13/45の边际で床をもう一段上げた。ただしKalshiのHouse94%と比べればまだ私は保守的であり、それはME-01(Pingree)型の候補者固有の弱さを残しているからだ。明日へ:(1)当日投票分の無党派分解、(2)下院が動かず上院だけ反転したら候補者固有説へ差し戻し、(3)Osborn(NE)の会派表明——49-49のこの1議席が52と53を分ける。",
+        "key_news": [
+          {
+            "title": "早期投票は5,900万人超で2022年の5,800万を超過。TX+74%、KSは倍増、ME・NC・OHも30%超増",
+            "source": "AP",
+            "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+            "impact": "D+"
+          },
+          {
+            "title": "TXの早期投票は7.7M/投票率40.5%で、2018年が持つ中間選挙の現代記録を上回った",
+            "source": "Texas Tribune",
+            "url": "https://www.texastribune.org/2026-10-31/texas-early-voting-turnout-rate-election-2026/",
+            "impact": "D+"
+          },
+          {
+            "title": "KS早期投票の党派内訳は共和43.7%・民主40.1%・無所属15.3%。受理数は2022年比+30%だが共和がなお先行",
+            "source": "IKE Lab / JustKansas",
+            "url": "https://www.ike-lab.com/evcompare_261103.html",
+            "impact": "neutral"
+          },
+          {
+            "title": "Kalshiの中間選挙取引が$1.4Bに到達。上下院同時奪取73%、上院74%、下院94%が民主",
+            "source": "Fortune / Covers",
+            "url": "https://fortune.com/2026-11-03/kalshis-midterm-trading-1-4-billion-traders-democratic-sweep-congress/",
+            "impact": "D+"
+          }
+        ],
+        "citations": [
+          {
+            "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+            "title": "2026 elections live updates as Americans vote in midterm battle for Senate and House control"
+          },
+          {
+            "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/",
+            "title": "What early voting data tell us about the 2026 midterm elections"
+          },
+          {
+            "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
+            "title": "Midterm elections are coming to a close as voters pass judgment on Trump's second term"
+          },
+          {
+            "url": "https://thehill.com/homenews/campaign/6190426-democrats-lead-senate-polling/",
+            "title": "Democrats are on the brink of a blue tsunami, if the polls are right"
+          },
+          {
+            "url": "https://www.covers.com/politics/most-traded-midterm-election-predictions-markets-election-day-nov-3-2026",
+            "title": "Most Traded Midterm Election Markets at Prediction Sites"
+          },
+          {
+            "url": "https://fortune.com/2026/11/03/kalshis-midterm-trading-1-4-billion-traders-democratic-sweep-congress/",
+            "title": "Kalshi’s midterm trading tops $1.4 billion as traders bet on a Democratic sweep of Congress | Fortune"
+          },
+          {
+            "url": "https://www.independent.co.uk/news/world/americas/us-politics/midterms-betting-odds-democrats-republicans-trump-b3078266.html",
+            "title": "Trump-linked prediction market hits highest odds yet for Democratic midterm sweep | The Independent"
+          },
+          {
+            "url": "https://predictdesks.com/elections/2026",
+            "title": "2026 midterm election odds: Senate, House and governor races (live)"
+          },
+          {
+            "url": "https://www.ike-lab.com/evcompare_261103.html",
+            "title": "IKE Lab - Advance Voting Compared to Past Elections - November 3, 2026"
+          },
+          {
+            "url": "https://justkansas.com/news/kansas-sees-surge-early-voting-voting-balance-shifting-toward-democrats",
+            "title": "Kansas sees a surge in early voting, with voting balance shifting toward Democrats | Kansas News | JustKansas"
+          },
+          {
+            "url": "https://apnews.com/article/election-2026-midterms-voting-early-turnout-44df2c18b387d28022dbb480e99feaba",
+            "title": "Voter turnout is soaring in some key states, AP analysis ..."
+          },
+          {
+            "url": "https://www.texastribune.org/2026/10/31/texas-early-voting-turnout-rate-election-2026/",
+            "title": "Early vote in 2026 Texas election beats 2018 record"
+          }
+        ],
+        "searches": null
+      },
+      "final_status": "final"
+    }
+  ],
+  "final_forecast": {
+    "scheduled_at": "2026-11-04T06:00:00+09:00",
+    "frozen_at": "2026-11-04T06:00:04.410382+09:00",
+    "review_at": "2026-11-05T06:00:00+09:00"
+  }
+}

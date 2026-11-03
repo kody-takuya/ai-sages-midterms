@@ -1856,5 +1856,108 @@
       "completion": 1760,
       "reasoning": 220
     }
+  },
+  {
+    "date": "2026-11-04",
+    "generated_at": "2026-11-04T06:00:04+09:00",
+    "model_id": "openai/gpt-6.1-sol",
+    "senate": {
+      "dem": 50,
+      "rep": 50
+    },
+    "house": {
+      "dem": 233,
+      "rep": 202
+    },
+    "senate_control_prob_dem": 47,
+    "house_control_prob_dem": 86,
+    "comment": "下院は青信号、上院は同点でも赤信号。",
+    "hidden_dynamics": [
+      "上院の民主優勢は、複数州の数字ほどには独立した証拠が多くない。同じシエナ調査に依存した四州奪取の経路は、オハイオ一州の見直しだけで過半数を失う。",
+      "共和党側の「当日投票に来れば勝てる」という訴えは、潜在支持と実際の参加の間に穴があることを示唆する。ただし、その穴が埋まらないと決めつけるのも、期日前票を民主の純増と数えるのも危険だ。",
+      "共和優位地域の下院接戦化は、防衛に必要な資源を広げる可能性がある。ただし、目立つ接戦区の調査だけでは、民主の議席上積みを直接計算できない。"
+    ],
+    "hypothesis_title": "郊外は青、上院の四枚抜きは未達",
+    "hypothesis": "前日の仮説を修正する。郊外の反与党票は下院奪回に十分だが、上院で必要な四州同時奪取には届かないとみる。オハイオの別方式調査がシエナと逆方向で、赤い州の候補個人票を全国的な民主の波と同一視できないためだ。２０１６・２０２４年型の共和支持層の非回答と当日参加は、州横断の共通リスクとして残す。投票方式を調整した地域別参加と独立調査が民主優位で一致すれば、この慎重化を撤回する。",
+    "hypothesis_status": "refined",
+    "change_reason": "民主の現有４７議席維持にノースカロライナ、メーン、テキサスの奪取を加え、オハイオは共和維持に戻して上院を５１から５０へ修正する。下院は郊外優位を覆す独立した証拠がなく２３３を維持し、上院民主支配確率は５８％から４７％へ下げる。",
+    "analysis": "最終判断は「下院の広がりと上院の深さは別物」。３日付の調査集約には、オハイオでエマーソンの共和２点優位、テキサスでリサーチ社の民主３点優位があり、シエナ一系列への依存を弱めると四州奪取の確信は下がる。ただし公表時刻を独立確認できない掲載情報は低く加重し、締切後の更新や開票結果は使わない。民主はミシガン、ジョージア、ニューハンプシャー防衛が前提で、メーンの現職個人票とテキサスの共和地盤も残る。５０対５０なら副大統領の決裁票で共和支配となる。下院２３３は郊外の反与党票を中心に置き、ＭＯ０２やＭＴ０１の接戦情報を追加議席には換算しない。ＩＡ０１・０３、ＰＡ０７・１０、ＮＹ１７、ＡＺ０６の連動した共和上振れが主な下振れ経路。開票検証では赤青の初動でなく、同じ地域・同じ投票方式の過去比を見る。",
+    "key_news": [
+      {
+        "title": "３日付調査集約でオハイオは共和２点優位、テキサスは民主３点優位。掲載時刻未確認のため低加重",
+        "source": "Electoral-vote.com（Emerson College、Research Co.の調査集約）",
+        "url": "https://www.electoral-vote.com/evp2026/Items/Nov03-6.html",
+        "impact": "R+"
+      },
+      {
+        "title": "共和党の当日動員が焦点に。民主の参加意欲優位を報じるが、実際の投票構成とは区別",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/politics/battle-congress-just-beginning-heres-whats-stake-election-day",
+        "impact": "neutral"
+      },
+      {
+        "title": "下院調査一覧にＭＴ０１同率、ＭＯ０２民主１点差。依頼主はPoll Vaultで、党派性は抜粋から確認できず",
+        "source": "The New York Times（Emerson College調査掲載）",
+        "url": "https://www.nytimes.com/interactive/polls/house-polls-2026.html",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+        "title": "NYTimes/Siena Poll of Likely Voters – Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas – Siena Research Institute"
+      },
+      {
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/02/democrats-lead-republicans-senate-battlegrounds-nyt-siena-polls/92560201007/",
+        "title": "Polls: Democrats lead Republicans in Senate battlegrounds"
+      },
+      {
+        "url": "https://www.electoral-vote.com/evp2026/Senate/senate_polls.txt",
+        "title": ""
+      },
+      {
+        "url": "https://www.electoral-vote.com/evp2026/Items/Nov03-6.html",
+        "title": "Electoral-vote.com"
+      },
+      {
+        "url": "https://apnews.com/article/midterm-elections-house-senate-congress-trump-ef6199e25927a9ac9f4c18eae0e497cd",
+        "title": "The Latest: Voters cast their ballots as Republicans hope to hold control of Congress"
+      },
+      {
+        "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
+        "title": "Midterm elections are coming to a close as voters pass judgment on Trump's second term"
+      },
+      {
+        "url": "https://apnews.com/article/midterms-election-day-voting-polls-trump-ba3037eed7bd816cc084bb1c4a2e6ccf",
+        "title": "Election Day unfolds with relatively few problems. Some voters disrupted by weather, machine issues"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/house-polls-2026.html",
+        "title": "House Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.foxnews.com/politics/everything-know-house-senate-control-ballot-measures-2026-election-day-poll-closing",
+        "title": "What's at stake in the 2026 midterm elections for House and Senate | Fox News"
+      },
+      {
+        "url": "https://www.foxnews.com/politics/battle-congress-just-beginning-heres-whats-stake-election-day",
+        "title": "Election Day 2026 polls open with House and Senate control at stake | Fox News"
+      },
+      {
+        "url": "https://www.uspresidentialelectionnews.com/2026/10/the-final-midterm-predictions-are-in-heres-where-they-agree/",
+        "title": "The Final Midterm Predictions Are In. Here's Where They Agree - Election Central"
+      },
+      {
+        "url": "https://www.foxnews.com/live-news/2026-midterm-elections-news-analysis-races-11-3-2026",
+        "title": "Election Day 2026: Top midterm election races to watch, coverage, analysis and more | Live Updates"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0547,
+    "tokens": {
+      "prompt": 9777,
+      "completion": 1734,
+      "reasoning": 355
+    }
   }
 ]

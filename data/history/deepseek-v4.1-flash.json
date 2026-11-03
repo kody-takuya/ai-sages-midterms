@@ -2629,5 +2629,114 @@
       "completion": 4887,
       "reasoning": 3248
     }
+  },
+  {
+    "date": "2026-11-04",
+    "generated_at": "2026-11-04T06:00:04+09:00",
+    "model_id": "deepseek/deepseek-v4.1-flash",
+    "senate": {
+      "dem": 52,
+      "rep": 48
+    },
+    "house": {
+      "dem": 236,
+      "rep": 199
+    },
+    "senate_control_prob_dem": 74,
+    "house_control_prob_dem": 93,
+    "comment": "全市場が「津波」68％——2018年のD+8.6は235議席だった",
+    "hidden_dynamics": [
+      "予測市場（Polymarket76％・Kalshi75〜94％）と各モデルが同一値へ収束しているが、これは独立した情報の確認ではなく相互参照の産物。『群衆の知恵』の一部は、群衆が互いを読んでいるだけだ。",
+      "Sienaの上院7州全勝とCookのミシガンLean D移行が選挙前にエリート・バンドワゴンを形成。これがKS・IAなど実は僅差の州で共和の終盤資金を萎縮させ、世論の実勢以上に上院Dマージンを膨らませて見せる自己成就の恐れ。",
+      "報道が語る『一般票D+8の大波』の裏で、TX/MO/NCの新ゲリマンダーが下院の構造的天井を3〜5議席下げている。大統領選型の全国数値と、区割りで歪んだ議席換算との乖離はほぼ無視されている。"
+    ],
+    "hypothesis_title": "津波は本物、深さは2018年並み",
+    "hypothesis": "核は維持・微修正：今回は2018年型の中間選挙で、トランプ不支持が期日前を押し出し、上院は候補の質でDが激戦を制す。鍵は『波の深さ』だ。2018年は一般票D+8.6で235議席。今回もD+8だが、TX/MO/NCの新ゲリマンダーが構造的にDの天井を3〜5議席下げる。ゆえに市場の『235＋51』津波確率68％は方向として正しくても、中央値は236議席前後が妥当。Siena7州全勝やCookのミシガン移行にはエリート・バンドワゴンの側面もあり、KS・IAの僅差を過大評価しうる。棄却条件は、当日の高齢・白人有権者の上積みが郊外D優位を覆す場合。",
+    "hypothesis_status": "refined",
+    "change_reason": "新材料は方向をDに揃えた（Siena7州全勝、CookのMI Lean D、市場津波68％）が、いずれも『波の天井』を示すものではない。2018年の一般票D+8.6→235議席という錨と新ゲリマンダーの逆風を踏まえ、議席中央値は据え置き。市場確率の小幅上昇を受けP(D上院)のみ72→74に引き上げた。",
+    "analysis": "【上院】現状53R-47D、Dは純増4で51。Siena最終は7州すべてD首位（MI+11、TX+7、ME+6、OH+5、KS+5、AK・IA僅差）、CookはミシガンをLean Dへ。NC・MI・OH・ME・TXの5州中4州で51、AK・KSを足せば52〜53。中央値52、下振れ49、上振れ53。KS+5は赤州での過大標本の疑いが残り額面通りには採らない。P74。【下院】一般票D+8。2018年のD+8.6→235議席が最良の錨で、新ゲリマンダーが3〜5議席の逆風。Cook最終はSolid D183/R158、接戦37区で全取り242が上限。市場の津波（235＋51）68％は方向として妥当だが、『全接戦を取る』計算は波の厚みを最大化したもの。236を中央値に幅228〜241。P93。【持ち越し】①当日の高齢・白人有権者上積みが郊外D優位を覆すか、②KS・IAが標本過大かの検証、③予測市場の相互参照バイアス、④上院49〜53の相関シナリオ管理。",
+    "key_news": [
+      {
+        "title": "最終世論・モデル・市場がそろって『青い津波』を描く——NYT/Sienaは上院激戦7州すべてでD首位（MI+11、TX+7）",
+        "source": "Axios",
+        "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
+        "impact": "D+"
+      },
+      {
+        "title": "Cook最終評：ミシガン開選をToss UpからLean Democratへ変更、上院は7州が誤差範囲内で両党に多数派の道",
+        "source": "Cook Political Report",
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/michigan-moves-final-ratings",
+        "impact": "D+"
+      },
+      {
+        "title": "Kalshiの『ブルー・ツナミ』（下院235＋上院51）が68〜69％へ急騰、『ブルー・ウェーブ』は87％",
+        "source": "Kalshi News",
+        "url": "https://news.kalshi.com/p/democrats-odds-of-a-blue-tsunami-surge-to-68-as-final-midterm-polls-show-momentum",
+        "impact": "D+"
+      },
+      {
+        "title": "予測市場は下院D94％・上院D75〜76％を織り込み、MS Nowモデルは下院中央値240・上院中央値52で77％と算出",
+        "source": "The Block / MS Now",
+        "url": "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
+        "impact": "D+"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
+        "title": "Final polls, models and markets see a \"blue tsunami\""
+      },
+      {
+        "url": "https://www.ms.now/opinion/midterm-polls-house-senate-election",
+        "title": "The final polls are actually better than some Democrats are expecting — with a few caveats"
+      },
+      {
+        "url": "https://yougov.com/en-us/articles/55871-2026-us-congressional-gubernatorial-elections-yougov-state-polling-iowa-texas-michigan-maine-ohio-kansas-nebraska-north-carolina",
+        "title": "2026 U.S. elections: YouGov's final polling for the Senate, the House, and governors' races"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/polls/senate-polls-2026.html",
+        "title": "Senate Polls 2026: See the Latest Midterm Polls - The New York Times"
+      },
+      {
+        "url": "https://www.cookpolitical.com/print/ratings/races/house",
+        "title": "The Cook Political Report: 2026 House Race Ratings"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/michigan-moves-final-ratings",
+        "title": "As Michigan Moves to Lean Democrat, Here Are Our Final Senate Ratings — and What Else We're Watching | Cook Political Report"
+      },
+      {
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/closing-analysis-2026-senate-ratings",
+        "title": "Closing Senate Analysis: The Seven States That Will Decide the Majority | Cook Political Report"
+      },
+      {
+        "url": "https://www.270towin.com/2026-senate-election/cook-political-report-2026-senate",
+        "title": "Cook Political Report 2026 Senate Race Ratings - 270toWin"
+      },
+      {
+        "url": "https://news.kalshi.com/p/democrats-odds-of-a-blue-tsunami-surge-to-68-as-final-midterm-polls-show-momentum",
+        "title": "Democrats' Blue Tsunami odds surge to 68% on Kalshi"
+      },
+      {
+        "url": "https://www.oddschecker.com/us/insight/specials/politics/20261103-blue-wave-odds-2026-will-democrats-win-a-blue-wave-or-blue-tsunami",
+        "title": "Blue Wave Odds 2026: Will Democrats Win a Blue Wave or Tsunami?"
+      },
+      {
+        "url": "https://www.theblock.co/news/regulation/2026-11-03-midterm-election-odds-polymarket-kalshi-democrats-432461",
+        "title": "Prediction markets bet on Democratic sweep of House, Senate in midterm elections"
+      },
+      {
+        "url": "https://predictmarketcap.com/events/will-democrats-hold-235-or-more-seats-in-the-house-after-the-2026-midterms-and-h",
+        "title": "Democrats 235 House 51 Senate 2026 Odds | Kalshi & Polymarket"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0249,
+    "tokens": {
+      "prompt": 17808,
+      "completion": 5104,
+      "reasoning": 3471
+    }
   }
 ]

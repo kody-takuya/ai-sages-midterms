@@ -1499,5 +1499,81 @@
       "completion": 1991,
       "reasoning": 191
     }
+  },
+  {
+    "date": "2026-11-04",
+    "generated_at": "2026-11-04T06:00:04+09:00",
+    "model_id": "anthropic/claude-sonnet-5.5",
+    "senate": {
+      "dem": 51,
+      "rep": 49
+    },
+    "house": {
+      "dem": 237,
+      "rep": 198
+    },
+    "senate_control_prob_dem": 68,
+    "house_control_prob_dem": 93,
+    "comment": "最終モデルは青い津波。2016年の亡霊が最後に出るか",
+    "hidden_dynamics": [
+      "各モデルは過去の世論調査の誤差が約4点だったことを織り込んでいる。それでもD+9なら下院は届く。上院の51議席目は、TXとOHの数点差に依存している。",
+      "民主は期日前投票で優位だが、これは投票時期が前倒しになっただけかもしれない。当日投票に共和の低関与層が集中すれば、差は縮む。"
+    ],
+    "hypothesis_title": "津波予想でも上院は薄氷",
+    "hypothesis": "総合投票はD+9前後で、下院の民主多数はほぼ固い。上院はTX、OH、MEで5点前後のリードがあるが、IAとAKは互角だ。共和の過小評価が2〜3点出ても51議席には届く。ただし1議席を落とすと50-50で、副大統領により共和が支配する。TXとOHの両方で共和が勝つか、下院の民主得票が6点を下回れば仮説を捨てる。",
+    "hypothesis_status": "kept",
+    "change_reason": "最終のモデル(Silver系99%・中央値240、Morris系も上院は優勢)が下院で民主優位を再確認したため、下院を1議席上げた。上院は、共和の過小評価リスクを残して51-49のままにした。",
+    "analysis": "【上院】NYT/Siena最終調査では、民主は調査した7州すべてでリードした。MIは11点、TXは7点、MEは6点、OHは5点、AKは2点、IAは1点だ。民主が51議席に届くには、NC、OH、ME、TXの4州が要る。IAとAKは上積みの扱いになる。モデルは民主の上院制御を77〜81%としているが、過去3回の調査の共和過小評価が再び出れば、制御は五分五分に近づく。私は不確実性を考え、68%とする。【下院】総合投票D+9前後で、不利な区割りを吸収しても237議席前後とみる。調査が過去並みの3.9点ずれても、モデルでは226議席が残る。明日は、開票の早いOH、NC、MEの結果を確認する。",
+    "key_news": [
+      {
+        "title": "最終のNYT/Siena調査で、民主は上院の接戦7州すべてでリード。MIは11点、TXは7点",
+        "source": "Axios",
+        "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
+        "impact": "D+"
+      },
+      {
+        "title": "Morris氏の最終予測では、民主が上下両院を取る確率は約8割。期日前投票も民主が優位",
+        "source": "G. Elliott Morris",
+        "url": "https://www.gelliottmorris.com/p/2026-11-03-election-day-preview",
+        "impact": "D+"
+      },
+      {
+        "title": "最終予測は下院の民主が99%で中央値240議席。調査が3.9点ずれても226議席",
+        "source": "MS NOW",
+        "url": "https://www.ms.now/opinion/midterm-polls-house-senate-election",
+        "impact": "D+"
+      },
+      {
+        "title": "NPR: 上院は「誰にも読めない」。民主は4議席の純増が必要",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
+        "impact": "neutral"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions",
+        "title": "Final polls, models and markets see a \"blue tsunami\""
+      },
+      {
+        "url": "https://www.gelliottmorris.com/p/2026-11-03-election-day-preview",
+        "title": "FINAL forecast: a blue wave, or a blue tsunami?"
+      },
+      {
+        "url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
+        "title": "Election Day 2026: What to know as polls open : NPR"
+      },
+      {
+        "url": "https://www.ms.now/opinion/midterm-polls-house-senate-election",
+        "title": "The final polls are actually better than some Democrats are expecting — with a few caveats"
+      }
+    ],
+    "searches": null,
+    "cost_usd": 0.0363,
+    "tokens": {
+      "prompt": 11131,
+      "completion": 1332,
+      "reasoning": 0
+    }
   }
 ]
