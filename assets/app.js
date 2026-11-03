@@ -74,7 +74,7 @@
       : days >= -1 ? `🗳️ 投票日！ 開票を待て` : `投票日（11/3）は終了しました`;
     if (DATA.final_forecast) {
       $("#countdown").textContent = "🔒 最終予測を保存済み";
-      $("#schedule").textContent = "11/4 6:00 JST の最終予測を固定。振り返りは 11/5 6:00 JST に開始し、完了後に下部へ追記します。";
+      $("#schedule").textContent = "11/4 6:00 JST の最終予測を固定。速報振り返りは 11/4 18:00、確定振り返り（反省文）は 11/7 6:00 JST から下部に掲載します。";
     }
     const u = new Date(DATA.updated_at);
     if (!isNaN(u)) {
@@ -82,35 +82,60 @@
     }
   }
 
+  const jstTime = (iso) => {
+    const t = new Date(iso);
+    return isNaN(t) ? esc(iso) : `${t.toLocaleString("ja-JP", { timeZone: "Asia/Tokyo", month: "numeric", day: "numeric", hour: "numeric", minute: "2-digit" })} JST`;
+  };
+
+  function reviewCard(m, r) {
+    if (!r) return `<article class="note"><h3>${esc(m.name)}</h3><p>振り返り待ち（未取得）</p></article>`;
+    const counts = ["senate", "house"].map((ch) => {
+      const n = r.results[ch];
+      const v = VERDICT_JA[r.scorecard?.[ch]?.verdict];
+      const badge = v ? ` <span class="verdict-badge ${r.scorecard[ch].verdict}">${v}</span>` : "";
+      const fc = r.scorecard?.[ch] ? `（予測 D${esc(r.scorecard[ch].forecast_dem)}）` : "";
+      return `<p>${CHAMBER_JA[ch]}${badge}：民主 ${esc(n.dem)}・共和 ${esc(n.rep)}・その他 ${esc(n.other)}・未確定 ${esc(n.uncalled)}${fc}</p>`;
+    }).join("");
+    const missed = Object.values(r.scorecard || {}).some((c) => c.verdict === "miss");
+    const sources = (r.sources || []).map((src) => safeUrl(src.url)
+      ? `<li><a href="${esc(src.url)}" target="_blank" rel="noopener noreferrer">${esc(src.title)}</a></li>` : "").join("");
+    const tail = r.stage === "interim"
+      ? `${r.outlook ? `<h3>勝負を分ける未確定区</h3><p>${esc(r.outlook)}</p>` : ""}`
+      : `${r.reflection ? `<h3>${missed ? "反省文" : "的中の理由と運"}</h3><p class="${missed ? "reflection" : ""}">${esc(r.reflection)}</p>` : ""}
+        ${r.lessons ? `<h3>今回の教訓</h3><p>${esc(r.lessons)}</p>` : ""}`;
+    return `<article class="note" style="--c:var(${SAGES[m.slug].color})">
+      <h3>${esc(m.name)}</h3><p><strong>${esc(r.comment)}</strong></p>
+      <p class="src">結果の基準時刻：${jstTime(r.results_as_of)}</p>${counts}
+      <p>${esc(r.analysis)}</p>
+      ${tail}
+      <h3>結果の出典</h3><ul>${sources}</ul></article>`;
+  }
+
   function renderRetrospective() {
     const section = $("#retrospective");
-    if (!DATA.final_forecast && !DATA.retrospective) { section.hidden = true; return; }
+    const final = DATA.retrospective?.models || [];
+    const interim = DATA.interim_retrospective?.models || [];
+    if (!DATA.final_forecast && !final.length && !interim.length) { section.hidden = true; return; }
     section.hidden = false;
-    const reviews = DATA.retrospective?.models || [];
-    $("#review-status").textContent = reviews.length
-      ? "11/5 6:00 JST 時点の報道結果に基づく振り返りです。未確定議席を含み、最終確定結果とは限りません。上の予測・考察・グラフは保存時のままです。"
-      : "11/5 6:00 JST に振り返りを開始します。予測のスナップショットはそのまま保持します。";
-    $("#review-models").innerHTML = DATA.models.map((m) => {
-      const r = reviews.find((entry) => entry.slug === m.slug);
-      if (!r) return `<article class="note"><h3>${esc(m.name)}</h3><p>振り返り待ち（未取得）</p></article>`;
-      const counts = ["senate", "house"].map((ch) => {
-        const n = r.results[ch];
-        const v = VERDICT_JA[r.scorecard?.[ch]?.verdict];
-        const badge = v ? ` <span class="verdict-badge ${r.scorecard[ch].verdict}">${v}</span>` : "";
-        const fc = r.scorecard?.[ch] ? `（予測 D${esc(r.scorecard[ch].forecast_dem)}）` : "";
-        return `<p>${CHAMBER_JA[ch]}${badge}：民主 ${esc(n.dem)}・共和 ${esc(n.rep)}・その他 ${esc(n.other)}・未確定 ${esc(n.uncalled)}${fc}</p>`;
-      }).join("");
-      const missed = Object.values(r.scorecard || {}).some((c) => c.verdict === "miss");
-      const sources = r.sources.map((src) => safeUrl(src.url)
-        ? `<li><a href="${esc(src.url)}" target="_blank" rel="noopener noreferrer">${esc(src.title)}</a></li>` : "").join("");
-      return `<article class="note" style="--c:var(${SAGES[m.slug].color})">
-        <h3>${esc(m.name)}</h3><p><strong>${esc(r.comment)}</strong></p>
-        <p class="src">結果の基準時刻：${esc(r.results_as_of)}</p>${counts}
-        <p>${esc(r.analysis)}</p>
-        ${r.reflection ? `<h3>${missed ? "反省文" : "的中の理由と運"}</h3><p class="${missed ? "reflection" : ""}">${esc(r.reflection)}</p>` : ""}
-        <h3>今回の教訓</h3><p>${esc(r.lessons)}</p>
-        <h3>結果の出典</h3><ul>${sources}</ul></article>`;
-    }).join("");
+    const cards = (reviews) => DATA.models.map((m) => reviewCard(m, reviews.find((r) => r.slug === m.slug))).join("");
+    const block = $("#interim-block");
+    if (final.length) {
+      $("#review-title").textContent = "確定振り返り・反省文";
+      $("#review-status").textContent = "開票がほぼ落ち着いた時点の結果と、各モデル自身の最終予測を比べた振り返りです。外れたモデルは反省文を書いています。未確定議席は判定していません。";
+      $("#review-models").innerHTML = cards(final);
+      block.hidden = !interim.length;
+      $("#interim-models").innerHTML = interim.length ? cards(interim) : "";
+    } else if (interim.length) {
+      $("#review-title").textContent = "速報振り返り（開票途中）";
+      $("#review-status").textContent = "開票途中の結果に基づく暫定の振り返りです。未確定の議席が多く、的中・外れの判定や反省文は 11/7 6:00 JST の確定振り返りで行います。";
+      $("#review-models").innerHTML = cards(interim);
+      block.hidden = true;
+    } else {
+      $("#review-title").textContent = "振り返り";
+      $("#review-status").textContent = "11/4 18:00 JST に開票途中の速報振り返り、11/7 6:00 JST に確定振り返り（外れたモデルは反省文）を掲載します。";
+      $("#review-models").innerHTML = "";
+      block.hidden = true;
+    }
   }
 
   function renderVerdict(ch, el) {
@@ -243,10 +268,15 @@ ${esc(l.hypothesis)}</p>` : ""}
     parts.push(`<text class="tick" x="${M.l + pw - 4}" y="${yMaj - 5}" text-anchor="end">過半数 ${maj}〜</text>`);
 
     const maxTicks = narrow ? 4 : 7, every = Math.max(1, Math.ceil(dates.length / maxTicks));
-    dates.forEach((d, i) => {
-      if (i % every === 0 || i === dates.length - 1) {
-        parts.push(`<text class="tick" x="${x(i)}" y="${H - 6}" text-anchor="middle">${md(d)}</text>`);
-      }
+    const ticks = dates.map((_, i) => i).filter((i) => i % every === 0);
+    const last = dates.length - 1;
+    if (ticks[ticks.length - 1] !== last) {
+      // Always label the latest day; drop the regular tick before it if the two labels would collide.
+      if (last - ticks[ticks.length - 1] < every * 0.6) ticks.pop();
+      ticks.push(last);
+    }
+    ticks.forEach((i) => {
+      parts.push(`<text class="tick" x="${x(i)}" y="${H - 6}" text-anchor="middle">${md(dates[i])}</text>`);
     });
 
     const ends = [];

@@ -232,3 +232,6 @@ footer p { margin: 4px 0; }
 .verdict-badge.pending { color: var(--muted); }
 .note p.reflection { border-left: 3px solid var(--rep); padding-left: 10px; }
 #review-models .note > h3:first-child { font-size: 16px; color: var(--c, var(--ink)); margin-top: 14px; }
+#interim-block { margin-top: 16px; }
+#interim-block > summary { cursor: pointer; font-weight: 800; color: var(--ink-2); padding: 8px 0; }
+#interim-models .note > h3:first-child { font-size: 16px; color: var(--c, var(--ink)); margin-top: 14px; }

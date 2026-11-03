@@ -6,6 +6,8 @@ New-Item -ItemType Directory -Force "$Root\logs" | Out-Null
 $Log = "$Root\logs\run_$(Get-Date -Format yyyyMMdd_HHmm).log"
 $Python = "C:\Users\takuy\AppData\Local\Programs\Python\Python313\python.exe"
 $env:PYTHONIOENCODING = "utf-8"
+# Decode native output as UTF-8 so Japanese text in the log is not garbled (no console when run hidden).
+try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 } catch { }
 function Write-Log([string]$Text) { $Text | Out-File $Log -Append -Encoding utf8 }
 function Invoke-Logged([string]$CommandLine) {
     cmd /c "$CommandLine 2>&1" | Out-File $Log -Append -Encoding utf8

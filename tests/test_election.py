@@ -17,7 +17,8 @@ class ElectionTests(unittest.TestCase):
         self.tmp = tempfile.TemporaryDirectory()
         root = Path(self.tmp.name)
         self.paths = patch.multiple(p, HISTORY_DIR=root/'history', SITE_DATA=root/'predictions.json',
-                                   FINAL_FILE=root/'final.json', REVIEW_FILE=root/'review.json')
+                                   FINAL_FILE=root/'final.json', REVIEW_FILE=root/'review.json',
+                                   INTERIM_FILE=root/'interim.json')
         self.paths.start()
         self.addCleanup(self.paths.stop)
         self.addCleanup(self.tmp.cleanup)
@@ -61,7 +62,9 @@ class ElectionTests(unittest.TestCase):
     def test_phase_boundaries_and_utc(self):
         self.assertEqual(p.phase(p.FINAL_AT-dt.timedelta(seconds=1)), 'daily')
         self.assertEqual(p.phase(p.FINAL_AT), 'final')
-        self.assertEqual(p.phase(p.REVIEW_AT-dt.timedelta(seconds=1)), 'final')
+        self.assertEqual(p.phase(p.INTERIM_AT-dt.timedelta(seconds=1)), 'final')
+        self.assertEqual(p.phase(p.INTERIM_AT), 'interim')
+        self.assertEqual(p.phase(p.REVIEW_AT-dt.timedelta(seconds=1)), 'interim')
         self.assertEqual(p.phase(p.REVIEW_AT.astimezone(dt.timezone.utc)), 'review')
 
     def test_snapshot_and_site_rebuild_are_immutable(self):
@@ -174,5 +177,45 @@ class ElectionTests(unittest.TestCase):
             out = p.run_review(p.MODELS[0], self.entry, 'key', p.REVIEW_AT, 'low')
         self.assertEqual(call.call_count, 1)
         self.assertEqual({c['verdict'] for c in out['scorecard'].values()}, {'hit'})
+
+    def interim_reply(self, **extra):
+        return dict(comment='c', analysis='a', outlook='o', results_as_of=p.INTERIM_AT.isoformat(),
+                    sources=[{'title': 'AP', 'url': 'https://apnews.com/'}],
+                    results={'senate': {'dem': 40, 'rep': 45, 'other': 0, 'uncalled': 15},
+                             'house': {'dem': 150, 'rep': 160, 'other': 0, 'uncalled': 125}}, **extra)
+
+    def test_interim_needs_outlook_not_reflection(self):
+        p.validate_review(self.interim_reply(), 'interim')
+        with self.assertRaises(ValueError): p.validate_review(self.interim_reply(), 'review')
+        bad = self.interim_reply(); del bad['outlook']
+        with self.assertRaises(ValueError): p.validate_review(bad, 'interim')
+        reply = {'choices': [{'message': {'content': json.dumps(self.interim_reply())}}]}
+        with patch.object(p, 'call_openrouter', return_value=reply) as call:
+            out = p.run_review(p.MODELS[0], self.entry, 'key', p.INTERIM_AT, 'low', 'interim')
+        self.assertEqual(call.call_count, 1)
+        self.assertEqual(out['stage'], 'interim')
+        self.assertNotIn('反省文 in Japanese', call.call_args.args[1]['messages'][0]['content'])
+
+    def test_interim_phase_writes_interim_file_then_final_review_gets_own_notes(self):
+        p.freeze_forecasts(p.FINAL_AT)
+        seen = {}
+        def interim(model, forecast, key, now, effort, stage, notes):
+            self.assertEqual((stage, notes), ('interim', None))
+            return {**self.interim_reply(), 'stage': stage, 'slug': model['slug']}
+        with patch.object(p, 'load_key', return_value='test'), patch.object(p, 'run_review', side_effect=interim):
+            self.assertEqual(self.run_main_at(p.INTERIM_AT), 0)
+        self.assertTrue(p.INTERIM_FILE.exists())
+        self.assertFalse(p.REVIEW_FILE.exists())
+        with patch.object(p, 'load_key', side_effect=AssertionError('interim already done')):
+            self.assertEqual(self.run_main_at(p.INTERIM_AT + dt.timedelta(hours=13)), 0)
+        def final(model, forecast, key, now, effort, stage, notes):
+            seen[model['slug']] = (stage, notes['slug'])
+            return {'slug': model['slug'], 'stage': stage}
+        with patch.object(p, 'load_key', return_value='test'), patch.object(p, 'run_review', side_effect=final):
+            self.assertEqual(self.run_main_at(p.REVIEW_AT), 0)
+        self.assertEqual(seen, {m['slug']: ('review', m['slug']) for m in p.MODELS})
+        site = json.loads(p.SITE_DATA.read_text())
+        self.assertEqual(len(site['interim_retrospective']['models']), 5)
+        self.assertEqual(len(site['retrospective']['models']), 5)
 
 if __name__ == '__main__': unittest.main()
