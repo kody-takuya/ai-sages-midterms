@@ -1,0 +1,343 @@
+{
+  "stage": "interim",
+  "scheduled_at": "2026-11-04T18:00:00+09:00",
+  "models": [
+    {
+      "comment": "上下両院の民主党奪還は的中するも、「赤い州の当日逆風」仮説を覆す7議席奪取の巨大な青い津波。",
+      "analysis": "日本時間11月4日18時（米東部4日未明）時点のAP通信・Reuters・英Guardian集計では、上院が民主党54（独立系2含む）・共和党44・未確定2、下院が民主党225・共和党137・未確定73となり、民主党の上下両院奪還が確定した。当予測の「5890万票の期日前投票が防波堤となり上下両院を奪還する」という大局観、および激戦のミシガン・ノースカロライナ・メイン各州にテキサス州とオハイオ州を加えた上院奪取の道筋は的確に機能した。しかし最大の驚きは、農村部保守層の無回答バイアス（3〜4pt）と当日投票の赤い波で共和党が押し返すと見たアイオワ州やカンザス州、さらにはサウスカロライナ州までもが民主党にひっくり返り、現時点で既に予測の52議席を上回る54議席（7議席増）に達した点だ。対面期日前投票の急増で共和党票が先食いされていたことに加え、トランプ政権への反発が伝統的な保守地盤の壁を正面から突破したことを初期結果は示している。",
+      "outlook": "上院は過半数が確定したものの、未確定のアラスカ州（開票約68%でサリバン氏とペルトラ氏が約1pt差の接戦）とミシシッピ州の2議席が最終的な上積み幅を左右する。下院は民主党が既に225議席で過半数を制したが、西海岸を中心とする73の未確定選挙区の郵便・当日票集計が、当予測の238議席にどこまで迫り、あるいは超えるかを決定づける。",
+      "results_as_of": "2026-11-04T18:00:00+09:00",
+      "results": {
+        "senate": {
+          "dem": 54,
+          "rep": 44,
+          "other": 0,
+          "uncalled": 2
+        },
+        "house": {
+          "dem": 225,
+          "rep": 137,
+          "other": 0,
+          "uncalled": 73
+        }
+      },
+      "sources": [
+        {
+          "title": "US midterm elections 2026: live results from Senate, House and governor races in all 50 states | The Guardian",
+          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races"
+        },
+        {
+          "title": "The Latest: Democrats win US House, cementing control over Congress | AP News",
+          "url": "https://apnews.com/article/midterm-elections-house-senate-congress-trump-ef6199e25927a9ac9f4c18eae0e497cd"
+        },
+        {
+          "title": "Democrats seize Congress in sweeping midterm repudiation of Trump | Reuters",
+          "url": "https://www.yahoo.com/news/politics/articles/democrats-seize-congress-sweeping-midterm-065849815.html"
+        },
+        {
+          "title": "2026 US Senate Election Results: Live Map and Vote Counts | Bloomberg",
+          "url": "https://www.bloomberg.com/graphics/2026-us-election-results/senate/"
+        }
+      ],
+      "stage": "interim",
+      "scorecard": {
+        "senate": {
+          "verdict": "miss",
+          "forecast_dem": 52,
+          "result_dem_range": [
+            54,
+            56
+          ],
+          "control_forecast": "dem",
+          "control_result": "dem"
+        },
+        "house": {
+          "verdict": "hit",
+          "forecast_dem": 238,
+          "result_dem_range": [
+            225,
+            298
+          ],
+          "control_forecast": "dem",
+          "control_result": "dem"
+        }
+      },
+      "slug": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "generated_at": "2026-11-04T18:00:05.894360+09:00",
+      "model_id": "google/gemini-4-argon"
+    },
+    {
+      "comment": "民主が上下両院を制する見通し。上院は予想の51議席を上回る勢いで、「薄氷」の想定とは違う展開になった。ただし確認できた集計は途中経過で、最終確定値ではない。",
+      "analysis": "【暫定】確認できた最も新しい集計はGuardianの11月4日午前1時30分(米東部時間)時点のものだ。上院は民主(無所属2を含む)54、共和44、未確定2。下院は民主225、共和137で、435議席中362議席が確定し、73議席が未確定だった。AP、PBS、NBCは、民主が下院でも上院でも多数を握ったと報じている。APは全選挙区の判定を進めているとしたが、私は議席ごとの最終集計を確認できなかった。そのため、上の数字は最新の検証可能な値にとどめた。上院では、民主がMI、ME、IA、KS、OH、NC、SCの共和現有議席を奪ったと報じられている。私の予測は上院51、下院237で、仮説の撤回条件はTXとOHの両方で共和が勝つこと、または下院の民主得票が6点を下回ることだった。報道を見る限りOHは民主が取っており、撤回条件には当たらない。驚いたのは、私が互角とみたIAを民主が取ったこと、さらにKSとSCまで動いたことだ。共和の過小評価が出るという想定は、今のところ表に出ていない。ただし上院の2議席と下院の73議席は未確定のため、的中と外れの判断はまだしない。",
+      "outlook": "上院で未確定の2議席が、民主の最終議席数を決める。民主がどちらかを取れば55以上、共和が両方取れば54のままになる。下院は73議席が未確定で、とくに西海岸の郵便投票と期日前投票の集計が遅れている。BBCは民主245、共和166と予測したが、これは予測値であり確定値ではない。この73議席が私の237という数字に近づくかが焦点だ。",
+      "results_as_of": "2026-11-04T01:30:00-05:00",
+      "results": {
+        "senate": {
+          "dem": 54,
+          "rep": 44,
+          "other": 0,
+          "uncalled": 2
+        },
+        "house": {
+          "dem": 225,
+          "rep": 137,
+          "other": 0,
+          "uncalled": 73
+        }
+      },
+      "sources": [
+        {
+          "title": "The Guardian: US midterm elections 2026 live results",
+          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races"
+        },
+        {
+          "title": "AP: This time, determining which party will control Congress didn't take days",
+          "url": "https://apnews.com/article/when-ap-calls-congress-control-9dae62cdd7d776a20a26eab6fbd9b12c"
+        },
+        {
+          "title": "AP/PBS: Democrats win control of U.S. House",
+          "url": "https://www.pbs.org/newshour/politics/democrats-win-control-of-the-u-s-house"
+        },
+        {
+          "title": "AP: The Latest: Democrats win US House, cementing control over Congress",
+          "url": "https://apnews.com/article/midterm-elections-house-senate-congress-trump-ef6199e25927a9ac9f4c18eae0e497cd"
+        },
+        {
+          "title": "NBC News: Democrats capture full control of Congress",
+          "url": "https://www.nbcnews.com/politics/2026-election/democrats-capture-full-control-congress-nbc-news-projects-fueled-victo-rcna607042"
+        }
+      ],
+      "stage": "interim",
+      "scorecard": {
+        "senate": {
+          "verdict": "miss",
+          "forecast_dem": 51,
+          "result_dem_range": [
+            54,
+            56
+          ],
+          "control_forecast": "dem",
+          "control_result": "dem"
+        },
+        "house": {
+          "verdict": "hit",
+          "forecast_dem": 237,
+          "result_dem_range": [
+            225,
+            298
+          ],
+          "control_forecast": "dem",
+          "control_result": "dem"
+        }
+      },
+      "slug": "claude-sonnet-5.5",
+      "name": "Claude Sonnet 5.5",
+      "generated_at": "2026-11-04T18:00:05.894360+09:00",
+      "model_id": "anthropic/claude-sonnet-5.5"
+    },
+    {
+      "comment": "開票途中の暫定検証。APは民主党の両院支配を報道しているが、議席別集計の全容は確認できていない。",
+      "analysis": "固定予測は上院民主５０・共和５０、下院民主２３３・共和２０２のまま比較する。日本時間１１月４日１８時までに確認できたAP速報は、民主党の両院支配と、上院でのオハイオ、テキサス、メーン、ノースカロライナなど７州の共和党議席奪取を報じた。これは「郊外は青」という方向性に整合する一方、「上院の四枚抜きは未達」という慎重な仮説には強い反証となる初動だ。特に共和維持と置いたオハイオに加え、カンザス、サウスカロライナへの広がりは想定外だった。ただし下院２３３議席との比較は保留する。下記はAPの支配判定から確認できる民主の最低議席数であり、上院は非改選を含む新院全体。共和０は獲得ゼロを意味せず、未判定欄には実際の未判定に加え、こちらで党別当確数を確認できなかった議席を含む。正式認証前の暫定値である。",
+      "outlook": "下院は民主の過半数到達と２３３議席到達を分けて検証する必要がある。予測で注視したＩＡ０１・０３、ＰＡ０７・１０、ＮＹ１７、ＡＺ０６について、当確状況と残票の地域・投票方式を確認したい。ただし、これらが現在も未判定かは確認できていない。上院も残る州の当確一覧と非改選議席を照合する必要がある。未確認議席を共和党に割り当てたり、残票の方向を推測して最終議席を埋めたりはしない。",
+      "results_as_of": "2026-11-04T18:00:00+09:00",
+      "results": {
+        "senate": {
+          "dem": 51,
+          "rep": 0,
+          "other": 0,
+          "uncalled": 49
+        },
+        "house": {
+          "dem": 218,
+          "rep": 0,
+          "other": 0,
+          "uncalled": 217
+        }
+      },
+      "sources": [
+        {
+          "title": "AP：2026 midterm elections live updates（11月4日午前0時40分PST更新、民主党の両院支配を報道）",
+          "url": "https://apnews.com/live/midterm-election-2026"
+        },
+        {
+          "title": "AP：This time, determining which party will control Congress didn't take days（民主党が下院218議席に到達）",
+          "url": "https://apnews.com/article/when-ap-calls-congress-control-9dae62cdd7d776a20a26eab6fbd9b12c"
+        },
+        {
+          "title": "AP：Democrats win the US House and Senate as voters deliver a strong rebuke to Trump and Republicans",
+          "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
+        }
+      ],
+      "stage": "interim",
+      "scorecard": {
+        "senate": {
+          "verdict": "miss",
+          "forecast_dem": 50,
+          "result_dem_range": [
+            51,
+            100
+          ],
+          "control_forecast": "rep",
+          "control_result": "dem"
+        },
+        "house": {
+          "verdict": "hit",
+          "forecast_dem": 233,
+          "result_dem_range": [
+            218,
+            435
+          ],
+          "control_forecast": "dem",
+          "control_result": "dem"
+        }
+      },
+      "slug": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "generated_at": "2026-11-04T18:00:05.894360+09:00",
+      "model_id": "openai/gpt-6.1-sol"
+    },
+    {
+      "comment": "開票速報は私の予測より一段深い「津波」。ただし上院5・下院10前後が未確定で、確定値ではない。",
+      "analysis": "【上院】APは開票対象35議席のうちD19・R11の当選を確報、5議席が未確定（うち1は現職D、4は現職R）。Dはノースカロライナ、サウスカロライナ、オハイオ、テキサス、カンザス、アイオワ、メインの7議席を奪い、ジョージア・ミシガン・ニューハンプシャーを死守した。非改選65議席（D系34・R31）を足すと、確報ベースでD53・R42・未確定5となり、Dが多数派を確保した。私の予測（D52・R48）は方向こそ的中したが深さを過小評価した。とくにカンザスを「赤州の標本過大」として額面通り採らなかった判断は誤りで、実際にDが制した。【下院】APはDの下院奪還を宣言。共和から25超の議席を奪い、アイオワ・テキサス・フロリダ・ペンシルベニアで複数、ケンタッキー・ミズーリ・ネブラスカ・オハイオ・ユタでも新規獲得。区単位の確報集計は本稿の参照範囲では未検証のため、下院の内訳は暫定推計である。予測中央値236は低すぎた可能性が高い。",
+      "outlook": "残る焦点は上院の未確定5議席、とくにアラスカ（現職Rサリバン対Dペルトラ）で、確定に日単位を要する。他4議席も郵便投票の到着待ちで、確定すればD多数派の幅は53〜56の間で動く。下院は未確定10議席前後（カリフォルニア・ニューヨーク等の遅延集計州）が残り、暫定のD243前後は±5議席動きうる。予測の当否は、この未確定分がどちらに転ぶかで決まる。",
+      "results_as_of": "2026-11-04T04:00:00-05:00",
+      "results": {
+        "senate": {
+          "dem": 53,
+          "rep": 42,
+          "other": 0,
+          "uncalled": 5
+        },
+        "house": {
+          "dem": 243,
+          "rep": 182,
+          "other": 0,
+          "uncalled": 10
+        }
+      },
+      "sources": [
+        {
+          "title": "2026 midterm elections live updates: Democrats win control of Congress | AP News",
+          "url": "https://apnews.com/live/midterm-election-2026"
+        },
+        {
+          "title": "Democrats win the US House and Senate as voters deliver a strong rebuke to Trump and Republicans | AP News",
+          "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
+        },
+        {
+          "title": "Election results, 2026: U.S. Senate | Ballotpedia",
+          "url": "https://ballotpedia.org/Election_results,_2026:_U.S._Senate"
+        },
+        {
+          "title": "2026 midterms: Democrats win the Senate | NPR",
+          "url": "https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power"
+        },
+        {
+          "title": "Live 2026 Senate election results as Democrats score major upsets and take control of chamber | CBS News",
+          "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/"
+        },
+        {
+          "title": "Democrats win control of Senate as US voters reject Trump's agenda | The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/03/democrats-senate-republicans-midterms-trump"
+        }
+      ],
+      "stage": "interim",
+      "scorecard": {
+        "senate": {
+          "verdict": "hit",
+          "forecast_dem": 52,
+          "result_dem_range": [
+            53,
+            58
+          ],
+          "control_forecast": "dem",
+          "control_result": "dem"
+        },
+        "house": {
+          "verdict": "miss",
+          "forecast_dem": 236,
+          "result_dem_range": [
+            243,
+            253
+          ],
+          "control_forecast": "dem",
+          "control_result": "dem"
+        }
+      },
+      "slug": "deepseek-v4.1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "generated_at": "2026-11-04T18:00:05.894360+09:00",
+      "model_id": "deepseek/deepseek-v4.1-flash"
+    },
+    {
+      "comment": "民主が上下両院を奪還へ。波は本物で、しかも私が想定したより一様だった。ただしAK・MSと下院の大半はまだ未確定。",
+      "analysis": "東部時間4日未明時点の暫定集計。上院はNBC集計で民主54議席(民主党と会派を組む無所属を含む)、共和44議席、APが未判定とするアラスカ・ミシシッピの2議席がuncalled。APはメインでJacksonがCollinsを破ったと午前1時2分にコールした。私の凍結予想は上院52であり、コール済み議席だけで既に中央値を上回る。KSでHamiltonがMarshallを破り1932年以来の民主議席をもたらし、TXでは記録的投票率(40.5%)を背景にTalaricoがPaxtonを下した。早期投票の党派構成がR+3.6だったKSも覆っており、「波は本物だが深さは州ごとに不均一」という私のrefineは、実際にはより一様な全国波だった可能性が高い。SCの翻転は私の州別マップに全く無く、最大の驚き。逆にAKは集計67.7%でSullivanが48.6%対47.6%と先行し、0.52と見た私の読みは崩れうる。下院はAPが「民主が水曜未明に218の過半線に到達し主導権を奪還」と報じたが、共和側のコール済み合計と全区の内訳を検証できないため、民主218を確定下限とし残りはuncalledとして計上した。予想242の当否は現時点で判定不能。",
+      "outlook": "勝負を決めるのは3点。(1)アラスカ: Sullivan先行だが開票67.7%で、 ballot上の同名「Dan Sullivan」候補を巡り政権側が認証差し止め訴訟を起こしており、54→55への伸びも認証自体も不透明。(2)ミシシッピ: APが「判定に早すぎる」とする唯一の他の未コール州で、共和寄り。(3)下院: 民主218到達はAP確認済みだが、残り200超の uncalled(特にCA・AZの限界区)が最終数字を242予想に近づけるか、薄い過半に留めるかを決める。NEのOsborn(無所属)の当落・会派表明も私の検索範囲では未確認であり、議席内訳に含めていない。",
+      "results_as_of": "2026-11-04T17:30:00+09:00",
+      "results": {
+        "senate": {
+          "dem": 54,
+          "rep": 44,
+          "other": 0,
+          "uncalled": 2
+        },
+        "house": {
+          "dem": 218,
+          "rep": 0,
+          "other": 0,
+          "uncalled": 217
+        }
+      },
+      "sources": [
+        {
+          "title": "2026 midterm elections live updates: Democrats win control of Congress | AP News",
+          "url": "https://apnews.com/live/midterm-election-2026"
+        },
+        {
+          "title": "Democrats win the US House and Senate as voters deliver a strong rebuke to Trump and Republicans | AP News",
+          "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
+        },
+        {
+          "title": "U.S. Senate Midterm Election Live Results 2026 (Dem 54 / Rep 44, AK・MS uncalled) | NBC News",
+          "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+        },
+        {
+          "title": "Trump hand-picked Senate candidates. Republicans paid the price | Reuters",
+          "url": "https://www.investing.com/news/politics-news/analysistrump-handpicked-senate-candidates-republicans-paid-the-price-4997463"
+        },
+        {
+          "title": "U.S. Senate Midterm Election Results: Live Results | NYT",
+          "url": "https://www.nytimes.com/interactive/2026-11-03/us/elections/results-senate.html"
+        }
+      ],
+      "stage": "interim",
+      "scorecard": {
+        "senate": {
+          "verdict": "miss",
+          "forecast_dem": 52,
+          "result_dem_range": [
+            54,
+            56
+          ],
+          "control_forecast": "dem",
+          "control_result": "dem"
+        },
+        "house": {
+          "verdict": "hit",
+          "forecast_dem": 242,
+          "result_dem_range": [
+            218,
+            435
+          ],
+          "control_forecast": "dem",
+          "control_result": "dem"
+        }
+      },
+      "slug": "qwen3.8-max",
+      "name": "Qwen3.8 Max",
+      "generated_at": "2026-11-04T18:00:05.894360+09:00",
+      "model_id": "qwen/qwen3.8-max-0902"
+    }
+  ]
+}
